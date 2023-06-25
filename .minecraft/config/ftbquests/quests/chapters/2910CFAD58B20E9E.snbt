@@ -1,0 +1,219 @@
+{
+	id: "2910CFAD58B20E9E"
+	group: ""
+	order_index: 3
+	filename: "2910CFAD58B20E9E"
+	title: "НЕ Алхимия"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -1.0d
+		width: 1.0d
+		height: 1.0d
+		rotation: 0.0d
+		image: "minecolonies:textures/icons/warning.png"
+		hover: ["Страница мода \"Alchemistry\""]
+		click: "https://www.curseforge.com/minecraft/mc-mods/alchemistry"
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -1.5d
+			y: 2.0d
+			subtitle: "Превратите жидкости в атомы!"
+			description: ["Зачем использовать бутылки и ведра, если можно использовать современные ампулы?"]
+			dependencies: ["33133F6F1612B7BF"]
+			id: "4A212D7C2FE3E8D0"
+			tasks: [{
+				id: "51F1A23D5B49E89A"
+				type: "item"
+				item: "alchemistry:atomizer"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			subtitle: "Ужимает элементы под давлением"
+			description: ["Большая часть элементов способна уместится в виде порошкообразной смеси"]
+			dependencies: ["0DFB3CB8C84B9E90"]
+			dependency_requirement: "one_completed"
+			id: "6E2A2C70455B5C71"
+			tasks: [{
+				id: "0373111285C9433E"
+				type: "item"
+				item: "alchemistry:compactor"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			subtitle: "Собирает новые предметы из элементов, всё просто!"
+			dependencies: ["0DFB3CB8C84B9E90"]
+			dependency_requirement: "one_completed"
+			id: "7ED8D7DA8E0ED1EF"
+			tasks: [{
+				id: "67BC67383038DA22"
+				type: "item"
+				item: "alchemistry:combiner"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			shape: "rsquare"
+			subtitle: "Разберите все вокруг себя на необработанные элементы!"
+			dependencies: ["33133F6F1612B7BF"]
+			id: "0DFB3CB8C84B9E90"
+			tasks: [{
+				id: "1DD395AAC928EDAB"
+				type: "item"
+				item: "alchemistry:dissolver"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			subtitle: "Превратите ваши новые соединения обратно в жидкости!"
+			dependencies: [
+				"0DFB3CB8C84B9E90"
+				"4A212D7C2FE3E8D0"
+			]
+			dependency_requirement: "one_completed"
+			id: "7B58AB38EC163322"
+			tasks: [{
+				id: "13BB3E4105DD6B9F"
+				type: "item"
+				item: "alchemistry:liquifier"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			invisible: true
+			id: "2F5B1E39469493C9"
+			tasks: [{
+				id: "73DDA8A02B222DF9"
+				type: "item"
+				item: "alchemistry:fission_chamber_controller"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			invisible: true
+			id: "34F9E17BC65AFF79"
+			tasks: [{
+				id: "6A0C56150B6419A5"
+				type: "item"
+				item: "alchemistry:fusion_chamber_controller"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			invisible: true
+			id: "1800E2351684E573"
+			tasks: [{
+				id: "467DA38894575196"
+				type: "item"
+				item: "alchemistry:fission_core"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			invisible: true
+			id: "45D0FA9C2E096DBC"
+			tasks: [{
+				id: "0E3B49495B67E1D6"
+				type: "item"
+				item: "alchemistry:fusion_core"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			invisible: true
+			id: "543B8B3BA5F4D5E6"
+			tasks: [{
+				id: "5130656CC92EC316"
+				type: "item"
+				item: "alchemistry:reactor_casing"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			invisible: true
+			id: "102614437A3D65F4"
+			tasks: [{
+				id: "26C2697C80F5A885"
+				type: "item"
+				item: "alchemistry:reactor_glass"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			invisible: true
+			id: "0F7ADC77ABDD9FF8"
+			tasks: [{
+				id: "3EC9A2B039FA1491"
+				type: "item"
+				item: "alchemistry:reactor_energy"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			invisible: true
+			id: "63F661326BA248A0"
+			tasks: [{
+				id: "45AC17946BF21A11"
+				type: "item"
+				item: "alchemistry:reactor_input"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			invisible: true
+			id: "77E1EE4A5145C283"
+			tasks: [{
+				id: "7D24FA690322D723"
+				type: "item"
+				item: "alchemistry:reactor_output"
+			}]
+		}
+		{
+			title: "Пособие по Химии"
+			icon: "chemlib:water"
+			disable_toast: true
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "Ещё не поздно её выучить..."
+			size: 2.0d
+			id: "33133F6F1612B7BF"
+			tasks: [{
+				id: "0D80FD5B5126FE16"
+				type: "checkmark"
+				title: "Готовы?"
+			}]
+			rewards: [{
+				id: "0B81334C0145C970"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "alchemistry:alchemistry_book"
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

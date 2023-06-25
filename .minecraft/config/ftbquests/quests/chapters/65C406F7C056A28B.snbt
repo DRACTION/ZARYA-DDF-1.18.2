@@ -1,0 +1,63 @@
+{
+	id: "65C406F7C056A28B"
+	group: ""
+	order_index: 4
+	filename: "65C406F7C056A28B"
+	title: "Готовка"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Путь шеф-повара"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Учимся жарить..."
+			id: "22592ED2C32B1631"
+			tasks: [{
+				id: "0A090EC93B8A33DE"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+		}
+		{
+			title: "Продвинутый костёр"
+			x: -2.5d
+			y: 0.0d
+			subtitle: "Костёр, который можно ломать?"
+			id: "16D99A4894103B76"
+			tasks: [{
+				id: "5217AF63E767F856"
+				type: "item"
+				item: "farmersdelight:stove"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			id: "49128500EC346E2C"
+			tasks: [{
+				id: "73E6EEA44B79F663"
+				type: "item"
+				item: {
+					id: "farmersdelight:skillet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			id: "5862E689486F1E9F"
+			tasks: [{
+				id: "3E4EDE894EC7AD2C"
+				type: "item"
+				item: "farmersdelight:cooking_pot"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

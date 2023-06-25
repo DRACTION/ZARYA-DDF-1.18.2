@@ -1,0 +1,173 @@
+{
+	id: "12559D8607015BD8"
+	group: ""
+	order_index: 7
+	filename: "12559D8607015BD8"
+	title: "Моя колония"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Начало начал"
+			icon: {
+				id: "minecolonies:resourcescroll"
+				Count: 1b
+				tag: { }
+			}
+			disable_toast: true
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Базы снабжения для колонии"
+			description: [
+				"Обе эти вещицы разворачивают макет базы снабжения, которая обязательна для постройки ратуши, главного здания в вашей колонии."
+				""
+				"После того, как вы определитесь с местом и видом базы, можете её развернуть."
+				"ВНИМАНИЕ!!! Разворачивание базы (нажатие зелёной галки внизу слева) нельзя отменить. Так что выбирайте место с умом."
+			]
+			id: "2441B0C4A26E3C58"
+			tasks: [{
+				id: "7A8A49911B3622CB"
+				type: "checkmark"
+				title: "Хотите колонию?"
+			}]
+			rewards: [{
+				id: "77844E8D1DBB374B"
+				type: "choice"
+				title: "Зона снабжения на выбор"
+				exclude_from_claim_all: true
+				table_id: 7053262988265147336L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["2441B0C4A26E3C58"]
+			id: "2DA0EF5FBAA3F38E"
+			tasks: [{
+				id: "1FB92F84BEFB1390"
+				type: "item"
+				item: "minecolonies:blockhuttownhall"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["2DA0EF5FBAA3F38E"]
+			size: 2.0d
+			id: "050043003BCA2286"
+			tasks: [{
+				id: "6C0693FA7368F1B1"
+				type: "item"
+				item: "minecolonies:blockhutbuilder"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			id: "3C9F60DFEC7082FD"
+			tasks: [{
+				id: "7CB2B63A485632EC"
+				type: "item"
+				item: {
+					id: "minecolonies:blockhuttavern"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			id: "2D8851E1349F03DD"
+			tasks: [{
+				id: "3969DAB1CA9F0676"
+				type: "item"
+				item: {
+					id: "minecolonies:blockhutcitizen"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			id: "10BC0FF364C03C15"
+			tasks: [{
+				id: "33E862B3D05D65BC"
+				type: "item"
+				item: {
+					id: "minecolonies:blockhutguardtower"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.5d
+			id: "6906ED7E57CF9094"
+			tasks: [{
+				id: "718833D1A213F086"
+				type: "item"
+				item: "minecolonies:blockhutwarehouse"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.0d
+			dependencies: ["6906ED7E57CF9094"]
+			id: "62AD28405669AC5A"
+			tasks: [{
+				id: "6EC014717DCA9E66"
+				type: "item"
+				item: {
+					id: "minecolonies:blockhutdeliveryman"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			id: "6C7AE90A8A21F99A"
+			tasks: [{
+				id: "37A54D4EFF726806"
+				type: "item"
+				item: "minecolonies:blockhutfarmer"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			id: "654558F93168A7E7"
+			tasks: [{
+				id: "0CD93E37B05D1C00"
+				type: "item"
+				item: "minecolonies:blockhutfield"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			id: "42CD0AC58A1EC49F"
+			tasks: [{
+				id: "35C94392006C7F22"
+				type: "item"
+				item: "minecolonies:blockhutlumberjack"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			id: "651D7BE876999CCA"
+			tasks: [{
+				id: "3861AD7751AA1759"
+				type: "item"
+				item: "minecolonies:blockhutminer"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

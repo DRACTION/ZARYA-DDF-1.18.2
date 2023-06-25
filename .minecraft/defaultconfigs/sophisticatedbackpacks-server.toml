@@ -1,0 +1,17 @@
+
+#Server Settings
+[server]
+	#List of items that are not allowed to be put in backpacks - e.g. "minecraft:shulker_box"
+	disallowedItems = ["supplementaries:sack","supplementaries:safe","minecraft:shulker_box"]
+
+	#Settings for Spawning Entities with Backpack
+	[server.entityBackpackAdditions]
+		#Turns on/off a chance that the entity that wears backpack gets jukebox upgrade and plays a music disc.
+		playJukebox = false
+
+	[server.nerfs]
+		#Determines if too many backpacks in player's inventory cause slowness to the player
+		tooManyBackpacksSlowness = true
+		#Maximum number of backpacks in player's inventory that will not cause slowness
+		#Range: 1 ~ 27
+		maxNumberOfBackpacks = 2

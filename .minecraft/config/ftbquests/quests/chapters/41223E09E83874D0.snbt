@@ -1,0 +1,156 @@
+{
+	id: "41223E09E83874D0"
+	group: ""
+	order_index: 6
+	filename: "41223E09E83874D0"
+	title: "Смерть = Начало?"
+	icon: {
+		id: "tombstone:decorative_grave_cross"
+		Count: 1b
+		tag: {
+			model_texture: 1
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -1.5d
+		width: 2.0d
+		height: 2.0d
+		rotation: 0.0d
+		image: "tombstone:textures/particle/ghost.png"
+		hover: ["Страница мода \"Corail Tombstone\""]
+		click: "https://www.curseforge.com/minecraft/mc-mods/corail-tombstone"
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			size: 1.5d
+			id: "0F5EE7BAAB26BC65"
+			tasks: [{
+				id: "38E3398E593EC34F"
+				type: "item"
+				item: "tombstone:grave_key"
+			}]
+		}
+		{
+			title: "Могилка"
+			x: -2.0d
+			y: 0.0d
+			subtitle: "В первый раз, да?"
+			dependencies: ["0F5EE7BAAB26BC65"]
+			id: "7476B6CC0E93B31B"
+			tasks: [{
+				id: "37860EBC287FEF41"
+				type: "advancement"
+				advancement: "tombstone:adventure/first_grave"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			subtitle: "Главное не потеряй"
+			description: [
+				"Есть 2 способа получения:"
+				""
+				"1 => Выбить с нежити (очень маленький шанс)"
+				""
+				"2 => Получать за некоторые достижения мода (например, выбрать свою любимую могилу)"
+			]
+			dependencies: ["7476B6CC0E93B31B"]
+			id: "11620E07AAB4E55D"
+			tasks: [{
+				id: "565C4C4188EC1CE1"
+				type: "item"
+				item: "tombstone:essence_of_undeath"
+			}]
+		}
+		{
+			title: "Кого хороним?"
+			x: -2.0d
+			y: 3.5d
+			subtitle: "Могила без трупа"
+			description: [
+				"Создайте декоративную могилу, и расположите её где-нибудь."
+				""
+				"Теперь остаётся подождать, пока неприкаянная душа заприметит вашу могилку.."
+			]
+			dependencies: ["7476B6CC0E93B31B"]
+			size: 2.0d
+			min_required_tasks: 1
+			id: "0D8E705506F0E28D"
+			tasks: [
+				{
+					id: "50974E6347CBDC72"
+					type: "item"
+					title: "Сделайте декоративную могилу"
+					disable_toast: true
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tombstone:decorative_graves"
+						}
+					}
+				}
+				{
+					id: "6078C813B44A3B3F"
+					type: "advancement"
+					disable_toast: true
+					secret: true
+					advancement: "tombstone:adventure/create_decorative_grave"
+					criterion: ""
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			subtitle: "Создаёт книги зачарований из предмета (предмет остаётся)"
+			description: ["Количество снятых чар за раз зависит от навыка \"Писец\""]
+			dependencies: ["0D8E705506F0E28D"]
+			id: "4C1736ACA1C4955F"
+			tasks: [{
+				id: "651E28ED64EA6523"
+				type: "item"
+				item: "tombstone:book_of_disenchantment"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			subtitle: "Полностью восстанавливает прочность любого предмета"
+			dependencies: ["0D8E705506F0E28D"]
+			id: "01F0F85C51E02A91"
+			tasks: [{
+				id: "3AA67F20DE89AF07"
+				type: "item"
+				item: "tombstone:book_of_repairing"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			subtitle: "Увеличивает уровень чар на предмете"
+			description: ["Количество уровней зависит от души могилы"]
+			dependencies: ["0D8E705506F0E28D"]
+			id: "39B92F66F68B4663"
+			tasks: [{
+				id: "0E0A5CB34E62AC09"
+				type: "item"
+				item: {
+					id: "tombstone:book_of_magic_impregnation"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

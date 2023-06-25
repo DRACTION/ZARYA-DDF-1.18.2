@@ -1,0 +1,669 @@
+{
+	id: "49DD6F5149642403"
+	group: ""
+	order_index: 0
+	filename: "49DD6F5149642403"
+	title: "Основное"
+	icon: {
+		id: "minecraft:stone_pickaxe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: 3.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "zarya:textures/no_tree_punch.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/mob_effect/blindness.png"
+			hover: [
+				"Изменения в эффекте \"Невидимость\""
+				""
+				"- Невидимость теперь АБСОЛЮТНАЯ! На игроках не видно брони, оружия, эффектов от зелья."
+				"- Невидимость сопровождается дебаффом \"Слепота\"."
+				"- Невидимость спадает при слишком близком нахождении с мобом, или при ударе по мобу."
+			]
+			click: " "
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Пора в путь!"
+			icon: "minecraft:mycelium"
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "Небольшой, но очень полезный подарок"
+			description: [""]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			id: "71AF6770E613A501"
+			tasks: [{
+				id: "297F752EB8AD30A3"
+				type: "questsadditions:time"
+				title: "Подождать 10 секунд"
+				disable_toast: true
+				elapsedTime: 10L
+			}]
+			rewards: [{
+				id: "1AD2C37754C4A93B"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			title: "Твёрдые блоки делают бобо"
+			icon: "minecraft:oak_log"
+			disable_toast: true
+			x: 0.0d
+			y: 5.0d
+			subtitle: "Используй инструменты, а не голые руки!"
+			id: "03D54BC113BF4723"
+		}
+		{
+			title: "Чиииил, бро!"
+			icon: {
+				id: "minecraft:wooden_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: -2.5d
+			y: 0.0d
+			description: [
+				"> Первые 5 дней врагов не будет (почти, спавнеры и особые мобы исключение)!"
+				""
+				"Поэтому можете спокойно исследовать местность, привыкать к крафту, собирать ресы, искать потенциальное место для жилья и т.п."
+				""
+				"Сильно не расслабляйтесь..."
+			]
+			dependencies: ["71AF6770E613A501"]
+			id: "1978718913235731"
+			tasks: [{
+				id: "7124782A6CB059FF"
+				type: "questsadditions:time"
+				title: "Подождать 10 секунд"
+				disable_toast: true
+				elapsedTime: 10L
+			}]
+		}
+		{
+			title: "Повылезали черти..."
+			icon: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.5d
+			y: 0.0d
+			subtitle: "Надеюсь вы успели построить дом..."
+			dependencies: ["1978718913235731"]
+			id: "3BDB9E0379311636"
+			tasks: [{
+				id: "3C2C3E1946320357"
+				type: "questsadditions:days"
+				title: "Прошло 5 дней"
+				days: 6
+			}]
+			rewards: [{
+				id: "7998A0A6A77BFE0C"
+				type: "item"
+				item: {
+					id: "minecraft:golden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Ваш друг - погибель монстров"
+			icon: "minecraft:campfire"
+			disable_toast: true
+			x: -1.0d
+			y: -2.5d
+			subtitle: "Костёр теперь способен на многое..."
+			description: [
+				"> Костёр накладывает на вас регенирацию в радиусе 16 блоков"
+				""
+				"> Монстры боятся появлятся возле сигнализирующего костра (в радиусе 48 блоков). Сигнализирующий костёр тот, под которым есть сноп сена."
+				""
+				"> На костре можно делать факела из палок, просто нажми ПКМ на костре с палкой в руках!"
+			]
+			id: "67CB7DCBE25BFB3E"
+		}
+		{
+			title: "Уникальный лут"
+			icon: "lootr:trophy"
+			disable_toast: true
+			x: 1.0d
+			y: -2.5d
+			subtitle: "Теперь каждый будет вознаграждён"
+			description: [
+				" >  Обычные сундуки заменены на лутбоксы."
+				" >  Каждый сундук содержит уникальный лут для каждого игрока"
+				" >  Ломать сундуки не стоит, так как если его не успел облутать ваш товарищ, то он останется без лута..."
+				" >  Игрок не может получить или увидеть в сундуке лут другого игрока, даже если его сломает"
+			]
+			id: "73A99AA179A65C54"
+		}
+		{
+			title: "Как теперь быть?"
+			disable_toast: true
+			x: 0.0d
+			y: 6.5d
+			description: [
+				"Добываем то, что валяется под ногами!"
+				""
+				"P.S.: Гравий бы не помешал"
+			]
+			dependencies: ["03D54BC113BF4723"]
+			min_required_tasks: 1
+			id: "002274B2E5EFACD1"
+			tasks: [
+				{
+					id: "2A8E532C0AAA9548"
+					type: "item"
+					item: "farmersdelight:straw"
+				}
+				{
+					id: "54FF89EB50626A25"
+					type: "item"
+					item: "minecraft:flint"
+				}
+				{
+					id: "08B82C4F09E3130B"
+					type: "item"
+					item: "minecraft:bone"
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -1.0d
+			y: 7.5d
+			dependencies: ["002274B2E5EFACD1"]
+			id: "651C561635964051"
+			tasks: [{
+				id: "2E56D97D0ED59F45"
+				type: "item"
+				item: "kubejs:bone_tool_blank"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 1.0d
+			y: 7.5d
+			dependencies: ["002274B2E5EFACD1"]
+			id: "23A786C8805D9ED8"
+			tasks: [{
+				id: "7DE1EC2946A94B44"
+				type: "item"
+				item: "kubejs:flint_tool_blank"
+			}]
+		}
+		{
+			title: "Костяное навершие инструмента"
+			disable_toast: true
+			x: -2.0d
+			y: 9.0d
+			dependencies: ["651C561635964051"]
+			min_required_tasks: 1
+			id: "3BAB506AB5C2E2EA"
+			tasks: [
+				{
+					id: "75F02D3FC5B8F43E"
+					type: "item"
+					item: "kubejs:bone_shovel_head"
+				}
+				{
+					id: "143DEF7E5DD92932"
+					type: "item"
+					item: "kubejs:bone_pickaxe_head"
+				}
+				{
+					id: "3FB7B9B7AB27B6F2"
+					type: "item"
+					item: "kubejs:bone_axe_head"
+				}
+			]
+		}
+		{
+			title: "Кремниевое навершие инструмента"
+			disable_toast: true
+			x: 2.0d
+			y: 9.0d
+			dependencies: ["23A786C8805D9ED8"]
+			min_required_tasks: 1
+			id: "41ED07FC9CE8D0D3"
+			tasks: [
+				{
+					id: "55D7B25971663975"
+					type: "item"
+					item: "kubejs:flint_shovel_head"
+				}
+				{
+					id: "772D9C0AB3B458C5"
+					type: "item"
+					item: "kubejs:flint_pickaxe_head"
+				}
+				{
+					id: "61F2683E292642FA"
+					type: "item"
+					item: "kubejs:flint_axe_head"
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -1.0d
+			y: 10.5d
+			dependencies: [
+				"16F764CF4EC5E036"
+				"3BAB506AB5C2E2EA"
+			]
+			min_required_tasks: 1
+			id: "71A06CEFAD387339"
+			tasks: [
+				{
+					id: "1B26BC8726B6E0DB"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2947E06F62D01F87"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6FB49E3644AC9FE8"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 0.0d
+			y: 9.0d
+			dependencies: ["002274B2E5EFACD1"]
+			id: "16F764CF4EC5E036"
+			tasks: [{
+				id: "40559D2546E3AF65"
+				type: "item"
+				item: "supplementaries:rope"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 1.0d
+			y: 10.5d
+			dependencies: [
+				"16F764CF4EC5E036"
+				"41ED07FC9CE8D0D3"
+			]
+			min_required_tasks: 1
+			id: "0647817ED824010F"
+			tasks: [
+				{
+					id: "0E6F1E6674A71DB5"
+					type: "item"
+					item: {
+						id: "minecraft:stone_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "088948316F0E8C75"
+					type: "item"
+					item: {
+						id: "minecraft:stone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3A6B75CB57FE7202"
+					type: "item"
+					item: {
+						id: "minecraft:stone_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 1.5d
+			y: 5.5d
+			subtitle: "Не советую ей \"рубить\" дерево..."
+			dependencies: ["002274B2E5EFACD1"]
+			id: "545E06E6B8023D31"
+			tasks: [{
+				id: "552666253B7A1A86"
+				type: "item"
+				item: {
+					id: "kubejs:flint_saw"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Палки и доски"
+			disable_toast: true
+			x: 3.0d
+			y: 5.5d
+			dependencies: ["545E06E6B8023D31"]
+			min_required_tasks: 1
+			id: "0271BBF1F0A0EF92"
+			tasks: [
+				{
+					id: "2669CEA983A48B03"
+					type: "item"
+					item: "minecraft:stick"
+				}
+				{
+					id: "5047D6BF4B121915"
+					type: "item"
+					item: "minecraft:oak_planks"
+				}
+				{
+					id: "5C4C2565CEEFF6E9"
+					type: "item"
+					item: "minecraft:spruce_planks"
+				}
+				{
+					id: "7C177C8F50D1C215"
+					type: "item"
+					item: "minecraft:birch_planks"
+				}
+				{
+					id: "5BB04FA8CAF5E455"
+					type: "item"
+					item: "minecraft:jungle_planks"
+				}
+				{
+					id: "480337A7764E723B"
+					type: "item"
+					item: "minecraft:acacia_planks"
+				}
+				{
+					id: "27FDF590FFF84607"
+					type: "item"
+					item: "minecraft:dark_oak_planks"
+				}
+				{
+					id: "72320E1DA0E47477"
+					type: "item"
+					item: "minecraft:crimson_planks"
+				}
+				{
+					id: "10C7BE96D077F60F"
+					type: "item"
+					item: "minecraft:warped_planks"
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -1.5d
+			y: 5.0d
+			subtitle: "Валяются повсюду..."
+			dependencies: ["03D54BC113BF4723"]
+			min_required_tasks: 1
+			id: "50BE662EBA4C3348"
+			tasks: [
+				{
+					id: "6A2C711695577C63"
+					type: "item"
+					item: "projectvibrantjourneys:rocks"
+				}
+				{
+					id: "41B23B1B47729582"
+					type: "item"
+					item: "projectvibrantjourneys:mossy_rocks"
+				}
+				{
+					id: "22EB496EB52F7977"
+					type: "item"
+					item: "projectvibrantjourneys:sandstone_rocks"
+				}
+				{
+					id: "1360ED2715ABF2DF"
+					type: "item"
+					item: "projectvibrantjourneys:red_sandstone_rocks"
+				}
+				{
+					id: "216A6FA19A21129D"
+					type: "item"
+					item: "projectvibrantjourneys:ice_chunks"
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -3.0d
+			y: 5.0d
+			dependencies: ["50BE662EBA4C3348"]
+			min_required_tasks: 1
+			id: "1FC05943420A67C6"
+			tasks: [
+				{
+					id: "0EA1F58D0064CF75"
+					type: "item"
+					item: "minecraft:cobblestone"
+				}
+				{
+					id: "78DC939E79431A5C"
+					type: "item"
+					item: "minecraft:mossy_cobblestone"
+				}
+				{
+					id: "062B46F4463EDA2E"
+					type: "item"
+					item: "minecraft:sandstone"
+				}
+				{
+					id: "0295159ED3E4FDB2"
+					type: "item"
+					item: "minecraft:red_sandstone"
+				}
+				{
+					id: "33A8DB40875324C3"
+					type: "item"
+					item: "minecraft:ice"
+				}
+			]
+		}
+		{
+			title: "Получение слёз"
+			icon: "minecraft:ghast_tear"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "Небольшое изменение"
+			description: [
+				"Теперь слёзы не выпадают с гастов в виде дропа..."
+				"1) Возьмите пустую бутылку в основную руку"
+				"2) Подойдите к Гасту вплотную"
+				"3) Нажмите ПКМ на этом милом существе"
+				""
+				"После этого вы получите слёзы Гаста, всё очень просто!"
+			]
+			id: "4BD7EBF313FF8E44"
+			tasks: [
+				{
+					id: "7A41F04BE5952F1E"
+					type: "item"
+					item: "minecraft:ghast_tear"
+				}
+				{
+					id: "53E6BF3CF270B102"
+					type: "questsadditions:interaction"
+					title: "ПКМ на Гасте"
+					icon: "minecraft:glass_bottle"
+					entity: "minecraft:ghast"
+					nbt: { }
+					value: 1L
+					checkItem: false
+					item: "minecraft:glass_bottle"
+				}
+			]
+			rewards: [
+				{
+					id: "3CBB4C16AF7CC60E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "054698A6D5EAC098"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+				}
+			]
+		}
+		{
+			title: "Подбор вещей"
+			icon: "create:brass_hand"
+			disable_toast: true
+			x: 0.0d
+			y: -2.5d
+			subtitle: "Теперь дроп не висит в воздухе"
+			description: [
+				"Чтобы поднять предмет:"
+				"> Нажать ПКМ на упавшем предмете"
+				"> Зажать SHIFT находясь рядом с этим предметом"
+				""
+				"P.S.: Зажатый SHIFT подбирает ВСЕ разбросанные рядом вещи"
+			]
+			id: "30D89C95CC69B136"
+		}
+		{
+			title: "JEI"
+			icon: "itemfilters:item_group"
+			disable_toast: true
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Минимум, который нужно знать"
+			description: [
+				"1. Находясь в интерфейсе инвентаря вы можете нажимать кнопку R и U наведя на слот с предметом. Это позволит увидеть все рецепты этого предмета."
+				""
+				"> R = посмотреть, как получить этот предмет."
+				""
+				"> U = узнать что можно сделать из этого предмета"
+				""
+				"2. Справа отображается меню всех предметов в игре. Щёлкайте по ним ЛКМ (R) или ПКМ (U) чтобы узнать их рецепты."
+				""
+				"3. Внизу справа есть поиск по предметам. Начните вводить туда название, и вам покажут, какие предметы содержать это слово."
+				"P.S.: Можно искать по модам. Для этого введите \"@\", а затем название мода (без пробелов)."
+			]
+			id: "47A31010FF57D319"
+		}
+		{
+			title: "Тотем бессмертия"
+			icon: "minecraft:totem_of_undying"
+			disable_toast: true
+			x: -1.0d
+			y: -1.5d
+			subtitle: "Теперь работает и в инвентаре"
+			id: "4B75A83F3E77F288"
+		}
+		{
+			title: "Луна теперь имеет события"
+			icon: {
+				id: "minecraft:golden_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 1.0d
+			y: -1.5d
+			subtitle: "Кровавая, урожайная, голубая"
+			description: [
+				"Кровавая луна - не позволяет уснуть, увеличивается спавн враждебных мобов."
+				""
+				"Урожайная луна - увеличивает как скорость роста и дроп урожая"
+				""
+				"Голубая луна - дает вам эффект удачи и повышает качество добычи в ванильных таблицах добычи"
+			]
+			id: "1463EB44AC0C25E6"
+		}
+		{
+			title: "Рассадник мобов"
+			icon: "minecraft:spawner"
+			disable_toast: true
+			x: 0.0d
+			y: -3.5d
+			subtitle: "Факела не спасут..."
+			description: [
+				"> Освещённость окружающей местности не влияет на появление мобов из рассадника"
+				""
+				"> Прочность рассадника увеличена в 11 раз!!!"
+				"Это значит, что железной киркой (без чар) рассадник сломается за 16 секунд, а кремниевой за 23..."
+				""
+				"> Рассаднику не нравится, что его ломают. В отмезку он слепит вас и накладывает слабое иссушение"
+				""
+				"> Рассадник чует вас и активируется за 15 блоков (вместо стандартных 8)"
+				""
+				"> Нежить, появившиеся из рассадника, имеет иммунитет к солнечному загару на 2 минуты"
+			]
+			id: "4E926D040D6B83FE"
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,6 @@
+
+[serverConfig]
+
+	[serverConfig.claims]
+		#Whether the claims part of this mod is enabled.
+		enabled = false

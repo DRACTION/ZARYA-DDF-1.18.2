@@ -1,0 +1,10 @@
+{
+	id: "61E239516AF44BC8"
+	order_index: 0
+	title: "Снабжение Minecolonies"
+	loot_size: 1
+	rewards: [
+		{ item: "minecolonies:supplychestdeployer" }
+		{ item: "minecolonies:supplycampdeployer" }
+	]
+}

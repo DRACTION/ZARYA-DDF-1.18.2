@@ -1,0 +1,20 @@
+[
+  //////// HELL /////////
+  {
+    "mob": ["minecraft:spider", "minecraft:zombie"],
+    
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount": {
+      "minimum": 3,
+      "maximum": 8
+    },
+
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+      "mindist": 25,
+      "maxdist": 45,
+      "maxthis": 20
+    }
+  }
+]

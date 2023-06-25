@@ -1,0 +1,8 @@
+
+#Here you can disable talents.
+[Talents]
+	"doggytalents:pack_puppy" = false
+	"doggytalents:doggy_torch" = false
+	"doggytalents:wolf_mount" = false
+	"doggytalents:swimmer_dog" = false
+

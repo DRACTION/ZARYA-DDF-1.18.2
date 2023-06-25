@@ -1,0 +1,7 @@
+
+[server]
+	#Set to true to automatically use sleeping bags when placed
+	autoUse = false
+	#Set to true to enable sleeping in hammocks at night
+	nightHammocks = true
+

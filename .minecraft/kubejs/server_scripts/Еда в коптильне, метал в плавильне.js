@@ -1,0 +1,95 @@
+onEvent('recipes', e => {
+
+	e.remove({ id: 'minecraft:cooked_mutton', type: 'minecraft:smelting' })
+	e.remove({ id: 'minecraft:cooked_porkchop', type: 'minecraft:smelting' })
+	e.remove({ id: 'minecraft:cooked_salmon', type: 'minecraft:smelting' })
+	e.remove({ id: 'minecraft:cooked_cod', type: 'minecraft:smelting' })
+	e.remove({ id: 'minecraft:cooked_beef', type: 'minecraft:smelting' })
+	e.remove({ id: 'minecraft:cooked_chicken', type: 'minecraft:smelting' })
+	e.remove({ id: 'minecraft:baked_potato', type: 'minecraft:smelting' })
+	e.remove({ id: 'minecraft:cooked_rabbit', type: 'minecraft:smelting' })
+	e.remove({ id: 'minecraft:dried_kelp_from_smelting', type: 'minecraft:smelting' })
+
+	e.remove({ id: 'farmersdelight:fried_egg', type: 'minecraft:smelting' })
+	e.remove({ id: 'farmersdelight:beef_patty', type: 'minecraft:smelting' })
+	e.remove({ id: 'farmersdelight:bread_from_smelting', type: 'minecraft:smelting' })
+	e.remove({ id: 'farmersdelight:cooked_chicken_cuts', type: 'minecraft:smelting' })
+	e.remove({ id: 'farmersdelight:cooked_bacon', type: 'minecraft:smelting' })
+	e.remove({ id: 'farmersdelight:cooked_cod_slice', type: 'minecraft:smelting' })
+	e.remove({ id: 'farmersdelight:cooked_salmon_slice', type: 'minecraft:smelting' })
+	e.remove({ id: 'farmersdelight:cooked_mutton_chops', type: 'minecraft:smelting' })
+
+	e.remove({ id: 'corn_delight:grilled_corn', type: 'minecraft:smelting' })
+	e.remove({ id: 'corn_delight:popcorn', type: 'minecraft:smelting' })
+	e.remove({ id: 'corn_delight:cornbread', type: 'minecraft:smelting' })
+	e.remove({ id: 'corn_delight:tortilla', type: 'minecraft:smelting' })
+
+	e.remove({ id: 'nethersdelight:hoglin_sirloin', type: 'minecraft:smelting' })
+
+	e.remove({ id: 'create:smelting/bread', type: 'minecraft:smelting' })
+
+
+	e.remove({ output: 'minecraft:iron_ingot', type: 'minecraft:smelting' })
+	e.smelting('5x minecraft:iron_nugget', 'minecraft:raw_iron').xp(0.7)
+	e.smelting('5x minecraft:iron_nugget', '#forge:ores/iron').xp(1.0)
+	e.smelting('5x minecraft:iron_nugget', 'create:crushed_iron_ore').xp(0.1)
+	e.smelting('5x minecraft:iron_nugget', '#forge:dusts/iron').xp(0.1)
+	e.remove({ output: 'minecraft:iron_ingot', type: 'minecraft:blasting' })
+	e.blasting('minecraft:iron_ingot', 'minecraft:raw_iron').xp(0.7)
+	e.blasting('minecraft:iron_ingot', '#forge:ores/iron').xp(1.0)
+	e.blasting('minecraft:iron_ingot', 'create:crushed_iron_ore').xp(0.1)
+	e.blasting('minecraft:iron_ingot', '#forge:dusts/iron').xp(0.1)
+
+	e.remove({ output: 'minecraft:gold_ingot', type: 'minecraft:smelting' })
+	e.smelting('5x minecraft:gold_nugget', 'minecraft:raw_gold').xp(0.7)
+	e.smelting('5x minecraft:gold_nugget', '#forge:ores/gold').xp(1.0)
+	e.smelting('5x minecraft:gold_nugget', 'create:crushed_gold_ore').xp(0.1)
+	e.smelting('5x minecraft:gold_nugget', '#forge:dusts/gold').xp(0.1)
+	e.remove({ output: 'minecraft:gold_ingot', type: 'minecraft:blasting' })
+	e.blasting('minecraft:gold_ingot', 'minecraft:raw_gold').xp(0.7)
+	e.blasting('minecraft:gold_ingot', '#forge:ores/gold').xp(1.0)
+	e.blasting('minecraft:gold_ingot', 'create:crushed_gold_ore').xp(0.1)
+	e.blasting('minecraft:gold_ingot', '#forge:dusts/gold').xp(0.1)
+
+	e.remove({ output: 'minecraft:copper_ingot', type: 'minecraft:smelting' })
+	e.smelting('5x create:copper_nugget', 'minecraft:raw_copper').xp(0.7)
+	e.smelting('5x create:copper_nugget', '#forge:ores/copper').xp(1.0)
+	e.smelting('5x create:copper_nugget', 'create:crushed_copper_ore').xp(0.1)
+	e.smelting('5x create:copper_nugget', '#forge:dusts/copper').xp(0.1)
+	e.remove({ output: 'minecraft:copper_ingot', type: 'minecraft:blasting' })
+	e.blasting('minecraft:copper_ingot', 'minecraft:raw_copper').xp(0.7)
+	e.blasting('minecraft:copper_ingot', '#forge:ores/copper').xp(1.0)
+	e.blasting('minecraft:copper_ingot', 'create:crushed_copper_ore').xp(0.1)
+	e.blasting('minecraft:copper_ingot', '#forge:dusts/copper').xp(0.1)
+
+	e.remove({ output: 'create:zinc_ingot', type: 'minecraft:smelting' })
+	e.smelting('5x create:zinc_nugget', 'create:raw_zinc').xp(0.7)
+	e.smelting('5x create:zinc_nugget', '#forge:ores/zinc').xp(1.0)
+	e.smelting('5x create:zinc_nugget', 'create:crushed_zinc_ore').xp(0.1)
+	e.smelting('5x create:zinc_nugget', '#forge:dusts/zinc').xp(0.1)
+	e.blasting('create:zinc_ingot', '#forge:dusts/zinc').xp(0.1)
+
+	e.remove({ output: 'minecraft:diamond', type: 'minecraft:smelting' })
+	e.remove({ output: 'minecraft:diamond', type: 'minecraft:blasting' })
+	e.blasting('minecraft:diamond', '#forge:ores/diamond').xp(1.0)
+
+	e.remove({ output: 'minecraft:emerald', type: 'minecraft:smelting' })
+	e.remove({ output: 'minecraft:emerald', type: 'minecraft:blasting' })
+	e.blasting('minecraft:emerald', '#forge:ores/emerald').xp(1.0)
+
+	e.remove({ output: 'minecraft:redstone', type: 'minecraft:smelting' })
+	e.smelting('minecraft:redstone', '#forge:ores/redstone').xp(1.0)
+	e.remove({ output: 'minecraft:redstone', type: 'minecraft:blasting' })
+	e.blasting('3x minecraft:redstone', '#forge:ores/redstone').xp(1.0)
+
+	e.remove({ output: 'minecraft:lapis_lazuli', type: 'minecraft:smelting' })
+	e.smelting('minecraft:lapis_lazuli', '#forge:ores/lapis').xp(1.0)
+	e.remove({ output: 'minecraft:lapis_lazuli', type: 'minecraft:blasting' })
+	e.blasting('5x minecraft:lapis_lazuli', '#forge:ores/lapis').xp(1.0)
+
+	e.remove({ output: 'minecraft:coal', type: 'minecraft:smelting' })
+	e.remove({ output: 'minecraft:coal', type: 'minecraft:blasting' })
+
+	e.remove({ output: 'minecraft:quartz', type: 'minecraft:smelting' })
+
+})

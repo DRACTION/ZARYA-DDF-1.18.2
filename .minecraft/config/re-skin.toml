@@ -1,0 +1,2 @@
+#Server skin whitelist
+enforceSkinWhitelist = ["https://i.imgur.com/", "https://www.minecraftskins.com/"]

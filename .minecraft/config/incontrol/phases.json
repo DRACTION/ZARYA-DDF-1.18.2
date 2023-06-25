@@ -1,0 +1,26 @@
+[
+  {
+    "name": "after_10_days",
+    "conditions": {
+      "mindaycount": 10
+    }
+  },
+  {
+    "name": "after_20_days",
+    "conditions": {
+      "mindaycount": 20
+    }
+  },
+  {
+    "name": "after_30_days",
+    "conditions": {
+      "mindaycount": 30
+    }
+  },
+  {
+    "name": "after_40_days",
+    "conditions": {
+      "mindaycount": 40
+    }
+  }
+]

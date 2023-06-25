@@ -1,0 +1,45 @@
+# Specify filepatterns you want git to ignore.
+
+.minecraft/.physics_mod_cache/
+.minecraft/backups/
+.minecraft/config/*.bak
+.minecraft/config/MusicTriggers/debug.toml
+.minecraft/config/MusicTriggers/songs/pack.mcmeta
+.minecraft/config/MusicTriggers/songs/assets/musictriggers/lang/
+.minecraft/config/MusicTriggers/songs/assets/musictriggers/models/
+.minecraft/config/MusicTriggers/songs/assets/musictriggers/textures/
+# .minecraft/config/MusicTriggers/songs/assets/musictriggers/sounds/music/*.ogg
+.minecraft/config/MusicTriggers/songs/assets/musictriggers/sounds.json
+.minecraft/config/jei/world/
+.minecraft/coremods/
+.minecraft/crash-reports/
+.minecraft/debug/
+.minecraft/ESM/
+.minecraft/fancymenu_data/
+.minecraft/fancymenu_setups/
+.minecraft/immersive_paintings_cache/
+.minecraft/impossible_data/
+.minecraft/local/
+.minecraft/logs/
+.minecraft/kubejs/exported/
+.minecraft/minecolonies/
+.minecraft/music_sheets/
+# .minecraft/mods/*.jar
+.minecraft/patchouli_books/
+.minecraft/quests_structures/
+.minecraft/saves/
+.minecraft/schematics/uploaded/
+.minecraft/screenshots/
+.minecraft/server-resource-packs/
+.minecraft/shaderpacks/
+.minecraft/structurize/cache/
+.minecraft/structurize/scans/
+.minecraft/texturepacks/
+.minecraft/XaeroWaypoints/
+.minecraft/XaeroWaypoints_BACKUP032021
+.minecraft/XaeroWorldMap
+.minecraft/*.txt
+.minecraft/*.log
+.minecraft/*.json
+.minecraft/*.properties
+/*.txt

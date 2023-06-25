@@ -1,0 +1,304 @@
+{
+	id: "71C0756A9EE31BCA"
+	group: ""
+	order_index: 5
+	filename: "71C0756A9EE31BCA"
+	title: "Хранение"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -4.0d
+		y: -1.0d
+		width: 1.0d
+		height: 1.0d
+		rotation: 0.0d
+		image: "minecolonies:textures/icons/warning.png"
+		hover: ["Страница мода \"Storage Drawers\""]
+		click: "https://www.curseforge.com/minecraft/mc-mods/storage-drawers"
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -4.5d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "Самое время выделять под склад отдельное помещение"
+			id: "257BB27CE5B084A4"
+			tasks: [{
+				id: "442F9111596E3D3F"
+				type: "item"
+				title: "Ящики"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			subtitle: "А ты думал это просто ящички?"
+			dependencies: ["257BB27CE5B084A4"]
+			size: 1.5d
+			id: "3E834997E5463A26"
+			tasks: [{
+				id: "09D5DCC9A0DA3F51"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 3.5d
+			subtitle: "Ты что - Engineer?"
+			dependencies: ["3E834997E5463A26"]
+			id: "0E1F1851F9C0E8A5"
+			tasks: [{
+				id: "2151C388BF59B315"
+				type: "item"
+				item: "storagedrawers:redstone_upgrade"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 4.5d
+			subtitle: "Ты что - Engineer?"
+			dependencies: ["3E834997E5463A26"]
+			id: "77878E712D398676"
+			tasks: [{
+				id: "3B48E2C65C91B949"
+				type: "item"
+				item: "storagedrawers:min_redstone_upgrade"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.5d
+			subtitle: "Ты что - Engineer?"
+			dependencies: ["3E834997E5463A26"]
+			id: "2CBE54039D070E5A"
+			tasks: [{
+				id: "39596A2B57D3ECB9"
+				type: "item"
+				item: "storagedrawers:max_redstone_upgrade"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			subtitle: "К"
+			dependencies: ["3E834997E5463A26"]
+			id: "1FCA4CA4CC6E94AA"
+			tasks: [{
+				id: "4EE1CD7C1ED5F2A3"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			subtitle: "А"
+			dependencies: ["3E834997E5463A26"]
+			id: "7156B46616A69085"
+			tasks: [{
+				id: "4AEA5FDDBA938566"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			subtitle: "Е"
+			dependencies: ["3E834997E5463A26"]
+			id: "2187678003334E7D"
+			tasks: [{
+				id: "04A56A23F94A160C"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			subtitle: "Ф"
+			dependencies: ["3E834997E5463A26"]
+			id: "5521FEBFF3B1F911"
+			tasks: [{
+				id: "69E01D2506E47DC4"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			subtitle: "!!!"
+			dependencies: ["3E834997E5463A26"]
+			id: "152283FD7396EFD7"
+			tasks: [{
+				id: "12619C1A8AB030C2"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.0d
+			dependencies: ["3E834997E5463A26"]
+			id: "0D00E2FCFEBF8C8F"
+			tasks: [{
+				id: "7260CC09B5C496C7"
+				type: "item"
+				item: "storagedrawers:conversion_upgrade"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			subtitle: "Мне трудно представить зачем..."
+			dependencies: ["3E834997E5463A26"]
+			id: "154C1A35353E469D"
+			tasks: [{
+				id: "68D4FFE3D2D0E1A7"
+				type: "item"
+				item: "storagedrawers:one_stack_upgrade"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			subtitle: "Да вы зажрались сударь!"
+			dependencies: ["3E834997E5463A26"]
+			id: "5C60A7AD684B6BC8"
+			tasks: [{
+				id: "4584312F143B863D"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.5d
+			dependencies: ["3E834997E5463A26"]
+			id: "5BAA5E62C5CBAE04"
+			tasks: [{
+				id: "389436BA9ACA3430"
+				type: "item"
+				item: "storagedrawers:illumination_upgrade"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.5d
+			dependencies: ["3E834997E5463A26"]
+			id: "3F8B19BF4428CBB8"
+			tasks: [{
+				id: "64556AF1214E7321"
+				type: "item"
+				item: "storagedrawers:fill_level_upgrade"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			subtitle: "Запакует - распакует"
+			dependencies: ["257BB27CE5B084A4"]
+			id: "012FD235D6F0C7E4"
+			tasks: [{
+				id: "674E707CFBFF6114"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			subtitle: "Отличная вещь!"
+			description: [
+				"1. Ставишь в радиусе 50 блоков ящики рядом друг с другом"
+				"2. Распределяешь, в каком ящике что будет хранится"
+				"3. Уходишь в закат за огромной кучей лута"
+				"4. ...."
+				"5. Возвращаешься с кучей переполненных рюкзаков и эффектом замедления ХХХХХ"
+				"6. Дважды нажимаешь ПКМ на этом чудном контроллере, и смотришь на свой опустевший инвентарь"
+				"7. Ставишь по одному рюкзаки, например, на воронку над контроллером."
+				"8. ???"
+				"9. ...."
+				"10. PROFIT!"
+			]
+			dependencies: ["257BB27CE5B084A4"]
+			id: "20A925822E71444F"
+			tasks: [{
+				id: "4F6A5BBA93A9CD41"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			subtitle: "Да, господин контроллер..."
+			description: [
+				"Подчинённый контроллера выступает в качестве удлинителя контроллера ящиков, предоставляя больше граней для крепления машин, труб и различный других механизмов."
+				""
+				"Контроллеры будут связываться с подчинёнными, когда они находят их в сети, и все подчинённые, связанные с одним и тем же контроллером, будут иметь тот же инвентарь и диапазон (не расширяют диапазон действия, а входят в него), что и этот контроллер."
+				""
+				"В отличие от ящиков, подчинённые устройства не могут принадлежать нескольким контроллерам, и вы должны быть осторожны, чтобы не помещать их в диапазон нескольких контроллеров."
+				""
+				"Использование подчинённых лучше для производительности, чем использование нескольких контроллеров."
+			]
+			dependencies: [
+				"20A925822E71444F"
+				"442F9111596E3D3F"
+			]
+			dependency_requirement: "one_completed"
+			id: "03B792CC2D192708"
+			tasks: [{
+				id: "188506E392BB1BB9"
+				type: "item"
+				item: "storagedrawers:controller_slave"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.5d
+			subtitle: "Есть что скрывать? 0_о"
+			dependencies: ["3E834997E5463A26"]
+			id: "6E31EA44844461E8"
+			tasks: [{
+				id: "239269B82E63C77F"
+				type: "item"
+				item: "storagedrawers:drawer_key"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 6.5d
+			dependencies: ["6E31EA44844461E8"]
+			id: "5F63A2FAD0D44451"
+			tasks: [{
+				id: "3985AB4B66C1B750"
+				type: "item"
+				item: "storagedrawers:quantify_key"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 6.5d
+			dependencies: ["6E31EA44844461E8"]
+			id: "4B7C6F85B81BE4D3"
+			tasks: [{
+				id: "4843D2D9280EA08E"
+				type: "item"
+				item: "storagedrawers:shroud_key"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,55 @@
+{
+    "ModSettings": {
+        "highlight_foused_items_animated": {
+            "value": true
+        },
+        "enable_updates_check": false,
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_inventory_editor_button": {
+            "value": false
+        },
+        "continuous_crafting_saved_value": false
+    },
+    "AutoRefillSettings": {
+        "disable_for_drop_item": {
+            "value": true
+        },
+        "ignore_locked_slots": false,
+        "autorefill_blacklist": "kubejs:flint_saw",
+        "tool_damage_threshold": 1,
+        "allow_break_for_non_enchanted": {
+            "value": true
+        },
+        "visual_durability_notification": {
+            "value": false
+        },
+        "type_visual_durability_notification": "CHAT",
+        "number_of_notifications": 1,
+        "type_visual_replace_success_notification": "CHAT",
+        "visual_replace_failed_notification": {
+            "value": false
+        },
+        "audio_replace_failed_notification": {
+            "value": false
+        }
+    },
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "scroll_to_chest": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "scroll_to_inventory": {
+            "main": {
+                "keys": ""
+            }
+        }
+    }
+}
