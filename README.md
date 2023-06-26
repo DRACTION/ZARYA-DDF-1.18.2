@@ -1,6 +1,8 @@
 # История версий:
 - # 01.05.23
 
+  - [MODLIST](https://github.com/DRACTION/ZARYA-Vanilla-1.18.2/blob/370ff178cbc2c5c40225f168a36872908fd71a8b/.minecraft/mods/MODLIST.md#%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA-%D0%BC%D0%BE%D0%B4%D0%BE%D0%B2-%D0%B8-%D1%85%D1%8D%D1%88-%D1%81%D1%83%D0%BC%D0%BC%D1%8B---010523)
+  - [MUSICLIST](https://github.com/DRACTION/ZARYA-Vanilla-1.18.2/blob/370ff178cbc2c5c40225f168a36872908fd71a8b/.minecraft/config/MusicTriggers/songs/assets/musictriggers/sounds/music/MUSICLIST.md)
   - [minecolonies = шаблонные схемы зданий](https://trello.com/c/N7CJP1SS "smartCard-inline")
   - [WitherStorm = Выключил музыку мода](https://trello.com/c/Jqk0uHEb "smartCard-inline")
   - [Новая механика работы точила](https://trello.com/c/29kXmGwX "smartCard-inline")  ([-3 дня моей жизни](https://gist.github.com/DRACTION/aa961bc0877afc5d18e0ab5bca2a1f9b "‌"))!!!
