@@ -8,7 +8,7 @@
 .minecraft/config/MusicTriggers/songs/assets/musictriggers/lang/
 .minecraft/config/MusicTriggers/songs/assets/musictriggers/models/
 .minecraft/config/MusicTriggers/songs/assets/musictriggers/textures/
-# .minecraft/config/MusicTriggers/songs/assets/musictriggers/sounds/music/*.ogg
+.minecraft/config/MusicTriggers/songs/assets/musictriggers/sounds/music/*.ogg
 .minecraft/config/MusicTriggers/songs/assets/musictriggers/sounds.json
 .minecraft/config/jei/world/
 .minecraft/coremods/
@@ -24,7 +24,7 @@
 .minecraft/kubejs/exported/
 .minecraft/minecolonies/
 .minecraft/music_sheets/
-# .minecraft/mods/*.jar
+.minecraft/mods/*.jar
 .minecraft/patchouli_books/
 .minecraft/quests_structures/
 .minecraft/saves/
