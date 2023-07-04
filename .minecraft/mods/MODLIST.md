@@ -72,6 +72,9 @@
     Имя файла: cameraoverhaul-1.0-1.18.2.jar
     MD5: F3C5B4C8C1752DB45037B714AE281F94
 ---
+    Имя файла: catalogue-1.6.2-1.18.2.jar
+    MD5: 72583082FD6488DB636EFBB1AEC21A4E
+---
     Имя файла: chat_heads-0.6.1-forge-1.18.2.jar
     MD5: F32370349E4569493B9FF13043B39C0D
 ---
@@ -99,11 +102,14 @@
     Имя файла: Clumps-forge-1.18.2-8.0.0+17.jar
     MD5: E5EBB4B35230590651C3D6ACEDC550C0
 ---
-    Имя файла: collective-1.18.2-6.57.jar
-    MD5: 80D13FC145F2259D3F8B0FE6E360C0E0
+    Имя файла: collective-1.18.2-6.62.jar
+    MD5: 598F9A7218550BF80D5A6B14C090DD6B
 ---
     Имя файла: comforts-forge-1.18.2-5.0.0.6.jar
     MD5: 3008390001A8F16946ACA4B7411FB1E2
+---
+    Имя файла: configured-2.0.1-1.18.2.jar
+    MD5: 48F1FFF6652867BF66CC08FE5BE42AE5
 ---
     Имя файла: connectedglass-1.1.6-forge-mc1.18.jar
     MD5: C5A549C469727C5A8DDBAE4CC55E3AAB
@@ -123,14 +129,14 @@
     Имя файла: craftingtweaks-forge-1.18.2-14.0.7.jar
     MD5: 597A5C57BDF53EE329B28968AFC9D968
 ---
-    Имя файла: create-1.18.2-0.5.0.i.jar
-    MD5: A76FF4F84748552FE28AE57AA569B9F0
+    Имя файла: create-1.18.2-0.5.1.b.jar
+    MD5: 44E70D1408CB156FF635140B385C0AD5
 ---
-    Имя файла: createaddition-1.18.2-20230507a.jar
-    MD5: 1A8390069125287D7D5EB4219C6333F5
+    Имя файла: createaddition-1.18.2-20230623a.jar
+    MD5: 1F4280D40C1DD159D0E7CE4687E586B8
 ---
-    Имя файла: createdeco-1.3.2-1.18.2.jar
-    MD5: 6DE6877FAAE949028596D1205875D546
+    Имя файла: createdeco-1.3.3-1.18.2.jar
+    MD5: 2E2116EFBE27EA49D4780E2674F58B04
 ---
     Имя файла: CreativeCore_FORGE_v2.6.16_mc1.18.2.jar
     MD5: CD1A5AAFE874210651DFD2BE713F2CEC
@@ -165,8 +171,8 @@
     Имя файла: domum_ornamentum-1.18.2-1.0.77-ALPHA-universal.jar
     MD5: B3E99E7E35EA3F79D7D886BDF64CE8B0
 ---
-    Имя файла: DungeonCrawl-1.18.2-2.3.12.jar
-    MD5: BCC0633B5195CC5F02B596BB6D1F0CB7
+    Имя файла: DungeonCrawl-1.18.2-2.3.14.jar
+    MD5: 2BD7A9F50C99A156D4BA84B1D581D55F
 ---
     Имя файла: Durability101-forge-1.18-0.0.4.jar
     MD5: 1B039E46892E27FCCD831CE1BB42B91F
@@ -183,8 +189,8 @@
     Имя файла: EnchantingInfuser-v3.3.3-1.18.2-Forge.jar
     MD5: 87505C9B2E8D6A53E7CF2FB605C8BDF9
 ---
-    Имя файла: EnhancedAI-1.6.5-mc1.18.2.jar
-    MD5: F695FEAAA7F170878AE191FB27EB3486
+    Имя файла: EnhancedAI-1.6.5-ZaryaEdition-mc1.18.2.jar
+    MD5: 10F4222EF525BF09F224FC6844F7142A
 ---
     Имя файла: EnhancedVisuals_FORGE_v1.6.4_mc1.18.2.jar
     MD5: 3FA35E0F60BFA5C0AFA9A6E099B099C8
@@ -288,8 +294,8 @@
     Имя файла: Iceberg-1.18.2-forge-1.0.49.jar
     MD5: 34CF6CACF18F8E7EEFE759042EDFC42E
 ---
-    Имя файла: immersive_paintings-0.6.0+1.18.2-forge.jar
-    MD5: B98EDAB2E062A0D62BB470F9AB88A8FA
+    Имя файла: immersive_paintings-0.6.1+1.18.2-forge.jar
+    MD5: F78F6E728665A8BCB49AD20A7AC7AF95
 ---
     Имя файла: incontrol-1.18-6.1.9.jar
     MD5: DF32F59A6DD987E8328C837D1C9BA494
@@ -297,8 +303,8 @@
     Имя файла: InsaneLib-1.5.3-mc1.18.2.jar
     MD5: 99E2A21EC2D5FB5C89063498381083BE
 ---
-    Имя файла: InventoryProfilesNext-forge-1.18.2-1.10.3.jar
-    MD5: BA1458FB0375F2F660EE3D9F50D2D4D3
+    Имя файла: InventoryProfilesNext-forge-1.18.2-1.10.6.jar
+    MD5: A970E3C8FE146B7AEECA26658426A967
 ---
     Имя файла: InventorySpam-1.18-1.5.0.jar
     MD5: 5C3CE9502CD68638C6E5D1956193F952
@@ -318,8 +324,8 @@
     Имя файла: jeed-1.18.2-1.11.jar
     MD5: 4DEFA1F44186E80277F19047C64FFD89
 ---
-    Имя файла: jei-1.18.2-forge-10.2.1.1004.jar
-    MD5: 69717B3275878D9D8B8DABFC43C6056C
+    Имя файла: jei-1.18.2-forge-10.2.1.1005.jar
+    MD5: 2CA8E4F60A1F0FF78838A93F5FB8F697
 ---
     Имя файла: JEIEnchantmentInfo-1.17.1-2.0.0.jar
     MD5: 8CC31AD78C598D22DF44B7C046A5D799
@@ -339,8 +345,8 @@
     Имя файла: kotlinforforge-3.12.0-all.jar
     MD5: 9026097FF419BD2D8A10F2E5755D4888
 ---
-    Имя файла: kubejs-create-forge-1802.2.2-build.28.jar
-    MD5: 652188C89971149ACB26FCDD1BA1395C
+    Имя файла: kubejs-create-forge-1802.2.4-build.5.jar
+    MD5: 07A3C1E2AE2DC705F9C51EE8600FA5FF
 ---
     Имя файла: kubejs-forge-1802.5.5-build.569.jar
     MD5: A0E2686D7CA57EA9B0A6577048E6B448
@@ -351,9 +357,6 @@
     Имя файла: libIPN-forge-1.18.2-3.0.2.jar
     MD5: 937E6A33B067FF29B0DD416453A020E1
 ---
-    Имя файла: littlecontraptions-forge-1.18.2.1.jar
-    MD5: 9F370529BCD3B3B6A171A219841B2232
----
     Имя файла: littlelogistics-mc1.18.2-v1.2.6.jar
     MD5: 3EA6B6692E312E5DEC77A7488D695110
 ---
@@ -363,11 +366,11 @@
     Имя файла: lootjs-forge-1.18.2-2.7.7.jar
     MD5: A310618769FDAAB86CBD8A030DC8630F
 ---
-    Имя файла: lootr-1.18.2-0.3.25.62.jar
-    MD5: 0DA4A1FA943555C72A4FEA0D3F42EC94
+    Имя файла: lootr-1.18.2-0.3.25.63.jar
+    MD5: 6F0BFE14B17B5D2BC7DD02157C0F5253
 ---
-    Имя файла: MaxHealthFix-Forge-1.18.2-5.0.1.jar
-    MD5: FE66F477C7E2CCB4576FD86718625A7D
+    Имя файла: MaxHealthFix-Forge-1.18.2-5.0.4.jar
+    MD5: 84B93DA3B946408B1F62CB3789388DE2
 ---
     Имя файла: mcwifipnp-1.6.2-1.18.2-forge.jar
     MD5: 506C93C3B346F14A7C7B178FA6A91C18
@@ -411,8 +414,8 @@
     Имя файла: nohostilesaroundcampfire-1.18.2-5.4.jar
     MD5: 11A30FC3C41294000F7C878D47BB3A42
 ---
-    Имя файла: nomowanderer-1.18.2_1.1.5.jar
-    MD5: 66BA6B5E549A490E7D1B97C5187254C8
+    Имя файла: nomowanderer-1.18.2_1.1.6.jar
+    MD5: 480D15A8B767340BF3F28EFD0612ED06
 ---
     Имя файла: norecipeadvancements-1.18.2-2.0.1.jar
     MD5: 57EEA7EE8788995D393BC214E932946C
@@ -429,8 +432,8 @@
     Имя файла: OnlyLooking-1.18.2-1.4.0.jar
     MD5: 0C1F8FC21A9EB5C19111B994AD25C183
 ---
-    Имя файла: open-parties-and-claims-forge-1.18.2-0.17.5.jar
-    MD5: 4240F767B4C571F3BF0B4FF3AE458DEF
+    Имя файла: open-parties-and-claims-forge-1.18.2-0.18.0.jar
+    MD5: DF61AFFC2E4DAF5D99A703E92FCD792E
 ---
     Имя файла: parry-2.3.1.jar
     MD5: DD92F34790DCF7D465C37E59C236A606
@@ -456,14 +459,14 @@
     Имя файла: productivebees-1.18.2-0.9.3.0.jar
     MD5: F3F796748ED18F7C93C10A77824A9676
 ---
-    Имя файла: ProgressiveBosses-3.6.5-mc1.18.2.jar
-    MD5: EFA94254CFBC69201C297FACADC45F41
+    Имя файла: ProgressiveBosses-3.6.6-mc1.18.2.jar
+    MD5: A4099C508353878D7A0D756A7609FA89
 ---
     Имя файла: projectvibrantjourneys-1.18.2-4.1.1.jar
     MD5: C579E5302954AB1866CF383286B7D4EA
 ---
-    Имя файла: PuzzlesLib-v3.4.5-1.18.2-Forge.jar
-    MD5: 7B0F49EBFD99617CDEBA7FD3A03FECD7
+    Имя файла: PuzzlesLib-v3.4.6-1.18.2-Forge.jar
+    MD5: 0D6514E413A36A7F562172A388B57038
 ---
     Имя файла: questsadditions-1.18.2-1.4.2.jar
     MD5: 396E3CBBB6FB5665CE5ED09FA590835A
@@ -480,17 +483,20 @@
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
 ---
-    Имя файла: smallships-forge-1.18.2-2.0.0a2.2.jar
-    MD5: 724F1E9CF9757992DA4FDFEF87FB7152
+    Имя файла: smallships-forge-1.18.2-2.0.0-a2.3.1.jar
+    MD5: 28FBB6FE5B4B318063FFE32809508889
 ---
     Имя файла: SoL-Carrot-1.18.1-1.12.0.jar
     MD5: E701E8F88A93F78FF524B484D0624FB1
 ---
-    Имя файла: sophisticatedbackpacks-1.18.2-3.18.52.846.jar
-    MD5: EF7A8D6CB4B428E801652E20D744C1F3
+    Имя файла: sophisticatedbackpacks-1.18.2-3.18.55.869.jar
+    MD5: 47FE20CF29A24FBCFD5312AE3E9949D8
 ---
-    Имя файла: sophisticatedcore-1.18.2-0.5.69.315.jar
-    MD5: DBFF27930A99BDD450842350C136B59C
+    Имя файла: sophisticatedcore-1.18.2-0.5.74.340.jar
+    MD5: D96B2EAB1BEAD46A51CBD99435F1D99F
+---
+    Имя файла: sophisticatedstorage-1.18.2-0.8.29.490.jar
+    MD5: 90F07A8650320FF6CD5C0B58123FCA05
 ---
     Имя файла: spidersproducewebs-1.18.2-3.1.jar
     MD5: A79D5BA1360C6D59F13B100BA069866D
@@ -498,20 +504,17 @@
     Имя файла: spiderstpo-1.18.2-2.0.3.jar
     MD5: C6D905FF8689A035A72A40DE1916C75D
 ---
-    Имя файла: StorageDrawers-1.18.2-10.2.1.jar
-    MD5: DBCA0EEB2E7ED37CB585B6DEF632BE4D
----
     Имя файла: Structory-1.18.2-1.0.2.jar
     MD5: 6CD02BB8740F8BADC224C15AAD729C00
 ---
     Имя файла: structurize-1.18.2-1.0.424-ALPHA.jar
     MD5: CFE57638F44BCCAFAAD48399A280D3CB
 ---
-    Имя файла: supermartijn642corelib-1.1.9a-forge-mc1.18.jar
-    MD5: 83F4A692BB5769B01730FC3208981164
+    Имя файла: supermartijn642corelib-1.1.10-forge-mc1.18.jar
+    MD5: F85A11221698E8A08CD378E4742B143B
 ---
-    Имя файла: supplementaries-1.18.2-1.5.17.jar
-    MD5: FADD08392F82090AC3BD2B52627C8BFD
+    Имя файла: supplementaries-1.18.2-1.5.18.jar
+    MD5: 374FF11DC914E4CA9B514B75F18B3BC1
 ---
     Имя файла: TerraBlender-forge-1.18.2-1.2.0.126.jar
     MD5: 8BB74F84DB692A34652D0D8BD2E3749F

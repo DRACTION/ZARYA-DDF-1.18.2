@@ -1,0 +1,6 @@
+
+#Server Settings
+[server]
+	#Disable / enable any items here (disables their recipes)
+	enabledItems = ["sophisticatedstorage:pump_upgrade|false", "sophisticatedstorage:advanced_pump_upgrade|false", "sophisticatedstorage:xp_pump_upgrade|false", "sophisticatedstorage:smelting_upgrade|false", "sophisticatedstorage:auto_smelting_upgrade|false", "sophisticatedstorage:smoking_upgrade|false", "sophisticatedstorage:auto_smoking_upgrade|false", "sophisticatedstorage:blasting_upgrade|false", "sophisticatedstorage:auto_blasting_upgrade|false", "sophisticatedstorage:feeding_upgrade|false", "sophisticatedstorage:advanced_feeding_upgrade|false", "sophisticatedstorage:crafting_upgrade|false", "sophisticatedstorage:stonecutter_upgrade|false"]
+

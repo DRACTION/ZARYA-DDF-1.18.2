@@ -21,6 +21,8 @@
 	#Makes mobs be able to move in more ways, like climbing or swim.
 	"Enable Movement" = true
 	"Enable Attacking" = true
+	#Makes mobs be able to use TiCon stuff.
+	"Enable Tinkers Construct" = true
 
 	#Change how mobs target players
 	[Base.Targeting]
@@ -102,10 +104,18 @@
 		#Movement speed multiplier when attacking.
 		#Range: 0.0 ~ 4.0
 		"Movement Speed Multiplier" = 1.35
+		#Z@RYA.
+		#Range: 0.0 ~ 8.0
+		"Attack Damage" = 4.0
+		#Z@RYA from 1.19.2. Animals have this percentage chance to be able to fight back instead of fleeing. Animals have a slightly bigger range to attack.
+		"Fight back chance" = 0.3
+		#Z@RYA from 1.19.2. Animals knockback attribute will be set to this value.
+		#Range: 0.0 ~ 128.0
+		Knockback = 1.5
 
 		#Entities that shouldn't be affected by this feature
 		[Animal."Animal Attacking"."Entity Blacklist"]
-			Blacklist = ["minecraft:pig"]
+			Blacklist = ["minecraft:pig", "minecraft:llama", "minecraft:trader_llama", "minecraft:bee", "minecraft:wolf", "minecraft:bear", "minecraft:panda", "minecraft:axolotl"]
 			#If true the list will be treated as a whitelist instead of blacklist
 			"List as Whitelist" = false
 

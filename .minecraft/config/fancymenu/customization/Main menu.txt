@@ -20,6 +20,38 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 102
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  seconds = 3.4
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  seconds = 3.4
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_quit_button
@@ -43,29 +75,11 @@ customization {
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
   x = 0
   action = movebutton
-  y = 23
+  y = 24
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  seconds = 3.4
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 1.0
-  action = hidebuttonfor
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
-  x = 102
-  action = movebutton
-  y = 23
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   seconds = 3.4
   onlyfirsttime = true
   fadein = true
@@ -99,26 +113,16 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  action = hidebutton
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 51
+  action = movebutton
+  y = 49
 }
 
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  seconds = 3.4
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 1.0
-  action = hidebuttonfor
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  seconds = 3.4
+  seconds = 3.6
   onlyfirsttime = true
   fadein = true
   fadeinspeed = 1.0
@@ -128,8 +132,8 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 346
-  width = 268
+  x = 270
+  width = 421
   action = deep_customization_element:title_screen_forge_top
   actionid = 987ac985-8ac4-42a9-b575-ff053342a87c1656593033574
   y = 4
@@ -150,8 +154,8 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 731
-  width = 228
+  x = 647
+  width = 312
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 88e169b9-07c9-4522-808f-24877b31b5221656593033574
   y = 489

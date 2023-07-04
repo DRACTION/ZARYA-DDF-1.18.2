@@ -27,7 +27,7 @@
 	"Min Ancient City Generation" = -58
 	#This is the max random value to generate Ancient Cities. Default: -45
 	#Range: -40 ~ 256
-	"Max Ancient City Generation" = -45
+	"Max Ancient City Generation" = -40
 	#Enable Ancient Cities. Default: true
 	"Ancient City Generation" = true
 	#If you don't want to generate Sculk Biome as biome change this to true and disable the option Sculk Biome. Default: false
