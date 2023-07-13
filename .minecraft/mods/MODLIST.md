@@ -108,11 +108,14 @@
     Имя файла: comforts-forge-1.18.2-5.0.0.6.jar
     MD5: 3008390001A8F16946ACA4B7411FB1E2
 ---
+    Имя файла: Companion-1.18.2-forge-2.2.0.jar
+    MD5: 7117FE576A9DF5B7C39268CC86BBAEBF
+---
     Имя файла: configured-2.0.1-1.18.2.jar
     MD5: 48F1FFF6652867BF66CC08FE5BE42AE5
 ---
-    Имя файла: connectedglass-1.1.6-forge-mc1.18.jar
-    MD5: C5A549C469727C5A8DDBAE4CC55E3AAB
+    Имя файла: connectedglass-1.1.7-forge-mc1.18.jar
+    MD5: A6FB3C66E90C0E739E08AD4EF80A200F
 ---
     Имя файла: Controlling-forge-1.18.2-9.0+23.jar
     MD5: BE8BAE23287AFCCA33FCFB24AFCA025B
@@ -129,8 +132,8 @@
     Имя файла: craftingtweaks-forge-1.18.2-14.0.7.jar
     MD5: 597A5C57BDF53EE329B28968AFC9D968
 ---
-    Имя файла: create-1.18.2-0.5.1.b.jar
-    MD5: 44E70D1408CB156FF635140B385C0AD5
+    Имя файла: create-1.18.2-0.5.1.c.jar
+    MD5: 7E645001C471244F7207679759A4D366
 ---
     Имя файла: createaddition-1.18.2-20230623a.jar
     MD5: 1F4280D40C1DD159D0E7CE4687E586B8
@@ -138,8 +141,8 @@
     Имя файла: createdeco-1.3.3-1.18.2.jar
     MD5: 2E2116EFBE27EA49D4780E2674F58B04
 ---
-    Имя файла: CreativeCore_FORGE_v2.6.16_mc1.18.2.jar
-    MD5: CD1A5AAFE874210651DFD2BE713F2CEC
+    Имя файла: CreativeCore_FORGE_v2.6.17_mc1.18.2.jar
+    MD5: 87A663FAD3077FC0AD12A8C8223208B0
 ---
     Имя файла: CreeperHeal-1.18.2-2.0.1-ZaryaEdition.jar
     MD5: 5BA5CF78B8B394F4568C59189E98CD62
@@ -162,8 +165,8 @@
     Имя файла: despawningeggshatch-1.18.2-4.1.jar
     MD5: 8E2D6148FC498C9D51ACD24406F4139B
 ---
-    Имя файла: Ding-1.18.2-Forge-1.4.0.jar
-    MD5: E57476BF0BB4B01D7407EE280A60493F
+    Имя файла: Ding-1.18.2-Forge-1.4.1.jar
+    MD5: CE9DB16DA8F80B65380C688E426C5929
 ---
     Имя файла: DoggyTalents-1.18.2-2.5.11-ZaryaEdition.jar
     MD5: 07ECF4A030D2E749628446707878A711
@@ -190,7 +193,7 @@
     MD5: 87505C9B2E8D6A53E7CF2FB605C8BDF9
 ---
     Имя файла: EnhancedAI-1.6.5-ZaryaEdition-mc1.18.2.jar
-    MD5: 10F4222EF525BF09F224FC6844F7142A
+    MD5: 6072879731175B6A9D23ABE597C805B3
 ---
     Имя файла: EnhancedVisuals_FORGE_v1.6.4_mc1.18.2.jar
     MD5: 3FA35E0F60BFA5C0AFA9A6E099B099C8
@@ -204,8 +207,11 @@
     Имя файла: environmentalcreepers-forge-1.18.1-1.6.1.jar
     MD5: 6304D608FFA074ADE01D59290FEC48C2
 ---
-    Имя файла: EverlastingSkins-1.18.2-0.0.0.3.jar
-    MD5: B9F4224608B787085C64C3FAE7CACC22
+    Имя файла: epicfight-18.3.8-ZaryaEdition.jar
+    MD5: 34F5B0CD84C3AB87A5CA14664B82EF4F
+---
+    Имя файла: EverlastingSkins-1.18.2-1.0.jar
+    MD5: 74615E47F2933901F07012A9F58AA89A
 ---
     Имя файла: ExplorersCompass-1.18.2-1.3.0-forge.jar
     MD5: 529495B1807538E76FAA5AA9AEB52E6A
@@ -246,8 +252,8 @@
     Имя файла: flickerfix-2.0.0.jar
     MD5: E55681EDA76E14E79BAA94DFC6474FE9
 ---
-    Имя файла: flywheel-forge-1.18.2-0.6.8.a.jar
-    MD5: CF0270B5AFB319AAC5B6E0B42C9F7AF6
+    Имя файла: flywheel-forge-1.18.2-0.6.9-101.jar
+    MD5: B296105A166AD262CC112B8F4DF8BD3C
 ---
     Имя файла: ForgeEndertech-1.18.2-9.0.7.0-build.1490.jar
     MD5: CA18EC1EECC95C8160F8437E88706E2D
@@ -273,9 +279,6 @@
     Имя файла: ftb-ultimine-forge-1802.3.3-build.70.jar
     MD5: 323DD9D083E8D2590B2DDACC0BBCD7E1
 ---
-    Имя файла: ftbbackups2-forge-1.18.2-1.0.19.jar
-    MD5: 479C9E06840006E4B20612DFD9901B78
----
     Имя файла: geckolib-forge-1.18-3.0.57.jar
     MD5: D491C30C6D9BD3F767BD545CBAF6502E
 ---
@@ -297,8 +300,8 @@
     Имя файла: immersive_paintings-0.6.1+1.18.2-forge.jar
     MD5: F78F6E728665A8BCB49AD20A7AC7AF95
 ---
-    Имя файла: incontrol-1.18-6.1.9.jar
-    MD5: DF32F59A6DD987E8328C837D1C9BA494
+    Имя файла: incontrol-1.18-6.1.10.jar
+    MD5: D2C9F8CAE66649B4103BAF65FB898C4A
 ---
     Имя файла: InsaneLib-1.5.3-mc1.18.2.jar
     MD5: 99E2A21EC2D5FB5C89063498381083BE
@@ -339,6 +342,9 @@
     Имя файла: justverticalslabs-1.18.2-4.0.0.0-forge.jar
     MD5: D33BD26ACF2F751EBBE6802E0DF38007
 ---
+    Имя файла: Kiwi-1.18.2-forge-6.1.4.jar
+    MD5: 194BBC8CBBD2D0517B3A4A85A92E7675
+---
     Имя файла: konkrete_forge_1.6.1_MC_1.18-1.18.2.jar
     MD5: 6AE33E7D06AB83AF63D248ACF2032526
 ---
@@ -375,11 +381,11 @@
     Имя файла: mcwifipnp-1.6.2-1.18.2-forge.jar
     MD5: 506C93C3B346F14A7C7B178FA6A91C18
 ---
-    Имя файла: minecolonies-1.18.2-1.0.1440-ALPHA.jar
-    MD5: CCC54C85E941FA75D8EB83F6AC124DD4
+    Имя файла: minecolonies-1.18.2-1.0.1535-ALPHA.jar
+    MD5: 256BD1420802C598AF96BF54A77DE95D
 ---
-    Имя файла: mmlib-1.2.0-1.18.2.jar
-    MD5: 7BF9A6F271A16E0AD783E00E538D2336
+    Имя файла: mmlib-1.2.2-1.18.2.jar
+    MD5: 4CDCC020628977FD59F04C2DCC4CDEEE
 ---
     Имя файла: morejs-forge-1.18.2-0.0.6.jar
     MD5: C21909209E50CC607BB2BFBD956A8AAE
@@ -432,8 +438,8 @@
     Имя файла: OnlyLooking-1.18.2-1.4.0.jar
     MD5: 0C1F8FC21A9EB5C19111B994AD25C183
 ---
-    Имя файла: open-parties-and-claims-forge-1.18.2-0.18.0.jar
-    MD5: DF61AFFC2E4DAF5D99A703E92FCD792E
+    Имя файла: open-parties-and-claims-forge-1.18.2-0.19.0.jar
+    MD5: 67F4BD70F1597276B81D6D2EA9A8ECAE
 ---
     Имя файла: parry-2.3.1.jar
     MD5: DD92F34790DCF7D465C37E59C236A606
@@ -483,6 +489,9 @@
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
 ---
+    Имя файла: SimpleBackups-1.18.2-1.1.13.jar
+    MD5: A7B46FC7416AEEF71D7A20C363C7FABD
+---
     Имя файла: smallships-forge-1.18.2-2.0.0-a2.3.1.jar
     MD5: 28FBB6FE5B4B318063FFE32809508889
 ---
@@ -492,11 +501,11 @@
     Имя файла: sophisticatedbackpacks-1.18.2-3.18.55.869.jar
     MD5: 47FE20CF29A24FBCFD5312AE3E9949D8
 ---
-    Имя файла: sophisticatedcore-1.18.2-0.5.74.340.jar
-    MD5: D96B2EAB1BEAD46A51CBD99435F1D99F
+    Имя файла: sophisticatedcore-1.18.2-0.5.77.357.jar
+    MD5: 2A068FC6D49D9F6B8CDA834C548AB2F7
 ---
-    Имя файла: sophisticatedstorage-1.18.2-0.8.29.490.jar
-    MD5: 90F07A8650320FF6CD5C0B58123FCA05
+    Имя файла: sophisticatedstorage-1.18.2-0.8.32.517.jar
+    MD5: AFD2372B0CD7B5CD42515BBA33225829
 ---
     Имя файла: spidersproducewebs-1.18.2-3.1.jar
     MD5: A79D5BA1360C6D59F13B100BA069866D

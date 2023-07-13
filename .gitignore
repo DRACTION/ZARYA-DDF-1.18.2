@@ -3,6 +3,8 @@
 .minecraft/.physics_mod_cache/
 .minecraft/backups/
 .minecraft/config/*.bak
+.minecraft/config/forgeendertech/cached.dat
+.minecraft/config/WildfireGender/
 .minecraft/config/MusicTriggers/debug.toml
 .minecraft/config/MusicTriggers/songs/pack.mcmeta
 .minecraft/config/MusicTriggers/songs/assets/musictriggers/lang/
@@ -31,6 +33,7 @@
 .minecraft/patchouli_books/
 .minecraft/quests_structures/
 .minecraft/saves/
+.minecraft/simplebackups/
 .minecraft/schematics/uploaded/
 .minecraft/screenshots/
 .minecraft/server-resource-packs/

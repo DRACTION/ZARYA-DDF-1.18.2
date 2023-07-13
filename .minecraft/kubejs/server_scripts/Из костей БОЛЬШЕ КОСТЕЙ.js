@@ -1,12 +1,10 @@
-
 onEvent("lootjs", (event) => {
 
-	var minBones = 2
-	var maxBones = 5
-	var fortuneAmount = 3
+	let minBones = 2
+	let maxBones = 5
+	let fortuneAmount = 3
 
-
-	var diffMinMax = maxBones - minBones
+	let diffMinMax = maxBones - minBones
 	
 	event
 		.addBlockLootModifier('projectvibrantjourneys:bones')
@@ -14,6 +12,5 @@ onEvent("lootjs", (event) => {
 			return Item.of('minecraft:bone').withCount(minBones + Math.floor(Math.random() * diffMinMax))
 		})
 		.randomChanceWithEnchantment('minecraft:fortune', [0, 0.2, 0.5, 1]) 
-		.addLoot(fortuneAmount+'x minecraft:bone')
+		.addLoot(`${fortuneAmount}x minecraft:bone`)
 })
-

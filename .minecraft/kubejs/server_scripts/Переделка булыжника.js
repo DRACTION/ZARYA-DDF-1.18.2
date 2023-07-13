@@ -10,10 +10,10 @@ let za_rocksToBlocks = [ //[камень, блок_из_этого_камня]
 
 onEvent("lootjs", (event) => {
 
-	var amountRocks = [2, 5] // от скольки до скольки камней выпадает при разрушении камня
-	var additionalFixDropThings = ['projectvibrantjourneys:seashells', 'projectvibrantjourneys:ice_chunks']
+	let amountRocks = [1, 3] // от скольки до скольки камней выпадает при разрушении камня
+	let additionalFixDropThings = ['projectvibrantjourneys:seashells', 'projectvibrantjourneys:ice_chunks']
 
-	var diffMinMax = amountRocks[1] - amountRocks[0]
+	let diffMinMax = amountRocks[1] - amountRocks[0]
 
 	event
 		.addBlockLootModifier("minecraft:stone")
@@ -40,22 +40,48 @@ onEvent("lootjs", (event) => {
 
 onEvent('recipes', event => {
 
-	var amountRocksForBlock = 3 // количество камней для крафта одного блока
+	let amountRocksForBlock = 3 // количество камней для крафта
+	let amountResBlocks = 2 // количество блоков на выходе
 
 	za_rocksToBlocks.forEach(thing => {
 
-		var inputRock = Item.of(thing[0]).ignoreNBT()
+		let inputRock = Item.of(thing[0]).ignoreNBT()
 		event.remove({mod: 'projectvibrantjourneys', input: inputRock})
 
 		if (thing[0].search(/.*sandstone.*/) != -1) {  event.remove({id: thing[1]})  }
 
-		event.shapeless(thing[1], [inputRock.withCount(amountRocksForBlock), 'minecraft:clay_ball'])
+		event.shapeless(
+			Item.of(thing[1]).withCount(amountResBlocks),
+			[inputRock.withCount(amountRocksForBlock), 'minecraft:clay_ball']
+		)
+		// Для большего результата с тем же кол-вом глины
+		event.shapeless(
+			Item.of(thing[1]).withCount(amountResBlocks*2),
+			[inputRock.withCount(amountRocksForBlock*2), 'minecraft:clay_ball']
+		)
 		
 	})
 
-	//Альтернатива для песчаника
-	event.shapeless('minecraft:sandstone', ['2x projectvibrantjourneys:rocks', '2x minecraft:sand', 'minecraft:clay_ball'])
-	event.shapeless('minecraft:red_sandstone', ['2x projectvibrantjourneys:rocks', '2x minecraft:red_sand', 'minecraft:clay_ball'])
+	// Альтернатива для песчаника
+	event.shapeless('minecraft:sandstone', ['projectvibrantjourneys:rocks', 'minecraft:sand', 'minecraft:clay_ball'])
+	event.shapeless('2x minecraft:sandstone', ['2x projectvibrantjourneys:rocks', '2x minecraft:sand', 'minecraft:clay_ball'])
+	event.shapeless('3x minecraft:sandstone', ['3x projectvibrantjourneys:rocks', '3x minecraft:sand', 'minecraft:clay_ball'])
+	event.shapeless('4x minecraft:sandstone', ['4x projectvibrantjourneys:rocks', '4x minecraft:sand', 'minecraft:clay_ball'])
+	// С камнем песчаника
+	event.shapeless('minecraft:sandstone', ['projectvibrantjourneys:sandstone_rocks', 'minecraft:sand', 'minecraft:clay_ball'])
+	event.shapeless('2x minecraft:sandstone', ['2x projectvibrantjourneys:sandstone_rocks', '2x minecraft:sand', 'minecraft:clay_ball'])
+	event.shapeless('3x minecraft:sandstone', ['3x projectvibrantjourneys:sandstone_rocks', '3x minecraft:sand', 'minecraft:clay_ball'])
+	event.shapeless('4x minecraft:sandstone', ['4x projectvibrantjourneys:sandstone_rocks', '4x minecraft:sand', 'minecraft:clay_ball'])
+	// Красный песчаник
+	event.shapeless('minecraft:red_sandstone', ['projectvibrantjourneys:rocks', 'minecraft:red_sand', 'minecraft:clay_ball'])
+	event.shapeless('2x minecraft:red_sandstone', ['2x projectvibrantjourneys:rocks', '2x minecraft:red_sand', 'minecraft:clay_ball'])
+	event.shapeless('3x minecraft:red_sandstone', ['3x projectvibrantjourneys:rocks', '3x minecraft:red_sand', 'minecraft:clay_ball'])
+	event.shapeless('4x minecraft:red_sandstone', ['4x projectvibrantjourneys:rocks', '4x minecraft:red_sand', 'minecraft:clay_ball'])
+	// red_sandstone_rocks
+	event.shapeless('minecraft:red_sandstone', ['projectvibrantjourneys:red_sandstone_rocks', 'minecraft:red_sand', 'minecraft:clay_ball'])
+	event.shapeless('2x minecraft:red_sandstone', ['2x projectvibrantjourneys:red_sandstone_rocks', '2x minecraft:red_sand', 'minecraft:clay_ball'])
+	event.shapeless('3x minecraft:red_sandstone', ['3x projectvibrantjourneys:red_sandstone_rocks', '3x minecraft:red_sand', 'minecraft:clay_ball'])
+	event.shapeless('4x minecraft:red_sandstone', ['4x projectvibrantjourneys:red_sandstone_rocks', '4x minecraft:red_sand', 'minecraft:clay_ball'])
 
 	//Разделывание на доске киркой камня на былужник
 	event.remove({id: 'farmersdelight:cutting/stone'})

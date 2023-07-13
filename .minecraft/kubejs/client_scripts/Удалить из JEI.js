@@ -1,4 +1,4 @@
-let ZA_removedItems = [
+let za_removedItems = [
 	// Better Punching
 	'betterpunching:flint_dagger',
 	'betterpunching:flint_spade',
@@ -21,6 +21,8 @@ let ZA_removedItems = [
 	'littlelogistics:automatic_switch_rail',
 	'littlelogistics:automatic_tee_junction_rail',
 	'littlelogistics:car_dock_rail',
+	// Epic Fight
+	'epicfight:stone_greatsword',
 	// Effortless Building
 	'effortlessbuilding:randomizer_bag',
 	'effortlessbuilding:golden_randomizer_bag',
@@ -29,5 +31,5 @@ let ZA_removedItems = [
 
 
 onEvent('jei.hide.items', event => {
-	event.hide(ZA_removedItems)
+	event.hide(za_removedItems)
 })

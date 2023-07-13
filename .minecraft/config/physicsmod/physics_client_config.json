@@ -21,8 +21,6 @@
   "leashPhysics": true,
   "bannerPhysics": true,
   "clothSmoothShading": false,
-  "physicsModCape": true,
-  "selectedPhysicsCape": "Physics Mod Cape.dae",
   "showUpdateNotifications": true,
   "clothThreads": 2,
   "leashLength": 3.0,
@@ -56,7 +54,7 @@
   "snowSmoothShading": true,
   "snowChunkSize": 0,
   "blockSettings": {
-    "Physics Type": 0,
+    "Physics Type": 5,
     "Lifetime": 1.600000023841858,
     "Lifetime Variance": 3.0,
     "Scale": 0.3499999940395355,
@@ -101,7 +99,6 @@
   "oceanDetail": 1.0,
   "oceanWaveHeightMultiplier": 1.0,
   "oceanBlockRange": 32,
-  "oceanChunkGrouping": 6,
   "oceanWeatherClear": 0.0,
   "oceanWeatherRain": 0.75,
   "oceanWeatherThunder": 0.25,
@@ -119,6 +116,11 @@
   "jointBreakForce": 1.0,
   "jointBlood": 1.0,
   "mobRagdollLimit": 16,
+  "clothEntityRange": 48.0,
+  "clothForceArmor": false,
+  "oceanPuddles": true,
+  "oceanFoamAmount": 0.8,
+  "oceanFoamOpacity": 0.5,
   "customizedGravities": [
     "minecraft:the_nether",
     0.0,
@@ -154,6 +156,5 @@
     0.0,
     2.0,
     0.0
-  ],
-  "customizedCapes": []
+  ]
 }

@@ -1,6 +1,6 @@
 {
 	"ftbteams": {
-		"my_team": true
+		"my_team": false
 	},
 	"ftbquests": {
 		"quests": true
@@ -12,6 +12,6 @@
 		"toggle.night": true
 	},
 	"ftbessentials": {
-		"trash_can": true
+		"trash_can": false
 	}
 }

@@ -21,8 +21,6 @@
 	#Makes mobs be able to move in more ways, like climbing or swim.
 	"Enable Movement" = true
 	"Enable Attacking" = true
-	#Makes mobs be able to use TiCon stuff.
-	"Enable Tinkers Construct" = true
 
 	#Change how mobs target players
 	[Base.Targeting]

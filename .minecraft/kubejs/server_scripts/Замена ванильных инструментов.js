@@ -3,26 +3,7 @@
 
 onEvent('recipes', e => {
 
-	var modifyTool = (e, result, pattern, materials) => {
-		modifyShapedID(e, result, result, 1, pattern, materials)
-	}
-
-	var modifyAllTools = (e, inMaterialOutIDArr, materialsArr, templatesObj) => {
-
-		var toolsNames = Object.keys(templatesObj)
-		
-		inMaterialOutIDArr.forEach((inOut) => {
-
-			materialsArr.X = inOut.material
-
-			toolsNames.forEach((toolName) => {
-				modifyShapedID(e, inOut.ID + toolName, inOut.ID + toolName, 1, templatesObj[toolName], materialsArr)
-			})
-		})
-	}
-
-
-	var materials = {
+	let materials = {
 		R: 'supplementaries:rope',
 		S: '#forge:rods/wooden'	
 	}
@@ -30,7 +11,7 @@ onEvent('recipes', e => {
 	e.shapeless(materials.R, ['3x farmersdelight:straw']).id(`zarya:shapeless/${materials.R.replace(':', '/')}`)
 
 
-	var standartTemplates = {
+	let standartTemplates = {
 		shovel: [
 			'RXX',
 			' SX',
@@ -58,7 +39,7 @@ onEvent('recipes', e => {
 		]
 	}
 
-	var standardInToOut = [
+	let standardInToOut = [
 		{material: 'minecraft:diamond', ID: 'minecraft:diamond_'},
 		{material: 'minecraft:iron_ingot', ID: 'minecraft:iron_'},
 		{material: 'minecraft:gold_ingot', ID: 'minecraft:golden_'},
@@ -66,7 +47,15 @@ onEvent('recipes', e => {
 		{material: 'minecraft:flint', ID: 'minecraft:stone_'}
 	]
 
+	let toolsNames = Object.keys(standartTemplates)
+	
+	standardInToOut.forEach((inOut) => {
 
-	modifyAllTools(e, standardInToOut, materials, standartTemplates)
+		materials.X = inOut.material
+
+		toolsNames.forEach((toolName) => {
+			modifyShapedID(e, inOut.ID + toolName, inOut.ID + toolName, 1, standartTemplates[toolName], materials)
+		})
+	})
 
 })

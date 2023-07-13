@@ -13,7 +13,7 @@ onEvent('recipes', e => {
 		.replaceIngredient(Item.of('minecraft:potion', '{Potion:"minecraft:water"}'), 'minecraft:glass_bottle')
 
 	e.remove({ id: "create:crafting/appliances/slime_ball" })
-	e.shapeless('minecraft:slime_ball', ['#forge:dough', 'minecraft:lime_dye'])
+	// e.shapeless('minecraft:slime_ball', ['#forge:dough', 'minecraft:lime_dye'])
 
 	e.replaceInput({id: 'createaddition:compacting/cake_base'}, 'create:dough', '#forge:dough')
 

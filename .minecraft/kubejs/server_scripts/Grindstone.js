@@ -3,24 +3,24 @@
 let za_grindstone = {
   // Прибавка к прочности
   durability: {
-    div: 7, // ПрибавкаКПрочности = (МаксПрочность - ТекПрочность) / div
-    min: 5  // Если (ПрибавкаКПрочности < min) Тогда {ПрибавкаКПрочности = min}
+    div: 5, // ПрибавкаКПрочности = (МаксПрочность - ТекПрочность) / div
+    min: 10  // Если (ПрибавкаКПрочности < min) Тогда {ПрибавкаКПрочности = min}
   },
   // Шансы успешно починить предмет (если не успешно, то предмет "ломается")
   repair: {
-    min: 30.00,  // Минимальный (стартовый) шанс
-    max: 94.00, // Максимальный шанс
+    min: 62.00, // Минимальный (стартовый) шанс
+    max: 98.80, // Максимальный шанс
     step: 0.16  // Шаг, с которым шанс растёт до максимума
   },
-  // Шансы идеальной починки (полностью восстанавливается прочность), расчитывается при успехе, в %
+  // Шансы идеальной починки (полностью восстанавливается прочность, расчитывается при успехе), в %
   critRepair: {
-    min: 0.10, // Минимальный (стартовый) шанс
-    max: 5.00, // Максимальный шанс
-    step: 0.01 // Шаг, с которым шанс растёт до максимума
+    min: 0.50,  // Минимальный (стартовый) шанс
+    max: 10.00, // Максимальный шанс
+    step: 0.05  // Шаг, с которым шанс растёт до максимума
   },
   // Шансы сломать ещё и точило (расчитывается при провале), в %
   critFail: {
-    max: 50.00, // Максимальный (стартовый) шанс
+    max: 30.00, // Максимальный (стартовый) шанс
     min: 5.00,  // Минимальный шанс
     step: 0.20  // Шаг, с которым шанс уменьшается до минимума
   }
@@ -68,7 +68,7 @@ onEvent('block.right_click', e => {
     return newChance
   }
 
-  let setNewChance = (oldChance, abuse, nameChance, persistentData) => {
+  let setNewChance = (oldChance, abuse, nameChance, player) => {
 
     if (abuse) {return}
     
@@ -89,7 +89,25 @@ onEvent('block.right_click', e => {
       newChance = za_grindstone[nameChance].min
     }
     
-    persistentData.putFloat(`za_grindstone_${nameChance}`, newChance)
+    player.persistentData.putFloat(`za_grindstone_${nameChance}`, newChance)
+
+    // Уведомить, что достиг лучшего результата
+    let tellPlayerBestResult =
+      (isGoodChance && oldChance != za_grindstone[nameChance].max && newChance == za_grindstone[nameChance].max)
+      || (!isGoodChance && oldChance != za_grindstone[nameChance].min && newChance == za_grindstone[nameChance].min)
+
+    if (tellPlayerBestResult) {
+      if (nameChance == 'repair') {
+        player.tell(`[${player}]: НАКОНЕЦ-ТО!!! Я достиг наилучшего результата в шансе успешной заточки!`)
+      } else if (nameChance == 'critRepair') {
+        player.tell(`[${player}]: НАКОНЕЦ-ТО!!! Я достиг наилучшего результата в шансе ИДЕАЛЬНОЙ заточки!`)
+      } else if (nameChance == 'critFail') {
+        player.tell(`[${player}]: НАКОНЕЦ-ТО!!! Я достиг наилучшего результата в шансе НЕ СЛОМАТЬ ЭТО ЧЁРТОВО ТОЧИЛО!`)
+      }
+
+      // https://www.gamergeeks.net/apps/minecraft/give-command-generator/fireworks
+      e.server.runCommandSilent(`summon firework_rocket ${player.getBlock().x} ${player.getBlock().y + 2} ${player.getBlock().z} {LifeTime:20,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:3,Flicker:1b,Trail:1b,Colors:[I;16725770],FadeColors:[I;14584874]}]}}}}`)
+    }
 
   }
 
@@ -126,7 +144,7 @@ onEvent('block.right_click', e => {
             e.player.tell(`[${e.player}]: Упс! Кажется я сломал всё, что только мог... Молодец!`)
             e.block.set('minecraft:air')
 
-            setNewChance(curCritFailChance, abuse, 'critFail', e.player.persistentData)
+            setNewChance(curCritFailChance, abuse, 'critFail', e.player)
 
           }
           else { // Если повезло чуть лучше
@@ -148,7 +166,7 @@ onEvent('block.right_click', e => {
             // https://www.gamergeeks.net/apps/minecraft/give-command-generator/fireworks
             e.server.runCommandSilent(`summon firework_rocket ${e.block.x} ${e.block.y + 2} ${e.block.z} {LifeTime:20,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:4,Flicker:1b,Trail:1b,Colors:[I;4312372],FadeColors:[I;6719955]}]}}}}`)
             
-            setNewChance(curCritRepairChance, abuse, 'critRepair', e.player.persistentData)
+            setNewChance(curCritRepairChance, abuse, 'critRepair', e.player)
 
           }
           else {
@@ -176,7 +194,7 @@ onEvent('block.right_click', e => {
         e.server.runCommandSilent(`particle minecraft:electric_spark ${e.block.x} ${e.block.y + 0.5} ${e.block.z} 0.5 0.5 0.5 0.1 10 normal`)
         e.item.setNbt(copyItemNBT)
 
-        setNewChance(curRepairChance, abuse, 'repair', e.player.persistentData)
+        setNewChance(curRepairChance, abuse, 'repair', e.player)
 
       }
       else {
