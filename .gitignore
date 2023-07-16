@@ -44,7 +44,6 @@
 .minecraft/XaeroWaypoints/
 .minecraft/XaeroWaypoints_BACKUP032021
 .minecraft/XaeroWorldMap
-.minecraft/*.txt
 .minecraft/*.log
 .minecraft/*.json
 .minecraft/*.properties

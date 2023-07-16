@@ -26,7 +26,7 @@
 	#Shows the use of the Tombstone's enchantments in tooltip [false/true|default:true]
 	show_info_on_enchantment = true
 	#Favor the tools on the hotbar when recovering a grave [false/true|default:false]
-	priorize_tool_on_hotbar = false
+	priorize_tool_on_hotbar = true
 	#Allows to activate a grave by sneaking [false/true|default:true]
 	activate_grave_by_sneaking = true
 	#Denies to create a grave with your items when you die [false/true|default:false]
@@ -76,7 +76,7 @@
 	#Allowed Values: FANTASY, VANILLA
 	font_rule = "FANTASY"
 	#Display the combinations in item tooltip [false/true|default:true]
-	show_tooltip_combine = true
+	show_tooltip_combine = false
 	#Display an icon when fishing with the Rod of Misadventure showing if you're in openwater [false/true|default:true]
 	show_fishing_marker = true
 	#Prevent night vision from flashing when less than 5 seconds left [false/true|default:true]

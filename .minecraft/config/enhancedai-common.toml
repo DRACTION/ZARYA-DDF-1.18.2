@@ -104,7 +104,7 @@
 		"Movement Speed Multiplier" = 1.35
 		#Z@RYA.
 		#Range: 0.0 ~ 8.0
-		"Attack Damage" = 4.0
+		"Attack Damage" = 1.0
 		#Z@RYA from 1.19.2. Animals have this percentage chance to be able to fight back instead of fleeing. Animals have a slightly bigger range to attack.
 		"Fight back chance" = 0.3
 		#Z@RYA from 1.19.2. Animals knockback attribute will be set to this value.

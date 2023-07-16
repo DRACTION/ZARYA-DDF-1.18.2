@@ -21,8 +21,8 @@
     Имя файла: anviltooltipmod-MC1.18.2-1.0.0.jar
     MD5: 6BB962F05835E1CEA5CB05E5EA2858DA
 ---
-    Имя файла: Apotheosis-1.18.2-5.8.0.jar
-    MD5: CD0539EDB962569C9D1789578326EAC7
+    Имя файла: Apotheosis-1.18.2-5.8.1.jar
+    MD5: 2D4BE97A625B11486DAFB87B97F5BF41
 ---
     Имя файла: appleskin-forge-mc1.18.2-2.4.1.jar
     MD5: FCD811D8FB5F83614D8E9B2E44C5EDBC
@@ -96,14 +96,14 @@
     Имя файла: clienttweaks-forge-1.18.1-7.1.0.jar
     MD5: D1F53D5840F2820E47C416B60E9B5D2E
 ---
-    Имя файла: cloth-config-6.4.90-forge.jar
-    MD5: 44F785B56EEE7656118235384D6EEFF4
+    Имя файла: cloth-config-6.5.102-forge.jar
+    MD5: AD8C958A2A3C80FD072A070B08CBC34B
 ---
     Имя файла: Clumps-forge-1.18.2-8.0.0+17.jar
     MD5: E5EBB4B35230590651C3D6ACEDC550C0
 ---
-    Имя файла: collective-1.18.2-6.62.jar
-    MD5: 598F9A7218550BF80D5A6B14C090DD6B
+    Имя файла: collective-1.18.2-6.65.jar
+    MD5: FB811BDF162058B10EDC99D18E9415DA
 ---
     Имя файла: comforts-forge-1.18.2-5.0.0.6.jar
     MD5: 3008390001A8F16946ACA4B7411FB1E2
@@ -158,9 +158,6 @@
 ---
     Имя файла: Decorative Blocks-forge-1.18.2-2.1.2.jar
     MD5: 2A1F79C91213960D1AD4C3C6A676E601
----
-    Имя файла: defaultoptions-forge-1.18.2-14.1.2.jar
-    MD5: 8725C556E3575936131F8045DBFAA904
 ---
     Имя файла: despawningeggshatch-1.18.2-4.1.jar
     MD5: 8E2D6148FC498C9D51ACD24406F4139B
@@ -222,8 +219,8 @@
     Имя файла: fancymenu_forge_2.14.7_MC_1.18.2.jar
     MD5: 8AE2C119AE8A0E7AE9C515CE80388140
 ---
-    Имя файла: FarmersDelight-1.18.2-1.2.1.jar
-    MD5: 0D1A3ED27D95B5B4E4BACDE0D58A64AE
+    Имя файла: FarmersDelight-1.18.2-1.2.2.jar
+    MD5: 77384237D67F1EAB88B4ACB4ECA146D9
 ---
     Имя файла: FarmersRespite-1.18.2-1.3.0.jar
     MD5: AB31BA2F316C68DFED0B3B6828606F90
@@ -281,6 +278,9 @@
 ---
     Имя файла: geckolib-forge-1.18-3.0.57.jar
     MD5: D491C30C6D9BD3F767BD545CBAF6502E
+---
+    Имя файла: GlobalGameRules-1.18.2-6.0.1.8.jar
+    MD5: 1E7472810C704C24D315F04C59290F1A
 ---
     Имя файла: HarderSpawners-1.18.2-40.2.22.1-ZaryaEdition.jar
     MD5: 5028E910C4B05AAAA51F7410070C803D
@@ -366,8 +366,8 @@
     Имя файла: littlelogistics-mc1.18.2-v1.2.6.jar
     MD5: 3EA6B6692E312E5DEC77A7488D695110
 ---
-    Имя файла: logprot-1.18.2-1.6.jar
-    MD5: 839C3A78E976C8677A750B48370AD316
+    Имя файла: logprot-1.18.2-1.7.jar
+    MD5: B090F3ECDFD999C37B018C7D94189E57
 ---
     Имя файла: lootjs-forge-1.18.2-2.7.7.jar
     MD5: A310618769FDAAB86CBD8A030DC8630F
@@ -498,14 +498,14 @@
     Имя файла: SoL-Carrot-1.18.1-1.12.0.jar
     MD5: E701E8F88A93F78FF524B484D0624FB1
 ---
-    Имя файла: sophisticatedbackpacks-1.18.2-3.18.55.869.jar
-    MD5: 47FE20CF29A24FBCFD5312AE3E9949D8
+    Имя файла: sophisticatedbackpacks-1.18.2-3.18.57.888.jar
+    MD5: 3DB5791FBACA5F3FD3CE2957A03A313F
 ---
-    Имя файла: sophisticatedcore-1.18.2-0.5.77.357.jar
-    MD5: 2A068FC6D49D9F6B8CDA834C548AB2F7
+    Имя файла: sophisticatedcore-1.18.2-0.5.80.376.jar
+    MD5: 8426C54F7E1BFF2BB579DD5C0D9A48A8
 ---
-    Имя файла: sophisticatedstorage-1.18.2-0.8.32.517.jar
-    MD5: AFD2372B0CD7B5CD42515BBA33225829
+    Имя файла: sophisticatedstorage-1.18.2-0.8.37.554.jar
+    MD5: CB7C6B540CCA9596C8A3A969F85D6197
 ---
     Имя файла: spidersproducewebs-1.18.2-3.1.jar
     MD5: A79D5BA1360C6D59F13B100BA069866D

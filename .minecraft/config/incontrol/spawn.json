@@ -2,7 +2,7 @@
   /////// Days for CHILL ////////
   {
     "hostile": true,
-    "maxdaycount": 6,
+    "maxdaycount": 11,
     "dimension": "minecraft:overworld",
     "spawner": false,
 

@@ -113,7 +113,7 @@
 	#Allows teleportation to other dimensions [false/true|default:true]
 	teleport_dim = true
 	#Increases the minimum time without sleeping for phantom spawn around player based on their level in Knowledge of Death [false/true|default:true]
-	knowledge_reduce_phantom_spawn = true
+	knowledge_reduce_phantom_spawn = false
 	#Allows players to be hurt by special damages related to some items [false/true|default:true]
 	allow_beyond_the_grave_damage = true
 	#Minimum time without sleeping for phantom to spawn around players [1200..MAX|default:72000]
