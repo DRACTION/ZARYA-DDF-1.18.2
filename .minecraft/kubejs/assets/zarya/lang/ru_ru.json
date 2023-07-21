@@ -43,6 +43,11 @@
     "item.minecraft.lingering_potion.effect.third_unstable_death_pioneer": "Туманная третья нестабильная Смерть Пионерки",
     "item.minecraft.tipped_arrow.effect.third_unstable_death_pioneer": "Стрела третьей нестабильной Смерти Пионерки",
 
+  // Supplementaries
+
+    "item.supplementaries.bomb_spiky": "Бомба-лимонка",
+    "item.supplementaries.bomb_spiky_projectile": "Бомба-лимонка",
+
   // Simple Backups
 
     "simplebackups.backup_started": "Начато резервное копирование...",
@@ -296,6 +301,14 @@
     
     "skill.epicfight.damage" : "%s урона",
     "skill.epicfight.percent_of_target_lost_health" : " + %s потеряного здоровья цели",
+
+  // Dual Greatsword
+
+    "skill.epicfight.earthquake" : "Дрожь земли",
+    "skill.epicfight.earthquake.tooltip" : "Вскиньте два цвайхендера и долбаните по земле.\nПри выполнении анимации у вас супер-устойчивость, предотвращающая ошеломление.",
+
+    "skill.epicfight.dualgreatsword" : "Два цвайхендера",
+    "skill.epicfight.dualgreatsword.tooltip" : "Навык для сильнейших!\nПозволяет держать по цвайхендеру в каждой руке.",
 
   // Callable horses
 

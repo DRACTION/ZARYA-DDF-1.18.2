@@ -35,7 +35,32 @@ onEvent('item.tags', e => {
     'minecraft:golden_sword',
     'minecraft:iron_sword',
     'minecraft:diamond_sword',
-    'minecraft:netherite_sword'
+    'minecraft:netherite_sword',
+    'minecraft:wooden_hoe',
+    'minecraft:stone_hoe',
+    'minecraft:golden_hoe',
+    'minecraft:iron_hoe',
+    'minecraft:diamond_hoe',
+    'minecraft:netherite_hoe',
+    '#forge:shears',
+    'epicfight:katana',
+    'epicfight:iron_greatsword',
+    'epicfight:golden_greatsword',
+    'epicfight:diamond_greatsword',
+    'epicfight:netherite_greatsword',
+    'epicfight:stone_spear',
+    'epicfight:iron_spear',
+    'epicfight:golden_spear',
+    'epicfight:diamond_spear',
+    'epicfight:netherite_spear',
+    'epicfight:iron_tachi',
+    'epicfight:golden_tachi',
+    'epicfight:diamond_tachi',
+    'epicfight:netherite_tachi',
+    'epicfight:iron_longsword',
+    'epicfight:golden_longsword',
+    'epicfight:diamond_longsword',
+    'epicfight:netherite_longsword'
   ])
 })
 

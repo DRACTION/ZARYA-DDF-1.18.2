@@ -24,6 +24,7 @@
 .minecraft/ESM/
 .minecraft/fancymenu_data/
 .minecraft/fancymenu_setups/
+.minecraft/immersive_paintings/immersive_paintings*/
 .minecraft/immersive_paintings_cache/
 .minecraft/impossible_data/
 .minecraft/local/
@@ -36,6 +37,13 @@
 .minecraft/music_sheets/
 .minecraft/mods/*.jar
 .minecraft/patchouli_books/
+
+.minecraft/plugins/
+.minecraft/config/fancymenu/extensions/fmvideo/locals/en_us.local
+.minecraft/config/fancyvideo-api.cfg
+.minecraft/libvlc.dll
+.minecraft/libvlccore.dll
+
 .minecraft/quests_structures/
 .minecraft/saves/
 .minecraft/simplebackups/

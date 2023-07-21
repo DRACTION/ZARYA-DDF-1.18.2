@@ -44,8 +44,8 @@
 			corner: false
 		}
 		{
-			x: -0.5d
-			y: 1.5d
+			x: 1.0d
+			y: 2.0d
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
@@ -160,6 +160,18 @@
 			image: "minecolonies:textures/icons/warning.png"
 			hover: ["Страница мода \"Waystones\""]
 			click: "https://www.curseforge.com/minecraft/mc-mods/waystones"
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecolonies:textures/icons/warning.png"
+			hover: ["Страница мода \"Spice of Life: Apple Pie Edition\""]
+			click: "https://legacy.curseforge.com/minecraft/mc-mods/spice-of-life-apple-pie-edition"
 			dev: false
 			corner: false
 		}
@@ -344,22 +356,31 @@
 			title: "Хочу всё попробовать"
 			icon: "minecraft:carrot"
 			disable_toast: true
-			x: -0.5d
-			y: 2.5d
+			x: 1.5d
+			y: 3.0d
 			subtitle: "Эксперименты с едой приветствуются"
 			description: [
-				"Теперь за употребление различной еды можно получить бафф в виде пермаментного увеличения здоровья."
+				"Теперь за употребление различной еды можно получить баффы в виде увеличения здоровья, выносливости и прочего."
 				""
-				"Чем больше съедите РАЗНОЙ еды, тем больше будет максимального здоровья!"
+				"Чем больше съедите РАЗНОЙ еды, тем больше будет максимального здоровья и других эффектов!"
 				""
-				"Отслеживать прогресс можно в книге Еды"
+				"Прогресс сбрасывается при смерти."
+				""
+				"Отслеживать прогресс можно в книге еды (макс. здоровье) и книге полезной еды (различные эффекты)"
 			]
 			id: "35A8C9E1B3003A34"
-			tasks: [{
-				id: "4870AAF8B7281A33"
-				type: "item"
-				item: "solcarrot:food_book"
-			}]
+			tasks: [
+				{
+					id: "4870AAF8B7281A33"
+					type: "item"
+					item: "solcarrot:food_book"
+				}
+				{
+					id: "30866371EE42E0F4"
+					type: "item"
+					item: "solapplepie:food_book"
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -415,8 +436,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 4.5d
+			x: -5.5d
+			y: 4.0d
 			min_required_tasks: 1
 			id: "207A7C2374A1DAAC"
 			tasks: [

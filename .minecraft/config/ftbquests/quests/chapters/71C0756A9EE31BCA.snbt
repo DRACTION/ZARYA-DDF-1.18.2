@@ -3,7 +3,8 @@
 	group: ""
 	order_index: 5
 	filename: "71C0756A9EE31BCA"
-	title: "Хранение"
+	title: "Хранение (устаревшее)"
+	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
