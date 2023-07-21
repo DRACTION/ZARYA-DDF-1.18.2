@@ -43,13 +43,71 @@
     "item.minecraft.lingering_potion.effect.third_unstable_death_pioneer": "Туманная третья нестабильная Смерть Пионерки",
     "item.minecraft.tipped_arrow.effect.third_unstable_death_pioneer": "Стрела третьей нестабильной Смерти Пионерки",
 
+  // Simple Backups
+
+    "simplebackups.backup_started": "Начато резервное копирование...",
+    "simplebackups.backup_finished": "Резервное копирование завершено за %s (%s | %s)",
+
+  // Spice of Life: Carrot Edition
+
+    "tooltip.solcarrot.disabled.blacklist": "Эта еда не улучшит ваше здоровье.",
+
+  // Spice of Life: Apple Pie Edition
+
+    "tooltip.solapplepie.disabled": "Эта еда не полезна",
+
+    "command.solapplepie.solapplepie.no_permissions": "Нет прав на использование этой команды!",
+
+    "command.solapplepie.solapplepie.clear.success": "Food list reset!",
+    "command.solapplepie.solapplepie.diversity_feedback": "Food Diversity: %.2f",
+    "command.solapplepie.solapplepie.sync.success": "Food list synchronized!",
+
+    "item.solapplepie.food_book": "Книга полезной еды",
+    "item.solapplepie.lunchbox": "Ланчбокс",
+    "item.solapplepie.container.lunchbox": "Ланчбокс",
+    "item.solapplepie.golden_lunchbox": "Золотой ланчбокс",
+    "item.solapplepie.container.golden_lunchbox": "Золотой ланчбокс",
+    "item.solapplepie.lunchbag": "Термосумка",
+    "item.solapplepie.container.lunchbag": "Термосумка",
+
+    "key.solapplepie.open_food_book": "Открыть книгу полезной еды",
+    "key.solapplepie.category": "Spice of Life: Apple Pie Edition",
+    
+    "gui.solapplepie.food_book.stats": "Обзор",
+    "gui.solapplepie.food_book.stats.current_diversity": "Накоп. полезность",
+    "gui.solapplepie.food_book.stats.min_warning1": "Нужно съесть ещё %d еды",
+    "gui.solapplepie.food_book.stats.min_warning2": "для получения улучшений",
+    "gui.solapplepie.food_book.active_benefits_header": "Активная польза",
+    "gui.solapplepie.food_book.inactive_benefits_header": "Предстоящая польза",
+    "gui.solapplepie.food_book.benefits.threshold_label": "Порог",
+    "gui.solapplepie.food_book.benefits.active_tooltip": "Активно, так как накопленная полезность больше указанного порога.",
+    "gui.solapplepie.food_book.benefits.inactive_tooltip": "Если накопленная полезность будет больше указанного порога, то вы получите это улучшение.",
+    "gui.solapplepie.food_book.food_queue_label": "Принесшее пользу",
+    "gui.solapplepie.food_book.queue.food_queue_tooltip": "Список всей съеденной полезной еды, которая принесла свой вклад в накопленную полезность.",
+
+    "gui.solapplepie.food_book.fraction": "%1$s/%2$s",
+
+    "gui.solapplepie.food_book.queue.tooltip.uneaten_contribution_label": "Полезность",
+    "gui.solapplepie.food_book.queue.tooltip.contribution_label": "Вклад в полезность",
+    "gui.solapplepie.food_book.queue.tooltip.last_eaten_label": "Съедено ранее (%d порций назад)",
+    "gui.solapplepie.food_book.queue.tooltip.last_eaten_label_singular": "Съедено ранее (%d порций назад)",
+    
+    "config.solapplepie.is_food_tooltip_enabled": "Включить подписи к еде",
+    "config.solapplepie.food_blacklist": "Черный список",
+    "config.solapplepie.food_whitelist": "Белый список (выключает черный список)",
+    "config.solapplepie.reset_on_death": "Сбрасывать при смерти",
+
+    // Имена атрибутов
+      "attribute.name.epicfight.staminar": "Выносливость",
+
   // Epic Fight
+
     "attribute.name.epicfight.impact": "%s воздействие (оглушение)",
     "attribute.name.epicfight.armor_negation": "%s%% игнорирование брони",
     "attribute.name.epicfight.max_strikes": "Удар по %s врагу за взмах",
     "attribute.name.epicfight.mainhand_only" : "Только в главной руке",
     "attribute.name.epicfight.twohanded" : "Двуручный",
-    "attribute.name.epicfight.stun_armor" : "Устойчивость к ошеломлению",
+    "attribute.name.epicfight.stun_armor" : "Устой. к ошелом.",
     "attribute.name.epicfight.weight" : "Стабильность",
     
     "commands.epicfight.skill.add.success.single": "Added skill %s to %s",
@@ -244,7 +302,7 @@
     "key.callablehorses.category": "Подзываемые лошади (Callable Horses)",
     "key.sethorse.desc": "Привязать к себе лошадь",
     "key.callhorse.desc": "Подозвать коня",
-    "key.showstats.desc": "Show Horse Stats (крашит игру, не пользоваться)",
+    "key.showstats.desc": "Показать статы лошади",
 
     "callablehorses.error.dim": "Вы не можете вызвать коня в этом измерении!",
     "callablehorses.error.riding": "Вы не можете подозвать лошадь, пока катаетесь!",

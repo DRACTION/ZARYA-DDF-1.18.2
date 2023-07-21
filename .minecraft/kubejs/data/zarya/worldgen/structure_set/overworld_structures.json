@@ -1,0 +1,718 @@
+{
+  "structures": [
+    {
+      "structure": "dungeons_arise:abandoned_temple",
+      "weight": 2
+    },
+    {
+      "structure": "dungeons_arise:bandit_village",
+      "weight": 2
+    },
+    {
+      "structure": "dungeons_arise:ceryneian_hind",
+      "weight": 2
+    },
+    {
+      "structure": "dungeons_arise:coliseum",
+      "weight": 2
+    },
+    {
+      "structure": "dungeons_arise:fishing_hut",
+      "weight": 3
+    },
+    {
+      "structure": "dungeons_arise:giant_mushroom",
+      "weight": 2
+    },
+    {
+      "structure": "dungeons_arise:illager_campsite",
+      "weight": 6
+    },
+    {
+      "structure": "dungeons_arise:illager_corsair",
+      "weight": 4
+    },
+    {
+      "structure": "dungeons_arise:illager_fort",
+      "weight": 3
+    },
+    {
+      "structure": "dungeons_arise:illager_galley",
+      "weight": 4
+    },
+    {
+      "structure": "dungeons_arise:illager_windmill",
+      "weight": 3
+    },
+    {
+      "structure": "dungeons_arise:jungle_tree_house",
+      "weight": 3
+    },
+    {
+      "structure": "dungeons_arise:lighthouse",
+      "weight": 3
+    },
+    {
+      "structure": "dungeons_arise:merchant_campsite",
+      "weight": 3
+    },
+    {
+      "structure": "dungeons_arise:monastery",
+      "weight": 2
+    },
+    {
+      "structure": "dungeons_arise:mushroom_house",
+      "weight": 4
+    },
+    {
+      "structure": "dungeons_arise:mushroom_mines",
+      "weight": 2
+    },
+    {
+      "structure": "dungeons_arise:mushroom_village",
+      "weight": 2
+    },
+    {
+      "structure": "dungeons_arise:scorched_mines",
+      "weight": 2
+    },
+    {
+      "structure": "dungeons_arise:wishing_well",
+      "weight": 3
+    },
+    {
+      "structure": "dungeons_arise:typhon",
+      "weight": 4
+    },
+    {
+      "structure": "dungeons_arise:undead_pirate_ship",
+      "weight": 3
+    },
+    {
+      "structure": "dungeons_arise:bandit_towers",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:foundry",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:thornborn_towers",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:infested_temple",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:mining_system",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:plague_asylum",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:shiraz_palace",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:medieval_birch_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:medieval_oak_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:medieval_spruce_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:medieval_dark_oak_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:asian_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:caledonia_colony",
+      "weight": 1
+    },
+    {
+      "structure": "warden_and_sculk:ancient_city",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:boulder",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:birchtree1",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:birchtree2",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:abandonedlibrary",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:azeleahouse",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:barn",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:beachbar",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:beedome",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:bigoaktree",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:bluestall",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:calcitehouse",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:campsite",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:cart",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:castleruins",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:deepslatehouse",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:deserthouse",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:desertpump",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:desertwell",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:firecamp",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:flowerhole",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:foxhut",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:horsepen",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:house",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:island",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:lampchest",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:largecart1",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:largecart2",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:largemushroom",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:lecturngarden",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:logruin",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:mushroompond",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:mushroomstatue",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:orangestall",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:outhouse",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:pinkstall",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:pond",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:railway",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:redstall",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:shed",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:smallruin",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:smallship",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:smallswamphouse",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:stonebee",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:stonefountain",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:stonepillars",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:sunzigate",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:tallhouse",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:villagerstatue",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:warpedhouse",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:crystal",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:duck",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:jungletower",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:memorial",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:ruinedbeacon",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:treemonument",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:acacialogpile",
+      "weight": 3
+    },
+    {
+      "structure": "mvs:birchlogpile",
+      "weight": 3
+    },
+    {
+      "structure": "mvs:darkoaklogpile",
+      "weight": 3
+    },
+    {
+      "structure": "mvs:junglelogpile",
+      "weight": 3
+    },
+    {
+      "structure": "mvs:oaklogpile",
+      "weight": 3
+    },
+    {
+      "structure": "mvs:smalloaklog",
+      "weight": 3
+    },
+    {
+      "structure": "mvs:sprucelogpile",
+      "weight": 3
+    },
+    {
+      "structure": "mvs:floatingislands",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:largefloatingisland",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:well",
+      "weight": 2
+    },
+    {
+      "structure": "mvs:smallwell",
+      "weight": 2
+    },
+    {
+      "structure": "mvs:rarewell",
+      "weight": 2
+    },
+    {
+      "structure": "mvs:smallcopperwell",
+      "weight": 2
+    },
+    {
+      "structure": "mvs:acaciawell",
+      "weight": 2
+    },
+    {
+      "structure": "mvs:darkoakwell",
+      "weight": 2
+    },
+    {
+      "structure": "mvs:birchwell",
+      "weight": 2
+    },
+    {
+      "structure": "mvs:junglewell",
+      "weight": 2
+    },
+    {
+      "structure": "mvs:mushroomwell",
+      "weight": 2
+    },
+    {
+      "structure": "mvs:netherwell",
+      "weight": 2
+    },
+    {
+      "structure": "mvs:oakwell",
+      "weight": 2
+    },
+    {
+      "structure": "mvs:rockywell",
+      "weight": 2
+    },
+    {
+      "structure": "mvs:snowywell",
+      "weight": 2
+    },
+    {
+      "structure": "mvs:sprucewell",
+      "weight": 2
+    },
+    {
+      "structure": "dungeoncrawl:dungeon",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:bastion_underground",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:city_overworld",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:fortress_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:igloo_grassy",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:igloo_stone",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:igloo_mushroom",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mansion_birch",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mansion_oak",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mansion_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mansion_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mansion_savanna",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mansion_snowy",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mansion_desert",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mineshaft_birch",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mineshaft_dark_forest",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mineshaft_desert",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mineshaft_icy",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mineshaft_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mineshaft_ocean",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mineshaft_savanna",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mineshaft_stone",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mineshaft_swamp",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mineshaft_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:monument_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:monument_icy",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:monument_desert",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:outpost_birch",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:outpost_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:outpost_giant_tree_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:outpost_desert",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:outpost_badlands",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:outpost_snowy",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:outpost_icy",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:outpost_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:outpost_oak",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:pyramid_mushroom",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:pyramid_badlands",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:pyramid_dark_forest",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:pyramid_snowy",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:pyramid_icy",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:pyramid_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:pyramid_ocean",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:pyramid_giant_tree_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:pyramid_flower_forest",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:ruins_land_warm",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:ruins_land_hot",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:ruins_land_cold",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:ruins_land_icy",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:village_mushroom",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:village_badlands",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:village_birch",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:village_dark_forest",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:village_giant_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:village_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:village_mountains",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:village_oak",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:village_swamp",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:witch_hut_oak",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:witch_hut_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:witch_hut_birch",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:witch_hut_dark_forest",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:witch_hut_giant_tree_taiga",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 659268395,
+    "spacing": 30,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

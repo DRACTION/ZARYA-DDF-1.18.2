@@ -3,6 +3,8 @@
 .minecraft/.physics_mod_cache/
 .minecraft/backups/
 .minecraft/config/*.bak
+.minecraft/config/cristellib/
+.minecraft/config/spark/activity.json
 .minecraft/config/forgeendertech/cached.dat
 .minecraft/config/WildfireGender/
 .minecraft/config/MusicTriggers/debug.toml
@@ -26,8 +28,11 @@
 .minecraft/impossible_data/
 .minecraft/local/
 .minecraft/logs/
+.minecraft/lightspeed-cache/
 .minecraft/kubejs/exported/
+.minecraft/kubejs/data/**/*.bak
 .minecraft/minecolonies/
+.minecraft/modernfix/structureCachev1/
 .minecraft/music_sheets/
 .minecraft/mods/*.jar
 .minecraft/patchouli_books/

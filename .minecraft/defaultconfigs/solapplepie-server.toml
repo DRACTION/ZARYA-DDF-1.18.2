@@ -1,0 +1,67 @@
+
+[Benefits]
+	# A list of diversity value thresholds, in ascending order. When the player's food diversity reaches a threshold,
+	# they will get the benefits associated with that threshold.
+	#
+	#
+	thresholds = [12.0, 18.0, 25.0, 30.0, 35.0, 38.0, 43.0, 48.0, 55.0, 60.0, 65.0]
+	# 
+	# Define custom benefits here. Each entry in the list corresponds to a benefit that will be obtained
+	# at the corresponding diversity threshold defined the list above. For example, the first entry in
+	# this list will be applied when the player's food diversity reaches the number in the first entry in
+	# the threshold list above.
+	# Each benefit is a string with the following form: [type],[registry name],[value] (without the brackets)
+	# The type can either be 'attribute' for attribute modifiers or 'effect' for potion effects
+	# Registry names for common vanila attributes are 
+	# generic.max_health, generic.knockback_resistance, generic.movement_speed, generic.luck, 
+	# generic.attack_damage, generic.attack_speed, generic.armor, generic.armor_toughness 
+	# The value of attributes is the numerical number that will be added to that attribute
+	# Use a negative number for subtraction. Multiplicative modifiers are not supported.
+	# For potion effects, the value is an integer and is the potion effect amplifier. Note
+	# that the amplifier is 0 indexed, so minecraft:strength,1 corresponds to Strength II
+	#
+	# To add multiple benefits to the same threshold, separate them by a semicolon ';'
+	# Make sure that you have NO SPACES!
+	# As an example, 'attribute,generic.max_health,2;effect,strength,1' will give both +2 max hp
+	# and Strength II at the corresponding threshold.
+	#
+	#
+	benefitsUnparsed = ["attribute,epicfight:staminar,5", "attribute,epicfight:staminar,5", "attribute,epicfight:staminar,5", "attribute,epicfight:stun_armor,1", "attribute,epicfight:staminar,5", "effect,luck,0", "attribute,generic.knockback_resistance,1", "epicfight:stun_armor,1", "epicfight:stun_armor,1", "effect,haste,0", "effect,luck,1"]
+
+[Filtering]
+	# Foods in this list won't contribute to food diversity.
+	#
+	#
+	blacklist = ['minecraft:salmon', 'farmersdelight:bacon', 'minecraft:porkchop', 'minecraft:cod', 'minecraft:beef', 'minecraft:rabbit', 'minecraft:mutton', 'farmersdelight:raw_pasta', 'corn_delight:tortilla_raw', 'farmersdelight:chicken_cuts', 'farmersdelight:cod_slice', 'farmersdelight:salmon_slice', 'farmersdelight:mutton_chops', 'farmersdelight:minced_beef', 'witherstormmod:withered_flesh', 'corn_delight:corn_seeds', 'minecraft:potato', 'farmersdelight:dog_food', 'minecraft:rotten_flesh', 'minecraft:spider_eye', 'nethersdelight:hoglin_loin', 'minecraft:chicken', 'corn_delight:corn', 'minecraft:tropical_fish', 'farmersdelight:wheat_dough', 'minecraft:pufferfish', 'nethersdelight:strider_slice', 'nethersdelight:ground_strider']
+
+[Miscellaneous]
+	# Whether or not to reset food diversity on death, effectively losing all benefits.
+	#
+	#
+	resetOnDeath = true
+	#
+	# How many foods should be tracked. I.e., how many food items eaten in the past should count toward food diversity.
+	# Note that the larger this is, the higher your potential diversity value can be, so keep this mind
+	# if you are defining custom thresholds/benefits above.
+	# !!!If you update queueSize, and leave the other advanced options unchanged,
+	# make sure you change endDecay (below) to match queueSize, or else nothing will change!!!
+	#
+	#
+	#Range: 1 ~ 1000
+	queueSize = 50
+
+[Advanced]
+	#
+	# How many meals in the past should the diversity penalty stop from.
+	# **Needs to be less than queueSize and greater than startDecay!!!**
+	# Note that if you update queueSize, to retain the default behavior, you need to also
+	# set endDecay equal to the queueSize
+	#
+	#
+	#Range: 0 ~ 1000
+	endDecay = 50
+	#
+	# Whether blacklisted foods should still take a spot in the queue, even if they don't contribute any diversity.
+	#
+	#
+	shouldForbiddenCount = false

@@ -6,21 +6,20 @@ onEvent('item.food_eaten', e => {
 		&& e.item.getId() == 'minecraft:suspicious_stew'
 		&& Math.random() < 0.1) {
 
-		var randomLength = Math.random();
-		var potionEffects = e.player.potionEffects;
+		let randomLength = Math.random();
 
 		e.server.tell(`${e.player.toString()} cловил Смерть Пионерки!!!`);
 		e.getEntity().setOnFire(3);
 
 		e.server.runCommandSilent(`effect give @p minecraft:nausea 720 9`);
 
-		if (!potionEffects.isActive('minecraft:resistance')) {
+		if (!e.player.potionEffects.isActive('minecraft:resistance')) {
 			e.server.runCommandSilent(`effect give @p minecraft:resistance ${Math.floor(randomLength*7+1)*60}`);
 		}
 
 		e.server.runCommandSilent(`effect give @p minecraft:speed ${Math.floor(randomLength*5+1)*60} 5`);
 		
-		if (!potionEffects.isActive('minecraft:strength')) {
+		if (!e.player.potionEffects.isActive('minecraft:strength')) {
 			e.server.runCommandSilent(`effect give @p minecraft:strength ${Math.floor(randomLength*5+1)*60} 1`);
 		}
 
