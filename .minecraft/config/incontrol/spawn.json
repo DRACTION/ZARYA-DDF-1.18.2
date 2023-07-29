@@ -16,9 +16,112 @@
 
     "result": "allow"
   },
-  //////// 10 Days ////////
+  //////// Reduce Spawn ////////
   {
-    "phase": "after_10_days",
+    "difficulty": "hard",
+    "dimension": "minecraft:overworld",
+    "mob": "minecraft:skeleton",
+    "spawner": false,
+    "incontrol": false,
+    "mincount": {
+      "amount": 3,
+      "mob": "minecraft:skeleton",
+      "perplayer": true
+    },
+
+    "result": "deny"
+  },
+  {
+    "difficulty": "hard",
+    "dimension": "minecraft:overworld",
+    "mob": "minecraft:drowned",
+    "spawner": false,
+    "incontrol": false,
+    "mincount": {
+      "amount": 6,
+      "mob": "minecraft:drowned",
+      "perplayer": true
+    },
+
+    "result": "deny"
+  },
+  {
+    "difficulty": "hard",
+    "dimension": "minecraft:overworld",
+    "mob": "minecraft:creeper",
+    "spawner": false,
+    "incontrol": false,
+    "mincount": {
+      "amount": 3,
+      "mob": "minecraft:creeper",
+      "perplayer": true
+    },
+
+    "result": "deny"
+  },
+  {
+    "difficulty": "hard",
+    "dimension": "minecraft:overworld",
+    "mob": ["minecraft:spider", "minecraft:cave_spider"],
+    "spawner": false,
+    "incontrol": false,
+    "mincount": {
+      "amount": 3,
+      "mob": ["minecraft:spider", "minecraft:cave_spider"],
+      "perplayer": true
+    },
+
+    "result": "deny"
+  },
+  {
+    "difficulty": "hard",
+    "dimension": "minecraft:overworld",
+    "hostile": true,
+    "spawner": false,
+    "incontrol": false,
+    "mincount": {
+      "amount": 30,
+      "hostile": true,
+      "perplayer": true
+    },
+
+    "result": "deny"
+  },
+  {
+    "difficulty": "hard",
+    "dimension": "minecraft:overworld",
+    "hostile": true,
+    "spawner": false,
+    "incontrol": false,
+    "mincount": {
+      "amount": 2,
+      "hostile": true,
+      "perchunk": true
+    },
+
+    "result": "deny"
+  },
+  //////// Nerf Enemies ////////
+  {
+    "maxdaycount": 51,
+    "difficulty": "hard",
+    "hostile": true,
+    "spawner": false,
+    "incontrol": false,
+
+    "healthmultiply": 0.7
+  },
+  {
+    "difficulty": "hard",
+    "mob": ["minecraft:spider", "minecraft:cave_spider"],
+    "spawner": false,
+    "incontrol": false,
+
+    "speedmultiply": 0.7
+  },
+  //////// 20 Days ////////
+  {
+    "phase": "after_20_days",
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
     "mob": "minecraft:zombie",
@@ -39,7 +142,7 @@
     "nbt": {"IsBaby":false}
   },
   {
-    "phase": "after_10_days",
+    "phase": "after_20_days",
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
     "mob": "minecraft:spider",
@@ -52,9 +155,9 @@
     "speedmultiply": 2.0,
     "potion": "minecraft:invisibility,9999,1"
   },
-  //////// 20 Days ////////
+  //////// 30 Days ////////
   {
-    "phase": "after_20_days",
+    "phase": "after_30_days",
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
     "mob": "minecraft:zombie",
@@ -75,7 +178,7 @@
     "nbt": {"IsBaby":false}
   },
   {
-    "phase": "after_20_days",
+    "phase": "after_30_days",
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
     "mob": "minecraft:skeleton",
@@ -88,9 +191,9 @@
     "speedmultiply": 2.0,
     "potion": "minecraft:invisibility,9999,1"
   },
-  //////// 30 Days ////////
+  //////// 40 Days ////////
   {
-    "phase": "after_30_days",
+    "phase": "after_40_days",
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
     "mob": "minecraft:zombie",
@@ -117,7 +220,7 @@
     "nbt": {"IsBaby":false}
   },
   {
-    "phase": "after_30_days",
+    "phase": "after_40_days",
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
     "mob": "minecraft:spider",
@@ -130,9 +233,9 @@
     "speedmultiply": 1.8,
     "potion": "minecraft:invisibility,9999,1"
   },
-  //////// 30 Days ////////
+  //////// 50 Days ////////
   {
-    "phase": "after_40_days",
+    "phase": "after_50_days",
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
     "mob": "minecraft:enderman",
@@ -146,7 +249,7 @@
     "helditem": "minecraft:end_stone"
   },
   {
-    "phase": "after_40_days",
+    "phase": "after_50_days",
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
     "mob": "minecraft:skeleton",

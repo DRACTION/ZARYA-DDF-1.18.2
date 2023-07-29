@@ -68,12 +68,12 @@
     "command.solapplepie.solapplepie.sync.success": "Food list synchronized!",
 
     "item.solapplepie.food_book": "Книга полезной еды",
-    "item.solapplepie.lunchbox": "Ланчбокс",
-    "item.solapplepie.container.lunchbox": "Ланчбокс",
-    "item.solapplepie.golden_lunchbox": "Золотой ланчбокс",
-    "item.solapplepie.container.golden_lunchbox": "Золотой ланчбокс",
-    "item.solapplepie.lunchbag": "Термосумка",
-    "item.solapplepie.container.lunchbag": "Термосумка",
+    "item.solapplepie.lunchbox": "Ланч-бокс",
+    "item.solapplepie.container.lunchbox": "Ланч-бокс",
+    "item.solapplepie.golden_lunchbox": "Золотой ланч-бокс",
+    "item.solapplepie.container.golden_lunchbox": "Золотой ланч-бокс",
+    "item.solapplepie.lunchbag": "Ланч-пакет",
+    "item.solapplepie.container.lunchbag": "Ланч-пакет",
 
     "key.solapplepie.open_food_book": "Открыть книгу полезной еды",
     "key.solapplepie.category": "Spice of Life: Apple Pie Edition",

@@ -1,5 +1,161 @@
 onEvent('recipes', e => {
 
+  // Какой нафиг Иттритиум без деления?
+    e.remove({id:'alchemistry:fission_core'})
+    e.recipes.create.mechanical_crafting('alchemistry:fission_core', [
+      'ARA',
+      'TRT',
+      'ARA',
+      'TRT',
+      'ARA',
+      'TRT'
+    ], {
+      R: 'minecraft:blaze_rod',
+      T: 'chemlib:titanium_ingot',
+      A: 'chemlib:aluminum_ingot'
+    })
+
+  // И ядро слияния тоже под нож
+    e.remove({id:'alchemistry:fusion_core'})
+    e.recipes.create.mechanical_crafting('alchemistry:fusion_core', [
+      'YDY',
+      'WRW',
+      'CDC',
+      'WRW',
+      'CDC',
+      'YRY'
+    ], {
+      Y: 'chemlib:yttrium_ingot',
+      C: 'chemlib:cobalt_ingot',
+      W: 'chemlib:cadmium_ingot',
+      R: 'minecraft:blaze_rod',
+      D: 'minecraft:diamond'
+    })
+
+  // Атомайзер
+    e.remove({id:'alchemistry:atomizer'})
+    e.recipes.create.mechanical_crafting('alchemistry:atomizer', [
+      'I M I',
+      'IRCRI',
+      'IRPRI',
+      'IIIII'
+    ], {
+      R: 'minecraft:redstone',
+      C: 'minecraft:cauldron',
+      M: 'create:mechanical_mixer',
+      I: '#forge:plates/iron',
+      P: 'minecraft:piston'
+    })
+
+  // Компактор
+    e.remove({id:'alchemistry:compactor'})
+    e.recipes.create.mechanical_crafting('alchemistry:compactor', [
+      'RPR',
+      ' I ',
+      ' I ',
+      'RPR'
+    ], {
+      R: 'minecraft:redstone',
+      P: 'create:mechanical_press',
+      I: '#forge:plates/iron'
+    })
+
+  // Комбайн
+    e.remove({id:'alchemistry:combiner'})
+    e.recipes.create.mechanical_crafting('alchemistry:combiner', [
+      ' G G ',
+      'GABAG',
+      'GPDPG',
+      ' SOS ',
+      ' SSS '
+    ], {
+      D: 'minecraft:diamond',
+      S: '#forge:plates/obsidian',
+      G: '#forge:rods/gold',
+      O: 'minecraft:comparator',
+      A: 'create:mechanical_arm',
+      B: 'create:basin',
+      P: 'create:mechanical_piston'
+    })
+
+  // Растворитель
+    e.remove({id:'alchemistry:dissolver'})
+    e.recipes.create.mechanical_crafting('alchemistry:dissolver', [
+      ' OUO ',
+      'GOMOG',
+      ' MPM ',
+      'GRMRG',
+      'IIIII'
+    ], {
+      M: 'minecraft:magma_block',
+      G: '#forge:rods/gold',
+      I: '#forge:plates/gold',
+      R: 'create:pulse_repeater',
+      P: 'create:precision_mechanism',
+      O: '#forge:obsidian',
+      U: 'create:mechanical_pump'
+    })
+
+  // Разжижитель
+    e.remove({id:'alchemistry:liquifier'})
+    e.recipes.create.mechanical_crafting('alchemistry:liquifier', [
+      ' ZPZ ',
+      'AZWZA',
+      'AZDZA',
+      'SSSSS'
+    ], {
+      Z: '#forge:ingots/zinc',
+      P: 'minecraft:piston',
+      S: '#forge:plates/zinc',
+      A: '#forge:gems/amethyst',
+      W: 'create:whisk',
+      D: '#forge:dusts/redstone'
+    })
+
+  // Корпус реактора
+    e.replaceInput({id: 'alchemistry:reactor_casing'}, 'chemlib:osmium_ingot', 'chemlib:lead_ingot')
+    e.replaceInput({id: 'alchemistry:reactor_casing'}, 'chemlib:platinum_ingot', 'chemlib:chromium_ingot')
+
+  // Контроллер камеры слияния - без звезды, но тяжело
+    e.remove({id:'alchemistry:fusion_chamber_controller'})
+    e.recipes.create.mechanical_crafting('alchemistry:fusion_chamber_controller', [
+      'RRRRRRRR',
+      'GGPDPDPR',
+      'GFPNXNPR',
+      'GFPNYNPR',
+      'GGPDPDPR',
+      'RRRRRRRR'
+    ], {
+      R: 'alchemistry:reactor_casing',
+      G: '#forge:glass',
+      F: 'alchemistry:fission_chamber_controller',
+      P: 'create:precision_mechanism',
+      D: '#forge:storage_blocks/diamond',
+      N: '#forge:ingots/netherite',
+      X: 'alchemistry:dissolver',
+      Y: 'alchemistry:combiner'
+    })
+
+  // Контроллер камеры деления - усложнение
+    e.remove({id:'alchemistry:fission_chamber_controller'})
+    e.recipes.create.mechanical_crafting('alchemistry:fission_chamber_controller', [
+      'IIBII',
+      'GMYMB',
+      'GXDZB',
+      'IIBII'
+    ], {
+      I: '#forge:storage_blocks/iron',
+      G: '#forge:glass',
+      M: 'create:mechanical_arm',
+      B: '#forge:storage_blocks/brass',
+      D: 'minecraft:glowstone_dust',
+      X: 'alchemistry:atomizer',
+      Y: 'alchemistry:dissolver',
+      Z: 'alchemistry:liquifier'
+    })
+
+
+
   // Слишком жирно
     e.remove({input:'minecraft:diamond_block', type:'alchemistry:dissolver'})
     e.remove({input:'minecraft:emerald_block', type:'alchemistry:dissolver'})
@@ -692,12 +848,12 @@ onEvent('recipes', e => {
             "results": [
               { "item": "chemlib:mendelevium", "count": 64 },
               { "item": "chemlib:titanium", "count": 64 },
-              { "item": "chemlib:litetium", "count": 64 },
+              { "item": "chemlib:lutetium", "count": 64 },
               { "item": "chemlib:dysprosium", "count": 64 }
             ]
           }
         ]
       }
-    }).id('zarya:dissolver/nether_quartz')
+    }).id('zarya:dissolver/nether_star')
 
 })

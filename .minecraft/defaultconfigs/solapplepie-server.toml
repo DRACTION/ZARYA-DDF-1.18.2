@@ -35,10 +35,6 @@
 	blacklist = ['minecraft:salmon', 'farmersdelight:bacon', 'minecraft:porkchop', 'minecraft:cod', 'minecraft:beef', 'minecraft:rabbit', 'minecraft:mutton', 'farmersdelight:raw_pasta', 'corn_delight:tortilla_raw', 'farmersdelight:chicken_cuts', 'farmersdelight:cod_slice', 'farmersdelight:salmon_slice', 'farmersdelight:mutton_chops', 'farmersdelight:minced_beef', 'witherstormmod:withered_flesh', 'corn_delight:corn_seeds', 'minecraft:potato', 'farmersdelight:dog_food', 'minecraft:rotten_flesh', 'minecraft:spider_eye', 'nethersdelight:hoglin_loin', 'minecraft:chicken', 'corn_delight:corn', 'minecraft:tropical_fish', 'farmersdelight:wheat_dough', 'minecraft:pufferfish', 'nethersdelight:strider_slice', 'nethersdelight:ground_strider']
 
 [Miscellaneous]
-	# Whether or not to reset food diversity on death, effectively losing all benefits.
-	#
-	#
-	resetOnDeath = true
 	#
 	# How many foods should be tracked. I.e., how many food items eaten in the past should count toward food diversity.
 	# Note that the larger this is, the higher your potential diversity value can be, so keep this mind

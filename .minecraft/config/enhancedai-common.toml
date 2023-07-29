@@ -95,16 +95,13 @@
 
 	#Make animals fight back and no longer flee when attacked
 	[Animal."Animal Attacking"]
-		#If true, when attacked, animals will call other animals for help and attack back. Animals have a slightly bigger range to attack. Attack damage can't be changed via config due to limitation so use mods like Mobs Properties Randomness to increase the damage. Base damage is 4.0
+		#If true, when attacked, animals will call other animals for help and attack back. Animals have a slightly bigger range to attack. Attack damage can't be changed via config due to limitation so use mods like Mobs Properties Randomness to increase the damage. Base damage is 1.0
 		"Animals Fight back" = true
 		#If true, when attacked, animals will no longer flee.
 		"Animals No Longer Flee" = true
 		#Movement speed multiplier when attacking.
 		#Range: 0.0 ~ 4.0
 		"Movement Speed Multiplier" = 1.35
-		#Z@RYA.
-		#Range: 0.0 ~ 8.0
-		"Attack Damage" = 1.0
 		#Z@RYA from 1.19.2. Animals have this percentage chance to be able to fight back instead of fleeing. Animals have a slightly bigger range to attack.
 		"Fight back chance" = 0.3
 		#Z@RYA from 1.19.2. Animals knockback attribute will be set to this value.

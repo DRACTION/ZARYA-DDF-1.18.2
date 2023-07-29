@@ -15,8 +15,8 @@
     Имя файла: AI-Improvements-1.18.2-0.5.2.jar
     MD5: C2A9FF424722FED70180708AB83E9901
 ---
-    Имя файла: alchemistry-1.18.2-2.2.2.jar
-    MD5: 016251E7351E69ED227870FD184FE0AB
+    Имя файла: alchemistry-1.18.2-2.2.3.jar
+    MD5: 70FE8A41D16F05CEE9FA1F597DB8773F
 ---
     Имя файла: alchemylib-1.18.2-1.0.22.jar
     MD5: F26B2F68B870B6A403DB003556BA4E4B
@@ -223,7 +223,7 @@
     MD5: 87505C9B2E8D6A53E7CF2FB605C8BDF9
 ---
     Имя файла: EnhancedAI-1.6.5-ZaryaEdition-mc1.18.2.jar
-    MD5: 6072879731175B6A9D23ABE597C805B3
+    MD5: EABC86775755501C532297E5925862F8
 ---
     Имя файла: EnhancedVisuals_FORGE_v1.6.4_mc1.18.2.jar
     MD5: 3FA35E0F60BFA5C0AFA9A6E099B099C8
@@ -241,7 +241,7 @@
     MD5: 6304D608FFA074ADE01D59290FEC48C2
 ---
     Имя файла: epicfight-18.3.8-ZaryaEdition.jar
-    MD5: 34F5B0CD84C3AB87A5CA14664B82EF4F
+    MD5: D8D01D6FA26C7B1782CF6237F09FAE8E
 ---
     Имя файла: EverlastingSkins-1.18.2-1.0.jar
     MD5: 74615E47F2933901F07012A9F58AA89A
@@ -348,8 +348,8 @@
     Имя файла: Iceberg-1.18.2-forge-1.0.49.jar
     MD5: 34CF6CACF18F8E7EEFE759042EDFC42E
 ---
-    Имя файла: immersive_paintings-0.6.1+1.18.2-forge.jar
-    MD5: F78F6E728665A8BCB49AD20A7AC7AF95
+    Имя файла: immersive_paintings-0.6.2+1.18.2-forge.jar
+    MD5: 8FD27621C0824622F665DC8FACF80E57
 ---
     Имя файла: incontrol-1.18-6.1.10.jar
     MD5: D2C9F8CAE66649B4103BAF65FB898C4A
@@ -432,6 +432,9 @@
     Имя файла: limitedchunks-1.18.2-2.3.jar
     MD5: F376256D768AA81AE0C310108BCE9156
 ---
+    Имя файла: littlecontraptions-forge-1.18.2.2.jar
+    MD5: 3F727E6560E235A702A843AEC06DE0A3
+---
     Имя файла: littlelogistics-mc1.18.2-v1.2.7.jar
     MD5: 71ABBDED7104F3DC9398BC593C4E7068
 ---
@@ -459,8 +462,8 @@
     Имя файла: mmlib-1.2.2-1.18.2.jar
     MD5: 4CDCC020628977FD59F04C2DCC4CDEEE
 ---
-    Имя файла: modernfix-forge-5.3.1+mc1.18.2.jar
-    MD5: EFD2A04895AA40AF1AAD05AF27569884
+    Имя файла: modernfix-forge-5.4.1+mc1.18.2.jar
+    MD5: F225072EF4075599197161E5B3CB74BC
 ---
     Имя файла: morejs-forge-1.18.2-0.0.6.jar
     MD5: C21909209E50CC607BB2BFBD956A8AAE
@@ -471,8 +474,8 @@
     Имя файла: multi-piston-1.18.2-1.2.15-ALPHA.jar
     MD5: 5569141B3C2A89164741464804F8F910
 ---
-    Имя файла: musictriggers-1.18.2-5.4-hf.jar
-    MD5: E094683FB2B2AAC252FC953237F1504D
+    Имя файла: musictriggers-1.18.2-5.4-hf-ZaryaEdition.jar
+    MD5: 75A3841C688828AB5BB657E5DDCFE61D
 ---
     Имя файла: mvs-3.0.8-1.18.2.jar
     MD5: C47EDA8E5F03E67AF90E3E6A4F550EB2
@@ -522,8 +525,8 @@
     Имя файла: OnlyLooking-1.18.2-1.4.0.jar
     MD5: 0C1F8FC21A9EB5C19111B994AD25C183
 ---
-    Имя файла: open-parties-and-claims-forge-1.18.2-0.19.0.jar
-    MD5: 67F4BD70F1597276B81D6D2EA9A8ECAE
+    Имя файла: open-parties-and-claims-forge-1.18.2-0.19.1.jar
+    MD5: CDFB088A813D4EBA3EBDD76E1BFF936B
 ---
     Имя файла: parry-2.3.1.jar
     MD5: DD92F34790DCF7D465C37E59C236A606
@@ -585,8 +588,8 @@
     Имя файла: secondchanceforge-1.18.2-1.5.0.jar
     MD5: 906CA4843003AEECBD01220BCAD93B8F
 ---
-    Имя файла: selene-1.18.2-1.17.9.jar
-    MD5: 25C5876F944B26593136CE5578F64F0C
+    Имя файла: selene-1.18.2-1.17.11.jar
+    MD5: 224A28EBE24C53E9EBC6645E1FDBD1A4
 ---
     Имя файла: ShoulderSurfing-Forge-1.18.2-2.4.1.jar
     MD5: 8A392B0771F35C1BF72DEACF652E3088
@@ -612,8 +615,8 @@
     Имя файла: sophisticatedbackpacks-1.18.2-3.18.57.888.jar
     MD5: 3DB5791FBACA5F3FD3CE2957A03A313F
 ---
-    Имя файла: sophisticatedcore-1.18.2-0.5.80.376.jar
-    MD5: 8426C54F7E1BFF2BB579DD5C0D9A48A8
+    Имя файла: sophisticatedcore-1.18.2-0.5.81.384.jar
+    MD5: E7EEB83441D2B131A249431A70EF2A80
 ---
     Имя файла: sophisticatedstorage-1.18.2-0.8.37.554.jar
     MD5: CB7C6B540CCA9596C8A3A969F85D6197
@@ -639,8 +642,8 @@
     Имя файла: structurize-1.18.2-1.0.424-ALPHA.jar
     MD5: CFE57638F44BCCAFAAD48399A280D3CB
 ---
-    Имя файла: supermartijn642corelib-1.1.11-forge-mc1.18.jar
-    MD5: 1151B22D1E1988DAED77B034D1BB095B
+    Имя файла: supermartijn642corelib-1.1.12-forge-mc1.18.jar
+    MD5: 62EF31E809AFA055021A4DC153EFAC4F
 ---
     Имя файла: supplementaries-1.18.2-1.5.18.jar
     MD5: 374FF11DC914E4CA9B514B75F18B3BC1
@@ -690,11 +693,11 @@
     Имя файла: witherstormmod-1.18.2-2.2.1.jar
     MD5: 5C3158AE600FB037FBC0BD5C251C9CA9
 ---
-    Имя файла: XaerosWorldMap_1.30.6_Forge_1.18.2.jar
-    MD5: E6FBAC57D23A2EBE70897E933FD2DDC7
+    Имя файла: XaerosWorldMap_1.31.0_Forge_1.18.2.jar
+    MD5: A5C7022FA9A4DCE8BC70C3146AB071AF
 ---
-    Имя файла: Xaeros_Minimap_23.5.0_Forge_1.18.2.jar
-    MD5: 98B4EFDFCE8AAE19AAE96C6373AE4FE4
+    Имя файла: Xaeros_Minimap_23.6.0_Forge_1.18.2.jar
+    MD5: BE73BEFC05E67A0A700096D9B9EEB5E4
 ---
     Имя файла: xercamusic-1.18.2-1.1.0.jar
     MD5: 63F5343FC9B42234076700A2C67A0926

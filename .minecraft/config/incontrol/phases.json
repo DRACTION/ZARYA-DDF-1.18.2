@@ -1,11 +1,5 @@
 [
   {
-    "name": "after_10_days",
-    "conditions": {
-      "mindaycount": 10
-    }
-  },
-  {
     "name": "after_20_days",
     "conditions": {
       "mindaycount": 20
@@ -21,6 +15,12 @@
     "name": "after_40_days",
     "conditions": {
       "mindaycount": 40
+    }
+  },
+  {
+    "name": "after_50_days",
+    "conditions": {
+      "mindaycount": 50
     }
   }
 ]

@@ -4,7 +4,7 @@ randomise_seed = true
 #Range: > 0
 maximum_age = 3600
 #skip unloaded block entities that are eligible for conversion, set to false to potentially resolve issues with containers that aren't being converted [default: true]
-skip_unloaded = true
+skip_unloaded = false
 #whether or not mineshaft chest minecarts should be converted to standard loot chests
 convert_mineshafts = true
 #whether or not quark chests used in world generation for loot purposes should be replaced with Lootr chests
