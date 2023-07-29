@@ -738,7 +738,7 @@
     Имя файла: zombieawareness-1.18.1-1.12.3.jar
     MD5: BE74F7D2FEEAB85CFDCE33EFB455A480
 ---
-    Имя файла: [Forge] Wildfire Female Gender Mod-2.9.1.jar
-    MD5: 1DB137CC7994AE26EBA67E8F9B61141F
+    Имя файла: [Forge] Wildfire Female Gender Mod-2.9-ZaryaEdition.jar
+    MD5: 7E4BD743D2D6D3ABA1D9B6828F8E715F
 ---
 

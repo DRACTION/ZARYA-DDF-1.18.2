@@ -43,6 +43,69 @@
     "item.minecraft.lingering_potion.effect.third_unstable_death_pioneer": "Туманная третья нестабильная Смерть Пионерки",
     "item.minecraft.tipped_arrow.effect.third_unstable_death_pioneer": "Стрела третьей нестабильной Смерти Пионерки",
 
+  // Wildfire's Female Gender Mod
+
+    "category.wildfire_gender.generic": "Wildfire's Female Gender Mod",
+    "key.wildfire_gender.gender_menu": "Меню гендера",
+
+    "wildfire_gender.hurt.female": "Player Hurt",
+
+    "wildfire_gender.player_list.title": "Гендер-мод",
+    "wildfire_gender.player_list.settings_button": "Настройки",
+    "wildfire_gender.player_list.sync_status": "Синх. статус",
+    "wildfire_gender.player_list.state.loading": "Загрузка данных...",
+    "wildfire_gender.player_list.state.synced": "Игрок синхронизирован",
+
+    "wildfire_gender.wardrobe.title": "Меню кастомизации",
+    "wildfire_gender.wardrobe.slider.breast_size": "Размер груди: %s%%",
+    "wildfire_gender.wardrobe.slider.separation": "Расстояние: %s",
+    "wildfire_gender.wardrobe.slider.height": "Высота: %s",
+    "wildfire_gender.wardrobe.slider.depth": "Глубина: %s",
+    "wildfire_gender.wardrobe.slider.rotation": "Поворот: %s degrees",
+
+    "wildfire_gender.appearance_settings.title": "Настройки внешности",
+    "wildfire_gender.char_settings.title": "Настройки персонажа",
+    "wildfire_gender.char_settings.physics": "Физика груди: %s",
+    "wildfire_gender.tooltip.breast_physics": "Вкл. физику груди",
+    "wildfire_gender.char_settings.armor_physics": "Физика брони: %s",
+    "wildfire_gender.tooltip.armor_physics": "Включает физику груди в броне",
+    "wildfire_gender.char_settings.hide_in_armor": "Скрыть в броне: %s",
+    "wildfire_gender.tooltip.hide_in_armor": "Скрыть грудь, когда в броне",
+    "wildfire_gender.char_settings.hurt_sounds": "Звуки урона: %s",
+    "wildfire_gender.tooltip.hurt_sounds": "Включает звуки урона",
+
+    "wildfire_gender.breast_customization.dual_physics": "Отдельная физика: %s",
+
+    "wildfire_gender.player_list.bounce_multiplier": "Множитель тряски: %sx",
+    "wildfire_gender.player_list.breast_momentum": "Импульс груди: %s%%",
+    "wildfire_gender.player_list.female_sounds": "Звуки урона: %s",
+
+    "wildfire_gender.settings.title": "Wildfire's Settings Menu",
+
+    "wildfire_gender.acknowledge.confirm": "ОК",
+
+    "wildfire_gender.label.gender": "Гендер",
+    "wildfire_gender.label.female": "Жен",
+    "wildfire_gender.label.male": "Муж",
+    "wildfire_gender.label.other": "Вертолёт",
+
+    "wildfire_gender.label.enabled": "Вкл.",
+    "wildfire_gender.label.disabled": "Выкл.",
+    "wildfire_gender.label.yes": "Да",
+    "wildfire_gender.label.no": "Нет",
+    "wildfire_gender.label.exit": "X",
+    "wildfire_gender.label.too_far": "Too Far Away",
+    "wildfire_gender.label.with_creator": "You are playing on a server with the creator of this mod!",
+
+    "wildfire_gender.slider.bounce": "Множитель тряски: %sx",
+    "wildfire_gender.slider.floppy": "Импульс груди: %s%%",
+    "wildfire_gender.slider.min_bounce": "Физика вообще включена?",
+    "wildfire_gender.slider.max_bounce": "Аниме физика!!!",
+    "wildfire_gender.tooltip.bounce_warning": "Установка 'Множитель тряски' на высокое значение будет выглядеть очень неестественно!",
+
+    "wildfire_gender.cancer_awareness.title": "Hey, it's Breast Cancer Awareness Month!",
+    "wildfire_gender.cancer_awareness.description": "Click here to donate to §dSusan G. Komen Foundation§f!",
+
   // Supplementaries
 
     "item.supplementaries.bomb_spiky": "Бомба-лимонка",
