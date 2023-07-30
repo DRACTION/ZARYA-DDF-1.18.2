@@ -36,7 +36,7 @@ ao:2
 prioritizeChunkUpdates:1
 biomeBlendRadius:2
 renderClouds:false
-resourcePacks:["vanilla","mod_resources","Music Triggers Songs","Supplementaries Generated Pack","eatinganimations_compat","file/ctov-farmers-delight-compat-pack-1-0-0.zip","file/EclecticTrove-noconfig-1.18-1.2.0.zip","file/Repurposed_Structures-Better_Desert_Temples.zip","file/Repurposed_Structures-Better_Dungeons_v3.zip","file/Repurposed_Structures-Better_Monuments_v0_1.zip","file/Repurposed_Structures-Better_Strongholds_v3.zip","file/Repurposed_Structures-Better_Witch_Huts_v1.zip","file/EF_anmation_1.18_v1.0.zip","file/[1.3] Enhanced Boss Bars.zip","file/Excalibur_V1.18.1.zip","file/Excalibur_Mod_Support_V1.18.1.1-ZaryaEdition.zip"]
+resourcePacks:["vanilla","mod_resources","Music Triggers Songs","Supplementaries Generated Pack","eatinganimations_compat","file/ctov-farmers-delight-compat-pack-1-0-0.zip","file/EclecticTrove-noconfig-1.18-1.2.0.zip","file/Repurposed_Structures-Better_Desert_Temples.zip","file/Repurposed_Structures-Better_Dungeons_v3.zip","file/Repurposed_Structures-Better_Monuments_v0_1.zip","file/Repurposed_Structures-Better_Strongholds_v3.zip","file/Repurposed_Structures-Better_Witch_Huts_v1.zip","file/EF_anmation_1.18_v1.0.zip","file/Excalibur_V1.18.1.zip","file/Excalibur_Mod_Support_V1.18.1.1-ZaryaEdition.zip","file/[1.3] Enhanced Boss Bars.zip"]
 incompatibleResourcePacks:["file/ctov-farmers-delight-compat-pack-1-0-0.zip","file/Repurposed_Structures-Better_Desert_Temples.zip","file/Repurposed_Structures-Better_Dungeons_v3.zip","file/Repurposed_Structures-Better_Monuments_v0_1.zip","file/Repurposed_Structures-Better_Strongholds_v3.zip","file/Repurposed_Structures-Better_Witch_Huts_v1.zip"]
 lastServer:
 lang:ru_ru
