@@ -287,10 +287,10 @@
     "item.epicfight.diamond_spear" : "Алмазное копьё",
     "item.epicfight.netherite_spear" : "Незеритовое копьё",
     // "item.epicfight.stone_greatsword" : "Stone Greatsword",
-    "item.epicfight.golden_greatsword" : "Золотой цвайхендер",
-    "item.epicfight.iron_greatsword" : "Железный цвайхендер",
-    "item.epicfight.diamond_greatsword" : "Алмазный цвайхендер",
-    "item.epicfight.netherite_greatsword" : "Незеритовый цвайхендер",
+    "item.epicfight.golden_greatsword" : "Золотой цвайхандер",
+    "item.epicfight.iron_greatsword" : "Железный цвайхандер",
+    "item.epicfight.diamond_greatsword" : "Алмазный цвайхандер",
+    "item.epicfight.netherite_greatsword" : "Незеритовый цвайхандер",
     // "item.epicfight.stone_dagger" : "Stone Dagger",
     "item.epicfight.golden_dagger" : "Золотой кинжал",
     "item.epicfight.iron_dagger" : "Железный кинжал",
@@ -368,10 +368,10 @@
   // Dual Greatsword
 
     "skill.epicfight.earthquake" : "Дрожь земли",
-    "skill.epicfight.earthquake.tooltip" : "Вскиньте два цвайхендера и долбаните по земле.\nПри выполнении анимации у вас супер-устойчивость, предотвращающая ошеломление.",
+    "skill.epicfight.earthquake.tooltip" : "Вскиньте два цвайхандера и долбаните по земле.\nПри выполнении анимации у вас супер-устойчивость, предотвращающая ошеломление.",
 
-    "skill.epicfight.dualgreatsword" : "Два цвайхендера",
-    "skill.epicfight.dualgreatsword.tooltip" : "Навык для сильнейших!\nПозволяет держать по цвайхендеру в каждой руке.",
+    "skill.epicfight.dualgreatsword" : "Два цвайхандера",
+    "skill.epicfight.dualgreatsword.tooltip" : "Навык для сильнейших!\nПозволяет держать по цвайхандеру в каждой руке.",
 
   // Callable horses
 

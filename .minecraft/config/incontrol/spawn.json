@@ -80,7 +80,7 @@
     "spawner": false,
     "incontrol": false,
     "mincount": {
-      "amount": 30,
+      "amount": 50,
       "hostile": true,
       "perplayer": true
     },

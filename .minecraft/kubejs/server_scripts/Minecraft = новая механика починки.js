@@ -86,6 +86,7 @@ onEvent('item.tags', e => {
     'minecraft:netherite_chestplate',
     'minecraft:netherite_leggings',
     'minecraft:netherite_boots',
+    'minecraft:shield',
     'create:copper_diving_helmet',
     'create:copper_backtank',
     'create:copper_diving_boots',
