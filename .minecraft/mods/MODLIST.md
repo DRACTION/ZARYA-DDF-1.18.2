@@ -615,11 +615,11 @@
     Имя файла: sophisticatedbackpacks-1.18.2-3.18.57.888.jar
     MD5: 3DB5791FBACA5F3FD3CE2957A03A313F
 ---
-    Имя файла: sophisticatedcore-1.18.2-0.5.81.384.jar
-    MD5: E7EEB83441D2B131A249431A70EF2A80
+    Имя файла: sophisticatedcore-1.18.2-0.5.82.393.jar
+    MD5: CD1966E4CEB39865AF7FBE86B2A37851
 ---
-    Имя файла: sophisticatedstorage-1.18.2-0.8.37.554.jar
-    MD5: CB7C6B540CCA9596C8A3A969F85D6197
+    Имя файла: sophisticatedstorage-1.18.2-0.8.38.572.jar
+    MD5: 875F74D613161040CAE7377326820A76
 ---
     Имя файла: soundphysics-forge-1.18.2-1.0.6.jar
     MD5: BC11649A1F9C33B324D3B4A403A593DA
