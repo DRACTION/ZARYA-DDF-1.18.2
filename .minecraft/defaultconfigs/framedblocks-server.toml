@@ -1,0 +1,5 @@
+
+[general]
+	#If true, applying a camo will consume the item and removing the camo will drop it again
+	consumeCamoItem = false
+

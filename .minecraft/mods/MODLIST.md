@@ -306,8 +306,8 @@
     Имя файла: FpsReducer2-forge-1.18.2-2.0.jar
     MD5: 69C2E4ADDEDE2D062C7B0565779D5993
 ---
-    Имя файла: FramedBlocks-5.11.5.jar
-    MD5: 7E4A24931ACE4D8A62ADFFEA3BDF71E6
+    Имя файла: FramedBlocks-5.11.5-ZaryaEdition.jar
+    MD5: AD135BC7262918EFD6798F10BF6D18C0
 ---
     Имя файла: ftb-essentials-1802.2.2-build.83.jar
     MD5: 29BAB29747D7336804C448537582115B
