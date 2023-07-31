@@ -116,10 +116,6 @@
     "simplebackups.backup_started": "Начато резервное копирование...",
     "simplebackups.backup_finished": "Резервное копирование завершено за %s (%s | %s)",
 
-  // Spice of Life: Carrot Edition
-
-    "tooltip.solcarrot.disabled.blacklist": "Эта еда не улучшит ваше здоровье.",
-
   // Spice of Life: Apple Pie Edition
 
     "tooltip.solapplepie.disabled": "Эта еда не полезна",
