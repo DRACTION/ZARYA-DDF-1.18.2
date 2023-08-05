@@ -9,6 +9,7 @@
     "minecraft:arrow",
     "minecraft:cod",
     "minecraft:item_frame",
+    "minecraft:painting",
     "minecraft:salmon",
     "minecraft:squid",
     "minecraft:tropical_fish",
@@ -59,6 +60,7 @@
           "protection": true,
           "settingOverrides": {
             "renderOrder": 6.0,
+            "names": 2.0,
             "color": 15.0
           },
           "subCategories": [
