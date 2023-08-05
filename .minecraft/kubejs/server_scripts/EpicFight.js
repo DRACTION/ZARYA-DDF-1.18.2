@@ -75,6 +75,9 @@ onEvent('recipes', e => {
   materials.P = `#forge:plates/gold`
   modifyShapedID(e, `epicfight:golden_tachi`, `epicfight:golden_tachi`, 1, template, materials)
 
+  // Книги навыков в обычные книги
+  e.shapeless('minecraft:book', ['epicfight:skillbook'])
+
 })
 
 onEvent('item.tags', e => {
@@ -95,4 +98,22 @@ onEvent('item.tags', e => {
   e.add('farmersdelight:tools/knives', 'epicfight:netherite_dagger')
   e.add('farmersdelight:straw_harvesters', 'epicfight:netherite_dagger')
 
+})
+
+onEvent("lootjs", (event) => {
+  event
+    .addLootTypeModifier([LootType.CHEST])
+    .randomChance(0.2)
+    .addWeightedLoot(1, [
+        Item.of('epicfight:skillbook', '{skill:"epicfight:stamina_pillager"}'),
+        Item.of('epicfight:skillbook', '{skill:"epicfight:energizing_guard"}'),
+        Item.of('epicfight:skillbook', '{skill:"epicfight:swordmaster"}'),
+        Item.of('epicfight:skillbook', '{skill:"epicfight:roll"}'),
+        Item.of('epicfight:skillbook', '{skill:"epicfight:berserker"}'),
+        Item.of('epicfight:skillbook', '{skill:"epicfight:technician"}'),
+        Item.of('epicfight:skillbook', '{skill:"epicfight:step"}'),
+        Item.of('epicfight:skillbook', '{skill:"epicfight:guard"}'),
+        Item.of('epicfight:skillbook', '{skill:"epicfight:active_guard"}'),
+        Item.of('epicfight:skillbook', '{skill:"epicfight:dualgreatsword"}')
+    ]);
 })
