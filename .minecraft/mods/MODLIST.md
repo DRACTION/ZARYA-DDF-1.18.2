@@ -147,8 +147,8 @@
     Имя файла: create-1.18.2-0.5.1.c.jar
     MD5: 7E645001C471244F7207679759A4D366
 ---
-    Имя файла: createaddition-1.18.2-20230623a.jar
-    MD5: 1F4280D40C1DD159D0E7CE4687E586B8
+    Имя файла: createaddition-1.18.2-1.0.0.jar
+    MD5: A350F0F8C5CECA51A7555A2A7CB09333
 ---
     Имя файла: createdeco-1.3.3-1.18.2.jar
     MD5: 2E2116EFBE27EA49D4780E2674F58B04
@@ -261,8 +261,8 @@
     Имя файла: FancyVideo-API-forge-2.2.0.0.jar
     MD5: 2FDB6D3D82F1E7D53BF603626D8EBA4D
 ---
-    Имя файла: FarmersDelight-1.18.2-1.2.2.jar
-    MD5: 77384237D67F1EAB88B4ACB4ECA146D9
+    Имя файла: FarmersDelight-1.18.2-1.2.3.jar
+    MD5: A4FFDF191511EBF1B5B2408FE9F1B9F6
 ---
     Имя файла: FarmersRespite-1.18.2-1.3.0.jar
     MD5: AB31BA2F316C68DFED0B3B6828606F90
@@ -348,8 +348,8 @@
     Имя файла: Iceberg-1.18.2-forge-1.0.49.jar
     MD5: 34CF6CACF18F8E7EEFE759042EDFC42E
 ---
-    Имя файла: immersive_paintings-0.6.2+1.18.2-forge.jar
-    MD5: 8FD27621C0824622F665DC8FACF80E57
+    Имя файла: immersive_paintings-0.6.3+1.18.2-forge.jar
+    MD5: A60F09896EE7896F9681982120477875
 ---
     Имя файла: incontrol-1.18-6.1.10.jar
     MD5: D2C9F8CAE66649B4103BAF65FB898C4A
@@ -462,8 +462,8 @@
     Имя файла: mmlib-1.2.2-1.18.2.jar
     MD5: 4CDCC020628977FD59F04C2DCC4CDEEE
 ---
-    Имя файла: modernfix-forge-5.4.1+mc1.18.2.jar
-    MD5: F225072EF4075599197161E5B3CB74BC
+    Имя файла: modernfix-forge-5.6.0+mc1.18.2.jar
+    MD5: 50B1A90E0D9F4849D4AD0468FAAC990A
 ---
     Имя файла: morejs-forge-1.18.2-0.0.6.jar
     MD5: C21909209E50CC607BB2BFBD956A8AAE
