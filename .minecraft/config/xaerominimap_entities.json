@@ -4,6 +4,7 @@
   "includeListInSuperCategory": false,
   "excludeMode": "ONLY",
   "excludeList": [
+    "apotheosis:obsidian_arrow",
     "minecolonies:mcnormalarrow",
     "minecraft:armor_stand",
     "minecraft:arrow",
