@@ -18,6 +18,7 @@
 !.minecraft/config/inventoryprofilesnext/inventoryprofiles.json
 !.minecraft/config/inventoryprofilesnext/integrationHints/
 .minecraft/config/jei/world/
+.minecraft/chiselsandbits/clipboard.dat
 .minecraft/coremods/
 .minecraft/crash-reports/
 .minecraft/debug/

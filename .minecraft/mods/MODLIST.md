@@ -99,6 +99,9 @@
     Имя файла: chipped-forge-1.18.2-2.0.1.jar
     MD5: 046EB64DF3EC0335EEF0F0ECCB81B98F
 ---
+    Имя файла: ChiselsBits-forge-1.18.2-1.2.116-universal.jar
+    MD5: 4B84A877748975EF0CC6B8806992A6E4
+---
     Имя файла: Chunky-1.2.164.jar
     MD5: 7B1700ED274546FC7E78FFC9464872D9
 ---
@@ -332,6 +335,9 @@
 ---
     Имя файла: GlobalGameRules-1.18.2-6.0.1.8.jar
     MD5: 1E7472810C704C24D315F04C59290F1A
+---
+    Имя файла: golemsarefriends-1.18.2-0.1.0.1.jar
+    MD5: E66E1131FAB791E8029EBBFCD844AB79
 ---
     Имя файла: HarderSpawners-1.18.2-40.2.22.1-ZaryaEdition.jar
     MD5: 5028E910C4B05AAAA51F7410070C803D
