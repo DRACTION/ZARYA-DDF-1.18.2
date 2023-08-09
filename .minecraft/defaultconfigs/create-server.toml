@@ -1,0 +1,7 @@
+#.
+#Tweaks for logistical components
+[logistics]
+	#.
+	#The total amount of stacks a vault can hold per block in size.
+	#Range: > 1
+	vaultCapacity = 100
