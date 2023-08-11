@@ -27,6 +27,9 @@
     Имя файла: AmbientSounds_FORGE_v5.0.16_mc1.18.2.jar
     MD5: 4BF9F0B68E298923FB32B058D68FC868
 ---
+    Имя файла: antiqueatlas-7.1.1-forge-mc1.18.2.jar
+    MD5: 5705AE9C42A83E47EAEF0BE37AE59A68
+---
     Имя файла: anviltooltipmod-MC1.18.2-1.0.0.jar
     MD5: 6BB962F05835E1CEA5CB05E5EA2858DA
 ---
@@ -247,7 +250,7 @@
     MD5: 6304D608FFA074ADE01D59290FEC48C2
 ---
     Имя файла: epicfight-18.3.8-ZaryaEdition.jar
-    MD5: D8D01D6FA26C7B1782CF6237F09FAE8E
+    MD5: 03971C1BB88A75A21CD08CB3229E5B51
 ---
     Имя файла: EverlastingSkins-1.18.2-1.0.jar
     MD5: 74615E47F2933901F07012A9F58AA89A
@@ -537,9 +540,6 @@
     Имя файла: OnlyLooking-1.18.2-1.4.0.jar
     MD5: 0C1F8FC21A9EB5C19111B994AD25C183
 ---
-    Имя файла: open-parties-and-claims-forge-1.18.2-0.19.1.jar
-    MD5: CDFB088A813D4EBA3EBDD76E1BFF936B
----
     Имя файла: parry-2.3.1.jar
     MD5: DD92F34790DCF7D465C37E59C236A606
 ---
@@ -630,8 +630,8 @@
     Имя файла: sophisticatedcore-1.18.2-0.5.82.393.jar
     MD5: CD1966E4CEB39865AF7FBE86B2A37851
 ---
-    Имя файла: sophisticatedstorage-1.18.2-0.8.38.572.jar
-    MD5: 875F74D613161040CAE7377326820A76
+    Имя файла: sophisticatedstorage-1.18.2-0.8.39.580.jar
+    MD5: 582B4991A5C949BCB84FC47E212842C1
 ---
     Имя файла: soundphysics-forge-1.18.2-1.0.6.jar
     MD5: BC11649A1F9C33B324D3B4A403A593DA
@@ -704,12 +704,6 @@
 ---
     Имя файла: witherstormmod-1.18.2-2.2.1.jar
     MD5: 5C3158AE600FB037FBC0BD5C251C9CA9
----
-    Имя файла: XaerosWorldMap_1.31.0_Forge_1.18.2.jar
-    MD5: A5C7022FA9A4DCE8BC70C3146AB071AF
----
-    Имя файла: Xaeros_Minimap_23.6.0_Forge_1.18.2.jar
-    MD5: BE73BEFC05E67A0A700096D9B9EEB5E4
 ---
     Имя файла: xercamusic-1.18.2-1.1.0.jar
     MD5: 63F5343FC9B42234076700A2C67A0926
