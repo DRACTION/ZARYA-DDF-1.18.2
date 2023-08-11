@@ -339,6 +339,9 @@
     Имя файла: GlobalGameRules-1.18.2-6.0.1.8.jar
     MD5: 1E7472810C704C24D315F04C59290F1A
 ---
+    Имя файла: global_packs-forge-1.18.2-1.12.4_forge.jar
+    MD5: 721407D023BAC0AECC558D060642362E
+---
     Имя файла: golemsarefriends-1.18.2-0.1.0.1.jar
     MD5: E66E1131FAB791E8029EBBFCD844AB79
 ---

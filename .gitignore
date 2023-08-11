@@ -64,3 +64,6 @@
 .minecraft/*.properties
 natives/
 /*.txt
+
+.minecraft/global_packs/required_data/*.zip
+.minecraft/resourcepacks/*.zip
