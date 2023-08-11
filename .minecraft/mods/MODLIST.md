@@ -69,6 +69,9 @@
     Имя файла: betterinvisibility-1.18.1-1.0.4.jar
     MD5: 078115055CFC203D21DF8ABE81C91C65
 ---
+    Имя файла: betterleveling-1.18.2-0.6.2-ZaryaEdition.jar
+    MD5: 06E17DA908898B3EA94F5AFF22A4F271
+---
     Имя файла: betterpunching-1.18.2-1.2.0-ZaryaEdition.jar
     MD5: 04D9EEC9679954BC27CF608EF2093CAD
 ---
