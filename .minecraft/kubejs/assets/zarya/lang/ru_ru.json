@@ -4342,7 +4342,250 @@
     // "item.nethersdelight.nether_skewer": "Nether Skewer",
     "item.nethersdelight.magma_gelatin": "Магмовый желатин",
 
-  // apotheosis
+  // Apotheosis
+
+    "item.modifiers.both_hands": "Когда в двух руках:",
+
+    "death.attack.apotheosis.execute.item": "%s был казнён %s используя %s",
+
+    "attribute.modifier.apotheosis.plus.1": "+%s%% Баз. %s",
+    "attribute.modifier.apotheosis.plus.2": "+%s%% Итог. %s",
+    "attribute.modifier.apotheosis.take.1": "-%s%% Баз. %s",
+    "attribute.modifier.apotheosis.take.2": "-%s%% Итог. %s",
+    
+    "apotheosis:draw_speed": "Скорость натяжения",
+    "apotheosis:crit_chance": "Шанс крит. удара",
+    "apotheosis:crit_damage": "Урон крит. удара",
+    "apotheosis:cold_damage": "Урон холодом",
+    "apotheosis:fire_damage": "Урон огнём",
+    "apotheosis:life_steal": "Поглощение здоровья",
+    "apotheosis:piercing": "Пронзание",
+    "apotheosis:current_hp_damage": "Текущий урон здоровью",
+    "apotheosis:overheal": "Исцеление",
+    "apotheosis:ghost_health": "Ghost Health",
+    "apotheosis:mining_speed": "Скорость добычи",
+    "apotheosis:arrow_damage": "Урон стрелой",
+    "apotheosis:arrow_velocity": "Скорость стрелы",
+  
+    "affix.apotheosis:blessed": "Блаженный",
+    "affix.apotheosis:blessed.suffix": "здоровья",
+
+    "affix.apotheosis:ironforged": "Кованый",
+    "affix.apotheosis:ironforged.suffix": "из особого железа",
+
+    "affix.apotheosis:violent": "Жестокий",
+    "affix.apotheosis:violent.suffix": "убийства",
+
+    "affix.apotheosis:windswept": "Ветреный",
+    "affix.apotheosis:windswept.suffix": "течения",
+
+    "affix.apotheosis:graceful": "Изящный",
+    "affix.apotheosis:graceful.suffix": "дуэлянта",
+
+    "affix.apotheosis:forceful": "Мощный",
+    "affix.apotheosis:forceful.suffix": "быка",
+
+    "affix.apotheosis:aquatic": "Водный",
+    "affix.apotheosis:aquatic.suffix": "океана",
+
+    "affix.apotheosis:gravitational": "Гравитационный",
+    "affix.apotheosis:gravitational.suffix": "гравитации",
+
+    "affix.apotheosis:lengthy": "Длинный",
+    "affix.apotheosis:lengthy.suffix": "хватания",
+
+    "affix.apotheosis:elongated": "Удлиненный",
+    "affix.apotheosis:elongated.suffix": "дальних битв",
+
+    "affix.apotheosis:agile": "Проворный",
+    "affix.apotheosis:agile.suffix": "ловкости",
+
+    "affix.apotheosis:steel_touched": "Стальной",
+    "affix.apotheosis:steel_touched.suffix": "защитника",
+
+    "affix.apotheosis:stalwart": "Стойкий",
+    "affix.apotheosis:stalwart.suffix": "упрямства",
+
+    "affix.apotheosis:elastic": "Эластичный",
+    "affix.apotheosis:elastic.suffix": "подъема",
+
+    "affix.apotheosis:fortunate": "Счастливый",
+    "affix.apotheosis:fortunate.suffix": "четырехлистного клевера",
+
+    "affix.apotheosis:intricate": "Хитрый",
+    "affix.apotheosis:intricate.suffix": "критического мышления",
+
+    "affix.apotheosis:lacerating": "Рваный",
+    "affix.apotheosis:lacerating.suffix": "хирургической точности",
+
+    "affix.apotheosis:glacial": "Ледниковый",
+    "affix.apotheosis:glacial.suffix": "морозных земель",
+
+    "affix.apotheosis:infernal": "Адский",
+    "affix.apotheosis:infernal.suffix": "Солнца",
+
+    "affix.apotheosis:vampiric": "Вампирский",
+    "affix.apotheosis:vampiric.suffix": "кровопускания",
+
+    "affix.apotheosis:shredding": "Измельчающий",
+    "affix.apotheosis:shredding.suffix": "проникновения",
+
+    "affix.apotheosis:giant_slaying": "Гигачадский",
+    "affix.apotheosis:giant_slaying.suffix": "колоссальных ударов",
+
+    "affix.apotheosis:berserking": "Яростный",
+    "affix.apotheosis:berserking.suffix": "Берсерка",
+
+    "affix.apotheosis:destructive": "Разрушительный",
+    "affix.apotheosis:destructive.suffix": "карьера",
+
+    "affix.apotheosis:elven": "Эльфийский",
+    "affix.apotheosis:elven.suffix": "первого лучника",
+
+    "affix.apotheosis:streamlined": "Обтекаемый",
+    "affix.apotheosis:streamlined.suffix": "снайпера",
+  
+    "affix.apotheosis:elusive": "Неуловимый",
+    "affix.apotheosis:elusive.suffix": "уклонения",
+
+    "affix.apotheosis:swift": "Стремительный",
+    "affix.apotheosis:swift.suffix": "сокрушительности",
+
+    "affix.apotheosis:ensnaring": "Ловящий",
+    "affix.apotheosis:ensnaring.suffix": "хищника",
+
+    "affix.apotheosis:venomous": "Ядовитый",
+    "affix.apotheosis:venomous.suffix": "змеи",
+
+    "affix.apotheosis:fleeting": "Мимолетный", 
+    "affix.apotheosis:fleeting.suffix": "рейнджера",
+
+    "affix.apotheosis:weakening": "Ослабленный",
+    "affix.apotheosis:weakening.suffix": "слабости",
+
+    "affix.apotheosis:bolstering": "Усиление",
+    "affix.apotheosis:bolstering.suffix": "стойкости",
+
+    "affix.apotheosis:revitalizing": "Оживляющий",
+    "affix.apotheosis:revitalizing.suffix": "источника",
+
+    "affix.apotheosis:shulkers": "Шалкерский",
+    "affix.apotheosis:shulkers.suffix": "левитации",
+
+    "affix.apotheosis:withering": "Иссохший",
+    "affix.apotheosis:withering.suffix": "Темного Скелета",
+
+    "affix.apotheosis:ivy_laced": "Плющевидный",
+    "affix.apotheosis:ivy_laced.suffix": "из натуральных токсинов",
+
+    "affix.apotheosis:satanic": "Сатанинский",
+    "affix.apotheosis:satanic.suffix": "проклятия",
+  
+    "affix.apotheosis:spectral": "Призрачный",
+    "affix.apotheosis:spectral.suffix": "отчаявшихся",
+    "affix.apotheosis:spectral.desc": "• У вас есть %s%% шанс выпустить вторую стрелу.",
+  
+    "affix.apotheosis:magical": "Волшебный",
+    "affix.apotheosis:magical.suffix": "Арканы",
+    "affix.apotheosis:magical.desc": "• Ваши стрелы наносят магический урон.",
+  
+    "affix.apotheosis:festive": "Праздничный",
+    "affix.apotheosis:festive.suffix": "вечеринки",
+    "affix.apotheosis:festive.desc": "• У убитых врагов есть %s%% шанс стать Пиньятой",
+  
+    "affix.apotheosis:thunderstruck": "Громовой",
+    "affix.apotheosis:thunderstruck.suffix": "Шторма",
+    "affix.apotheosis:thunderstruck.desc": "• Ваши атаки наносят %s урона ближайшим врагам.",
+  
+    "affix.apotheosis:retreating": "Отступающий",
+    "affix.apotheosis:retreating.suffix": "Шута",
+    "affix.apotheosis:retreating.desc": "• Вы будете отскакивать при блокировании в ближнем бою.",
+  
+    "affix.apotheosis:telepathic": "Телепатический",
+    "affix.apotheosis:telepathic.suffix": "Пространства и Времени",
+    "affix.apotheosis:telepathic.desc.weapon": "• Дроп мобов будет телепортироваться к вам.",
+    "affix.apotheosis:telepathic.desc.tool": "• Дроп блоков будет телепортироваться к вам.",
+
+    "affix.apotheosis:executing": "Казнящий",
+    "affix.apotheosis:executing.suffix": "Палача",
+    "affix.apotheosis:executing.desc": "• Враги со здоровьем ниже %s%% будут казнены.",
+  
+    "affix.apotheosis:cleaving": "Раскалывающий",
+    "affix.apotheosis:cleaving.suffix": "Мясника",
+    "affix.apotheosis:cleaving.desc": "• Атаки имеют %s%% шанс поразить до %s ближайших врагов.",
+
+    "affix.apotheosis:enlightened": "Просветленный",
+    "affix.apotheosis:enlightened.suffix": "Светоносца",
+    "affix.apotheosis:enlightened.desc": "• Этот инструмент может разместить факел ценой прочности в %s единиц.",
+
+    "affix.apotheosis:psychic": "Психический",
+    "affix.apotheosis:psychic.suffix": "Мстителя",
+    "affix.apotheosis:psychic.desc": "• Блокирование снаряда наносит стрелку %s%% урона.",
+
+    "affix.apotheosis:catalyzing": "Катализирующий",
+    "affix.apotheosis:catalyzing.suffix": "обращенных",
+    "affix.apotheosis:catalyzing.desc": "• Блокирование взрыва даст вам большую силу.",
+
+    "affix.apotheosis:annihilating": "Уничтожающий",
+    "affix.apotheosis:annihilating.suffix": "Титана",
+
+    "affix.apotheosis:decimating": "Истребляющий",
+    "affix.apotheosis:decimating.suffix": "Короля-Бога",
+  
+    "affix.apotheosis:murderous": "Убийственный",
+    "affix.apotheosis:murderous.suffix": "Минотавра",
+  
+    "affix.apotheosis:acidic": "Кислотный",
+    "affix.apotheosis:acidic.suffix": "коррозии",
+
+    "affix.apotheosis:caustic": "Едкий",
+    "affix.apotheosis:caustic.suffix": "разъедающей реальности",
+
+    "affix.apotheosis:sophisticated": "Изощренный",
+    "affix.apotheosis:sophisticated.suffix": "Древней Библиотеки",
+
+    "affix.apotheosis:devilish": "Дьявольский",
+    "affix.apotheosis:devilish.suffix": "Ветерана",
+
+    "affix.apotheosis:radial": "Радиальный",
+    "affix.apotheosis:radial.suffix": "Землелома",
+    "affix.apotheosis:radial.desc": "• Этот инструмент ломает в области %sx%s блоков.",
+  
+    "misc.apotheosis.iron": "железный",
+    "misc.apotheosis.diamond": "алмазный",
+    "misc.apotheosis.netherite": "незеритовый",
+  
+    "affix.apotheosis:omnetic": "Омнетический",
+    "affix.apotheosis:omnetic.suffix": "Сингулярности",
+    "affix.apotheosis:omnetic.desc": "• Этот инструмент имеет эффективность %s против всех блоков.",
+  
+    "misc.apotheosis.physical": "Физический",
+    "misc.apotheosis.magic": "Магический",
+    "misc.apotheosis.fire": "Огненный",
+    "misc.apotheosis.fall": "Падающий",
+    "misc.apotheosis.explosion": "Взрывной",
+    "affix.apotheosis:damage_reduction.desc": "• %s получаемый урон уменьшен на %s%%.",
+  
+    "affix.apotheosis:blockading": "Блокадный",
+    "affix.apotheosis:blockading.suffix": "Блокады",
+  
+    "affix.apotheosis:runed": "Рунический",
+    "affix.apotheosis:runed.suffix": "Хранителя Заклинаний",
+  
+    "affix.apotheosis:blast_forged": "Выкованный взрывом",
+    "affix.apotheosis:blast_forged.suffix": "бога-кузницы",
+  
+    "affix.apotheosis:dwarven": "Двемерский",
+    "affix.apotheosis:dwarven.suffix": "Вулкана",
+  
+    "affix.apotheosis:feathery": "Пернатый",
+    "affix.apotheosis:feathery.suffix": "Папы-Орла",
+
+    "socket.apotheosis.empty": "Пустой слот",
+    "item.modifiers.socket": "Когда вставлено:",
+    "info.apotheosis.socketing": "Драгоценные камни можно вставить на кузнечном столе. Предмет слева, драгоценный камень справа.\n\nВыбирайте с умом, так как удаление драгоценного камня из гнезда обходится дорого.",
+
+    "affix.apotheosis:durable.desc": "• This item ignores %s%% of durability damage.",
 
     "item.apotheosis.inert_trident": "Инертный трезубец",
     "item.apotheosis.other_tome": "Фолиант дополнительных чар",
@@ -4467,6 +4710,106 @@
     "enchantment.apotheosis.chainsaw.desc": "Деревья будут УНИЧТОЖЕНЫ!",
     "enchantment.apotheosis.spearfishing": "Подводная охота",
     "enchantment.apotheosis.spearfishing.desc": "Убийства брошенным трезубцем могут поймать рыбу.",
+
+    "advancements.apotheosis.infuse_seashelf": "Морской настой",
+    "advancements.apotheosis.infuse_seashelf.desc": "Получите заряженную морскую книжную полку с помощью Инфузии.",
+    "advancements.apotheosis.infuse_hellshelf": "Пропитанный адом чародей",
+    "advancements.apotheosis.infuse_hellshelf.desc": "Зачаруйте адскую книжную полку.",
+    "advancements.apotheosis.max_rectified": "Only the Best",
+    "advancements.apotheosis.max_rectified.desc": "Зачаровать предмет с максимальными характеристиками и максимальной ректификацией.",
+    
+    "advancements.apotheosis.gem": "Древний кристалл",
+    "advancements.apotheosis.gem.desc": "Найдите вставной драгоценный камень.",
+    "advancements.apotheosis.socket": "Ювелир",
+    "advancements.apotheosis.socket.desc": "Используя кузнечный стол, вставьте драгоценный камень в предмет.",
+
+    "advancements.apotheosis.light": "Кому нужна тьма?",
+    "advancements.apotheosis.light.desc": "Заставьте ваш спаунер работать при любом уровне освещенности.",
+    "advancements.apotheosis.noai": "Утечка мозгов",
+    "advancements.apotheosis.noai.desc": "Отключите ИИ мобов для спавнера.",
+
+    "misc.apotheosis.concat": "%s %s",
+    "misc.apotheosis.value_concat": "%s: %s",
+    "misc.apotheosis.min_value": "Этот модификатор не может уменьшить это значение ниже %s",
+    "misc.apotheosis.max_value": "Этот модификатор не может увеличить это значение выше %s",
+    "misc.apotheosis.mainhand": "В главной руке",
+    "misc.apotheosis.offhand": "В дополнительной руке",
+    "misc.apotheosis.not_consumed": "Этот предмет не потребляется",
+    "misc.apotheosis.rclick_spawner": "Щелкните правой кнопкой мыши по спаунеру",
+    "misc.apotheosis.entity": "Сущность",
+    "misc.apotheosis.shift_stats": "Удерживайте Shift для просмотра статов",
+    "misc.apotheosis.ctrl_stats": "Удерживайте Ctrl для просмотра статов",
+    "misc.apotheosis.banned": "Нельзя использовать на спавнере",
+    
+    "stat.apotheosis.min_delay": "Мин. задержка появления",
+    "stat.apotheosis.max_delay": "Макс. задержка появления",
+    "stat.apotheosis.spawn_count": "Количество спавнов",
+    "stat.apotheosis.max_nearby_entities": "Макс. кол-во сущностей",
+    "stat.apotheosis.req_player_range": "Расст. активации",
+    "stat.apotheosis.spawn_range": "Диапазон появления",
+    "stat.apotheosis.ignore_players": "Игнорирует игроков",
+    "stat.apotheosis.ignore_conditions": "Игнорирует условия",
+    "stat.apotheosis.redstone_control": "Управление Редстоуном",
+    "stat.apotheosis.ignore_light": "Игнорирует свет",
+    "stat.apotheosis.no_ai": "Нет ИИ",
+    "stat.apotheosis.silent": "Тихий",
+
+    "stat.apotheosis.min_delay.desc": "Минимальное количество тиков между спавнами",
+    "stat.apotheosis.max_delay.desc": "Максимальное количество тиков между спавнами",
+    "stat.apotheosis.spawn_count.desc": "Число созданных одновременно сущностей",
+    "stat.apotheosis.max_nearby_entities.desc": "Общее количество сущностей, разрешенных поблизости",
+    "stat.apotheosis.req_player_range.desc": "Как далеко игрок должен уйти до прекращения появления",
+    "stat.apotheosis.spawn_range.desc": "Радиус (в блоках), в котором мобы могут появиться",
+    "stat.apotheosis.ignore_players.desc": "Спавнеру не нужны игроки",
+    "stat.apotheosis.ignore_conditions.desc": "Спавнер игнорирует условия появления",
+    "stat.apotheosis.redstone_control.desc": "Для активации спавнера требуется редстоун сигнал",
+    "stat.apotheosis.ignore_light.desc": "Спавнер игнорирует уровень освещенности",
+    "stat.apotheosis.no_ai.desc": "Сущности не будут иметь ИИ",
+    "stat.apotheosis.silent.desc": "Сущности не будут издавать шума",
+
+    "title.apotheosis.spawner": "Модификация спавнера",
+    "info.apotheosis.spawner": "Спавнеры можно собирать с помощью %s и модифицировать с помощью различных предметов.",
+    "info.apotheosis.spawner.no_silk": "Спавнеры могут быть модифицированы различными предметами, но сбор с помощью Шёлкового касания в настоящее время отключен.",
+    "info.apotheosis.spawner.always_drop": "Спавнеры можно модифицировать с помощью различных предметов, и они всегда будут падать при поломке.",
+    "info.apotheosis.capturing": "Чары захвата дают монстрам шанс выбросить яйцо призывания.\\n \\nШанс выпадения: 0,4%% за уровень",
+
+    "gui.apotheosis.enchant.rectification": "Ректификация",
+    "info.apotheosis.rectification": " - Ректификация: %s%%",
+    "info.apotheosis.clues": " - Подсказки чар: %s",
+    "info.apotheosis.rectification.p": " - Ректификация: +%s%%",
+    "info.apotheosis.clues.p": " - Подсказки чар: +%s",
+    "info.apotheosis.rectification.t": "Ректификация: %s%%",
+    "info.apotheosis.clues.t": "Подсказки чар: %s",
+    "gui.apotheosis.enchant.arcana.desc5": "Общ. значение: %s%%",
+    "info.apotheosis.gui_rectification": "Ректификация: %s%%",
+    "info.apotheosis.quanta_buff": "Квантовая деформация",
+    "info.apotheosis.quanta_reduc": "Потенциал сокращения: %s%%",
+    "info.apotheosis.quanta_growth": "Потенциал роста: %s%%",
+    "info.apotheosis.ench_bonus": "Бонус зачарования: %s%%",
+    "info.apotheosis.rel_weights": "Относительный вес",
+    "rarity.enchantment.common": "Обычный",
+    "rarity.enchantment.uncommon": "Необычный",
+    "rarity.enchantment.rare": "Редкий",
+    "rarity.enchantment.very_rare": "Очень редкий",
+    "info.apotheosis.weight": "%s: %s",
+    "info.apotheosis.eterna_at_least": "Требует, по крайней мере: %s/%s",
+    "info.apotheosis.percent_at_least": "Требует, по крайней мере: %s%%",
+    "info.apotheosis.eterna_at_most": "Но не более: %s/%s",
+    "info.apotheosis.percent_at_most": "Но не более: %s%%",
+    "info.apotheosis.eterna_exact": "Требуется именно: %s/%s",
+    "info.apotheosis.percent_exact": "Требуется именно: %s%%",
+    "apotheosis.recipes.enchanting": "Наложение чар",
+    
+    "info.apotheosis.slider_power": "Мощность: %s",
+    "info.apotheosis.enchinfo_level": "Уровень: %s",
+    "info.apotheosis.enchinfo_rarity": "Редкость: %s",
+    "info.apotheosis.enchinfo_chance": "Шанс: %s",
+    "info.apotheosis.enchinfo_slot": "Слот чар %s",
+    "info.apotheosis.enchinfo_minpow": "Мин. мощность: %s",
+    "info.apotheosis.enchinfo_maxpow": "Макс. мощность: %s",
+    "info.apotheosis.enchinfo_title": "Доступные чары",
+    "info.apotheosis.weights": "Веса",
+    "info.apotheosis.all_available": "Посмотреть все доступные чары",
 
   // EnchantingInfuser
 
