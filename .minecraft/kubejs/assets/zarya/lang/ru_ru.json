@@ -401,7 +401,7 @@
     "gui.epicfight.off_blood_effects.tooltip" : "Turn on/off the blood effects",
     "gui.epicfight.auto_switching_items.tooltip" : "Edit the list of items that will automatically switch battle/mining mode",
     "gui.epicfight.export_custom_armor.tooltip" : "Export the custom armor models in resource pack format",
-    "gui.epicfight.replace" : "Following skill will be removed : %s",
+    "gui.epicfight.replace" : "Указанный навык заменится: %s",
     "gui.epicfight.require_learning" : "Нужно выучить навык \"%s\" сначала!",
     "gui.epicfight.learn" : "Изучить",
     "gui.epicfight.applied" : "Применено",
@@ -484,11 +484,11 @@
     "skill.epicfight.step" : "Отскок",
     "skill.epicfight.step.tooltip" : "Выносливость : %d\n\nРезкий рывок по направлению движения. При выполнении этого навыка вы становитесь невосприимчивы к физическим атакам.",
     "skill.epicfight.guard" : "Блок",
-    "skill.epicfight.guard.tooltip" : "Выносливость : зависит от воздействия\n\nНажмите ПКМ, чтобы заблокировать все атаки ближнего боя спереди. Если вы последовательно блокируете атаки, расходуется больше выносливости.\n\nДоступные типы оружия : %s",
+    "skill.epicfight.guard.tooltip" : "Выносливость : зависит от воздействия\n\nНажмите ПКМ, чтобы заблокировать все атаки ближнего боя впереди вас. Если вы последовательно блокируете атаки, расходуется больше выносливости.\n\nДоступные типы оружия: %s",
     "skill.epicfight.active_guard" : "Активный блок",
-    "skill.epicfight.active_guard.tooltip" : "Штраф за последовательную блокировку будет снят, если вы будете защищаться в соответствии с таймингами атак противника. Вы сможете блокировать дальние атаки.\n\nДоступные типы оружия : %s",
+    "skill.epicfight.active_guard.tooltip" : "Штраф за последовательную блокировку будет снят, если вы будете защищаться в соответствии с таймингами атак противника. Вы сможете блокировать дальнобойные атаки.\n\nДоступные типы оружия: %s",
     "skill.epicfight.energizing_guard" : "Энергичная защита",
-    "skill.epicfight.energizing_guard.tooltip" : "Снижает штраф за последовательную блокировку до x0,2 за атаку. Вы сможете блокировать взрывы, огонь, магию и дальние атаки. Эти типы урона наносят на 80%% меньше урона.\n\nДоступные типы оружия : %s",
+    "skill.epicfight.energizing_guard.tooltip" : "Снижает штраф за последовательную блокировку до x0,2 за атаку. Вы сможете блокировать взрывы, огонь, магию и дальнобойные атаки, но не полностью. Эти типы урона наносят на 80%% меньше урона.\n\nДоступные типы оружия: %s",
     "skill.epicfight.berserker" : "Берсерк",
     "skill.epicfight.berserker.tooltip" : "Вы получаете 0,3%% бонус к урону от атаки и 0,5%% бонус к скорости атаки за каждый 1%% потерянного здоровья. Скорость атаки не может увеличиться более чем на 5.0",
     "skill.epicfight.stamina_pillager" : "Кража выносливости",
@@ -511,7 +511,7 @@
     "skill.epicfight.earthquake.tooltip" : "Вскиньте два цвайхандера и долбаните по земле.\nПри выполнении анимации у вас супер-устойчивость, предотвращающая ошеломление.",
 
     "skill.epicfight.dualgreatsword" : "Два цвайхандера",
-    "skill.epicfight.dualgreatsword.tooltip" : "Навык для сильнейших!\nПозволяет держать по цвайхандеру в каждой руке.",
+    "skill.epicfight.dualgreatsword.tooltip" : "Навык для сильнейших!\nПозволяет держать сразу два цвайхандера.",
 
   // Callable horses
 

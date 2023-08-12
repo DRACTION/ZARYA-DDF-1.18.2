@@ -65,11 +65,18 @@
 				disable_toast: true
 				elapsedTime: 10L
 			}]
-			rewards: [{
-				id: "1AD2C37754C4A93B"
-				type: "item"
-				item: "sophisticatedbackpacks:backpack"
-			}]
+			rewards: [
+				{
+					id: "1AD2C37754C4A93B"
+					type: "item"
+					item: "sophisticatedbackpacks:backpack"
+				}
+				{
+					id: "018B1D8E26ABAE39"
+					type: "item"
+					item: "antiqueatlas:empty_antique_atlas"
+				}
+			]
 		}
 		{
 			title: "Твёрдые блоки делают бобо"
@@ -129,17 +136,44 @@
 				title: "Прошло 10 дней"
 				days: 11
 			}]
-			rewards: [{
-				id: "7998A0A6A77BFE0C"
-				type: "item"
-				item: {
-					id: "minecraft:golden_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "7998A0A6A77BFE0C"
+					type: "item"
+					item: {
+						id: "epicfight:golden_tachi"
+						Count: 1b
+						tag: {
+							affix_data: {
+								name: "{\"color\":\"#5555FF\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:elongated\"},\"\",{\"translate\":\"affix.apotheosis:glacial.suffix\"}]}"
+								affixes: {
+									"apotheosis:elusive": 0.53222597f
+									"apotheosis:intricate": 0.63597274f
+									"apotheosis:elongated": 0.7091281f
+									"apotheosis:durable": 0.11f
+									"apotheosis:glacial": 0.6130976f
+								}
+								rarity: "rare"
+							}
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"защитник\"}"
+							}
+						}
 					}
 				}
-			}]
+				{
+					id: "4B4B7A25EAD4583A"
+					type: "item"
+					item: {
+						id: "epicfight:skillbook"
+						Count: 1b
+						tag: {
+							skill: "epicfight:guard"
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Ваш друг - погибель монстров"
@@ -637,7 +671,7 @@
 			description: [
 				"Кровавая луна - не позволяет уснуть, увеличивается спавн враждебных мобов."
 				""
-				"Урожайная луна - увеличивает как скорость роста и дроп урожая"
+				"Урожайная луна - увеличивает скорость роста и дроп урожая"
 				""
 				"Голубая луна - дает вам эффект удачи и повышает качество добычи в ванильных таблицах добычи"
 			]
@@ -758,6 +792,29 @@
 					match_nbt: false
 				}
 			]
+		}
+		{
+			title: "Ваш незаменимый помощник"
+			x: -1.0d
+			y: -3.5d
+			subtitle: "Особенно если вы страдаете топографическим критинизмом..."
+			description: [
+				"В этой книжке вы помечаете места, где вы уже были"
+				""
+				" - Если просрали книжку, то считай просрали весь прогресс исследований. Чтобы этого не произошло - делайте запасные атласы!"
+				"Запасной атлас делается просто. Объедините в крафте два атласа (например ваш и новый атлас). На выходе вы получите суммарные зарисовки и метки в обеих атласах. Два одинаковых атласа."
+			]
+			id: "3CCD76B23458A18E"
+			tasks: [{
+				id: "67650486E8E23464"
+				type: "item"
+				title: "Атлас"
+				item: {
+					id: "antiqueatlas:antique_atlas"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 	]
 	quest_links: [ ]

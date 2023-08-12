@@ -1,0 +1,497 @@
+{
+	id: "193E5B42655252BC"
+	group: ""
+	order_index: 8
+	filename: "193E5B42655252BC"
+	title: "Боевые навыки"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -1.0d
+			y: -0.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "epicfight:textures/gui/skills/step.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "epicfight:textures/gui/skills/roll.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "epicfight:textures/gui/skills/guard.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			width: 1.5d
+			height: 1.5d
+			rotation: 0.0d
+			image: "epicfight:textures/gui/skills/energizing_guard.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "epicfight:textures/gui/skills/active_guard.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "epicfight:textures/gui/skills/swordmaster.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "epicfight:textures/gui/skills/berserker.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "epicfight:textures/gui/skills/technician.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			width: 1.5d
+			height: 1.5d
+			rotation: 0.0d
+			image: "epicfight:textures/gui/skills/stamina_pillager.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "epicfight:textures/gui/skills/dualgreatsword.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Блок"
+			icon: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Блокирование без щита"
+			description: [
+				"Нажмите ПКМ, чтобы заблокировать все атаки ближнего боя впереди вас"
+				""
+				"Если вы последовательно блокируете атаки, расходуется больше выносливости"
+			]
+			can_repeat: true
+			id: "7E5951082676B56F"
+			tasks: [
+				{
+					id: "226092DBC624E9F1"
+					type: "xp"
+					value: 5L
+					points: false
+				}
+				{
+					id: "26392E50E4DA196A"
+					type: "advancement"
+					disable_toast: true
+					advancement: "minecraft:adventure/kill_a_mob"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "2E2135E30C992A96"
+				type: "item"
+				item: {
+					id: "epicfight:skillbook"
+					Count: 1b
+					tag: {
+						skill: "epicfight:guard"
+					}
+				}
+			}]
+		}
+		{
+			title: "Активный блок"
+			icon: {
+				id: "minecraft:shield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.0d
+			y: -2.0d
+			subtitle: "Полная защита от ближних атак и стрел"
+			description: [
+				"Штраф за последовательную блокировку будет снят, если вы будете защищаться в соответствии с таймингами атак противника"
+				""
+				"Вы сможете блокировать дальнобойные атаки"
+			]
+			dependencies: ["7E5951082676B56F"]
+			dependency_requirement: "all_started"
+			can_repeat: true
+			id: "1F838B9D76A08773"
+			tasks: [{
+				id: "75C0B471E8C57AB2"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "55555D695E371AAB"
+				type: "item"
+				item: {
+					id: "epicfight:skillbook"
+					Count: 1b
+					tag: {
+						skill: "epicfight:active_guard"
+					}
+				}
+			}]
+		}
+		{
+			title: "Энергичная защита"
+			icon: "minecraft:tnt"
+			x: 2.0d
+			y: -2.0d
+			subtitle: "Защита от всего, но не полная"
+			description: [
+				"Снижает штраф за последовательную блокировку до x0,2 за атаку"
+				""
+				"Вы сможете блокировать взрывы, огонь, магию и дальнобойные атаки, но не полностью"
+				""
+				"Эти типы урона наносят на 80% меньше урона"
+			]
+			dependencies: ["7E5951082676B56F"]
+			dependency_requirement: "all_started"
+			can_repeat: true
+			id: "1396DB9FAEDB30C6"
+			tasks: [{
+				id: "3800FBA4ECA6AA2A"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "58EDE4D88F31744A"
+				type: "item"
+				item: {
+					id: "epicfight:skillbook"
+					Count: 1b
+					tag: {
+						skill: "epicfight:energizing_guard"
+					}
+				}
+			}]
+		}
+		{
+			title: "Отскок"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:step"
+				}
+			}
+			x: -1.0d
+			y: 0.5d
+			subtitle: "Резкий рывок по направлению движения"
+			description: [
+				"При выполнении этого навыка вы становитесь невосприимчивы к физическим атакам"
+				""
+				"Тратит выносливость"
+			]
+			can_repeat: true
+			id: "768E55B0B246E665"
+			tasks: [{
+				id: "076B9A5A62F312C5"
+				type: "xp"
+				value: 8L
+				points: false
+			}]
+			rewards: [{
+				id: "01EBD822407CCCFD"
+				type: "item"
+				item: {
+					id: "epicfight:skillbook"
+					Count: 1b
+					tag: {
+						skill: "epicfight:step"
+					}
+				}
+			}]
+		}
+		{
+			title: "Перекат"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:roll"
+				}
+			}
+			x: 1.0d
+			y: 0.5d
+			subtitle: "Кувырок в направлении движения"
+			description: [
+				"При выполнении этого навыка вы становитесь невосприимчивы к физическим атакам"
+				""
+				"Тратит выносливость"
+			]
+			can_repeat: true
+			id: "65FF55AE86BF47D9"
+			tasks: [{
+				id: "72EB0E5D439865C3"
+				type: "xp"
+				value: 8L
+				points: false
+			}]
+			rewards: [{
+				id: "5F5DBED6B30616B5"
+				type: "item"
+				item: {
+					id: "epicfight:skillbook"
+					Count: 1b
+					tag: {
+						skill: "epicfight:roll"
+					}
+				}
+			}]
+		}
+		{
+			title: "Мастер меча"
+			icon: {
+				id: "epicfight:katana"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: 3.5d
+			subtitle: "Быстрее!!!"
+			description: ["Вы получаете бонус к скорости атаки 30% при использовании мечевыдного оружия"]
+			can_repeat: true
+			id: "3E9ABC941037BA80"
+			tasks: [{
+				id: "54433A191E92A155"
+				type: "xp"
+				value: 35L
+				points: false
+			}]
+			rewards: [{
+				id: "56B672BEEE74E642"
+				type: "item"
+				item: {
+					id: "epicfight:skillbook"
+					Count: 1b
+					tag: {
+						skill: "epicfight:swordmaster"
+					}
+				}
+			}]
+		}
+		{
+			title: "Берсерк"
+			icon: {
+				id: "minecraft:diamond_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 3.5d
+			subtitle: "Ты лучше с каждой раной"
+			description: [
+				"Вы получаете 0,3% бонус к урону от атаки и 0,5% бонус к скорости атаки за каждый 1% потерянного здоровья"
+				""
+				"Скорость атаки не может увеличиться более чем на 5.0"
+			]
+			can_repeat: true
+			id: "246CFDADC14977F5"
+			tasks: [{
+				id: "41132DACEEFCA6F6"
+				type: "xp"
+				value: 30L
+				points: false
+			}]
+			rewards: [{
+				id: "5D36F1C91C116357"
+				type: "item"
+				item: {
+					id: "epicfight:skillbook"
+					Count: 1b
+					tag: {
+						skill: "epicfight:berserker"
+					}
+				}
+			}]
+		}
+		{
+			title: "Техничный"
+			icon: {
+				id: "epicfight:netherite_tachi"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: 3.5d
+			subtitle: "Бесплатные уклонения"
+			description: ["Восстанавливайте использованную выносливость, когда уклоняетесь в тайминг атаки врага"]
+			can_repeat: true
+			id: "154B2D8425DD7059"
+			tasks: [{
+				id: "5F047E36C94DA7F1"
+				type: "xp"
+				value: 15L
+				points: false
+			}]
+			rewards: [{
+				id: "4D790E139FA0F889"
+				type: "item"
+				item: {
+					id: "epicfight:skillbook"
+					Count: 1b
+					tag: {
+						skill: "epicfight:technician"
+					}
+				}
+			}]
+		}
+		{
+			title: "Кража выносливости"
+			icon: {
+				id: "epicfight:golden_dagger"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: 3.5d
+			subtitle: "- враг = + выносливость"
+			description: ["После убийства врага получите 30% недостающей выносливости"]
+			can_repeat: true
+			id: "00010AA300D4F318"
+			tasks: [{
+				id: "6AC1AFAC48E739B6"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
+			rewards: [{
+				id: "00738B95FB1FCF17"
+				type: "item"
+				item: {
+					id: "epicfight:skillbook"
+					Count: 1b
+					tag: {
+						skill: "epicfight:stamina_pillager"
+					}
+				}
+			}]
+		}
+		{
+			title: "Два цвайхандера"
+			icon: {
+				id: "epicfight:netherite_greatsword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.0d
+			y: 3.5d
+			subtitle: "Для сильнейших!"
+			description: ["Позволяет держать сразу два цвайхандера"]
+			can_repeat: true
+			id: "157F20D8F5534487"
+			tasks: [{
+				id: "1F27B6D0294B7ED3"
+				type: "xp"
+				value: 40L
+				points: false
+			}]
+			rewards: [{
+				id: "14A4A61E47B298C4"
+				type: "item"
+				item: {
+					id: "epicfight:skillbook"
+					Count: 1b
+					tag: {
+						skill: "epicfight:dualgreatsword"
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}
