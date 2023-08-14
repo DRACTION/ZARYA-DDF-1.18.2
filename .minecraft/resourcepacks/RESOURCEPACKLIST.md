@@ -6,8 +6,8 @@
     Имя файла: EF_anmation_1.18_v1.0.zip
     MD5: 98B8AF02BA0C10B0F4B4FAE744B97B61
 ---
-    Имя файла: Excalibur_Mod_Support_V1.18.1.1-ZaryaEdition.zip
-    MD5: 654CC89336FB06A4BEE2E8423C29FB2F
+    Имя файла: Excalibur_Mod_Support_V1.18.1.1.zip
+    MD5: 03C345F2769716262F5222C8815E3DE1
 ---
     Имя файла: Excalibur_V1.18.1.zip
     MD5: 75510E1C27A73291E1AD3EC185853984
