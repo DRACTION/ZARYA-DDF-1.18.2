@@ -177,6 +177,9 @@
     Имя файла: CullLessLeaves-Reforged-1.18.2-1.0.5.jar
     MD5: 6FB676660B3DAC834DCD480F49D3B44F
 ---
+    Имя файла: curios-forge-1.18.2-5.0.9.1.jar
+    MD5: C90DE67A6035D84F108FFE87B46CCD6F
+---
     Имя файла: DamageTilt-1.18-forge-0.1.1.jar
     MD5: C9D3D824C7FEBD270CF935D499CF3A0E
 ---
