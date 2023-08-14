@@ -1,0 +1,80 @@
+{
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 30,
+                "top": -20
+            },
+            "SORT": {
+                "horizontalOffset": -12,
+                "bottom": 12
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 30,
+                "top": -20
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.ContainerScreen": {
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 30,
+                "top": -20
+            }
+        }
+    },
+    "harmonised.pmmo.client.gui.PlayerStatsScreen": {
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -12,
+                "bottom": 12
+            },
+            "SETTINGS": {
+                "horizontalOffset": 30,
+                "top": -20
+            }
+        }
+    },
+    "top.theillusivec4.curios.client.gui.CuriosScreen": {
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -12,
+                "bottom": 12
+            },
+            "SETTINGS": {
+                "horizontalOffset": 40,
+                "top": -25
+            }
+        }
+    },
+    "lain.mods.cos.impl.client.gui.GuiCosArmorInventory": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "bottom": 22
+            },
+            "MOVE_TO_PLAYER": {
+                "top": 8
+            },
+            "SORT": {
+                "horizontalOffset": 42,
+                "top": 3
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 54,
+                "top": 15
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 66,
+                "top": 27
+            },
+            "SETTINGS": {
+                "horizontalOffset": 42,
+                "top": -25
+            }
+        }
+    }
+}
