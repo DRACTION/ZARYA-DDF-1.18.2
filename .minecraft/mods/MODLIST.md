@@ -291,8 +291,8 @@
     Имя файла: FastLeafDecay-28.jar
     MD5: 57CC1CC6B0247389D89D5FA891F2C5C9
 ---
-    Имя файла: Fastload-Reforged-8.2.1-+1.18.2.jar
-    MD5: 4D23F5C11E8C88781ECD73AE1009BE14
+    Имя файла: Fastload-Reforged-mc1.18.2-3.4.0.jar
+    MD5: 540C8385BA473D9E44B91A2F8DD5C2B4
 ---
     Имя файла: FastSuite-1.18.2-3.0.2.jar
     MD5: 45D1DE27C9E69E614A3B480A03809BC8
@@ -480,8 +480,8 @@
     Имя файла: mmlib-1.2.2-1.18.2.jar
     MD5: 4CDCC020628977FD59F04C2DCC4CDEEE
 ---
-    Имя файла: modernfix-forge-5.6.0+mc1.18.2.jar
-    MD5: 50B1A90E0D9F4849D4AD0468FAAC990A
+    Имя файла: modernfix-forge-5.6.1+mc1.18.2.jar
+    MD5: 0A5F21C31D702923EF00ADB7C809058C
 ---
     Имя файла: morejs-forge-1.18.2-0.0.6.jar
     MD5: C21909209E50CC607BB2BFBD956A8AAE
