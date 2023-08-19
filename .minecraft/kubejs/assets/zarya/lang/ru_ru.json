@@ -582,8 +582,8 @@
     "block.warden_and_sculk.sculk_shrieker": "Скалковый крикун",
     "block.warden_and_sculk.sculk_vines": "Скалковая жила",
     "block.warden_and_sculk.reinforced_deepslate": "Прочный глубинный сланец",
-    "entity.warden_and_sculk.warden": "Голодающая бабка",
-    "item.warden_and_sculk.warden_spawn_egg": "Яйцо призыва Голодающей бабки",
+    "entity.warden_and_sculk.warden": "Голодная бабка",
+    "item.warden_and_sculk.warden_spawn_egg": "Яйцо призыва Голодной бабки",
     "item.warden_and_sculk.swift_sneak": "Тихая поступь",
     "item.warden_and_sculk.echo_shard": "Осколок эха",
     "item.warden_and_sculk.five_music_disc": "Странный музыкальный диск",
@@ -596,11 +596,11 @@
     "advancement.sculky.title": "Welcome to Deep Dark Fantasy",
     "advancement.sculky.descr": "Посетите скалковый биом",
     "advancement.mama_i_just_killed_a_man.title": "Мама, я только что побил бабку",
-    "advancement.mama_i_just_killed_a_man.descr": "Победи голодающую бабку",
+    "advancement.mama_i_just_killed_a_man.descr": "Победи голодную бабку",
     "effect.darkness": "Тьма",
     "effect.warden_and_sculk.darkness.description": "Что-то на подобии слепоты, только хуже",
     "itemGroup.sculk_tab": "W & S",
-    "death.attack.sonic_boom": "%1$s испытал кинетическую энергию звука, пытаясь убежать от голодающей бабки",
+    "death.attack.sonic_boom": "%1$s испытал кинетическую энергию звука, пытаясь убежать от голодной бабки",
 
   // farmersdelight
 
