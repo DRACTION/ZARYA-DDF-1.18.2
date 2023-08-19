@@ -201,6 +201,9 @@
     Имя файла: domum_ornamentum-1.18.2-1.0.77-ALPHA-universal.jar
     MD5: B3E99E7E35EA3F79D7D886BDF64CE8B0
 ---
+    Имя файла: dragonfight-1.18.2-2.2.jar
+    MD5: C1735D7D22C95F91E520FB24864D856C
+---
     Имя файла: drippyloadingscreen_forge_2.2.2_MC_1.18.2.jar
     MD5: 9D6C997B0FA7C9F4A4BC733382E772E5
 ---

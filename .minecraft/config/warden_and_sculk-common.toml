@@ -9,7 +9,7 @@
 	"Warden Speed" = 0.2125
 	#Value for the range of Warden. Default: 22
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	"Warden Range" = 22.0
+	"Warden Range" = 16.0
 	#Value for attack value of Warden. Default: 30 (In normal)
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	"Warden Attack" = 30.0

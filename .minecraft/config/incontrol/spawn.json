@@ -280,7 +280,6 @@
     "dimension": "minecraft:the_end",
     "mob": "minecraft:ender_dragon",
 
-    "healthmultiply": 1.5,
     "speedmultiply": 1.5
   },
   //////// HELL /////////
