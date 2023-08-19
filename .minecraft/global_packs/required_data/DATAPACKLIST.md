@@ -18,9 +18,6 @@
     Имя файла: Repurposed_Structures-Better_Witch_Huts_v1.zip
     MD5: 497B72F1C0F90224BB835F95B8B50864
 ---
-    Имя файла: WDA-NoFlyingStructures-OWEND-1.18.2-1.19.zip
-    MD5: 5BF0AD7E5ABADD9DFF4BA7A546377819
----
     Имя файла: WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip
     MD5: C838CD68287B300DC06635B34DCA16AF
 ---
