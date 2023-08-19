@@ -43,6 +43,15 @@
     "item.minecraft.lingering_potion.effect.third_unstable_death_pioneer": "Туманная третья нестабильная Смерть Пионерки",
     "item.minecraft.tipped_arrow.effect.third_unstable_death_pioneer": "Стрела третьей нестабильной Смерти Пионерки",
 
+  // Create: Ender Transmission
+
+    "block.createendertransmission.chunk_loader": "Прогрузчик чанков",
+    "block.createendertransmission.energy_transmitter": "Передатчик энергии",
+    "block.createendertransmission.fluid_transmitter": "Передатчик жидкости",
+    "block.createendertransmission.item_transmitter": "Передатчик предметов",
+    "create.gui.transmitter.channel_title": "Сеть",
+    "createendertransmission.chunk_loader.loaded": "Прогрузчик чанков загрузил %1$s ближайших чанков",
+
   // Better Leveling
 
     "betterleveling..command.failure.capability": "Command exception: Capability not found",

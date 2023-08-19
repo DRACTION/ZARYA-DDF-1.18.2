@@ -162,6 +162,9 @@
     Имя файла: createdeco-1.3.3-1.18.2.jar
     MD5: 2E2116EFBE27EA49D4780E2674F58B04
 ---
+    Имя файла: createendertransmission-2.0.4-1.18.2.jar
+    MD5: 89476CBC0C0BFFCEB258D4D044A1EA73
+---
     Имя файла: CreativeCore_FORGE_v2.6.17_mc1.18.2.jar
     MD5: 87A663FAD3077FC0AD12A8C8223208B0
 ---
