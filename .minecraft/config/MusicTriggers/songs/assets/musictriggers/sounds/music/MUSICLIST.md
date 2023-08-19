@@ -1,4 +1,4 @@
-## Список музыки с расширением `.OGG` и ХЭШ-суммы - 01.05.23
+﻿## Список музыки с расширением `.OGG` и ХЭШ-суммы
 
     Имя файла: ambient_pride.ogg
     MD5: 6512FE279553EDDC035681E2134FBB75
@@ -174,6 +174,9 @@
     Имя файла: main_menu_music.ogg
     MD5: 03A0620E64B71803CD8476207EFC1924
 ---
+    Имя файла: mgr_it_has_to_be_this_way.ogg
+    MD5: 0205953C3C5B16F6C76F3C5532203BFB
+---
     Имя файла: mick_gordon_at_dooms_gate_cut.ogg
     MD5: 8BE00EF082CC382E90B5772D0ABA4241
 ---
@@ -345,4 +348,4 @@
     Имя файла: yasunori_nishiki_octopath_traveler.ogg
     MD5: 594739874438EDCBC75A53D315129A2C
 ---
-Использован фильтр `    Имя файла: %FILENAME%\n    MD5: %MD5%\n---`
+
