@@ -104,6 +104,7 @@
   //////// Nerf Enemies ////////
   {
     "maxdaycount": 51,
+    "dimension": "minecraft:overworld",
     "difficulty": "hard",
     "hostile": true,
     "spawner": false,
@@ -125,11 +126,9 @@
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
     "mob": "minecraft:zombie",
-    // "baby": false,
+    "baby": false,
     "seesky": false,
     "random": 0.1,
-
-    // "result": "default",
 
     "customname": "Воин",
     "healthmultiply": 1.5,
@@ -161,11 +160,9 @@
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
     "mob": "minecraft:zombie",
-    // "baby": false,
+    "baby": false,
     "seesky": true,
     "random": 0.05,
-
-    // "result": "default",
 
     "customname": "Берсерк",
     "speedmultiply": 1.5,
@@ -185,8 +182,6 @@
     "seesky": false,
     "random": 0.05,
 
-    // "result": "default",
-
     "healthmultiply": 0.25,
     "speedmultiply": 2.0,
     "potion": "minecraft:invisibility,9999,1"
@@ -197,10 +192,8 @@
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
     "mob": "minecraft:zombie",
-    // "baby": false,
+    "baby": false,
     "random": 0.01,
-
-    // "result": "default",
 
     "customname": "Джаггернаут",
     "speedmultiply": 0.80,
@@ -227,8 +220,6 @@
     "seesky": true,
     "random": 0.1,
 
-    // "result": "default",
-
     "healthmultiply": 0.5,
     "speedmultiply": 1.8,
     "potion": "minecraft:invisibility,9999,1"
@@ -240,8 +231,6 @@
     "dimension": "minecraft:overworld",
     "mob": "minecraft:enderman",
     "random": 0.2,
-
-    // "result": "default",
 
     "customname": "Контуженный",
     "angry": true,
@@ -257,8 +246,6 @@
     "seesky": true,
 
     "random": 0.1,
-
-    // "result": "default",
 
     "customname": "Вышибала",
     "healthmultiply": 0.5,
@@ -282,9 +269,7 @@
     "difficulty": "hard",
     "dimension": "minecraft:the_end",
     "mob": "minecraft:enderman",
-    "random": 0.5,
-
-    // "result": "default",
+    "random": 0.1,
 
     "angry": true,
     "healthmultiply": 0.75,
@@ -295,8 +280,6 @@
     "dimension": "minecraft:the_end",
     "mob": "minecraft:ender_dragon",
 
-    // "result": "default",
-
     "healthmultiply": 1.5,
     "speedmultiply": 1.5
   },
@@ -306,8 +289,6 @@
     "dimension": "minecraft:the_nether",
     "mob": "minecraft:spider",
     "random": 0.7,
-
-    // "result": "default",
 
     "potion": [
       "minecraft:fire_resistance,9999,1",
@@ -321,8 +302,6 @@
     "dimension": "minecraft:the_nether",
     "mob": "minecraft:spider",
 
-    // "result": "default",
-
     "speedmultiply": 1.8,
     "potion": "minecraft:fire_resistance,9999,1"
   },
@@ -332,10 +311,8 @@
     "onjoin": true,
     "mob": "minecraft:zombie",
 
-    // "result": "default",
-
     "customname": "Копатель",
-    "speedmultiply": 1.6,
+    "speedmultiply": 1.3,
     "helditem": {
       "item": "minecraft:golden_shovel",
       "nbt": {"Enchantments":[{"id": "minecraft:knockback", "lvl": 5}]}
@@ -348,8 +325,6 @@
     "mob": "minecraft:skeleton",
     "onjoin": true,
     "random": 0.5,
-
-    // "result": "default",
 
     "customname": "Вышибала",
     "healthmultiply": 0.5,
@@ -368,8 +343,6 @@
     "dimension": "minecraft:the_nether",
     "mob": "minecraft:skeleton",
     "onjoin": true,
-
-    // "result": "default",
 
     "customname": "Поджигатель",
     "healthmultiply": 0.5,
