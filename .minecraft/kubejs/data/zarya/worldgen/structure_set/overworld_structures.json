@@ -192,10 +192,10 @@
       "structure": "mvs:campsite",
       "weight": 1
     },
-    {
-      "structure": "mvs:cart",
-      "weight": 1
-    },
+    // {
+    //   "structure": "mvs:cart",
+    //   "weight": 1
+    // },
     {
       "structure": "mvs:castleruins",
       "weight": 1
