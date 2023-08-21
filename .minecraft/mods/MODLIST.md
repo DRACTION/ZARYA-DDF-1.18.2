@@ -381,8 +381,8 @@
     Имя файла: InsaneLib-1.5.3-mc1.18.2.jar
     MD5: 99E2A21EC2D5FB5C89063498381083BE
 ---
-    Имя файла: InventoryProfilesNext-forge-1.18.2-1.10.6.jar
-    MD5: A970E3C8FE146B7AEECA26658426A967
+    Имя файла: InventoryProfilesNext-forge-1.18.2-1.10.7.jar
+    MD5: 1FDA7C08DD98A1F6DB8ED00A95CE26F0
 ---
     Имя файла: InventorySpam-1.18-1.5.0.jar
     MD5: 5C3CE9502CD68638C6E5D1956193F952
@@ -447,8 +447,8 @@
     Имя файла: LegendaryTooltips-1.18.2-1.3.1.jar
     MD5: 1D3792E66FEF301CA7465E83BDBC5D10
 ---
-    Имя файла: libIPN-forge-1.18.2-3.0.2.jar
-    MD5: 937E6A33B067FF29B0DD416453A020E1
+    Имя файла: libIPN-forge-1.18.2-4.0.0.jar
+    MD5: 482D2A12F86E93D921F3F62BE2C39C2A
 ---
     Имя файла: lightspeed-1.18.2-1.0.5.jar
     MD5: AC51987990FC2FF172B2E50474C16994
@@ -486,8 +486,8 @@
     Имя файла: mmlib-1.2.2-1.18.2.jar
     MD5: 4CDCC020628977FD59F04C2DCC4CDEEE
 ---
-    Имя файла: modernfix-forge-5.6.1+mc1.18.2.jar
-    MD5: 0A5F21C31D702923EF00ADB7C809058C
+    Имя файла: modernfix-forge-5.7.1+mc1.18.2.jar
+    MD5: 5A38FF7A73529F82A9C7A31C3AF0759A
 ---
     Имя файла: morejs-forge-1.18.2-0.0.6.jar
     MD5: C21909209E50CC607BB2BFBD956A8AAE
