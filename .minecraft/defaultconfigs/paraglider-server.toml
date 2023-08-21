@@ -1,0 +1,21 @@
+[vessels]
+	#Maximum amount of stamina Player can get. Do note that one third of this value is equal to one stamina wheel.
+	#Range: > 0
+	maxStamina = 4000
+
+[stamina]
+	#Actions other than paragliding or ascending will consume stamina.
+	runningAndSwimmingConsumesStamina = true
+
+	[stamina.consumptions]
+		#Range: > -2147483648
+		idleStaminaConsumption = 25
+		#Range: > -2147483648
+		runningStaminaConsumption = -8
+		#Range: > -2147483648
+		swimmingStaminaConsumption = -5
+		#Range: > -2147483648
+		underwaterStaminaConsumption = 6
+		#Range: > -2147483648
+		breathingUnderwaterStaminaConsumption = 14
+

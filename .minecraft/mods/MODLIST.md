@@ -261,6 +261,9 @@
     Имя файла: epicfight-18.3.8-ZaryaEdition.jar
     MD5: 03971C1BB88A75A21CD08CB3229E5B51
 ---
+    Имя файла: EpicParaglidersButSekiro-1.3.1.jar
+    MD5: 326931CD01A1385D94F1D42879F3AC55
+---
     Имя файла: EverlastingSkins-1.18.2-1.0.jar
     MD5: 74615E47F2933901F07012A9F58AA89A
 ---
@@ -548,6 +551,9 @@
 ---
     Имя файла: OnlyLooking-1.18.2-1.4.0.jar
     MD5: 0C1F8FC21A9EB5C19111B994AD25C183
+---
+    Имя файла: Paraglider-1.18.2-1.6.0.6.jar
+    MD5: 81952A79862688D8C278C7338748FF1D
 ---
     Имя файла: parry-2.3.1.jar
     MD5: DD92F34790DCF7D465C37E59C236A606
