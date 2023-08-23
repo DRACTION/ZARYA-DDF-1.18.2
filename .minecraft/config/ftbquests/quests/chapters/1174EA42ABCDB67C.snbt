@@ -175,6 +175,18 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: 4.0d
+			y: -0.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecolonies:textures/icons/warning.png"
+			hover: ["Страница мода \"FindMe\""]
+			click: "https://www.curseforge.com/minecraft/mc-mods/findme"
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
@@ -457,6 +469,22 @@
 					item: "waystones:sandy_waystone"
 				}
 			]
+		}
+		{
+			title: "Показывает предмет в ближайших контейнерах"
+			icon: "lootr:trophy"
+			disable_toast: true
+			x: 4.0d
+			y: 0.5d
+			subtitle: "Кнопка Y"
+			description: [
+				"Наведите в инвентаре (можно и в JEI) на искомый предмет и нажмите Y."
+				""
+				"Инвентарь закроется и подсветятся все ближайшие контейнеры, где есть этот предмет."
+				""
+				"Радиус действия = 8 блоков"
+			]
+			id: "669491D061138F48"
 		}
 	]
 	quest_links: [ ]

@@ -315,6 +315,9 @@
     Имя файла: ferritecore-4.2.2-forge.jar
     MD5: EA8C0BFC697A73B0D1886E43A1A5A282
 ---
+    Имя файла: findme-3.0.6-forge.jar
+    MD5: 5CD56CA068ECF3BB014B03B4F9BA168B
+---
     Имя файла: flickerfix-2.0.0.jar
     MD5: E55681EDA76E14E79BAA94DFC6474FE9
 ---
