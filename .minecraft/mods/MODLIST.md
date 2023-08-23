@@ -666,6 +666,9 @@
     Имя файла: starlight-1.0.2+forge.546ae87.jar
     MD5: 2A103E58F0F8E3FDA3AB4676966BCBB4
 ---
+    Имя файла: Steam_Rails-1.4.3+forge-mc1.18.2.jar
+    MD5: 027F753047A3E1EC68020CC7BB742A78
+---
     Имя файла: Structory-1.18.2-1.0.2.jar
     MD5: 6CD02BB8740F8BADC224C15AAD729C00
 ---
