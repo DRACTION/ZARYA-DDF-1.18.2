@@ -165,6 +165,9 @@
     Имя файла: createendertransmission-2.0.4-1.18.2.jar
     MD5: 89476CBC0C0BFFCEB258D4D044A1EA73
 ---
+    Имя файла: create_jetpack-forge-1.5.2.jar
+    MD5: EA0F62A5BA4F88AE527CE8FC675A1B14
+---
     Имя файла: CreativeCore_FORGE_v2.6.17_mc1.18.2.jar
     MD5: 87A663FAD3077FC0AD12A8C8223208B0
 ---
