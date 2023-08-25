@@ -54,7 +54,6 @@
 			y: 0.0d
 			shape: "rsquare"
 			subtitle: "Небольшой, но очень полезный подарок"
-			description: ["Есть система навыков на клавишу I"]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			id: "71AF6770E613A501"
@@ -65,18 +64,11 @@
 				disable_toast: true
 				elapsedTime: 10L
 			}]
-			rewards: [
-				{
-					id: "1AD2C37754C4A93B"
-					type: "item"
-					item: "sophisticatedbackpacks:backpack"
-				}
-				{
-					id: "018B1D8E26ABAE39"
-					type: "item"
-					item: "antiqueatlas:empty_antique_atlas"
-				}
-			]
+			rewards: [{
+				id: "1AD2C37754C4A93B"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
 		}
 		{
 			title: "Твёрдые блоки делают бобо"
@@ -797,8 +789,9 @@
 		}
 		{
 			title: "Ваш незаменимый помощник"
-			x: -1.0d
-			y: -3.5d
+			disable_toast: true
+			x: -3.5d
+			y: -4.0d
 			subtitle: "Особенно если вы страдаете топографическим критинизмом..."
 			description: [
 				"В этой книжке вы помечаете места, где вы уже были"
@@ -806,11 +799,13 @@
 				" - Если просрали книжку, то считай просрали весь прогресс исследований. Чтобы этого не произошло - делайте запасные атласы!"
 				"Запасной атлас делается просто. Объедините в крафте два атласа (например ваш и новый атлас). На выходе вы получите суммарные зарисовки и метки в обеих атласах. Два одинаковых атласа."
 			]
+			invisible: true
 			id: "3CCD76B23458A18E"
 			tasks: [{
 				id: "67650486E8E23464"
 				type: "item"
 				title: "Атлас"
+				disable_toast: true
 				item: {
 					id: "antiqueatlas:antique_atlas"
 					Count: 1b

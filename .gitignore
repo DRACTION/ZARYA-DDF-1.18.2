@@ -24,6 +24,8 @@
 .minecraft/crash-reports/
 .minecraft/debug/
 .minecraft/ESM/
+.minecraft/journeymap/data/
+.minecraft/journeymap/journeymap.log
 .minecraft/fancymenu_data/
 .minecraft/fancymenu_setups/
 .minecraft/immersive_paintings/immersive_paintings*/

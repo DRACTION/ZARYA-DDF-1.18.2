@@ -27,9 +27,6 @@
     Имя файла: AmbientSounds_FORGE_v5.0.16_mc1.18.2.jar
     MD5: 4BF9F0B68E298923FB32B058D68FC868
 ---
-    Имя файла: antiqueatlas-7.1.1-forge-mc1.18.2.jar
-    MD5: 5705AE9C42A83E47EAEF0BE37AE59A68
----
     Имя файла: anviltooltipmod-MC1.18.2-1.0.0.jar
     MD5: 6BB962F05835E1CEA5CB05E5EA2858DA
 ---
@@ -264,8 +261,8 @@
     Имя файла: epicfight-18.3.8-ZaryaEdition.jar
     MD5: 03971C1BB88A75A21CD08CB3229E5B51
 ---
-    Имя файла: EpicParaglidersButSekiro-1.3.1.jar
-    MD5: 326931CD01A1385D94F1D42879F3AC55
+    Имя файла: EpicParaglidersButSekiro-1.3.2.1.jar
+    MD5: D8740254E910A1111D280A4CB87A3372
 ---
     Имя файла: EverlastingSkins-1.18.2-1.0.jar
     MD5: 74615E47F2933901F07012A9F58AA89A
@@ -419,6 +416,9 @@
 ---
     Имя файла: JEIEnchantmentInfo-1.17.1-2.0.0.jar
     MD5: 8CC31AD78C598D22DF44B7C046A5D799
+---
+    Имя файла: journeymap-1.18.2-5.9.7-forge.jar
+    MD5: 75FBCC09ECCE4E4BD7530DD204E3FCB5
 ---
     Имя файла: jumpboat-1.18.2-0.1.0.3.jar
     MD5: 4B3C43F96E1ADC765BFA70D3AC8A9313
