@@ -198,6 +198,9 @@
     Имя файла: Ding-1.18.2-Forge-1.4.1.jar
     MD5: CE9DB16DA8F80B65380C688E426C5929
 ---
+    Имя файла: do-a-barrel-roll-2.5.3+1.18.2-forge.jar
+    MD5: 2E43C4484A5B296AD8615160490C96A1
+---
     Имя файла: DoggyTalents-1.18.2-2.5.11-ZaryaEdition.jar
     MD5: 07ECF4A030D2E749628446707878A711
 ---
