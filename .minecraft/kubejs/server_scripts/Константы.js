@@ -2,6 +2,8 @@
 
 let colors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black']
 let woods = ['oak', 'birch', 'spruce', 'jungle', 'acacia', 'dark_oak']
+let endWoodNames = ['crimson', 'warped']
+let allWoods = ['oak', 'birch', 'spruce', 'jungle', 'acacia', 'dark_oak', 'crimson', 'warped']
 // let vanillaMetals = ['iron', 'gold']
 // let atoMetals = ['aluminum', 'osmium', 'platinum', 'zinc', 'uranium', 'tin', 'lead', 'silver', 'nickel', 'zinc', 'copper']
 // let atmMetals = ['allthemodium', 'vibranium', 'unobtainium']
