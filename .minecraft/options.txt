@@ -203,10 +203,17 @@ key_Camera up:key.keyboard.page.up
 key_Camera down:key.keyboard.page.down
 key_Swap shoulder:key.keyboard.o
 key_Toggle perspective:key.keyboard.unknown
+key_key.curios.open.desc:key.keyboard.v
 key_key.valkyrienskies.ship_down:key.keyboard.left.alt
 key_key.valkyrienskies.ship_cruise:key.keyboard.unknown
-key_key.curios.open.desc:key.keyboard.v
 key_placebo.toggleTrails:key.keyboard.unknown
+key_key.relics.hud_up:key.keyboard.unknown
+key_key.relics.hud_down:key.keyboard.unknown
+key_key.relics.hud_first:key.keyboard.unknown
+key_key.relics.hud_second:key.keyboard.unknown
+key_key.relics.hud_third:key.keyboard.unknown
+key_key.relics.hud_fourth:key.keyboard.unknown
+key_key.relics.hud_fifth:key.keyboard.unknown
 key_placebo.toggleWings:key.keyboard.unknown
 key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_framedblocks.key.update_cull:key.keyboard.f9

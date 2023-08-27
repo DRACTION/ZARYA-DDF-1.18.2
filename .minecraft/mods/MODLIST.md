@@ -606,6 +606,9 @@
     Имя файла: questsadditions-1.18.2-1.4.2.jar
     MD5: 396E3CBBB6FB5665CE5ED09FA590835A
 ---
+    Имя файла: relics-1.18.2-0.4.1.8.jar
+    MD5: 41522E4ABE03CA6100CC47BFAA8C843A
+---
     Имя файла: repurposed_structures_forge-5.1.14+1.18.2.jar
     MD5: B4DB2F99A8FD570C5DAAEFA2FAC2EAAA
 ---
