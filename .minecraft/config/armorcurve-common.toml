@@ -5,7 +5,7 @@
 #configure the efficiency of protection enchantments. Valid values are 'enchant' and 'damage'. Set to 1 to not modify damage at this step.
 "enchantment damage reduction formula" = "damage*10/(10+enchant)"
 #configure how armor degrades. Valid values are 'remaining' and 'max'. Set to 1 to disable.
-"armor degradation formula" = "remaining/MAX(max,1)"
+"armor degradation formula" = "MIN((SQRT(remaining*max)*1.2)/MAX(max,1),1)"
 #Set to false to only cause the armor value to degrade. This will leave extra attributes such as toughness untouched. If using Project: War Dance, absorption, deflection, shatter, and stealth will still degrade.
 "universal armor degradation" = true
 
