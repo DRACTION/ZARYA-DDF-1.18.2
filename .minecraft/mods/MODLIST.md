@@ -375,6 +375,9 @@
     Имя файла: healingcampfire-1.18.2-5.1.jar
     MD5: CE0F2072649E35655E3761644F2A3EEB
 ---
+    Имя файла: Highlighter-1.18.1-1.1.2.jar
+    MD5: 9549E919E1FF06DB441E70CAD990C874
+---
     Имя файла: horsecombatcontrols-1.18.2-1.0.1.jar
     MD5: B1E06EA96AEE3CEF0DEB72BD43512645
 ---
