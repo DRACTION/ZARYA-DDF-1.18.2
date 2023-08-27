@@ -582,6 +582,9 @@
     Имя файла: physics-mod-2.12.3-mc-1.18.2-forge.jar
     MD5: C7B81227767A1659CA3616C45727C783
 ---
+    Имя файла: placeableitems-4.7.1.jar
+    MD5: 5F770A288FD74523E2BF042BE4918B2E
+---
     Имя файла: Placebo-1.18.2-6.6.7.jar
     MD5: 1B527F8B032CB04DCB5AE8152A1EF460
 ---
