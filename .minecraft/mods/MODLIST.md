@@ -63,8 +63,8 @@
     Имя файла: betterfpsdist-1.18.2-1.5.jar
     MD5: 51FE964B666B0AB14C40C4F79D029B2B
 ---
-    Имя файла: BetterHurtTimer-5.5.2.7.jar
-    MD5: E5D8D144FD8CC097D90FC4AE8D7C75BC
+    Имя файла: BetterHurtTimer-1.18-5.5.2.9.jar
+    MD5: 2D2C50FB5AF9DD89FDBA98CACAAD913A
 ---
     Имя файла: betterinvisibility-1.18.1-1.0.4.jar
     MD5: 078115055CFC203D21DF8ABE81C91C65
@@ -504,8 +504,8 @@
     Имя файла: mmlib-1.2.2-1.18.2.jar
     MD5: 4CDCC020628977FD59F04C2DCC4CDEEE
 ---
-    Имя файла: modernfix-forge-5.7.1+mc1.18.2.jar
-    MD5: 5A38FF7A73529F82A9C7A31C3AF0759A
+    Имя файла: modernfix-forge-5.7.2+mc1.18.2.jar
+    MD5: C187640D7FC85DBCEFACB10D35A23141
 ---
     Имя файла: morejs-forge-1.18.2-0.0.6.jar
     MD5: C21909209E50CC607BB2BFBD956A8AAE
@@ -663,9 +663,6 @@
     Имя файла: sophisticatedcore-1.18.2-0.5.82.393.jar
     MD5: CD1966E4CEB39865AF7FBE86B2A37851
 ---
-    Имя файла: sophisticatedstorage-1.18.2-0.8.39.580.jar
-    MD5: 582B4991A5C949BCB84FC47E212842C1
----
     Имя файла: soundphysics-forge-1.18.2-1.0.6.jar
     MD5: BC11649A1F9C33B324D3B4A403A593DA
 ---
@@ -683,6 +680,9 @@
 ---
     Имя файла: Steam_Rails-1.4.4+forge-mc1.18.2-build.12.jar
     MD5: 77B4CFD3F57E30EE10BE5F06D6DC9647
+---
+    Имя файла: StorageDrawers-1.18.2-10.2.1.jar
+    MD5: DBCA0EEB2E7ED37CB585B6DEF632BE4D
 ---
     Имя файла: Structory-1.18.2-1.0.2.jar
     MD5: 6CD02BB8740F8BADC224C15AAD729C00

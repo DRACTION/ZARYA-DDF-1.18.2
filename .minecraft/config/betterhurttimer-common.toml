@@ -66,3 +66,8 @@
 		#Damage Sources will not apply knockback when on this list.
 		exemptSources = ["indirectSkill"]
 
+	#Compatability mode
+	[server.compatability]
+		#Mixins will not apply when this is true.
+		turnOffMixins = false
+

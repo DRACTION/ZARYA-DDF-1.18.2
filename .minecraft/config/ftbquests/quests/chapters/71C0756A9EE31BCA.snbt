@@ -3,8 +3,7 @@
 	group: ""
 	order_index: 5
 	filename: "71C0756A9EE31BCA"
-	title: "Хранение (устаревшее)"
-	always_invisible: true
+	title: "Хранение"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
@@ -298,6 +297,28 @@
 				id: "4843D2D9280EA08E"
 				type: "item"
 				item: "storagedrawers:shroud_key"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			description: [
+				"Хранилище предметов не имеет интерфейса, но каждый блок содержит в себе 50 свободных слотов!"
+				""
+				"Однако, если поместить терминал на любой блок со свободными слотами, то терминал получит прямой доступ к слотам"
+				""
+				"А теперь попробуй использовать терминал на хранилище..."
+			]
+			id: "0F5A4BBF3DEFA03D"
+			tasks: [{
+				id: "4B82B3B8670E28D8"
+				type: "item"
+				item: "create:item_vault"
+			}]
+			rewards: [{
+				id: "3C203EE5C9FF2C9A"
+				type: "item"
+				item: "toms_storage:ts.storage_terminal"
 			}]
 		}
 	]
