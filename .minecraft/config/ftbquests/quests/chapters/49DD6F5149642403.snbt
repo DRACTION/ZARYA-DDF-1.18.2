@@ -64,11 +64,18 @@
 				disable_toast: true
 				elapsedTime: 10L
 			}]
-			rewards: [{
-				id: "1AD2C37754C4A93B"
-				type: "item"
-				item: "sophisticatedbackpacks:backpack"
-			}]
+			rewards: [
+				{
+					id: "1AD2C37754C4A93B"
+					type: "item"
+					item: "sophisticatedbackpacks:backpack"
+				}
+				{
+					id: "06CF9621C6AEFA90"
+					type: "item"
+					item: "toms_storage:ts.storage_terminal"
+				}
+			]
 		}
 		{
 			title: "Твёрдые блоки делают бобо"

@@ -711,6 +711,9 @@
     Имя файла: tombstone-7.6.5-1.18.2.jar
     MD5: B023FEA65EE7C2706286F1AAC629BC5A
 ---
+    Имя файла: toms_storage-1.18.2-1.4.4.jar
+    MD5: 42C752D51DAC8D9BF471DBC93D854664
+---
     Имя файла: toofast-1.18-0.0.1.3.jar
     MD5: B52661F4E59E58495D36576D8270F9A4
 ---

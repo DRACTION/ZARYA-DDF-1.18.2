@@ -215,9 +215,10 @@ key_key.relics.hud_third:key.keyboard.unknown
 key_key.relics.hud_fourth:key.keyboard.unknown
 key_key.relics.hud_fifth:key.keyboard.unknown
 key_placebo.toggleWings:key.keyboard.unknown
-key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_framedblocks.key.update_cull:key.keyboard.f9
 key_framedblocks.key.wipe_cache:key.keyboard.unknown
+key_key.toms_storage.open_terminal:key.keyboard.unknown
+key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_fpsreducer.key.openGui:key.keyboard.unknown
 key_fpsreducer.key.forceIdle:key.keyboard.unknown
 key_key.effortlessbuilding.hud.desc:key.keyboard.unknown
