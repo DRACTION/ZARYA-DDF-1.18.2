@@ -27,5 +27,6 @@ onEvent('block.tags', e => {
 	e.add('betterpunching:ignore_all', '#chipped:lantern')
 	e.add('betterpunching:ignore_all', '#chipped:special_lantern')
 	e.add('betterpunching:ignore_all', 'doggytalents:dog_bed')
+	e.add('betterpunching:ignore_all', 'minecraft:redstone_lamp')
 	e.add('betterpunching:ignore_speed_debuff', '#domum_ornamentum:bricks')
 })
