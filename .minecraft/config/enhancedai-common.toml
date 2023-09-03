@@ -180,10 +180,10 @@
 	[Skeleton."Skeleton Flee"]
 		#Chance for a Skeleton to spawn with the ability to avoid the player
 		#Range: 0.0 ~ 1.0
-		"Avoid Player chance" = 0.5
+		"Avoid Player chance" = 0.3
 		#Chance for a Skeleton to be able to shoot while running from a player
 		#Range: 0.0 ~ 1.0
-		"Attack When Avoiding Chance" = 0.5
+		"Attack When Avoiding Chance" = 0.1
 		#Distance from a player that will make the skeleton run away.
 		#Range: 0.0 ~ 32.0
 		"Flee Distance" = 16.0
@@ -192,10 +192,10 @@
 		"Flee Distance Near" = 8.0
 		#Speed multiplier when the skeleton avoids the player and it's farther than 'Flee Distance Far' blocks from him.
 		#Range: 0.0 ~ 4.0
-		"Flee speed Multiplier Far" = 1.3
+		"Flee speed Multiplier Far" = 1.1
 		#Speed multiplier when the skeleton avoids the player and it's within 'Flee Distance Near' blocks from him.
 		#Range: 0.0 ~ 4.0
-		"Flee speed Multiplier Near" = 1.6
+		"Flee speed Multiplier Near" = 1.3
 
 		#Entities that shouldn't get the enhanced Shoot AI
 		[Skeleton."Skeleton Flee"."Entity Blacklist"]
