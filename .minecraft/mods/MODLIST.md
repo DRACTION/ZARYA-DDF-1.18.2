@@ -63,8 +63,8 @@
     Имя файла: betterfpsdist-1.18.2-1.5.jar
     MD5: 51FE964B666B0AB14C40C4F79D029B2B
 ---
-    Имя файла: BetterHurtTimer-1.18-5.5.2.9.jar
-    MD5: 2D2C50FB5AF9DD89FDBA98CACAAD913A
+    Имя файла: BetterHurtTimer-5.5.2.7.jar
+    MD5: E5D8D144FD8CC097D90FC4AE8D7C75BC
 ---
     Имя файла: betterinvisibility-1.18.1-1.0.4.jar
     MD5: 078115055CFC203D21DF8ABE81C91C65
