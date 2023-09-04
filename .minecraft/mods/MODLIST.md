@@ -267,9 +267,6 @@
     Имя файла: EpicParaglidersButSekiro-1.3.2.2.jar
     MD5: A1C775CED9C76E228EF882B85C3635D7
 ---
-    Имя файла: eureka-1.1.0-beta.10.jar
-    MD5: E29354F9AC95D68CE92DDAA4EF780435
----
     Имя файла: EverlastingSkins-1.18.2-1.0.jar
     MD5: 74615E47F2933901F07012A9F58AA89A
 ---
@@ -728,9 +725,6 @@
 ---
     Имя файла: valhelsia_structures-forge-1.18.2-0.1.0.jar
     MD5: 3E204F5A4564512F8A7D467A7E790C15
----
-    Имя файла: valkyrienskies-118-2.1.0-beta.14.jar
-    MD5: CB7979951C14269CE2EA6D503EC9BA3F
 ---
     Имя файла: Villager Comfort-1.18.2-1.0.1.jar
     MD5: 712903839128BCED651555200E8E1DB5
