@@ -45,9 +45,6 @@
     Имя файла: autosurfing-1.1.jar
     MD5: E2DB0C41F78D9BD7A5ED2A780FD6342D
 ---
-    Имя файла: balancedenchanting-1.18.2-2.jar
-    MD5: CD7A033125CAF85C472B11CFD0FE9C45
----
     Имя файла: balm-3.2.6.jar
     MD5: 2C88B15B950317917FE64980267D579A
 ---
@@ -69,8 +66,11 @@
     Имя файла: betterinvisibility-1.18.1-1.0.4.jar
     MD5: 078115055CFC203D21DF8ABE81C91C65
 ---
+    Имя файла: BetterLevel-1.0.jar
+    MD5: 5E2393D3F7B112C26C4A17532BB21440
+---
     Имя файла: betterleveling-1.18.2-0.6.2-ZaryaEdition.jar
-    MD5: 06E17DA908898B3EA94F5AFF22A4F271
+    MD5: 2CB0264428A3070765E18382B5FFC96C
 ---
     Имя файла: betterpunching-1.18.2-1.2.0-ZaryaEdition.jar
     MD5: 04D9EEC9679954BC27CF608EF2093CAD

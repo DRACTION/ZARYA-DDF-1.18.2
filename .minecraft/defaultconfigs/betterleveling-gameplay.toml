@@ -8,4 +8,10 @@
 	xpRefundFactor = 0.75
 	#If right-click harvesting should be enabled.
 	rightClickHarvest = false
+	#Z@RYA = Сколько опыта в одном уровне? Если 0, то стандартная обработка
+	#Range: > 0
+	xpInLevel = 50
+	#Define how much levels the player needs to unlock his FIRST specialization
+	#Range: > 0
+	firstSpecCost = 2
 

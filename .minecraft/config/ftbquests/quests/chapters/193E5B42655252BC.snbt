@@ -152,7 +152,7 @@
 				{
 					id: "226092DBC624E9F1"
 					type: "xp"
-					value: 5L
+					value: 2L
 					points: false
 				}
 				{
@@ -199,7 +199,7 @@
 			tasks: [{
 				id: "75C0B471E8C57AB2"
 				type: "xp"
-				value: 10L
+				value: 4L
 				points: false
 			}]
 			rewards: [{
@@ -234,7 +234,7 @@
 			tasks: [{
 				id: "3800FBA4ECA6AA2A"
 				type: "xp"
-				value: 10L
+				value: 4L
 				points: false
 			}]
 			rewards: [{
@@ -271,7 +271,7 @@
 			tasks: [{
 				id: "076B9A5A62F312C5"
 				type: "xp"
-				value: 8L
+				value: 3L
 				points: false
 			}]
 			rewards: [{
@@ -308,7 +308,7 @@
 			tasks: [{
 				id: "72EB0E5D439865C3"
 				type: "xp"
-				value: 8L
+				value: 3L
 				points: false
 			}]
 			rewards: [{
@@ -341,7 +341,7 @@
 			tasks: [{
 				id: "54433A191E92A155"
 				type: "xp"
-				value: 35L
+				value: 25L
 				points: false
 			}]
 			rewards: [{
@@ -378,7 +378,7 @@
 			tasks: [{
 				id: "41132DACEEFCA6F6"
 				type: "xp"
-				value: 30L
+				value: 20L
 				points: false
 			}]
 			rewards: [{
@@ -411,7 +411,7 @@
 			tasks: [{
 				id: "5F047E36C94DA7F1"
 				type: "xp"
-				value: 15L
+				value: 5L
 				points: false
 			}]
 			rewards: [{
@@ -444,7 +444,7 @@
 			tasks: [{
 				id: "6AC1AFAC48E739B6"
 				type: "xp"
-				value: 20L
+				value: 6L
 				points: false
 			}]
 			rewards: [{
@@ -477,7 +477,7 @@
 			tasks: [{
 				id: "1F27B6D0294B7ED3"
 				type: "xp"
-				value: 40L
+				value: 60L
 				points: false
 			}]
 			rewards: [{

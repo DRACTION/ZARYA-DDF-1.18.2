@@ -1,0 +1,7 @@
+
+#General settings
+[general]
+	#XP required per level
+	#Range: > 1
+	xp_per_level = 50
+
