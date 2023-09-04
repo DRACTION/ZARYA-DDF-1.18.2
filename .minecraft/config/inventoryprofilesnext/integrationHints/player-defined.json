@@ -76,5 +76,33 @@
                 "top": -25
             }
         }
+    },
+    "com.tom.storagemod.gui.GuiStorageTerminal": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 18,
+                "bottom": -1
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 2,
+                "top": 1
+            },
+            "SORT": {
+                "horizontalOffset": 7,
+                "top": -15
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 7,
+                "top": -15
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 7,
+                "top": -15
+            },
+            "SETTINGS": {
+                "horizontalOffset": 54,
+                "top": -25
+            }
+        }
     }
 }
