@@ -654,11 +654,11 @@
     Имя файла: solapplepie-1.18.2-1.0.4.jar
     MD5: 6E4B27A1B1DC608FE92F935618D91F69
 ---
-    Имя файла: sophisticatedbackpacks-1.18.2-3.18.57.888.jar
-    MD5: 3DB5791FBACA5F3FD3CE2957A03A313F
+    Имя файла: sophisticatedbackpacks-1.18.2-3.18.60.906.jar
+    MD5: 62567305C78E0D509F4096DF2C89786C
 ---
-    Имя файла: sophisticatedcore-1.18.2-0.5.82.393.jar
-    MD5: CD1966E4CEB39865AF7FBE86B2A37851
+    Имя файла: sophisticatedcore-1.18.2-0.5.87.416.jar
+    MD5: F2A81EED51B7C18E6786814FAF8F6CEA
 ---
     Имя файла: soundphysics-forge-1.18.2-1.0.6.jar
     MD5: BC11649A1F9C33B324D3B4A403A593DA
