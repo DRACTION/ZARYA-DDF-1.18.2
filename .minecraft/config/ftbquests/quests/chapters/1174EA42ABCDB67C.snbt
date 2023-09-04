@@ -126,16 +126,16 @@
 			hover: [
 				"Как поставить скин?"
 				""
-				"1. Нажми на меня, чтобы перейти на сайт www.minecraftskins.com и выбрать скин"
-				"2. Нажми \"Image Link\" (Ссылка на изображение)"
-				"3. Скопируй ссылку на картинку"
+				"1. Нажми на меня, чтобы перейти на сайт ru.namemc.com и выбрать скин"
+				"2. Нажми ПКМ на значок загрузки возле скина (2-ой снизу)"
+				"3. Скопируй адрес ссылки на картинку"
 				"4. Вернись в игру и нажми \"/\""
 				"(1 вариант) 5. Введи \"setskin classic\", если у скина толщина руки составляет 4 пикселя"
 				"(2 вариант) 5. Введи \"setskin slim\", если у скина толщина руки составляет 3 пикселя"
 				"6. Вставь ранее скопированную ссылку"
 				"7. Нажми \"Enter\" и вауля!"
 			]
-			click: "https://www.minecraftskins.com/"
+			click: "https://ru.namemc.com/"
 			dev: false
 			corner: false
 		}
@@ -184,6 +184,18 @@
 			image: "minecolonies:textures/icons/warning.png"
 			hover: ["Страница мода \"FindMe\""]
 			click: "https://www.curseforge.com/minecraft/mc-mods/findme"
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecolonies:textures/icons/warning.png"
+			hover: ["Страница мода \"Paragliders\""]
+			click: "https://www.curseforge.com/minecraft/mc-mods/paragliders"
 			dev: false
 			corner: false
 		}
@@ -485,6 +497,30 @@
 				"Радиус действия = 8 блоков"
 			]
 			id: "669491D061138F48"
+		}
+		{
+			title: "Парапланы"
+			x: -6.0d
+			y: 1.0d
+			subtitle: "Планировали планировали, да не выпланировали"
+			description: [
+				"Параплан позволяет парить в воздухе, всё просто)"
+				""
+				"Осторожно - тратит выносливость"
+			]
+			id: "4DE83E0EA881FC2A"
+			tasks: [{
+				id: "7AE65EE945DEE7C4"
+				type: "item"
+				title: "Any #paraglider:paragliders"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "paraglider:paragliders"
+					}
+				}
+			}]
 		}
 	]
 	quest_links: [ ]

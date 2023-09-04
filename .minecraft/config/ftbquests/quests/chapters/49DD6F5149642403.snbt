@@ -824,6 +824,28 @@
 			dependencies: ["71AF6770E613A501"]
 			id: "20DC31E0E407841C"
 		}
+		{
+			title: "Дополнительная выносливость"
+			x: -2.5d
+			y: -1.5d
+			subtitle: "Совершенно бесплатно!"
+			description: ["Сосуды выносливости выпадают с очень редким шансом в сундуках"]
+			dependencies: ["1978718913235731"]
+			id: "2EE011DCB0B24D9E"
+			tasks: [{
+				id: "4AF93AA595D38D76"
+				type: "stat"
+				title: "Преодолейте первый километр"
+				icon: "sophisticatedbackpacks:backpack"
+				stat: "minecraft:walk_one_cm"
+				value: 100000
+			}]
+			rewards: [{
+				id: "72842773C0953E5C"
+				type: "item"
+				item: "paraglider:stamina_vessel"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
