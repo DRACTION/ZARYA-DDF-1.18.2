@@ -16,7 +16,7 @@
 	#  * Bargains using Stamina Vessels (custom recipes won't be affected)
 	staminaVessels = true
 	#For those who wants to remove all structures added by this mod. Requires restart.
-	structures = true
+	structures = false
 
 [debug]
 	debugPlayerMovement = false
