@@ -822,10 +822,10 @@
 			tasks: [{
 				id: "4AF93AA595D38D76"
 				type: "stat"
-				title: "Преодолейте первый километр"
+				title: "Преодолейте первые 10 км"
 				icon: "sophisticatedbackpacks:backpack"
 				stat: "minecraft:walk_one_cm"
-				value: 100000
+				value: 1000000
 			}]
 			rewards: [{
 				id: "72842773C0953E5C"

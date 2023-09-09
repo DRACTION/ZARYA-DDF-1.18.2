@@ -8,7 +8,8 @@ onEvent('recipes', e => {
 		S: '#forge:rods/wooden'	
 	}
 	removeRecipeByOutput(e, [materials.R])
-	e.shapeless(materials.R, ['3x farmersdelight:straw']).id(`zarya:shapeless/${materials.R.replace(':', '/')}`)
+	e.shapeless(materials.R, ['3x farmersdelight:straw']).id(`zarya:shapeless/${materials.R.replace(':', '/')}_from_straw`)
+	e.shapeless(materials.R, ['3x minecraft:string']).id(`zarya:shapeless/${materials.R.replace(':', '/')}_from_string`)
 
 
 	let standartTemplates = {

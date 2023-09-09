@@ -104,5 +104,13 @@
                 "top": -25
             }
         }
+    },
+    "net.minecraft.client.gui.screens.inventory.FurnaceScreen": {
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 23,
+                "top": -25
+            }
+        }
     }
 }
