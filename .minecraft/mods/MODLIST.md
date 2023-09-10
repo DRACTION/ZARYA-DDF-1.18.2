@@ -186,8 +186,8 @@
     Имя файла: DamageTilt-1.18-forge-0.1.1.jar
     MD5: C9D3D824C7FEBD270CF935D499CF3A0E
 ---
-    Имя файла: dawncraft-fixes-0.12.0.jar
-    MD5: 3ADB0F4E39F064065A774EE51133E59E
+    Имя файла: dawncraft-fixes-0.12.1.jar
+    MD5: C2ECDCF77C176F0E8AC154F02DBE35B4
 ---
     Имя файла: Decorative Blocks-forge-1.18.2-2.1.2.jar
     MD5: 2A1F79C91213960D1AD4C3C6A676E601
@@ -495,8 +495,8 @@
     Имя файла: mcwifipnp-1.6.2-1.18.2-forge.jar
     MD5: 506C93C3B346F14A7C7B178FA6A91C18
 ---
-    Имя файла: minecolonies-1.18.2-1.1.29-BETA.jar
-    MD5: 0A2C0559546D681FFA1AF58F49C0111B
+    Имя файла: minecolonies-1.18.2-1.1.149-RELEASE.jar
+    MD5: 0F1058575B609123CD6FDDEBF68DE2DD
 ---
     Имя файла: mmlib-1.2.2-1.18.2.jar
     MD5: 4CDCC020628977FD59F04C2DCC4CDEEE
@@ -633,11 +633,11 @@
     Имя файла: secondchanceforge-1.18.2-1.5.0.jar
     MD5: 906CA4843003AEECBD01220BCAD93B8F
 ---
-    Имя файла: selene-1.18.2-1.17.12.jar
-    MD5: 6E97A3C041DCC8F83A4534B6CC40DB83
+    Имя файла: selene-1.18.2-1.17.13.jar
+    MD5: 1208F0DF327232E62182D8D477F35C33
 ---
-    Имя файла: ShoulderSurfing-Forge-1.18.2-2.4.1.jar
-    MD5: 8A392B0771F35C1BF72DEACF652E3088
+    Имя файла: ShoulderSurfing-Forge-1.18.2-2.5.jar
+    MD5: A18755F6D50089EC6F97E94FFE2B063D
 ---
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
