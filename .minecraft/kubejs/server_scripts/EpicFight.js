@@ -103,7 +103,7 @@ onEvent('item.tags', e => {
 onEvent("lootjs", (event) => {
   event
     .addLootTypeModifier([LootType.CHEST])
-    .randomChance(0.03)
+    .randomChance(0.02)
     .addWeightedLoot(1, [
         Item.of('epicfight:skillbook', '{skill:"epicfight:stamina_pillager"}'),
         Item.of('epicfight:skillbook', '{skill:"epicfight:energizing_guard"}'),
