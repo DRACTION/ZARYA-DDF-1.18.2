@@ -13,7 +13,7 @@ realmsNotifications:false
 reducedDebugInfo:false
 showSubtitles:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -24,12 +24,12 @@ fov:0.5
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:0.0
-renderDistance:16
-simulationDistance:12
+renderDistance:8
+simulationDistance:8
 entityDistanceScaling:1.0
 guiScale:2
 particles:0
-maxFps:260
+maxFps:60
 difficulty:2
 graphicsMode:1
 ao:2
@@ -57,7 +57,7 @@ chatDelay:0.0
 chatHeightUnfocused:0.44366195797920227
 chatScale:1.0
 chatWidth:1.0
-mipmapLevels:4
+mipmapLevels:1
 useNativeTransport:true
 mainHand:right
 attackIndicator:1
