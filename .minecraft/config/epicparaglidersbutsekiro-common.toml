@@ -1,4 +1,4 @@
-#MaxStamina
-#Range: 0.1 ~ 9.99999999999E11
-MaxStamina = 12.0
+#MaxPosture
+#Range: 0.10000000149011612 ~ 9.99999995904E11
+MaxPosture = 12.0
 
