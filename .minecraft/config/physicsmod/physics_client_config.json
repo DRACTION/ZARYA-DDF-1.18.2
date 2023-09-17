@@ -61,10 +61,10 @@
     "Animation": 0
   },
   "mobSettings": {
-    "Physics Type": 2,
+    "Physics Type": 7,
     "Lifetime": 4.0,
     "Lifetime Variance": 3.0,
-    "Animation": 1
+    "Animation": 4
   },
   "sprintingPhysicsParticles": true,
   "eatingPhysicsParticles": true,
