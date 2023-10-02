@@ -1,0 +1,25 @@
+
+#Combat Specialization
+#Protector of the realm
+#Earn bonus XP on kill
+[combat]
+	#Define how much levels the player needs to unlock the Combat specialization
+	#Range: > 0
+	cost = 15
+
+#Crafting Specialization
+#Craft and gather resources
+#Earn bonus XP when crafting
+[crafting]
+	#Define how much levels the player needs to unlock the Crafting specialization
+	#Range: > 0
+	cost = 15
+
+#Mining Specialization
+#Branch mining is for cowards
+#Earn bonus XP for mining ores
+[mining]
+	#Define how much levels the player needs to unlock the Mining specialization
+	#Range: > 0
+	unlockCost = 15
+
