@@ -4,6 +4,7 @@ onEvent('recipes', e => {
 
 	removeRecipeByID(e, [
 		'create:crafting/appliances/dough',
+		'create:splashing/wheat_flour',
 		'farmersdelight:wheat_dough_from_water',
 		'farmersdelight:wheat_dough_from_eggs'
 	])
