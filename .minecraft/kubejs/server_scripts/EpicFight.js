@@ -179,6 +179,7 @@ onEvent("lootjs", (event) => {
       Item.of('epicfight:skillbook', '{skill:"epicfight:emergency_escape"}'),
       Item.of('epicfight:skillbook', '{skill:"epicfight:death_harvest"}'),
       Item.of('epicfight:skillbook', '{skill:"epicfight:meteor_slam"}'),
-      Item.of('epicfight:skillbook', '{skill:"epicfight:revelation"}')
+      Item.of('epicfight:skillbook', '{skill:"epicfight:revelation"}'),
+      Item.of('epicfight:skillbook', '{skill:"epicfight:phantom_ascent"}')
     ]);
 })

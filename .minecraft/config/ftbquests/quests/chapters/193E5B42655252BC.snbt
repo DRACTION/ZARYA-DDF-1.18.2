@@ -8,7 +8,7 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: -2.0d
+			x: -1.0d
 			y: -1.0d
 			width: 1.5d
 			height: 1.5d
@@ -20,7 +20,7 @@
 			corner: false
 		}
 		{
-			x: 2.0d
+			x: 1.0d
 			y: -1.0d
 			width: 1.5d
 			height: 1.5d
@@ -116,7 +116,7 @@
 			corner: false
 		}
 		{
-			x: 1.0d
+			x: -2.0d
 			y: 3.0d
 			width: 1.5d
 			height: 1.5d
@@ -128,8 +128,8 @@
 			corner: false
 		}
 		{
-			x: -1.0d
-			y: 3.0d
+			x: -3.5d
+			y: 2.0d
 			width: 1.5d
 			height: 1.5d
 			rotation: 0.0d
@@ -140,8 +140,8 @@
 			corner: false
 		}
 		{
-			x: 0.0d
-			y: 0.0d
+			x: 2.0d
+			y: 3.0d
 			width: 1.5d
 			height: 1.5d
 			rotation: 0.0d
@@ -206,6 +206,18 @@
 			height: 1.5d
 			rotation: 0.0d
 			image: "epicfight:textures/gui/skills/death_harvest.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			width: 1.5d
+			height: 1.5d
+			rotation: 0.0d
+			image: "epicfight:textures/gui/skills/phantom_ascent.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -354,7 +366,7 @@
 					skill: "epicfight:step"
 				}
 			}
-			x: -2.0d
+			x: -1.0d
 			y: 0.0d
 			subtitle: "Резкий рывок по направлению движения"
 			description: [
@@ -393,7 +405,7 @@
 					skill: "epicfight:roll"
 				}
 			}
-			x: 2.0d
+			x: 1.0d
 			y: 0.0d
 			subtitle: "Кувырок в направлении движения"
 			description: [
@@ -576,7 +588,7 @@
 					skill: "epicfight:meteor_slam"
 				}
 			}
-			x: 1.0d
+			x: -2.0d
 			y: 4.0d
 			shape: "rsquare"
 			subtitle: "Из небес обрушился Апокалипсис."
@@ -618,8 +630,8 @@
 					skill: "epicfight:revelation"
 				}
 			}
-			x: -1.0d
-			y: 4.0d
+			x: -3.5d
+			y: 3.0d
 			shape: "rsquare"
 			subtitle: "Эта сила, словно глаза Ястреба, раскрывающие слабые места врагов"
 			description: [
@@ -656,8 +668,8 @@
 					skill: "epicfight:demolition_leap"
 				}
 			}
-			x: 0.0d
-			y: 1.0d
+			x: 2.0d
+			y: 4.0d
 			shape: "gear"
 			subtitle: "Прыжок халка"
 			description: [
@@ -671,7 +683,7 @@
 			tasks: [{
 				id: "233253B3451EECC1"
 				type: "xp"
-				value: 30L
+				value: 40L
 				points: false
 			}]
 			rewards: [{
@@ -871,6 +883,39 @@
 					Count: 1b
 					tag: {
 						skill: "epicfight:death_harvest"
+					}
+				}
+			}]
+		}
+		{
+			title: "Призрачный прыжок"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:phantom_ascent"
+				}
+			}
+			x: 3.5d
+			y: 3.0d
+			shape: "gear"
+			subtitle: "Дабл-джамп"
+			description: ["Позволяет прыгнуть дополнительно 1 раз в воздухе."]
+			id: "3188ACC4B4A2D153"
+			tasks: [{
+				id: "2B60D609AECF6036"
+				type: "xp"
+				value: 40L
+				points: false
+			}]
+			rewards: [{
+				id: "2320979F8ECE1BBD"
+				type: "item"
+				item: {
+					id: "epicfight:skillbook"
+					Count: 1b
+					tag: {
+						skill: "epicfight:phantom_ascent"
 					}
 				}
 			}]

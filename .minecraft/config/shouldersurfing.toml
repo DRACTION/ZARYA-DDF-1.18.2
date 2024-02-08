@@ -6,7 +6,7 @@
 	#Whether or not to remember the last perspective used.
 	remember_last_perspective = true
 	#Whether or not to replace the default third person perspective.
-	replace_default_perspective = false
+	replace_default_perspective = true
 	#Whether or not to limit the player reach depending on the crosshair location (perspective offset).
 	limit_player_reach = true
 	#Size of the camera adjustment per step.
