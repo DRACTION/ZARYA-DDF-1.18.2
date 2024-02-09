@@ -8,10 +8,10 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: -1.0d
-			y: -0.5d
-			width: 1.0d
-			height: 1.0d
+			x: -2.0d
+			y: -1.0d
+			width: 1.5d
+			height: 1.5d
 			rotation: 0.0d
 			image: "epicfight:textures/gui/skills/step.png"
 			hover: [ ]
@@ -20,10 +20,10 @@
 			corner: false
 		}
 		{
-			x: 1.0d
-			y: -0.5d
-			width: 1.0d
-			height: 1.0d
+			x: 2.0d
+			y: -1.0d
+			width: 1.5d
+			height: 1.5d
 			rotation: 0.0d
 			image: "epicfight:textures/gui/skills/roll.png"
 			hover: [ ]
@@ -33,9 +33,9 @@
 		}
 		{
 			x: 0.0d
-			y: -3.0d
-			width: 1.0d
-			height: 1.0d
+			y: -4.5d
+			width: 1.5d
+			height: 1.5d
 			rotation: 0.0d
 			image: "epicfight:textures/gui/skills/guard.png"
 			hover: [ ]
@@ -44,34 +44,34 @@
 			corner: false
 		}
 		{
-			x: 2.0d
-			y: -3.0d
+			x: 2.5d
+			y: -3.5d
 			width: 1.5d
 			height: 1.5d
 			rotation: 0.0d
-			image: "epicfight:textures/gui/skills/energizing_guard.png"
+			image: "epicfight:textures/gui/skills/impact_guard.png"
 			hover: [ ]
 			click: ""
 			dev: false
 			corner: false
 		}
 		{
-			x: -2.0d
-			y: -3.0d
+			x: -2.5d
+			y: -3.5d
 			width: 2.0d
 			height: 2.0d
 			rotation: 0.0d
-			image: "epicfight:textures/gui/skills/active_guard.png"
+			image: "epicfight:textures/gui/skills/parrying.png"
 			hover: [ ]
 			click: ""
 			dev: false
-			corner: false
+			corner: true
 		}
 		{
-			x: 1.5d
-			y: 2.5d
-			width: 1.0d
-			height: 1.0d
+			x: 3.0d
+			y: -7.0d
+			width: 1.5d
+			height: 1.5d
 			rotation: 0.0d
 			image: "epicfight:textures/gui/skills/swordmaster.png"
 			hover: [ ]
@@ -80,10 +80,10 @@
 			corner: false
 		}
 		{
-			x: 0.0d
-			y: 2.5d
-			width: 1.0d
-			height: 1.0d
+			x: -5.0d
+			y: -5.5d
+			width: 1.5d
+			height: 1.5d
 			rotation: 0.0d
 			image: "epicfight:textures/gui/skills/berserker.png"
 			hover: [ ]
@@ -92,10 +92,10 @@
 			corner: false
 		}
 		{
-			x: -3.0d
-			y: 2.5d
-			width: 1.0d
-			height: 1.0d
+			x: -6.0d
+			y: -3.0d
+			width: 1.5d
+			height: 1.5d
 			rotation: 0.0d
 			image: "epicfight:textures/gui/skills/technician.png"
 			hover: [ ]
@@ -104,8 +104,8 @@
 			corner: false
 		}
 		{
-			x: -1.5d
-			y: 2.5d
+			x: 6.0d
+			y: -0.5d
 			width: 1.5d
 			height: 1.5d
 			rotation: 0.0d
@@ -116,12 +116,96 @@
 			corner: false
 		}
 		{
-			x: 3.0d
-			y: 2.5d
-			width: 1.0d
-			height: 1.0d
+			x: 1.0d
+			y: 3.0d
+			width: 1.5d
+			height: 1.5d
 			rotation: 0.0d
-			image: "epicfight:textures/gui/skills/dualgreatsword.png"
+			image: "epicfight:textures/gui/skills/meteor_slam.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			width: 1.5d
+			height: 1.5d
+			rotation: 0.0d
+			image: "epicfight:textures/gui/skills/revelation.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 1.5d
+			height: 1.5d
+			rotation: 0.0d
+			image: "epicfight:textures/gui/skills/demolition_leap.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			width: 1.5d
+			height: 1.5d
+			rotation: 0.0d
+			image: "epicfight:textures/gui/skills/hypervitality.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.0d
+			y: -5.5d
+			width: 1.5d
+			height: 1.5d
+			rotation: 0.0d
+			image: "epicfight:textures/gui/skills/endurance.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.0d
+			y: -7.0d
+			width: 1.5d
+			height: 1.5d
+			rotation: 0.0d
+			image: "epicfight:textures/gui/skills/emergency_escape.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			width: 1.5d
+			height: 1.5d
+			rotation: 0.0d
+			image: "epicfight:textures/gui/skills/forbidden_strength.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			width: 1.5d
+			height: 1.5d
+			rotation: 0.0d
+			image: "epicfight:textures/gui/skills/death_harvest.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -139,12 +223,16 @@
 				}
 			}
 			x: 0.0d
-			y: -2.0d
+			y: -3.5d
 			subtitle: "Блокирование без щита"
 			description: [
-				"Нажмите ПКМ, чтобы заблокировать все атаки ближнего боя впереди вас"
+				"Используйте правую кнопку мыши, чтобы защищаться от фронтальных атак."
 				""
-				"Если вы последовательно блокируете атаки, расходуется больше выносливости"
+				"Постоянное блокирование будет потреблять больше выносливости."
+				""
+				"Если блокирование израсходует всю выносливость до нуля - вы упадете на землю и откроетесь для врага."
+				""
+				"Доступные типы оружия: Тати, Утигатана, Длинный меч, Меч, Копье, Топор, Большой меч."
 			]
 			can_repeat: true
 			id: "7E5951082676B56F"
@@ -176,21 +264,23 @@
 			}]
 		}
 		{
-			title: "Активный блок"
+			title: "Парирование"
 			icon: {
-				id: "minecraft:shield"
+				id: "epicfight:skillbook"
 				Count: 1b
 				tag: {
-					Damage: 0
+					skill: "epicfight:parrying"
 				}
 			}
-			x: -2.0d
-			y: -2.0d
+			x: -2.5d
+			y: -2.5d
 			subtitle: "Полная защита от ближних атак и стрел"
 			description: [
-				"Штраф за последовательную блокировку будет снят, если вы будете защищаться в соответствии с таймингами атак противника"
+				"Парирование позволяет вам отражать атаки, не используя выносливость и даёт возможность начинать свой ход."
 				""
-				"Вы сможете блокировать дальнобойные атаки"
+				"Найдите окно атаки врага, когда вы почти вот-вот получите урон и совершите парирование. Вы также можете отражать дальние атаки."
+				""
+				"Доступные типы оружия: Тати, Утигатана, Меч, Длинный меч"
 			]
 			dependencies: ["7E5951082676B56F"]
 			dependency_requirement: "all_started"
@@ -199,7 +289,7 @@
 			tasks: [{
 				id: "75C0B471E8C57AB2"
 				type: "xp"
-				value: 4L
+				value: 10L
 				points: false
 			}]
 			rewards: [{
@@ -209,23 +299,29 @@
 					id: "epicfight:skillbook"
 					Count: 1b
 					tag: {
-						skill: "epicfight:active_guard"
+						skill: "epicfight:parrying"
 					}
 				}
 			}]
 		}
 		{
-			title: "Энергичная защита"
-			icon: "minecraft:tnt"
-			x: 2.0d
-			y: -2.0d
-			subtitle: "Защита от всего, но не полная"
+			title: "Усиленная защита"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:impact_guard"
+				}
+			}
+			x: 2.5d
+			y: -2.5d
+			subtitle: "Защита от взрывов, зелий и прочего"
 			description: [
-				"Снижает штраф за последовательную блокировку до x0,2 за атаку"
+				"Снижает расход выносливости при блокировании."
 				""
-				"Вы сможете блокировать взрывы, огонь, магию и дальнобойные атаки, но не полностью"
+				"Теперь вы можете блокировать взрывы, огонь, магию и снаряды с 80% эффективностью."
 				""
-				"Эти типы урона наносят на 80% меньше урона"
+				"Доступные типы оружия: Тати, Длинный меч, Копье, Большой меч"
 			]
 			dependencies: ["7E5951082676B56F"]
 			dependency_requirement: "all_started"
@@ -234,7 +330,7 @@
 			tasks: [{
 				id: "3800FBA4ECA6AA2A"
 				type: "xp"
-				value: 4L
+				value: 10L
 				points: false
 			}]
 			rewards: [{
@@ -244,7 +340,7 @@
 					id: "epicfight:skillbook"
 					Count: 1b
 					tag: {
-						skill: "epicfight:energizing_guard"
+						skill: "epicfight:impact_guard"
 					}
 				}
 			}]
@@ -258,13 +354,15 @@
 					skill: "epicfight:step"
 				}
 			}
-			x: -1.0d
-			y: 0.5d
+			x: -2.0d
+			y: 0.0d
 			subtitle: "Резкий рывок по направлению движения"
 			description: [
-				"При выполнении этого навыка вы становитесь невосприимчивы к физическим атакам"
+				"Совершайте рывки на короткие расстояния в направлении движения, уклоняясь от всех входящих атак."
 				""
-				"Тратит выносливость"
+				"При выполнении этого навыка вы становитесь невосприимчивы к физическим атакам."
+				""
+				"(Выносливость: 12)"
 			]
 			can_repeat: true
 			id: "768E55B0B246E665"
@@ -295,13 +393,15 @@
 					skill: "epicfight:roll"
 				}
 			}
-			x: 1.0d
-			y: 0.5d
+			x: 2.0d
+			y: 0.0d
 			subtitle: "Кувырок в направлении движения"
 			description: [
-				"При выполнении этого навыка вы становитесь невосприимчивы к физическим атакам"
+				"Совершайте перекаты в направлении движения, уклоняясь от всех входящих атак."
 				""
-				"Тратит выносливость"
+				"При выполнении этого навыка вы становитесь невосприимчивы к физическим атакам."
+				""
+				"(Выносливость: 15)"
 			]
 			can_repeat: true
 			id: "65FF55AE86BF47D9"
@@ -326,22 +426,27 @@
 		{
 			title: "Мастер меча"
 			icon: {
-				id: "epicfight:katana"
+				id: "epicfight:skillbook"
 				Count: 1b
 				tag: {
-					Damage: 0
+					skill: "epicfight:swordmaster"
 				}
 			}
-			x: 1.5d
-			y: 3.5d
+			x: 3.0d
+			y: -6.0d
+			shape: "hexagon"
 			subtitle: "Быстрее!!!"
-			description: ["Вы получаете бонус к скорости атаки 30% при использовании мечевыдного оружия"]
+			description: [
+				"Получите 30% дополнительной скорость атаки"
+				""
+				"Доступные типы оружия: Утигатана, Длинный меч, Меч, Тати"
+			]
 			can_repeat: true
 			id: "3E9ABC941037BA80"
 			tasks: [{
 				id: "54433A191E92A155"
 				type: "xp"
-				value: 25L
+				value: 30L
 				points: false
 			}]
 			rewards: [{
@@ -359,19 +464,20 @@
 		{
 			title: "Берсерк"
 			icon: {
-				id: "minecraft:diamond_axe"
+				id: "epicfight:skillbook"
 				Count: 1b
 				tag: {
-					Damage: 0
+					skill: "epicfight:berserker"
 				}
 			}
-			x: 0.0d
-			y: 3.5d
-			subtitle: "Ты лучше с каждой раной"
+			x: -5.0d
+			y: -4.5d
+			shape: "pentagon"
+			subtitle: "Больно? Хорошо :)"
 			description: [
-				"Вы получаете 0,3% бонус к урону от атаки и 0,5% бонус к скорости атаки за каждый 1% потерянного здоровья"
+				"Получите 0.3% дополнительного урона и скорости атаки на 0.5% за каждый 1% потерянного здоровья."
 				""
-				"Скорость атаки не может увеличиться более чем на 5.0"
+				"Увеличение скорости атаки не будет превышать 5.0%"
 			]
 			can_repeat: true
 			id: "246CFDADC14977F5"
@@ -396,22 +502,23 @@
 		{
 			title: "Техничный"
 			icon: {
-				id: "epicfight:netherite_tachi"
+				id: "epicfight:skillbook"
 				Count: 1b
 				tag: {
-					Damage: 0
+					skill: "epicfight:technician"
 				}
 			}
-			x: -3.0d
-			y: 3.5d
+			x: -6.0d
+			y: -2.0d
+			shape: "square"
 			subtitle: "Бесплатные уклонения"
-			description: ["Восстанавливайте использованную выносливость, когда уклоняетесь в тайминг атаки врага"]
+			description: ["Если вы уклонитесь от атаки в последний момент перед тем, как она попадет по вам - вы вернёте потраченную энергию выносливости от уклонения."]
 			can_repeat: true
 			id: "154B2D8425DD7059"
 			tasks: [{
 				id: "5F047E36C94DA7F1"
 				type: "xp"
-				value: 5L
+				value: 15L
 				points: false
 			}]
 			rewards: [{
@@ -427,24 +534,25 @@
 			}]
 		}
 		{
-			title: "Кража выносливости"
+			title: "Похищение выносливости"
 			icon: {
-				id: "epicfight:golden_dagger"
+				id: "epicfight:skillbook"
 				Count: 1b
 				tag: {
-					Damage: 0
+					skill: "epicfight:stamina_pillager"
 				}
 			}
-			x: -1.5d
-			y: 3.5d
+			x: 6.0d
+			y: 0.5d
+			shape: "square"
 			subtitle: "- враг = + выносливость"
-			description: ["После убийства врага получите 30% недостающей выносливости"]
+			description: ["Восстанавливает 30% от недостающей выносливости при убийстве вашей цели."]
 			can_repeat: true
 			id: "00010AA300D4F318"
 			tasks: [{
 				id: "6AC1AFAC48E739B6"
 				type: "xp"
-				value: 6L
+				value: 15L
 				points: false
 			}]
 			rewards: [{
@@ -460,34 +568,309 @@
 			}]
 		}
 		{
-			title: "Два цвайхандера"
+			title: "Метеоритный удар"
 			icon: {
-				id: "epicfight:netherite_greatsword"
+				id: "epicfight:skillbook"
 				Count: 1b
 				tag: {
-					Damage: 0
+					skill: "epicfight:meteor_slam"
 				}
 			}
-			x: 3.0d
-			y: 3.5d
-			subtitle: "Для сильнейших!"
-			description: ["Позволяет держать сразу два цвайхандера"]
+			x: 1.0d
+			y: 4.0d
+			shape: "rsquare"
+			subtitle: "Из небес обрушился Апокалипсис."
+			description: [
+				"Совершите мощный удар с высоты на землю, уничтожая всё вокруг."
+				""
+				"Урон увеличивается в зависимости от высоты с которого совершается навык, а так же расход выносливости."
+				""
+				"Если урон от падения превышает предел вашей шкалы выносливости - вы получите урон."
+				""
+				"Доступные типы оружия: Тати, Длинный меч, Копье, Большой меч"
+			]
 			can_repeat: true
-			id: "157F20D8F5534487"
+			id: "225447E437D073A9"
 			tasks: [{
-				id: "1F27B6D0294B7ED3"
+				id: "7FB6C0986DD98FDD"
 				type: "xp"
-				value: 60L
+				value: 25L
 				points: false
 			}]
 			rewards: [{
-				id: "14A4A61E47B298C4"
+				id: "4404E955B79BD1A6"
 				type: "item"
 				item: {
 					id: "epicfight:skillbook"
 					Count: 1b
 					tag: {
-						skill: "epicfight:dualgreatsword"
+						skill: "epicfight:meteor_slam"
+					}
+				}
+			}]
+		}
+		{
+			title: "Откровение"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:revelation"
+				}
+			}
+			x: -1.0d
+			y: 4.0d
+			shape: "rsquare"
+			subtitle: "Эта сила, словно глаза Ястреба, раскрывающие слабые места врагов"
+			description: [
+				"Блокирование, парирование и уклонение - понижают концентрацию врага, которое отображается знаком глаза."
+				""
+				"После полного снижения концентрации, вы можете нанести контратаку, которая собьёт врага с ног."
+			]
+			can_repeat: true
+			id: "4F432A358385459B"
+			tasks: [{
+				id: "7987CE1A1EE64ABA"
+				type: "xp"
+				value: 25L
+				points: false
+			}]
+			rewards: [{
+				id: "0CFF516466E14363"
+				type: "item"
+				item: {
+					id: "epicfight:skillbook"
+					Count: 1b
+					tag: {
+						skill: "epicfight:revelation"
+					}
+				}
+			}]
+		}
+		{
+			title: "Импульсный прыжок"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:demolition_leap"
+				}
+			}
+			x: 0.0d
+			y: 1.0d
+			shape: "gear"
+			subtitle: "Прыжок халка"
+			description: [
+				"Сконцентрируйтесь, чтобы собрать энергию выносливости и запустить себя вверх, в любое заданное вами направление."
+				""
+				"Навык снижает урон от падения на 50%."
+			]
+			dependency_requirement: "one_started"
+			can_repeat: true
+			id: "2CB3086BD841E5C7"
+			tasks: [{
+				id: "233253B3451EECC1"
+				type: "xp"
+				value: 30L
+				points: false
+			}]
+			rewards: [{
+				id: "1721350EA5CE61EA"
+				type: "item"
+				item: {
+					id: "epicfight:skillbook"
+					Count: 1b
+					tag: {
+						skill: "epicfight:demolition_leap"
+					}
+				}
+			}]
+		}
+		{
+			title: "Второе дыхание"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:hypervitality"
+				}
+			}
+			x: 0.0d
+			y: -6.5d
+			shape: "octagon"
+			subtitle: "Навык за счет выносливости"
+			description: ["Позволяет использовать энергию выносливости для специальных атак оружия."]
+			can_repeat: true
+			id: "6A2E8FC6F05C063A"
+			tasks: [{
+				id: "429ABCCDEBBF7282"
+				type: "xp"
+				value: 40L
+				points: false
+			}]
+			rewards: [{
+				id: "275EB882754B2A8C"
+				type: "item"
+				item: {
+					id: "epicfight:skillbook"
+					Count: 1b
+					tag: {
+						skill: "epicfight:hypervitality"
+					}
+				}
+			}]
+		}
+		{
+			title: "Выносливость"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:endurance"
+				}
+			}
+			x: 5.0d
+			y: -4.5d
+			shape: "pentagon"
+			subtitle: "Если бью, то значит БЬЮ!!!"
+			description: [
+				"Получите сопротивление к оглушению на 3 секунды за счет части оставшейся выносливости."
+				""
+				"Активируется при получении урона во время замаха (попытка прервать вашу атаку)."
+				""
+				"(Восстановление: 12 сек)"
+				""
+				"(Выносливость: 30% от текущей выносливости)"
+			]
+			can_repeat: true
+			id: "2FBFB31CD56C63E5"
+			tasks: [{
+				id: "3BA9E85FBF3E5EF8"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
+			rewards: [{
+				id: "758F9A074DEEA660"
+				type: "item"
+				item: {
+					id: "epicfight:skillbook"
+					Count: 1b
+					tag: {
+						skill: "epicfight:endurance"
+					}
+				}
+			}]
+		}
+		{
+			title: "Выброс адреналина"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:emergency_escape"
+				}
+			}
+			x: -3.0d
+			y: -6.0d
+			shape: "hexagon"
+			subtitle: "Отмена атак + доп уклонение"
+			description: [
+				"Теперь вы можете отменять свои атаки с помощью уклонения."
+				"Позволяет ещё раз уклониться, даже когда вы без выносливости."
+				""
+				"(Восстановление: 15 сек)"
+				""
+				"Доступные типы оружия: Утигатана, Кинжал, Меч"
+			]
+			can_repeat: true
+			id: "2ECE80D2CB58CEF2"
+			tasks: [{
+				id: "72A9A619CA26D71D"
+				type: "xp"
+				value: 30L
+				points: false
+			}]
+			rewards: [{
+				id: "39FBA7144E8E0791"
+				type: "item"
+				item: {
+					id: "epicfight:skillbook"
+					Count: 1b
+					tag: {
+						skill: "epicfight:emergency_escape"
+					}
+				}
+			}]
+		}
+		{
+			title: "Запретная мощь"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:forbidden_strength"
+				}
+			}
+			x: 6.0d
+			y: -2.0d
+			shape: "square"
+			subtitle: "Превозмогая"
+			description: ["Используйте своё здоровье в качестве энергии для выносливости, если у вас она отсутствует или вы истощены."]
+			can_repeat: true
+			id: "29D39F417F74FED3"
+			tasks: [{
+				id: "0259EC21ABEA77A7"
+				type: "xp"
+				value: 15L
+				points: false
+			}]
+			rewards: [{
+				id: "4EFC3A847AF42550"
+				type: "item"
+				item: {
+					id: "epicfight:skillbook"
+					Count: 1b
+					tag: {
+						skill: "epicfight:forbidden_strength"
+					}
+				}
+			}]
+		}
+		{
+			title: "Урожай смерти"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:death_harvest"
+				}
+			}
+			x: -6.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "Восстановление части навыка при убийстве"
+			description: [
+				"Если вы убьете сущность специальным ударом своего оружия - вы восстановите потраченный заряд специальной атаки."
+				""
+				"Однако количество возвращаемого заряда зависит от урона вашего оружия и количества убитых врагов за раз."
+			]
+			can_repeat: true
+			id: "35901C4805C9844C"
+			tasks: [{
+				id: "0B3E58FD67047C6C"
+				type: "xp"
+				value: 15L
+				points: false
+			}]
+			rewards: [{
+				id: "330D1676E696D221"
+				type: "item"
+				item: {
+					id: "epicfight:skillbook"
+					Count: 1b
+					tag: {
+						skill: "epicfight:death_harvest"
 					}
 				}
 			}]

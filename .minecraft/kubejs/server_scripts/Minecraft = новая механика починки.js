@@ -49,7 +49,7 @@ onEvent('item.tags', e => {
     'minecraft:diamond_hoe',
     'minecraft:netherite_hoe',
     '#forge:shears',
-    'epicfight:katana',
+    'epicfight:uchigatana',
     'epicfight:iron_greatsword',
     'epicfight:golden_greatsword',
     'epicfight:diamond_greatsword',

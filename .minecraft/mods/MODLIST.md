@@ -42,9 +42,6 @@
     Имя файла: armorcurve-3.0.jar
     MD5: BDD68838289D786347454CDE8BE47362
 ---
-    Имя файла: autosurfing-1.1.jar
-    MD5: E2DB0C41F78D9BD7A5ED2A780FD6342D
----
     Имя файла: balm-3.2.6.jar
     MD5: 2C88B15B950317917FE64980267D579A
 ---
@@ -162,8 +159,8 @@
     Имя файла: createendertransmission-2.0.6-1.18.2.jar
     MD5: 8E809B6C4D0897A71ED830B9E80E0292
 ---
-    Имя файла: create_jetpack-forge-1.5.3.jar
-    MD5: DCEB76E9F112BDAB3508231A7EAD2CC4
+    Имя файла: create_jetpack-forge-1.6.0.jar
+    MD5: 635CF528CA0FC67F1F6D1EB7060F9E39
 ---
     Имя файла: CreativeCore_FORGE_v2.6.17_mc1.18.2.jar
     MD5: 87A663FAD3077FC0AD12A8C8223208B0
@@ -185,9 +182,6 @@
 ---
     Имя файла: DamageTilt-1.18-forge-0.1.1.jar
     MD5: C9D3D824C7FEBD270CF935D499CF3A0E
----
-    Имя файла: dawncraft-fixes-0.14.4.jar
-    MD5: F795AF0E8F42B4F4FA37E7B945F5DA44
 ---
     Имя файла: Decorative Blocks-forge-1.18.2-2.1.2.jar
     MD5: 2A1F79C91213960D1AD4C3C6A676E601
@@ -212,9 +206,6 @@
 ---
     Имя файла: drippyloadingscreen_forge_2.2.2_MC_1.18.2.jar
     MD5: 9D6C997B0FA7C9F4A4BC733382E772E5
----
-    Имя файла: DualGreatsword-1.8.jar
-    MD5: 7FF9E2C8AE2306C50A0A8514AD213205
 ---
     Имя файла: DungeonCrawl-1.18.2-2.3.14.jar
     MD5: 2BD7A9F50C99A156D4BA84B1D581D55F
@@ -261,11 +252,11 @@
     Имя файла: environmentalcreepers-forge-1.18.1-1.6.1.jar
     MD5: 6304D608FFA074ADE01D59290FEC48C2
 ---
-    Имя файла: epicfight-18.3.8-ZaryaEdition.jar
-    MD5: 03971C1BB88A75A21CD08CB3229E5B51
+    Имя файла: epicfight-18.5.21-ZaryaEdition.jar
+    MD5: 67682F18EA7C90CB8889A46D9B156497
 ---
-    Имя файла: EpicParaglidersButSekiro-1.4.0-fix.jar
-    MD5: 1C06E1B282A159550A8FD25CF1D2DE8E
+    Имя файла: epicparagliders-0.6.0-1.18.2.jar
+    MD5: B75A83CBD06644D99FEB655AE45E5F15
 ---
     Имя файла: EverlastingSkins-1.18.2-1.0.jar
     MD5: 74615E47F2933901F07012A9F58AA89A
@@ -486,8 +477,8 @@
     Имя файла: logprot-1.18.2-1.7.jar
     MD5: B090F3ECDFD999C37B018C7D94189E57
 ---
-    Имя файла: lootjs-forge-1.18.2-2.7.7.jar
-    MD5: A310618769FDAAB86CBD8A030DC8630F
+    Имя файла: lootjs-forge-1.18.2-2.7.7-ZaryaEdition.jar
+    MD5: 1689173D9A0BF3FF3754167C0989F229
 ---
     Имя файла: lootr-1.18.2-0.3.26.65.jar
     MD5: 8EA1BC28AD0345C42472F61D357543F9
@@ -657,11 +648,11 @@
     Имя файла: solapplepie-1.18.2-1.0.4.jar
     MD5: 6E4B27A1B1DC608FE92F935618D91F69
 ---
-    Имя файла: sophisticatedbackpacks-1.18.2-3.18.66.939.jar
-    MD5: B2B842F165EB2A44B9706203A4CE51A0
+    Имя файла: sophisticatedbackpacks-1.18.2-3.19.5.990.jar
+    MD5: F436D87DBF1BF3D891CC0B744C1648C5
 ---
-    Имя файла: sophisticatedcore-1.18.2-0.5.103.483.jar
-    MD5: 4C6AFBF387B3BF20173D947B4B7A48D7
+    Имя файла: sophisticatedcore-1.18.2-0.5.111.526.jar
+    MD5: D09A6A282EF519DECCA8E6A71921E09C
 ---
     Имя файла: soundphysics-forge-1.18.2-1.0.6.jar
     MD5: BC11649A1F9C33B324D3B4A403A593DA
@@ -726,8 +717,8 @@
     Имя файла: valhelsia_core-1.18.2-0.3.1.jar
     MD5: DD94C1D5C9932C41EDB2BE6982265DE5
 ---
-    Имя файла: valhelsia_structures-forge-1.18.2-0.1.0.jar
-    MD5: 3E204F5A4564512F8A7D467A7E790C15
+    Имя файла: valhelsia_structures-1.18.2-0.1.1-ZaryaEdition.jar
+    MD5: 6E2B8196270AD03EB8A0B7BBDAEC937C
 ---
     Имя файла: Villager Comfort-1.18.2-1.0.1.jar
     MD5: 712903839128BCED651555200E8E1DB5
