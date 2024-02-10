@@ -1,24 +1,52 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = net.minecraft.client.gui.screens.OptionsScreen
-  randomgroup = 1
-  renderorder = foreground
+layout-meta {
+  identifier = options_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1707523962976
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:046e0a48-bde2-4099-a463-2477928d45ab-1707523962976] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  identifier = %id=345184%
-  orientation = element
-  orientation_element = vanillabtn:400334
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = b0c61d55-83d7-4399-9f74-fa3a2282c12d-1707523962976
+  [executable_block:b0c61d55-83d7-4399-9f74-fa3a2282c12d-1707523962976][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = 345184
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = vanillabtn:400334
   x = -55
-  action = movebutton
   y = -26
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 6990323d-b947-4a4a-981e-c641ba0f335d-1707523962976
+  [loading_requirement_container_meta:6990323d-b947-4a4a-981e-c641ba0f335d-1707523962976] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
 }
 
