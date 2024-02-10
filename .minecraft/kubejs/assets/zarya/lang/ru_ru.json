@@ -4490,7 +4490,7 @@
     // "msg.framedblocks.split_line.switch": "Hit with a Framed Hammer to switch the orientation of the split-line",
     "title.framedblocks.frame_crafter": "Каркасная пила",
     "title.framedblocks.framed_chest": "Каркасный сундук",
-    "title.framedblocks:framed_secret_storage": "Секретное хранилище",
+    "title.framedblocks.framed_secret_storage": "Секретное хранилище",
     // "tooltip.framedblocks.frame_bg.set_camo": "Hit with a Framed Hammer to use the camo as background",
     // "tooltip.framedblocks.frame_bg.set_leather": "Hit with a Framed Hammer to use leather as background",
     // "tooltip.framedblocks.frame_bg.use_camo": "Framed Item Frame uses the camo as background",
