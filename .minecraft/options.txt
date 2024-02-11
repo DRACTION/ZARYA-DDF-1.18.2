@@ -202,6 +202,7 @@ key_Swap shoulder:key.keyboard.o
 key_Toggle perspective:key.keyboard.unknown
 key_key.open_muffler_gui:key.keyboard.unknown
 key_placebo.toggleTrails:key.keyboard.unknown
+key_key.findmyfriends.gui:key.keyboard.u
 key_key.jetpack.toggle_active.description:key.keyboard.g
 key_key.jetpack.toggle_hover.description:key.keyboard.h
 key_key.relics.hud_up:key.keyboard.unknown
