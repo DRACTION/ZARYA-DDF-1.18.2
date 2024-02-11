@@ -531,8 +531,8 @@
     Имя файла: norecipeadvancements-1.18.2-2.0.1.jar
     MD5: 57EEA7EE8788995D393BC214E932946C
 ---
-    Имя файла: notenoughanimations-forge-1.7.0-mc1.18.2.jar
-    MD5: F3980A3F2D525B84FE2D442B2D8E1A53
+    Имя файла: notenoughanimations-forge-1.7.1-mc1.18.2.jar
+    MD5: CC5EC6F8D04BC998F8BE0F6095A3F263
 ---
     Имя файла: novillagerdm-1.18.1-3.0.0.jar
     MD5: E52D7F5724031B201148CE394787113E
@@ -615,8 +615,8 @@
     Имя файла: rubidium_extras-1.18.2_v1.3.2.jar
     MD5: 7E84913EE15AE1F1233425D612A16BBF
 ---
-    Имя файла: saturn-mc1.18.2-0.1.3.jar
-    MD5: F347D5123DC4372AE3AE0B6DE875F7C0
+    Имя файла: saturn-mc1.18.2-0.1.4.jar
+    MD5: 1910888A6816F40E3E55C051E04BBC2A
 ---
     Имя файла: secondchanceforge-1.18.2-1.5.0.jar
     MD5: 906CA4843003AEECBD01220BCAD93B8F
