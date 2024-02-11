@@ -28,8 +28,8 @@
 			corner: false
 		}
 		{
-			x: 1.0d
-			y: -3.5d
+			x: 0.0d
+			y: -2.5d
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
@@ -592,8 +592,8 @@
 			title: "Подбор вещей"
 			icon: "create:brass_hand"
 			disable_toast: true
-			x: 0.0d
-			y: -2.5d
+			x: -4.5d
+			y: -2.0d
 			subtitle: "Теперь дроп не висит в воздухе"
 			description: [
 				"Чтобы поднять предмет:"
@@ -602,6 +602,7 @@
 				""
 				"P.S.: Зажатый SHIFT подбирает ВСЕ разбросанные рядом вещи"
 			]
+			secret: true
 			id: "30D89C95CC69B136"
 		}
 		{
@@ -662,7 +663,7 @@
 			title: "Рассадник мобов"
 			icon: "minecraft:spawner"
 			disable_toast: true
-			x: 0.0d
+			x: 1.0d
 			y: -3.5d
 			subtitle: "Факела не спасут..."
 			description: [

@@ -12,6 +12,6 @@
 		"toggle.night": true
 	},
 	"ftbessentials": {
-		"trash_can": false
+		"trash_can": true
 	}
 }
