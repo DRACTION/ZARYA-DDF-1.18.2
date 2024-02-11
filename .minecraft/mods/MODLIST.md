@@ -399,6 +399,9 @@
     Имя файла: ItShallNotTick-1.0.22-build.34.jar
     MD5: 1A2585261BEAB7B880DAA4C43D4546A8
 ---
+    Имя файла: Jade-1.18.2-forge-5.3.2.jar
+    MD5: 615D755442E7C936FD25CAD5D29341FC
+---
     Имя файла: jecalculation-forge-1.18.2-4.0.4.jar
     MD5: 2B79201FDC5CC1399FCD267788FE2611
 ---
@@ -686,9 +689,6 @@
 ---
     Имя файла: TerraBlender-forge-1.18.2-1.2.0.126.jar
     MD5: 8BB74F84DB692A34652D0D8BD2E3749F
----
-    Имя файла: theoneprobe-1.18-5.1.2.jar
-    MD5: 1C4E57325F98712BB76C241697A47288
 ---
     Имя файла: timeout_fixes-1.18.1-1.0.0.jar
     MD5: 0594E7DE2AE1C0FB82BB350480B3DDDE
