@@ -81,8 +81,8 @@
     Имя файла: brutalbosses-1.18.2-5.8.jar
     MD5: D34BBA95BD587CE3636D03CF1F7C9B20
 ---
-    Имя файла: callablehorses-1.18.2-1.2.2.5.jar
-    MD5: 53EB1759A542A384B7E8C793F787E9E7
+    Имя файла: callablehorses-1.18.2-1.2.2_ZaryaEdition.jar
+    MD5: 17CEC0338667EB347E7C28E4AC66C6DE
 ---
     Имя файла: cameraoverhaul-1.0-1.18.2.jar
     MD5: F3C5B4C8C1752DB45037B714AE281F94
