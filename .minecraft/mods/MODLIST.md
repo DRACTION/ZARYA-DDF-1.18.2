@@ -711,6 +711,9 @@
     Имя файла: TrampleStopper-3.1.0-build.27+mc1.18.2.jar
     MD5: 0EE1B8559FD2F8C6D5248E5B391DC733
 ---
+    Имя файла: TrueHerobrine_1.1+1.18.2.jar
+    MD5: 2CDD229E58D6E1697320E425FD638CCF
+---
     Имя файла: valhelsia_core-1.18.2-0.3.1.jar
     MD5: DD94C1D5C9932C41EDB2BE6982265DE5
 ---
