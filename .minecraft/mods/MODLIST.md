@@ -648,11 +648,11 @@
     Имя файла: solapplepie-1.18.2-1.0.4.jar
     MD5: 6E4B27A1B1DC608FE92F935618D91F69
 ---
-    Имя файла: sophisticatedbackpacks-1.18.2-3.19.7.998.jar
-    MD5: E7E85B91BDAE6269F63060EC24AF401F
+    Имя файла: sophisticatedbackpacks-1.18.2-3.20.1.1011.jar
+    MD5: 832F51BDEBD329334B7626A7A15B7F93
 ---
-    Имя файла: sophisticatedcore-1.18.2-0.5.113.535.jar
-    MD5: 65626AB3A7CC6C07D7CB605F3F283F7F
+    Имя файла: sophisticatedcore-1.18.2-0.6.2.551.jar
+    MD5: 3F8AF26E52E4AB9CA89BB34E9DAE5BE1
 ---
     Имя файла: soundphysics-forge-1.18.2-1.0.6.jar
     MD5: BC11649A1F9C33B324D3B4A403A593DA
@@ -681,8 +681,8 @@
     Имя файла: structurize-1.18.2-1.0.424-ALPHA.jar
     MD5: CFE57638F44BCCAFAAD48399A280D3CB
 ---
-    Имя файла: supermartijn642corelib-1.1.16-forge-mc1.18.jar
-    MD5: E82C5648161B22B19F7C3A35E39C9BDE
+    Имя файла: supermartijn642corelib-1.1.17-forge-mc1.18.jar
+    MD5: DBD8B91C46522432154CB6C5950544BC
 ---
     Имя файла: supplementaries-1.18.2-1.5.18.jar
     MD5: 374FF11DC914E4CA9B514B75F18B3BC1
