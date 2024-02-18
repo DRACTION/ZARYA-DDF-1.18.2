@@ -252,8 +252,8 @@
     Имя файла: epicfight-18.5.21-ZaryaEdition.jar
     MD5: 02D0AE2611DCDB7765BEC614B42DD278
 ---
-    Имя файла: epicparagliders-0.6.0-1.18.2.jar
-    MD5: B75A83CBD06644D99FEB655AE45E5F15
+    Имя файла: epicparagliders-0.6.0-1.18.2-ZaryaEdition.jar
+    MD5: 6F5A9F30F22B4B69B2F32EA0C262921E
 ---
     Имя файла: EverlastingSkins-1.18.2-1.0.jar
     MD5: 74615E47F2933901F07012A9F58AA89A
@@ -734,6 +734,9 @@
 ---
     Имя файла: waystones-forge-1.18.2-10.2.2.jar
     MD5: BDAD4608C9F8D439D18F9DC49C5BB6ED
+---
+    Имя файла: WeaponsOfMiracles-18.1.8-ZaryaEdition.jar
+    MD5: 986621381A089F4605906879650A2C7A
 ---
     Имя файла: witherstormmod-1.18.2-2.2.1.jar
     MD5: 5C3158AE600FB037FBC0BD5C251C9CA9

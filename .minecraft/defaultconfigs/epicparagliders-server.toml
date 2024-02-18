@@ -19,3 +19,8 @@
 			#Range: 0.0 ~ 10.0
 			parry_penalty_multiplier = 5.5
 
+	[stamina.weapons]
+
+		[stamina.weapons.fixed_cost]
+			#Range: 0 ~ 100
+			staff_stamina_multiplier = 15
