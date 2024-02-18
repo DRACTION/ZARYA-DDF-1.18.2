@@ -486,6 +486,9 @@
     Имя файла: mmlib-1.4.5-1.18.2.jar
     MD5: CF31CB6A61D80627DC8DA315D702835D
 ---
+    Имя файла: MmmMmmMmmMmm-1.18.2-1.5.2.jar
+    MD5: E0C9FD0DB48873DFF2CC0594A09F2208
+---
     Имя файла: modernfix-forge-5.13.0+mc1.18.2.jar
     MD5: 01EA7992DC780A6A77174360A63C8927
 ---
