@@ -246,6 +246,9 @@
     Имя файла: epicfight-18.5.21-ZaryaEdition.jar
     MD5: 8A9B6492D22D29AC447CC23C5FC9D480
 ---
+    Имя файла: EpicfightPirates-18.1.6.jar
+    MD5: 74751324694D12229C6415D70723A47E
+---
     Имя файла: epicparagliders-0.6.0-1.18.2-ZaryaEdition.jar
     MD5: 6F5A9F30F22B4B69B2F32EA0C262921E
 ---
