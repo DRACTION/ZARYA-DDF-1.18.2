@@ -348,6 +348,9 @@
     Имя файла: golemsarefriends-1.18.2-0.1.0.1.jar
     MD5: E66E1131FAB791E8029EBBFCD844AB79
 ---
+    Имя файла: gpumemleakfix-1.18.2-1.6.jar
+    MD5: 26CF509459BF6FB81A5A662A6B616963
+---
     Имя файла: HarderSpawners-1.18.2-40.2.22.1-ZaryaEdition.jar
     MD5: 5028E910C4B05AAAA51F7410070C803D
 ---
@@ -549,6 +552,9 @@
     Имя файла: OnlyLooking-1.18.2-1.4.0.jar
     MD5: 0C1F8FC21A9EB5C19111B994AD25C183
 ---
+    Имя файла: PacketFixer-forge-1.18.2-1.2.6.jar
+    MD5: FBB3F3A8DC4A2C3FF2C35D4C191F2983
+---
     Имя файла: Paraglider-1.18.2-1.6.0.6.jar
     MD5: 81952A79862688D8C278C7338748FF1D
 ---
@@ -657,6 +663,9 @@
     Имя файла: spiderstpo-1.18.2-2.0.3.jar
     MD5: C6D905FF8689A035A72A40DE1916C75D
 ---
+    Имя файла: SpitItOut-1.18.2-1.0.1.jar
+    MD5: 23DFDE3592EF27121D015AE72D68B01D
+---
     Имя файла: starlight-1.0.2+forge.546ae87.jar
     MD5: 2A103E58F0F8E3FDA3AB4676966BCBB4
 ---
@@ -734,6 +743,9 @@
 ---
     Имя файла: xercapaint-1.18.2-1.0.2.jar
     MD5: 4B7026254F01567F6DD60D23590BA877
+---
+    Имя файла: xlpackets-1.18.2-2.1.jar
+    MD5: EE7F9B5DEC68637FB20BA3849B2BFF10
 ---
     Имя файла: YungsApi-1.18.2-Forge-2.2.9.jar
     MD5: EC58ADA4E6951D88E0951D9238F4F0C6
