@@ -1,6 +1,6 @@
 
 [default_gamerule]
-	doVanillaAttack = true
+	doVanillaAttack = false
 	globalStun = true
 	keepSkills = true
 	hasFallAnimation = true
