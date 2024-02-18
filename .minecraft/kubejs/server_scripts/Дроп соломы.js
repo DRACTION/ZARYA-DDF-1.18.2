@@ -18,6 +18,3 @@ onEvent("lootjs", (event) => {
 		.addLoot(strawItem)
 
 })
-
-// Удаляю рецепт, где из двух трав получается одна длинная трава
-onEvent('recipes', (event) => {event.remove({id:"minecolonies:doublegrass"})})

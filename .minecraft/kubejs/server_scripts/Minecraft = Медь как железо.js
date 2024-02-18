@@ -8,7 +8,6 @@ onEvent('recipes', e => {
 	e.replaceInput({id: 'minecraft:cauldron'}, 'minecraft:iron_ingot', '#zarya:copper_iron')
 	e.replaceInput({id: 'minecraft:hopper'}, 'minecraft:iron_ingot', '#zarya:copper_iron')
 	e.replaceInput({id: 'doggytalents:food_bowl'}, 'minecraft:iron_ingot', '#zarya:copper_iron')
-	e.replaceInput({id: 'minecolonies:blockhutsmeltery'}, 'minecraft:iron_ingot', '#zarya:copper_iron')
 	e.replaceInput({id: 'supplementaries:bomb'}, 'minecraft:iron_ingot', '#zarya:copper_iron')
 	e.replaceInput({id: 'supplementaries:wind_vane'}, 'minecraft:iron_ingot', '#zarya:copper_iron')
 	e.replaceInput({id: 'farmersdelight:cooking_pot'}, 'minecraft:iron_ingot', '#zarya:copper_iron')

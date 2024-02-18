@@ -72,9 +72,6 @@
     Имя файла: betterpunching-1.18.2-1.2.0-ZaryaEdition.jar
     MD5: 04D9EEC9679954BC27CF608EF2093CAD
 ---
-    Имя файла: blockui-1.18.2-0.0.71-ALPHA.jar
-    MD5: 2ADBBD868969E2FDD0EDD328570DAF79
----
     Имя файла: BowInfinityFix-1.18.x-rv11.jar
     MD5: 22BB0004EA21D097C1794920EA674BD9
 ---
@@ -197,9 +194,6 @@
 ---
     Имя файла: DoggyTalents-1.18.2-2.5.11-ZaryaEdition.jar
     MD5: 07ECF4A030D2E749628446707878A711
----
-    Имя файла: domum_ornamentum-1.18.2-1.0.77-ALPHA-universal.jar
-    MD5: B3E99E7E35EA3F79D7D886BDF64CE8B0
 ---
     Имя файла: drippyloadingscreen_forge_3.0.0_MC_1.18.2.jar
     MD5: 6500B7CD0A0206E32C5262C0F56AC407
@@ -489,9 +483,6 @@
     Имя файла: melody_forge_1.0.1_MC_1.18.2.jar
     MD5: D2578F831B666BA60EFE5253781B4132
 ---
-    Имя файла: minecolonies-1.18.2-1.1.149-RELEASE.jar
-    MD5: 0F1058575B609123CD6FDDEBF68DE2DD
----
     Имя файла: mmlib-1.4.5-1.18.2.jar
     MD5: CF31CB6A61D80627DC8DA315D702835D
 ---
@@ -503,9 +494,6 @@
 ---
     Имя файла: MouseTweaks-forge-mc1.18-2.21.jar
     MD5: 3C10DFF8A4D7C157184F2224DB8639A2
----
-    Имя файла: multi-piston-1.18.2-1.2.15-ALPHA.jar
-    MD5: 5569141B3C2A89164741464804F8F910
 ---
     Имя файла: musictriggers-1.18.2-5.4-hf-ZaryaEdition.jar
     MD5: 75A3841C688828AB5BB657E5DDCFE61D
@@ -677,9 +665,6 @@
 ---
     Имя файла: Structory-1.18.2-1.0.2.jar
     MD5: 6CD02BB8740F8BADC224C15AAD729C00
----
-    Имя файла: structurize-1.18.2-1.0.424-ALPHA.jar
-    MD5: CFE57638F44BCCAFAAD48399A280D3CB
 ---
     Имя файла: supermartijn642corelib-1.1.17-forge-mc1.18.jar
     MD5: DBD8B91C46522432154CB6C5950544BC

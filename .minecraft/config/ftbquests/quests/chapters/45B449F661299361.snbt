@@ -13,7 +13,7 @@
 		width: 1.0d
 		height: 1.0d
 		rotation: 0.0d
-		image: "minecolonies:textures/icons/warning.png"
+		image: "ftbquests:textures/gui/info.png"
 		hover: ["Страница мода \"Sophisticated Backpacks\""]
 		click: "https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks"
 		dev: false

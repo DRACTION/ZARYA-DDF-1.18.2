@@ -32,9 +32,6 @@ let za_newRepair = {
 onEvent('item.tags', e => {
   e.add('zarya:repair/grindstone', [
     '#forge:tools',
-    'minecolonies:chiefsword',
-    'minecolonies:iron_scimitar',
-    'minecolonies:spear',
     'minecraft:trident',
     'minecraft:wooden_sword',
     'minecraft:stone_sword',
@@ -94,10 +91,6 @@ onEvent('item.tags', e => {
     'create:netherite_diving_helmet',
     'create:netherite_backtank',
     'create:netherite_diving_boots',
-    'minecolonies:plate_armor_helmet',
-    'minecolonies:plate_armor_chest',
-    'minecolonies:plate_armor_legs',
-    'minecolonies:plate_armor_boots',
     'productivebees:bee_nest_diamond_helmet'
   ])
   e.add('zarya:repair/fletching_table', [
@@ -106,14 +99,6 @@ onEvent('item.tags', e => {
   ])
   e.add('zarya:repair/loom', [
     '#ctov:leather_armour',
-    'minecolonies:pirate_hat',
-    'minecolonies:pirate_top',
-    'minecolonies:pirate_leggins',
-    'minecolonies:pirate_boots',
-    'minecolonies:pirate_cap',
-    'minecolonies:pirate_chest',
-    'minecolonies:pirate_legs',
-    'minecolonies:pirate_shoes',
     'epicfight:stray_hat',
     'epicfight:stray_robe',
     'epicfight:stray_pants'

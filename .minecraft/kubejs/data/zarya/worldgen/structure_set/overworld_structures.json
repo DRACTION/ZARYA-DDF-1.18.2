@@ -117,30 +117,6 @@
       "weight": 1
     },
     {
-      "structure": "minecolonies:medieval_birch_colony",
-      "weight": 1
-    },
-    {
-      "structure": "minecolonies:medieval_oak_colony",
-      "weight": 1
-    },
-    {
-      "structure": "minecolonies:medieval_spruce_colony",
-      "weight": 1
-    },
-    {
-      "structure": "minecolonies:medieval_dark_oak_colony",
-      "weight": 1
-    },
-    {
-      "structure": "minecolonies:asian_colony",
-      "weight": 1
-    },
-    {
-      "structure": "minecolonies:caledonia_colony",
-      "weight": 1
-    },
-    {
       "structure": "warden_and_sculk:ancient_city",
       "weight": 1
     },

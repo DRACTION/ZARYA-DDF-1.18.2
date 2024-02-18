@@ -25,7 +25,7 @@
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
-			image: "minecolonies:textures/icons/warning.png"
+			image: "ftbquests:textures/gui/info.png"
 			hover: ["Страница мода \"Comforts\""]
 			click: "https://www.curseforge.com/minecraft/mc-mods/comforts"
 			dev: false
@@ -37,7 +37,7 @@
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
-			image: "minecolonies:textures/icons/warning.png"
+			image: "ftbquests:textures/gui/info.png"
 			hover: ["Страница мода \"Bamboo Everything\""]
 			click: "https://www.curseforge.com/minecraft/mc-mods/bamboo-everything"
 			dev: false
@@ -49,7 +49,7 @@
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
-			image: "minecolonies:textures/icons/warning.png"
+			image: "ftbquests:textures/gui/info.png"
 			hover: ["Страница мода \"Spice of Life: Carrot Edition\""]
 			click: "https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition"
 			dev: false
@@ -61,7 +61,7 @@
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
-			image: "minecolonies:textures/icons/warning.png"
+			image: "ftbquests:textures/gui/info.png"
 			hover: ["Страница мода \"Nature's Compass\""]
 			click: "https://www.curseforge.com/minecraft/mc-mods/natures-compass"
 			dev: false
@@ -73,7 +73,7 @@
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
-			image: "minecolonies:textures/icons/warning.png"
+			image: "ftbquests:textures/gui/info.png"
 			hover: ["Страница мода \"Explorer's Compass\""]
 			click: "https://www.curseforge.com/minecraft/mc-mods/explorers-compass"
 			dev: false
@@ -110,7 +110,7 @@
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
-			image: "minecolonies:textures/icons/warning.png"
+			image: "ftbquests:textures/gui/info.png"
 			hover: ["Страница мода \"Shield Parry\""]
 			click: "https://www.curseforge.com/minecraft/mc-mods/parry"
 			dev: false
@@ -145,7 +145,7 @@
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
-			image: "minecolonies:textures/icons/warning.png"
+			image: "ftbquests:textures/gui/info.png"
 			hover: ["Страница мода \"Everlasting Skins\""]
 			click: "https://www.curseforge.com/minecraft/mc-mods/everlasting-skins"
 			dev: false
@@ -157,7 +157,7 @@
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
-			image: "minecolonies:textures/icons/warning.png"
+			image: "ftbquests:textures/gui/info.png"
 			hover: ["Страница мода \"Waystones\""]
 			click: "https://www.curseforge.com/minecraft/mc-mods/waystones"
 			dev: false
@@ -169,7 +169,7 @@
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
-			image: "minecolonies:textures/icons/warning.png"
+			image: "ftbquests:textures/gui/info.png"
 			hover: ["Страница мода \"Spice of Life: Apple Pie Edition\""]
 			click: "https://legacy.curseforge.com/minecraft/mc-mods/spice-of-life-apple-pie-edition"
 			dev: false
@@ -181,7 +181,7 @@
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
-			image: "minecolonies:textures/icons/warning.png"
+			image: "ftbquests:textures/gui/info.png"
 			hover: ["Страница мода \"FindMe\""]
 			click: "https://www.curseforge.com/minecraft/mc-mods/findme"
 			dev: false
@@ -193,7 +193,7 @@
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
-			image: "minecolonies:textures/icons/warning.png"
+			image: "ftbquests:textures/gui/info.png"
 			hover: ["Страница мода \"Paragliders\""]
 			click: "https://www.curseforge.com/minecraft/mc-mods/paragliders"
 			dev: false
@@ -205,7 +205,7 @@
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
-			image: "minecolonies:textures/icons/warning.png"
+			image: "ftbquests:textures/gui/info.png"
 			hover: ["Страница мода \"Find My Friends\""]
 			click: "https://www.curseforge.com/minecraft/mc-mods/find-my-friends"
 			dev: false
