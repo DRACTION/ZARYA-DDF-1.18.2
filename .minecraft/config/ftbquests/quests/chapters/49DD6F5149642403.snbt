@@ -589,23 +589,6 @@
 			]
 		}
 		{
-			title: "Подбор вещей"
-			icon: "create:brass_hand"
-			disable_toast: true
-			x: -4.5d
-			y: -2.0d
-			subtitle: "Теперь дроп не висит в воздухе"
-			description: [
-				"Чтобы поднять предмет:"
-				"> Нажать ПКМ на упавшем предмете"
-				"> Зажать SHIFT находясь рядом с этим предметом"
-				""
-				"P.S.: Зажатый SHIFT подбирает ВСЕ разбросанные рядом вещи"
-			]
-			secret: true
-			id: "30D89C95CC69B136"
-		}
-		{
 			title: "JEI"
 			icon: "itemfilters:item_group"
 			disable_toast: true
@@ -663,7 +646,7 @@
 			title: "Рассадник мобов"
 			icon: "minecraft:spawner"
 			disable_toast: true
-			x: 1.0d
+			x: 0.5d
 			y: -3.5d
 			subtitle: "Факела не спасут..."
 			description: [
@@ -812,7 +795,7 @@
 			title: "Уровни линейны"
 			icon: "create:experience_nugget"
 			disable_toast: true
-			x: -1.0d
+			x: -0.5d
 			y: -3.5d
 			subtitle: "Каждый уровень = 50 XP"
 			description: [
