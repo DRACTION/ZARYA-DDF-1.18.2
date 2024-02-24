@@ -264,6 +264,9 @@
     Имя файла: fancymenu_forge_3.0.6_MC_1.18.2.jar
     MD5: B8B8A1AF8B20A53F9C839E7676E3D645
 ---
+    Имя файла: fantasyfurniture-1.18.2-3.14.0.jar
+    MD5: 6D72D8DCD6743A5EC6A079C3FE1E6A05
+---
     Имя файла: FarmersDelight-1.18.2-1.2.3.jar
     MD5: A4FFDF191511EBF1B5B2408FE9F1B9F6
 ---
