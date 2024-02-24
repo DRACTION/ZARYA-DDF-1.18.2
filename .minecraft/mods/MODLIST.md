@@ -477,6 +477,9 @@
     Имя файла: logprot-1.18.2-1.7.jar
     MD5: B090F3ECDFD999C37B018C7D94189E57
 ---
+    Имя файла: lootbeams-1.18.1-release-july1722.jar
+    MD5: 90BB74F83CB56074E27C9D458952C678
+---
     Имя файла: lootjs-forge-1.18.2-2.7.7-ZaryaEdition.jar
     MD5: 1689173D9A0BF3FF3754167C0989F229
 ---
