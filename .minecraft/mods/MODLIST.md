@@ -222,6 +222,9 @@
     Имя файла: effortlessbuilding-1.18-2.40.jar
     MD5: 0F49A1401CD7A77AD5D210E3AEA64B84
 ---
+    Имя файла: embeddium-0.3.5+mc1.18.2.jar
+    MD5: C43E6006D87505BA8BE867ED64B1D784
+---
     Имя файла: EnchantingInfuser-v3.3.3-1.18.2-Forge.jar
     MD5: 87505C9B2E8D6A53E7CF2FB605C8BDF9
 ---
@@ -620,9 +623,6 @@
 ---
     Имя файла: rhino-forge-1802.2.1-build.255.jar
     MD5: F020741D167E536995E829392AE1FBEE
----
-    Имя файла: rubidium-0.5.6.jar
-    MD5: 8FF531D3619C39E9E059E400F63F035B
 ---
     Имя файла: rubidium_extras-1.18.2_v1.3.2.jar
     MD5: 7E84913EE15AE1F1233425D612A16BBF
