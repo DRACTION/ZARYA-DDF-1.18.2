@@ -1,5 +1,6 @@
 
 #Here you can disable talents.
+#Notice that players with admin privileges can bypass this.
 [Talents]
 	"doggytalents:pack_puppy" = false
 	"doggytalents:doggy_torch" = false

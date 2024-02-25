@@ -1,0 +1,13 @@
+
+["Dog Constants"]
+	#Option to disable friendly fire for all players toward all dogs.
+	#This is used to always be the case with friendly fire disabled for a single dog.
+	all_player_cannot_attack_dog = true
+	#Determine if the UUIDs of the dogs are being kept when training from vanilla
+	#and when they respawn on bed. This also allows Duplication Detection.
+	preserve_uuid = true
+	#When enabled, dogs cannot be killed by any means (except creative-mode-bypass damage,
+	#in that case, you can still respawn your dog using his linked bed or commands).
+	#Instead, when his health reaches Zero, he will go into Incapacitated Mode.
+	immortal_dogs = false
+
