@@ -36,8 +36,8 @@
     Имя файла: appleskin-forge-mc1.18.2-2.5.1.jar
     MD5: AB3E3AE18DAE2302FA4573CDCEBD2CF4
 ---
-    Имя файла: architectury-4.11.93-forge.jar
-    MD5: F3E897BEA30252C717004E1A3439CF6B
+    Имя файла: architectury-4.12.94-forge.jar
+    MD5: 2B4CE34FF2C095C723B8521AC7ECFD3E
 ---
     Имя файла: armorcurve-3.0.jar
     MD5: BDD68838289D786347454CDE8BE47362
@@ -90,8 +90,8 @@
     Имя файла: chat_heads-0.6.1-forge-1.18.2.jar
     MD5: F32370349E4569493B9FF13043B39C0D
 ---
-    Имя файла: chemlib-1.18.2-2.0.18.jar
-    MD5: E80257C08E94A5BE188327DD4089A2EA
+    Имя файла: chemlib-1.18.2-2.0.19.jar
+    MD5: E993DA2604EEB6AFCDFFCD32A9B41692
 ---
     Имя файла: chipped-forge-1.18.2-2.0.1.jar
     MD5: 046EB64DF3EC0335EEF0F0ECCB81B98F
@@ -195,8 +195,8 @@
     Имя файла: DoggyTalentsNext-1.18.2-1.18.8-ZaryaEdition.jar
     MD5: 3ADDE78AA8A24FA5B91F02FB062063D7
 ---
-    Имя файла: drippyloadingscreen_forge_3.0.0_MC_1.18.2.jar
-    MD5: 6500B7CD0A0206E32C5262C0F56AC407
+    Имя файла: drippyloadingscreen_forge_3.0.1_MC_1.18.2.jar
+    MD5: 0719D7CD0F996FC56026564BFDFD6E25
 ---
     Имя файла: DungeonCrawl-1.18.2-2.3.14.jar
     MD5: 2BD7A9F50C99A156D4BA84B1D581D55F
@@ -246,8 +246,8 @@
     Имя файла: environmentalcreepers-forge-1.18.1-1.6.1.jar
     MD5: 6304D608FFA074ADE01D59290FEC48C2
 ---
-    Имя файла: epicfight-18.5.21-ZaryaEdition.jar
-    MD5: 8A9B6492D22D29AC447CC23C5FC9D480
+    Имя файла: epicfight-18.5.22-ZaryaEdition.jar
+    MD5: CDEC439F310DC6A05DD1A4F27CCDBA6D
 ---
     Имя файла: EpicfightPirates-18.1.6.jar
     MD5: 74751324694D12229C6415D70723A47E
@@ -264,8 +264,8 @@
     Имя файла: extremesoundmuffler-3.30_forge-1.18.2.jar
     MD5: 9947E95A0F3490F8E8711F364169EEA4
 ---
-    Имя файла: fancymenu_forge_3.0.6_MC_1.18.2.jar
-    MD5: B8B8A1AF8B20A53F9C839E7676E3D645
+    Имя файла: fancymenu_forge_3.1.1_MC_1.18.2.jar
+    MD5: 32F4144CEAC77B0EB262D09E322C2D58
 ---
     Имя файла: fantasyfurniture-1.18.2-3.14.0.jar
     MD5: 6D72D8DCD6743A5EC6A079C3FE1E6A05
@@ -342,8 +342,8 @@
     Имя файла: fullstackwatchdog-1.0.1+1.19.2-forge.jar
     MD5: 9C117CA1DF5923FD20941D6C1E4301A6
 ---
-    Имя файла: fusion-1.1.0-forge-mc1.18.jar
-    MD5: 60B1817B25DCAF9C51A4974D1D6E3F3C
+    Имя файла: fusion-1.1.1-forge-mc1.18.jar
+    MD5: 17C328D5493C3D39CFAEDE60FC2496AC
 ---
     Имя файла: geckolib-forge-1.18-3.0.57.jar
     MD5: D491C30C6D9BD3F767BD545CBAF6502E
@@ -489,8 +489,8 @@
     Имя файла: lootr-1.18.2-0.3.26.66.jar
     MD5: 25B2A7E0B6BCF63A04F3D4AECE641EFD
 ---
-    Имя файла: MaxHealthFix-Forge-1.18.2-5.0.4.jar
-    MD5: 84B93DA3B946408B1F62CB3789388DE2
+    Имя файла: MaxHealthFix-Forge-1.18.2-5.0.5.jar
+    MD5: 67FEF6603324B2A18FD4FA33AE376575
 ---
     Имя файла: mcwifipnp-1.6.8-1.18.2-forge.jar
     MD5: 9497DFB10CF306AF551EA7DFD0C74C0C
@@ -606,8 +606,8 @@
     Имя файла: projectvibrantjourneys-1.18.2-4.1.1.jar
     MD5: C579E5302954AB1866CF383286B7D4EA
 ---
-    Имя файла: PuzzlesLib-v3.4.6-1.18.2-Forge.jar
-    MD5: 0D6514E413A36A7F562172A388B57038
+    Имя файла: PuzzlesLib-v3.5.9-1.18.2-Forge.jar
+    MD5: C05B4FB3005E44BBEDEBDA0E6E6C37DC
 ---
     Имя файла: questsadditions-1.18.2-1.4.2.jar
     MD5: 396E3CBBB6FB5665CE5ED09FA590835A
@@ -642,8 +642,8 @@
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
 ---
-    Имя файла: SimpleBackups-1.18.2-1.1.13.jar
-    MD5: A7B46FC7416AEEF71D7A20C363C7FABD
+    Имя файла: SimpleBackups-1.18.2-1.1.14.jar
+    MD5: D3F144C303D42825EC71B09144C7E096
 ---
     Имя файла: smoothchunk-1.18.2-1.9.jar
     MD5: 2750570598933A38CE6903EC58CF0DE4
@@ -744,8 +744,8 @@
     Имя файла: waystones-forge-1.18.2-10.2.2.jar
     MD5: BDAD4608C9F8D439D18F9DC49C5BB6ED
 ---
-    Имя файла: WeaponsOfMiracles-18.1.8-ZaryaEdition.jar
-    MD5: 986621381A089F4605906879650A2C7A
+    Имя файла: WeaponsOfMiracles-18.1.7.38-ZaryaEdition.jar
+    MD5: A2FA886C9072AC9BF21579D911FD89E3
 ---
     Имя файла: witherstormmod-1.18.2-2.2.1.jar
     MD5: 5C3158AE600FB037FBC0BD5C251C9CA9
