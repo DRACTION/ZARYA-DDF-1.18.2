@@ -163,23 +163,46 @@ onEvent("lootjs", (event) => {
     })
     .randomChance(0.02)
     .addWeightedLoot([
-      Item.of('epicfight:skillbook', '{skill:"epicfight:roll"}'),
-      Item.of('epicfight:skillbook', '{skill:"epicfight:step"}'),
-      Item.of('epicfight:skillbook', '{skill:"epicfight:demolition_leap"}'),
-      Item.of('epicfight:skillbook', '{skill:"epicfight:guard"}'),
-      Item.of('epicfight:skillbook', '{skill:"epicfight:parrying"}'),
-      Item.of('epicfight:skillbook', '{skill:"epicfight:impact_guard"}'),
-      Item.of('epicfight:skillbook', '{skill:"epicfight:technician"}'),
-      Item.of('epicfight:skillbook', '{skill:"epicfight:stamina_pillager"}'),
-      Item.of('epicfight:skillbook', '{skill:"epicfight:berserker"}'),
-      Item.of('epicfight:skillbook', '{skill:"epicfight:swordmaster"}'),
-      Item.of('epicfight:skillbook', '{skill:"epicfight:forbidden_strength"}'),
-      Item.of('epicfight:skillbook', '{skill:"epicfight:endurance"}'),
-      Item.of('epicfight:skillbook', '{skill:"epicfight:hypervitality"}'),
-      Item.of('epicfight:skillbook', '{skill:"epicfight:emergency_escape"}'),
-      Item.of('epicfight:skillbook', '{skill:"epicfight:death_harvest"}'),
-      Item.of('epicfight:skillbook', '{skill:"epicfight:meteor_slam"}'),
-      Item.of('epicfight:skillbook', '{skill:"epicfight:revelation"}'),
-      Item.of('epicfight:skillbook', '{skill:"epicfight:phantom_ascent"}')
+      //guard
+      Item.of('epicfight:skillbook', '{skill:"epicfight:guard"}'), //Блок
+      Item.of('epicfight:skillbook', '{skill:"epicfight:parrying"}'), //Парирование
+      Item.of('epicfight:skillbook', '{skill:"epicfight:impact_guard"}'), //Усиленная защита
+      Item.of('epicfight:skillbook', '{skill:"wom:perfect_bulwark"}'), //Идеальный оплот
+      Item.of('epicfight:skillbook', '{skill:"wom:vengeful_parry"}'), //Мстительное парирование
+      Item.of('epicfight:skillbook', '{skill:"wom:counter_attack"}') //Контр-атака
+      //dodge
+      Item.of('epicfight:skillbook', '{skill:"epicfight:roll"}'), //Перекат
+      Item.of('epicfight:skillbook', '{skill:"epicfight:step"}'), //Отскок
+      Item.of('epicfight:skillbook', '{skill:"wom:ender_obscuris"}'), //Эндер Обскурис
+      Item.of('epicfight:skillbook', '{skill:"wom:dodge_master"}'), //Мастер уклона
+      Item.of('epicfight:skillbook', '{skill:"wom:bull_charge"}'), //Бычий заряд
+      Item.of('epicfight:skillbook', '{skill:"wom:ender_step"}'), //Эндер Шаг
+      Item.of('epicfight:skillbook', '{skill:"wom:shadow_step"}'), //Теневой шаг
+      //mover
+      Item.of('epicfight:skillbook', '{skill:"epicfight:demolition_leap"}'), //Импульсный прыжок
+      Item.of('epicfight:skillbook', '{skill:"epicfight:phantom_ascent"}'), //Призрачный прыжок
+      //passive
+      Item.of('epicfight:skillbook', '{skill:"epicfight:technician"}'), //Техничный
+      Item.of('epicfight:skillbook', '{skill:"epicfight:stamina_pillager"}'), //Похищение выносливости
+      Item.of('epicfight:skillbook', '{skill:"epicfight:berserker"}'), //Берсерк
+      Item.of('epicfight:skillbook', '{skill:"epicfight:swordmaster"}'), //Мастер меча
+      Item.of('epicfight:skillbook', '{skill:"epicfight:forbidden_strength"}'), //Запретная мощь
+      Item.of('epicfight:skillbook', '{skill:"epicfight:endurance"}'), //Выносливость
+      Item.of('epicfight:skillbook', '{skill:"epicfight:hypervitality"}'), //Второе дыхание
+      Item.of('epicfight:skillbook', '{skill:"epicfight:emergency_escape"}'), //Выброс адреналина
+      Item.of('epicfight:skillbook', '{skill:"epicfight:death_harvest"}'), //Урожай смерти
+      Item.of('epicfight:skillbook', '{skill:"wom:arrow_tenacity"}'), //Упорство стрелы
+      Item.of('epicfight:skillbook', '{skill:"wom:dancing_blade"}'), //Танцующий клинок
+      Item.of('epicfight:skillbook', '{skill:"wom:meditation"}'), //Медитация
+      Item.of('epicfight:skillbook', '{skill:"wom:critical_knowledge"}'), //Критические знания
+      Item.of('epicfight:skillbook', '{skill:"wom:latent_retribution"}'), //Скрытое возмездие
+      Item.of('epicfight:skillbook', '{skill:"wom:pain_anticipation"}'), //Ожидание боли
+      Item.of('epicfight:skillbook', '{skill:"wom:mindset"}'), //Менталитет
+      Item.of('epicfight:skillbook', '{skill:"wom:vampirize"}'), //Вампиризм
+      Item.of('epicfight:skillbook', '{skill:"wom:adrenaline"}'), //Адреналин
+      Item.of('epicfight:skillbook', '{skill:"wom:heart_shield"}'), //Сердечный щит
+      //identity
+      Item.of('epicfight:skillbook', '{skill:"epicfight:meteor_slam"}'), //Метеоритный удар
+      Item.of('epicfight:skillbook', '{skill:"epicfight:revelation"}') //Откровение
     ]);
 })
