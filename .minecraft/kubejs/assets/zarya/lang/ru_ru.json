@@ -841,7 +841,7 @@
     "callablehorses.error.alreadypersonal": "Эта лошадь уже привязана к вам!",
     "callablehorses.error.area": "Вы не можете подозвать лошадь на эту территорию!",
     "callablehorses.error.range": "Ваша лошадь очень далеко, чтобы услышать вас!",
-    "callablehorses.error.setarea": "Вы не моежет привязать лошадь на этой территории!",
+    "callablehorses.error.setarea": "Вы не можете привязать лошадь на этой территории!",
     "callablehorses.error.nospace": "Не хватает пространства для лошади!",
 
     "callablehorses.success": "Теперь эта лошадь привязана к вам!",
