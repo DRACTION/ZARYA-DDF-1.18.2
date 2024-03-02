@@ -161,7 +161,7 @@ onEvent("lootjs", (event) => {
         "ctov:small/village_taiga"
       ], false)
     })
-    .randomChance(0.02)
+    .randomChance(0.04)
     .addWeightedLoot([
       //guard
       Item.of('epicfight:skillbook', '{skill:"epicfight:guard"}'), //Блок
