@@ -25,6 +25,8 @@
 .minecraft/debug/
 .minecraft/ESM/
 .minecraft/journeymap/data/
+.minecraft/journeymap/colorpalette.html
+.minecraft/journeymap/colorpalette.json
 .minecraft/journeymap/journeymap.log
 .minecraft/fancymenu_data/
 .minecraft/fancymenu_setups/
