@@ -61,7 +61,24 @@ onEvent('item.tags', e => {
     'epicfight:iron_longsword',
     'epicfight:golden_longsword',
     'epicfight:diamond_longsword',
-    'epicfight:netherite_longsword'
+    'epicfight:netherite_longsword',
+    'wom:agony',
+    'wom:tormented_mind',
+    'wom:ruine',
+    'wom:antitheus',
+    'wom:satsujin',
+    'wom:herrscher',
+    'wom:moonless',
+    'wom:wooden_staff',
+    'wom:stone_staff',
+    'wom:iron_staff',
+    'wom:golden_staff',
+    'wom:diamond_staff',
+    'wom:netherite_staff',
+    'wom:iron_greataxe',
+    'wom:golden_greataxe',
+    'wom:diamond_greataxe',
+    'wom:netherite_greataxe'
   ])
   e.add('zarya:repair/smithing_table', [
     '#ctov:iron_armour',
@@ -89,11 +106,29 @@ onEvent('item.tags', e => {
     'create:netherite_diving_helmet',
     'create:netherite_backtank',
     'create:netherite_diving_boots',
-    'productivebees:bee_nest_diamond_helmet'
+    'productivebees:bee_nest_diamond_helmet',
+    'wom:gesetz',
+    'wom:netherite_mask',
+    'wom:netherite_manicle',
+    'wom:netherite_belt',
+    'wom:netherite_chains',
+    'wom:emerald_earrings',
+    'wom:emerald_chakra',
+    'wom:emerald_tasset',
+    'wom:emerald_anklebracelet',
+    'wom:diamond_crown',
+    'wom:diamond_armbracelet',
+    'wom:diamond_legtopseal',
+    'wom:diamond_legbottomseal',
+    'wom:golden_monocle',
+    'wom:golden_kit',
+    'wom:golden_chrono',
+    'wom:golden_mokassin'
   ])
   e.add('zarya:repair/fletching_table', [
     'minecraft:bow',
-    'minecraft:crossbow'
+    'minecraft:crossbow',
+    'wom:ender_blaster'
   ])
   e.add('zarya:repair/loom', [
     '#ctov:leather_armour',
