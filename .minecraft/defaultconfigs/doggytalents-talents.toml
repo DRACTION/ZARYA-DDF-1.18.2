@@ -2,8 +2,11 @@
 #Here you can disable talents.
 #Notice that players with admin privileges can bypass this.
 [Talents]
-	"doggytalents:pack_puppy" = false
-	"doggytalents:doggy_torch" = false
 	"doggytalents:wolf_mount" = false
 	"doggytalents:swimmer_dog" = false
+
+["Talents options"]
+	#(Z@RYA) Distance at which the dog's chest is accessible.
+	#Range: 1.0 ~ 1000.0
+	za_distance_packpuppy_access = 5.0
 
