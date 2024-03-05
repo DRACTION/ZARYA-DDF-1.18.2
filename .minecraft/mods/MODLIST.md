@@ -75,8 +75,8 @@
     Имя файла: BowInfinityFix-1.18.x-rv11.jar
     MD5: 22BB0004EA21D097C1794920EA674BD9
 ---
-    Имя файла: brutalbosses-1.18.2-5.8.jar
-    MD5: D34BBA95BD587CE3636D03CF1F7C9B20
+    Имя файла: brutalbosses-1.18.2-5.8-ZaryaEdition.jar
+    MD5: 96599D8C6C70BB1D3889DA95D6C5B6DF
 ---
     Имя файла: callablehorses-1.18.2-1.2.2_ZaryaEdition.jar
     MD5: CA6225DF36209BF6E3E1198AF57167BF
