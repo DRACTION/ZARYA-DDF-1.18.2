@@ -6,6 +6,12 @@ onEvent('recipes', e => {
     Item.of('minecraft:potion', '{Potion:"minecraft:water"}')
   )
 
+  e.replaceInput(
+    {id: 'doggytalents:training_treat'},
+    'doggytalents:rice_bowl',
+    '#doggytalents:whitelist_food'
+  )
+
 })
 
 onEvent("lootjs", (event) => {
@@ -14,6 +20,7 @@ onEvent("lootjs", (event) => {
 
 onEvent('item.tags', e => {
   e.add('doggytalents:whitelist_food', [
+    '#betterleveling:meat/cooked',
     'corn_delight:corn_dog',
     'corn_delight:classic_corn_dog',
     'corn_delight:taco',
@@ -37,7 +44,6 @@ onEvent('item.tags', e => {
     'farmersdelight:beef_stew',
     'farmersdelight:chicken_soup',
     'farmersdelight:fish_stew',
-    'farmersdelight:fried_rice',
     'farmersdelight:pumpkin_soup',
     'farmersdelight:noodle_soup',
     'farmersdelight:bacon_and_eggs',
