@@ -119,10 +119,10 @@
 		{
 			x: 2.0d
 			y: 0.5d
-			width: 1.0d
-			height: 1.0d
+			width: 1.5d
+			height: 1.5d
 			rotation: 0.0d
-			image: "minecolonies:textures/entity_icon/citizen/default/chickenfarmermale1_a.png"
+			image: "ftblibrary:textures/icons/player.png"
 			hover: [
 				"Как поставить скин?"
 				""
