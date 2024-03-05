@@ -199,18 +199,6 @@
 			dev: false
 			corner: false
 		}
-		{
-			x: 5.0d
-			y: -0.5d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "ftbquests:textures/gui/info.png"
-			hover: ["Страница мода \"Find My Friends\""]
-			click: "https://www.curseforge.com/minecraft/mc-mods/find-my-friends"
-			dev: false
-			corner: false
-		}
 	]
 	quests: [
 		{
@@ -533,20 +521,6 @@
 					}
 				}
 			}]
-		}
-		{
-			title: "Найди друга"
-			icon: "minecraft:creeper_head"
-			disable_toast: true
-			x: 5.0d
-			y: 0.5d
-			subtitle: "Кнопка U"
-			description: [
-				"Показывает ники игроков и расстояние до них. Иногда работает криво..."
-				""
-				"Помимо этого игрока должно быть видно на карте (кнопка М)"
-			]
-			id: "5AA7EF67597F93C5"
 		}
 	]
 	quest_links: [ ]

@@ -202,7 +202,6 @@ key_Swap shoulder:key.keyboard.o
 key_Toggle perspective:key.keyboard.unknown
 key_key.open_muffler_gui:key.keyboard.unknown
 key_placebo.toggleTrails:key.keyboard.unknown
-key_key.findmyfriends.gui:key.keyboard.u
 key_key.whistle.1:key.keyboard.1:SHIFT
 key_key.whistle.2:key.keyboard.2:SHIFT
 key_key.whistle.3:key.keyboard.3:SHIFT
