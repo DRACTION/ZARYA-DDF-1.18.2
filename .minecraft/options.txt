@@ -278,9 +278,9 @@ key_key.configured.open_mod_list:key.keyboard.unknown
 key_key.toolbelt.open:key.keyboard.r
 key_key.toolbelt.cycle.left:key.keyboard.unknown
 key_key.toolbelt.cycle.right:key.keyboard.unknown
-soundCategory_master:0.60915494
-soundCategory_music:0.33802816
 key_key.toolbelt.slot:key.keyboard.unknown
+soundCategory_master:0.60915494
+soundCategory_music:0.20422535
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

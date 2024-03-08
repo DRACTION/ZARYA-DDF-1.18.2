@@ -1,16 +1,39 @@
-# Солянка от деда Серёжи:
-Думал что будет Vanilla версия, в итоге как обычно.
+![Логотип Z@RYA](.minecraft/icon.png)
+# Deep Dark Fantasies от деда Серёжи
+> Думал что будет Vanilla+ версия, в итоге как обычно.
 
-Для тех, кто в танке: Все сделанные изменения видно в коммитах (commits).
+## Список модификаций и прочее
 
-[Ссылка на папку с обновлениями](https://disk.yandex.ru/d/0vekqCE9oxT1uA)
+- [Моды](.minecraft/mods/MODLIST.md)
+    - У некоторых модов есть приписка `ZaryaEdition` - это означает, что мод допиливался до потребностей сборки
+- [Музыка](.minecraft/config/MusicTriggers/songs/assets/musictriggers/sounds/music/MUSICLIST.md)
+- [Ресурспаки](.minecraft/resourcepacks/RESOURCEPACKLIST.md)
+- [Датапаки](.minecraft/global_packs/required_data/DATAPACKLIST.md)
 
-Перечисленные ниже вещи требуют отдельного скачивания (на гитхабе такое хранить тяжело).
+## ЧтоКудаКого?
 
-Всё это можно скачать у меня, либо сами разбирайтесь.
+### Подготовка
+Рекомендуется поставить [UltimMC](https://github.com/UltimMC/Launcher/releases) (для богатых есть [MultiMC](https://multimc.org/)), так как сборка запускается/тестируется на нём.
+Если вы используете другой лаунчер, то инструкция может быть не точной.
 
-Моды с ресурспаками на просторах CurseForge или modrinth, а музыку... ну тут сами, либо отключайте её всю в конфигах.
-- [Список модов](https://github.com/DRACTION/ZARYA-Vanilla-1.18.2/blob/main/.minecraft/mods/MODLIST.md)
-- [Список музыки](https://github.com/DRACTION/ZARYA-Vanilla-1.18.2/blob/main/.minecraft/config/MusicTriggers/songs/assets/musictriggers/sounds/music/MUSICLIST.md)
-- [Список ресурспаков](https://github.com/DRACTION/ZARYA-Vanilla-1.18.2/blob/main/.minecraft/resourcepacks/RESOURCEPACKLIST.md)
-- [Список датапаков](https://github.com/DRACTION/ZARYA-Vanilla-1.18.2/blob/main/.minecraft/global_packs/required_data/DATAPACKLIST.md)
+### Установка релиза (UltimMC)
+1. Скачиваем [релиз](https://mega.nz/folder/cxt2TQYA#IjXcz29KzdS_Irkl7ay56A)
+2. Запускаем UltimMC
+3. Нажимаем **"Добавить сборку"** => **"Импорт из архива"**
+4. Выбираем путь до архива и нажимаем **ОК**
+5. ???
+6. Profit
+
+### Установка обновлений
+Если у вас устарел релиз, и вы хотите обновиться до нового, то чтобы не качать всю сборку заново, можно скачать и установить патч(и), подняв релиз сборки до актуальной версии.
+Узнать установленную версию вашего релиза можно по файлу `rX.Y.Z.txt` рядом с папкой '.minecraft' или по названию сборки в окне UltimMC.
+1. Скачиваем нужные вам [патчи](https://mega.nz/folder/41tWHSJQ#rvc9d_8c_dLBVYyKy3L40g)
+    - Например архив `r1.0.0 - r1.1.0.zip` позволит обновиться с версии `r1.0.0` до `r1.1.0`. А `r1.1.0 - r1.2.0.zip` с `r1.1.0` до `r1.2.0`... (Думаю логика ясна :brain:)
+2. Запускаем UltimMC
+3. Выбираем сборку и нажимаем кнопку **"Папка сборки"**
+4. Распаковываем сюда содержимое архивов
+5. Запускаем `Обновление до rX.Y.Z.bat` в порядке возрастания версии
+    - Если файл `rX.Y.Z.txt` переименовался до нужной версии, то значит всё прошло успешно (иначе появившаяся консоль должна написать причину).
+6. Перезапускаем UltimMC
+7. ???
+8. Profit

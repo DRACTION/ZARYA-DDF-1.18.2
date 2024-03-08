@@ -1,7 +1,6 @@
 # Specify filepatterns you want git to ignore.
 
 .minecraft/.physics_mod_cache/
-.minecraft/backups/
 .minecraft/config/*.bak
 .minecraft/config/**/*.bak
 .minecraft/config/cristellib/
