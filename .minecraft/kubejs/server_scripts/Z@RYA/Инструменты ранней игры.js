@@ -4,11 +4,6 @@ onEvent('recipes', event => {
 		.id('kubejs:shapeless/kubejs/flint_saw')
 
 	// Cut wood with handsaw
-		var endWoodNames = [
-			'minecraft:crimson',
-			'minecraft:warped'
-		]
-
 		woods.forEach(name => {
 			modifyShapelesID(
 				event,
@@ -24,8 +19,8 @@ onEvent('recipes', event => {
 		endWoodNames.forEach(name => {
 			modifyShapelesID(
 				event,
-				name+'_planks', //result
-				name+'_planks', //ID
+				`minecraft:${name}_planks`, //result
+				`minecraft:${name}_planks`, //ID
 				2, //count
 				[Item.of('kubejs:flint_saw').ignoreNBT(), `#${name}_stems`]// ingredients
 			).damageIngredient('kubejs:flint_saw')
@@ -56,7 +51,6 @@ onEvent('recipes', event => {
 			event.shapeless(
 				`kubejs:${material.curr}_tool_blank`,
 				[`2x minecraft:${material.curr}`, 'farmersdelight:straw']
-				// ['2x minecraft:'+material.curr, 'minecraft:string']
 			).id(`kubejs:shapeless/kubejs/${material.curr}_tool_blank`)
 
 			toolNames.forEach(sootv => {
@@ -78,8 +72,6 @@ onEvent('recipes', event => {
 				).id(`kubejs:shapeless/minecraft/${material.curr}_${sootv.tool}`)
 			})
 		})
-	
-
 })
 
 onEvent('item.tags', e => {
@@ -91,4 +83,21 @@ onEvent('item.tags', e => {
   		e.add('minecraft:logs', `projectvibrantjourneys:${name}_hollow_log`)
   		e.add('zarya:hollow_logs', `projectvibrantjourneys:${name}_hollow_log`)
   	})
+})
+
+onEvent('block.break', event => {
+	if (event.player.isPlayer()
+		&& !event.player.isCreativeMode()
+		&& event.player.getMainHandItem().getId() == 'kubejs:flint_saw') {
+
+		var targetBlock = event.getBlock()
+
+		if (targetBlock.material.minecraftMaterial.solid) {
+			// event.player.tell(targetBlock.getBlockState())
+			event.player.setMainHandItem('minecraft:air')
+			if (event.canCancel()) {
+				event.cancel()
+			}
+		}
+	}	
 })

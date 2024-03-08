@@ -4,7 +4,7 @@ onEvent('block.right_click', e => {
 		&& (!e.player.minecraftEntity.shiftKeyDown || e.getItem().isEmpty())) {
 
 		e.cancel()
-		e.player.tell(`(Farmer's Delight) Прямое взаимодействие с коптильней отключено, используйте костёр, сковороду и т.п.!`)
+		e.player.tell(`§a[Farmer's Delight] Прямое взаимодействие с коптильней отключено, используйте костёр, сковороду и т.п.!`)
 	}
 
 })

@@ -41,14 +41,12 @@ onEvent('recipes', e => {
 	e.shapeless('create:wheat_flour', ['3x minecraft:wheat'])
 	
 	// Упростить рецепт пшеничного теста (вместо литра - 1/4)
-	// e.replaceInput({id: 'create:mixing/dough_by_mixing'}, Fluid.of('minecraft:water', 1000), Fluid.of('minecraft:water', 250))
 	e.remove({ id: "create:mixing/dough_by_mixing" })
 	e.recipes.createMixing('farmersdelight:wheat_dough', [
 		Fluid.of('minecraft:water', 250),
 		'create:wheat_flour'])
 
 	// Блины
-	// e.replaceInput({id: 'supplementaries:pancake'}, 'minecraft:wheat', '#forge:flour')
 	e.remove({ id: "supplementaries:pancake" })
 	e.recipes.createMixing('3x supplementaries:pancake', [
 		Fluid.of('minecraft:milk', 250),

@@ -51,3 +51,17 @@ onEvent('item.tags', e => {
 		'minecraft:smooth_quartz'
 	])
 })
+
+onEvent("lootjs", (event) => {
+	event
+		.addBlockLootModifier([ // перечень блоков, из которых выпадает солома
+			"minecraft:grass",
+			"minecraft:tall_grass",
+			'minecraft:large_fern',
+			"#forge:grass",
+			'projectvibrantjourneys:short_grass'
+		])
+		.matchPlayer((player) => {})
+		.randomChance(0.1)
+		.addLoot('farmersdelight:straw')
+})

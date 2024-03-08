@@ -306,8 +306,8 @@ onEvent('block.right_click', e => {
 
         copyItemNBT.Damage = 0
         e.player.tell(`[${e.player}]: Идеальная починка, чаще бы так!`)
-        // https://www.gamergeeks.net/apps/minecraft/give-command-generator/fireworks
-        e.server.runCommandSilent(`summon firework_rocket ${e.block.x} ${e.block.y + 2} ${e.block.z} {LifeTime:20,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:4,Flicker:1b,Trail:1b,Colors:[I;4312372],FadeColors:[I;6719955]}]}}}}`)
+
+        e.server.runCommandSilent(`particle minecraft:ambient_entity_effect ${e.block.x} ${e.block.y + 0.5} ${e.block.z} 0.5 0.5 0.5 0.2 20 normal`)
         setUnfairChance(curUnfairChance, abuse, true, 3, e.player.persistentData)
 
       }
@@ -365,18 +365,18 @@ onEvent('command.registry', event => {
     let isGoodChance = nameChance !== 'critFail'
 
     if (nameChance == 'repair') {
-      curPlayer.tell(`[${target}]: Шанс успешной починки = ${chance}%`)
+      curPlayer.tell(`§2Шанс успешной починки = §n${chance}%`)
     }
     else if (nameChance == 'critRepair') {
-      curPlayer.tell(`[${target}]: Шанс идеальной починки = ${chance}%`)
+      curPlayer.tell(`§2Шанс идеальной починки = §n${chance}%`)
     }
     else if (nameChance == 'critFail') {
-      curPlayer.tell(`[${target}]: Шанс сломать рабочее место = ${chance}%`)
+      curPlayer.tell(`§2Шанс сломать рабочее место = §n${chance}%`)
     }
 
     if (!isGoodChance && chance == za_newRepair[nameChance].min
       || isGoodChance && chance == za_newRepair[nameChance].max) {
-      curPlayer.tell(`- Это наилучший результат, которого можно достигнуть!!!`)
+      curPlayer.tell(`§6- Это наилучший результат, которого можно достигнуть!!!`)
     }
     else {
 
@@ -389,13 +389,13 @@ onEvent('command.registry', event => {
       }
 
       if (nameChance == 'repair') {
-        curPlayer.tell(`- До полного освоения осталось попытаться сделать ${remain} починок`)
+        curPlayer.tell(`§a- Осталось попытаться сделать ${remain} починок`)
       }
       else if (nameChance == 'critRepair') {
-        curPlayer.tell(`- До полного освоения осталось сделать ещё ${remain} успешных починок`)
+        curPlayer.tell(`§a- Осталось сделать ещё ${remain} успешных починок`)
       }
       else if (nameChance == 'critFail') {
-        curPlayer.tell(`- До полного освоения осталось сделать ещё ${remain} провальных починок`)
+        curPlayer.tell(`§a- Осталось сделать ещё ${remain} провальных починок`)
       }
       
     }
@@ -453,11 +453,13 @@ onEvent('command.registry', event => {
 
       let player = ctx.source.entity.asKJS()
 
-      player.tell(`▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬`)
+      player.tell(`§8▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀`)
+      player.tell(`§9Прогресс навыка починки у §r${player}`)
+      player.tell(``)
       getChance(player, player, 'repair')
       getChance(player, player, 'critRepair')
       getChance(player, player, 'critFail')
-      player.tell(`▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬`)
+      player.tell(`§8▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄`)
 
       return 1
     })
@@ -467,11 +469,13 @@ onEvent('command.registry', event => {
         let user = Arguments.PLAYER.getResult(ctx, "nickname").asKJS()
         let player = ctx.source.entity.asKJS()
         
-        player.tell(`▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬`)
+        player.tell(`§8▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀`)
+        player.tell(`§9Прогресс навыка починки у §r${user}`)
+        player.tell(``)
         getChance(player, user, 'repair')
         getChance(player, user, 'critRepair')
         getChance(player, user, 'critFail')
-        player.tell(`▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬`)
+        player.tell(`§8▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄`)
 
         return 1
       })

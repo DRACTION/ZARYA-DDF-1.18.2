@@ -1,5 +1,5 @@
 onEvent('recipes', event => {
-  let toRemove = [
+  removeRecipeByOutput(event, [
     'toms_storage:ts.inventory_cable',
     'toms_storage:ts.crafting_terminal',
     'toms_storage:ts.level_emitter',
@@ -13,8 +13,7 @@ onEvent('recipes', event => {
     'toms_storage:ts.inventory_cable_connector_filtered',
     'toms_storage:ts.wireless_terminal',
     'toms_storage:ts.adv_wireless_terminal'
-  ]
-  removeRecipeByOutput(event, toRemove)
+  ])
 
   modifyShapedID(event,
     'toms_storage:ts.trim',
@@ -48,18 +47,21 @@ onEvent('recipes', event => {
     }
   )
   removeRecipeByID(event, ['toms_storage:storage_terminal'])
-  event.recipes.create.mechanical_crafting('3x toms_storage:ts.storage_terminal', [
-    'AAAAA',
-    'ADIDA',
-    'AONOA',
-    'ADLDA',
-    'AAAAA'
-  ], {
-    A: 'create:andesite_casing',
-    D: 'create:display_board',
-    I: 'toms_storage:ts.inventory_connector',
-    O: 'create:content_observer',
-    N: 'create:nixie_tube',
-    L: 'create:display_link'
-  }).id('zarya:ts.storage_terminal')
+  event.recipes.create.mechanical_crafting('3x toms_storage:ts.storage_terminal',
+    [
+      'AAAAA',
+      'ADIDA',
+      'AONOA',
+      'ADLDA',
+      'AAAAA'
+    ],
+    {
+      A: 'create:andesite_casing',
+      D: 'create:display_board',
+      I: 'toms_storage:ts.inventory_connector',
+      O: 'create:content_observer',
+      N: 'create:nixie_tube',
+      L: 'create:display_link'
+    }
+  ).id('zarya:ts.storage_terminal')
 })

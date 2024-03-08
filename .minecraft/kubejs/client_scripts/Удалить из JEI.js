@@ -79,7 +79,6 @@ let za_removedItems = [
 	'effortlessbuilding:diamond_randomizer_bag'
 ]
 
-
 onEvent('jei.hide.items', event => {
 	event.hide(za_removedItems)
 })

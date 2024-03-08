@@ -1,12 +1,9 @@
-// https://trello.com/c/7f18yi6f
-
 let za_rocksToBlocks = [ //[камень, блок_из_этого_камня]
 	['projectvibrantjourneys:rocks',				'minecraft:cobblestone'],
 	['projectvibrantjourneys:mossy_rocks',			'minecraft:mossy_cobblestone'],
 	['projectvibrantjourneys:sandstone_rocks',		'minecraft:sandstone'],
 	['projectvibrantjourneys:red_sandstone_rocks',	'minecraft:red_sandstone']
 ]
-
 
 onEvent("lootjs", (event) => {
 
@@ -23,7 +20,6 @@ onEvent("lootjs", (event) => {
 		.randomChanceWithEnchantment("minecraft:fortune", [0, 0.2, 0.5, 1]) 
 		.addLoot('3x projectvibrantjourneys:rocks')
 
-	// Фикс https://trello.com/c/5WXSjYj4
 	za_rocksToBlocks.forEach(thing => {
 		event
 		.addBlockLootModifier(thing[0])

@@ -1,6 +1,3 @@
-// https://gist.github.com/DRACTION/6a4f041d5550bf868b5d0c9f2b007186
-
-
 onEvent('recipes', e => {
 
 	let materials = {
@@ -58,5 +55,4 @@ onEvent('recipes', e => {
 			modifyShapedID(e, inOut.ID + toolName, inOut.ID + toolName, 1, standartTemplates[toolName], materials)
 		})
 	})
-
 })
