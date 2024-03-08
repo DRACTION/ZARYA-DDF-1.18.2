@@ -33,7 +33,7 @@
 .minecraft/immersive_paintings/immersive_paintings*/
 .minecraft/immersive_paintings_cache/
 .minecraft/impossible_data/
-.minecraft/local/
+.minecraft/local/ftbquests
 .minecraft/logs/
 .minecraft/lightspeed-cache/
 .minecraft/kubejs/exported/
@@ -71,3 +71,6 @@ natives/
 
 .minecraft/global_packs/required_data/*.zip
 .minecraft/resourcepacks/*.zip
+
+.minecraft/WailaErrorOutput.txt
+.minecraft/knownkeys.txt
