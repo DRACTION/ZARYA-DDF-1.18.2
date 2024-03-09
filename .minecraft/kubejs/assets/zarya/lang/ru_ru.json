@@ -43,6 +43,35 @@
     "item.minecraft.lingering_potion.effect.third_unstable_death_pioneer": "Туманная третья нестабильная Смерть Пионерки",
     "item.minecraft.tipped_arrow.effect.third_unstable_death_pioneer": "Стрела третьей нестабильной Смерти Пионерки",
 
+  // Enhanced Celestials
+
+    "enhancedcelestials.commands.disabled": "Лунные события Enhanced Celestials отключены для этого мира!",
+    "enhancedcelestials.commands.lunarevent_missing": "«%s» не является действительным лунным событием!",
+    "enhancedcelestials.lunarforecast.days_left": "(осталось %s дней)",
+    "enhancedcelestials.lunarforecast.empty": "Никаких предстоящих лунных событий.",
+    "enhancedcelestials.lunarforecast.header": "Текущий лунный прогноз:\n%s",
+    "enhancedcelestials.lunarforecast.recompute": "Лунный прогноз был пересчитан!",
+    "enhancedcelestials.name.blood_moon": "Кровавая луна",
+    "enhancedcelestials.name.blue_moon": "Голубая луна",
+    "enhancedcelestials.name.harvest_moon": "Урожайная луна",
+    "enhancedcelestials.name.moon": "Луна",
+    "enhancedcelestials.name.super_blood_moon": "Супер Кровавая Луна",
+    "enhancedcelestials.name.super_blue_moon": "Супер Голубая Луна",
+    "enhancedcelestials.name.super_harvest_moon": "Суперурожайная Луна",
+    "enhancedcelestials.notification.blood_moon.rise": "«Кровавая луна» восходит... Слышны отдаленные звуки нежити...",
+    "enhancedcelestials.notification.blood_moon.set": "«Кровавая луна» заходит... Нежить начинает гореть...",
+    "enhancedcelestials.notification.blue_moon.rise": "Восходит «Голубая луна»... Вы чувствуете себя счастливчиком!",
+    "enhancedcelestials.notification.blue_moon.set": "Заходит «Голубая луна»... Тебе больше везёт...",
+    "enhancedcelestials.notification.harvest_moon.rise": "«Урожайная луна» восходит... Ваш урожай дает лучший урожай.",
+    "enhancedcelestials.notification.harvest_moon.set": "«Урожайная луна» заходит...",
+    "enhancedcelestials.notification.super_blood_moon.rise": "«Супер Кровавая Луна» восходит... Слышны отдаленные звуки нежити...",
+    "enhancedcelestials.notification.super_blood_moon.set": "Заходит «Супер Кровавая Луна»... Нежить начинает гореть...",
+    "enhancedcelestials.notification.super_blue_moon.rise": "Восходит «Супер Голубая Луна»... Вы чувствуете себя очень удачливым!",
+    "enhancedcelestials.notification.super_blue_moon.set": "Заходит «Супер Голубой Луны»... Вы больше не чувствуете себя счастливым...",
+    "enhancedcelestials.notification.super_harvest_moon.rise": "Восходит «Суперурожайная луна»... Ваши посевы дают исключительный урожай.",
+    "enhancedcelestials.notification.super_harvest_moon.set": "Заходит «Суперурожайная луна»...",
+    "enhancedcelestials.sleep.fail": "Вы не можете сейчас отдохнуть, потому что текущее лунное событие препятствует этому.",
+
   // Mmm Target Dummy
 
     "item.dummmmmmy.target_dummy_placer": "Тренировочное пугало",
