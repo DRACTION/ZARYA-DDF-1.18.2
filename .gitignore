@@ -15,8 +15,8 @@
 .minecraft/config/MusicTriggers/songs/assets/musictriggers/sounds/music/*.ogg
 .minecraft/config/MusicTriggers/songs/assets/musictriggers/sounds.json
 .minecraft/config/inventoryprofilesnext/
+!.minecraft/config/inventoryprofilesnext/integrationHints/
 !.minecraft/config/inventoryprofilesnext/inventoryprofiles.json
-!.minecraft/config/inventoryprofilesnext/integrationHints/player-defined.json
 .minecraft/config/jei/world/
 .minecraft/chiselsandbits/clipboard.dat
 .minecraft/coremods/
