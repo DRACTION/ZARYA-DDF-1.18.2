@@ -156,8 +156,8 @@
     Имя файла: createendertransmission-2.0.7-1.18.2.jar
     MD5: C76E63D46FB7E38842C66E2ADD3646EC
 ---
-    Имя файла: create_jetpack-forge-1.6.0.jar
-    MD5: 635CF528CA0FC67F1F6D1EB7060F9E39
+    Имя файла: create_jetpack-forge-1.6.1.jar
+    MD5: B36D20310C41D78EA9FCBF76D005453A
 ---
     Имя файла: CreativeCore_FORGE_v2.6.17_mc1.18.2.jar
     MD5: 87A663FAD3077FC0AD12A8C8223208B0
@@ -246,8 +246,8 @@
     Имя файла: environmentalcreepers-forge-1.18.1-1.6.1.jar
     MD5: 6304D608FFA074ADE01D59290FEC48C2
 ---
-    Имя файла: epicfight-18.5.22-ZaryaEdition.jar
-    MD5: CDEC439F310DC6A05DD1A4F27CCDBA6D
+    Имя файла: epicfight-18.5.24-ZaryaEdition.jar
+    MD5: AFB2C628807F0F6EB68B6BC0008585B7
 ---
     Имя файла: EpicfightPirates-18.1.6.jar
     MD5: 74751324694D12229C6415D70723A47E
@@ -264,8 +264,8 @@
     Имя файла: extremesoundmuffler-3.30_forge-1.18.2.jar
     MD5: 9947E95A0F3490F8E8711F364169EEA4
 ---
-    Имя файла: fancymenu_forge_3.1.1_MC_1.18.2.jar
-    MD5: 32F4144CEAC77B0EB262D09E322C2D58
+    Имя файла: fancymenu_forge_3.1.2_MC_1.18.2.jar
+    MD5: 7138EFCEFA7422A8B420F2316EEFBDD3
 ---
     Имя файла: fantasyfurniture-1.18.2-3.14.0.jar
     MD5: 6D72D8DCD6743A5EC6A079C3FE1E6A05
@@ -417,8 +417,8 @@
     Имя файла: JEIEnchantmentInfo-1.17.1-2.0.0.jar
     MD5: 8CC31AD78C598D22DF44B7C046A5D799
 ---
-    Имя файла: journeymap-1.18.2-5.9.7-forge.jar
-    MD5: 75FBCC09ECCE4E4BD7530DD204E3FCB5
+    Имя файла: journeymap-1.18.2-5.9.7p1-forge.jar
+    MD5: ECDD6620BBC9731A39B902863E95DF35
 ---
     Имя файла: jumpboat-1.18.2-0.1.0.3.jar
     MD5: 4B3C43F96E1ADC765BFA70D3AC8A9313
@@ -483,8 +483,8 @@
     Имя файла: lootjs-forge-1.18.2-2.7.7-ZaryaEdition.jar
     MD5: 1689173D9A0BF3FF3754167C0989F229
 ---
-    Имя файла: lootr-1.18.2-0.3.26.66.jar
-    MD5: 25B2A7E0B6BCF63A04F3D4AECE641EFD
+    Имя файла: lootr-1.18.2-0.3.27.69.jar
+    MD5: 9BCE16F6B04524BB3F1D178AE0EE69CA
 ---
     Имя файла: MaxHealthFix-Forge-1.18.2-5.0.5.jar
     MD5: 67FEF6603324B2A18FD4FA33AE376575
@@ -501,8 +501,8 @@
     Имя файла: MmmMmmMmmMmm-1.18.2-1.5.2.jar
     MD5: E0C9FD0DB48873DFF2CC0594A09F2208
 ---
-    Имя файла: modernfix-forge-5.13.0+mc1.18.2.jar
-    MD5: 01EA7992DC780A6A77174360A63C8927
+    Имя файла: modernfix-forge-5.14.0+mc1.18.2.jar
+    MD5: 7F3A9F65A54A2E68C53D73ACD52EABFF
 ---
     Имя файла: morejs-forge-1.18.2-0.0.6.jar
     MD5: C21909209E50CC607BB2BFBD956A8AAE
@@ -624,8 +624,8 @@
     Имя файла: rubidium_extras-1.18.2_v1.3.2.jar
     MD5: 7E84913EE15AE1F1233425D612A16BBF
 ---
-    Имя файла: saturn-mc1.18.2-0.1.4.jar
-    MD5: 1910888A6816F40E3E55C051E04BBC2A
+    Имя файла: saturn-mc1.18.2-0.1.5.jar
+    MD5: 10BB37FB7FAA9EACE95DC460BC0FC32B
 ---
     Имя файла: secondchanceforge-1.18.2-1.5.0.jar
     MD5: 906CA4843003AEECBD01220BCAD93B8F
@@ -633,8 +633,8 @@
     Имя файла: selene-1.18.2-1.17.14.jar
     MD5: 1EB66E2C9F68BE2E8C6E74C08DDEEFEB
 ---
-    Имя файла: ShoulderSurfing-Forge-1.18.2-2.8.1.jar
-    MD5: DC4739AA708205AFB4C35BEC8F48A935
+    Имя файла: ShoulderSurfing-Forge-1.18.2-2.9.4.jar
+    MD5: 1BF811B8281BBCF45BA3409CEA07ADB8
 ---
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
@@ -651,11 +651,11 @@
     Имя файла: solapplepie-1.18.2-1.0.4.jar
     MD5: 6E4B27A1B1DC608FE92F935618D91F69
 ---
-    Имя файла: sophisticatedbackpacks-1.18.2-3.20.1.1011.jar
-    MD5: 832F51BDEBD329334B7626A7A15B7F93
+    Имя файла: sophisticatedbackpacks-1.18.2-3.20.2.1026.jar
+    MD5: C77183CDA634CAFA2D4E010041A9FA9E
 ---
-    Имя файла: sophisticatedcore-1.18.2-0.6.2.551.jar
-    MD5: 3F8AF26E52E4AB9CA89BB34E9DAE5BE1
+    Имя файла: sophisticatedcore-1.18.2-0.6.3.565.jar
+    MD5: 849E067582F8DDFC06BFD33264C55D6D
 ---
     Имя файла: soundphysics-forge-1.18.2-1.0.6.jar
     MD5: BC11649A1F9C33B324D3B4A403A593DA
