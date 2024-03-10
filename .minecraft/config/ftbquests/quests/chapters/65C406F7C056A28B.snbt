@@ -4,7 +4,6 @@
 	order_index: 4
 	filename: "65C406F7C056A28B"
 	title: "Готовка"
-	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -22,9 +21,10 @@
 		}
 		{
 			title: "Продвинутый костёр"
-			x: -2.5d
+			x: 1.5d
 			y: 0.0d
 			subtitle: "Костёр, который можно ломать?"
+			dependencies: ["22592ED2C32B1631"]
 			id: "16D99A4894103B76"
 			tasks: [{
 				id: "5217AF63E767F856"
@@ -33,8 +33,16 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 2.0d
+			x: 1.0d
+			y: 3.0d
+			subtitle: "Рамзи?"
+			description: [
+				"Позволяет жарить много и быстрее"
+				""
+				"Можно поставить на плиту или костер."
+				""
+				"Или возьмите сковороду в основную рукку, и еду во вторую, и удерживайте ПКМ на плите или костре."
+			]
 			id: "49128500EC346E2C"
 			tasks: [{
 				id: "73E6EEA44B79F663"
@@ -50,12 +58,62 @@
 		}
 		{
 			x: -1.0d
-			y: 2.0d
+			y: 3.0d
+			subtitle: "Можно не только жарить..."
+			description: [
+				"Котёл позволяет массово готовить разного вида похлёбки"
+				""
+				"Если сломать котёл с похлёбкой внутри, то похлёбка останется в котле"
+			]
 			id: "5862E689486F1E9F"
 			tasks: [{
 				id: "3E4EDE894EC7AD2C"
 				type: "item"
 				item: "farmersdelight:cooking_pot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			subtitle: "Рубить и кромсать"
+			description: ["Можно разделывать мясо с помощью ножа, или дробить блоки с помощью кирки"]
+			id: "1B41BDA005E8461F"
+			tasks: [{
+				id: "090F23972DD65D6D"
+				type: "item"
+				item: "farmersdelight:cutting_board"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			subtitle: "Быстро, изящно, полезно"
+			id: "09F1970558EC5933"
+			tasks: [{
+				id: "0C71FDBEA3644E07"
+				type: "item"
+				title: "Any #farmersdelight:tools/knives"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "farmersdelight:tools/knives"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			id: "603AC3AE7B4B0733"
+			tasks: [{
+				id: "5BC440CFCEA290C7"
+				type: "item"
+				item: {
+					id: "farmersrespite:kettle"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 	]
