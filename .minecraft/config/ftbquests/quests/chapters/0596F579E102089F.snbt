@@ -1,0 +1,780 @@
+{
+	id: "0596F579E102089F"
+	group: ""
+	order_index: 8
+	filename: "0596F579E102089F"
+	title: "Пёсели"
+	icon: "doggytalents:kitsune_mask"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Лучший друг человека"
+			icon: "doggytalents:doggy_charm"
+			x: 0.0d
+			y: 0.0d
+			shape: "heart"
+			subtitle: "Время прокачать своего Дога"
+			description: ["Приручите волка и покормите несмышлённого щенка тренировочным угощением"]
+			size: 2.0d
+			id: "19621638CA3BA913"
+			tasks: [
+				{
+					id: "58513532CC4F55D8"
+					type: "item"
+					item: {
+						id: "doggytalents:training_treat"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6DD67E2B59D07F61"
+					type: "advancement"
+					advancement: "doggytalents:dtn_core/train_dog"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "5C5F2F7C51851A6A"
+					type: "item"
+					item: {
+						id: "minecraft:stick"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "3C4F2A84F0485360"
+					type: "item"
+					item: {
+						id: "minecraft:bone"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			subtitle: "1 этап прокачки"
+			description: [
+				"Кормите собаку этими угощениями до полного отказа"
+				""
+				"P.S.: Не стоит кормить пса сразу крутыми вкусняшками - это не даст больше очков опыта"
+			]
+			dependencies: ["19621638CA3BA913"]
+			id: "5A49F2BE8B563DB1"
+			tasks: [{
+				id: "51DA9FECAB08ED67"
+				type: "item"
+				item: "doggytalents:training_treat"
+			}]
+		}
+		{
+			title: "Посадить на голову"
+			disable_toast: true
+			x: 1.5d
+			y: 0.5d
+			subtitle: "Присеть + ПКМ с костью в руках"
+			hide_dependency_lines: true
+			dependencies: ["19621638CA3BA913"]
+			id: "01A0A31BD3E0556C"
+			tasks: [{
+				id: "3DE9B893B9D95063"
+				type: "item"
+				item: "minecraft:bone"
+			}]
+		}
+		{
+			title: "Открыть интерфейс"
+			disable_toast: true
+			x: 1.5d
+			y: -0.5d
+			subtitle: "ПКМ палкой или Присеть+ПКМ"
+			hide_dependency_lines: true
+			dependencies: ["19621638CA3BA913"]
+			id: "23C8BAA41D5DC979"
+			tasks: [{
+				id: "1A458593B05A1B82"
+				type: "item"
+				item: "minecraft:stick"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			subtitle: "2 этап прокачки"
+			description: ["Когда собака начнёт канючить от обычных угощений, то придётся немного поднапрячься и приготовить своему питомцу более изысканную вкусняшку."]
+			dependencies: ["5A49F2BE8B563DB1"]
+			id: "204999CAB7BD691A"
+			tasks: [{
+				id: "31A789CA200B86E6"
+				type: "item"
+				item: "doggytalents:super_treat"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			subtitle: "3 этап прокачки"
+			description: ["Скоро эта собака станет умнее тебя..."]
+			dependencies: ["204999CAB7BD691A"]
+			id: "39534764D0FE90DC"
+			tasks: [{
+				id: "39019C54086FD9BF"
+				type: "item"
+				item: "doggytalents:master_treat"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			subtitle: "ЗАПРЕДЕЛЬНАЯ МОСЩЬЬЬ!!!!"
+			description: ["Это конечная..."]
+			dependencies: ["39534764D0FE90DC"]
+			id: "28209F0A3E6091F0"
+			tasks: [{
+				id: "0AC7AB075704831C"
+				type: "item"
+				item: "doggytalents:kami_treat"
+			}]
+			rewards: [{
+				id: "314D08AC382A75F1"
+				type: "item"
+				item: "doggytalents:conducting_bone"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			subtitle: "Телепортатор пёселей"
+			description: ["Позволяет призывать к себе (или к кроватке) любого доступного пёселя"]
+			dependencies: ["19621638CA3BA913"]
+			id: "61DB7830A4B0F1E3"
+			tasks: [{
+				id: "258B11F53BC77746"
+				type: "item"
+				item: "doggytalents:conducting_bone"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			subtitle: "Ты сталкер?"
+			description: ["Позволяет отслеживать местоположение собаки с помощью трекера"]
+			dependencies: ["19621638CA3BA913"]
+			id: "148B015D287FF5DD"
+			tasks: [{
+				id: "1593902695DD4457"
+				type: "item"
+				item: "doggytalents:radio_collar"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			subtitle: "Ты сталкер!"
+			description: ["Позволяет видеть всех своих питомцев с радио-ошейниками"]
+			dependencies: ["148B015D287FF5DD"]
+			id: "274B22E2AC8E72E8"
+			tasks: [{
+				id: "0431947D09CF0C15"
+				type: "item"
+				item: "doggytalents:canine_tracker"
+			}]
+		}
+		{
+			title: "Свисток"
+			x: -2.0d
+			y: 1.0d
+			subtitle: "Командир"
+			id: "1178931BB6AE9F6E"
+			tasks: [{
+				id: "221BF0B8E8709B0B"
+				type: "item"
+				item: "doggytalents:whistle"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			id: "79C967D8F2DBDFD4"
+			tasks: [{
+				id: "4D3560B5F863ABCB"
+				type: "item"
+				item: "doggytalents:treat_bag"
+			}]
+		}
+		{
+			title: "Принеси - подай"
+			x: -4.0d
+			y: 3.5d
+			subtitle: "Собакам такое нравится"
+			min_required_tasks: 1
+			id: "2D4530CC15C6B406"
+			tasks: [
+				{
+					id: "5ECC1BA1BA9DDEFD"
+					type: "item"
+					item: "doggytalents:throw_bone"
+				}
+				{
+					id: "36C6935B42541513"
+					type: "item"
+					item: "doggytalents:throw_stick"
+				}
+				{
+					id: "7F7060BC612C2766"
+					type: "item"
+					item: "doggytalents:frisbee"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			subtitle: "Может это что-то запрещённое?"
+			description: ["Собака под чем-то..."]
+			id: "3BD1FEE1D4E63F45"
+			tasks: [{
+				id: "5EE98F1F5A28ED48"
+				type: "item"
+				item: "doggytalents:energizer_stick"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.0d
+			subtitle: "Вы ничего не видели..."
+			description: ["Позволяет сменить владельца, или сбросить таланты (очки прокачки не потеряются)"]
+			id: "583F50230188474B"
+			tasks: [{
+				id: "02E15F3C0BC2CD0C"
+				type: "item"
+				item: "doggytalents:amnesia_bone"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			subtitle: "-size"
+			id: "31A70A60DECB57FB"
+			tasks: [{
+				id: "10DFA399DD2CCDC3"
+				type: "item"
+				item: {
+					id: "doggytalents:shrinking_mallet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			subtitle: "+size"
+			id: "76D319B31C2F4FE6"
+			tasks: [{
+				id: "6E2455E866F64B00"
+				type: "item"
+				item: {
+					id: "doggytalents:magnifying_bone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.0d
+			subtitle: "Повесточка?"
+			description: ["Отчикал да пришил... Всё просто)"]
+			id: "4105F11A5275ACD8"
+			tasks: [{
+				id: "107819E50E0D71A7"
+				type: "item"
+				item: {
+					id: "doggytalents:gender_bone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			id: "6E47378FAFABB9A3"
+			tasks: [{
+				id: "6455C4D78F816C8C"
+				type: "item"
+				item: {
+					id: "doggytalents:dog_bed"
+					Count: 1b
+					tag: {
+						doggytalents: {
+							casingId: "minecraft:oak_planks"
+							beddingId: "minecraft:white_wool"
+						}
+					}
+				}
+				match_nbt: false
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			id: "6FDCBEFA1CD98E4C"
+			tasks: [{
+				id: "137759A0E8184EC9"
+				type: "item"
+				item: "doggytalents:food_bowl"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			id: "718E6B76686E7E6B"
+			tasks: [{
+				id: "4595F0336AAAF52C"
+				type: "item"
+				item: "doggytalents:dog_bath"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			id: "5A737A763B8CABA8"
+			tasks: [{
+				id: "069CB7DB2FE26E10"
+				type: "item"
+				item: "doggytalents:dog_plushie_toy_item"
+			}]
+		}
+		{
+			title: "Ошейнички всякие"
+			x: 6.5d
+			y: -2.5d
+			subtitle: "Мода"
+			min_required_tasks: 1
+			id: "0CB20A291ECF91B4"
+			tasks: [
+				{
+					id: "3416250C8946E6C5"
+					type: "item"
+					item: {
+						id: "doggytalents:wool_collar"
+						Count: 1b
+						tag: {
+							display: {
+								color: 16777215
+							}
+						}
+					}
+				}
+				{
+					id: "708924B7D58FECCA"
+					type: "item"
+					item: "doggytalents:spotted_collar"
+				}
+				{
+					id: "09427349B294DA26"
+					type: "item"
+					item: "doggytalents:multicoloured_collar"
+				}
+			]
+		}
+		{
+			title: "Очки?"
+			x: 5.5d
+			y: -1.5d
+			subtitle: "Даааа"
+			min_required_tasks: 1
+			id: "06CE9477D712EA29"
+			tasks: [
+				{
+					id: "0FBAB33F9C8C8713"
+					type: "item"
+					item: "doggytalents:sunglasses"
+				}
+				{
+					id: "2C0B5315C852CE65"
+					type: "item"
+					item: "doggytalents:smarty_glasses"
+				}
+				{
+					id: "0D346EDE9CA239AD"
+					type: "item"
+					item: "doggytalents:snorkel"
+				}
+			]
+		}
+		{
+			title: "Всякие накидочки"
+			x: 6.5d
+			y: -1.5d
+			subtitle: "Ну ЖЕНИИИХ!!!"
+			id: "18BF1641802C3A78"
+			tasks: [
+				{
+					id: "50030A95A0F35A5D"
+					type: "item"
+					item: "doggytalents:death_hood"
+				}
+				{
+					id: "6E525F98A1C9F250"
+					type: "item"
+					item: {
+						id: "doggytalents:beastars_uniform_female"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "30EDF5F0C7E72BB6"
+					type: "item"
+					item: "doggytalents:beastars_uniform_male"
+				}
+				{
+					id: "7BCB1B35BF951511"
+					type: "item"
+					item: "doggytalents:tantan_cape"
+				}
+				{
+					id: "62334EB2D9E1E501"
+					type: "item"
+					item: {
+						id: "doggytalents:pianist_suit"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "1D4C49D095BAB89F"
+					type: "item"
+					item: {
+						id: "doggytalents:guard_suit"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6D2C596E0338D815"
+					type: "item"
+					item: {
+						id: "doggytalents:cape_coloured"
+						Count: 1b
+						tag: {
+							display: {
+								color: 16777215
+							}
+						}
+					}
+					match_nbt: false
+				}
+				{
+					id: "6499F24D5F1E9542"
+					type: "item"
+					item: {
+						id: "doggytalents:conan_suit"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "043751954E509737"
+					type: "item"
+					item: "doggytalents:leather_jacket"
+				}
+				{
+					id: "4042221714E15397"
+					type: "item"
+					item: {
+						id: "doggytalents:lab_coat"
+						Count: 1b
+						tag: {
+							display: {
+								color: 16777215
+							}
+						}
+					}
+					match_nbt: false
+				}
+				{
+					id: "63212DA4468E6DBF"
+					type: "item"
+					item: "doggytalents:superdog_suit"
+				}
+				{
+					id: "775C6B2BB6C11F21"
+					type: "item"
+					item: {
+						id: "doggytalents:ceremonial_garb"
+						Count: 1b
+						tag: {
+							display: {
+								color: -5495373
+							}
+						}
+					}
+					match_nbt: false
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			id: "4FF156F2DCC95198"
+			tasks: [{
+				id: "7ED3DC71E3588FAD"
+				type: "item"
+				item: {
+					id: "doggytalents:bowtie"
+					Count: 1b
+					tag: {
+						display: {
+							color: 16777215
+						}
+					}
+				}
+				match_nbt: false
+			}]
+		}
+		{
+			title: "Шляпки"
+			x: 5.5d
+			y: -0.5d
+			subtitle: "Ну вообщееее...."
+			min_required_tasks: 1
+			id: "77FE8018EFE5D13F"
+			tasks: [
+				{
+					id: "5AE69E657D98CB10"
+					type: "item"
+					item: {
+						id: "doggytalents:flatcap"
+						Count: 1b
+						tag: {
+							display: {
+								color: 16777215
+							}
+						}
+					}
+					match_nbt: false
+				}
+				{
+					id: "36F4F867C7CC3D41"
+					type: "item"
+					item: {
+						id: "doggytalents:birthday_hat"
+						Count: 1b
+						tag: {
+							dtn_bdhat_foreground: 16777215
+							display: {
+								color: 16777215
+							}
+						}
+					}
+					match_nbt: false
+				}
+				{
+					id: "31BAEB6474070356"
+					type: "item"
+					item: "doggytalents:demon_horns"
+				}
+				{
+					id: "1C0F49839F9F244F"
+					type: "item"
+					item: {
+						id: "doggytalents:wig"
+						Count: 1b
+						tag: {
+							display: {
+								color: -14409443
+							}
+						}
+					}
+					match_nbt: false
+				}
+				{
+					id: "15AAE94C9CF0D476"
+					type: "item"
+					item: "doggytalents:bach_wig"
+				}
+				{
+					id: "73B3AA73F12746B8"
+					type: "item"
+					item: "doggytalents:head_band_blank"
+				}
+				{
+					id: "2E54689B8447D951"
+					type: "item"
+					item: "doggytalents:head_band_mystery"
+				}
+				{
+					id: "2D1F3253A0174C7B"
+					type: "item"
+					item: "doggytalents:head_band_highhh"
+				}
+				{
+					id: "72ABC056F0110B8C"
+					type: "item"
+					item: {
+						id: "doggytalents:baker_hat"
+						Count: 1b
+						tag: {
+							display: {
+								color: 16777215
+							}
+						}
+					}
+					match_nbt: false
+				}
+				{
+					id: "2D4461193B86EC47"
+					type: "item"
+					item: {
+						id: "doggytalents:chef_hat"
+						Count: 1b
+						tag: {
+							display: {
+								color: 16777215
+							}
+						}
+					}
+					match_nbt: false
+				}
+				{
+					id: "32E1A1F91704C4D5"
+					type: "item"
+					item: "doggytalents:witch_hat"
+				}
+				{
+					id: "4ADA8A397ED8E5D9"
+					type: "item"
+					item: "doggytalents:propeller_hat"
+				}
+				{
+					id: "038C8F818A838C58"
+					type: "item"
+					item: "doggytalents:fedora"
+				}
+			]
+		}
+		{
+			title: "Плащи и крылышки"
+			x: 6.5d
+			y: -0.5d
+			subtitle: "Больше, больше гламура..."
+			min_required_tasks: 1
+			id: "5CEA5F9C5DD99252"
+			tasks: [
+				{
+					id: "0F8B3F53F04EF306"
+					type: "item"
+					item: {
+						id: "doggytalents:flying_cape"
+						Count: 1b
+						tag: {
+							display: {
+								color: 16777215
+							}
+						}
+					}
+				}
+				{
+					id: "35BBD3976BD6A3B8"
+					type: "item"
+					item: "doggytalents:bat_wings"
+				}
+				{
+					id: "641A4F5CE1878735"
+					type: "item"
+					item: "doggytalents:crow_wings"
+				}
+				{
+					id: "74C58E6235A27446"
+					type: "item"
+					item: "doggytalents:divine_retribution"
+				}
+			]
+		}
+		{
+			title: "Маски"
+			x: 7.5d
+			y: -0.5d
+			min_required_tasks: 1
+			id: "5D5C13A1C57A7230"
+			tasks: [
+				{
+					id: "353C6F8EF53AAE55"
+					type: "item"
+					item: "doggytalents:kitsune_mask"
+				}
+				{
+					id: "160583F57A701440"
+					type: "item"
+					item: "doggytalents:tengu_mask"
+				}
+				{
+					id: "273F5C528D5E5E0A"
+					type: "item"
+					item: "doggytalents:plague_doctor_mask"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			subtitle: "Нужен для таланта \"Собака-ищейка\""
+			description: [
+				"Используйте Ароматический пробник, чтобы получить запах блока."
+				""
+				"Затем пробник отдайте собаке, которая облизнет пробник, запомнит его запах и вернет вам обратно."
+				""
+				"Чтобы ваша собака перестала обнаруживать предметы, дайте ей пустой пробник."
+				""
+				"Чтобы проверить, какой блок ищет ваша собака, Присесть + ПКМ, держа в руке любой пробник."
+			]
+			id: "559168ADE9D22345"
+			tasks: [{
+				id: "30C2B47245DCC97D"
+				type: "item"
+				item: {
+					id: "doggytalents:scent_treat"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			subtitle: "Даже так?"
+			id: "0B602D475DA278AC"
+			tasks: [{
+				id: "3A09F319F1071F8D"
+				type: "item"
+				item: {
+					id: "doggytalents:doggy_contacts"
+					Count: 1b
+					tag: {
+						display: {
+							color: 16777215
+						}
+					}
+				}
+				match_nbt: false
+			}]
+		}
+	]
+	quest_links: [ ]
+}

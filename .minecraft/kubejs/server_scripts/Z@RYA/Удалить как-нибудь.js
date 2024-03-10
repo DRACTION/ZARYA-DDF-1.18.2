@@ -55,6 +55,11 @@ let za_removedItems = [
 	'doggytalents:rice_mill',
 	'doggytalents:sussy_sickle',
 	'doggytalents:golden_a_five_wagyu',
+	'doggytalents:starter_bundle',
+	'doggytalents:grand_piano_black_item',
+	'doggytalents:grand_piano_white_item',
+	'doggytalents:upright_piano_black_item',
+	'doggytalents:upright_piano_brown_item',
 	// Effortless Building
 	'effortlessbuilding:randomizer_bag',
 	'effortlessbuilding:golden_randomizer_bag',
