@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 1
 	filename: "45B449F661299361"
-	title: "Рюкзак и улучшения"
+	title: "Рюкзак"
 	icon: "sophisticatedbackpacks:backpack"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -27,8 +27,9 @@
 			shape: "rsquare"
 			subtitle: "Больше места"
 			description: [
-				"{image:minecraft:textures/painting/wanderer.png width:100 height:200 align:1}"
 				"Если таскать с собой больше 2 рюкзаков, получишь замедление"
+				""
+				"Pro Tip: Ещё один рюкзак без штрафа можно поместить в слот косметической брони"
 			]
 			dependencies: ["71AF6770E613A501"]
 			size: 2.0d
