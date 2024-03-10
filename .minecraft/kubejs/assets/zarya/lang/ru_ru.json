@@ -43,6 +43,11 @@
     "item.minecraft.lingering_potion.effect.third_unstable_death_pioneer": "Туманная третья нестабильная Смерть Пионерки",
     "item.minecraft.tipped_arrow.effect.third_unstable_death_pioneer": "Стрела третьей нестабильной Смерти Пионерки",
 
+  // EpicFight Pirates
+
+    "item.epicfight.sanji" : "Сигарета Санджи",
+    "item.epicfight.sanji.tooltip" : "\"Связываться с коком — хороший способ погибнуть... Запомни это хорошенько.\"",
+
   // Enhanced Celestials
 
     "enhancedcelestials.commands.disabled": "Лунные события Enhanced Celestials отключены для этого мира!",
