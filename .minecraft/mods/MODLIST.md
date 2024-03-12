@@ -222,8 +222,8 @@
     Имя файла: effortlessbuilding-1.18-2.40.jar
     MD5: 0F49A1401CD7A77AD5D210E3AEA64B84
 ---
-    Имя файла: embeddium-0.3.5+mc1.18.2.jar
-    MD5: C43E6006D87505BA8BE867ED64B1D784
+    Имя файла: embeddium-0.3.10+mc1.18.2.jar
+    MD5: 12D0BA3CEB6B32AF578CCDE917D596ED
 ---
     Имя файла: EnchantingInfuser-v3.3.3-1.18.2-Forge.jar
     MD5: 87505C9B2E8D6A53E7CF2FB605C8BDF9
