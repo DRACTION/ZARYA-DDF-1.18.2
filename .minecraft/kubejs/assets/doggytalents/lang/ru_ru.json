@@ -13,6 +13,17 @@
 	"item.doggytalents.radar.locate.line2.far" : "%d блоков отсюда.",
 	"item.doggytalents.radar.locate.line2.close" : "рядом.",
 
+	"dog.msg.low_hunger.0" : "%s: Можем ли мы сварганить что-нибудь поесть? Я умираю с голоду!",
+	"dog.msg.low_hunger.1" : "%s: Я голоден! Еды, пожалуйста...",
+	"dog.msg.low_hunger.2" : "%s: Поедим сейчас?",
+	"dog.msg.low_hunger.3" : "%s: Накорми меня, пчеловек!",
+	"dog.msg.low_hunger.4" : "%s: Пора много-много-много ЖРАТЬ!",
+
+	"dog.msg.low_health.0" : "%s: Что-то мне не хорошо.",
+	"dog.msg.low_health.1" : "%s: Мне действительно нужна помощь...",
+	"dog.msg.low_health.2" : "%s: Ой, всё очень плохо!",
+	// "dog.msg.low_health.3" : "%s: MEEEEEDICCC MEEEDDDICCCC!",
+
 	"item.doggytalents.conducting_bone": "Кость-проводник",
 	"item.doggytalents.whistle.description": "Присесть + ПКМ чтобы переключить режимы",
 	"item.doggytalents.treat_bag.contents.more": "И %d ещё..",
