@@ -158,7 +158,7 @@
 		{
 			icon: "sophisticatedbackpacks:iron_backpack"
 			x: 0.0d
-			y: -0.5d
+			y: -1.0d
 			dependencies: ["58886861BDE4DA5C"]
 			min_required_tasks: 1
 			id: "7104A90065FD4721"
@@ -195,7 +195,7 @@
 		{
 			icon: "sophisticatedbackpacks:gold_backpack"
 			x: 0.0d
-			y: -2.0d
+			y: -2.5d
 			dependencies: ["7104A90065FD4721"]
 			min_required_tasks: 1
 			id: "603AB218954DB630"
@@ -225,7 +225,7 @@
 		{
 			icon: "sophisticatedbackpacks:diamond_backpack"
 			x: 1.5d
-			y: -2.0d
+			y: -2.5d
 			dependencies: ["603AB218954DB630"]
 			min_required_tasks: 1
 			id: "34B344DEF0DA33AC"
@@ -247,7 +247,7 @@
 		}
 		{
 			x: 3.0d
-			y: -2.0d
+			y: -2.5d
 			dependencies: ["34B344DEF0DA33AC"]
 			id: "1E7E4ACBF984E814"
 			tasks: [{

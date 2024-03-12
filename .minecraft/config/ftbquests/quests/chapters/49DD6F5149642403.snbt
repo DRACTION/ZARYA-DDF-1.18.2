@@ -58,7 +58,7 @@
 				"Бить мобов доступно только в боевом режиме (кнопка \"F\"),"
 				"за исключением дальнобойного орудия."
 			]
-			click: ""
+			click: " "
 			dev: false
 			corner: false
 		}
@@ -127,9 +127,9 @@
 			tasks: [{
 				id: "7124782A6CB059FF"
 				type: "questsadditions:time"
-				title: "Подождать 10 секунд"
+				title: "Подождать"
 				disable_toast: true
-				elapsedTime: 10L
+				elapsedTime: 1L
 			}]
 		}
 		{
@@ -567,8 +567,8 @@
 		{
 			title: "Получение слёз"
 			icon: "minecraft:ghast_tear"
-			x: 3.0d
-			y: 1.0d
+			x: 2.5d
+			y: 3.0d
 			subtitle: "Небольшое изменение"
 			description: [
 				"Теперь слёзы не выпадают с гастов в виде дропа..."
@@ -661,7 +661,7 @@
 				""
 				"Урожайная луна - увеличивает скорость роста и дроп урожая"
 				""
-				"Голубая луна - дает вам эффект удачи и повышает качество добычи в ванильных таблицах добычи"
+				"Голубая луна - дает вам эффект удачи и повышает качество и количество добычи"
 			]
 			id: "1463EB44AC0C25E6"
 		}
@@ -688,8 +688,8 @@
 		}
 		{
 			title: "Починка = навык"
-			x: 5.0d
-			y: 1.0d
+			x: 2.5d
+			y: 2.0d
 			subtitle: "Починка предмета через новую механику"
 			description: [
 				"Если взять в основную руку вещь, которую будем чинить (оружие, инструмент, броня), и нажать на рабочем месте Shift+ПКМ, то вы почините предмет (или не почините, как повезёт). Починка не сбивает чары на предмете"
@@ -701,12 +701,12 @@
 				"  - Стол лучника = Луки и арбалеты"
 				""
 				"В случае успешной починки вы восстановите часть прочности предмета. Чем меньше оставшейся прочности у предмета, тем больше восстановление."
-				" - С очень редким шансом вы можете починить предмет полностью (будет фейерверк и уведомление в чат)."
+				" - С очень редким шансом вы можете починить предмет полностью (будет уведомление в чат)."
 				""
 				"В случае неудачной починки вы поломаете предмет. Его прочность упадёт до 0, но предмет не исчезнет. Восстановить предмет придётся другими способами."
 				" - В случае критического провала вы умудритесь ещё и рабочее место сломать"
 				""
-				"Изначально шансы успешно починить предмет около 62%, но чем больше вы будете пробовать чинить предметы, тем больше будет расти навык починки."
+				"Изначально шансы успешно починить предмет около 60%, но чем больше вы будете пробовать чинить предметы, тем больше будет расти навык починки."
 				""
 				"Своё мастерство можно посмотреть с помощью команды /za_grindstone.  Будет выведен текущий шанс успеха/неуспеха, а также сколько и каких действий осталось сделать до полного освоения."
 			]
@@ -748,8 +748,8 @@
 		}
 		{
 			title: "Зелья стакаются"
-			x: 4.0d
-			y: 1.0d
+			x: -0.5d
+			y: -4.5d
 			subtitle: "до 16 штук"
 			description: ["НО!!!! Чтобы вы не были супер-имбой, есть задержка в 3 секунды для взрывного и туманного зелья"]
 			min_required_tasks: 1
@@ -783,8 +783,9 @@
 		}
 		{
 			title: "Система навыков"
-			icon: "minecraft:crafting_table"
-			x: 2.0d
+			icon: "supplementaries:statue"
+			disable_toast: true
+			x: 7.0d
 			y: 0.0d
 			shape: "square"
 			subtitle: "По умолчанию кнопка I"
@@ -805,9 +806,9 @@
 			tasks: [{
 				id: "1246C98F9C6797D6"
 				type: "questsadditions:time"
-				title: "Подождать 10 секунд"
+				title: "Подождать"
 				disable_toast: true
-				elapsedTime: 10L
+				elapsedTime: 1L
 			}]
 		}
 		{
@@ -852,7 +853,7 @@
 			title: "Коптильня игрокам не доступна!"
 			icon: "minecraft:smoker"
 			disable_toast: true
-			x: 0.0d
+			x: 0.5d
 			y: -4.5d
 			subtitle: "Нужно использовать аналоги"
 			description: [
@@ -862,6 +863,359 @@
 				"- Кухонный котёл"
 			]
 			id: "7E877361A41AEEDC"
+		}
+		{
+			title: "{betterleveling.specialization.combat}"
+			icon: {
+				id: "minecraft:netherite_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 7.0d
+			y: -2.0d
+			subtitle: "{betterleveling.specialization.combat.description.0}"
+			description: ["{betterleveling.specialization.combat.description.1}"]
+			dependencies: ["20DC31E0E407841C"]
+			id: "08A97C190989D2E4"
+			tasks: [{
+				id: "63A7B3DDE430AA4A"
+				type: "questsadditions:time"
+				title: "Подождать"
+				elapsedTime: 1L
+			}]
+		}
+		{
+			title: "{betterleveling.specialization.mining}"
+			icon: "minecraft:diamond_ore"
+			disable_toast: true
+			x: 9.0d
+			y: 0.0d
+			subtitle: "{betterleveling.specialization.mining.description.0}"
+			description: ["{betterleveling.specialization.mining.description.1}"]
+			dependencies: ["20DC31E0E407841C"]
+			id: "6CDD1C47DE1F207F"
+			tasks: [{
+				id: "4345E5FE2584F014"
+				type: "questsadditions:time"
+				title: "Подождать"
+				elapsedTime: 1L
+			}]
+		}
+		{
+			title: "{betterleveling.specialization.crafting}"
+			icon: "minecraft:crafting_table"
+			disable_toast: true
+			x: 7.0d
+			y: 2.0d
+			subtitle: "{betterleveling.specialization.crafting.description.0}"
+			description: ["{betterleveling.specialization.crafting.description.1}"]
+			dependencies: ["20DC31E0E407841C"]
+			id: "2788D717EB5EEA2A"
+			tasks: [{
+				id: "1101898AF4B4E4EE"
+				type: "questsadditions:time"
+				title: "Подождать"
+				elapsedTime: 1L
+			}]
+		}
+		{
+			title: "{betterleveling.skill.strength}"
+			icon: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 6.5d
+			y: -3.5d
+			subtitle: "{betterleveling.skill.strength.description.0}"
+			dependencies: ["08A97C190989D2E4"]
+			id: "4F8EAE59C4311AB2"
+			tasks: [{
+				id: "06DB9B2DB767BA99"
+				type: "questsadditions:time"
+				title: "Подождать"
+				elapsedTime: 1L
+			}]
+		}
+		{
+			title: "{betterleveling.skill.quick_draw}"
+			icon: {
+				id: "minecraft:bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 7.5d
+			y: -3.5d
+			subtitle: "{betterleveling.skill.quick_draw.description.0}"
+			dependencies: ["08A97C190989D2E4"]
+			id: "6D84A6B17343A6D2"
+			tasks: [{
+				id: "173ED15CA2FF7F06"
+				type: "questsadditions:time"
+				title: "Подождать"
+				elapsedTime: 1L
+			}]
+		}
+		{
+			title: "{betterleveling.skill.iron_skin}"
+			icon: {
+				id: "minecraft:iron_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 6.0d
+			y: -5.0d
+			subtitle: "{betterleveling.skill.iron_skin.description.0}"
+			dependencies: ["4F8EAE59C4311AB2"]
+			dependency_requirement: "one_started"
+			id: "7ACE6423FF1B2069"
+		}
+		{
+			title: "{betterleveling.skill.arrow_speed}"
+			icon: {
+				id: "minecraft:tipped_arrow"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:night_vision"
+				}
+			}
+			disable_toast: true
+			x: 8.0d
+			y: -5.0d
+			subtitle: "{betterleveling.skill.arrow_speed.description.0}"
+			dependencies: ["6D84A6B17343A6D2"]
+			dependency_requirement: "one_started"
+			id: "7B4EA4302C681A6F"
+		}
+		{
+			title: "{betterleveling.skill.crit_strike}"
+			icon: {
+				id: "minecraft:golden_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 5.5d
+			y: -3.5d
+			subtitle: "{betterleveling.skill.crit_strike.description.0}"
+			dependencies: ["08A97C190989D2E4"]
+			id: "6A6753FDBAA3F772"
+			tasks: [{
+				id: "1910CA4DC32F4DDF"
+				type: "custom"
+			}]
+		}
+		{
+			title: "{betterleveling.skill.sneak_speed}"
+			icon: {
+				id: "minecraft:leather_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 8.5d
+			y: -3.5d
+			subtitle: "{betterleveling.skill.sneak_speed.description.0}"
+			dependencies: ["08A97C190989D2E4"]
+			id: "4B6CBADD4F2B8B12"
+		}
+		{
+			title: "{betterleveling.skill.stonecutting}"
+			icon: {
+				id: "minecraft:iron_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 9.5d
+			y: -1.5d
+			subtitle: "{betterleveling.skill.stonecutting.description.0}"
+			dependencies: ["6CDD1C47DE1F207F"]
+			id: "58207B8C9926539B"
+			tasks: [{
+				id: "1E1E7CACF6C4A0AC"
+				type: "questsadditions:time"
+				title: "Подождать"
+				elapsedTime: 1L
+			}]
+		}
+		{
+			title: "{betterleveling.skill.treasure_hunting}"
+			icon: {
+				id: "minecraft:golden_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 12.0d
+			y: -2.0d
+			subtitle: "{betterleveling.skill.treasure_hunting.description.0}"
+			dependencies: [
+				"58207B8C9926539B"
+				"6CA1CD8B18811A6A"
+			]
+			dependency_requirement: "one_started"
+			id: "6CE10DFD2F180A13"
+		}
+		{
+			title: "{betterleveling.skill.woodcutting}"
+			icon: {
+				id: "minecraft:iron_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 11.0d
+			y: -1.0d
+			subtitle: "{betterleveling.skill.woodcutting.description.0}"
+			dependencies: ["6CDD1C47DE1F207F"]
+			dependency_requirement: "one_started"
+			id: "65A4170D9031FB80"
+		}
+		{
+			title: "{betterleveling.skill.prospecting}"
+			icon: {
+				id: "minecraft:golden_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 10.5d
+			y: -2.5d
+			subtitle: "{betterleveling.skill.prospecting.description.0}"
+			dependencies: ["58207B8C9926539B"]
+			dependency_requirement: "one_started"
+			id: "6CA1CD8B18811A6A"
+		}
+		{
+			title: "{betterleveling.skill.sprint_speed}"
+			icon: {
+				id: "minecraft:golden_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 10.5d
+			y: 1.0d
+			subtitle: "{betterleveling.skill.sprint_speed.description.0}"
+			dependencies: ["6CDD1C47DE1F207F"]
+			dependency_requirement: "one_started"
+			id: "05060A88D348B9C4"
+		}
+		{
+			title: "{betterleveling.skill.soft_landing}"
+			icon: "minecraft:feather"
+			disable_toast: true
+			x: 11.5d
+			y: 0.0d
+			subtitle: "{betterleveling.skill.soft_landing.description.0}"
+			dependencies: ["6CDD1C47DE1F207F"]
+			dependency_requirement: "one_started"
+			id: "139245FB43D2AA5B"
+		}
+		{
+			title: "{betterleveling.skill.green_thumb}"
+			icon: "minecraft:wheat_seeds"
+			disable_toast: true
+			x: 7.5d
+			y: 3.5d
+			subtitle: "{betterleveling.skill.green_thumb.description.0}"
+			dependencies: ["2788D717EB5EEA2A"]
+			dependency_requirement: "one_started"
+			id: "1A55F9F3121E3144"
+			tasks: [{
+				id: "0B584477D2B9D78E"
+				type: "questsadditions:time"
+				title: "Подождать"
+				elapsedTime: 1L
+			}]
+		}
+		{
+			title: "{betterleveling.skill.skinning}"
+			icon: "minecraft:rabbit_hide"
+			disable_toast: true
+			x: 6.5d
+			y: 3.5d
+			subtitle: "{betterleveling.skill.skinning.description.0}"
+			dependencies: ["2788D717EB5EEA2A"]
+			dependency_requirement: "one_started"
+			id: "27DB4B919BCDBAA0"
+			tasks: [{
+				id: "3B2032BD0ED4E0EE"
+				type: "questsadditions:time"
+				title: "Подождать"
+				elapsedTime: 1L
+			}]
+		}
+		{
+			title: "{betterleveling.skill.swim_speed}"
+			icon: "minecraft:heart_of_the_sea"
+			disable_toast: true
+			x: 5.5d
+			y: 3.5d
+			subtitle: "{betterleveling.skill.swim_speed.description.0}"
+			dependencies: ["2788D717EB5EEA2A"]
+			dependency_requirement: "one_started"
+			id: "2687822A053772F5"
+		}
+		{
+			title: "{betterleveling.skill.cooking_speed}"
+			icon: "minecraft:blast_furnace"
+			disable_toast: true
+			x: 8.5d
+			y: 3.5d
+			subtitle: "{betterleveling.skill.cooking_speed.description.0}"
+			dependencies: ["2788D717EB5EEA2A"]
+			dependency_requirement: "one_started"
+			id: "367E81CE046598A4"
+		}
+		{
+			title: "{betterleveling.skill.harvest_proficiency}"
+			icon: "minecraft:wheat"
+			disable_toast: true
+			x: 8.0d
+			y: 5.0d
+			subtitle: "{betterleveling.skill.harvest_proficiency.description.0}"
+			dependencies: ["1A55F9F3121E3144"]
+			dependency_requirement: "one_started"
+			id: "0940CC75545229AC"
+		}
+		{
+			title: "{betterleveling.skill.meat_gathering}"
+			icon: "minecraft:porkchop"
+			disable_toast: true
+			x: 6.0d
+			y: 5.0d
+			subtitle: "{betterleveling.skill.meat_gathering.description.0}"
+			dependencies: ["27DB4B919BCDBAA0"]
+			dependency_requirement: "one_started"
+			id: "5E97151921CE3021"
 		}
 	]
 	quest_links: [ ]
