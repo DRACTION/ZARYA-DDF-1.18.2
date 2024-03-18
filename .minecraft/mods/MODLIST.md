@@ -690,6 +690,9 @@
     Имя файла: supplementaries-1.18.2-1.5.18.jar
     MD5: 374FF11DC914E4CA9B514B75F18B3BC1
 ---
+    Имя файла: tectonic-forge-1.18.2-v2.2.1.jar
+    MD5: 7028A2941AF728D232010EA82CD6CB56
+---
     Имя файла: TerraBlender-forge-1.18.2-1.2.0.126.jar
     MD5: 8BB74F84DB692A34652D0D8BD2E3749F
 ---
