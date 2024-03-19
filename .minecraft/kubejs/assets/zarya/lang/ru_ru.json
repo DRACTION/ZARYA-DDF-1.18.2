@@ -895,6 +895,9 @@
     "tombstone.message.engraved_item": "%s с гравировкой",
     "tombstone.message.ancient_item": "Древняя %s",
     "tombstone.message.capture_familiar": "%s был захвачен одним из ваших вместилищ, что предотвратило его гибель",
+    "tombstone.item.prayer_stone": "Молитвенный камень",
+    "tombstone.item.prayer_stone.desc": "Эти редкие магические камни позволяют сбросить вашу способность Анк.",
+    "tombstone.item.prayer_stone.use": "Удерживайте правую кнопку мыши, чтобы сбросить ваш Анк.",
 
   // brutalbosses
 

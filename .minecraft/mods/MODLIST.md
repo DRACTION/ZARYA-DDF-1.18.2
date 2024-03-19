@@ -630,8 +630,8 @@
     Имя файла: selene-1.18.2-1.17.14.jar
     MD5: 1EB66E2C9F68BE2E8C6E74C08DDEEFEB
 ---
-    Имя файла: ShoulderSurfing-Forge-1.18.2-2.9.4.jar
-    MD5: 1BF811B8281BBCF45BA3409CEA07ADB8
+    Имя файла: ShoulderSurfing-Forge-1.18.2-2.9.7.jar
+    MD5: 71B8C9F6C74EA4B50C2ED04F691E8931
 ---
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
@@ -648,11 +648,11 @@
     Имя файла: solapplepie-1.18.2-1.0.4.jar
     MD5: 6E4B27A1B1DC608FE92F935618D91F69
 ---
-    Имя файла: sophisticatedbackpacks-1.18.2-3.20.2.1026.jar
-    MD5: C77183CDA634CAFA2D4E010041A9FA9E
+    Имя файла: sophisticatedbackpacks-1.18.2-3.20.2.1036.jar
+    MD5: 46C54DECA4AACEC4D889C9D59C4ADC34
 ---
-    Имя файла: sophisticatedcore-1.18.2-0.6.3.565.jar
-    MD5: 849E067582F8DDFC06BFD33264C55D6D
+    Имя файла: sophisticatedcore-1.18.2-0.6.4.586.jar
+    MD5: 0BCF961509EE8726470634CFDB9EB624
 ---
     Имя файла: soundphysics-forge-1.18.2-1.0.6.jar
     MD5: BC11649A1F9C33B324D3B4A403A593DA
@@ -699,8 +699,8 @@
     Имя файла: ToastControl-1.18.2-6.0.3.jar
     MD5: 07A6DD58793EDEFE2B9591AD120748A3
 ---
-    Имя файла: tombstone-1.18.2-7.6.7.jar
-    MD5: DF3D92B0BA7F58D5B0B7108DC8D96C25
+    Имя файла: tombstone-1.18.2-7.6.8.jar
+    MD5: 4617B5B57C930BD1303DE4D7FD97285F
 ---
     Имя файла: toms_storage-1.18.2-1.4.4.jar
     MD5: 42C752D51DAC8D9BF471DBC93D854664
