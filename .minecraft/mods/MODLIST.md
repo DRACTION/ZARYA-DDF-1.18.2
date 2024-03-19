@@ -399,9 +399,6 @@
     Имя файла: ItemPhysic_v1.4.23_mc1.18.2.jar
     MD5: 8AB319F32A0FF0A0669FC63E10D63E77
 ---
-    Имя файла: ItShallNotTick-1.0.22-build.34.jar
-    MD5: 1A2585261BEAB7B880DAA4C43D4546A8
----
     Имя файла: Jade-1.18.2-forge-5.3.2.jar
     MD5: 615D755442E7C936FD25CAD5D29341FC
 ---
