@@ -705,8 +705,8 @@
     Имя файла: ToastControl-1.18.2-6.0.3.jar
     MD5: 07A6DD58793EDEFE2B9591AD120748A3
 ---
-    Имя файла: tombstone-1.18.2-7.6.8.jar
-    MD5: 4617B5B57C930BD1303DE4D7FD97285F
+    Имя файла: tombstone-1.18.2-7.6.7.jar
+    MD5: DF3D92B0BA7F58D5B0B7108DC8D96C25
 ---
     Имя файла: toms_storage-1.18.2-1.4.4.jar
     MD5: 42C752D51DAC8D9BF471DBC93D854664
