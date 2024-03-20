@@ -393,6 +393,9 @@
     Имя файла: inventorytotem-1.18.2-3.1.jar
     MD5: 4CBC2C8B88A7CECDC7BFAC0C9F5EC2F1
 ---
+    Имя файла: invocore-1.18.2-2.1.0.jar
+    MD5: C0426E41EFB4064A3FA4594E9AA5A469
+---
     Имя файла: item-filters-forge-1802.2.8-build.50.jar
     MD5: 456D7675FE074402C67BE5AC0212B1B6
 ---
@@ -614,6 +617,9 @@
 ---
     Имя файла: revamped_phantoms-forge-0.2.3.jar
     MD5: 2349DD028D092FB7F084918F9F6F626E
+---
+    Имя файла: revive-me-1.18.2-2.5.1.jar
+    MD5: C974303C52DBBFCBDF1153A7180BDF9A
 ---
     Имя файла: rhino-forge-1802.2.1-build.255.jar
     MD5: F020741D167E536995E829392AE1FBEE

@@ -1,0 +1,65 @@
+
+["Fallen Settings"]
+	#How long you have before death. Default is 30 seconds. Setting to 0 will disable the timer
+	#Range: > 0
+	"Time Left" = 60
+	#(SinglePlayer only) How high your chance is to revive.
+	#Range: 0.0 ~ 1.0
+	"Revive Chance" = 0.5
+	#(SinglePlayer only) Percentage to lose for sacrificial items.
+	#Range: 0.0 ~ 1.0
+	"Sacrificial item percentage" = 0.5
+	#If you can use self-revive methods in multiplayer
+	Self_Revive_Multiplayer = false
+	#If you can give up and die
+	Can_Give_Up = true
+	#If the player may jump while fallen
+	#Allowed Values: YES, LIQUID_ONLY, NO
+	Can_Jump = "YES"
+	#If the player may move while fallen
+	Can_Move = true
+	#If the player can open their inventory while fallen
+	Open_Inventory_While_Fallen = true
+	#How many xp levels a player loses when downed (Less than 1 is a percentage)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	Fallen_Xp_Penalty = 0.0
+	#How much time (in seconds) your death timer loses each time you fall. (Less than 1 is a percentage of max death time)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	Time_Reduction_Penalty = 0.2
+	#How much time (in seconds) must pass before you may be killed by other players. Affected by time reduction penalty. Setting to -1 will disable this
+	#Range: > -1
+	PVP_Timer = 10
+	#Potion effects the player has while fallen (ModId:PotionEffect:Tier)(minecraft:slowness:0)
+	Downed_Effects = ["minecraft:slowness:3"]
+	#Commands the player isn't allowed to use while fallen
+	Blocked_Commands = ["tpa"]
+
+["Revivee Settings"]
+	#How much health you will be revived with, 0 is max health, Less than 1 is percentage
+	#Range: 0.0 ~ 2.147483647E9
+	"Revive Health" = 10.0
+	#How much food you will be revived with, 0 is max food, Less than 1 is percentage
+	#Range: 0.0 ~ 2.147483647E9
+	"Revive Food" = 6.0
+	#How many seconds of invulnerability you have on revive
+	#Range: 0.0 ~ 3.4028234663852886E38
+	Revive_Invuln_Time = 5.0
+	#how long the self-revive penalty will last in SECONDS until you can use both options again
+	#Range: 0.0 ~ 1.7976931348623157E308
+	Self_Revive_Penalty_Timer = 45.0
+
+["Reviver Settings"]
+	#How long to revive someone
+	"Revive Time" = 3
+	#What the reviver will lose
+	#Allowed Values: NONE, HEALTH, EXPERIENCE, FOOD, ITEM
+	"Penalty Type" = "FOOD"
+	#Amount that will be taken from reviver, Numbers below 1 and greater than 0 will turn it into a percentage
+	"Penalty Amount" = 10.0
+	#Item used to revive fallen players (Only if you selected ITEM as penalty type). Usage: MODID:ITEM
+	"Revive Item" = "minecraft:golden_apple"
+
+["Client Settings"]
+	#Makes self-revive UI smaller, more compact
+	Compact_UI = false
+
