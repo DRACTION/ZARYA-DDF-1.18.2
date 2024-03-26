@@ -6,8 +6,8 @@
     Имя файла: adaptive_performance_tweaks_items_1.18.2-11.0.0.jar
     MD5: BA9FA7F44D8B26FA427E630B2565AB2C
 ---
-    Имя файла: AdFinders-1.18.2-7.0.4.0-build.1366.jar
-    MD5: B0DA609FF5EE0445D542F32CCADFE9FC
+    Имя файла: AdFinders-1.18.2-7.0.5.0-build.1586.jar
+    MD5: FAB4BAC7DFE09589199F0263972A104D
 ---
     Имя файла: AdvancementPlaques-1.18.2-1.4.5.1.jar
     MD5: BC7FC787E79C7C718B89FCD806C0D55F
@@ -222,8 +222,8 @@
     Имя файла: effortlessbuilding-1.18-2.40.jar
     MD5: 0F49A1401CD7A77AD5D210E3AEA64B84
 ---
-    Имя файла: embeddium-0.3.10+mc1.18.2.jar
-    MD5: 12D0BA3CEB6B32AF578CCDE917D596ED
+    Имя файла: embeddium-0.3.12+mc1.18.2.jar
+    MD5: 101EEA4E04B4D24C1850AAE22081AA9C
 ---
     Имя файла: EnchantingInfuser-v3.3.3-1.18.2-Forge.jar
     MD5: 87505C9B2E8D6A53E7CF2FB605C8BDF9
@@ -312,8 +312,8 @@
     Имя файла: flywheel-forge-1.18.2-0.6.10-105.jar
     MD5: 191EBBBCA4B526406DBA86611CFEE824
 ---
-    Имя файла: ForgeEndertech-1.18.2-9.0.7.1-build.1530.jar
-    MD5: 7EBED501E47A13AEFA98A9ABCEEFDEB1
+    Имя файла: ForgeEndertech-1.18.2-9.0.8.0-build.1586.jar
+    MD5: 4F5D8D2900EF85A07EFA5D9BA7F6DCC9
 ---
     Имя файла: FpsReducer2-forge-1.18.2-2.0.jar
     MD5: 69C2E4ADDEDE2D062C7B0565779D5993
@@ -384,8 +384,8 @@
     Имя файла: InsaneLib-1.5.3-mc1.18.2.jar
     MD5: 99E2A21EC2D5FB5C89063498381083BE
 ---
-    Имя файла: InventoryProfilesNext-forge-1.18.2-1.10.9.jar
-    MD5: 778E9CD4CEAA4163DB5A8BC05C9BB0AB
+    Имя файла: InventoryProfilesNext-forge-1.18.2-1.10.10.jar
+    MD5: 679702776CEFF12F3FABE785E261360B
 ---
     Имя файла: InventorySpam-1.18-1.5.0.jar
     MD5: 5C3CE9502CD68638C6E5D1956193F952
@@ -417,8 +417,8 @@
     Имя файла: JEIEnchantmentInfo-1.17.1-2.0.0.jar
     MD5: 8CC31AD78C598D22DF44B7C046A5D799
 ---
-    Имя файла: journeymap-1.18.2-5.9.7p1-forge.jar
-    MD5: ECDD6620BBC9731A39B902863E95DF35
+    Имя файла: journeymap-1.18.2-5.9.8-forge.jar
+    MD5: 16E31F2C5F822661C7BD4146F62CA821
 ---
     Имя файла: jumpboat-1.18.2-0.1.0.3.jar
     MD5: 4B3C43F96E1ADC765BFA70D3AC8A9313
@@ -456,8 +456,8 @@
     Имя файла: LegendaryTooltips-1.18.2-1.3.1.jar
     MD5: 1D3792E66FEF301CA7465E83BDBC5D10
 ---
-    Имя файла: libIPN-forge-1.18.2-4.0.1.jar
-    MD5: 9996CF7F26E3F1ADB5879EF757DE945D
+    Имя файла: libIPN-forge-1.18.2-4.0.2.jar
+    MD5: C4147A93E6A955977363F67F51FA12B3
 ---
     Имя файла: lightspeed-1.18.2-1.0.5.jar
     MD5: AC51987990FC2FF172B2E50474C16994
@@ -483,8 +483,8 @@
     Имя файла: lootjs-forge-1.18.2-2.7.7-ZaryaEdition.jar
     MD5: 1689173D9A0BF3FF3754167C0989F229
 ---
-    Имя файла: lootr-1.18.2-0.3.27.69.jar
-    MD5: 9BCE16F6B04524BB3F1D178AE0EE69CA
+    Имя файла: lootr-forge-1.18.2-0.3.28.70.jar
+    MD5: A3C69E728096373C8C88269D7BC1D68E
 ---
     Имя файла: MaxHealthFix-Forge-1.18.2-5.0.5.jar
     MD5: 67FEF6603324B2A18FD4FA33AE376575
@@ -501,8 +501,8 @@
     Имя файла: MmmMmmMmmMmm-1.18.2-1.5.2.jar
     MD5: E0C9FD0DB48873DFF2CC0594A09F2208
 ---
-    Имя файла: modernfix-forge-5.14.0+mc1.18.2.jar
-    MD5: 7F3A9F65A54A2E68C53D73ACD52EABFF
+    Имя файла: modernfix-forge-5.15.0+mc1.18.2.jar
+    MD5: A5BABDCEB2D909A7F8DA1AB526354A71
 ---
     Имя файла: morejs-forge-1.18.2-0.0.6.jar
     MD5: C21909209E50CC607BB2BFBD956A8AAE
@@ -693,8 +693,8 @@
     Имя файла: supplementaries-1.18.2-1.5.18.jar
     MD5: 374FF11DC914E4CA9B514B75F18B3BC1
 ---
-    Имя файла: tectonic-forge-1.18.2-v2.2.1.jar
-    MD5: 7028A2941AF728D232010EA82CD6CB56
+    Имя файла: tectonic-forge-1.18-2.3.2.jar
+    MD5: A24938AA12FC3DE92AEBDE3126F28976
 ---
     Имя файла: TerraBlender-forge-1.18.2-1.2.0.126.jar
     MD5: 8BB74F84DB692A34652D0D8BD2E3749F
@@ -708,8 +708,8 @@
     Имя файла: tombstone-1.18.2-7.6.7.jar
     MD5: DF3D92B0BA7F58D5B0B7108DC8D96C25
 ---
-    Имя файла: toms_storage-1.18.2-1.4.4.jar
-    MD5: 42C752D51DAC8D9BF471DBC93D854664
+    Имя файла: toms_storage-1.18.2-1.4.5.jar
+    MD5: C88C162138505029565D2F6C269C749A
 ---
     Имя файла: toofast-1.18-0.0.1.3.jar
     MD5: B52661F4E59E58495D36576D8270F9A4
