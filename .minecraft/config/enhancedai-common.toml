@@ -315,9 +315,9 @@
 		#Speed at which Witches throw potions
 		[Witch."Witch Potion Throwing"."Throw Speed"]
 			#Range: 10.0 ~ 2.147483647E9
-			Minimum = 40.0
+			Minimum = 60.0
 			#Range: 10.0 ~ 2.147483647E9
-			Maximum = 100.0
+			Maximum = 120.0
 
 		#Range at which Witches throw potions
 		[Witch."Witch Potion Throwing"."Throw Range"]
@@ -356,13 +356,13 @@
 	#Witches drink more potions.
 	[Witch."Thirsty Witches"]
 		#A list of potions that the witch will drink as soon as the player is targeted. Note that witches can still drink other potions in different situations, refer to other config options. Format is effect_id,duration,amplifier. The potions are applied in order and witches will not throw the same potion if the target has already the effect.
-		"Potions on Target List" = ["minecraft:speed,3600,1", "minecraft:resistance,3600,0", "minecraft:absorption,1800,0", "minecraft:regeneration,900,0"]
+		"Potions on Target List" = ["minecraft:speed,600,1", "minecraft:resistance,600,0", "minecraft:absorption,400,0", "minecraft:regeneration,300,0"]
 		#Chance for a witch to drink a healing potion when not full health. Defaults to Vanilla
 		#Range: 0.0 ~ 1.0
 		"Healing Chance" = 0.05
 		#Below this percentage health, witches will drink strong healing potions instead of normal ones.
 		#Range: 0.0 ~ 1.0
-		"Strong healing Threshold" = 0.4
+		"Strong healing Threshold" = 0.2
 		#Chance for a witch to drink a water breathing potion when in water and air meter is at half. Vanilla is 15% and doesn't check the air meter.
 		#Range: 0.0 ~ 1.0
 		"Water Breathing Chance" = 1.0
