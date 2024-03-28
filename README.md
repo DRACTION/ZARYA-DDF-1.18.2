@@ -13,7 +13,7 @@
 ## ЧтоКудаКого?
 
 ### Подготовка
-Рекомендуется поставить [UltimMC](https://github.com/UltimMC/Launcher/releases) (для богатых есть [MultiMC](https://multimc.org/)), так как сборка запускается/тестируется на нём.
+Рекомендуется поставить [UltimMC](https://github.com/UltimMC/Launcher?tab=readme-ov-file#downloading) (для богатых есть [MultiMC](https://multimc.org/)), так как сборка запускается/тестируется на нём.
 Если вы используете другой лаунчер, то инструкция может быть не точной.
 
 ### Установка релиза (UltimMC)
