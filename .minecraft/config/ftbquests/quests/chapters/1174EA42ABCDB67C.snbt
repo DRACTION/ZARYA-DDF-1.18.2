@@ -152,8 +152,8 @@
 			corner: false
 		}
 		{
-			x: -5.5d
-			y: 3.0d
+			x: -6.0d
+			y: 1.5d
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
@@ -189,7 +189,7 @@
 		}
 		{
 			x: -6.0d
-			y: 0.0d
+			y: -3.0d
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
@@ -460,8 +460,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 4.0d
+			x: -7.0d
+			y: 1.5d
 			min_required_tasks: 1
 			id: "207A7C2374A1DAAC"
 			tasks: [
@@ -501,7 +501,7 @@
 		{
 			title: "Парапланы"
 			x: -6.0d
-			y: 1.0d
+			y: -2.0d
 			subtitle: "Планировали планировали, да не выпланировали"
 			description: [
 				"Параплан позволяет парить в воздухе, всё просто)"

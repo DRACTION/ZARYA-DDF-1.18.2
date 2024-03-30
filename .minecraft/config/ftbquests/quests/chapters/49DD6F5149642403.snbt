@@ -41,7 +41,7 @@
 				"- Невидимость сопровождается дебаффом \"Слепота\"."
 				"- Невидимость спадает при слишком близком нахождении с мобом, или при ударе по мобу."
 			]
-			click: " "
+			click: ""
 			dev: false
 			corner: false
 		}
@@ -58,7 +58,7 @@
 				"Бить мобов доступно только в боевом режиме (кнопка \"F\"),"
 				"за исключением дальнобойного орудия."
 			]
-			click: " "
+			click: ""
 			dev: false
 			corner: false
 		}
@@ -200,7 +200,7 @@
 			y: -2.5d
 			subtitle: "Теперь каждый будет вознаграждён"
 			description: [
-				" >  Обычные сундуки заменены на лутбоксы."
+				" >  Обычные сундуки заменены на \"лутбоксы\"."
 				" >  Каждый сундук содержит уникальный лут для каждого игрока"
 				" >  Ломать сундуки не стоит, так как если его не успел облутать ваш товарищ, то он останется без лута..."
 				" >  Игрок не может получить или увидеть в сундуке лут другого игрока, даже если его сломает"
@@ -420,8 +420,8 @@
 		}
 		{
 			disable_toast: true
-			x: 1.5d
-			y: 5.5d
+			x: 2.0d
+			y: 6.5d
 			subtitle: "Не советую ей \"рубить\" дерево..."
 			dependencies: ["002274B2E5EFACD1"]
 			id: "545E06E6B8023D31"
@@ -441,7 +441,7 @@
 			title: "Палки и доски"
 			disable_toast: true
 			x: 3.0d
-			y: 5.5d
+			y: 7.5d
 			dependencies: ["545E06E6B8023D31"]
 			min_required_tasks: 1
 			id: "0271BBF1F0A0EF92"
@@ -531,8 +531,8 @@
 		}
 		{
 			disable_toast: true
-			x: -3.0d
-			y: 5.0d
+			x: -2.5d
+			y: 6.0d
 			dependencies: ["50BE662EBA4C3348"]
 			min_required_tasks: 1
 			id: "1FC05943420A67C6"
@@ -567,8 +567,8 @@
 		{
 			title: "Получение слёз"
 			icon: "minecraft:ghast_tear"
-			x: 2.5d
-			y: 3.0d
+			x: -2.0d
+			y: -1.5d
 			subtitle: "Небольшое изменение"
 			description: [
 				"Теперь слёзы не выпадают с гастов в виде дропа..."
@@ -688,8 +688,8 @@
 		}
 		{
 			title: "Починка = навык"
-			x: 2.5d
-			y: 2.0d
+			x: 0.0d
+			y: -4.5d
 			subtitle: "Починка предмета через новую механику"
 			description: [
 				"Если взять в основную руку вещь, которую будем чинить (оружие, инструмент, броня), и нажать на рабочем месте Shift+ПКМ, то вы почините предмет (или не почините, как повезёт). Починка не сбивает чары на предмете"
@@ -734,22 +734,11 @@
 					item: "minecraft:loom"
 				}
 			]
-			rewards: [{
-				id: "27B67D0058482B51"
-				type: "item"
-				item: {
-					id: "minecraft:wooden_hoe"
-					Count: 1b
-					tag: {
-						Damage: 50
-					}
-				}
-			}]
 		}
 		{
 			title: "Зелья стакаются"
-			x: -0.5d
-			y: -4.5d
+			x: -2.0d
+			y: -2.5d
 			subtitle: "до 16 штук"
 			description: ["НО!!!! Чтобы вы не были супер-имбой, есть задержка в 3 секунды для взрывного и туманного зелья"]
 			min_required_tasks: 1
@@ -785,7 +774,7 @@
 			title: "Система навыков"
 			icon: "supplementaries:statue"
 			disable_toast: true
-			x: 7.0d
+			x: 5.5d
 			y: 0.0d
 			shape: "square"
 			subtitle: "По умолчанию кнопка I"
@@ -801,7 +790,6 @@
 				"Первый выбор специализации конечно зависит от стиля игры..."
 				"P.S.: Но я предпочитаю \"Рыцаря\"..."
 			]
-			dependencies: ["71AF6770E613A501"]
 			id: "20DC31E0E407841C"
 			tasks: [{
 				id: "1246C98F9C6797D6"
@@ -853,8 +841,8 @@
 			title: "Коптильня игрокам не доступна!"
 			icon: "minecraft:smoker"
 			disable_toast: true
-			x: 0.5d
-			y: -4.5d
+			x: 2.0d
+			y: -2.5d
 			subtitle: "Нужно использовать аналоги"
 			description: [
 				"Придётся использовать:"
@@ -874,7 +862,7 @@
 				}
 			}
 			disable_toast: true
-			x: 7.0d
+			x: 5.5d
 			y: -2.0d
 			subtitle: "{betterleveling.specialization.combat.description.0}"
 			description: ["{betterleveling.specialization.combat.description.1}"]
@@ -891,7 +879,7 @@
 			title: "{betterleveling.specialization.mining}"
 			icon: "minecraft:diamond_ore"
 			disable_toast: true
-			x: 9.0d
+			x: 7.5d
 			y: 0.0d
 			subtitle: "{betterleveling.specialization.mining.description.0}"
 			description: ["{betterleveling.specialization.mining.description.1}"]
@@ -908,7 +896,7 @@
 			title: "{betterleveling.specialization.crafting}"
 			icon: "minecraft:crafting_table"
 			disable_toast: true
-			x: 7.0d
+			x: 5.5d
 			y: 2.0d
 			subtitle: "{betterleveling.specialization.crafting.description.0}"
 			description: ["{betterleveling.specialization.crafting.description.1}"]
@@ -931,7 +919,7 @@
 				}
 			}
 			disable_toast: true
-			x: 6.5d
+			x: 5.0d
 			y: -3.5d
 			subtitle: "{betterleveling.skill.strength.description.0}"
 			dependencies: ["08A97C190989D2E4"]
@@ -953,7 +941,7 @@
 				}
 			}
 			disable_toast: true
-			x: 7.5d
+			x: 6.0d
 			y: -3.5d
 			subtitle: "{betterleveling.skill.quick_draw.description.0}"
 			dependencies: ["08A97C190989D2E4"]
@@ -975,7 +963,7 @@
 				}
 			}
 			disable_toast: true
-			x: 6.0d
+			x: 4.5d
 			y: -5.0d
 			subtitle: "{betterleveling.skill.iron_skin.description.0}"
 			dependencies: ["4F8EAE59C4311AB2"]
@@ -992,7 +980,7 @@
 				}
 			}
 			disable_toast: true
-			x: 8.0d
+			x: 6.5d
 			y: -5.0d
 			subtitle: "{betterleveling.skill.arrow_speed.description.0}"
 			dependencies: ["6D84A6B17343A6D2"]
@@ -1009,15 +997,11 @@
 				}
 			}
 			disable_toast: true
-			x: 5.5d
+			x: 4.0d
 			y: -3.5d
 			subtitle: "{betterleveling.skill.crit_strike.description.0}"
 			dependencies: ["08A97C190989D2E4"]
 			id: "6A6753FDBAA3F772"
-			tasks: [{
-				id: "1910CA4DC32F4DDF"
-				type: "custom"
-			}]
 		}
 		{
 			title: "{betterleveling.skill.sneak_speed}"
@@ -1029,7 +1013,7 @@
 				}
 			}
 			disable_toast: true
-			x: 8.5d
+			x: 7.0d
 			y: -3.5d
 			subtitle: "{betterleveling.skill.sneak_speed.description.0}"
 			dependencies: ["08A97C190989D2E4"]
@@ -1045,7 +1029,7 @@
 				}
 			}
 			disable_toast: true
-			x: 9.5d
+			x: 8.0d
 			y: -1.5d
 			subtitle: "{betterleveling.skill.stonecutting.description.0}"
 			dependencies: ["6CDD1C47DE1F207F"]
@@ -1067,7 +1051,7 @@
 				}
 			}
 			disable_toast: true
-			x: 12.0d
+			x: 10.5d
 			y: -2.0d
 			subtitle: "{betterleveling.skill.treasure_hunting.description.0}"
 			dependencies: [
@@ -1087,7 +1071,7 @@
 				}
 			}
 			disable_toast: true
-			x: 11.0d
+			x: 9.5d
 			y: -1.0d
 			subtitle: "{betterleveling.skill.woodcutting.description.0}"
 			dependencies: ["6CDD1C47DE1F207F"]
@@ -1104,7 +1088,7 @@
 				}
 			}
 			disable_toast: true
-			x: 10.5d
+			x: 9.0d
 			y: -2.5d
 			subtitle: "{betterleveling.skill.prospecting.description.0}"
 			dependencies: ["58207B8C9926539B"]
@@ -1121,7 +1105,7 @@
 				}
 			}
 			disable_toast: true
-			x: 10.5d
+			x: 9.0d
 			y: 1.0d
 			subtitle: "{betterleveling.skill.sprint_speed.description.0}"
 			dependencies: ["6CDD1C47DE1F207F"]
@@ -1132,7 +1116,7 @@
 			title: "{betterleveling.skill.soft_landing}"
 			icon: "minecraft:feather"
 			disable_toast: true
-			x: 11.5d
+			x: 10.0d
 			y: 0.0d
 			subtitle: "{betterleveling.skill.soft_landing.description.0}"
 			dependencies: ["6CDD1C47DE1F207F"]
@@ -1143,7 +1127,7 @@
 			title: "{betterleveling.skill.green_thumb}"
 			icon: "minecraft:wheat_seeds"
 			disable_toast: true
-			x: 7.5d
+			x: 6.0d
 			y: 3.5d
 			subtitle: "{betterleveling.skill.green_thumb.description.0}"
 			dependencies: ["2788D717EB5EEA2A"]
@@ -1160,7 +1144,7 @@
 			title: "{betterleveling.skill.skinning}"
 			icon: "minecraft:rabbit_hide"
 			disable_toast: true
-			x: 6.5d
+			x: 5.0d
 			y: 3.5d
 			subtitle: "{betterleveling.skill.skinning.description.0}"
 			dependencies: ["2788D717EB5EEA2A"]
@@ -1177,7 +1161,7 @@
 			title: "{betterleveling.skill.swim_speed}"
 			icon: "minecraft:heart_of_the_sea"
 			disable_toast: true
-			x: 5.5d
+			x: 4.0d
 			y: 3.5d
 			subtitle: "{betterleveling.skill.swim_speed.description.0}"
 			dependencies: ["2788D717EB5EEA2A"]
@@ -1188,7 +1172,7 @@
 			title: "{betterleveling.skill.cooking_speed}"
 			icon: "minecraft:blast_furnace"
 			disable_toast: true
-			x: 8.5d
+			x: 7.0d
 			y: 3.5d
 			subtitle: "{betterleveling.skill.cooking_speed.description.0}"
 			dependencies: ["2788D717EB5EEA2A"]
@@ -1199,7 +1183,7 @@
 			title: "{betterleveling.skill.harvest_proficiency}"
 			icon: "minecraft:wheat"
 			disable_toast: true
-			x: 8.0d
+			x: 6.5d
 			y: 5.0d
 			subtitle: "{betterleveling.skill.harvest_proficiency.description.0}"
 			dependencies: ["1A55F9F3121E3144"]
@@ -1210,12 +1194,42 @@
 			title: "{betterleveling.skill.meat_gathering}"
 			icon: "minecraft:porkchop"
 			disable_toast: true
-			x: 6.0d
+			x: 4.5d
 			y: 5.0d
 			subtitle: "{betterleveling.skill.meat_gathering.description.0}"
 			dependencies: ["27DB4B919BCDBAA0"]
 			dependency_requirement: "one_started"
 			id: "5E97151921CE3021"
+		}
+		{
+			title: "Конская броня"
+			disable_toast: true
+			x: 2.0d
+			y: -1.5d
+			subtitle: "Броню можно крафтить и чаровать"
+			id: "586EE0B63B66C5E8"
+			tasks: [
+				{
+					id: "2B88203593E3CCFD"
+					type: "item"
+					item: "minecraft:leather_horse_armor"
+				}
+				{
+					id: "071C5996277A736A"
+					type: "item"
+					item: "minecraft:iron_horse_armor"
+				}
+				{
+					id: "00DE1BCE052686DC"
+					type: "item"
+					item: "minecraft:golden_horse_armor"
+				}
+				{
+					id: "125D9A825B045F14"
+					type: "item"
+					item: "minecraft:diamond_horse_armor"
+				}
+			]
 		}
 	]
 	quest_links: [ ]

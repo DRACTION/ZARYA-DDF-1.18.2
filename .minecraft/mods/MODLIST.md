@@ -636,6 +636,9 @@
     Имя файла: selene-1.18.2-1.17.14.jar
     MD5: 1EB66E2C9F68BE2E8C6E74C08DDEEFEB
 ---
+    Имя файла: ShinyHorses-1.18-1.1.jar
+    MD5: 376F72C4BF4AA19090310422C2E9888F
+---
     Имя файла: ShoulderSurfing-Forge-1.18.2-2.9.7.jar
     MD5: 71B8C9F6C74EA4B50C2ED04F691E8931
 ---
