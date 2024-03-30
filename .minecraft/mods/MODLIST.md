@@ -366,8 +366,8 @@
     Имя файла: Highlighter-1.18.1-1.1.2.jar
     MD5: 9549E919E1FF06DB441E70CAD990C874
 ---
-    Имя файла: horsecombatcontrols-1.18.2-1.0.1.jar
-    MD5: B1E06EA96AEE3CEF0DEB72BD43512645
+    Имя файла: horsecombatcontrols-1.18.2-1.0.1-ZaryaEdition.jar
+    MD5: E5970721EF788162F6E04CC021255BA4
 ---
     Имя файла: horsestonks-forge-1.17+-1.0.1.jar
     MD5: 3704CDBB2E54675074FCA3C41FA361AC

@@ -43,6 +43,12 @@
     "item.minecraft.lingering_potion.effect.third_unstable_death_pioneer": "Туманная третья нестабильная Смерть Пионерки",
     "item.minecraft.tipped_arrow.effect.third_unstable_death_pioneer": "Стрела третьей нестабильной Смерти Пионерки",
 
+  // Horse Combat Controls
+
+    "key.horsecombatcontrols.toggle": "Переключить управление конным боем",
+    "key.horsecombatcontrols.category": "Управление конным боем (Horse Combat Controls)",
+    "message.horsecombatcontrols.locked": "Управление конным боем принудительно во этом мире",
+
   // FTB Ultimine
 
     "key.ftbultimine": "Автодобыча",
