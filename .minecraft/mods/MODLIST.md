@@ -138,8 +138,8 @@
     Имя файла: coroutil-forge-1.18.2-1.3.6.jar
     MD5: 1E55AFC68FAE8B2B4AA7F77B5B6FF7A7
 ---
-    Имя файла: CosmeticArmorReworked-1.18.2-v2a.jar
-    MD5: 0577A73BB6068FA08EA0742D9002AA39
+    Имя файла: CosmeticArmorReworked-1.18.2-v2a-ZaryaEdition.jar
+    MD5: 3B974637A79ECD2FC09C2EED59726611
 ---
     Имя файла: craftingtweaks-forge-1.18.2-14.0.9.jar
     MD5: 9A291CFBA95258EA0F2BD61C450FA168
