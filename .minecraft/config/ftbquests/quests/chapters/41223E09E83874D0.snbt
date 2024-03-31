@@ -30,6 +30,8 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "rsquare"
+			subtitle: "Легенды не умирают..."
+			description: ["По кнопке \"K\" доступны знания смерти."]
 			size: 1.5d
 			id: "0F5EE7BAAB26BC65"
 			tasks: [{
@@ -43,6 +45,11 @@
 			x: -2.0d
 			y: 0.0d
 			subtitle: "В первый раз, да?"
+			description: [
+				"Все вещи остануться в могиле, не переживай"
+				""
+				"За исключением вещей с чарами \"{enchantment.tombstone.soulbound}\", они остались при тебе."
+			]
 			dependencies: ["0F5EE7BAAB26BC65"]
 			id: "7476B6CC0E93B31B"
 			tasks: [{
@@ -110,7 +117,7 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: -3.5d
 			y: 2.5d
 			subtitle: "Создаёт книги зачарований из предмета (предмет остаётся)"
 			description: ["Количество снятых чар за раз зависит от навыка \"Писец\""]
@@ -123,7 +130,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -4.0d
 			y: 3.5d
 			subtitle: "Полностью восстанавливает прочность любого предмета"
 			dependencies: ["0D8E705506F0E28D"]
@@ -135,7 +142,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: -3.5d
 			y: 4.5d
 			subtitle: "Увеличивает уровень чар на предмете"
 			description: ["Количество уровней зависит от души могилы"]
@@ -149,6 +156,104 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Телепортация к месту смерти"
+			dependencies: ["0F5EE7BAAB26BC65"]
+			id: "1559EAF8146823A9"
+			tasks: [{
+				id: "6F0B15933BB9CFC4"
+				type: "item"
+				item: {
+					id: "tombstone:grave_key"
+					Count: 1b
+					tag: {
+						enchant: 1b
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+		}
+		{
+			title: "{enchantment.tombstone.soulbound}"
+			x: 0.0d
+			y: 4.0d
+			subtitle: "Смерть не страшит меня"
+			id: "7DC5F4E19A5C49AC"
+			tasks: [{
+				id: "3EA13A9017DEC5A9"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "tombstone:soulbound"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			subtitle: "Интересный способ укопмлектовать мелочь"
+			description: [
+				"Мешочек позволяет сложить 64 разных предмета в один слот."
+				""
+				"Например: 1 заполненный мешок может содержать"
+				"- 32 Пороха"
+				"- 10 Ниток"
+				"- 3 Пшеницы"
+				"- 7 Палок"
+				"- 8 Костей"
+				"- 4 Стрелы"
+				""
+				"2 мешочка можно положить в слоты аксессуаров."
+			]
+			id: "3A415FC01F932451"
+			tasks: [{
+				id: "7D525BCD7659D769"
+				type: "item"
+				item: "minecraft:bundle"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			subtitle: "Питомцы в безопасности"
+			id: "72D51A5D9B44B73A"
+			tasks: [{
+				id: "53B7A923F6D37D51"
+				type: "item"
+				item: "tombstone:familiar_stone"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			subtitle: "Фокусы ниндзя"
+			id: "3E300AFDB2ADD0B0"
+			tasks: [{
+				id: "6DDEA19F78E722A8"
+				type: "item"
+				item: "tombstone:dust_of_vanishing"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 6.0d
+			subtitle: "Барьер из рыхлого снега"
+			id: "3FBE8D65E4765630"
+			tasks: [{
+				id: "655D28292B70F7C4"
+				type: "item"
+				item: "tombstone:dust_of_frost"
 			}]
 		}
 	]
