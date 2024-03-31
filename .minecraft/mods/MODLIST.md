@@ -51,6 +51,9 @@
     Имя файла: BeeFix-1.18-1.0.7.jar
     MD5: 276B172CBA155B3E2E946F53845BEE54
 ---
+    Имя файла: bendy-lib-forge-2.1.1.jar
+    MD5: 58989D5AE5BEC172A564F704D1A254A3
+---
     Имя файла: BetterAdvancements-1.18.2-0.2.0.146.jar
     MD5: 38B8481D6FD3A126DA2922DE09C35F36
 ---
@@ -224,6 +227,9 @@
 ---
     Имя файла: embeddium-0.3.12+mc1.18.2.jar
     MD5: 101EEA4E04B4D24C1850AAE22081AA9C
+---
+    Имя файла: emotecraft-for-MC1.18.2-2.2.7-b.build.50-forge.jar
+    MD5: F89D6650A0EDB095EDEBDEC3DD6F0641
 ---
     Имя файла: EnchantingInfuser-v3.3.3-1.18.2-Forge.jar
     MD5: 87505C9B2E8D6A53E7CF2FB605C8BDF9
@@ -584,6 +590,9 @@
 ---
     Имя файла: Placebo-1.18.2-6.6.7.jar
     MD5: 1B527F8B032CB04DCB5AE8152A1EF460
+---
+    Имя файла: player-animation-lib-forge-1.0.2+1.18.jar
+    MD5: 33E51D8320F9D5D8E37BC7F9479D6A3E
 ---
     Имя файла: polylib-forge-1801.0.3-build.109.jar
     MD5: 303E1AF39C62D6F4ADF75626B192CF38

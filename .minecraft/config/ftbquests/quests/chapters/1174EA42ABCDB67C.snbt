@@ -15,7 +15,7 @@
 			rotation: 0.0d
 			image: "ftbquests:textures/gui/info.png"
 			hover: ["Здесь перечислены всякие приятные мелочи (различного рода модификации)"]
-			click: " "
+			click: "a"
 			dev: false
 			corner: false
 		}
