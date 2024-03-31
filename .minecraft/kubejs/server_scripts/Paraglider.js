@@ -1,7 +1,7 @@
 onEvent("lootjs", (event) => {
   event
     .addLootTypeModifier([LootType.CHEST])
-    .randomChance(0.02)
+    .randomChance(0.01)
     .addWeightedLoot([
         'paraglider:stamina_vessel'
     ]);
