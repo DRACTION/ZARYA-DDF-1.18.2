@@ -292,10 +292,7 @@
 
     "customname": "Копатель",
     "speedmultiply": 1.1,
-    "helditem": {
-      "item": "minecraft:golden_shovel",
-      "nbt": {"Enchantments":[{"id": "minecraft:knockback", "lvl": 5}]}
-    },
+    "helditem": "minecraft:golden_shovel",
     "potion": "minecraft:fire_resistance,9999,1"
   },
   {
