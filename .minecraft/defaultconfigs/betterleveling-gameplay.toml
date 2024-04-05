@@ -5,7 +5,7 @@
 	resetOnDeath = true
 	#Define the amount of XP refunded when decreasing skill level
 	#Range: 0.0 ~ 1.0
-	xpRefundFactor = 0.75
+	xpRefundFactor = 0.8
 	#If right-click harvesting should be enabled.
 	rightClickHarvest = false
 	#Z@RYA = Сколько опыта в одном уровне? Если 0, то стандартная обработка
