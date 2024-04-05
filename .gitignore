@@ -4,6 +4,9 @@
 .minecraft/config/*.bak
 .minecraft/config/**/*.bak
 .minecraft/config/cristellib/
+.minecraft/config/adfinders/Targets/
+!.minecraft/config/adfinders/Targets/create.cfg
+!.minecraft/config/adfinders/Targets/minecraft.cfg
 .minecraft/config/chunky.json
 .minecraft/config/spark/activity.json
 .minecraft/config/forgeendertech/cached.dat
