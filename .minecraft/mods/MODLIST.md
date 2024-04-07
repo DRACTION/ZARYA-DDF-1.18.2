@@ -657,6 +657,9 @@
     Имя файла: SimpleBackups-1.18.2-1.1.14.jar
     MD5: D3F144C303D42825EC71B09144C7E096
 ---
+    Имя файла: smallships-forge-1.18.2-2.0.0-b1.1.1.jar
+    MD5: 9A4677C26E2FEC601554A611A8EC0175
+---
     Имя файла: smoothchunk-1.18.2-1.9.jar
     MD5: 2750570598933A38CE6903EC58CF0DE4
 ---

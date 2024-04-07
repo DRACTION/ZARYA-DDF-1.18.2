@@ -230,6 +230,7 @@ key_key.effortlessbuilding.redo.desc:key.keyboard.unknown
 key_key.effortlessbuilding.altplacement.desc:key.keyboard.left.control
 key_fpsreducer.key.openGui:key.keyboard.unknown
 key_fpsreducer.key.forceIdle:key.keyboard.unknown
+key_key.smallships.ship_sail:key.keyboard.c
 key_key.sethorse.desc:key.keyboard.semicolon:SHIFT
 key_key.callhorse.desc:key.keyboard.v:SHIFT
 key_key.showstats.desc:key.keyboard.semicolon
