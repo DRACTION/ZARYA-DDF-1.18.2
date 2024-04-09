@@ -3,12 +3,6 @@
     Имя файла: EclecticTrove-noconfig-1.18-1.2.0.zip
     MD5: 5198CC4B8213258BE69E8DCCBDE24D79
 ---
-    Имя файла: EF_anmation_1.18_v1.0.zip
-    MD5: 98B8AF02BA0C10B0F4B4FAE744B97B61
----
-    Имя файла: Eureka Create 1.0.zip
-    MD5: C3D06D23218F928874FCB72A37BC4B0E
----
     Имя файла: Excalibur_Mod_Support_V1.18.1.1.zip
     MD5: 03C345F2769716262F5222C8815E3DE1
 ---
