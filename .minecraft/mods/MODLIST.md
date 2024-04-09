@@ -765,6 +765,9 @@
     Имя файла: witherstormmod-1.18.2-2.2.1.jar
     MD5: 5C3158AE600FB037FBC0BD5C251C9CA9
 ---
+    Имя файла: workers-1.18.2-1.7.7.jar
+    MD5: 176CF5F0FB43383C676FE0B33E1420E8
+---
     Имя файла: xercamusic-1.18.2-1.1.0.jar
     MD5: 63F5343FC9B42234076700A2C67A0926
 ---

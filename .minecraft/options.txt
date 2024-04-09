@@ -187,6 +187,7 @@ key_iris.keybind.reload:key.keyboard.keypad.7
 key_iris.keybind.toggleShaders:key.keyboard.keypad.8
 key_iris.keybind.shaderPackSelection:key.keyboard.keypad.9
 key_key.pickup.item:key.keyboard.unknown
+key_key.workers.open_command_screen:key.keyboard.right.bracket
 key_key.solapplepie.open_food_book:key.keyboard.unknown
 key_key.wildfire_gender.gender_menu:key.keyboard.apostrophe
 key_key.toggleLiquids:key.keyboard.unknown
