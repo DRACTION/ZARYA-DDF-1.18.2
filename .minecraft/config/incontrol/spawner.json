@@ -6,7 +6,7 @@
     "persecond": 0.2,
     "attempts": 10,
     "amount": {
-      "minimum": 3,
+      "minimum": 4,
       "maximum": 8
     },
 
