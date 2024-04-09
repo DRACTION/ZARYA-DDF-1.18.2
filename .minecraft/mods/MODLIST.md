@@ -357,6 +357,9 @@
     Имя файла: global_packs-forge-1.18.2-1.12.4_forge.jar
     MD5: 721407D023BAC0AECC558D060642362E
 ---
+    Имя файла: goblintraders-1.8.0-1.18.2.jar
+    MD5: 8C4FED34208F865641EFAE6AABB202CC
+---
     Имя файла: golemsarefriends-1.18.2-0.1.0.1.jar
     MD5: E66E1131FAB791E8029EBBFCD844AB79
 ---
