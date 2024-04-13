@@ -25,7 +25,7 @@
 	#Enable generation of fallen trees
 	enableFallenTrees = true
 	#Enable generation of sea oats
-	enableSeaOats = true
+	enableSeaOats = false
 	#Enable generation of bark mushrooms
 	enableBarkMushrooms = true
 	#Enable generation of glowcap
