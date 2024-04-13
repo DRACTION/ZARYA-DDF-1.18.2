@@ -1,0 +1,19 @@
+{
+  "structure.minecraft.desert_pyramid": "Пирамида в пустыне",
+  "structure.minecraft.fortress": "Крепость",
+  "structure.minecraft.jungle_pyramid": "Храм в джунглях",
+  "structure.minecraft.ocean_ruin_cold": "Ледяные подводные руины",
+  "structure.minecraft.ocean_ruin_warm": "Теплые подводные руины",
+  "structure.minecraft.ruined_portal_desert": "Разрушенный портал в пустыне",
+  "structure.minecraft.ruined_portal_jungle": "Разрушенный портал в джунглях",
+  "structure.minecraft.ruined_portal_mountain": "Разрушенный портал на горе",
+  "structure.minecraft.ruined_portal_nether": "Разрушенный адский портал",
+  "structure.minecraft.ruined_portal_ocean": "Разрушенный портал в океане",
+  "structure.minecraft.ruined_portal_swamp": "Разрушенный портал в болоте",
+  "structure.minecraft.shipwreck_beached": "Кораблекрушение на берегу",
+  "structure.minecraft.village_desert": "Деревня в пустыне",
+  "structure.minecraft.village_plains": "Деревня на равнине",
+  "structure.minecraft.village_savanna": "Деревня в саванне",
+  "structure.minecraft.village_snowy": "Деревня в снегу",
+  "structure.minecraft.village_taiga": "Деревня в тайге"
+}
