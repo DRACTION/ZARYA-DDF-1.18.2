@@ -706,7 +706,7 @@
 		}
 		{
 			title: "Починка = навык"
-			x: 0.5d
+			x: 1.0d
 			y: -4.5d
 			subtitle: "Починка предмета через новую механику"
 			description: [
@@ -1253,7 +1253,7 @@
 			title: "Управление конём"
 			icon: "placeableitems:horse_armor_stand_item"
 			disable_toast: true
-			x: -0.5d
+			x: -1.0d
 			y: -4.5d
 			subtitle: "Коней можно подзывать"
 			description: [
@@ -1269,6 +1269,31 @@
 				"Дистанция свиста примерно 150 блоков."
 			]
 			id: "355D52346E92FFE6"
+		}
+		{
+			title: "Что это за структура?"
+			icon: "minecraft:compass"
+			disable_toast: true
+			x: 0.0d
+			y: -4.5d
+			subtitle: "Команда /wits"
+			description: [
+				"В чате будут написаны названия структур, в области которых вы находитесь."
+				""
+				"Название в скобочках можно использовать в {item.explorerscompass.explorerscompass}"
+			]
+			id: "37BAE44EEC7DFA86"
+			tasks: [{
+				id: "0073DD5849927779"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
+			rewards: [{
+				id: "1342ADF2ACDDA20B"
+				type: "command"
+				command: "/wits"
+				player_command: true
+			}]
 		}
 	]
 	quest_links: [ ]

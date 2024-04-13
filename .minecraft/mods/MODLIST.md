@@ -780,6 +780,9 @@
     Имя файла: witherstormmod-1.18.2-2.2.1.jar
     MD5: 5C3158AE600FB037FBC0BD5C251C9CA9
 ---
+    Имя файла: wits-1.1.0-ZaryaEdition+1.18.2-forge.jar
+    MD5: F90C2F71DB7A3F76DBE0F60D00C2D32B
+---
     Имя файла: workers-1.18.2-1.7.7.jar
     MD5: 176CF5F0FB43383C676FE0B33E1420E8
 ---
