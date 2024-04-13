@@ -519,6 +519,9 @@
     Имя файла: modernfix-forge-5.16.0+mc1.18.2.jar
     MD5: 319EDB77499D04F3E8C9B44466B5E605
 ---
+    Имя файла: More Villager Trades 1.0.0 - 1.18.2.jar
+    MD5: 675E2339B2A283BF7E52FDA72F362A23
+---
     Имя файла: morejs-forge-1.18.2-0.0.6.jar
     MD5: C21909209E50CC607BB2BFBD956A8AAE
 ---
