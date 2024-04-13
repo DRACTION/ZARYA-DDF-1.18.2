@@ -717,6 +717,9 @@
     Имя файла: Structory-1.18.2-1.0.2.jar
     MD5: 6CD02BB8740F8BADC224C15AAD729C00
 ---
+    Имя файла: structure-expansion-1802.1.2-build.6.jar
+    MD5: 6FE0E8FE5E422788C5CB33FFA734781A
+---
     Имя файла: structureessentials-1.18.2-3.0.jar
     MD5: 1F8AE3C6B920292043B28E90F6608E9E
 ---
