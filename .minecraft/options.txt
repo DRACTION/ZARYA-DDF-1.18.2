@@ -271,7 +271,7 @@ key_mod.chiselsandbits.keys.reset-caches:key.keyboard.unknown
 key_jecalculation.key.gui_craft:key.keyboard.unknown
 key_jecalculation.key.gui_math:key.keyboard.unknown
 key_key.ftbquests.quests:key.keyboard.unknown
-key_key.paraglider.paragliderSettings:key.keyboard.p:CONTROL
+key_key.paraglider.paragliderSettings:key.keyboard.unknown
 key_tombstone.message.knowledge_of_death:key.keyboard.k
 key_key.zoom:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
