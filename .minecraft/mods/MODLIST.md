@@ -201,8 +201,8 @@
     Имя файла: do-a-barrel-roll-2.5.3+1.18.2-forge.jar
     MD5: 2E43C4484A5B296AD8615160490C96A1
 ---
-    Имя файла: DoggyTalentsNext-1.18.2-1.18.8-ZaryaEdition.jar
-    MD5: F54149D166873DBCBC38637327332CF7
+    Имя файла: DoggyTalentsNext-1.18.2-1.18.11-ZaryaEdition.jar
+    MD5: 05D303AE12895CEBB0B4C963108471D5
 ---
     Имя файла: drippyloadingscreen_forge_3.0.1_MC_1.18.2.jar
     MD5: 0719D7CD0F996FC56026564BFDFD6E25
@@ -276,8 +276,8 @@
     Имя файла: extremesoundmuffler-3.30_forge-1.18.2.jar
     MD5: 9947E95A0F3490F8E8711F364169EEA4
 ---
-    Имя файла: fancymenu_forge_3.1.2_MC_1.18.2.jar
-    MD5: 7138EFCEFA7422A8B420F2316EEFBDD3
+    Имя файла: fancymenu_forge_3.1.5_MC_1.18.2.jar
+    MD5: 4E3A25A29E47624589858EC0CE34B767
 ---
     Имя файла: fantasyfurniture-1.18.2-3.14.0.jar
     MD5: 6D72D8DCD6743A5EC6A079C3FE1E6A05
@@ -516,8 +516,8 @@
     Имя файла: MmmMmmMmmMmm-1.18.2-1.5.2.jar
     MD5: E0C9FD0DB48873DFF2CC0594A09F2208
 ---
-    Имя файла: modernfix-forge-5.15.0+mc1.18.2.jar
-    MD5: A5BABDCEB2D909A7F8DA1AB526354A71
+    Имя файла: modernfix-forge-5.16.0+mc1.18.2.jar
+    MD5: 319EDB77499D04F3E8C9B44466B5E605
 ---
     Имя файла: morejs-forge-1.18.2-0.0.6.jar
     MD5: C21909209E50CC607BB2BFBD956A8AAE
@@ -566,6 +566,9 @@
 ---
     Имя файла: Obscuria's Tooltips 1.4.1 (1.18.2).jar
     MD5: F1A7AAAD243301E35601FDD67EFCEF0F
+---
+    Имя файла: octolib-1.18.2-0.3.jar
+    MD5: 87C3E18E04DDEA3A9866CFD451A501E2
 ---
     Имя файла: oculus-flywheel-compat-1.18.2-0.2.1.jar
     MD5: 8DFC07E3AB3DE0299A0B84AA407D3BA8
@@ -630,8 +633,8 @@
     Имя файла: recruits-1.18.2-1.10.15.jar
     MD5: 9BEB73F7B1A68AE8006A69873840D25E
 ---
-    Имя файла: relics-1.18.2-0.4.1.8.jar
-    MD5: 41522E4ABE03CA6100CC47BFAA8C843A
+    Имя файла: relics-1.18.2-0.6.2.4.jar
+    MD5: C8A6E7F3081CB570261C77D83C0C56AF
 ---
     Имя файла: repurposed_structures_forge-5.1.14+1.18.2.jar
     MD5: B4DB2F99A8FD570C5DAAEFA2FAC2EAAA
@@ -660,8 +663,8 @@
     Имя файла: ShinyHorses-1.18-1.1.jar
     MD5: 376F72C4BF4AA19090310422C2E9888F
 ---
-    Имя файла: ShoulderSurfing-Forge-1.18.2-2.9.7.jar
-    MD5: 71B8C9F6C74EA4B50C2ED04F691E8931
+    Имя файла: ShoulderSurfing-Forge-1.18.2-3.0.0.jar
+    MD5: C66E909E801F6CC72134CB479E8804BF
 ---
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
@@ -729,8 +732,8 @@
     Имя файла: supplementaries-1.18.2-1.5.18.jar
     MD5: 374FF11DC914E4CA9B514B75F18B3BC1
 ---
-    Имя файла: tectonic-forge-1.18-2.3.3.jar
-    MD5: 8643333EF70BDE149DC24B9735586FDA
+    Имя файла: tectonic-forge-1.18-2.3.4a.jar
+    MD5: 4D26C4B19C8E6228044366322E2DB29A
 ---
     Имя файла: TerraBlender-forge-1.18.2-1.2.0.126.jar
     MD5: 8BB74F84DB692A34652D0D8BD2E3749F

@@ -4,8 +4,6 @@
 	enable_kami_particles = false
 	#Disable this if you want to force all PackPuppy Dog to not render their Chest.
 	render_chest = true
-	#Disable this if you prefer to have The Classical Skin rendered on all dog regardless.
-	always_render_classical_skin = true
 	#When enabled, Dogs will show injured texture while incapacitated.
 	render_incapacitated_overlay = true
 	#When sneaking, a part of the dog's name will be rendered with a certain color,
@@ -70,4 +68,10 @@
 	#instance's Integrated Server to provide new players with a Starter Bundle
 	#regardless of the world's serverconfig.
 	enable_starter_bundle_by_default = false
+	#Enable this if you prefer to have The Classical Skin rendered on all dog regardless.
+	always_render_classical = false
+	#the Dog Status String located above the main Dog Name String.
+	dog_info_seperator = " · "
+	#Dog Name String.
+	dog_info_hunger_format = "%d"
 

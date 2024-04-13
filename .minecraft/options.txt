@@ -86,7 +86,7 @@ key_key.sprint:key.keyboard.left.control
 key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.e
 key_key.chat:key.keyboard.unknown
-key_key.playerlist:key.keyboard.tab
+key_key.playerlist:key.keyboard.p
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
 key_key.socialInteractions:key.keyboard.unknown
@@ -205,6 +205,7 @@ key_Camera up:key.keyboard.page.up
 key_Camera down:key.keyboard.page.down
 key_Swap shoulder:key.keyboard.o
 key_Toggle perspective:key.keyboard.unknown
+key_Free look:key.keyboard.tab
 key_key.open_muffler_gui:key.keyboard.unknown
 key_placebo.toggleTrails:key.keyboard.unknown
 key_key.whistle.1:key.keyboard.1:SHIFT
@@ -213,14 +214,8 @@ key_key.whistle.3:key.keyboard.3:SHIFT
 key_key.whistle.4:key.keyboard.4:SHIFT
 key_key.jetpack.toggle_active.description:key.keyboard.g
 key_key.jetpack.toggle_hover.description:key.keyboard.h
-key_key.relics.hud_up:key.keyboard.unknown
-key_key.relics.hud_down:key.keyboard.unknown
-key_key.relics.hud_first:key.keyboard.unknown
-key_key.relics.hud_second:key.keyboard.unknown
-key_key.relics.hud_third:key.keyboard.unknown
-key_key.relics.hud_fourth:key.keyboard.unknown
-key_key.relics.hud_fifth:key.keyboard.unknown
 key_placebo.toggleWings:key.keyboard.unknown
+key_key.relics.ability_list:key.keyboard.caps.lock
 key_framedblocks.key.update_cull:key.keyboard.f9
 key_framedblocks.key.wipe_cache:key.keyboard.unknown
 key_cos.key.opencosarmorinventory:key.keyboard.unknown
@@ -253,7 +248,7 @@ key_key.epicfight.attack:key.mouse.left
 key_key.epicfight.weapon_innate_skill:key.mouse.left
 key_key.epicfight.mover_skill:key.keyboard.space
 key_key.epicfight.skill_gui:key.keyboard.z
-key_key.epicfight.lock_on:key.keyboard.c
+key_key.epicfight.lock_on:key.keyboard.unknown
 key_key.epicfight.config:key.keyboard.unknown
 key_key.advancedcompass.openconfig:key.keyboard.unknown
 key_key.advancedcompass.newwaypoint:key.keyboard.unknown
