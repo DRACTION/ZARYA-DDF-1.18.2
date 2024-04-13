@@ -9,6 +9,9 @@
     Имя файла: AdFinders-1.18.2-7.0.5.0-build.1586.jar
     MD5: FAB4BAC7DFE09589199F0263972A104D
 ---
+    Имя файла: AdvancedCompas-forge-1.18.2-1.2.11.jar
+    MD5: 3E2C647AADB3AADC7C48C08E88BA1E4A
+---
     Имя файла: AdvancementPlaques-1.18.2-1.4.5.1.jar
     MD5: BC7FC787E79C7C718B89FCD806C0D55F
 ---

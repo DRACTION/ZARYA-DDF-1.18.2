@@ -255,6 +255,9 @@ key_key.epicfight.mover_skill:key.keyboard.space
 key_key.epicfight.skill_gui:key.keyboard.z
 key_key.epicfight.lock_on:key.keyboard.c
 key_key.epicfight.config:key.keyboard.unknown
+key_key.advancedcompass.openconfig:key.keyboard.unknown
+key_key.advancedcompass.newwaypoint:key.keyboard.unknown
+key_key.advancedcompass.openwaypointlist:key.keyboard.unknown
 key_mod.chiselsandbits.keys.key.modded-tool.open:key.keyboard.r
 key_mod.chiselsandbits.keys.key.modded-tool.cycle.left:key.keyboard.unknown
 key_mod.chiselsandbits.keys.key.modded-tool.cycle.right:key.keyboard.unknown
