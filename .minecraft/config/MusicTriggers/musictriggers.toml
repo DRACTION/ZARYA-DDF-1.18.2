@@ -45,7 +45,7 @@
 		name = "dimension"
 		resource_name = "overworld"
 		identifier = "overworld_ambient"
-		priority = "3"
+		priority = "2"
 
 [hollow_knight_city_of_tears]
 	[hollow_knight_city_of_tears.trigger]
@@ -192,7 +192,7 @@
 		fade_in = "20"
 		delay = "40"
 		fade_out = "20"
-		priority = "6"
+		priority = "9"
 # =========================
 
 # =========================
@@ -272,7 +272,7 @@
 		resource_name = "BOSS"
 		mob_targeting = "true"
 		identifier = "boss_battle"
-		priority = "9"
+		priority = "8"
 		fade_in = "20"
 		delay = "20"
 		fade_out = "20"
@@ -440,10 +440,10 @@
 		name = "dimension"
 		resource_name = "overworld"
 		identifier = "overworld_night"
-		priority = "4"
+		priority = "3"
     [[jojo_kiras_killer.trigger]]
         name = "time"
-        priority = "4"
+        priority = "3"
         start = "night"
         end = "6"
         identifier = "nighttime"
@@ -581,13 +581,13 @@
 # =========================
 
 # =========================
-# Музыка в океане (по приоритету выше чем generic)
+# Музыка в океане
 [pirates_of_the_caribbean_famous]
 	[pirates_of_the_caribbean_famous.trigger]
 		name = "biome"
 		biome_category = "ocean"
 		identifier = "ocean"
-		priority = "4"
+		priority = "3"
 
 [black_flag_running_down_to_cuba]
 	[black_flag_running_down_to_cuba.trigger]
