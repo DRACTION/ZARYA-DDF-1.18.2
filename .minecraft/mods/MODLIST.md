@@ -180,6 +180,9 @@
     Имя файла: CullLessLeaves-Reforged-1.18.2-1.0.5.jar
     MD5: 6FB676660B3DAC834DCD480F49D3B44F
 ---
+    Имя файла: cupboard-1.18.2-1.5.jar
+    MD5: 31F8A074D1DDE90DBE8830159E7FE773
+---
     Имя файла: curios-forge-1.18.2-5.0.9.2.jar
     MD5: FF272C51D7D3A5CF4A109BDE2CF3F8EE
 ---
@@ -710,6 +713,9 @@
 ---
     Имя файла: Structory-1.18.2-1.0.2.jar
     MD5: 6CD02BB8740F8BADC224C15AAD729C00
+---
+    Имя файла: structureessentials-1.18.2-3.0.jar
+    MD5: 1F8AE3C6B920292043B28E90F6608E9E
 ---
     Имя файла: supermartijn642corelib-1.1.17-forge-mc1.18.jar
     MD5: DBD8B91C46522432154CB6C5950544BC
