@@ -1,0 +1,23 @@
+
+#Recruits Config:
+[Recruits]
+	#----UpdateCheckerServerside----
+	#	(takes effect after restart)
+	#	
+	#Should the client side update checker be active?
+	#It is recommended to keep it enabled to receive information about new bug fixes and features.""
+	#default: true
+	UpdateCheckerServerside = false
+	#----Target Blacklist----
+	#	(takes effect after restart)
+	#	Entities in this list won't be targeted at all, for example: ["minecraft:creeper", "minecraft:sheep", ...]
+	TargetBlackList = ["minecraft:pig"]
+
+#Recruit Village Config:
+[Villages]
+	#
+	#----Should Recruits instead of Iron Golems spawn in Villages ----
+	#	(takes effect after restart)
+	#	default: true
+	OverrideIronGolemSpawn = false
+
