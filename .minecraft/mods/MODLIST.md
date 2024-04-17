@@ -231,8 +231,8 @@
     Имя файла: effortlessbuilding-1.18-2.40.jar
     MD5: 0F49A1401CD7A77AD5D210E3AEA64B84
 ---
-    Имя файла: embeddium-0.3.12+mc1.18.2.jar
-    MD5: 101EEA4E04B4D24C1850AAE22081AA9C
+    Имя файла: embeddium-0.3.14+mc1.18.2.jar
+    MD5: 079DE9BA6A7BEFDBAB2629ABF95215E7
 ---
     Имя файла: emotecraft-for-MC1.18.2-2.2.7-b.build.50-forge.jar
     MD5: F89D6650A0EDB095EDEBDEC3DD6F0641
@@ -516,8 +516,8 @@
     Имя файла: MmmMmmMmmMmm-1.18.2-1.5.2.jar
     MD5: E0C9FD0DB48873DFF2CC0594A09F2208
 ---
-    Имя файла: modernfix-forge-5.16.0+mc1.18.2.jar
-    MD5: 319EDB77499D04F3E8C9B44466B5E605
+    Имя файла: modernfix-forge-5.16.1+mc1.18.2.jar
+    MD5: C294A54E4EC711DA663B68D04CC69FCD
 ---
     Имя файла: More Villager Trades 1.0.0 - 1.18.2.jar
     MD5: 675E2339B2A283BF7E52FDA72F362A23
