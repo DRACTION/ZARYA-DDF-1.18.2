@@ -213,7 +213,7 @@
 # =========================
 # Битвы с мобами
 [mick_gordon_rip_and_tear]
-	[mick_gordon_rip_and_tear.trigger]
+	[[mick_gordon_rip_and_tear.trigger]]
 		name = "mob"
 		resource_name = "MOB"
 		mob_targeting = "true"
@@ -222,46 +222,73 @@
 		fade_in = "20"
 		delay = "40"
 		fade_out = "20"
+	[[mick_gordon_rip_and_tear.trigger]]
+		name = "dimension"
+		identifier = "overworld_ambient"
 
 [mick_gordon_at_dooms_gate_cut]
-	[mick_gordon_at_dooms_gate_cut.trigger]
+	[[mick_gordon_at_dooms_gate_cut.trigger]]
 		name = "mob"
 		identifier = "common_battle"
+	[[mick_gordon_at_dooms_gate_cut.trigger]]
+		name = "dimension"
+		identifier = "overworld_ambient"
 
 [mick_gordon_bfg_division_cut]
-	[mick_gordon_bfg_division_cut.trigger]
+	[[mick_gordon_bfg_division_cut.trigger]]
 		name = "mob"
 		identifier = "common_battle"
+	[[mick_gordon_bfg_division_cut.trigger]]
+		name = "dimension"
+		identifier = "overworld_ambient"
 
 [mick_gordon_harbinger_cut]
-	[mick_gordon_harbinger_cut.trigger]
+	[[mick_gordon_harbinger_cut.trigger]]
 		name = "mob"
 		identifier = "common_battle"
+	[[mick_gordon_harbinger_cut.trigger]]
+		name = "dimension"
+		identifier = "overworld_ambient"
 
 [mick_gordon_skullhacker_cut]
-	[mick_gordon_skullhacker_cut.trigger]
+	[[mick_gordon_skullhacker_cut.trigger]]
 		name = "mob"
 		identifier = "common_battle"
+	[[mick_gordon_skullhacker_cut.trigger]]
+		name = "dimension"
+		identifier = "overworld_ambient"
 
 [jojo_stardust_crusaders]
-	[jojo_stardust_crusaders.trigger]
+	[[jojo_stardust_crusaders.trigger]]
 		name = "mob"
 		identifier = "common_battle"
+	[[jojo_stardust_crusaders.trigger]]
+		name = "dimension"
+		identifier = "overworld_ambient"
 
 [naruto_battle_music]
-	[naruto_battle_music.trigger]
+	[[naruto_battle_music.trigger]]
 		name = "mob"
 		identifier = "common_battle"
+	[[naruto_battle_music.trigger]]
+		name = "dimension"
+		identifier = "overworld_ambient"
 
 [[mick_gordon_cultist_base]]
-	[mick_gordon_cultist_base.trigger]
+	[[mick_gordon_cultist_base.trigger]]
 		name = "mob"
 		identifier = "common_battle"
+	[[mick_gordon_cultist_base.trigger]]
+		name = "dimension"
+		identifier = "overworld_ambient"
 
 [kondrashov_hell_to_pay_instrumental_cut]
-	[kondrashov_hell_to_pay_instrumental_cut.trigger]
+	[[kondrashov_hell_to_pay_instrumental_cut.trigger]]
 		name = "mob"
 		identifier = "common_battle"
+	[[kondrashov_hell_to_pay_instrumental_cut.trigger]]
+		name = "dimension"
+		identifier = "overworld_ambient"
 # =========================
 
 # =========================
