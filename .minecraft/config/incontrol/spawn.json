@@ -291,6 +291,8 @@
     "random": 0.2,
 
     "customname": "Копатель",
+    "healthmultiply": 1.3,
+    "damagemultiply": 1.1,
     "speedmultiply": 1.1,
     "helditem": "minecraft:golden_shovel",
     "potion": "minecraft:fire_resistance,9999,1"
@@ -301,6 +303,8 @@
     "mob": "minecraft:zombie",
 
     "customname": "Грешник",
+    "healthmultiply": 1.2,
+    "damagemultiply": 1.1,
     "speedmultiply": 1.3,
     "potion": "minecraft:fire_resistance,9999,1"
   },
