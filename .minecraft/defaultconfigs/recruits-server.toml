@@ -11,7 +11,7 @@
 	#----Target Blacklist----
 	#	(takes effect after restart)
 	#	Entities in this list won't be targeted at all, for example: ["minecraft:creeper", "minecraft:sheep", ...]
-	TargetBlackList = ["minecraft:pig"]
+	TargetBlackList = ["minecraft:pig", "minecraft:villager", "minecraft:wandering_trader"]
 
 #Recruit Village Config:
 [Villages]
