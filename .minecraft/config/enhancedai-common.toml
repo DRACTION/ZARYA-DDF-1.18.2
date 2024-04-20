@@ -7,7 +7,7 @@
 "Enable Enderman" = true
 "Enable Skeleton" = true
 "Enable Spider" = true
-"Enable Villager" = true
+"Enable Villager" = false
 "Enable Witch" = true
 "Enable Zombie" = true
 
@@ -28,7 +28,7 @@
 	#Change how mobs target players
 	[Base.Targeting]
 		#Mobs will no longer take random time to target a player.
-		"Instant Target" = false
+		"Instant Target" = true
 		#Mobs will be able to find better paths to the target. Note that this might hit performance a bit.
 		"Better Path Finding" = true
 
