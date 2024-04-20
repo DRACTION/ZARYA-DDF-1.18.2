@@ -666,8 +666,8 @@
     Имя файла: ShinyHorses-1.18-1.1.jar
     MD5: 376F72C4BF4AA19090310422C2E9888F
 ---
-    Имя файла: ShoulderSurfing-Forge-1.18.2-3.0.0.jar
-    MD5: C66E909E801F6CC72134CB479E8804BF
+    Имя файла: ShoulderSurfing-Forge-1.18.2-2.9.7.jar
+    MD5: 71B8C9F6C74EA4B50C2ED04F691E8931
 ---
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
