@@ -1,0 +1,8 @@
+
+[Limitations]
+	#Whether these limitations will be imposed to players
+	limitation_imposed = true
+
+	[Limitations."Action Permissions"]
+		permit_Dodge = false
+
