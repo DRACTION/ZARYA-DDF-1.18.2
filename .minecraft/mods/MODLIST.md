@@ -456,9 +456,6 @@
     Имя файла: kotlinforforge-3.12.0-all.jar
     MD5: 9026097FF419BD2D8A10F2E5755D4888
 ---
-    Имя файла: krypton-0.1.10-SNAPSHOT.jar
-    MD5: 78F66D867BBA1BE546C7F77DFF7473CC
----
     Имя файла: kubejs-create-forge-1802.2.4-build.16.jar
     MD5: 270C5984AE8B3EE42384970B9C848E55
 ---
