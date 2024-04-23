@@ -516,8 +516,8 @@
     Имя файла: MmmMmmMmmMmm-1.18.2-1.5.2.jar
     MD5: E0C9FD0DB48873DFF2CC0594A09F2208
 ---
-    Имя файла: modernfix-forge-5.16.1+mc1.18.2.jar
-    MD5: C294A54E4EC711DA663B68D04CC69FCD
+    Имя файла: modernfix-forge-5.17.0+mc1.18.2.jar
+    MD5: C6100717E9C787DAB85F97932F8CAB15
 ---
     Имя файла: More Villager Trades 1.0.0 - 1.18.2.jar
     MD5: 675E2339B2A283BF7E52FDA72F362A23
@@ -558,8 +558,8 @@
     Имя файла: norecipeadvancements-1.18.2-2.0.1.jar
     MD5: 57EEA7EE8788995D393BC214E932946C
 ---
-    Имя файла: notenoughanimations-forge-1.7.1-mc1.18.2.jar
-    MD5: CC5EC6F8D04BC998F8BE0F6095A3F263
+    Имя файла: notenoughanimations-forge-1.7.2-mc1.18.2.jar
+    MD5: 9E4EDD777A911F2560A97EB0FE3A8F97
 ---
     Имя файла: novillagerdm-1.18.1-3.0.0.jar
     MD5: E52D7F5724031B201148CE394787113E
@@ -582,14 +582,14 @@
     Имя файла: OnlyLooking-1.18.2-1.4.0.jar
     MD5: 0C1F8FC21A9EB5C19111B994AD25C183
 ---
-    Имя файла: PacketFixer-forge-1.18.2-1.2.6.jar
-    MD5: FBB3F3A8DC4A2C3FF2C35D4C191F2983
+    Имя файла: packetfixer-forge-1.3.1-1.18-to-1.18.2.jar
+    MD5: 3B2A7CA0DF8B6715EDBA3BE3550177A5
 ---
     Имя файла: Paraglider-1.18.2-1.6.0.6.jar
     MD5: 81952A79862688D8C278C7338748FF1D
 ---
-    Имя файла: ParCool-1.18.2-3.2.0.0-R.jar
-    MD5: 8ACAC263143841C7225B0D9E4A6AD17D
+    Имя файла: ParCool-1.18.2-3.2.1.0-R.jar
+    MD5: 48E75998040C05E13E968D421D88163C
 ---
     Имя файла: parry-2.3.1.jar
     MD5: DD92F34790DCF7D465C37E59C236A606
@@ -693,8 +693,8 @@
     Имя файла: sophisticatedbackpacks-1.18.2-3.20.2.1036.jar
     MD5: 46C54DECA4AACEC4D889C9D59C4ADC34
 ---
-    Имя файла: sophisticatedcore-1.18.2-0.6.4.586.jar
-    MD5: 0BCF961509EE8726470634CFDB9EB624
+    Имя файла: sophisticatedcore-1.18.2-0.6.4.604.jar
+    MD5: 45EBC0BC1609D814DB8B027B9F34F01A
 ---
     Имя файла: soundphysics-forge-1.18.2-1.0.6.jar
     MD5: BC11649A1F9C33B324D3B4A403A593DA
@@ -772,7 +772,7 @@
     MD5: DD94C1D5C9932C41EDB2BE6982265DE5
 ---
     Имя файла: valhelsia_structures-1.18.2-0.1.1-ZaryaEdition.jar
-    MD5: 6E2B8196270AD03EB8A0B7BBDAEC937C
+    MD5: 3882F51FC0F3140FFFA2B226C0DBA67F
 ---
     Имя файла: Villager Comfort-1.18.2-1.0.1.jar
     MD5: 712903839128BCED651555200E8E1DB5
