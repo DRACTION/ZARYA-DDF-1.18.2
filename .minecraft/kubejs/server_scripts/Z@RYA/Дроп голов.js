@@ -1,15 +1,10 @@
 onEvent("lootjs", (event) => {
 	
 	event
-		.addEntityLootModifier("minecraft:wither_skeleton")
-		.removeLoot('minecraft:wither_skeleton_skull')
-		.randomChance(0.1)
-		.addLoot('minecraft:wither_skeleton_skull')
-
-	event
 		.addEntityLootModifier("minecraft:skeleton")
 		.removeLoot('minecraft:skeleton_skull')
-		.randomChance(0.1)
+		.matchMainHand(ItemFilter.SWORD)
+		.randomChance(0.01)
 		.addLoot('minecraft:skeleton_skull')
 
 	event
