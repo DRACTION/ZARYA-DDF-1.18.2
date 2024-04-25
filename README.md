@@ -6,7 +6,7 @@
 
 - [Моды](.minecraft/mods/MODLIST.md)
     - У некоторых модов есть приписка `ZaryaEdition` - это означает, что мод допиливался до потребностей сборки
-- [Музыка](.minecraft/config/MusicTriggers/songs/assets/musictriggers/sounds/music/MUSICLIST.md)
+- [Музыка](.minecraft/config/MusicTriggers/songs/MUSICLIST.md)
 - [Ресурспаки](.minecraft/resourcepacks/RESOURCEPACKLIST.md)
 - [Датапаки](.minecraft/global_packs/required_data/DATAPACKLIST.md)
 

@@ -525,8 +525,8 @@
     Имя файла: MouseTweaks-forge-mc1.18-2.21.jar
     MD5: 3C10DFF8A4D7C157184F2224DB8639A2
 ---
-    Имя файла: musictriggers-1.18.2-5.4-hf-ZaryaEdition.jar
-    MD5: 75A3841C688828AB5BB657E5DDCFE61D
+    Имя файла: musictriggers-1.18.2-6.3.1.jar
+    MD5: 358BE1BAE86970335CE6826DE388A656
 ---
     Имя файла: mvs-3.0.8-1.18.2.jar
     MD5: C47EDA8E5F03E67AF90E3E6A4F550EB2
@@ -740,6 +740,9 @@
 ---
     Имя файла: TerraBlender-forge-1.18.2-1.2.0.126.jar
     MD5: 8BB74F84DB692A34652D0D8BD2E3749F
+---
+    Имя файла: theimpossiblelibrary-1.18.2-0.3.1.jar
+    MD5: 832FA6E329585C7ACE34DFEF11E4B422
 ---
     Имя файла: timeout_fixes-1.18.1-1.0.0.jar
     MD5: 0594E7DE2AE1C0FB82BB350480B3DDDE

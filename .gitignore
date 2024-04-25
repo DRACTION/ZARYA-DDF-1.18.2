@@ -13,13 +13,8 @@
 .minecraft/config/spark/activity.json
 .minecraft/config/forgeendertech/cached.dat
 .minecraft/config/WildfireGender/
-.minecraft/config/MusicTriggers/debug.toml
-.minecraft/config/MusicTriggers/songs/pack.mcmeta
-.minecraft/config/MusicTriggers/songs/assets/musictriggers/lang/
-.minecraft/config/MusicTriggers/songs/assets/musictriggers/models/
-.minecraft/config/MusicTriggers/songs/assets/musictriggers/textures/
-.minecraft/config/MusicTriggers/songs/assets/musictriggers/sounds/music/*.ogg
-.minecraft/config/MusicTriggers/songs/assets/musictriggers/sounds.json
+.minecraft/config/MusicTriggers/example/
+.minecraft/config/MusicTriggers/songs/*.ogg
 .minecraft/config/inventoryprofilesnext/
 !.minecraft/config/inventoryprofilesnext/integrationHints/
 !.minecraft/config/inventoryprofilesnext/inventoryprofiles.json

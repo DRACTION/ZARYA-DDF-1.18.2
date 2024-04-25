@@ -181,12 +181,12 @@ key_key.jei.copy.recipe.id:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.home
 key_key.emotecraft.fastchoose:key.keyboard.t
 key_key.emotecraft.stop:key.keyboard.unknown
-key_key.musictriggers.menu:key.keyboard.unknown
 key_key.modernfix.config:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.keypad.7
 key_iris.keybind.toggleShaders:key.keyboard.keypad.8
 key_iris.keybind.shaderPackSelection:key.keyboard.keypad.9
 key_key.pickup.item:key.keyboard.unknown
+key_key.musictriggers.gui:key.keyboard.unknown
 key_key.workers.open_command_screen:key.keyboard.right.bracket
 key_key.solapplepie.open_food_book:key.keyboard.unknown
 key_key.recruits.r_key:key.keyboard.left.bracket
