@@ -46,9 +46,9 @@
 	#Range: > 1
 	maxLevel = 10
 	#Range: > 1
-	costPerLevel = 40
+	costPerLevel = 60
 	#Range: 0.0 ~ 1.0
-	bonusPerLevel = 0.025
+	bonusPerLevel = 0.02
 	prerequisites = "strength:7"
 
 #Increase speed while sneaking
