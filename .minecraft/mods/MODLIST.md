@@ -819,6 +819,9 @@
     Имя файла: YungsBetterDungeons-1.18.2-Forge-2.1.0.jar
     MD5: 8926095E9AB377A673F2B00F7952FF9C
 ---
+    Имя файла: YungsBetterEndIsland-1.18.2-Forge-1.0.jar
+    MD5: 5D5715495C7F7410DA28570052C6AEB6
+---
     Имя файла: YungsBetterMineshafts-1.18.2-Forge-2.2.jar
     MD5: 8419D7D54B5818FCD34A00AC308CA4FF
 ---
