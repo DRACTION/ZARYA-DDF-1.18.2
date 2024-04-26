@@ -1,6 +1,0 @@
-#Message shown, if a player goes to bed
-sleep_message = "лёг в кроватку."
-#Message shown, if a player leaves his bed
-wake_message = "встал с кроватки."
-#Message shown, if the night was skipped
-morning_message = "Доброе утро! Пора РАБотать..."
