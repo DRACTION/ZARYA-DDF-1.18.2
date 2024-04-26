@@ -80,6 +80,29 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: 3.5d
+			y: 0.0d
+			width: 1.5d
+			height: 1.5d
+			rotation: 0.0d
+			image: "ftblibrary:textures/icons/player.png"
+			hover: [
+				"Как поставить скин?"
+				""
+				"1. Нажми на меня, чтобы перейти на сайт ru.namemc.com и выбрать скин"
+				"2. Нажми ПКМ на значок загрузки возле скина (3-ий сверху)"
+				"3. Скопируй адрес ссылки на картинку"
+				"4. Вернись в игру и нажми \"/\""
+				"(1 вариант) 5. Введи \"setskin classic\", если у скина толщина руки составляет 4 пикселя"
+				"(2 вариант) 5. Введи \"setskin slim\", если у скина толщина руки составляет 3 пикселя"
+				"6. Вставь ранее скопированную ссылку"
+				"7. Нажми \"Enter\" и вауля!"
+			]
+			click: "https://ru.namemc.com/"
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
@@ -114,11 +137,9 @@
 			subtitle: "Используй инструменты, а не голые руки!"
 			id: "03D54BC113BF4723"
 			tasks: [{
-				id: "71484988C9592396"
-				type: "questsadditions:time"
-				title: "Подождать 10 секунд"
-				disable_toast: true
-				elapsedTime: 10L
+				id: "07A775F615D86389"
+				type: "checkmark"
+				title: "Понятно?"
 			}]
 		}
 		{
@@ -209,6 +230,11 @@
 				"> На костре можно делать факела из палок, просто нажми ПКМ на костре с палкой в руках!"
 			]
 			id: "67CB7DCBE25BFB3E"
+			tasks: [{
+				id: "3D11C46E4FF39A1D"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
 			title: "Уникальный лут"
@@ -224,6 +250,11 @@
 				" >  Игрок не может получить или увидеть в сундуке лут другого игрока, даже если его сломает"
 			]
 			id: "73A99AA179A65C54"
+			tasks: [{
+				id: "1BB6610F39269323"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
 			title: "Как теперь быть?"
@@ -651,15 +682,23 @@
 				"4. Навестись на предмет и нажать Y = подсвечивает ближайшие хранилища с нужным предметом"
 			]
 			id: "47A31010FF57D319"
+			tasks: [{
+				id: "23D5694A74671FB7"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
-			title: "Тотем бессмертия"
-			icon: "minecraft:totem_of_undying"
 			disable_toast: true
 			x: -1.0d
 			y: -1.5d
 			subtitle: "Теперь работает и в инвентаре"
 			id: "4B75A83F3E77F288"
+			tasks: [{
+				id: "23F49D7597A49E88"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
 		}
 		{
 			title: "Луна теперь имеет события"
@@ -682,6 +721,11 @@
 				"Голубая луна - дает вам эффект удачи и повышает качество и количество добычи"
 			]
 			id: "1463EB44AC0C25E6"
+			tasks: [{
+				id: "65331BCDC5C71880"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
 			title: "Рассадник мобов"
@@ -703,6 +747,11 @@
 				"> Нежить, появившиеся из рассадника, имеет иммунитет к солнечному загару на 2 минуты"
 			]
 			id: "4E926D040D6B83FE"
+			tasks: [{
+				id: "3BEE48ACA4FE69A8"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
 			title: "Починка = навык"
@@ -810,11 +859,9 @@
 			]
 			id: "20DC31E0E407841C"
 			tasks: [{
-				id: "1246C98F9C6797D6"
-				type: "questsadditions:time"
-				title: "Подождать"
-				disable_toast: true
-				elapsedTime: 1L
+				id: "374AA5F0F47F123A"
+				type: "checkmark"
+				title: "Понятно?"
 			}]
 		}
 		{
@@ -854,6 +901,11 @@
 				"Теперь нет разницы, потратить/получить 1 уровень, когда у вас 10 уровень, и когда у вас 60 уровень"
 			]
 			id: "40E20782A9A5017B"
+			tasks: [{
+				id: "54EFD8D9FA7DAD8D"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
 			title: "Коптильня игрокам не доступна!"
@@ -869,6 +921,11 @@
 				"- Кухонный котёл"
 			]
 			id: "7E877361A41AEEDC"
+			tasks: [{
+				id: "3D3F486E3AF128FE"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
 			title: "{betterleveling.specialization.combat}"
@@ -887,10 +944,9 @@
 			dependencies: ["20DC31E0E407841C"]
 			id: "08A97C190989D2E4"
 			tasks: [{
-				id: "63A7B3DDE430AA4A"
-				type: "questsadditions:time"
-				title: "Подождать"
-				elapsedTime: 1L
+				id: "1B5997A2B809E04D"
+				type: "checkmark"
+				title: "Понятно?"
 			}]
 		}
 		{
@@ -904,10 +960,9 @@
 			dependencies: ["20DC31E0E407841C"]
 			id: "6CDD1C47DE1F207F"
 			tasks: [{
-				id: "4345E5FE2584F014"
-				type: "questsadditions:time"
-				title: "Подождать"
-				elapsedTime: 1L
+				id: "776FD1BF994A7204"
+				type: "checkmark"
+				title: "Понятно?"
 			}]
 		}
 		{
@@ -921,10 +976,9 @@
 			dependencies: ["20DC31E0E407841C"]
 			id: "2788D717EB5EEA2A"
 			tasks: [{
-				id: "1101898AF4B4E4EE"
-				type: "questsadditions:time"
-				title: "Подождать"
-				elapsedTime: 1L
+				id: "22504FF5BD7AF802"
+				type: "checkmark"
+				title: "Понятно?"
 			}]
 		}
 		{
@@ -943,10 +997,9 @@
 			dependencies: ["08A97C190989D2E4"]
 			id: "4F8EAE59C4311AB2"
 			tasks: [{
-				id: "06DB9B2DB767BA99"
-				type: "questsadditions:time"
-				title: "Подождать"
-				elapsedTime: 1L
+				id: "175F928A86928D3F"
+				type: "checkmark"
+				title: "Понятно?"
 			}]
 		}
 		{
@@ -965,10 +1018,9 @@
 			dependencies: ["08A97C190989D2E4"]
 			id: "6D84A6B17343A6D2"
 			tasks: [{
-				id: "173ED15CA2FF7F06"
-				type: "questsadditions:time"
-				title: "Подождать"
-				elapsedTime: 1L
+				id: "084F52C79982FBDC"
+				type: "checkmark"
+				title: "Понятно?"
 			}]
 		}
 		{
@@ -987,6 +1039,11 @@
 			dependencies: ["4F8EAE59C4311AB2"]
 			dependency_requirement: "one_started"
 			id: "7ACE6423FF1B2069"
+			tasks: [{
+				id: "6EABF665123C87E7"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
 			title: "{betterleveling.skill.arrow_speed}"
@@ -1004,6 +1061,11 @@
 			dependencies: ["6D84A6B17343A6D2"]
 			dependency_requirement: "one_started"
 			id: "7B4EA4302C681A6F"
+			tasks: [{
+				id: "35811C4D9169AC53"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
 			title: "{betterleveling.skill.crit_strike}"
@@ -1020,6 +1082,11 @@
 			subtitle: "{betterleveling.skill.crit_strike.description.0}"
 			dependencies: ["08A97C190989D2E4"]
 			id: "6A6753FDBAA3F772"
+			tasks: [{
+				id: "297149B93280780D"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
 			title: "{betterleveling.skill.sneak_speed}"
@@ -1036,6 +1103,11 @@
 			subtitle: "{betterleveling.skill.sneak_speed.description.0}"
 			dependencies: ["08A97C190989D2E4"]
 			id: "4B6CBADD4F2B8B12"
+			tasks: [{
+				id: "01DE711BDB68CBAE"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
 			title: "{betterleveling.skill.stonecutting}"
@@ -1053,10 +1125,9 @@
 			dependencies: ["6CDD1C47DE1F207F"]
 			id: "58207B8C9926539B"
 			tasks: [{
-				id: "1E1E7CACF6C4A0AC"
-				type: "questsadditions:time"
-				title: "Подождать"
-				elapsedTime: 1L
+				id: "635E6B573911BB83"
+				type: "checkmark"
+				title: "Понятно?"
 			}]
 		}
 		{
@@ -1078,6 +1149,11 @@
 			]
 			dependency_requirement: "one_started"
 			id: "6CE10DFD2F180A13"
+			tasks: [{
+				id: "10B5584256D19AE9"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
 			title: "{betterleveling.skill.woodcutting}"
@@ -1095,6 +1171,11 @@
 			dependencies: ["6CDD1C47DE1F207F"]
 			dependency_requirement: "one_started"
 			id: "65A4170D9031FB80"
+			tasks: [{
+				id: "5DFE03D1C32F6DC9"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
 			title: "{betterleveling.skill.prospecting}"
@@ -1112,6 +1193,11 @@
 			dependencies: ["58207B8C9926539B"]
 			dependency_requirement: "one_started"
 			id: "6CA1CD8B18811A6A"
+			tasks: [{
+				id: "5E59270B06CE5D78"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
 			title: "{betterleveling.skill.sprint_speed}"
@@ -1129,6 +1215,11 @@
 			dependencies: ["6CDD1C47DE1F207F"]
 			dependency_requirement: "one_started"
 			id: "05060A88D348B9C4"
+			tasks: [{
+				id: "2389315E25659775"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
 			title: "{betterleveling.skill.soft_landing}"
@@ -1140,6 +1231,11 @@
 			dependencies: ["6CDD1C47DE1F207F"]
 			dependency_requirement: "one_started"
 			id: "139245FB43D2AA5B"
+			tasks: [{
+				id: "3038E1EF5F1921B2"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
 			title: "{betterleveling.skill.green_thumb}"
@@ -1152,10 +1248,9 @@
 			dependency_requirement: "one_started"
 			id: "1A55F9F3121E3144"
 			tasks: [{
-				id: "0B584477D2B9D78E"
-				type: "questsadditions:time"
-				title: "Подождать"
-				elapsedTime: 1L
+				id: "1505F8F126419420"
+				type: "checkmark"
+				title: "Понятно?"
 			}]
 		}
 		{
@@ -1169,10 +1264,9 @@
 			dependency_requirement: "one_started"
 			id: "27DB4B919BCDBAA0"
 			tasks: [{
-				id: "3B2032BD0ED4E0EE"
-				type: "questsadditions:time"
-				title: "Подождать"
-				elapsedTime: 1L
+				id: "0090AB3A017897E2"
+				type: "checkmark"
+				title: "Понятно?"
 			}]
 		}
 		{
@@ -1185,6 +1279,11 @@
 			dependencies: ["2788D717EB5EEA2A"]
 			dependency_requirement: "one_started"
 			id: "2687822A053772F5"
+			tasks: [{
+				id: "3D9E2FCBC054FBBC"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
 			title: "{betterleveling.skill.cooking_speed}"
@@ -1196,6 +1295,11 @@
 			dependencies: ["2788D717EB5EEA2A"]
 			dependency_requirement: "one_started"
 			id: "367E81CE046598A4"
+			tasks: [{
+				id: "6651D48032502E90"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
 			title: "{betterleveling.skill.harvest_proficiency}"
@@ -1207,6 +1311,11 @@
 			dependencies: ["1A55F9F3121E3144"]
 			dependency_requirement: "one_started"
 			id: "0940CC75545229AC"
+			tasks: [{
+				id: "5B1B4F753EEA2DCE"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
 			title: "{betterleveling.skill.meat_gathering}"
@@ -1218,6 +1327,11 @@
 			dependencies: ["27DB4B919BCDBAA0"]
 			dependency_requirement: "one_started"
 			id: "5E97151921CE3021"
+			tasks: [{
+				id: "3F1F9AB45A08CAE4"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
 			title: "Конская броня"
@@ -1269,12 +1383,17 @@
 				"Дистанция свиста примерно 150 блоков."
 			]
 			id: "355D52346E92FFE6"
+			tasks: [{
+				id: "4D01338EEE014A69"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
 		}
 		{
 			title: "Что это за структура?"
 			icon: "minecraft:compass"
 			disable_toast: true
-			x: 0.5d
+			x: 1.0d
 			y: -4.5d
 			subtitle: "Команда /wits"
 			description: [
@@ -1296,8 +1415,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -4.5d
+			x: 0.0d
+			y: -5.5d
 			subtitle: "Доступ к дополнительным слотам на \"R\""
 			description: [
 				"Пояс можно поместить в специальной слот, доступный по кнопке \"0\""
@@ -1314,6 +1433,214 @@
 				id: "44156D811BAF14AA"
 				type: "item"
 				item: "toolbelt:pouch"
+			}]
+		}
+		{
+			title: "Парапланы"
+			x: -2.0d
+			y: -4.5d
+			subtitle: "Планировали планировали, да не выпланировали"
+			description: [
+				"Параплан позволяет парить в воздухе, всё просто)"
+				""
+				"Осторожно - тратит выносливость"
+			]
+			id: "4DE83E0EA881FC2A"
+			tasks: [{
+				id: "7AE65EE945DEE7C4"
+				type: "item"
+				title: "Any #paraglider:paragliders"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "paraglider:paragliders"
+					}
+				}
+			}]
+		}
+		{
+			title: "Парирование"
+			x: 2.0d
+			y: -4.5d
+			subtitle: "Теперь летящие в тебя вещи можно отправить обратно владельцу"
+			description: [
+				"По умолчанию - после поднятия щита появляется временное окно в 2 секунды. После этого времени парирование не сработает."
+				""
+				"Появилось зачарование \"Rebound\", которое увеличит временное окно для парирования."
+			]
+			id: "2501199776844F73"
+			tasks: [{
+				id: "0679BC7D1028C94A"
+				type: "item"
+				item: {
+					id: "minecraft:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Показывает предмет в ближайших контейнерах"
+			icon: "lootr:trophy"
+			disable_toast: true
+			x: 0.0d
+			y: -4.5d
+			subtitle: "Кнопка Y"
+			description: [
+				"Наведите в инвентаре (можно и в JEI) на искомый предмет и нажмите Y."
+				""
+				"Инвентарь закроется и подсветятся все ближайшие контейнеры, где есть этот предмет."
+				""
+				"Радиус действия = 8 блоков"
+			]
+			id: "669491D061138F48"
+			tasks: [{
+				id: "3858BD58032A35AE"
+				type: "checkmark"
+				title: "Понятно?"
+			}]
+		}
+		{
+			title: "Хочу всё попробовать"
+			icon: "minecraft:carrot"
+			disable_toast: true
+			x: -1.0d
+			y: -5.5d
+			subtitle: "Эксперименты с едой приветствуются"
+			description: [
+				"Теперь за употребление различной еды можно получить баффы в виде увеличения здоровья, выносливости и прочего."
+				""
+				"Чем больше съедите РАЗНОЙ еды, тем больше будет максимального здоровья и других эффектов!"
+				""
+				"Прогресс сбрасывается при смерти."
+				""
+				"Отслеживать прогресс можно в книге еды (макс. здоровье) и книге полезной еды (различные эффекты)"
+			]
+			id: "35A8C9E1B3003A34"
+			tasks: [
+				{
+					id: "4870AAF8B7281A33"
+					type: "item"
+					item: "solcarrot:food_book"
+				}
+				{
+					id: "30866371EE42E0F4"
+					type: "item"
+					item: "solapplepie:food_book"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			subtitle: "Находит биомы"
+			id: "28E9A3DC23940FEE"
+			tasks: [{
+				id: "0C1EF05740C79C8E"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			subtitle: "Находит структуры"
+			id: "53549089CC84152B"
+			tasks: [{
+				id: "07C0A936B650B738"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			subtitle: "Сон в путешествии"
+			description: ["Позволяет спать и не сбрасывать точку возрождения"]
+			id: "0805D3AEF9F528CF"
+			tasks: [{
+				id: "7B9C2D34116F58B0"
+				type: "item"
+				title: "Спальный мешок"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "comforts:sleeping_bags"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			subtitle: "Экзотический сон"
+			id: "5B617CABB09EBF0C"
+			tasks: [
+				{
+					id: "4055ACFBA601D71D"
+					type: "item"
+					title: "Гамак"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "comforts:hammocks"
+						}
+					}
+				}
+				{
+					id: "2B0F8624C9B98D24"
+					type: "item"
+					item: "comforts:rope_and_nail"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			subtitle: "Позволит бесплатно перемещаться между путеводными обелисками"
+			min_required_tasks: 1
+			id: "207A7C2374A1DAAC"
+			tasks: [{
+				id: "780932C05E5D66CC"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Компас на экране"
+			icon: "minecraft:compass"
+			x: -1.0d
+			y: -4.5d
+			subtitle: "Появится HUD как в Скуриме"
+			description: [
+				"Если положить в инвентарь компас, то появится HUD, показывающий расстояние и положение мобов и меток относительно игрока."
+				""
+				"Ну да, также показывает стороны света... Как их там... Тьма, свет, полусумрак и рассвет."
+			]
+			id: "2A94036E13FC6C6D"
+			tasks: [{
+				id: "3D804DD861986C9F"
+				type: "item"
+				item: "minecraft:compass"
 			}]
 		}
 	]
