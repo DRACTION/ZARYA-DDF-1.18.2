@@ -60,6 +60,9 @@
     Имя файла: BetterAdvancements-1.18.2-0.2.0.146.jar
     MD5: 38B8481D6FD3A126DA2922DE09C35F36
 ---
+    Имя файла: betterdays-1.18.2-3.1.0.3-FORGE.jar
+    MD5: 2A64E764530250BC6B8C748A228410F6
+---
     Имя файла: betterfpsdist-1.18.2-1.5.jar
     MD5: 51FE964B666B0AB14C40C4F79D029B2B
 ---
