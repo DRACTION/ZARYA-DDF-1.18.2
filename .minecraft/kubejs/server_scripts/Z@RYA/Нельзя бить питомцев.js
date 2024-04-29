@@ -3,8 +3,8 @@ onEvent('entity.hurt', e => {
     if (e.entity == null || e.source.getActual() == null) return
     if (e.source.getActual().isPlayer() && e.entity.isPlayer()) return
 
-    let targetHasOwner   = e.entity.fullNBT.contains('Owner')
-    let attackerHasOwner = e.source.getActual().fullNBT.contains('Owner')
+    let targetHasOwner   = e.entity.fullNBT.contains('Owner') || e.entity.fullNBT.contains('OwnerUUID')
+    let attackerHasOwner = e.source.getActual().fullNBT.contains('Owner') || e.source.getActual().fullNBT.contains('OwnerUUID')
 
     // e.server.tell(`e.entity.fullNBT.contains('Owner') = ${e.entity.fullNBT.contains('Owner')}`)
     // e.server.tell(`e.source.getActual().isPlayer() = ${e.source.getActual().isPlayer()}`)
