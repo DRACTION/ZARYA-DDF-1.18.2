@@ -15,6 +15,8 @@
 .minecraft/config/WildfireGender/
 .minecraft/config/MusicTriggers/example/
 .minecraft/config/MusicTriggers/songs/*.ogg
+.minecraft/config/MusicTriggers/songs/*.opus
+.minecraft/config/MusicTriggers/songs/*.mp3
 .minecraft/config/inventoryprofilesnext/
 !.minecraft/config/inventoryprofilesnext/integrationHints/
 !.minecraft/config/inventoryprofilesnext/inventoryprofiles.json

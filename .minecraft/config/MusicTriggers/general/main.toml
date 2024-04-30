@@ -3,6 +3,10 @@
 # for any specific questions you might have regarding the main config file
 
 [triggers]
+	[[triggers.gui]]
+		priority = "10"
+		resource_name = [ "CREDITS" ]
+		identifier = "credits"
 	[triggers.height]
 		priority = "5"
 		level = "1"
@@ -64,6 +68,7 @@
 		fade_in = "100"
 	[triggers.menu]
 [songs]
+	[songs.shibayanrecords_tiny_little_adiantum]
 	[[songs.diggy_diggy_hole]]
 		triggers = [ "height-underground" "dimension-overworld_ambient" ]
 	[songs.assasins_creed_fish_in_the_sea]

@@ -1,4 +1,4 @@
-﻿## Список музыки с расширением `.OGG` и ХЭШ-суммы
+﻿## Список музыки с расширениями `.OGG` и `.MP3`, а также ХЭШ-суммы
 
     Имя файла: ambient_pride.ogg
     MD5: 6512FE279553EDDC035681E2134FBB75
@@ -290,6 +290,9 @@
 ---
     Имя файла: serega_sad.ogg
     MD5: 363BFF3A3F9335C69DAAB04D934CAEB7
+---
+    Имя файла: shibayanrecords_tiny_little_adiantum.mp3
+    MD5: D54AA9629FD1F7843F5474421050EC7E
 ---
     Имя файла: skullduggers_bully_in_the_alley.ogg
     MD5: F9B2436CB16491AB6D79894403C23D86
