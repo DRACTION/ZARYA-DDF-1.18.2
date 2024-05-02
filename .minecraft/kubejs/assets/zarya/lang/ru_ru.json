@@ -72,6 +72,7 @@
     "structure.mvs.deserthouse": "Маленький домик в пустыне",
     "structure.mvs.boulder": "Валун",
     "structure.mvs.smallwell": "Маленький колодец",
+    "structure.mvs.well": "Колодец",
     "structure.mvs.oakwell": "Дубовый колодец",
     "structure.mvs.acaciawell": "Акациевый колодец",
     "structure.mvs.birchwell": "Берёзовый колодец",
@@ -109,6 +110,11 @@
     "structure.repurposed_structures.igloo_grassy": "Землянка",
     "structure.structury.outcast_villager_grassy": "Спуск в шахту",
     "structure.warden_and_sculk.ancient_city": "Древний город",
+
+  // Sophisticated Backpacks
+
+    "block.sophisticatedbackpacks.copper_backpack": "Медный рюкзак",
+    "item.sophisticatedbackpacks.copper_backpack": "Медный рюкзак",
 
   // Workers
 
