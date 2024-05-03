@@ -81,6 +81,9 @@
     Имя файла: betterpunching-1.18.2-1.2.0-ZaryaEdition.jar
     MD5: 04D9EEC9679954BC27CF608EF2093CAD
 ---
+    Имя файла: Bookshelf-Forge-1.18.2-13.3.56.jar
+    MD5: E36DA3BB9BC1B84B136106939043563C
+---
     Имя файла: BowInfinityFix-1.18.x-rv11.jar
     MD5: 22BB0004EA21D097C1794920EA674BD9
 ---
@@ -353,6 +356,9 @@
 ---
     Имя файла: fusion-1.1.1-forge-mc1.18.jar
     MD5: 17C328D5493C3D39CFAEDE60FC2496AC
+---
+    Имя файла: GameStages-Forge-1.18.2-8.1.3.jar
+    MD5: 67AAF7D0E98BCEB72701885792F6F859
 ---
     Имя файла: geckolib-forge-1.18-3.0.57.jar
     MD5: D491C30C6D9BD3F767BD545CBAF6502E
