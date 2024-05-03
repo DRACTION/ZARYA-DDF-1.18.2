@@ -16,10 +16,22 @@
 
     "result": "allow"
   },
+  //////// Only Night Spawn ////////
+  {
+    "difficulty": "hard",
+    "dimension": "minecraft:overworld",
+    "gamestage": "nerf_enemies",
+    "hostile": true,
+    "spawner": false,
+    "time": "outsideRange(13000,23000)",
+
+    "result": "deny"
+  },
   //////// Reduce Spawn ////////
   {
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
+    "gamestage": "nerf_enemies",
     "mob": "minecraft:skeleton",
     "spawner": false,
     "incontrol": false,
@@ -34,6 +46,7 @@
   {
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
+    "gamestage": "nerf_enemies",
     "mob": "minecraft:drowned",
     "spawner": false,
     "incontrol": false,
@@ -48,6 +61,7 @@
   {
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
+    "gamestage": "nerf_enemies",
     "mob": "minecraft:creeper",
     "spawner": false,
     "incontrol": false,
@@ -62,6 +76,7 @@
   {
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
+    "gamestage": "nerf_enemies",
     "mob": ["minecraft:spider", "minecraft:cave_spider"],
     "spawner": false,
     "incontrol": false,
@@ -76,6 +91,7 @@
   {
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
+    "gamestage": "nerf_enemies",
     "hostile": true,
     "spawner": false,
     "incontrol": false,
@@ -90,6 +106,7 @@
   {
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
+    "gamestage": "nerf_enemies",
     "hostile": true,
     "spawner": false,
     "incontrol": false,
@@ -101,11 +118,20 @@
 
     "result": "deny"
   },
+  //////// Enderman with End stone ////////
+  {
+    "difficulty": "hard",
+    "dimension": "minecraft:overworld",
+    "mob": "minecraft:enderman",
+    "random": 0.1,
+
+    "helditem": "minecraft:end_stone"
+  },
   //////// Nerf Enemies ////////
   {
-    "maxdaycount": 51,
-    "dimension": "minecraft:overworld",
     "difficulty": "hard",
+    "dimension": "minecraft:overworld",
+    "gamestage": "nerf_enemies",
     "hostile": true,
     "spawner": false,
     "incontrol": false,
@@ -114,17 +140,18 @@
   },
   {
     "difficulty": "hard",
+    "gamestage": "nerf_enemies",
     "mob": ["minecraft:spider", "minecraft:cave_spider"],
     "spawner": false,
     "incontrol": false,
 
     "speedmultiply": 0.7
   },
-  //////// 20 Days ////////
+  //////// Nether Visited ////////
   {
-    "phase": "after_20_days",
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
+    "gamestage": "enter_the_nether",
     "mob": "minecraft:zombie",
     "baby": false,
     "seesky": false,
@@ -141,22 +168,19 @@
     "nbt": {"IsBaby":false}
   },
   {
-    "phase": "after_20_days",
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
+    "gamestage": "enter_the_nether",
     "mob": "minecraft:spider",
     "seesky": false,
     "random": 0.1,
-
-    // "result": "default",
 
     "healthmultiply": 0.25,
     "speedmultiply": 2.0,
     "potion": "minecraft:invisibility,9999,1"
   },
-  //////// 30 Days ////////
   {
-    "phase": "after_30_days",
+    "gamestage": "enter_the_nether",
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
     "mob": "minecraft:zombie",
@@ -175,7 +199,7 @@
     "nbt": {"IsBaby":false}
   },
   {
-    "phase": "after_30_days",
+    "gamestage": "enter_the_nether",
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
     "mob": "minecraft:skeleton",
@@ -186,9 +210,8 @@
     "speedmultiply": 2.0,
     "potion": "minecraft:invisibility,9999,1"
   },
-  //////// 40 Days ////////
   {
-    "phase": "after_40_days",
+    "gamestage": "enter_the_nether",
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
     "mob": "minecraft:zombie",
@@ -213,7 +236,7 @@
     "nbt": {"IsBaby":false}
   },
   {
-    "phase": "after_40_days",
+    "gamestage": "enter_the_nether",
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
     "mob": "minecraft:spider",
@@ -224,13 +247,23 @@
     "speedmultiply": 1.8,
     "potion": "minecraft:invisibility,9999,1"
   },
-  //////// 50 Days ////////
+  //////// Ender Visited ////////
   {
-    "phase": "after_50_days",
+    "difficulty": "hard",
+    "dimension": "minecraft:overworld",
+    "gamestage": "enter_the_end",
+    "hostile": true,
+
+    "healthmultiply": 1.3,
+    "damagemultiply": 1.4,
+    "speedmultiply": 1.1
+  },
+  {
+    "gamestage": "enter_the_end",
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
     "mob": "minecraft:enderman",
-    "random": 0.2,
+    "random": 0.3,
 
     "customname": "Контуженный",
     "angry": true,
@@ -238,7 +271,7 @@
     "helditem": "minecraft:end_stone"
   },
   {
-    "phase": "after_50_days",
+    "gamestage": "enter_the_end",
     "difficulty": "hard",
     "dimension": "minecraft:overworld",
     "mob": "minecraft:skeleton",
