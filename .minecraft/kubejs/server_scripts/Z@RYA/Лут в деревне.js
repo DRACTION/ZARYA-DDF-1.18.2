@@ -54,7 +54,16 @@ onEvent("lootjs", (event) => {
 			"ctov:small/village_snowy",
 			"ctov:small/village_taiga"
 			], false)
-		.replaceLoot("minecraft:bread", "minecraft:bread")
-		.replaceLoot("minecraft:potato", "minecraft:potato")
-		.replaceLoot("minecraft:apple", "minecraft:apple")
+		.modifyLoot("minecraft:bread", (itemStack) => {
+			itemStack.setCount(Math.random() < 0.3 ? 1 : 0);
+			return itemStack;
+		})
+		.modifyLoot("minecraft:potato", (itemStack) => {
+			itemStack.setCount(Math.random() < 0.3 ? 1 : 0);
+			return itemStack;
+		})
+		.modifyLoot("minecraft:apple", (itemStack) => {
+			itemStack.setCount(Math.random() < 0.3 ? 1 : 0);
+			return itemStack;
+		})
 })
