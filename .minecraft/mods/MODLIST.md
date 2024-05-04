@@ -423,6 +423,9 @@
     Имя файла: Jade-1.18.2-forge-5.3.2.jar
     MD5: 615D755442E7C936FD25CAD5D29341FC
 ---
+    Имя файла: JadeAddons-1.18.2-forge-2.5.0.jar
+    MD5: D2F04EDA510D31AD32DA19BDE645666D
+---
     Имя файла: jecalculation-forge-1.18.2-4.0.4.jar
     MD5: 2B79201FDC5CC1399FCD267788FE2611
 ---

@@ -3,12 +3,12 @@
     "horse_inventory": true,
     "total_ench_power": true,
     "chicken_egg": true,
-    "jukebox": true,
     "horse_stat": true,
+    "jukebox": true,
     "brewing_stand": true,
     "animal_owner": true,
-    "note_block": true,
     "inventory": true,
+    "note_block": true,
     "beehive": true,
     "player_head": true,
     "lectern": true,
@@ -34,6 +34,13 @@
     "redstone": true,
     "fe": true
   },
+  "create": {
+    "contraption_inv": true,
+    "blaze_burner": true,
+    "exact_block": true,
+    "crafting_blueprint": true,
+    "placard": true
+  },
   "jade": {
     "block_states": false,
     "entity_armor": true,
@@ -41,6 +48,9 @@
     "item_mod_name": false,
     "mod_name": true,
     "entity_hp": true
+  },
+  "lootr": {
+    "info": true
   },
   "productivebees": {
     "bee_attributes": true
