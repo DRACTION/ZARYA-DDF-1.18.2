@@ -32,7 +32,7 @@
 	#Range: 0 ~ 10
 	overlapThreshold = 4
 	#Create waypoint on death
-	autoDeathWaypoint = true
+	autoDeathWaypoint = false
 	#Compass show mode
 	#Allowed Values: OFF, ALWAYS_ON, MAIN_HAND, BOTH_HANDS, ANY_SLOT
 	showMode = "ANY_SLOT"
