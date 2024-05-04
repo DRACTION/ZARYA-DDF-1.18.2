@@ -21,7 +21,7 @@ onEvent('recipes', e => {
 		)
 	})
 	
-    e.remove({id:'farmersdelight:cutting/quartz_block'})
+	e.remove({id:'farmersdelight:cutting/quartz_block'})
 	e.custom({
 		"type": "farmersdelight:cutting",
 		"ingredients": [
@@ -40,6 +40,10 @@ onEvent('recipes', e => {
 			}
 		]
 	}).id('zarya:cutting/quartz_block')
+	
+	e.remove({id:'farmersdelight:lead_from_straw'})
+	e.remove({id:'minecraft:lead'})
+	e.shaped('minecraft:lead', ['R','R'], {R: 'supplementaries:rope'}).id('zarya:lead_from_rope')
 
 })
 
@@ -61,7 +65,6 @@ onEvent("lootjs", (event) => {
 			"#forge:grass",
 			'projectvibrantjourneys:short_grass'
 		])
-		.matchPlayer((player) => {})
 		.randomChance(0.1)
 		.addLoot('farmersdelight:straw')
 })
