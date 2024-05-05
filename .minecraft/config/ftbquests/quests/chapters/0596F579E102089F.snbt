@@ -237,7 +237,7 @@
 			x: 2.5d
 			y: -3.0d
 			subtitle: "Может это что-то запрещённое?"
-			description: ["Собака под чем-то..."]
+			description: ["Собака съела товар..."]
 			id: "3BD1FEE1D4E63F45"
 			tasks: [{
 				id: "5EE98F1F5A28ED48"
