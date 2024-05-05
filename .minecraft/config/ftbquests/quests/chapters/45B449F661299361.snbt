@@ -26,20 +26,23 @@
 			y: 1.0d
 			shape: "rsquare"
 			subtitle: "Больше места"
-			description: [
-				"Если таскать с собой больше 2 рюкзаков, получишь замедление"
-				""
-				"Pro Tip: Ещё один рюкзак без штрафа можно поместить в слот косметической брони"
-			]
+			description: ["Если таскать с собой больше 3 рюкзаков, получишь замедление"]
 			dependencies: ["71AF6770E613A501"]
 			size: 2.0d
 			id: "58886861BDE4DA5C"
-			tasks: [{
-				id: "1938BB21F39E6215"
-				type: "item"
-				disable_toast: true
-				item: "sophisticatedbackpacks:backpack"
-			}]
+			tasks: [
+				{
+					id: "1938BB21F39E6215"
+					type: "item"
+					disable_toast: true
+					item: "sophisticatedbackpacks:backpack"
+				}
+				{
+					id: "198B41F2230FC3FF"
+					type: "checkmark"
+					title: "Понятно?"
+				}
+			]
 		}
 		{
 			x: 0.0d

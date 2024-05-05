@@ -125,6 +125,7 @@
 			rewards: [{
 				id: "1AD2C37754C4A93B"
 				type: "item"
+				auto: "enabled"
 				item: "sophisticatedbackpacks:backpack"
 			}]
 		}
