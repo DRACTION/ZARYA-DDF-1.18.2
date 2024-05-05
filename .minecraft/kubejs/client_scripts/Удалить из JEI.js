@@ -4,8 +4,6 @@ let za_removedItems = [
 	'betterpunching:flint_spade',
 	'betterpunching:flint_pick',
 	'betterpunching:flint_hatchet',
-	// Relics
-	'relics:arrow_quiver',
 	// Create
 	'create:dough',
 	// Farmers Delight

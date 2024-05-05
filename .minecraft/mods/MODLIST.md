@@ -642,8 +642,8 @@
     Имя файла: recruits-1.18.2-1.10.15.jar
     MD5: 9BEB73F7B1A68AE8006A69873840D25E
 ---
-    Имя файла: relics-1.18.2-0.6.2.4.jar
-    MD5: C8A6E7F3081CB570261C77D83C0C56AF
+    Имя файла: relics-1.18.2-0.6.2.4-ZaryaEdition.jar
+    MD5: 7A48D519170ED1BBD8CE0F77C2C9A735
 ---
     Имя файла: repurposed_structures_forge-5.1.14+1.18.2.jar
     MD5: B4DB2F99A8FD570C5DAAEFA2FAC2EAAA
