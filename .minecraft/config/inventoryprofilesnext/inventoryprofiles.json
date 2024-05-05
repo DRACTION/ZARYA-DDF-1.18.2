@@ -3,6 +3,9 @@
         "highlight_foused_items_animated": {
             "value": true
         },
+        "villager_trading_enable": {
+            "value": false
+        },
         "enable_updates_check": false,
         "first_run": false
     },
