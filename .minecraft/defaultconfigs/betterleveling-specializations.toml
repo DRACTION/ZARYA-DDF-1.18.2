@@ -5,7 +5,7 @@
 [combat]
 	#Define how much levels the player needs to unlock the Combat specialization
 	#Range: > 0
-	cost = 15
+	cost = 5
 
 #Crafting Specialization
 #Craft and gather resources
@@ -13,7 +13,7 @@
 [crafting]
 	#Define how much levels the player needs to unlock the Crafting specialization
 	#Range: > 0
-	cost = 15
+	cost = 5
 
 #Mining Specialization
 #Branch mining is for cowards
@@ -21,5 +21,5 @@
 [mining]
 	#Define how much levels the player needs to unlock the Mining specialization
 	#Range: > 0
-	unlockCost = 15
+	unlockCost = 5
 

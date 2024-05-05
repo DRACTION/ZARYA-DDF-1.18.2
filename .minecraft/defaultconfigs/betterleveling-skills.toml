@@ -2,63 +2,63 @@
 #Increase melee damage
 [strength]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 30
 	#Range: > 1
-	costPerLevel = 60
+	costPerLevel = 50
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.05
+	bonusPerLevel = 0.025
 	prerequisites = ""
 
 #Increase critical chance
 [criticalstrike]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 20
 	#Range: > 1
-	costPerLevel = 50
+	costPerLevel = 30
 	#Range: 0.0 ~ 1.0
-	bonusPerLevel = 0.05
-	prerequisites = "strength:4"
+	bonusPerLevel = 0.025
+	prerequisites = "strength:20"
 	#If set to true, vanilla crits will be disabled
 	disableVanillaCrits = false
 
 #Increase bow charge speed
 [quickdraw]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 25
 	#Range: > 1
-	costPerLevel = 50
+	costPerLevel = 35
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.05
-	prerequisites = ""
+	bonusPerLevel = 0.02
+	prerequisites = "strength:10"
 
 #Increase arrow velocity
 [arrowspeed]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 15
 	#Range: > 1
-	costPerLevel = 40
+	costPerLevel = 35
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.03
-	prerequisites = "quick_draw:4"
+	bonusPerLevel = 0.02
+	prerequisites = "quick_draw:10"
 
 #Decrease damage taken
 [ironskin]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 30
 	#Range: > 1
-	costPerLevel = 60
+	costPerLevel = 50
 	#Range: 0.0 ~ 1.0
-	bonusPerLevel = 0.02
-	prerequisites = "strength:7"
+	bonusPerLevel = 0.012
+	prerequisites = "strength:20"
 
 #Increase speed while sneaking
 [sneakspeed]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 30
 	#Range: > 1
-	costPerLevel = 40
+	costPerLevel = 20
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.05
+	bonusPerLevel = 0.025
 	prerequisites = ""
 
 #Every X ticks, chance to grow crops around
@@ -66,33 +66,33 @@
 	#Range: > 20
 	greenThumbTickRate = 100
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 15
 	#Range: > 1
-	costPerLevel = 40
+	costPerLevel = 25
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.015
+	bonusPerLevel = 0.01
 	prerequisites = ""
 
 #Chance to gather extra crops on harvest
 [harvestproficiency]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 25
 	#Range: > 1
-	costPerLevel = 50
+	costPerLevel = 30
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.075
+	bonusPerLevel = 0.03
 	#Range: 0.0 ~ 1.7976931348623157E308
 	potentialLootBound = 1.0
-	prerequisites = "green_thumb:4"
+	prerequisites = "green_thumb:8"
 
 #Chance to gather extra skins from animals
 [skinning]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 25
 	#Range: > 1
 	costPerLevel = 40
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.075
+	bonusPerLevel = 0.03
 	#Range: 0.0 ~ 1.7976931348623157E308
 	potentialLootBound = 1.0
 	prerequisites = ""
@@ -100,100 +100,100 @@
 #Chance to drop extra meat from animals
 [meatgathering]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 30
 	#Range: > 1
-	costPerLevel = 50
+	costPerLevel = 40
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.05
+	bonusPerLevel = 0.025
 	#Range: 0.0 ~ 2.147483647E9
 	potentialLootBound = 1.0
-	prerequisites = "skinning:4"
+	prerequisites = "skinning:15"
 
 #Increase speed under water
 [swimspeed]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 25
 	#Range: > 1
 	costPerLevel = 40
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.1
+	bonusPerLevel = 0.05
 	prerequisites = ""
 
 #Decrease total cooking time
 [cookingspeed]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 30
 	#Range: > 1
-	costPerLevel = 50
+	costPerLevel = 40
 	#Range: 0.0 ~ 1.0
-	bonusPerLevel = 0.09
+	bonusPerLevel = 0.03
 	prerequisites = ""
 
 #Increase stone mining speed
 [stonecutting]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 25
 	#Range: > 1
-	costPerLevel = 40
+	costPerLevel = 20
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.05
+	bonusPerLevel = 0.02
 	prerequisites = ""
 
 #Chance to increase yield from ores
 [prospecting]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 30
 	#Range: > 1
-	costPerLevel = 50
+	costPerLevel = 40
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.04
+	bonusPerLevel = 0.025
 	#Range: 0.0 ~ 1.7976931348623157E308
 	potentialLootBound = 1.0
-	prerequisites = "stonecutting:4"
+	prerequisites = "stonecutting:12"
 
 #Increase wood chopping speed
 [woodcutting]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 25
 	#Range: > 1
-	costPerLevel = 40
+	costPerLevel = 20
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.05
+	bonusPerLevel = 0.02
 	prerequisites = ""
 
 #Random chance to find treasure while digging
 [treasurehunting]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 25
 	#Range: > 1
-	costPerLevel = 60
+	costPerLevel = 50
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.0125
+	bonusPerLevel = 0.005
 	#Range: > 1
 	rareTreasureWeight = 1
 	#Range: > 1
 	uncommonTreasureWeight = 3
 	#Range: > 1
 	commonTreasureWeight = 6
-	prerequisites = "prospecting:3,stonecutting:8"
+	prerequisites = "prospecting:15"
 
 #Decrease fall damage taken
 [softlanding]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 30
 	#Range: > 1
-	costPerLevel = 20
+	costPerLevel = 40
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.035
+	bonusPerLevel = 0.025
 	prerequisites = ""
 
 #Increase movement speed while sprinting
 [sprintspeed]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 30
 	#Range: > 1
 	costPerLevel = 40
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.05
+	bonusPerLevel = 0.008
 	prerequisites = ""
 
