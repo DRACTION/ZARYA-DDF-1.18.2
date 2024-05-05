@@ -1,0 +1,26 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "forge:attack_range",
+	"operation": "ADDITION",
+	"values": {
+		"epic": {
+			"min": 0.25,
+			"steps": 3,
+			"step": 0.25
+		},
+		"mythic": {
+			"min": 0.5,
+			"steps": 3,
+			"step": 0.25
+		},
+		"ancient": {
+			"min": 0.75,
+			"steps": 4,
+			"step": 0.25
+		}
+	},
+	"types": [
+		"SWORD",
+		"TRIDENT"
+	]
+}
