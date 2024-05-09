@@ -1,7 +1,13 @@
 ﻿## Список музыки с расширениями `.OGG` и `.MP3`, а также ХЭШ-суммы
 
+    Имя файла: alibi_armageddon.mp3
+    MD5: 3C154C1C1543CEA3C70979D5602E5929
+---
     Имя файла: ambient_pride.ogg
     MD5: 6512FE279553EDDC035681E2134FBB75
+---
+    Имя файла: ashley_serena_lullaby_of_woe.mp3
+    MD5: EEFB8C70EA71456A8DF0BDDC3F07297E
 ---
     Имя файла: assasins_creed_fish_in_the_sea.ogg
     MD5: 972FC3DC486CF413AEE7CF227093460E
@@ -69,6 +75,9 @@
     Имя файла: dragonforce_through_the_fire_and_flames_instrumental.ogg
     MD5: 61EB7ADBF52C6E22960289CCEF5FF8DA
 ---
+    Имя файла: epikus_otar_the_foul.mp3
+    MD5: 6DD7BD348D8A057473780D84F70DE9D8
+---
     Имя файла: ffdp_down_with_the_the_sickness_instrumental.ogg
     MD5: 41BD0AC497E057904AFF8849F12F63D6
 ---
@@ -86,9 +95,6 @@
 ---
     Имя файла: halo_2_menu.ogg
     MD5: EA756D115988AAA0624EB3FFF9439706
----
-    Имя файла: hollow_knight_city_of_tears.ogg
-    MD5: B324169B1ED2ABADD73EC11E55FEE655
 ---
     Имя файла: hollow_knight_crossroads.ogg
     MD5: 1AB97DAA1F5400E839C84B70972D413D
@@ -122,9 +128,6 @@
 ---
     Имя файла: hollow_knight_the_white_lady.ogg
     MD5: 6D8D4C43F7286170856F97A42AAFBB44
----
-    Имя файла: hollow_knight_white_palace.ogg
-    MD5: 1F6421F6591C3875A30AE2151F5E9F73
 ---
     Имя файла: hom3_main_menu.ogg
     MD5: 46C507AED456F9F5DA05E810C01526D1
@@ -216,6 +219,9 @@
     Имя файла: naruto_battle_music.ogg
     MD5: F3C4CBA62F7F7CBE62A886950010871F
 ---
+    Имя файла: oleg_semenov_dark_angel.mp3
+    MD5: 11206778C9479B7FC4FA3B80A921C01C
+---
     Имя файла: orchestral_wellerman.ogg
     MD5: A6E955EDD457D0806316DE930F31F1D8
 ---
@@ -231,6 +237,9 @@
     Имя файла: pacifica_music_hell_from_above.ogg
     MD5: DC0AFDA6CB062FDB6371E7682D376F3A
 ---
+    Имя файла: peter_gundry_a_grave_conversation.mp3
+    MD5: 002D338C561B87213FE471DF0ED14275
+---
     Имя файла: pirates_of_the_caribbean_famous.ogg
     MD5: 992D1332E9141C32A5BEE01BEF33E039
 ---
@@ -242,6 +251,9 @@
 ---
     Имя файла: rannar_sillard_summits.ogg
     MD5: 1FD9493901AE98BE51F50643C6BB1427
+---
+    Имя файла: red_moth_darkness_below.mp3
+    MD5: 26E809454C584DC0AC0898D0660C6D17
 ---
     Имя файла: robin_beanland_adventure_awaits.ogg
     MD5: 2F2799AE1A424E6114AD79659F5C2982
@@ -327,6 +339,36 @@
     Имя файла: stranger_things_c418_remix.ogg
     MD5: 984234635259CB6CEB0935EEE44CE2EF
 ---
+    Имя файла: suno_aerial_awakening.mp3
+    MD5: 365EA0718651D2642A74DE8F128048E3
+---
+    Имя файла: suno_aimusiclounge_lofi_chillout_v2.mp3
+    MD5: 2C8E8FBC14FE6008E606DBA77F0471ED
+---
+    Имя файла: suno_a_knights_calm.mp3
+    MD5: FEE8BD7A253787DAFAE1A07955BEA1AC
+---
+    Имя файла: suno_dmgmedia_ashes.mp3
+    MD5: B4BA80E8E24545BEEA653779328A53F2
+---
+    Имя файла: suno_iroot_cello.mp3
+    MD5: 71FA7D026B318C099474562D8C4EA1BA
+---
+    Имя файла: suno_kant_bridge.mp3
+    MD5: 6BBCA375E7914788E77E98716F4807D2
+---
+    Имя файла: suno_lounge_radio.mp3
+    MD5: 25E98699EDEF7B9EC9508569E8C1D008
+---
+    Имя файла: suno_tarsit_rastar.mp3
+    MD5: A4A0F7DC81437C79060781E2AD738750
+---
+    Имя файла: suno_wanderlust.mp3
+    MD5: F094CDD8397A5E6C9090C46DEB88D4B9
+---
+    Имя файла: suno_zarya_prepare_to_die.mp3
+    MD5: 2720D9BE6C32513EE5B83458E7FB57AF
+---
     Имя файла: the_only_thing_they_fear_is_you.ogg
     MD5: 5EC4BB46DC9B6310742ED007F048B58D
 ---
@@ -335,6 +377,9 @@
 ---
     Имя файла: tokyo_machine_rock_it.ogg
     MD5: 406EB51D2DF5A24ED8EC7841C451CF17
+---
+    Имя файла: tom_player_axis.mp3
+    MD5: 48FBD2DEBB7308F3E3C07BAFBED85C0D
 ---
     Имя файла: van_halen_jump.ogg
     MD5: AF0B87333CF8876CF1EE0F6E5827D97C
