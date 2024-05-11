@@ -1,3 +1,7 @@
+onEvent('recipes', e => {
+  e.recipes.create.milling('minecraft:blaze_powder', 'projectvibrantjourneys:cindercane')
+})
+
 onEvent("lootjs", (event) => {
 
 	let minBones = 2
