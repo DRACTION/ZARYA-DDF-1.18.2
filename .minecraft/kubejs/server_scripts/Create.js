@@ -1,5 +1,9 @@
 onEvent('recipes', e => {
 
+  //////////// Андезитовый сплав только из цинка ////////////
+  e.remove({id:'create:crafting/materials/andesite_alloy'})
+  e.remove({id:'create:mixing/andesite_alloy'})
+
   e.remove({id:'create:splashing/crushed_raw_iron'})
   e.recipes.createSplashing(
     [
