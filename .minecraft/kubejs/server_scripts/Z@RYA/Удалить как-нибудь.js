@@ -60,6 +60,9 @@ let za_removedItems = [
 	'doggytalents:grand_piano_white_item',
 	'doggytalents:upright_piano_black_item',
 	'doggytalents:upright_piano_brown_item',
+	// Productive Bees
+	'productivebees:centrifuge',
+	'productivebees:powered_centrifuge',
 	// Effortless Building
 	'effortlessbuilding:randomizer_bag',
 	'effortlessbuilding:golden_randomizer_bag',
