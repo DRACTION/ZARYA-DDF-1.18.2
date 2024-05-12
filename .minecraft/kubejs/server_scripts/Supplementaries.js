@@ -3,5 +3,17 @@ onEvent('item.tags', e => {
 })
 
 onEvent('recipes', e => {
-	e.replaceInput({id: 'supplementaries:spiky_bomb_2'}, 'chemlib:lead_ingot', '#forge:ingots/brass')
+	e.shaped('4x supplementaries:bomb_spiky',
+		[
+			"ZIS",
+			"ITI",
+			"ZIZ"
+		],
+		{
+			S: '#forge:string',
+			T: 'minecraft:tnt',
+			Z: '#forge:nuggets/zinc',
+			I: '#zarya:copper_iron'
+		}
+	)
 })

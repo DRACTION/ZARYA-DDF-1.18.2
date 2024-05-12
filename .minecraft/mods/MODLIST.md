@@ -18,12 +18,6 @@
     Имя файла: AI-Improvements-1.18.2-0.5.2.jar
     MD5: C2A9FF424722FED70180708AB83E9901
 ---
-    Имя файла: alchemistry-1.18.2-2.2.4.jar
-    MD5: 0FE84FF4E4D66E2CAA5DCEECE5C3E926
----
-    Имя файла: alchemylib-1.18.2-1.0.22.jar
-    MD5: F26B2F68B870B6A403DB003556BA4E4B
----
     Имя файла: alternate-current-mc1.18-1.2.1.jar
     MD5: A85AFDD1E2123590B274F4A84CE11581
 ---
@@ -101,9 +95,6 @@
 ---
     Имя файла: chat_heads-0.6.1-forge-1.18.2.jar
     MD5: F32370349E4569493B9FF13043B39C0D
----
-    Имя файла: chemlib-1.18.2-2.0.19.jar
-    MD5: E993DA2604EEB6AFCDFFCD32A9B41692
 ---
     Имя файла: chipped-forge-1.18.2-2.0.1.jar
     MD5: 046EB64DF3EC0335EEF0F0ECCB81B98F
