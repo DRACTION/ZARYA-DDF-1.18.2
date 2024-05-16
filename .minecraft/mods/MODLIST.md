@@ -21,14 +21,14 @@
     Имя файла: alternate-current-mc1.18-1.2.1.jar
     MD5: A85AFDD1E2123590B274F4A84CE11581
 ---
-    Имя файла: AmbientSounds_FORGE_v5.0.16_mc1.18.2.jar
-    MD5: 4BF9F0B68E298923FB32B058D68FC868
+    Имя файла: AmbientSounds_FORGE_v5.3.9_mc1.18.2.jar
+    MD5: F7E71602650B046E09B4D25FF9E400FA
 ---
     Имя файла: anviltooltipmod-MC1.18.2-1.0.0.jar
     MD5: 6BB962F05835E1CEA5CB05E5EA2858DA
 ---
-    Имя файла: Apotheosis-1.18.2-5.8.1.jar
-    MD5: 2D4BE97A625B11486DAFB87B97F5BF41
+    Имя файла: Apotheosis-1.18.2-5.8.1-ZaryaEdition.jar
+    MD5: 9925ACBF4059D3431F4D43392ACCE35A
 ---
     Имя файла: appleskin-forge-mc1.18.2-2.5.1.jar
     MD5: AB3E3AE18DAE2302FA4573CDCEBD2CF4
@@ -162,8 +162,8 @@
     Имя файла: create_jetpack-forge-1.6.1.jar
     MD5: B36D20310C41D78EA9FCBF76D005453A
 ---
-    Имя файла: CreativeCore_FORGE_v2.6.17_mc1.18.2.jar
-    MD5: 87A663FAD3077FC0AD12A8C8223208B0
+    Имя файла: CreativeCore_FORGE_v2.11.27_mc1.18.2.jar
+    MD5: E4D25FEB00FAE06C3A3D7FDE27AF11D2
 ---
     Имя файла: CreeperHeal-1.18.2-2.0.1-ZaryaEdition.jar
     MD5: 5BA5CF78B8B394F4568C59189E98CD62
@@ -238,7 +238,7 @@
     MD5: D0E6E1845BD9B83003839392B1903DBC
 ---
     Имя файла: EnhancedVisuals_FORGE_v1.6.4_mc1.18.2.jar
-    MD5: 3FA35E0F60BFA5C0AFA9A6E099B099C8
+    MD5: 2B9954D315E169875AA9751331F26069
 ---
     Имя файла: Enhanced_Celestials-forge-1.18.2-2.0.7.jar
     MD5: EEEAFBAFE3FA04662ECEBC843E84E50B
@@ -270,8 +270,8 @@
     Имя файла: extremesoundmuffler-3.30_forge-1.18.2.jar
     MD5: 9947E95A0F3490F8E8711F364169EEA4
 ---
-    Имя файла: fancymenu_forge_3.2.2_MC_1.18.2.jar
-    MD5: 6F76F47FB6F1AFDEDBB5C263AA73D919
+    Имя файла: fancymenu_forge_3.2.3_MC_1.18.2.jar
+    MD5: 604415E96AB4E5D9BD6A48F091303F18
 ---
     Имя файла: fantasyfurniture-1.18.2-3.14.0.jar
     MD5: 6D72D8DCD6743A5EC6A079C3FE1E6A05
@@ -408,8 +408,8 @@
     Имя файла: item-filters-forge-1802.2.8-build.50.jar
     MD5: 456D7675FE074402C67BE5AC0212B1B6
 ---
-    Имя файла: ItemPhysic_v1.4.23_mc1.18.2.jar
-    MD5: 8AB319F32A0FF0A0669FC63E10D63E77
+    Имя файла: ItemPhysic_FORGE_v1.7.1_mc1.18.2.jar
+    MD5: 82E6E830539E3069F50CC2B22283A6E1
 ---
     Имя файла: Jade-1.18.2-forge-5.3.2.jar
     MD5: 615D755442E7C936FD25CAD5D29341FC
@@ -576,8 +576,8 @@
     Имя файла: OnlyLooking-1.18.2-1.4.0.jar
     MD5: 0C1F8FC21A9EB5C19111B994AD25C183
 ---
-    Имя файла: packetfixer-forge-1.3.1-1.18-to-1.18.2.jar
-    MD5: 3B2A7CA0DF8B6715EDBA3BE3550177A5
+    Имя файла: packetfixer-forge-1.4.0-1.18-to-1.18.2.jar
+    MD5: 5D8DE9A2B19F7E05B11742E09A80C0AB
 ---
     Имя файла: Paraglider-1.18.2-1.6.0.6.jar
     MD5: 81952A79862688D8C278C7338748FF1D
@@ -663,8 +663,8 @@
     Имя файла: ShinyHorses-1.18-1.1.jar
     MD5: 376F72C4BF4AA19090310422C2E9888F
 ---
-    Имя файла: ShoulderSurfing-Forge-1.18.2-3.1.3.jar
-    MD5: 5086B4AFA73FE39F6999592D111B40E2
+    Имя файла: ShoulderSurfing-Forge-1.18.2-3.2.0.jar
+    MD5: CA2CD6A7D4DE64A496E2D0083643CBC1
 ---
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
