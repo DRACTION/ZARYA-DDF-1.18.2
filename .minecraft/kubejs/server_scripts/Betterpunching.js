@@ -7,6 +7,7 @@ onEvent('block.tags', e => {
 		'valhelsia_structures:bone_pile_block',
 		'supplementaries:stick',
 		'#create:toolboxes',
+		'create:clipboard',
 		'#chipped:lantern',
 		'#chipped:special_lantern',
 		'doggytalents:dog_bed',
