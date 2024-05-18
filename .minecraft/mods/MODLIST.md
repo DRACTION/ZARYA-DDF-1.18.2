@@ -222,8 +222,8 @@
     Имя файла: effortlessbuilding-1.18-2.40.jar
     MD5: 0F49A1401CD7A77AD5D210E3AEA64B84
 ---
-    Имя файла: embeddium-0.3.18+mc1.18.2.jar
-    MD5: DDE002CB54D8EEB0D33F8BE54983C466
+    Имя файла: embeddium-0.3.14+mc1.18.2.jar
+    MD5: 079DE9BA6A7BEFDBAB2629ABF95215E7
 ---
     Имя файла: emotecraft-for-MC1.18.2-2.2.7-b.build.50-forge.jar
     MD5: F89D6650A0EDB095EDEBDEC3DD6F0641
