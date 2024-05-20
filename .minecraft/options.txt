@@ -189,8 +189,6 @@ key_key.pickup.item:key.keyboard.unknown
 key_key.musictriggers.gui:key.keyboard.end
 key_key.workers.open_command_screen:key.keyboard.right.bracket
 key_key.solapplepie.open_food_book:key.keyboard.unknown
-key_key.recruits.r_key:key.keyboard.left.bracket
-key_key.recruits.u_key:key.keyboard.unknown
 key_key.wildfire_gender.gender_menu:key.keyboard.apostrophe
 key_key.toggleLiquids:key.keyboard.unknown
 key_key.toggleVisible:key.keyboard.unknown
