@@ -5508,6 +5508,9 @@
     "advancements.apotheosis.max_rectified": "Only the Best",
     "advancements.apotheosis.max_rectified.desc": "Зачаровать предмет с максимальными характеристиками и максимальной ректификацией.",
     
+    "advancements.apotheosis.uncommon.desc": "Найдите необычный предмет с усилениями.",
+    "advancements.apotheosis.rare": "Какая чудная вещица...",
+    "advancements.apotheosis.rare.desc": "Найдите редкий предмет с усилениями.",
     "advancements.apotheosis.gem": "Древний кристалл",
     "advancements.apotheosis.gem.desc": "Найдите вставной драгоценный камень.",
     "advancements.apotheosis.socket": "Ювелир",
