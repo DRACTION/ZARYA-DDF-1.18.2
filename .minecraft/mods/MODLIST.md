@@ -156,6 +156,9 @@
     Имя файла: createendertransmission-2.0.7-1.18.2.jar
     MD5: C76E63D46FB7E38842C66E2ADD3646EC
 ---
+    Имя файла: create_enchantment_industry-1.18.2-for-create-0.5.1.f-1.2.8.jar
+    MD5: 3C95418856B575D248BF3C634F20D02E
+---
     Имя файла: create_jetpack-forge-1.6.1.jar
     MD5: B36D20310C41D78EA9FCBF76D005453A
 ---
