@@ -669,6 +669,9 @@
     Имя файла: SimpleBackups-1.18.2-1.1.14.jar
     MD5: D3F144C303D42825EC71B09144C7E096
 ---
+    Имя файла: sliceanddice-forge-1.3.2.jar
+    MD5: 7CFD5FC30626D474414B35DC33DC82E9
+---
     Имя файла: smallships-forge-1.18.2-2.0.0-b1.2.jar
     MD5: 936458654EC892CB27BBE5E42B18ABD0
 ---
