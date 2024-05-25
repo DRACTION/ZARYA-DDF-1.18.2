@@ -32,7 +32,7 @@
 		#
 		## If the next attack deals more than the previous the difference is applied
 		#
-		damageSources = ["^inFire$:false:10", "^lightningBolt$:false:10", "^lava$:false:10", "^hotFloor$:false:10", "^inWall$:false:10", "^cramming$:false:10", "^cactus$:false:10", "^fall$:false:0", "^flyIntoWall$:false:0", "^outOfWorld$:false:10", "^generic$:false:5", "^magic$:false:10", "^wither$:false:10", "^anvil$:false:10", "^fallingBlock$:false:10", "^dragonBreath$:false:10", "^arrow$:true:10", "^thrown$:true:10", "^indirectMagic$:false:10", "^thorns$:false:5", "^explosion\\.player$:false:5", "^mob$:true:5", "^skill$:true:20", "^indirectSkill$:true:20"]
+		damageSources = ["^inFire$:false:10", "^onFire:false:10", "^lightningBolt$:false:10", "^lava$:false:10", "^hotFloor$:false:10", "^inWall$:false:10", "^cramming$:false:10", "^cactus$:false:10", "^fall$:false:0", "^flyIntoWall$:false:0", "^outOfWorld$:false:10", "^generic$:false:5", "^magic$:false:10", "^wither$:false:10", "^anvil$:false:10", "^fallingBlock$:false:10", "^dragonBreath$:false:10", "^arrow$:true:10", "^thrown$:true:10", "^indirectMagic$:false:10", "^thorns$:false:5", "^explosion\\.player$:false:5", "^mob$:true:5", "^skill$:true:20", "^indirectSkill$:true:20"]
 		#How much more damage the next attack must have to be accepted within the i-Frame
 		#Range: 4.9E-324 ~ 1.7976931348623157E308
 		nextAttackDamageDifference = 0.5
@@ -59,7 +59,7 @@
 			#Example:
 			#- minecraft:slime:1 -> 'Slime' from mod 'Minecraft' will only be able to attack when its attack reload time is 100%.
 			#
-			customs = ["minecraft:slime:1", "tconstruct:blueslime:1", "thaumcraft:thaumslime:1"]
+			customs = ["minecraft:slime:1", "tconstruct:blueslime:1", "thaumcraft:thaumslime:1", "dummmmmmy:target_dummy:1"]
 
 	#Knockback Sources filter
 	[server.knockbackFrames]
