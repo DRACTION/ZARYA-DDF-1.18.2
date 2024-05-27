@@ -2,9 +2,8 @@ onEvent('recipes', e => {
 
 	let knives = [ // [результат, материал_навершие]
 		['farmersdelight:flint_knife',		'minecraft:flint'],
-		['farmersdelight:iron_knife',		'minecraft:iron_ingot'],
-		['farmersdelight:diamond_knife',	'minecraft:diamond'],
-		['farmersdelight:golden_knife',		'minecraft:gold_ingot']
+		['farmersdelight:iron_knife',		'#forge:plates/iron'],
+		['farmersdelight:golden_knife',		'#forge:plates/gold']
 	]
 
 	let modifyTool = (e, result, pattern, materials) => {
@@ -20,6 +19,26 @@ onEvent('recipes', e => {
 			}
 		)
 	})
+	modifyTool(e, 'farmersdelight:diamond_knife',
+		[
+			'RX',
+			'SD'
+		],
+		{
+			R: 'supplementaries:rope',
+			S: '#forge:rods/wooden',
+			D: '#forge:dusts/diamond',
+			X: '#forge:plates/obsidian'
+		}
+	)
+	e.shaped('farmersdelight:netherite_knife', ['RX', 'S '], 
+		{
+			R: 'supplementaries:rope',
+			S: '#forge:rods/wooden',
+			X: '#forge:plates/netherite'
+		}
+	)
+	e.replaceInput({id: 'farmersdelight:netherite_knife_smithing'}, 'minecraft:netherite_ingot', '#forge:plates/netherite')
 	
 	e.remove({id:'farmersdelight:cutting/quartz_block'})
 	e.custom({

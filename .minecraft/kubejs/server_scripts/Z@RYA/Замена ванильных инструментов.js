@@ -11,8 +11,8 @@ onEvent('recipes', e => {
 
 	let standartTemplates = {
 		shovel: [
-			'RXX',
-			' SX',
+			' XX',
+			'RSX',
 			'S  '
 		],
 		sword: [
@@ -38,9 +38,8 @@ onEvent('recipes', e => {
 	}
 
 	let standardInToOut = [
-		{material: 'minecraft:diamond', ID: 'minecraft:diamond_'},
-		{material: 'minecraft:iron_ingot', ID: 'minecraft:iron_'},
-		{material: 'minecraft:gold_ingot', ID: 'minecraft:golden_'},
+		{material: '#forge:plates/iron', ID: 'minecraft:iron_'},
+		{material: '#forge:plates/gold', ID: 'minecraft:golden_'},
 		{material: 'minecraft:bone', ID: 'minecraft:wooden_'},
 		{material: 'minecraft:flint', ID: 'minecraft:stone_'}
 	]
@@ -55,4 +54,54 @@ onEvent('recipes', e => {
 			modifyShapedID(e, inOut.ID + toolName, inOut.ID + toolName, 1, standartTemplates[toolName], materials)
 		})
 	})
+
+	// Алмазные инструменты
+	materials.X = '#forge:plates/obsidian'
+	materials.D = '#forge:dusts/diamond'
+	standartTemplates.shovel = [
+		' DX',
+		'RSD',
+		'S  '
+	]
+	standartTemplates.sword = [
+		' DX',
+		'RXD',
+		'S  '
+	]
+	standartTemplates.hoe = [
+		'DXR',
+		' S ',
+		'S  '
+	]
+	standartTemplates.pickaxe = [
+		'XXR',
+		'DSX',
+		'SDX'
+	]
+	standartTemplates.axe = [
+		'DXR',
+		'XS ',
+		'S  '
+	]
+	toolsNames.forEach((toolName) => {
+		modifyShapedID(e, `minecraft:diamond_${toolName}`,
+			`minecraft:diamond_${toolName}`, 1, standartTemplates[toolName], materials)
+	})
+
+	// Незеритовые
+	toolsNames.forEach((toolName) => {
+		e.replaceInput({id: `minecraft:netherite_${toolName}_smithing`}, 'minecraft:netherite_ingot', '#forge:plates/netherite')
+	})
+
+	// Ножницы
+	modifyShapedID(e, 'minecraft:shears', 'minecraft:shears', 1,
+		[
+			'S ',
+			'NS'
+		],
+		{
+			N: '#forge:nuggets/iron',
+			S: '#forge:plates/iron'
+		}
+	)
 })

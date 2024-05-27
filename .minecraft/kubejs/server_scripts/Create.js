@@ -109,5 +109,8 @@ onEvent('recipes', e => {
       `minecraft:${name}_hyphae`
     ).id(`zarya:cutting/${name}_hyphae`)
   })
+  ////////// Незеритовая дайвинговая броня из пластин ///////////
+  e.replaceInput({id: 'create:crafting/appliances/netherite_diving_helmet'}, 'minecraft:netherite_ingot', '#forge:plates/netherite')
+  e.replaceInput({id: 'create:crafting/appliances/netherite_diving_boots'}, 'minecraft:netherite_ingot', '#forge:plates/netherite')
 
 })

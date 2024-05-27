@@ -10,70 +10,76 @@ onEvent('recipes', e => {
     ' S ',
     'S  '
   ]
-  materials.X = `minecraft:stone_sword`
-  modifyShapedID(e, `epicfight:stone_spear`, `epicfight:stone_spear`, 1, template, materials)
-  materials.X = `minecraft:iron_sword`
-  modifyShapedID(e, `epicfight:iron_spear`, `epicfight:iron_spear`, 1, template, materials)
-  materials.X = `minecraft:golden_sword`
-  modifyShapedID(e, `epicfight:golden_spear`, `epicfight:golden_spear`, 1, template, materials)
-  materials.X = `minecraft:diamond_sword`
-  modifyShapedID(e, `epicfight:diamond_spear`, `epicfight:diamond_spear`, 1, template, materials)
+  materials.X = Item.of('farmersdelight:flint_knife').ignoreNBT()
+  modifyShapedID(e, 'epicfight:stone_spear', 'epicfight:stone_spear', 1, template, materials)
+  materials.X = Item.of('epicfight:iron_dagger').ignoreNBT()
+  modifyShapedID(e, 'epicfight:iron_spear', 'epicfight:iron_spear', 1, template, materials)
+  materials.X = Item.of('epicfight:golden_dagger').ignoreNBT()
+  modifyShapedID(e, 'epicfight:golden_spear', 'epicfight:golden_spear', 1, template, materials)
+  materials.X = Item.of('epicfight:diamond_dagger').ignoreNBT()
+  modifyShapedID(e, 'epicfight:diamond_spear', 'epicfight:diamond_spear', 1, template, materials)
+  materials.X = Item.of('epicfight:netherite_dagger').ignoreNBT()
+  e.replaceInput({id: 'epicfight:netherite_spear'}, 'minecraft:netherite_ingot', '#forge:plates/netherite')
+  e.shaped('epicfight:netherite_spear', template, materials)
 
   // Кинжалы
-  template = [
-    'RX',
-    'S '
-  ]
-  materials.X = `#forge:plates/iron`
-  modifyShapedID(e, `epicfight:iron_dagger`, `epicfight:iron_dagger`, 1, template, materials)
-  materials.X = `#forge:plates/gold`
-  modifyShapedID(e, `epicfight:golden_dagger`, `epicfight:golden_dagger`, 1, template, materials)
-  modifyShapedID(e, `epicfight:diamond_dagger`, `epicfight:diamond_dagger`, 1, [' P', 'K '], {
-    P: 'createaddition:diamond_grit_sandpaper', K: 'farmersdelight:diamond_knife'
-  })
-
-  // Большой меч
-  template = [
-    'RPX',
-    'PXP',
-    'SP '
-  ]
-  materials.X = `#forge:ingots/iron`
-  materials.P = `#forge:plates/iron`
-  modifyShapedID(e, `epicfight:iron_greatsword`, `epicfight:iron_greatsword`, 1, template, materials)
-  materials.X = `#forge:ingots/gold`
-  materials.P = `#forge:plates/gold`
-  modifyShapedID(e, `epicfight:golden_greatsword`, `epicfight:golden_greatsword`, 1, template, materials)
-  materials.X = `#forge:gems/diamond`
-  materials.P = `#forge:gems/diamond`
-  modifyShapedID(e, `epicfight:diamond_greatsword`, `epicfight:diamond_greatsword`, 1, template, materials)
+  e.remove({id:'epicfight:iron_dagger'})
+  e.smithing('epicfight:iron_dagger', Item.of('farmersdelight:iron_knife').ignoreNBT(), '#forge:plates/iron')
+  e.remove({id:'epicfight:golden_dagger'})
+  e.smithing('epicfight:golden_dagger', Item.of('farmersdelight:golden_knife').ignoreNBT(), '#forge:plates/gold')
+  e.remove({id:'epicfight:diamond_dagger'})
+  e.smithing('epicfight:diamond_dagger', Item.of('farmersdelight:diamond_knife').ignoreNBT(),
+    Item.of('createaddition:diamond_grit_sandpaper').ignoreNBT()
+  )
+  e.replaceInput({id: 'epicfight:netherite_dagger'}, 'minecraft:netherite_ingot', '#forge:plates/netherite')
+  e.smithing('epicfight:netherite_dagger', Item.of('farmersdelight:netherite_knife').ignoreNBT(), '#forge:plates/netherite')
 
   // Длинный меч
+  e.remove({id:'epicfight:iron_longsword'})
+  e.smithing('epicfight:iron_longsword', Item.of('minecraft:iron_sword').ignoreNBT(), '#forge:plates/iron')
+  e.remove({id:'epicfight:golden_longsword'})
+  e.smithing('epicfight:golden_longsword', Item.of('minecraft:golden_sword').ignoreNBT(), '#forge:plates/gold')
+  e.remove({id:'epicfight:diamond_longsword'})
+  e.smithing('epicfight:diamond_longsword', Item.of('minecraft:diamond_sword').ignoreNBT(), '#forge:plates/obsidian')
+  e.replaceInput({id: 'epicfight:netherite_longsword'}, 'minecraft:netherite_ingot', '#forge:plates/netherite')
+  e.smithing('epicfight:netherite_longsword', Item.of('minecraft:netherite_sword').ignoreNBT(), '#forge:plates/netherite')
+
+  // Большой меч
+  e.remove({id:'epicfight:iron_greatsword'})
+  e.smithing('epicfight:iron_greatsword', Item.of('epicfight:iron_longsword').ignoreNBT(), '#forge:plates/iron')
+  e.remove({id:'epicfight:golden_greatsword'})
+  e.smithing('epicfight:golden_greatsword', Item.of('epicfight:golden_longsword').ignoreNBT(), '#forge:plates/gold')
+  e.remove({id:'epicfight:diamond_greatsword'})
+  e.smithing('epicfight:diamond_greatsword', Item.of('epicfight:diamond_longsword').ignoreNBT(), '#forge:plates/obsidian')
+  e.replaceInput({id: 'epicfight:netherite_greatsword'}, 'minecraft:netherite_ingot', '#forge:plates/netherite')
+  e.smithing('epicfight:netherite_greatsword', Item.of('epicfight:netherite_longsword').ignoreNBT(), '#forge:plates/netherite')
+
+  // Тати
   materials = {}
   template = [
     '  P',
     ' P ',
     'S  '
   ]
-  materials.S = `minecraft:iron_sword`
-  materials.P = `#forge:plates/iron`
-  modifyShapedID(e, `epicfight:iron_longsword`, `epicfight:iron_longsword`, 1, template, materials)
-  materials.S = `minecraft:golden_sword`
-  materials.P = `#forge:plates/gold`
-  modifyShapedID(e, `epicfight:golden_longsword`, `epicfight:golden_longsword`, 1, template, materials)
-
-  // Тати
+  materials.S = Item.of('minecraft:iron_sword').ignoreNBT()
+  materials.P = '#forge:plates/iron'
+  modifyShapedID(e, 'epicfight:iron_tachi', 'epicfight:iron_tachi', 1, template, materials)
+  materials.S = Item.of('minecraft:golden_sword').ignoreNBT()
+  materials.P = '#forge:plates/gold'
+  modifyShapedID(e, 'epicfight:golden_tachi', 'epicfight:golden_tachi', 1, template, materials)
+  materials.S = Item.of('minecraft:netherite_sword').ignoreNBT()
+  materials.P = '#forge:plates/netherite'
+  modifyShapedID(e, 'epicfight:netherite_tachi', 'epicfight:netherite_tachi', 1, template, materials)
+  e.replaceInput({id: 'epicfight:netherite_tachi'}, 'minecraft:netherite_ingot', '#forge:plates/netherite')
   template = [
-    ' P',
-    ' P',
-    'S '
+    '  P',
+    ' PD',
+    'SD '
   ]
-  materials.S = `minecraft:iron_sword`
-  materials.P = `#forge:plates/iron`
-  modifyShapedID(e, `epicfight:iron_tachi`, `epicfight:iron_tachi`, 1, template, materials)
-  materials.S = `minecraft:golden_sword`
-  materials.P = `#forge:plates/gold`
-  modifyShapedID(e, `epicfight:golden_tachi`, `epicfight:golden_tachi`, 1, template, materials)
+  materials.S = Item.of('minecraft:diamond_sword').ignoreNBT()
+  materials.D = '#forge:dusts/diamond'
+  materials.P = '#forge:plates/obsidian'
+  modifyShapedID(e, 'epicfight:diamond_tachi', 'epicfight:diamond_tachi', 1, template, materials)
 
   // Книги навыков в обычные книги
   e.shapeless('minecraft:book', ['epicfight:skillbook'])
