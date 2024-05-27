@@ -136,6 +136,11 @@
     "structure.structury.outcast_villager_grassy": "Спуск в шахту",
     "structure.warden_and_sculk.ancient_city": "Древний город",
 
+  // Create Deco
+
+    "item.createdeco.netherite_nugget": "Незеритовый самородок",
+    "item.createdeco.netherite_sheet": "Незеритовый лист",
+
   // Sophisticated Backpacks
 
     "block.sophisticatedbackpacks.copper_backpack": "Медный рюкзак",

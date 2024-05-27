@@ -6,6 +6,8 @@ let za_removedItems = [
 	'betterpunching:flint_hatchet',
 	// Create
 	'create:dough',
+	// Create Deco
+	'createdeco:zinc_sheet',
 	// Chiped
     "#chipped:glass_pane",
     "#chipped:white_stained_glass_pane",

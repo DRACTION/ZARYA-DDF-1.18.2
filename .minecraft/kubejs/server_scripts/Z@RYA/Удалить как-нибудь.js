@@ -4,6 +4,8 @@ let za_removedItems = [
 	'betterpunching:flint_spade',
 	'betterpunching:flint_pick',
 	'betterpunching:flint_hatchet',
+	// Create Deco
+	'createdeco:zinc_sheet',
 	// Farmers Delight
 	'farmersdelight:rope',
 	// Little Logistics
