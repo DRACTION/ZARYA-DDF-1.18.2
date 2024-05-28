@@ -114,3 +114,16 @@ onEvent('recipes', e => {
   e.replaceInput({id: 'create:crafting/appliances/netherite_diving_boots'}, 'minecraft:netherite_ingot', '#forge:plates/netherite')
 
 })
+
+onEvent('block.tags', e => {
+  e.remove('minecraft:needs_iron_tool', [
+    'create:zinc_ore',
+    'create:deepslate_zinc_ore',
+    'create:raw_zinc_block',
+    'create:zinc_block'])
+  e.add('minecraft:needs_stone_tool', [
+    'create:zinc_ore',
+    'create:deepslate_zinc_ore',
+    'create:raw_zinc_block',
+    'create:zinc_block'])
+})
