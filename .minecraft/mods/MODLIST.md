@@ -252,6 +252,9 @@
     Имя файла: environmentalcreepers-forge-1.18.1-1.6.1.jar
     MD5: 6304D608FFA074ADE01D59290FEC48C2
 ---
+    Имя файла: epiccompat_parcool-forge-1.18.2-1.0.2.jar
+    MD5: 24FD50444F729D2E6F68A4C3D8E83D96
+---
     Имя файла: epicfight-18.5.24-ZaryaEdition.jar
     MD5: FDDA4B681D238BF9EAD704A26A228FBD
 ---
