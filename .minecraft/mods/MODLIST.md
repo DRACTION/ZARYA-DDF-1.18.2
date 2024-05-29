@@ -225,6 +225,9 @@
     Имя файла: effortlessbuilding-1.18-2.40.jar
     MD5: 0F49A1401CD7A77AD5D210E3AEA64B84
 ---
+    Имя файла: EF_Knuckles_extended_18.2.jar
+    MD5: 2263FB80F9950E9C31DD4F4A42E3EE4A
+---
     Имя файла: embeddium-0.3.14+mc1.18.2.jar
     MD5: 079DE9BA6A7BEFDBAB2629ABF95215E7
 ---

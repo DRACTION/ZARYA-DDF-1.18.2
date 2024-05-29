@@ -22,6 +22,12 @@ onEvent('recipes', e => {
   e.replaceInput({id: 'epicfight:netherite_spear'}, 'minecraft:netherite_ingot', '#forge:plates/netherite')
   e.shaped('epicfight:netherite_spear', template, materials)
 
+  // Перчатки
+  modifyShaped(e, 'epicfight:glove', 1, ['NNN', 'L L', ' L '], {
+    N: '#forge:nuggets/iron',
+    L: '#forge:leather'
+  })
+
   // Кинжалы
   e.remove({id:'epicfight:iron_dagger'})
   e.smithing('epicfight:iron_dagger', Item.of('farmersdelight:iron_knife').ignoreNBT(), '#forge:plates/iron')
