@@ -182,6 +182,7 @@ onEvent("lootjs", (event) => {
       Item.of('epicfight:skillbook', '{skill:"wom:perfect_bulwark"}'), //Идеальный оплот
       Item.of('epicfight:skillbook', '{skill:"wom:vengeful_parry"}'), //Мстительное парирование
       Item.of('epicfight:skillbook', '{skill:"wom:counter_attack"}'), //Контр-атака
+      Item.of('epicfight:skillbook', '{skill:"epicfight:royal_guard"}'), //Королевская защита
       //dodge
       Item.of('epicfight:skillbook', '{skill:"epicfight:roll"}'), //Перекат
       Item.of('epicfight:skillbook', '{skill:"epicfight:step"}'), //Отскок

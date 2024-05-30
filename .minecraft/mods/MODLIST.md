@@ -396,6 +396,9 @@
     Имя файла: incontrol-1.18-6.1.13.jar
     MD5: 16AC3B2D9CC6B44670924EB23D20A7F5
 ---
+    Имя файла: InfernalGainer-18.1.9.jar
+    MD5: 02C83096AD15846B5CE0199EC177ACDB
+---
     Имя файла: InsaneLib-1.5.3-mc1.18.2.jar
     MD5: 99E2A21EC2D5FB5C89063498381083BE
 ---
