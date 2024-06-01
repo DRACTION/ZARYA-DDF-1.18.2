@@ -12,7 +12,7 @@
     Имя файла: Skyrim Soundpack v5.8b.zip
     MD5: 2ED14E4156AE614A4DD4071AE12D97BC
 ---
-    Имя файла: [1.3] Enhanced Boss Bars.zip
-    MD5: 0E15F8D1C06336612958C408C9D49A11
+    Имя файла: [1.4] Enhanced Boss Bars.zip
+    MD5: 53016C7825C58FCE407112762C9AD7AE
 ---
 

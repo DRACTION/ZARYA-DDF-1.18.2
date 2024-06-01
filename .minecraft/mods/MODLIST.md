@@ -78,6 +78,9 @@
     Имя файла: betterpunching-1.18.2-1.2.0-ZaryaEdition.jar
     MD5: 04D9EEC9679954BC27CF608EF2093CAD
 ---
+    Имя файла: BOMD-Forge-1.18.2-1.0.6.jar
+    MD5: 04AF287A92E1134D3FF50DA31EE7E352
+---
     Имя файла: Bookshelf-Forge-1.18.2-13.3.56.jar
     MD5: E36DA3BB9BC1B84B136106939043563C
 ---
