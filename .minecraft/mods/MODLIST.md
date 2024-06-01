@@ -78,6 +78,9 @@
     Имя файла: betterpunching-1.18.2-1.2.0-ZaryaEdition.jar
     MD5: 04D9EEC9679954BC27CF608EF2093CAD
 ---
+    Имя файла: bettervillage-forge-1.18.2-3.2.0.jar
+    MD5: CD47B412DC87151B2B41F3E85AA1B436
+---
     Имя файла: BOMD-Forge-1.18.2-1.0.6.jar
     MD5: 04AF287A92E1134D3FF50DA31EE7E352
 ---
@@ -479,6 +482,9 @@
 ---
     Имя файла: libIPN-forge-1.18.2-4.0.2.jar
     MD5: C4147A93E6A955977363F67F51FA12B3
+---
+    Имя файла: libraryferret-forge-1.18.2-4.0.0.jar
+    MD5: 1FB3674F47BB6FCD0D7F82BF3D42CF51
 ---
     Имя файла: lightspeed-1.18.2-1.0.5.jar
     MD5: AC51987990FC2FF172B2E50474C16994
