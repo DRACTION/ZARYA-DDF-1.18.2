@@ -136,6 +136,11 @@
     "structure.structury.outcast_villager_grassy": "Спуск в шахту",
     "structure.warden_and_sculk.ancient_city": "Древний город",
 
+  // AggroFix
+
+    "enchantment.aggrofix.aggronizing": "Агрессор",
+    "enchantment.aggrofix.aggronizing.desc": "Заставляет врага нападать на вас.\n\nЧем больше уровень, тем меньше урона потребуется нанести, прежде чем враг переключится на вас.\n\nУровень агрессии рассчитывается по формуле\n(1 + Уровень чары) * Нанесённый вами урон",
+
   // Epic Fight - Infernal Gainer
 
     "item.epicfight.infernal_gainer" : "Ифрит",

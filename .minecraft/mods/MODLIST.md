@@ -15,6 +15,9 @@
     Имя файла: AdvancementPlaques-1.18.2-1.4.5.1.jar
     MD5: BC7FC787E79C7C718B89FCD806C0D55F
 ---
+    Имя файла: aggrofix-1.18.2.jar
+    MD5: 7C70507CD71C61CA6E2469EA40EC9483
+---
     Имя файла: AI-Improvements-1.18.2-0.5.2.jar
     MD5: C2A9FF424722FED70180708AB83E9901
 ---
