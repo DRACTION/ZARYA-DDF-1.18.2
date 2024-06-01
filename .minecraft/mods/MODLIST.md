@@ -570,6 +570,9 @@
     Имя файла: nohostilesaroundcampfire-1.18.2-5.7.jar
     MD5: 519822646D931DBB1A25CC74324F86B8
 ---
+    Имя файла: noisium-forgified-0.1.0+mc1.18.2.jar
+    MD5: 6610D3592942766AFC28255C078E406D
+---
     Имя файла: nomowanderer-1.18.2_1.1.6.jar
     MD5: 480D15A8B767340BF3F28EFD0612ED06
 ---
