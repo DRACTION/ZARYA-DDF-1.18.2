@@ -42,6 +42,9 @@
     Имя файла: armorcurve-3.0.jar
     MD5: BDD68838289D786347454CDE8BE47362
 ---
+    Имя файла: awesomedungeonnether-forge-1.18.2-3.1.1.jar
+    MD5: 80F14462232902D7AD98DBAFFEBBCACB
+---
     Имя файла: balm-3.2.6.jar
     MD5: 2C88B15B950317917FE64980267D579A
 ---
