@@ -186,9 +186,9 @@ onEvent("lootjs", (event) => {
       //dodge
       Item.of('epicfight:skillbook', '{skill:"epicfight:roll"}'), //Перекат
       Item.of('epicfight:skillbook', '{skill:"epicfight:step"}'), //Отскок
-      // Item.of('epicfight:skillbook', '{skill:"wom:ender_obscuris"}'), //Эндер Обскурис
-      // Item.of('epicfight:skillbook', '{skill:"wom:dodge_master"}'), //Мастер уклона
-      // Item.of('epicfight:skillbook', '{skill:"wom:bull_charge"}'), //Бычий заряд
+      Item.of('epicfight:skillbook', '{skill:"wom:ender_obscuris"}'), //Эндер Обскурис
+      Item.of('epicfight:skillbook', '{skill:"wom:dodge_master"}'), //Мастер уклона
+      Item.of('epicfight:skillbook', '{skill:"wom:bull_charge"}'), //Бычий заряд
       Item.of('epicfight:skillbook', '{skill:"wom:ender_step"}'), //Эндер Шаг
       Item.of('epicfight:skillbook', '{skill:"wom:shadow_step"}'), //Теневой шаг
       //mover
