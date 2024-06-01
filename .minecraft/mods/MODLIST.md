@@ -264,9 +264,6 @@
     Имя файла: EpicfightPirates-18.1.6.jar
     MD5: 74751324694D12229C6415D70723A47E
 ---
-    Имя файла: epicparagliders-0.6.0-1.18.2-ZaryaEdition.jar
-    MD5: 6744B9741853CCA778EC0E5CFAC0C13D
----
     Имя файла: EverlastingSkins-1.18.2-1.0.jar
     MD5: 74615E47F2933901F07012A9F58AA89A
 ---
@@ -590,6 +587,12 @@
 ---
     Имя файла: Paraglider-1.18.2-1.6.0.6.jar
     MD5: 81952A79862688D8C278C7338748FF1D
+---
+    Имя файла: ParagliderDoubleStamina-1.18.2-1.7.5.jar
+    MD5: D3B94D0E850595385C077D498C55018E
+---
+    Имя файла: paraglidersstaminacompats-0.6.5-all.jar
+    MD5: 01B805BF0627189F3F595485984125B0
 ---
     Имя файла: ParCool-1.18.2-3.2.1.2-R.jar
     MD5: 53058BBD00FC1B75A55D3E22AC5137A6

@@ -4,13 +4,32 @@
 
 	[stamina.consumptions]
 		#Range: > -2147483648
-		idleStaminaConsumption = 25
+		idleStaminaConsumption = 1.2
 		#Range: > -2147483648
-		runningStaminaConsumption = -8
+		midairStaminaConsumption = 0.8
 		#Range: > -2147483648
-		swimmingStaminaConsumption = -5
+		runningStaminaConsumption = -0.2
 		#Range: > -2147483648
-		underwaterStaminaConsumption = 6
+		swimmingStaminaConsumption = -0.125
 		#Range: > -2147483648
-		breathingUnderwaterStaminaConsumption = 14
+		underwaterStaminaConsumption = 0.6
+		#Range: > -2147483648
+		breathingUnderwaterStaminaConsumption = 0.8
+		#Range: > -2147483648
+		ridingStaminaConsumption = 1.0
+		#Range: > -2147483648
+		paraglidingStaminaConsumption = -0.075
+		#Range: > -2147483648
+		ascendingStaminaConsumption = -0.075
 
+[vessels]
+	#Maximum amount of stamina Player can get. Do note that one third of this value is equal to one stamina wheel.
+	#Range: > 0
+	maxStamina = 84
+	#Amount of stamina Player starts with. Values higher than maxStamina doesn't work.
+	#If you want to make this value displayed as exactly one stamina wheel, you have to make this value one third of maxStamina.
+	#Range: > 0
+	startingStamina = 28
+	#Stamina Vessels players need to obtain max out stamina. More vessels means lesser stamina increase per vessel.
+	#Range: > 0
+	maxStaminaVessels = 10

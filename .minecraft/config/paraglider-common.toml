@@ -17,6 +17,8 @@
 	staminaVessels = true
 	#For those who wants to remove all structures added by this mod. Requires restart.
 	structures = false
+	#For those who wants to action when regenerating after depleted
+	noActionDepletedRegenerating = false
 
 [debug]
 	debugPlayerMovement = false
