@@ -2,8 +2,8 @@
     "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
         "buttonHints": {
             "SETTINGS": {
-                "horizontalOffset": 30,
-                "top": -20
+                "horizontalOffset": 50,
+                "top": -25
             },
             "SORT": {
                 "horizontalOffset": -12,
@@ -52,6 +52,7 @@
         }
     },
     "lain.mods.cos.impl.client.gui.GuiCosArmorInventory": {
+        "ignore": true,
         "buttonHints": {
             "MOVE_TO_CONTAINER": {
                 "bottom": 22
@@ -109,6 +110,62 @@
         "buttonHints": {
             "SETTINGS": {
                 "horizontalOffset": 23,
+                "top": -25
+            }
+        }
+    },
+    "io.redspace.ironsspellbooks.gui.inscription_table.InscriptionTableScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 80,
+                "top": 68
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 81,
+                "top": 68
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 82,
+                "top": 68
+            },
+            "SETTINGS": {
+                "horizontalOffset": 40,
+                "top": -25
+            }
+        }
+    },
+    "com.simibubi.create.content.schematics.table.SchematicTableScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 90,
+                "top": -25
+            }
+        }
+    },
+    "com.simibubi.create.content.schematics.cannon.SchematicannonScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 70,
+                "top": -25
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.CraftingScreen": {
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 50,
+                "top": -25
+            }
+        }
+    },
+    "com.simibubi.create.content.equipment.toolbox.ToolboxScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 50,
                 "top": -25
             }
         }

@@ -3,6 +3,9 @@
         "highlight_foused_items_animated": {
             "value": true
         },
+        "enable_profiles": {
+            "value": false
+        },
         "villager_trading_enable": {
             "value": false
         },
@@ -11,6 +14,9 @@
     },
     "GuiSettings": {
         "enable_inventory_editor_button": {
+            "value": false
+        },
+        "enable_profiles_ui": {
             "value": false
         },
         "continuous_crafting_saved_value": false

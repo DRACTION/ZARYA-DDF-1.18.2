@@ -1,0 +1,17 @@
+{
+    "mod.chiselsandbits.client.screens.ModificationTableScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 50,
+                "top": -25
+            }
+        }
+    },
+    "mod.chiselsandbits.client.screens.ChiseledPrinterScreen": {
+        "playerSideOnly": true
+    },
+    "mod.chiselsandbits.client.screens.BitBagScreen": {
+        "playerSideOnly": true
+    }
+}
