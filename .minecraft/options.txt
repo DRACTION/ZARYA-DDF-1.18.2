@@ -179,7 +179,7 @@ key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.copy.recipe.id:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.home
-key_key.emotecraft.fastchoose:key.keyboard.t
+key_key.emotecraft.fastchoose:key.keyboard.t:CONTROL
 key_key.emotecraft.stop:key.keyboard.unknown
 key_key.modernfix.config:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.keypad.7
@@ -276,7 +276,7 @@ key_mod.chiselsandbits.keys.key.redo:key.keyboard.y:CONTROL
 key_mod.chiselsandbits.keys.key.zoom:key.keyboard.x
 key_mod.chiselsandbits.keys.reset-caches:key.keyboard.unknown
 key_key.irons_spellbooks.spell_wheel:key.keyboard.r
-key_key.irons_spellbooks.spell_bar_modifier:key.keyboard.left.shift
+key_key.irons_spellbooks.spell_bar_modifier:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_1:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_2:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_3:key.keyboard.unknown
@@ -308,7 +308,7 @@ key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
 key_key.configured.open_mod_list:key.keyboard.unknown
-key_key.toolbelt.open:key.keyboard.r
+key_key.toolbelt.open:key.keyboard.t
 key_key.toolbelt.cycle.left:key.keyboard.unknown
 key_key.toolbelt.cycle.right:key.keyboard.unknown
 soundCategory_master:0.60915494
