@@ -99,6 +99,9 @@
     Имя файла: brutalbosses-1.18.2-5.8-ZaryaEdition.jar
     MD5: 96599D8C6C70BB1D3889DA95D6C5B6DF
 ---
+    Имя файла: caelus-forge-1.18.1-3.0.0.2.jar
+    MD5: 56E03137FF67264EBDAB9F40CC191E41
+---
     Имя файла: callablehorses-1.18.2-1.2.2_ZaryaEdition.jar
     MD5: CA6225DF36209BF6E3E1198AF57167BF
 ---
@@ -425,6 +428,9 @@
 ---
     Имя файла: invocore-1.18.2-2.1.0.jar
     MD5: C0426E41EFB4064A3FA4594E9AA5A469
+---
+    Имя файла: irons_spellbooks-1.18.2-1.1.4.5.jar
+    MD5: A71DB021A5DB6F9CAC65C024683A0FB2
 ---
     Имя файла: item-filters-forge-1802.2.8-build.50.jar
     MD5: 456D7675FE074402C67BE5AC0212B1B6

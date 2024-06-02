@@ -3,6 +3,9 @@
     Имя файла: EclecticTrove-noconfig-1.18-1.2.0.zip
     MD5: 5198CC4B8213258BE69E8DCCBDE24D79
 ---
+    Имя файла: EFMxIrons_Spells_v1.2.zip
+    MD5: 6A8BA37FD50EECA7FB3F817C4DDEB102
+---
     Имя файла: Excalibur_Mod_Support_V1.18.1.1.zip
     MD5: 03C345F2769716262F5222C8815E3DE1
 ---
