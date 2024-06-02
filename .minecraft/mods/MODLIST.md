@@ -174,6 +174,9 @@
     Имя файла: createendertransmission-2.0.7-1.18.2.jar
     MD5: C76E63D46FB7E38842C66E2ADD3646EC
 ---
+    Имя файла: createlowheated-forge-1.18.2-0.5.1.f-h.jar
+    MD5: 896AF5129218BDEE4D3B95108337FEB6
+---
     Имя файла: create_enchantment_industry-1.18.2-for-create-0.5.1.f-1.2.8.jar
     MD5: 3C95418856B575D248BF3C634F20D02E
 ---

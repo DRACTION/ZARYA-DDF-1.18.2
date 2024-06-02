@@ -136,6 +136,20 @@
     "structure.structury.outcast_villager_grassy": "Спуск в шахту",
     "structure.warden_and_sculk.ancient_city": "Древний город",
 
+  // Create Low-Heated
+
+    "block.createlowheated.basic_burner": "Базовая горелка",
+    "block.createlowheated.basic_burner.tooltip": "Базовая горелка",
+    "block.createlowheated.basic_burner.tooltip.behaviour1": "ПКМ с _топливом_ или используя _Воронку/Шлюз/Механическую руку_ и т.п.",
+    "block.createlowheated.basic_burner.tooltip.behaviour2": "Чтобы  _зажечь_, нужно нажать ПКМ с _Огнивом_. Пока горелку пополняют _топливом_, огонь будет сохраняться.",
+    "block.createlowheated.basic_burner.tooltip.behaviour3": "Можно усилить нагрев со слабого до нормального, направив сбоку _вентилятор с максимальной скоростью_ вращения.",
+    "block.createlowheated.basic_burner.tooltip.condition1": "Требуется топливо",
+    "block.createlowheated.basic_burner.tooltip.condition2": "Требуется Огниво.",
+    "block.createlowheated.basic_burner.tooltip.condition3": "Мощная горелка",
+    "block.createlowheated.basic_burner.tooltip.summary": "_Нагревает Чашу_ или _Паровой двигатель_ до слабого нагрева.",
+    "create.recipe.heat_requirement.lowheated": "Слабый нагрев",
+    // "itemGroup.createlowheated.base": "Create Low-Heated",
+
   // AggroFix
 
     "enchantment.aggrofix.aggronizing": "Агрессор",
