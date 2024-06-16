@@ -8,43 +8,12 @@ onEvent('recipes', e => {
 	e.replaceInput({id: 'minecraft:golden_chestplate'}, 'minecraft:gold_ingot', '#forge:plates/gold')
 	e.replaceInput({id: 'minecraft:golden_leggings'}, 'minecraft:gold_ingot', '#forge:plates/gold')
 	e.replaceInput({id: 'minecraft:golden_boots'}, 'minecraft:gold_ingot', '#forge:plates/gold')
-	let materials = {
-		P: '#forge:plates/obsidian',
-		D: '#forge:dusts/diamond',
-		X: Item.of('minecraft:iron_helmet').ignoreNBT()
-	}
-	modifyShapedID(e, 'minecraft:diamond_helmet', 'minecraft:diamond_helmet', 1,
-		[
-			' D ',
-			'DPD',
-			'PXP'
-		], materials
-	)
-	materials.X = Item.of('minecraft:iron_chestplate').ignoreNBT()
-	modifyShapedID(e, 'minecraft:diamond_chestplate', 'minecraft:diamond_chestplate', 1,
-		[
-			'PDP',
-			'DXD',
-			'DPD'
-		], materials
-	)
-	materials.X = Item.of('minecraft:iron_leggings').ignoreNBT()
-	modifyShapedID(e, 'minecraft:diamond_leggings', 'minecraft:diamond_leggings', 1,
-		[
-			'DXD',
-			'PXP',
-			'PDP'
-		], materials
-	)
-	materials.X = Item.of('minecraft:iron_boots').ignoreNBT()
-	modifyShapedID(e, 'minecraft:diamond_boots', 'minecraft:diamond_boots', 1,
-		[
-			'D D',
-			'PXP'
-		], materials
-	)
+	e.replaceInput({id: 'minecraft:diamond_helmet'}, 'minecraft:diamond', 'kubejs:sturdy_diamond_sheet')
+	e.replaceInput({id: 'minecraft:diamond_chestplate'}, 'minecraft:diamond', 'kubejs:sturdy_diamond_sheet')
+	e.replaceInput({id: 'minecraft:diamond_leggings'}, 'minecraft:diamond', 'kubejs:sturdy_diamond_sheet')
+	e.replaceInput({id: 'minecraft:diamond_boots'}, 'minecraft:diamond', 'kubejs:sturdy_diamond_sheet')
 
-	materials = {
+	let materials = {
 		L: '#forge:leather',
 		C: '#supplementaries:chains'
 	}

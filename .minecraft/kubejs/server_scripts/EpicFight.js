@@ -46,7 +46,7 @@ onEvent('recipes', e => {
   e.remove({id:'epicfight:golden_longsword'})
   e.smithing('epicfight:golden_longsword', Item.of('minecraft:golden_sword').ignoreNBT(), '#forge:plates/gold')
   e.remove({id:'epicfight:diamond_longsword'})
-  e.smithing('epicfight:diamond_longsword', Item.of('minecraft:diamond_sword').ignoreNBT(), '#forge:plates/obsidian')
+  e.smithing('epicfight:diamond_longsword', Item.of('minecraft:diamond_sword').ignoreNBT(), '#forge:plates/diamond')
   e.replaceInput({id: 'epicfight:netherite_longsword'}, 'minecraft:netherite_ingot', '#forge:plates/netherite')
   e.smithing('epicfight:netherite_longsword', Item.of('minecraft:netherite_sword').ignoreNBT(), '#forge:plates/netherite')
 
@@ -56,7 +56,7 @@ onEvent('recipes', e => {
   e.remove({id:'epicfight:golden_greatsword'})
   e.smithing('epicfight:golden_greatsword', Item.of('epicfight:golden_longsword').ignoreNBT(), '#forge:plates/gold')
   e.remove({id:'epicfight:diamond_greatsword'})
-  e.smithing('epicfight:diamond_greatsword', Item.of('epicfight:diamond_longsword').ignoreNBT(), '#forge:plates/obsidian')
+  e.smithing('epicfight:diamond_greatsword', Item.of('epicfight:diamond_longsword').ignoreNBT(), '#forge:plates/diamond')
   e.replaceInput({id: 'epicfight:netherite_greatsword'}, 'minecraft:netherite_ingot', '#forge:plates/netherite')
   e.smithing('epicfight:netherite_greatsword', Item.of('epicfight:netherite_longsword').ignoreNBT(), '#forge:plates/netherite')
 
@@ -76,16 +76,10 @@ onEvent('recipes', e => {
   materials.S = Item.of('minecraft:netherite_sword').ignoreNBT()
   materials.P = '#forge:plates/netherite'
   modifyShapedID(e, 'epicfight:netherite_tachi', 'epicfight:netherite_tachi', 1, template, materials)
-  e.replaceInput({id: 'epicfight:netherite_tachi'}, 'minecraft:netherite_ingot', '#forge:plates/netherite')
-  template = [
-    '  P',
-    ' PD',
-    'SD '
-  ]
   materials.S = Item.of('minecraft:diamond_sword').ignoreNBT()
-  materials.D = '#forge:dusts/diamond'
-  materials.P = '#forge:plates/obsidian'
+  materials.P = '#forge:plates/diamond'
   modifyShapedID(e, 'epicfight:diamond_tachi', 'epicfight:diamond_tachi', 1, template, materials)
+  e.replaceInput({id: 'epicfight:netherite_tachi'}, 'minecraft:netherite_ingot', '#forge:plates/netherite')
 
   // Книги навыков в обычные книги
   e.shapeless('minecraft:book', ['epicfight:skillbook'])

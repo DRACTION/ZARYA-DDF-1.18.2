@@ -27,13 +27,7 @@ onEvent('recipes', e => {
 	modifyShapedID(e, 'wom:iron_staff', 'wom:iron_staff', 1, template, materials)
 	materials.X = '#forge:rods/gold'
 	modifyShapedID(e, 'wom:golden_staff', 'wom:golden_staff', 1, template, materials)
-	template = [
-		' XP',
-		'XSX',
-		'PX '
-	]
-	materials.X = '#forge:dusts/diamond'
-	materials.P = '#forge:plates/obsidian'
+	materials.X = '#forge:plates/diamond'
 	modifyShapedID(e, 'wom:diamond_staff', 'wom:diamond_staff', 1, template, materials)
 	e.replaceInput({id: 'wom:netherite_staff'}, 'minecraft:netherite_ingot', '#forge:plates/netherite')
 
@@ -42,7 +36,7 @@ onEvent('recipes', e => {
 	e.remove({id:'wom:golden_greataxe'})
 	e.smithing('wom:golden_greataxe', Item.of('minecraft:golden_axe').ignoreNBT(), '#forge:plates/gold')
 	e.remove({id:'wom:diamond_greataxe'})
-	e.smithing('wom:diamond_greataxe', Item.of('minecraft:diamond_axe').ignoreNBT(), '#forge:plates/obsidian')
+	e.smithing('wom:diamond_greataxe', Item.of('minecraft:diamond_axe').ignoreNBT(), '#forge:plates/diamond')
 	e.replaceInput({id: 'wom:netherite_greataxe'}, 'minecraft:netherite_ingot', '#forge:plates/netherite')
 	e.smithing('wom:netherite_greataxe', Item.of('minecraft:netherite_axe').ignoreNBT(), '#forge:plates/netherite')
 
