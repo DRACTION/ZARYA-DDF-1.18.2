@@ -37,8 +37,7 @@ onEvent('recipes', event => {
 
 	// Blanks, Heads and Tools
 		let materialNames = [
-			{curr: 'flint', old: 'stone'},
-			{curr: 'bone',  old: 'wooden'}
+			{curr: 'flint', old: 'wooden'}
 		]
 
 		let toolNames = [

@@ -40,8 +40,8 @@ onEvent('recipes', e => {
 	let standardInToOut = [
 		{material: '#forge:plates/iron', ID: 'minecraft:iron_'},
 		{material: '#forge:plates/gold', ID: 'minecraft:golden_'},
-		{material: 'minecraft:bone', ID: 'minecraft:wooden_'},
-		{material: 'minecraft:flint', ID: 'minecraft:stone_'},
+		{material: 'minecraft:flint', ID: 'minecraft:wooden_'},
+		{material: '#forge:plates/copper', ID: 'minecraft:stone_'},
 		{material: 'kubejs:sturdy_diamond_sheet', ID: 'minecraft:diamond_'}
 	]
 

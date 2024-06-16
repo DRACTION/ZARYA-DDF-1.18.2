@@ -15,11 +15,6 @@
     "item.kubejs.flint_pickaxe_head": "Кремниевое навершие кирки",
     "item.kubejs.flint_shovel_head": "Кремниевое навершие лопаты",
 
-    "item.kubejs.bone_tool_blank": "Костянная заготовка",
-    "item.kubejs.bone_axe_head": "Костянное навершие топора",
-    "item.kubejs.bone_pickaxe_head": "Костянное навершие кирки",
-    "item.kubejs.bone_shovel_head": "Костянное навершие лопаты",
-
     "item.minecraft.potion.effect.death_pioneer": "Смерть Пионерки",
     "item.minecraft.splash_potion.effect.death_pioneer": "Взрывная Смерть Пионерки",
     "item.minecraft.lingering_potion.effect.death_pioneer": "Туманная Смерть Пионерки",
@@ -492,7 +487,7 @@
     "item.wom.netherite_greataxe" : "Незеритовый большой топор",
     
     "item.wom.wooden_staff" : "Деревянный посох",
-    "item.wom.stone_staff" : "Кремниевый посох",
+    "item.wom.stone_staff" : "Медный посох",
     "item.wom.golden_staff" : "Золотой посох",
     "item.wom.iron_staff" : "Железный посох",
     "item.wom.diamond_staff" : "Алмазный посох",

@@ -116,14 +116,53 @@ onEvent('recipes', e => {
 })
 
 onEvent('block.tags', e => {
+  ////////// Цинковые блоки можно ломать любой киркой ///////////
   e.remove('minecraft:needs_iron_tool', [
     'create:zinc_ore',
     'create:deepslate_zinc_ore',
     'create:raw_zinc_block',
     'create:zinc_block'])
-  e.add('minecraft:needs_stone_tool', [
-    'create:zinc_ore',
-    'create:deepslate_zinc_ore',
-    'create:raw_zinc_block',
-    'create:zinc_block'])
+  ////////// Медные блоки можно ломать любой киркой ///////////
+  let copperPrefix = [
+    '',
+    'exposed_',
+    'weathered_',
+    'oxidized_'
+  ]
+  let copper = [
+    'minecraft:copper_ore',
+    'minecraft:deepslate_copper_ore',
+    'minecraft:raw_copper_block',
+    'minecraft:copper_block',
+    'minecraft:exposed_copper',
+    'minecraft:weathered_copper',
+    'minecraft:oxidized_copper',
+    'minecraft:waxed_copper_block',
+    'minecraft:waxed_exposed_copper',
+    'minecraft:waxed_weathered_copper',
+    'minecraft:waxed_oxidized_copper'
+  ]
+  copperPrefix.forEach(prefix => {
+    copper.push(
+      `minecraft:${prefix}cut_copper`,
+      `minecraft:${prefix}cut_copper_stairs`,
+      `minecraft:${prefix}cut_copper_slab`,
+      `minecraft:waxed_${prefix}cut_copper`,
+      `minecraft:waxed_${prefix}cut_copper_stairs`,
+      `minecraft:waxed_${prefix}cut_copper_slab`,
+      `create:${prefix}copper_shingles`,
+      `create:${prefix}copper_shingle_slab`,
+      `create:${prefix}copper_shingle_stairs`,
+      `create:waxed_${prefix}copper_shingles`,
+      `create:waxed_${prefix}copper_shingle_slab`,
+      `create:waxed_${prefix}copper_shingle_stairs`,
+      `create:${prefix}copper_tiles`,
+      `create:${prefix}copper_tile_slab`,
+      `create:${prefix}copper_tile_stairs`,
+      `create:waxed_${prefix}copper_tiles`,
+      `create:waxed_${prefix}copper_tile_slab`,
+      `create:waxed_${prefix}copper_tile_stairs`
+    )
+  })
+  e.remove('minecraft:needs_stone_tool', copper)
 })

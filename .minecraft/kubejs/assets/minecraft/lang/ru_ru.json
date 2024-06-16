@@ -1,12 +1,12 @@
 {
-  "item.minecraft.wooden_sword": "Костяной меч",
-  "item.minecraft.wooden_shovel": "Костяная лопата",
-  "item.minecraft.wooden_pickaxe": "Костяная кирка",
-  "item.minecraft.wooden_axe": "Костяной топор",
-  "item.minecraft.stone_sword": "Кремниевый меч",
-  "item.minecraft.stone_shovel": "Кремниевая лопата",
-  "item.minecraft.stone_pickaxe": "Кремниевая кирка",
-  "item.minecraft.stone_axe": "Кремниевый топор",
-  "item.minecraft.wooden_hoe": "Костяная мотыга",
-  "item.minecraft.stone_hoe": "Кремниевая мотыга"
+  "item.minecraft.wooden_sword": "Кремниевый меч",
+  "item.minecraft.wooden_shovel": "Кремниевая лопата",
+  "item.minecraft.wooden_pickaxe": "Кремниевая кирка",
+  "item.minecraft.wooden_axe": "Кремниевый топор",
+  "item.minecraft.wooden_hoe": "Кремниевая мотыга",
+  "item.minecraft.stone_sword": "Медный меч",
+  "item.minecraft.stone_shovel": "Медная лопата",
+  "item.minecraft.stone_pickaxe": "Медная кирка",
+  "item.minecraft.stone_axe": "Медный топор",
+  "item.minecraft.stone_hoe": "Медная мотыга"
 }

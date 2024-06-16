@@ -1,45 +1,26 @@
 {
-  // Zarya
+  "item.minecraft.potion.effect.death_pioneer": "Death of a Pioneer",
+  "item.minecraft.splash_potion.effect.death_pioneer": "Splash Death of a Pioneer",
+  "item.minecraft.lingering_potion.effect.death_pioneer": "Lingering Death of a Pioneer",
+  "item.minecraft.tipped_arrow.effect.death_pioneer": "Arrow Death of a Pioneer",
 
-    "zarya.advancements.bedrockbarehands.title": "Bedrock bare hands",
-    "zarya.advancements.bedrockbarehands.description": "Eat a dog on breaking bare hands",
+  "item.minecraft.potion.effect.strong_death_pioneer": "Truth Death of a Pioneer",
+  "item.minecraft.splash_potion.effect.strong_death_pioneer": "Splash Truth Death of a Pioneer",
+  "item.minecraft.lingering_potion.effect.strong_death_pioneer": "Lingering Truth Death of a Pioneer",
+  "item.minecraft.tipped_arrow.effect.strong_death_pioneer": "Arrow Truth Death of a Pioneer",
 
-  // KubeJS
+  "item.minecraft.potion.effect.first_unstable_death_pioneer": "First unstable Death of a Pioneer",
+  "item.minecraft.splash_potion.effect.first_unstable_death_pioneer": "Splash first unstable Death of a Pioneer",
+  "item.minecraft.lingering_potion.effect.first_unstable_death_pioneer": "Lingering first unstable Death of a Pioneer",
+  "item.minecraft.tipped_arrow.effect.first_unstable_death_pioneer": "Arrow first unstable Death of a Pioneer",
 
-    "item.kubejs.flint_saw": "Кремниевая пила",
+  "item.minecraft.potion.effect.second_unstable_death_pioneer": "Second unstable Death of a Pioneer",
+  "item.minecraft.splash_potion.effect.second_unstable_death_pioneer": "Splash second unstable Death of a Pioneer",
+  "item.minecraft.lingering_potion.effect.second_unstable_death_pioneer": "Lingering second unstable Death of a Pioneer",
+  "item.minecraft.tipped_arrow.effect.second_unstable_death_pioneer": "Arrow second unstable Death of a Pioneer",
 
-    "item.kubejs.flint_tool_blank": "Flint Tool Blank",
-    "item.kubejs.flint_axe_head": "Кремниевое навершие топора",
-    "item.kubejs.flint_pickaxe_head": "Кремниевое навершие кирки",
-    "item.kubejs.flint_shovel_head": "Кремниевое навершие лопаты",
-
-    "item.kubejs.bone_tool_blank": "Костянная заготовка",
-    "item.kubejs.bone_axe_head": "Костянное навершие топора",
-    "item.kubejs.bone_pickaxe_head": "Костянное навершие кирки",
-    "item.kubejs.bone_shovel_head": "Костянное навершие лопаты",
-
-    "item.minecraft.potion.effect.death_pioneer": "Death of a Pioneer",
-    "item.minecraft.splash_potion.effect.death_pioneer": "Splash Death of a Pioneer",
-    "item.minecraft.lingering_potion.effect.death_pioneer": "Lingering Death of a Pioneer",
-    "item.minecraft.tipped_arrow.effect.death_pioneer": "Arrow Death of a Pioneer",
-
-    "item.minecraft.potion.effect.strong_death_pioneer": "Truth Death of a Pioneer",
-    "item.minecraft.splash_potion.effect.strong_death_pioneer": "Splash Truth Death of a Pioneer",
-    "item.minecraft.lingering_potion.effect.strong_death_pioneer": "Lingering Truth Death of a Pioneer",
-    "item.minecraft.tipped_arrow.effect.strong_death_pioneer": "Arrow Truth Death of a Pioneer",
-
-    "item.minecraft.potion.effect.first_unstable_death_pioneer": "First unstable Death of a Pioneer",
-    "item.minecraft.splash_potion.effect.first_unstable_death_pioneer": "Splash first unstable Death of a Pioneer",
-    "item.minecraft.lingering_potion.effect.first_unstable_death_pioneer": "Lingering first unstable Death of a Pioneer",
-    "item.minecraft.tipped_arrow.effect.first_unstable_death_pioneer": "Arrow first unstable Death of a Pioneer",
-
-    "item.minecraft.potion.effect.second_unstable_death_pioneer": "Second unstable Death of a Pioneer",
-    "item.minecraft.splash_potion.effect.second_unstable_death_pioneer": "Splash second unstable Death of a Pioneer",
-    "item.minecraft.lingering_potion.effect.second_unstable_death_pioneer": "Lingering second unstable Death of a Pioneer",
-    "item.minecraft.tipped_arrow.effect.second_unstable_death_pioneer": "Arrow second unstable Death of a Pioneer",
-
-    "item.minecraft.potion.effect.third_unstable_death_pioneer": "Third unstable Death of a Pioneer",
-    "item.minecraft.splash_potion.effect.third_unstable_death_pioneer": "Splash third unstable Death of a Pioneer",
-    "item.minecraft.lingering_potion.effect.third_unstable_death_pioneer": "Lingering third unstable Death of a Pioneer",
-    "item.minecraft.tipped_arrow.effect.third_unstable_death_pioneer": "Arrow third unstable Death of a Pioneer"
+  "item.minecraft.potion.effect.third_unstable_death_pioneer": "Third unstable Death of a Pioneer",
+  "item.minecraft.splash_potion.effect.third_unstable_death_pioneer": "Splash third unstable Death of a Pioneer",
+  "item.minecraft.lingering_potion.effect.third_unstable_death_pioneer": "Lingering third unstable Death of a Pioneer",
+  "item.minecraft.tipped_arrow.effect.third_unstable_death_pioneer": "Arrow third unstable Death of a Pioneer"
 }

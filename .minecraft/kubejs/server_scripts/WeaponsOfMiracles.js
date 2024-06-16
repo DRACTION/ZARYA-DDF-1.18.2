@@ -21,7 +21,7 @@ onEvent('recipes', e => {
 	let materials = {
 		S: Item.of('wom:wooden_staff').ignoreNBT()
 	}
-	materials.X = 'minecraft:flint'
+	materials.X = '#forge:rods/copper'
 	modifyShapedID(e, 'wom:stone_staff', 'wom:stone_staff', 1, template, materials)
 	materials.X = '#forge:rods/iron'
 	modifyShapedID(e, 'wom:iron_staff', 'wom:iron_staff', 1, template, materials)

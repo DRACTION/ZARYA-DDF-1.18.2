@@ -287,29 +287,12 @@
 					type: "item"
 					item: "minecraft:flint"
 				}
-				{
-					id: "08B82C4F09E3130B"
-					type: "item"
-					item: "minecraft:bone"
-				}
 			]
 		}
 		{
 			disable_toast: true
-			x: -1.0d
-			y: 7.5d
-			dependencies: ["002274B2E5EFACD1"]
-			id: "651C561635964051"
-			tasks: [{
-				id: "2E56D97D0ED59F45"
-				type: "item"
-				item: "kubejs:bone_tool_blank"
-			}]
-		}
-		{
-			disable_toast: true
 			x: 1.0d
-			y: 7.5d
+			y: 8.0d
 			dependencies: ["002274B2E5EFACD1"]
 			id: "23A786C8805D9ED8"
 			tasks: [{
@@ -319,36 +302,10 @@
 			}]
 		}
 		{
-			title: "Костяное навершие инструмента"
-			disable_toast: true
-			x: -2.0d
-			y: 9.0d
-			dependencies: ["651C561635964051"]
-			min_required_tasks: 1
-			id: "3BAB506AB5C2E2EA"
-			tasks: [
-				{
-					id: "75F02D3FC5B8F43E"
-					type: "item"
-					item: "kubejs:bone_shovel_head"
-				}
-				{
-					id: "143DEF7E5DD92932"
-					type: "item"
-					item: "kubejs:bone_pickaxe_head"
-				}
-				{
-					id: "3FB7B9B7AB27B6F2"
-					type: "item"
-					item: "kubejs:bone_axe_head"
-				}
-			]
-		}
-		{
 			title: "Кремниевое навершие инструмента"
 			disable_toast: true
-			x: 2.0d
-			y: 9.0d
+			x: 1.0d
+			y: 9.5d
 			dependencies: ["23A786C8805D9ED8"]
 			min_required_tasks: 1
 			id: "41ED07FC9CE8D0D3"
@@ -372,11 +329,11 @@
 		}
 		{
 			disable_toast: true
-			x: -1.0d
+			x: 0.0d
 			y: 10.5d
 			dependencies: [
 				"16F764CF4EC5E036"
-				"3BAB506AB5C2E2EA"
+				"41ED07FC9CE8D0D3"
 			]
 			min_required_tasks: 1
 			id: "71A06CEFAD387339"
@@ -418,8 +375,8 @@
 		}
 		{
 			disable_toast: true
-			x: 0.0d
-			y: 9.0d
+			x: -1.0d
+			y: 8.0d
 			dependencies: ["002274B2E5EFACD1"]
 			id: "16F764CF4EC5E036"
 			tasks: [{
@@ -427,52 +384,6 @@
 				type: "item"
 				item: "supplementaries:rope"
 			}]
-		}
-		{
-			disable_toast: true
-			x: 1.0d
-			y: 10.5d
-			dependencies: [
-				"16F764CF4EC5E036"
-				"41ED07FC9CE8D0D3"
-			]
-			min_required_tasks: 1
-			id: "0647817ED824010F"
-			tasks: [
-				{
-					id: "0E6F1E6674A71DB5"
-					type: "item"
-					item: {
-						id: "minecraft:stone_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "088948316F0E8C75"
-					type: "item"
-					item: {
-						id: "minecraft:stone_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "3A6B75CB57FE7202"
-					type: "item"
-					item: {
-						id: "minecraft:stone_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
 		}
 		{
 			disable_toast: true
@@ -1697,6 +1608,25 @@
 				type: "dimension"
 				title: "Посетить Край"
 				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -2.0d
+			y: 9.5d
+			subtitle: "Позволяет получать больше соловы из травы"
+			dependencies: ["16F764CF4EC5E036"]
+			id: "3EED705FA4CEDB29"
+			tasks: [{
+				id: "246851BBF3274631"
+				type: "item"
+				item: {
+					id: "farmersdelight:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]
