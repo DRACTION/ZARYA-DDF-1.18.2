@@ -2,7 +2,7 @@
 #Options for customizing the display of tools on the player
 [display]
 	#If set to FALSE, the belts and tools will NOT draw on players.
-	showBeltOnPlayers = true
+	showBeltOnPlayers = false
 	#Changes the scale of items on the belt.
 	#Range: 0.1 ~ 2.0
 	beltItemScale = 0.5
