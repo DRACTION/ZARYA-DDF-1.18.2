@@ -597,9 +597,6 @@
     Имя файла: nutritiousmilk-1.18.2-3.2.jar
     MD5: E0281F24F524F8D718AB9618B85A6A81
 ---
-    Имя файла: Obscuria's Tooltips 1.4.1 (1.18.2).jar
-    MD5: F1A7AAAD243301E35601FDD67EFCEF0F
----
     Имя файла: octolib-1.18.2-0.3.jar
     MD5: 87C3E18E04DDEA3A9866CFD451A501E2
 ---
