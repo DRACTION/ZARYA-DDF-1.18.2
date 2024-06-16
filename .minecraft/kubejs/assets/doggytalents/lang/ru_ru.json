@@ -1,10 +1,13 @@
 {
 	"block.doggytalents.dog_bed.set_owner_help": "Присесть + ПКМ по лежанке, тогда ближайшая собака займёт её.",
 	"item.doggytalents.kami_treat": "Супер-пупер вкусняшка",
+	"item.doggytalents.doggy_charm.description": "Присесть + ПКМ на вашей собаке, чтобы переключаться между всеми доступными классическими вариантами.",
 	"treat.kami_treat.low_level": "Потрясающая сила этих лакомств слишком велика для вашей собаки.",
 	"treat.kami_treat.level_up": "Уровень повышен!",
 	"treat.kami_treat.too_young": "Этот пёсик еще слишком молод, чтобы осваивать эти навыки.",
 	"treat.kami_treat.max_level": "ПОЗДРАВЛЯЕМ! Ваша Собака достигла высшего уровня!",
+	"talent.doggytalents.pillow_paw.description": "Каждый уровень позволяет собаке падать с более 3-ёх блоков, прежде чем она начнёт получать урон. Освоение навыка сделает собаку полностью невосприимчивой к урону от падения! Имейте в виду, что вы не можете использовать этот талант вместе с Летающим Пушистиком.",
+	"talent.doggytalents.fisher_dog.description": "Всякий раз, когда собака заходит в воду, она сможет словить рыбу, которую отдаст когда она отряхнётся. Вероятность ловли рыбы с уровнем увеличится, а любые очки в навыке Цербер сможет заранее прожарить рыбу. Овладев этим талантом, ваша Собака будет время от времени вылавливать сокровища.",
 
 	"item.doggytalents.canine_tracker": "Собачий трекер",
 	"item.doggytalents.creative_canine_tracker": "Творческий собачий трекер",
@@ -25,12 +28,14 @@
 	// "dog.msg.low_health.3" : "%s: MEEEEEDICCC MEEEDDDICCCC!",
 
 	"item.doggytalents.conducting_bone": "Кость-проводник",
-	"item.doggytalents.whistle.description": "Присесть + ПКМ чтобы переключить режимы",
 	"item.doggytalents.treat_bag.contents.more": "И %d ещё..",
 	"item.doggytalents.treat_bag.help": "ПКМ, чтобы бросить корм для собаки издалека!\nПрисесть + ПКМ, чтобы открыть инвентарь этой сумки с лакомствами.",
 	"item.doggytalents.shrinking_mallet": "Уменьшающий молоток",
 	"item.doggytalents.magnifying_bone": "Увеличительная кость",
+
 	"item.doggytalents.gender_bone": "Кость для смены пола",
+	"item.doggytalents.variant_changer": "Смена вариантов",
+	"item.doggytalents.variant_changer.description": "Вариант: %s",
 	
 	"item.doggytalents.tantan_cape": "Тартановая накидка",
 	"item.doggytalents.pianist_suit": "Костюм пианиста",
@@ -86,6 +91,7 @@
 	"item.doggytalents.feathered_mantle": "Пернатая мантия",
 
 	"item.doggytalents.empty_locator_orb": "Пустая сфера поиска",
+	"item.doggytalents.locator_orb_dyable": "Окрашиваемая сфера поиска",
 	"item.doggytalents.locator_orb_chi": "Сфера Чи",
 	"item.doggytalents.locator_orb_chi.description": "Сфера Мудрости и Знания.",
 	"item.doggytalents.locator_orb_chu": "Сфера Чу",
@@ -126,6 +132,8 @@
 	"advancements.doggytalents.train_dog_hajimemashite.description": "Дрессируйте свою первую собаку!",
 	"advancements.doggytalents.doggy_charm_summon.title": "Ах, ты меня напугал!",
 	"advancements.doggytalents.doggy_charm_summon.description": "Призовите свою первую собаку с помощью собачьего амулета.",
+	"advancements.doggytalents.ookamikaze_trigger.title": "DTN.. T!!!!!",
+	"advancements.doggytalents.ookamikaze_trigger.description": "Doggy TNT! Призовите свой первый собачий взрыв!",
 
 	"talent.doggytalents.flying_furball.dog_not_kami": "Эта собака не на уровне Ками.",
 	
@@ -148,7 +156,7 @@
 	"talent.doggytalents.water_holder.description": "Обратите внимание на шерсть собаки: она любит впитывать воду. А Собака любит вытряхивать его досуха. Этот талант позволяет вашей собаке запасать воду. Если вы, другие ваши волки или собаки загорелись, он подбежит к каждому и встряхнет шерстью, уменьшит время горения или полностью потушит цель. Чем выше уровень, тем больше воды может хранить Собака, поэтому время горения может сократиться! Вы можете либо использовать ведро с водой на собаке, чтобы пополнить запасы воды, либо собака будет автоматически впитывать воду при контакте с дождем или источником воды. Вы можете проверить количество оставшейся воды, используя любое ведро на собаке, удерживая нажатой кнопку Присесть. Освоение этого таланта дает меху вашей собаки бесконечную емкость воды.",
 	
 	"talent.doggytalents.doggy_tools": "Швейцарский нож",
-	"talent.doggytalents.doggy_tools.description": "Позволяет вашей собаке использовать определенные инструменты для решения конкретных задач. Инструменты можно добавить на панель инструментов собаки, доступ к которой можно получить через ПКМ на собаке с помощью любого варианта кирки. Чем выше уровень, тем больше вместимость панели инструментов. Например: Собаки с мотыгой на панели инструментов с семенами пшеницы помогут вам собрать пшеницу. При атаке собаки с любым оружием на панели инструментов найдут и экипируют ближайшее оружие слева.",
+	"talent.doggytalents.doggy_tools.description": "Позволяет вашей собаке использовать определенные инструменты для решения конкретных задач. Инструменты можно добавить на панель инструментов собаки, доступ к которой можно получить через ПКМ на собаке с помощью любого варианта кирки. Чем выше уровень, тем больше вместимость панели инструментов.\n\nСобаки с мотыгой на панели инструментов с семенами пшеницы помогут вам собрать пшеницу.\n\nСобака с любым оружием (топоры, мечи, луки, трезубцы и арбалеты) в панели инструментов используют ближайший с лева.\nСтрелы для лука и арбалета можно хранить либо на панели инструментов, либо в инвентаре Щеничьего рюкзака.\nТрезубец можно использовать в качестве оружия дальнего боя только в том случае, если он зачарован на Верность 2 или выше, в противном случае его можно использовать в качестве оружия ближнего боя.",
 	
 	"talent.doggytalents.shock_absorber": "Амортизатор",
 	"talent.doggytalents.shock_absorber.description": "Увеличивает сопротивление отбрасыванию. Освоение этого навыка дает собаке полную невосприимчивость к отбрасыванию.",
@@ -240,7 +248,47 @@
 	"dog.combat_return_strategy.1.help" : "То же, что и «Обычно», но собака продолжит драться еще на несколько блоков дальше.",
 	"dog.combat_return_strategy.2.help" : "Ваша собака будет продолжать преследовать цель независимо от того, насколько далеко она от вас.",
 	
+	"dog.classical.variant.pale": "Бледный",
+	"dog.classical.variant.chestnut": "Каштан",
+	"dog.classical.variant.striped": "В полоску",
+	"dog.classical.variant.woods": "Вудс",
+	"dog.classical.variant.rusty": "Расти",
+	"dog.classical.variant.black": "Черный",
+	"dog.classical.variant.snowy": "Снежный",
+	"dog.classical.variant.ashen": "Пепельный",
+	"dog.classical.variant.spotted": "Пятнистый",
+	"dog.classical.variant.compl.cherry": "Вишня",
+	"dog.classical.variant.compl.lemony_lime": "Лимонно-лаймовый",
+	"dog.classical.variant.compl.himalayan_salt": "Гималайская соль",
+	"dog.classical.variant.compl.bamboo": "Бамбук",
+	"dog.classical.variant.compl.crimson": "Малиновый",
+	"dog.classical.variant.compl.warped": "Искаженный",
+	"dog.classical.variant.compl.birch": "Береза",
+	"dog.classical.variant.compl.pistachio": "Фисташковый",
+	"dog.classical.variant.compl.guacamole": "Гуакамоле",
+
+	"dog.classical.variant.compl.vscode": "VSCode",
+
 	"entity.doggytalents.dog_plushie_toy": "Плюшевая игрушка для собак",
+
+	"item.doggytalents.whistle": "Свисток",
+	"item.doggytalents.whistle.description": "Присесть + ПКМ чтобы переключить режимы",
+	// "item.doggytalents.whistle.0": "Whistle: Command Stand",
+	// "item.doggytalents.whistle.1": "Whistle: Command Heel",
+	// "item.doggytalents.whistle.2": "Whistle: Command Stay",
+	// "item.doggytalents.whistle.3": "Whistle: Command Ok?",
+	// "item.doggytalents.whistle.4": "Shepherds Whistle",
+	// "item.doggytalents.whistle.5": "Tactical Whistle",
+	// "item.doggytalents.whistle.6": "Roaring Whistle",
+	"item.doggytalents.whistle.7": "Лечить по имени - Свисток",
+	"item.doggytalents.whistle.8": "Свисток: команда в кровать",
+	"item.doggytalents.whistle.9": "Свисток: команда позади",
+	"item.doggytalents.whistle.10": "Лечить группу - Свисток",
+	"item.doggytalents.whistle.11": "Mob Retriever - Свисток",
+	"item.doggytalents.whistle.12": "Лечить по взгляду - Свисток",
+	"item.doggytalents.whistle.13": "Кататься со мной - Свисток",
+	"item.doggytalents.whistle.14": "Свисток: команда выть!",
+	// "item.doggytalents.whistle.15": "All Stand Switch Mode",
 
 	"item.doggytalents.amnesia_bone": "Кость-забывайка",
 	"item.doggytalents.amnesia_bone.reject": "Этот предмет можно использовать только на собаках, с которыми вы можете взаимодействовать.",
@@ -258,5 +306,7 @@
 	"doggui.talents.max_level" : "Максимальный уровень!",
 	"doggui.talents.train" : "Учить",
 	"doggui.talents.invalid.disabled": "Этот талант отключен.",
-	"doggui.talents.invalid.not_eligible": "Этот талант не подходит."
+	"doggui.talents.invalid.not_eligible": "Этот талант не подходит.",
+	"doggui.classical.variant": "Вариант:"
+
 }

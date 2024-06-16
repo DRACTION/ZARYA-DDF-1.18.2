@@ -107,4 +107,5 @@ let za_removedItems = [
 
 onEvent('jei.hide.items', event => {
 	event.hide(za_removedItems)
+	event.hide(Item.of('minecraft:enchanted_book').enchant('aggrofix:aggrobaiting', 1))
 })
