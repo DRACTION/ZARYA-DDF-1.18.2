@@ -237,9 +237,6 @@
     Имя файла: dynamiclightsreforged-1.18.2_v1.3.3.jar
     MD5: 8EDF5F13C07E3DB59C42EC0B919FAA28
 ---
-    Имя файла: eatinganimation-1.18.2-2.2.0.jar
-    MD5: D84EFF91C586F0251AE6BBE29871DB1C
----
     Имя файла: effective_fg-1.2.4.jar
     MD5: E4FAC9C79C9A6082E10BB3AB3858E392
 ---
