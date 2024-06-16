@@ -20,3 +20,12 @@ onEvent('recipes', e => {
 onEvent('item.tags', e => {
 	e.add('zarya:copper_iron', ['minecraft:iron_ingot', 'minecraft:copper_ingot'])
 })
+
+onEvent("lootjs", (event) => {
+	// Выпадение медной руды как у железной руды + 1
+	event.addBlockLootModifier(['minecraft:copper_ore', 'minecraft:deepslate_copper_ore'])
+		.modifyLoot('minecraft:raw_copper', (itemStack) => {
+			itemStack.setCount(1);
+			return itemStack;
+		}).applyOreBonus('minecraft:fortune')
+});
