@@ -1,9 +1,130 @@
+
 onEvent('recipes', e => {
-
-  //////////// Андезитовый сплав только из цинка ////////////
+  //////////// Механический пресс ////////////
+  modifyShaped(e, 'create:mechanical_press', 1,
+    [
+      'S',
+      'C',
+      'A'
+    ],
+    {
+      S: 'create:shaft',
+      C: 'create:andesite_casing',
+      A: 'minecraft:polished_andesite_slab'
+    })
+  //////////// Андезитовый сплав в печи из цинка ////////////
+  e.smelting('create:andesite_alloy', '#forge:raw_materials/zinc')
+  //////////// Андезитовый сплав только при нагреве и смешивании ////////////
   e.remove({id:'create:crafting/materials/andesite_alloy'})
+  e.remove({id:'create:crafting/materials/andesite_alloy_from_zinc'})
   e.remove({id:'create:mixing/andesite_alloy'})
-
+  e.remove({id:'create:mixing/andesite_alloy_from_zinc'})
+  e.recipes.createMixing('create:andesite_alloy', ['#forge:nuggets/zinc', '#chipped:andesite']).lowheated()
+  ///////////////// Кусочки металла в слитки /////////////////
+  e.remove({id: 'create:crafting/materials/zinc_ingot_from_compacting'})
+  e.remove({id: 'create:crafting/materials/brass_ingot_from_compacting'})
+  e.remove({id: 'create:crafting/materials/copper_ingot'})
+  e.remove({id: 'createdeco:netherite_ingot'})
+  e.remove({id: 'minecraft:iron_ingot_from_nuggets'})
+  e.remove({id: 'minecraft:gold_ingot_from_nuggets'})
+  e.recipes.createCompacting('create:zinc_ingot', ['9x #forge:nuggets/zinc']).lowheated()
+  e.recipes.createCompacting('minecraft:copper_ingot', ['9x #forge:nuggets/copper']).lowheated()
+  e.recipes.createCompacting('minecraft:iron_ingot', ['9x #forge:nuggets/iron']).heated()
+  e.recipes.createCompacting('minecraft:gold_ingot', ['9x #forge:nuggets/gold']).heated()
+  e.recipes.createCompacting('create:brass_ingot', ['9x #forge:nuggets/brass']).heated()
+  e.recipes.createCompacting('minecraft:netherite_ingot', ['9x #forge:nuggets/netherite']).superheated()
+  ///////////////// Руда в слитки /////////////////
+  e.recipes.createCompacting('create:zinc_ingot', ['#forge:raw_materials/zinc']).lowheated()
+  e.recipes.createCompacting('create:zinc_ingot', ['create:crushed_raw_zinc']).lowheated()
+  e.recipes.createCompacting('minecraft:copper_ingot', ['#forge:raw_materials/copper']).lowheated()
+  e.recipes.createCompacting('minecraft:copper_ingot', ['create:crushed_raw_copper']).lowheated()
+  e.recipes.createCompacting('minecraft:iron_ingot', ['#forge:raw_materials/iron']).heated()
+  e.recipes.createCompacting('minecraft:iron_ingot', ['create:crushed_raw_iron']).heated()
+  e.recipes.createCompacting('minecraft:gold_ingot', ['#forge:raw_materials/gold']).heated()
+  e.recipes.createCompacting('minecraft:gold_ingot', ['create:crushed_raw_gold']).heated()
+  ///////////////// Слитки металла в блоки /////////////////
+  e.remove({id: 'create:crafting/materials/zinc_block_from_compacting'})
+  e.remove({id: 'create:crafting/materials/brass_block_from_compacting'})
+  e.remove({id: 'minecraft:iron_block'})
+  e.remove({id: 'minecraft:copper_block'})
+  e.remove({id: 'minecraft:gold_block'})
+  e.remove({id: 'minecraft:netherite_block'})
+  e.recipes.createCompacting('create:zinc_block', ['9x #forge:ingots/zinc']).lowheated()
+  e.recipes.createCompacting('minecraft:copper_block', ['9x #forge:ingots/copper']).lowheated()
+  e.recipes.createCompacting('minecraft:iron_block', ['9x #forge:ingots/iron']).heated()
+  e.recipes.createCompacting('minecraft:gold_block', ['9x #forge:ingots/gold']).heated()
+  e.recipes.createCompacting('create:brass_block', ['9x #forge:ingots/brass']).heated()
+  e.recipes.createCompacting('minecraft:netherite_block', ['9x #forge:ingots/netherite']).superheated()
+  ///////////////// Руда в блоки /////////////////
+  e.recipes.createCompacting('create:zinc_block', ['#forge:storage_blocks/raw_zinc']).lowheated()
+  e.recipes.createCompacting('create:zinc_block', ['9x #forge:raw_materials/zinc']).lowheated()
+  e.recipes.createCompacting('create:zinc_block', ['9x create:crushed_raw_zinc']).lowheated()
+  e.recipes.createCompacting('minecraft:copper_block', ['#forge:storage_blocks/raw_copper']).lowheated()
+  e.recipes.createCompacting('minecraft:copper_block', ['9x #forge:raw_materials/copper']).lowheated()
+  e.recipes.createCompacting('minecraft:copper_block', ['9x create:crushed_raw_copper']).lowheated()
+  e.recipes.createCompacting('minecraft:iron_block', ['#forge:storage_blocks/raw_iron']).heated()
+  e.recipes.createCompacting('minecraft:iron_block', ['9x #forge:raw_materials/iron']).heated()
+  e.recipes.createCompacting('minecraft:iron_block', ['9x create:crushed_raw_iron']).heated()
+  e.recipes.createCompacting('minecraft:gold_block', ['#forge:storage_blocks/raw_gold']).heated()
+  e.recipes.createCompacting('minecraft:gold_block', ['9x #forge:raw_materials/gold']).heated()
+  e.recipes.createCompacting('minecraft:gold_block', ['9x create:crushed_raw_gold']).heated()
+  ///////////////// Блоки металла в слитки /////////////////
+  e.remove({id: 'create:crafting/materials/zinc_ingot_from_decompacting'})
+  e.remove({id: 'create:crafting/materials/brass_ingot_from_decompacting'})
+  e.remove({id: 'minecraft:copper_ingot_from_waxed_copper_block'})
+  e.remove({id: 'minecraft:copper_ingot'})
+  e.remove({id: 'minecraft:iron_ingot_from_iron_block'})
+  e.remove({id: 'minecraft:gold_ingot_from_gold_block'})
+  e.remove({id: 'minecraft:netherite_ingot_from_netherite_block'})
+  e.recipes.createMixing('9x create:zinc_ingot', ['#forge:storage_blocks/zinc']).lowheated()
+  e.recipes.createMixing('9x create:zinc_ingot', ['#forge:storage_blocks/raw_zinc']).lowheated()
+  e.recipes.createMixing('9x minecraft:copper_ingot', ['#forge:storage_blocks/copper']).lowheated()
+  e.recipes.createMixing('9x minecraft:copper_ingot', ['#forge:storage_blocks/raw_copper']).lowheated()
+  e.recipes.createMixing('9x minecraft:iron_ingot', ['#forge:storage_blocks/iron']).heated()
+  e.recipes.createMixing('9x minecraft:iron_ingot', ['#forge:storage_blocks/raw_iron']).heated()
+  e.recipes.createMixing('9x minecraft:gold_ingot', ['#forge:storage_blocks/gold']).heated()
+  e.recipes.createMixing('9x minecraft:gold_ingot', ['#forge:storage_blocks/raw_gold']).heated()
+  e.recipes.createMixing('9x create:brass_ingot', ['#forge:storage_blocks/brass']).heated()
+  e.recipes.createMixing('9x minecraft:netherite_ingot', ['#forge:storage_blocks/netherite']).superheated()
+  ///////////////// Слитки металла и руда в кусочки /////////////////
+  e.remove({id: 'create:crafting/materials/zinc_nugget_from_decompacting'})
+  e.remove({id: 'create:crafting/materials/brass_nugget_from_decompacting'})
+  e.remove({id: 'create:crafting/materials/copper_nugget'})
+  e.remove({id: 'createdeco:netherite_nugget_from_netherite_ingot'})
+  e.remove({id: 'minecraft:gold_nugget'})
+  e.remove({id: 'minecraft:iron_nugget'})
+  e.recipes.createMixing('9x create:zinc_nugget', ['#forge:ingots/zinc']).lowheated()
+  e.recipes.createMixing('9x create:zinc_nugget', ['#forge:ores/zinc']).lowheated()
+  e.recipes.createMixing('9x create:zinc_nugget', ['#forge:raw_materials/zinc']).lowheated()
+  e.recipes.createMixing('9x create:zinc_nugget', ['create:crushed_raw_zinc']).lowheated()
+  e.recipes.createMixing('9x create:copper_nugget', ['#forge:ingots/copper']).lowheated()
+  e.recipes.createMixing('9x create:copper_nugget', ['#forge:ores/copper']).lowheated()
+  e.recipes.createMixing('9x create:copper_nugget', ['#forge:raw_materials/copper']).lowheated()
+  e.recipes.createMixing('9x create:copper_nugget', ['create:crushed_raw_copper']).lowheated()
+  e.recipes.createMixing('9x minecraft:iron_nugget', ['#forge:ingots/iron']).heated()
+  e.recipes.createMixing('9x minecraft:iron_nugget', ['#forge:ores/iron']).heated()
+  e.recipes.createMixing('9x minecraft:iron_nugget', ['#forge:raw_materials/iron']).heated()
+  e.recipes.createMixing('9x minecraft:iron_nugget', ['create:crushed_raw_iron']).heated()
+  e.recipes.createMixing('9x minecraft:gold_nugget', ['#forge:ingots/gold']).heated()
+  e.recipes.createMixing('9x minecraft:gold_nugget', ['#forge:ores/gold']).heated()
+  e.recipes.createMixing('9x minecraft:gold_nugget', ['#forge:raw_materials/gold']).heated()
+  e.recipes.createMixing('9x minecraft:gold_nugget', ['create:crushed_raw_gold']).heated()
+  e.recipes.createMixing('9x create:brass_nugget', ['#forge:ingots/brass']).heated()
+  e.recipes.createMixing('9x createdeco:netherite_nugget', ['#forge:ingots/netherite']).superheated()
+  //////////////////////// Сплав незерита ////////////////////////
+  e.remove({id: 'minecraft:netherite_ingot'})
+  e.recipes.createMixing('9x createdeco:netherite_nugget', ['4x #forge:ingots/gold', '4x minecraft:netherite_scrap']).superheated()
+  e.recipes.createMixing('9x createdeco:netherite_nugget', ['3x #forge:ingots/gold', '9x #forge:nuggets/gold', '4x minecraft:netherite_scrap']).superheated()
+  e.recipes.createMixing('9x createdeco:netherite_nugget', ['2x #forge:ingots/gold', '18x #forge:nuggets/gold', '4x minecraft:netherite_scrap']).superheated()
+  e.recipes.createMixing('9x createdeco:netherite_nugget', ['#forge:ingots/gold', '27x #forge:nuggets/gold', '4x minecraft:netherite_scrap']).superheated()
+  e.recipes.createMixing('9x createdeco:netherite_nugget', ['36x #forge:nuggets/gold', '4x minecraft:netherite_scrap']).superheated()
+  //////////////////////// Сплав Латуни ////////////////////////
+  e.remove({id: 'create:mixing/brass_ingot'})
+  e.recipes.createMixing('18x create:brass_nugget', ['#forge:ingots/copper', '#forge:ingots/zinc']).heated()
+  e.recipes.createMixing('18x create:brass_nugget', ['#forge:ingots/copper', '9x #forge:nuggets/zinc']).heated()
+  e.recipes.createMixing('18x create:brass_nugget', ['9x #forge:nuggets/copper', '#forge:ingots/zinc']).heated()
+  e.recipes.createMixing('18x create:brass_nugget', ['9x #forge:nuggets/copper', '9x #forge:nuggets/zinc']).heated()
+  //////////////////////// Промывка дробленной руды ////////////////////////
   e.remove({id:'create:splashing/crushed_raw_iron'})
   e.recipes.createSplashing(
     [
