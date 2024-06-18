@@ -89,57 +89,14 @@ onEvent('recipes', e => {
 	e.remove({ id: 'farmersdelight:gold_nugget_from_smelting_knife' })
 	e.remove({ id: 'minecraft:gold_nugget_from_blasting' })
 	e.remove({ id: 'farmersdelight:gold_nugget_from_blasting_knife' })
-
 	e.blasting('minecraft:copper_ingot', '#zarya:blasting_to_copper_ingot').xp(0.2)
 	e.blasting('minecraft:iron_ingot', '#zarya:blasting_to_iron_ingot').xp(0.2)
 	e.blasting('minecraft:gold_ingot', '#zarya:blasting_to_golden_ingot').xp(0.2)
-	
+	///////////////// Пластины в слитки /////////////////
 	e.blasting('minecraft:copper_ingot', '#forge:plates/copper')
 	e.blasting('minecraft:iron_ingot', '#forge:plates/iron')
 	e.blasting('minecraft:gold_ingot', '#forge:plates/gold')
 	e.blasting('create:brass_ingot', '#forge:plates/brass')
 	e.blasting('create:zinc_ingot', '#forge:plates/zinc')
 
-})
-
-onEvent('item.tags', e => {
-	let arr = [
-		['copper', 'stone', false],
-		['iron', 'iron', true],
-		['golden', 'golden', true]
-	]
-	arr.forEach( inArr => {
-		e.add(`zarya:blasting_to_${inArr[0]}_ingot`, [
-			`minecraft:${inArr[1]}_sword`,
-			`minecraft:${inArr[1]}_shovel`,
-			`minecraft:${inArr[1]}_pickaxe`,
-			`minecraft:${inArr[1]}_axe`,
-			`minecraft:${inArr[1]}_hoe`
-		])
-		if (inArr[2]) {
-			e.add(`zarya:blasting_to_${inArr[0]}_ingot`, [
-				`minecraft:${inArr[1]}_helmet`,
-				`minecraft:${inArr[1]}_chestplate`,
-				`minecraft:${inArr[1]}_leggings`,
-				`minecraft:${inArr[1]}_boots`,
-				`minecraft:${inArr[1]}_horse_armor`,
-				`farmersdelight:${inArr[1]}_knife`,
-				`epicfight:${inArr[1]}_greatsword`,
-				`epicfight:${inArr[1]}_spear`,
-				`epicfight:${inArr[1]}_tachi`,
-				`epicfight:${inArr[1]}_longsword`,
-				`epicfight:${inArr[1]}_dagger`,
-				`wom:${inArr[1]}_greataxe`,
-				`wom:${inArr[1]}_staff`
-			])
-		}
-	})
-	e.add(`zarya:blasting_to_iron_ingot`, `ef_weapon_extended:iron_knuckles`)
-	e.add(`zarya:blasting_to_golden_ingot`, [
-		`wom:golden_monocle`,
-		`wom:golden_kit`,
-		`wom:golden_chrono`,
-		`wom:golden_mokassin`,
-		`ef_weapon_extended:gold_knuckles`
-	])
 })

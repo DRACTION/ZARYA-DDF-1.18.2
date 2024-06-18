@@ -1,5 +1,24 @@
 
 onEvent('recipes', e => {
+  //////////// Переплавка инструментов и брони в слитки ////////////
+  e.recipes.createMixing('minecraft:copper_ingot', '#zarya:blasting_to_copper_ingot').lowheated()
+  e.recipes.createMixing('minecraft:iron_ingot', '#zarya:blasting_to_iron_ingot').heated()
+  e.recipes.createMixing('minecraft:gold_ingot', '#zarya:blasting_to_golden_ingot').heated()
+  e.recipes.createMixing('minecraft:netherite_ingot', '#zarya:blasting_to_netherite_ingot').superheated()
+  ///////////////// Пластины в слитки /////////////////
+  e.recipes.createMixing('minecraft:copper_ingot', '#forge:plates/copper').lowheated()
+  e.recipes.createMixing('minecraft:iron_ingot', '#forge:plates/iron').heated()
+  e.recipes.createMixing('minecraft:gold_ingot', '#forge:plates/gold').heated()
+  e.recipes.createMixing('minecraft:netherite_ingot', '#forge:plates/netherite').superheated()
+  e.recipes.createMixing('create:brass_ingot', '#forge:plates/brass').heated()
+  e.recipes.createMixing('create:zinc_ingot', '#forge:plates/zinc').lowheated()
+  ///////////////// Пластины в блоки /////////////////
+  e.recipes.createCompacting('minecraft:copper_block', '9x #forge:plates/copper').lowheated()
+  e.recipes.createCompacting('minecraft:iron_block', '9x #forge:plates/iron').heated()
+  e.recipes.createCompacting('minecraft:gold_block', '9x #forge:plates/gold').heated()
+  e.recipes.createCompacting('minecraft:netherite_block', '9x #forge:plates/netherite').superheated()
+  e.recipes.createCompacting('create:brass_block', '9x #forge:plates/brass').heated()
+  e.recipes.createCompacting('create:zinc_block', '9x #forge:plates/zinc').lowheated()
   //////////// Механический пресс ////////////
   modifyShaped(e, 'create:mechanical_press', 1,
     [
@@ -118,6 +137,11 @@ onEvent('recipes', e => {
   e.recipes.createMixing('9x createdeco:netherite_nugget', ['2x #forge:ingots/gold', '18x #forge:nuggets/gold', '4x minecraft:netherite_scrap']).superheated()
   e.recipes.createMixing('9x createdeco:netherite_nugget', ['#forge:ingots/gold', '27x #forge:nuggets/gold', '4x minecraft:netherite_scrap']).superheated()
   e.recipes.createMixing('9x createdeco:netherite_nugget', ['36x #forge:nuggets/gold', '4x minecraft:netherite_scrap']).superheated()
+  e.recipes.createCompacting('minecraft:netherite_ingot', ['4x #forge:ingots/gold', '4x minecraft:netherite_scrap']).superheated()
+  e.recipes.createCompacting('minecraft:netherite_ingot', ['3x #forge:ingots/gold', '9x #forge:nuggets/gold', '4x minecraft:netherite_scrap']).superheated()
+  e.recipes.createCompacting('minecraft:netherite_ingot', ['2x #forge:ingots/gold', '18x #forge:nuggets/gold', '4x minecraft:netherite_scrap']).superheated()
+  e.recipes.createCompacting('minecraft:netherite_ingot', ['#forge:ingots/gold', '27x #forge:nuggets/gold', '4x minecraft:netherite_scrap']).superheated()
+  e.recipes.createCompacting('minecraft:netherite_ingot', ['36x #forge:nuggets/gold', '4x minecraft:netherite_scrap']).superheated()
   //////////////////////// Сплав Латуни ////////////////////////
   e.remove({id: 'create:mixing/brass_ingot'})
   e.recipes.createMixing('18x create:brass_nugget', ['#forge:ingots/copper', '#forge:ingots/zinc']).heated()
@@ -234,6 +258,59 @@ onEvent('recipes', e => {
   e.replaceInput({id: 'create:crafting/appliances/netherite_diving_helmet'}, 'minecraft:netherite_ingot', '#forge:plates/netherite')
   e.replaceInput({id: 'create:crafting/appliances/netherite_diving_boots'}, 'minecraft:netherite_ingot', '#forge:plates/netherite')
 
+})
+
+onEvent('item.tags', e => {
+  //////////// Тэги для переплавки ////////////
+  let arr = [
+    ['copper',    'stone',     false, false],
+    ['iron',      'iron',      true,  true],
+    ['golden',    'golden',    true,  true],
+    ['netherite', 'netherite', true,  false]
+  ]
+  arr.forEach( inArr => {
+    e.add(`zarya:blasting_to_${inArr[0]}_ingot`, [
+      `minecraft:${inArr[1]}_sword`,
+      `minecraft:${inArr[1]}_shovel`,
+      `minecraft:${inArr[1]}_pickaxe`,
+      `minecraft:${inArr[1]}_axe`,
+      `minecraft:${inArr[1]}_hoe`
+    ])
+    if (inArr[2]) {
+      e.add(`zarya:blasting_to_${inArr[0]}_ingot`, [
+        `minecraft:${inArr[1]}_helmet`,
+        `minecraft:${inArr[1]}_chestplate`,
+        `minecraft:${inArr[1]}_leggings`,
+        `minecraft:${inArr[1]}_boots`,
+        `farmersdelight:${inArr[1]}_knife`,
+        `epicfight:${inArr[1]}_greatsword`,
+        `epicfight:${inArr[1]}_spear`,
+        `epicfight:${inArr[1]}_tachi`,
+        `epicfight:${inArr[1]}_longsword`,
+        `epicfight:${inArr[1]}_dagger`,
+        `wom:${inArr[1]}_greataxe`,
+        `wom:${inArr[1]}_staff`
+      ])
+    }
+    if (inArr[3]) {
+      e.add(`zarya:blasting_to_${inArr[0]}_ingot`, `minecraft:${inArr[1]}_horse_armor`)
+    }
+  })
+  e.add(`zarya:blasting_to_iron_ingot`, `ef_weapon_extended:iron_knuckles`)
+  e.add(`zarya:blasting_to_golden_ingot`, [
+    `wom:golden_monocle`,
+    `wom:golden_kit`,
+    `wom:golden_chrono`,
+    `wom:golden_mokassin`,
+    `ef_weapon_extended:gold_knuckles`
+  ])
+  e.add(`zarya:blasting_to_netherite_ingot`, [
+    `wom:netherite_mask`,
+    `wom:netherite_manicle`,
+    `wom:netherite_belt`,
+    `wom:netherite_chains`,
+    `ef_weapon_extended:netherite_knuckles`
+  ])
 })
 
 onEvent('block.tags', e => {
