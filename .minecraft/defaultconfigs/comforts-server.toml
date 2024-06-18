@@ -2,6 +2,7 @@
 [server]
 	#Set to true to automatically use sleeping bags when placed
 	autoUse = false
-	#Set to true to enable sleeping in hammocks at night
-	nightHammocks = true
+	#List of debuffs to apply to players after using the sleeping bag
+	#Format: [effect] [duration(secs)] [power]
+	sleepingBagDebuffs = ["minecraft:weakness 25 1", "minecraft:slowness 25 1", "minecraft:mining_fatigue 25 1"]
 

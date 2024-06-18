@@ -89,7 +89,7 @@
 	clearWeatherOnWake = true
 	#When true, players are allowed to sleep at all times of day in dimensions controlled by Better Days.
 	#Note: Other mods may override this ability.
-	allowDaySleep = true
+	allowDaySleep = false
 	#When true, a clock is displayed in the sleep interface.
 	displayBedClock = true
 
