@@ -1642,6 +1642,90 @@
 				}
 			}]
 		}
+		{
+			x: -5.5d
+			y: 2.0d
+			subtitle: "Путешествие по воздуху"
+			description: [
+				"Руля не будет, лететь по наитию"
+				""
+				"Присесть + ПКМ, чтобы сложить шар"
+			]
+			id: "461C0551ACBDFFC3"
+			tasks: [{
+				id: "056D4BC908C3B731"
+				type: "item"
+				item: "breezy:hot_air_balloon"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			subtitle: "Позволяет понять направление ветра"
+			description: [
+				"На разной высоте с разное время суток навправление ветра меняется"
+				""
+				"Чтобы тонко чувстовать направление, вам потребуется этот прибор"
+			]
+			dependencies: ["461C0551ACBDFFC3"]
+			id: "265C6DD304061491"
+			tasks: [{
+				id: "50A64FC978746C53"
+				type: "item"
+				item: "breezy:gust_gauge"
+			}]
+		}
+		{
+			title: "Вверх и вниз"
+			x: -5.0d
+			y: 3.0d
+			subtitle: "Как поднять и опустить?"
+			description: [
+				"Если вешать на воздушный шар песок, то шар становится тяжелее и опускается вниз"
+				""
+				"Если подогревать огнивом шар, то шар чудным образом будет стараться подниматься выше"
+				""
+				"Если использовать ножницы после песка, то вы скинете мешки с песком и облегчите шар"
+			]
+			dependencies: ["461C0551ACBDFFC3"]
+			id: "4EF1BBE141B49B09"
+			tasks: [
+				{
+					id: "1E58AC473476C089"
+					type: "item"
+					title: "Песок"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:sand"
+						}
+					}
+				}
+				{
+					id: "6BDBE8744CA165FE"
+					type: "item"
+					item: {
+						id: "minecraft:shears"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "581BE582DFFD815E"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

@@ -144,6 +144,12 @@
     "structure.structury.outcast_villager_grassy": "Спуск в шахту",
     "structure.warden_and_sculk.ancient_city": "Древний город",
 
+  // Breezy
+
+    "entity.breezy.hot_air_balloon": "Воздушный шар",
+    "item.breezy.hot_air_balloon": "Воздушный шар",
+    "item.breezy.gust_gauge": "Датчик ветра",
+
   // Create Low-Heated
 
     "block.createlowheated.basic_burner": "Базовая горелка",

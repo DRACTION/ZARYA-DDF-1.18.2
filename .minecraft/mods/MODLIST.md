@@ -96,6 +96,9 @@
     Имя файла: BowInfinityFix-1.18.x-rv11.jar
     MD5: 22BB0004EA21D097C1794920EA674BD9
 ---
+    Имя файла: breezy-1.18.2-1.0.5.jar
+    MD5: 4063B024AE97CB0421C109698648E245
+---
     Имя файла: brutalbosses-1.18.2-5.8-ZaryaEdition.jar
     MD5: 96599D8C6C70BB1D3889DA95D6C5B6DF
 ---
