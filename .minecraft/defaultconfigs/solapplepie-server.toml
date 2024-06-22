@@ -4,7 +4,7 @@
 	# they will get the benefits associated with that threshold.
 	#
 	#
-	thresholds = [12.0, 18.0, 25.0, 30.0, 35.0, 38.0, 43.0, 48.0, 55.0, 60.0, 65.0]
+	thresholds = [12.0, 18.0, 25.0, 30.0, 35.0, 38.0, 43.0, 48.0, 55.0, 60.0, 65.0, 68.0, 75.0]
 	# 
 	# Define custom benefits here. Each entry in the list corresponds to a benefit that will be obtained
 	# at the corresponding diversity threshold defined the list above. For example, the first entry in
@@ -26,13 +26,13 @@
 	# and Strength II at the corresponding threshold.
 	#
 	#
-	benefitsUnparsed = ["attribute,epicfight:staminar,5", "attribute,epicfight:staminar,5", "attribute,epicfight:staminar,5", "attribute,epicfight:stun_armor,1", "attribute,epicfight:staminar,5", "effect,luck,0", "attribute,generic.knockback_resistance,1", "epicfight:stun_armor,1", "epicfight:stun_armor,1", "effect,haste,0", "effect,luck,1"]
+	benefitsUnparsed = ["attribute,paraglider:max_stamina,5", "attribute,paraglider:max_stamina,5", "attribute,paraglider:max_stamina,5", "attribute,epicfight:stun_armor,1", "attribute,epicfight:stun_armor,1", "attribute,generic.knockback_resistance,1", "effect,luck,0", "attribute,generic.knockback_resistance,1", "attribute,epicfight:stun_armor,1", "attribute,epicfight:stun_armor,1;effect,regeneration,0", "effect,haste,0", "attribute,epicfight:stun_armor,1", "effect,luck,1"]
 
 [Filtering]
 	# Foods in this list won't contribute to food diversity.
 	#
 	#
-	blacklist = ['minecraft:salmon', 'farmersdelight:bacon', 'minecraft:porkchop', 'minecraft:cod', 'minecraft:beef', 'minecraft:rabbit', 'minecraft:mutton', 'farmersdelight:raw_pasta', 'corn_delight:tortilla_raw', 'farmersdelight:chicken_cuts', 'farmersdelight:cod_slice', 'farmersdelight:salmon_slice', 'farmersdelight:mutton_chops', 'farmersdelight:minced_beef', 'witherstormmod:withered_flesh', 'corn_delight:corn_seeds', 'minecraft:potato', 'minecraft:poisonous_potato', 'farmersdelight:dog_food', 'minecraft:rotten_flesh', 'minecraft:spider_eye', 'nethersdelight:hoglin_loin', 'minecraft:chicken', 'corn_delight:corn', 'minecraft:tropical_fish', 'farmersdelight:wheat_dough', 'minecraft:pufferfish', 'nethersdelight:strider_slice', 'nethersdelight:ground_strider']
+	blacklist = ['minecraft:salmon', 'farmersdelight:bacon', 'minecraft:porkchop', 'minecraft:cod', 'minecraft:beef', 'minecraft:rabbit', 'minecraft:mutton', 'farmersdelight:raw_pasta', 'corn_delight:tortilla_raw', 'farmersdelight:chicken_cuts', 'farmersdelight:cod_slice', 'farmersdelight:salmon_slice', 'farmersdelight:mutton_chops', 'farmersdelight:minced_beef', 'witherstormmod:withered_flesh', 'corn_delight:corn_seeds', 'minecraft:potato', 'minecraft:poisonous_potato', 'farmersdelight:dog_food', 'minecraft:rotten_flesh', 'minecraft:spider_eye', 'nethersdelight:hoglin_loin', 'minecraft:chicken', 'corn_delight:corn', 'minecraft:tropical_fish', 'farmersdelight:wheat_dough', 'minecraft:pufferfish', 'nethersdelight:strider_slice', 'nethersdelight:ground_strider', 'farmersdelight:pie_crust', 'supplementaries:soap', 'supplementaries:soap', 'corn_delight:cornbread_batter', 'solapplepie:golden_lunchbox', 'solapplepie:lunchbag', 'solapplepie:lunchbox', 'farmersrespite:purulent_tea', 'farmersrespite:strong_purulent_tea', 'doggytalents:aburaage', 'doggytalents:edamame_unpodded', 'doggytalents:egg_sandwich', 'doggytalents:golden_a_five_wagyu', 'doggytalents:gyudon', 'doggytalents:hot_dog', 'doggytalents:miso_soup', 'doggytalents:natto', 'doggytalents:natto_rice', 'doggytalents:onigiri', 'doggytalents:onsen_tamago', 'doggytalents:oyakodon', 'doggytalents:rice_bowl', 'doggytalents:salmon_sushi', 'doggytalents:sausage', 'doggytalents:soy_milk', 'doggytalents:tofu']
 
 [Miscellaneous]
 	#
@@ -45,6 +45,10 @@
 	#
 	#Range: 1 ~ 1000
 	queueSize = 50
+	# Whether or not to reset food diversity on death, effectively losing all benefits.
+	#
+	#
+	resetOnDeath = true
 
 [Advanced]
 	#
@@ -61,3 +65,14 @@
 	#
 	#
 	shouldForbiddenCount = false
+
+[Complexity]
+	# Define custom complexity values for individual foods here.
+	# The complexity value of a food is how much diversity points it gives. 
+	# The base diversity value of foods not defined here is equal to defaultContribution.
+	# Each entry in the list should be a string defining one food, and the format is [registry name],[value]
+	# Note that tags are NOT currently supported.
+	#
+	#
+	complexityUnparsed = ["minecraft:cooked_porkchop,2", "minecraft:cooked_beef,2", "minecraft:golden_carrot,2", "minecraft:golden_apple,4", "minecraft:enchanted_golden_apple,10", "largemeals:sweet_berry_custard,5", "largemeals:pufferfish_broth,5", "largemeals:mushroom_pot_pie,5", "largemeals:hearty_lunch,6", "farmersrespite:green_tea,3", "farmersrespite:yellow_tea,3", "farmersrespite:coffee,3", "farmersrespite:black_tea,3", "farmersrespite:rose_hip_tea,3", "farmersrespite:dandelion_tea,3", "farmersrespite:black_tea,3", "farmersrespite:rose_hip_pie_slice,4", "farmersrespite:coffee_cake_slice,4", "farmersrespite:blazing_chili,5", "farmersdelight:cake_slice,4", "farmersdelight:chocolate_pie_slice,4", "farmersdelight:apple_pie_slice,4", "farmersdelight:sweet_berry_cheesecake_slice,4", "farmersdelight:apple_cider,3", "farmersrespite:long_dandelion_tea,3", "farmersrespite:long_green_tea,3", "farmersrespite:long_apple_cider,3", "farmersrespite:long_black_tea,3", "farmersrespite:long_coffee,3", "farmersrespite:long_rose_hip_tea,3", "farmersrespite:long_yellow_tea,3", "farmersrespite:strong_apple_cider,3", "farmersrespite:strong_black_tea,3", "farmersrespite:strong_coffee,3", "farmersrespite:strong_green_tea,3", "farmersrespite:strong_rose_hip_tea,3", "farmersrespite:strong_yellow_tea,3"]
+

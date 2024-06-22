@@ -610,6 +610,8 @@
 
   // Paraglider
 
+    "attribute.name.paragliders.max_stamina": "Выносливость",
+
     "block.paraglider.goddess_statue": "Статуя Богини",
     "block.paraglider.kakariko_goddess_statue": "Статуя Богини",
     "block.paraglider.goron_goddess_statue": "Статуя Богини",
