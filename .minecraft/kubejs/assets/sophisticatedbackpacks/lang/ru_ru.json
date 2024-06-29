@@ -1,0 +1,18 @@
+{
+	"block.sophisticatedbackpacks.copper_backpack": "Медный рюкзак",
+	"item.sophisticatedbackpacks.copper_backpack": "Медный рюкзак",
+	"item.sophisticatedbackpacks.chipped.botanist_workbench_upgrade": "Улучшение: Chipped «Верстак ботаника»",
+	"item.sophisticatedbackpacks.chipped.botanist_workbench_upgrade.tooltip": "Chipped «Верстак ботаника» в слоте улучшений",
+	"item.sophisticatedbackpacks.chipped.glassblower_workbench_upgrade": "Улучшение: Chipped «Верстак стеклодува»",
+	"item.sophisticatedbackpacks.chipped.glassblower_workbench_upgrade.tooltip": "Chipped «Верстак стеклодува» в слоте улучшений",
+	"item.sophisticatedbackpacks.chipped.carpenter_workbench_upgrade": "Улучшение: Chipped «Столярный верстак»",
+	"item.sophisticatedbackpacks.chipped.carpenter_workbench_upgrade.tooltip": "Chipped «Столярный верстак» в слоте улучшений",
+	"item.sophisticatedbackpacks.chipped.mason_workbench_upgrade": "Улучшение: Chipped «Верстак Камнетёса»",
+	"item.sophisticatedbackpacks.chipped.mason_workbench_upgrade.tooltip": "Chipped «Верстак Камнетёса» в слоте улучшений",
+	"item.sophisticatedbackpacks.chipped.shepherd_workbench_upgrade": "Улучшение: Chipped «Верстак пастыря»",
+	"item.sophisticatedbackpacks.chipped.shepherd_workbench_upgrade.tooltip": "Chipped «Верстак пастыря» в слоте улучшений",
+	"item.sophisticatedbackpacks.chipped.philosopher_workbench_upgrade": "Улучшение: Chipped «Верстак Философа»",
+	"item.sophisticatedbackpacks.chipped.philosopher_workbench_upgrade.tooltip": "Chipped «Верстак Философа» в слоте улучшений",
+	"item.sophisticatedbackpacks.chipped.tinkerer_workbench_upgrade": "Улучшение: Chipped «Верстак Инженера»",
+	"item.sophisticatedbackpacks.chipped.tinkerer_workbench_upgrade.tooltip": "Chipped «Верстак Инженера» в слоте улучшений"
+}
