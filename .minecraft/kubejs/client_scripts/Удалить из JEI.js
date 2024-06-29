@@ -1,3 +1,5 @@
+//priority: 99
+
 let za_removedItems = [
 	// Better Punching
 	'betterpunching:flint_dagger',
@@ -8,24 +10,10 @@ let za_removedItems = [
 	'create:dough',
 	// Create Deco
 	'createdeco:zinc_sheet',
-	// Chiped
-    "#chipped:glass_pane",
-    "#chipped:white_stained_glass_pane",
-    "#chipped:orange_stained_glass_pane",
-    "#chipped:magenta_stained_glass_pane",
-    "#chipped:light_blue_stained_glass_pane",
-    "#chipped:yellow_stained_glass_pane",
-    "#chipped:lime_stained_glass_pane",
-    "#chipped:pink_stained_glass_pane",
-    "#chipped:gray_stained_glass_pane",
-    "#chipped:light_gray_stained_glass_pane",
-    "#chipped:cyan_stained_glass_pane",
-    "#chipped:purple_stained_glass_pane",
-    "#chipped:blue_stained_glass_pane",
-    "#chipped:brown_stained_glass_pane",
-    "#chipped:green_stained_glass_pane",
-    "#chipped:red_stained_glass_pane",
-    "#chipped:black_stained_glass_pane",
+	// Fantasy Furniture
+	'fantasyfurniture:dunmer/oven',
+	// Chipped
+    /chipped:*/,
 	// Farmers Delight
 	'farmersdelight:rope',
 	// Little Logistics

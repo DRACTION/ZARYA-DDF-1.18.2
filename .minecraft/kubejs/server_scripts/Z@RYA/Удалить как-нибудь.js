@@ -1,3 +1,5 @@
+//priority: 99
+
 let za_removedItems = [
 	// Better Punching
 	'betterpunching:flint_dagger',
@@ -6,6 +8,8 @@ let za_removedItems = [
 	'betterpunching:flint_hatchet',
 	// Create Deco
 	'createdeco:zinc_sheet',
+	// Fantasy Furniture
+	'fantasyfurniture:dunmer/oven',
 	// Farmers Delight
 	'farmersdelight:rope',
 	// Little Logistics
@@ -73,7 +77,18 @@ let za_removedItems = [
 	'effortlessbuilding:diamond_randomizer_bag'
 ]
 
-
 onEvent('recipes', event => {
 	removeRecipeByOutput(event, za_removedItems)
+})
+
+onEvent('item.tags', event => {
+	za_removedItems.forEach( item => {
+		event.removeAllTagsFrom(item)
+	})
+})
+
+onEvent('block.tags', event => {
+	za_removedItems.forEach( block => {
+		event.removeAllTagsFrom(block)
+	})
 })

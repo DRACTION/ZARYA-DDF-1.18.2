@@ -1,4 +1,4 @@
-//priority: 1
+//priority: 0
 
 let colors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black']
 let woods = ['oak', 'birch', 'spruce', 'jungle', 'acacia', 'dark_oak']
@@ -143,6 +143,12 @@ let farmersdelight = {
     })
   }
 }
+let chipped = (e, type, tags) => {
+  return e.custom({
+    type: `chipped:${type}`,
+    tags: (Array.isArray(tags)) ? tags : [tags]
+  })
+}
 
 
 let tagOrItemForJson = (v) => {
@@ -152,7 +158,7 @@ let tagOrItemForJson = (v) => {
     } else {
       return Item.of(v).toResultJson()
     }
-  } else if (v instanceof Array) {
+  } else if (Array.isArray(v)) {
     return v.map(inArr => tagOrItemForJson(inArr))
   } else {
     return v
