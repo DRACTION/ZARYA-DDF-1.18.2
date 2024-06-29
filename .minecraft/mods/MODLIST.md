@@ -549,6 +549,9 @@
     Имя файла: modernfix-forge-5.18.0+mc1.18.2.jar
     MD5: 23BB7D1CF555CA6B0D3C9F3DB6ECAE7E
 ---
+    Имя файла: modnametooltip-1.18.1-1.18.0.jar
+    MD5: 327106CA29B6AEED7A0E16539A9F96AA
+---
     Имя файла: More Villager Trades 1.0.0 - 1.18.2.jar
     MD5: 675E2339B2A283BF7E52FDA72F362A23
 ---
