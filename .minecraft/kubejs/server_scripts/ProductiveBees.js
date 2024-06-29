@@ -83,4 +83,13 @@ onEvent('recipes', e => {
 			B: 'create:basin'
 		}
 	).id('zarya:heated_centrifuge')
+
+	e.remove({ output: 'productivebees:bottler'})
+})
+
+
+onEvent('item.tags', e => {
+	e.remove('forge:milk/freshmilk', 'productivebees:milk_bottle')
+	e.remove('forge:milk/milk_bottle', 'productivebees:milk_bottle')
+	e.remove('forge:milk', 'productivebees:milk_bottle')
 })

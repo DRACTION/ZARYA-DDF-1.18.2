@@ -65,6 +65,8 @@ let za_removedItems = [
 	// Productive Bees
 	'productivebees:centrifuge',
 	'productivebees:powered_centrifuge',
+	'productivebees:bottler',
+	'productivebees:milk_bottle',
 	// Effortless Building
 	'effortlessbuilding:randomizer_bag',
 	'effortlessbuilding:golden_randomizer_bag',
