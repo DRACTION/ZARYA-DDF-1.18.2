@@ -2,7 +2,7 @@ onEvent('recipes', e => {
 
 	allWoods.forEach(thing => {
 		//9 деревянных кнопок вместо одной
-		modifyShapelesID(
+		modifyShapelessID(
 			e, //Event
 			`minecraft:${thing}_button`, //Result
 			`minecraft:${thing}_button`, //Craft ID

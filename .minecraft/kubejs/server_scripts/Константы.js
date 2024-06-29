@@ -125,7 +125,7 @@ let modifyShapedID = (e, result, ID, count, pattern, ingredients) => {
   e.remove({ id: ID, type: 'minecraft:crafting_shaped' })
   return e.shaped(Item.of(result, count), pattern, ingredients).id(`kubejs:shaped/${result.replace(':', '/')}`)
 }
-let modifyShapelesID = (e, result, ID, count, ingredients) => {
+let modifyShapelessID = (e, result, ID, count, ingredients) => {
   e.remove({ id: ID, type: 'minecraft:crafting_shapeless' })
   return e.shapeless(Item.of(result, count), ingredients).id(`kubejs:shapeless/${result.replace(':', '/')}`)
 }

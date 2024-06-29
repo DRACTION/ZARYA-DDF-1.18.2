@@ -5,7 +5,7 @@ onEvent('recipes', event => {
 
 	// Cut wood with handsaw
 		woods.forEach(name => {
-			modifyShapelesID(
+			modifyShapelessID(
 				event,
 				`minecraft:${name}_planks`, //result
 				`minecraft:${name}_planks`, //ID
@@ -17,7 +17,7 @@ onEvent('recipes', event => {
 		})
 
 		endWoodNames.forEach(name => {
-			modifyShapelesID(
+			modifyShapelessID(
 				event,
 				`minecraft:${name}_planks`, //result
 				`minecraft:${name}_planks`, //ID
