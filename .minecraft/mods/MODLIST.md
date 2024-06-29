@@ -651,6 +651,9 @@
     Имя файла: player-animation-lib-forge-1.0.2+1.18.jar
     MD5: 33E51D8320F9D5D8E37BC7F9479D6A3E
 ---
+    Имя файла: plushies-1.2-1.18.2-forge.jar
+    MD5: D4A12337A0A8CFEBF8C4767136766767
+---
     Имя файла: polylib-forge-1801.0.3-build.109.jar
     MD5: 303E1AF39C62D6F4ADF75626B192CF38
 ---
