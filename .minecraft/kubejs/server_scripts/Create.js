@@ -1,5 +1,7 @@
 
 onEvent('recipes', e => {
+  //////////// Убрать Сгусток слизи из теста ////////////
+  e.remove({ id: "create:crafting/appliances/slime_ball" })
   //////////// Переплавка инструментов и брони в слитки ////////////
   e.recipes.createMixing('minecraft:copper_ingot', '#zarya:blasting_to_copper_ingot').lowheated()
   e.recipes.createMixing('minecraft:iron_ingot', '#zarya:blasting_to_iron_ingot').heated()
