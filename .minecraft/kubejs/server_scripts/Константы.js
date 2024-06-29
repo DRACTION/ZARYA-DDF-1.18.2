@@ -129,3 +129,32 @@ let modifyShapelessID = (e, result, ID, count, ingredients) => {
   e.remove({ id: ID, type: 'minecraft:crafting_shapeless' })
   return e.shapeless(Item.of(result, count), ingredients).id(`kubejs:shapeless/${result.replace(':', '/')}`)
 }
+let farmersdelight = {
+  cooking: (e, result, ingredients, container, exp, time) => {
+    // console.log(typeof ingredients[0])
+    return e.custom({
+      type: "farmersdelight:cooking",
+      // recipe_book_tab: "meals",
+      ingredients: tagOrItemForJson(ingredients),
+      container: tagOrItemForJson((container === undefined) ? 'minecraft:air' : container),
+      result: tagOrItemForJson(result),
+      experience: (exp === undefined) ? 1.0 : exp,
+      cookingtime: (time === undefined) ? 200 : time*20
+    })
+  }
+}
+
+
+let tagOrItemForJson = (v) => {
+  if (typeof v === 'string') {
+    if (v.includes('#')) {
+      return Ingredient.of(v).toJson()
+    } else {
+      return Item.of(v).toResultJson()
+    }
+  } else if (v instanceof Array) {
+    return v.map(inArr => tagOrItemForJson(inArr))
+  } else {
+    return v
+  }
+}
