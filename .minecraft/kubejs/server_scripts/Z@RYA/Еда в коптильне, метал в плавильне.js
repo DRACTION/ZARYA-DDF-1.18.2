@@ -53,9 +53,9 @@ onEvent('recipes', e => {
 	e.remove({ output: 'create:zinc_ingot', type: 'minecraft:smelting' })
 	e.remove({ output: 'create:zinc_ingot', type: 'minecraft:blasting' })
 	e.blasting('create:zinc_ingot', '#forge:ores/zinc').xp(1.0)
-	e.blasting('create:zinc_ingot', 'create:raw_zinc_block').xp(1.0)
-	e.blasting('create:zinc_nugget', 'create:raw_zinc').xp(0.1)
-	e.blasting('2x create:zinc_nugget', 'create:crushed_raw_zinc').xp(0.2)
+	e.blasting('2x create:zinc_ingot', 'create:raw_zinc_block').xp(1.0)
+	e.blasting('2x create:zinc_nugget', 'create:raw_zinc').xp(0.1)
+	e.blasting('4x create:zinc_nugget', 'create:crushed_raw_zinc').xp(0.2)
 
 	e.remove({ output: 'minecraft:diamond', type: 'minecraft:smelting' })
 	e.remove({ output: 'minecraft:diamond', type: 'minecraft:blasting' })
