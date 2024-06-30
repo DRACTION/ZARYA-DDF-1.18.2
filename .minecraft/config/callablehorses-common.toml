@@ -10,7 +10,7 @@
 	callableDimsWhitelist = ["minecraft:overworld"]
 	#Maximum block distance from last horse where new horse can be called. Set to -1 to disable range.
 	#Range: -1 ~ 30000000
-	maxCallingDistance = 150
+	maxCallingDistance = 500
 	#Enable/disable the horse stat viewer GUI
 	enableStatsViewer = true
 	#Range in which the horse will not teleport, but walk to you. Set to 0 to force the horse to always teleport.
