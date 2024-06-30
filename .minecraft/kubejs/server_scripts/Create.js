@@ -1,5 +1,20 @@
 
 onEvent('recipes', e => {
+  //////////// Железные прутья ////////////
+  modifyShapedID(e, 'minecraft:iron_bars', 'minecraft:iron_bars', 8, [
+    'XXX',
+    'XXX'], {
+    X: 'createaddition:iron_rod'
+  })
+  //////////// Медная решётка ////////////
+  removeRecipeByID(e, [
+    'createdeco:copper_bars',
+    'createdeco:copper_bars_from_copper_ingot_stonecutting'])
+  e.shaped('8x createdeco:copper_bars', [
+    'XXX',
+    'XXX'], {
+    X: 'createaddition:copper_rod'
+  })
   //////////// Убрать Сгусток слизи из теста ////////////
   e.remove({ id: "create:crafting/appliances/slime_ball" })
   //////////// Переплавка инструментов и брони в слитки ////////////

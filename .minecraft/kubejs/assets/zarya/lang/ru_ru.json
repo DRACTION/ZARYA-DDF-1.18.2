@@ -593,6 +593,8 @@
 
   // Create Deco
 
+    "block.createdeco.andesite_bars": "Андезитовая решётка",
+    "block.createdeco.copper_bars": "Медная решётка",
     "item.createdeco.netherite_nugget": "Незеритовый самородок",
     "item.createdeco.netherite_sheet": "Незеритовый лист",
 

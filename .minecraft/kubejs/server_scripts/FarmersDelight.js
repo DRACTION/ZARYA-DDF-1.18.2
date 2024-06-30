@@ -53,6 +53,15 @@ onEvent('recipes', e => {
 	e.remove({id:'minecraft:lead'})
 	e.shaped('minecraft:lead', ['R','R'], {R: 'supplementaries:rope'}).id('zarya:lead_from_rope')
 
+	modifyShapedID(e, 'farmersdelight:stove', 'farmersdelight:stove', 1, [
+		'XXX',
+		'BCB',
+		'BBB'], {
+		X: ['minecraft:iron_bars', 'createdeco:copper_bars'],
+		B: 'minecraft:bricks',
+		C: 'minecraft:campfire'
+	})
+
 })
 
 onEvent('item.tags', e => {
