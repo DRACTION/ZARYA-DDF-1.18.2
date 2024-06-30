@@ -390,6 +390,9 @@
     Имя файла: gpumemleakfix-1.18.2-1.6.jar
     MD5: 26CF509459BF6FB81A5A662A6B616963
 ---
+    Имя файла: grappling_hook_mod-1.18.2-v13.jar
+    MD5: 3D5CDA33133A6269B0D3C085535FB9DC
+---
     Имя файла: HarderSpawners-1.18.2-40.2.22.1-ZaryaEdition.jar
     MD5: 5028E910C4B05AAAA51F7410070C803D
 ---

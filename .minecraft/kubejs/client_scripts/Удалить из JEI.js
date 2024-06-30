@@ -16,6 +16,22 @@ let za_removedItems = [
     /chipped:*/,
 	// Farmers Delight
 	'farmersdelight:rope',
+	// Grapple Mod
+	'grapplemod:launcheritem',
+	'grapplemod:longfallboots',
+	'grapplemod:repeller',
+	'grapplemod:baseupgradeitem',
+	'grapplemod:doubleupgradeitem',
+	'grapplemod:forcefieldupgradeitem',
+	'grapplemod:magnetupgradeitem',
+	'grapplemod:motorupgradeitem',
+	'grapplemod:ropeupgradeitem',
+	'grapplemod:staffupgradeitem',
+	'grapplemod:swingupgradeitem',
+	'grapplemod:throwupgradeitem',
+	'grapplemod:limitsupgradeitem',
+	'grapplemod:rocketupgradeitem',
+	'grapplemod:block_grapple_modifier',
 	// Little Logistics
 	'littlelogistics:locomotive_dock_rail',
 	'littlelogistics:chest_car',
@@ -96,6 +112,10 @@ let za_removedItems = [
 ]
 
 onEvent('jei.hide.items', event => {
-	event.hide(za_removedItems)
+	za_removedItems.forEach(x => { event.hide(x) })
+	
+	event.hide(Item.of('minecraft:enchanted_book').enchant('grapplemod:doublejumpenchantment', 1))
+	event.hide(Item.of('minecraft:enchanted_book').enchant('grapplemod:wallrunenchantment', 1))
+	event.hide(Item.of('minecraft:enchanted_book').enchant('grapplemod:slidingenchantment', 1))
 	event.hide(Item.of('minecraft:enchanted_book').enchant('aggrofix:aggrobaiting', 1))
 })

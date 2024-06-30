@@ -12,6 +12,22 @@ let za_removedItems = [
 	'fantasyfurniture:dunmer/oven',
 	// Farmers Delight
 	'farmersdelight:rope',
+	// Grapple Mod
+	'grapplemod:launcheritem',
+	'grapplemod:longfallboots',
+	'grapplemod:repeller',
+	'grapplemod:baseupgradeitem',
+	'grapplemod:doubleupgradeitem',
+	'grapplemod:forcefieldupgradeitem',
+	'grapplemod:magnetupgradeitem',
+	'grapplemod:motorupgradeitem',
+	'grapplemod:ropeupgradeitem',
+	'grapplemod:staffupgradeitem',
+	'grapplemod:swingupgradeitem',
+	'grapplemod:throwupgradeitem',
+	'grapplemod:limitsupgradeitem',
+	'grapplemod:rocketupgradeitem',
+	'grapplemod:block_grapple_modifier',
 	// Little Logistics
 	'littlelogistics:locomotive_dock_rail',
 	'littlelogistics:chest_car',

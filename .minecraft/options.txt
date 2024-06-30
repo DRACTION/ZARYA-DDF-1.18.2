@@ -206,6 +206,18 @@ key_Toggle perspective:key.keyboard.unknown
 key_Free look:key.keyboard.x
 key_key.open_muffler_gui:key.keyboard.unknown
 key_placebo.toggleTrails:key.keyboard.unknown
+key_key.boththrow.desc:key.mouse.right
+key_key.leftthrow.desc:key.keyboard.unknown
+key_key.rightthrow.desc:key.keyboard.unknown
+key_key.motoronoff.desc:key.keyboard.left.shift
+key_key.jumpanddetach.desc:key.keyboard.space
+key_key.slow.desc:key.keyboard.left.shift
+key_key.climb.desc:key.keyboard.left.shift
+key_key.climbup.desc:key.keyboard.unknown
+key_key.climbdown.desc:key.keyboard.unknown
+key_key.enderlaunch.desc:key.mouse.left
+key_key.rocket.desc:key.mouse.left
+key_key.slide.desc:key.keyboard.left.shift
 key_key.whistle.1:key.keyboard.1:SHIFT
 key_key.whistle.2:key.keyboard.2:SHIFT
 key_key.whistle.3:key.keyboard.3:SHIFT

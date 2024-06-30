@@ -164,6 +164,10 @@
     "create.recipe.heat_requirement.lowheated": "Слабый нагрев",
     // "itemGroup.createlowheated.base": "Create Low-Heated",
 
+  // Grapple Mod
+
+    "item.grapplemod.grapplinghook": "Крюк-кошка",
+
   // Chipped
 
     "block.chipped.botanist_workbench": "Верстак ботаника",
