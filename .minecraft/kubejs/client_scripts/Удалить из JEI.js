@@ -10,6 +10,8 @@ let za_removedItems = [
 	'create:dough',
 	// Create Deco
 	'createdeco:zinc_sheet',
+	// Create Additions
+	/createaddition:electrum*/,
 	// Fantasy Furniture
 	'fantasyfurniture:dunmer/oven',
 	// Chipped

@@ -8,6 +8,8 @@ let za_removedItems = [
 	'betterpunching:flint_hatchet',
 	// Create Deco
 	'createdeco:zinc_sheet',
+	// Create Additions
+	/createaddition:electrum*/,
 	// Fantasy Furniture
 	'fantasyfurniture:dunmer/oven',
 	// Farmers Delight
@@ -95,6 +97,10 @@ let za_removedItems = [
 
 onEvent('recipes', event => {
 	removeRecipeByOutput(event, za_removedItems)
+	removeRecipeByID(event, [
+		'createaddition:crafting/modular_accumulator_electrum',
+		'createaddition:crafting/large_connector_electrum',
+		'createaddition:crafting/accumulator_conversion'])
 })
 
 onEvent('item.tags', event => {
