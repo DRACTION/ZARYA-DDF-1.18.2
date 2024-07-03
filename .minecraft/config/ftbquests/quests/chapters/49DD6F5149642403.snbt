@@ -1726,6 +1726,69 @@
 				}
 			]
 		}
+		{
+			x: -4.0d
+			y: 8.0d
+			subtitle: "\"Бесплатный\" источник огня"
+			description: ["Ранняя версия Огнива"]
+			dependencies: ["002274B2E5EFACD1"]
+			id: "3A2E9A53A5BA8F42"
+			tasks: [{
+				id: "0EF154F76497B9C6"
+				type: "item"
+				item: {
+					id: "kubejs:firestarter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 6.0d
+			subtitle: "Блоки в слитки и т.д."
+			id: "231328F42C497E5B"
+			tasks: [{
+				id: "7AA7DF37E2C3FA6D"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 6.0d
+			subtitle: "Слитки в блоки и т.д."
+			id: "7F0E358CF1D07F9F"
+			tasks: [{
+				id: "1234F3EFA74A9AC9"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 7.0d
+			subtitle: "Вот где всё варится/плавится"
+			id: "3CC50B83141628D9"
+			tasks: [{
+				id: "483B67ED3DD55625"
+				type: "item"
+				item: "create:basin"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 8.0d
+			subtitle: "Младший брат горелки всполоха"
+			id: "0D9CAD4C51DDAA89"
+			tasks: [{
+				id: "0D1BAF1B9BD3D209"
+				type: "item"
+				item: "createlowheated:basic_burner"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

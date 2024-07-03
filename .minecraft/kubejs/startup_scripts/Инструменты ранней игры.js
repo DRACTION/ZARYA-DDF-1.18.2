@@ -1,4 +1,33 @@
 onEvent('item.registry', event => {
+	//////////////// Примитивное огниво ////////////////
+	event
+		.create('firestarter')
+		.useAnimation('bow')
+		.maxDamage(4)
+		.unstackable()
+		.texture('zarya:item/firestarter')
+		.use((level, player, hand) => { return true })
+		.useDuration(itemstack => { return 20 })
+		.finishUsing((itemstack, level, entity) => {
+			let hit = entity.rayTrace(3)
+			let block = hit.block
+			if (block !== null && block.properties !== undefined && block.properties.lit === false) {
+
+				entity.addItemCooldown('kubejs:firestarter', 20)
+
+				let entityData = block.getEntityData()
+				block.set(block.id, Object.assign({}, block.properties, { lit: true }))
+				block.setEntityData(entityData)
+
+				entity.runCommandSilent(
+					`playsound minecraft:item.flintandsteel.use master @a ${block.x} ${block.y} ${block.z} 1`)
+
+				itemstack.getItemStack().setDamageValue(itemstack.getItemStack().getDamageValue() + 1)
+				return itemstack.getItemStack().getDamageValue() >= itemstack.getItemStack().getMaxDamage() ? 'minecraft:air' : itemstack
+			}
+			return itemstack
+		})
+	//////////////// Пила ////////////////
 	event
 		.create('flint_saw', 'axe')
 		.tier('wood')
@@ -10,8 +39,7 @@ onEvent('item.registry', event => {
 			tier.level = 0.1
 			tier.repairIngredient = 'minecraft:flint'
 		})
-
-	// Flint tools parts
+	//////////////// Кремниевые запчасти ////////////////
 	event
 		.create('flint_tool_blank')
 		.texture('zarya:item/flint_tool_blank')
@@ -27,12 +55,11 @@ onEvent('item.registry', event => {
 	event
 		.create('flint_shovel_head')
 		.texture('zarya:item/flint_shovel_head')
-
 })
 
 onEvent('item.modification', event => {
 
-	// Медные
+	//////////////// Медные ////////////////
 	event.modify('minecraft:stone_sword', item => {
 		item.setTier(tier => {tier.repairIngredient = 'minecraft:copper_ingot'})
 	})
@@ -48,8 +75,7 @@ onEvent('item.modification', event => {
 	event.modify('minecraft:stone_hoe', item => {
 		item.setTier(tier => {tier.repairIngredient = 'minecraft:copper_ingot'})
 	})
-
-	// Кремневые
+	//////////////// Кремневые ////////////////
 	event.modify('minecraft:wooden_sword', item => {
 		item.setTier(tier => {tier.repairIngredient = 'minecraft:flint'})
 	})

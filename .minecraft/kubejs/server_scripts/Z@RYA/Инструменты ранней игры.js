@@ -1,5 +1,11 @@
 onEvent('recipes', event => {
-
+	//////////////// Примитивное огниво ////////////////
+	event.shaped('kubejs:firestarter', [
+		'SP',
+		'P '], {
+		S: 'farmersdelight:straw',
+		P: 'minecraft:stick'})
+	//////////////// Кремниевая пила ////////////////
 	event.shapeless('kubejs:flint_saw', ['2x minecraft:flint'])
 		.id('kubejs:shapeless/kubejs/flint_saw')
 
@@ -75,13 +81,15 @@ onEvent('recipes', event => {
 
 onEvent('item.tags', e => {
 	e.add('valhelsia_structures:axe_crafting_blacklisted', 'kubejs:flint_saw')
-  	
-  	woods.forEach(name =>{
-  		e.removeAllTagsFrom(`projectvibrantjourneys:${name}_hollow_log`)
-  		e.add('minecraft:logs_that_burn', `projectvibrantjourneys:${name}_hollow_log`)
-  		e.add('minecraft:logs', `projectvibrantjourneys:${name}_hollow_log`)
-  		e.add('zarya:hollow_logs', `projectvibrantjourneys:${name}_hollow_log`)
-  	})
+	
+	woods.forEach(name =>{
+		e.removeAllTagsFrom(`projectvibrantjourneys:${name}_hollow_log`)
+		e.add('minecraft:logs_that_burn', `projectvibrantjourneys:${name}_hollow_log`)
+		e.add('minecraft:logs', `projectvibrantjourneys:${name}_hollow_log`)
+		e.add('zarya:hollow_logs', `projectvibrantjourneys:${name}_hollow_log`)
+	})
+
+	e.add('supplementaries:fire_sources', 'kubejs:firestarter')
 })
 
 onEvent('block.break', event => {

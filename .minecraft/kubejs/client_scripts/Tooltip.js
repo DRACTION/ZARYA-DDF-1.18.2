@@ -12,5 +12,7 @@ onEvent('item.tooltip', e => {
     'kubejs:bone_pickaxe_head',
     'kubejs:bone_shovel_head'
   ], Text.of('Используется на ранних этапах игры').darkGray())
+
+  e.add(['kubejs:firestarter'], Text.of('Используется для розжига').darkGray())
   
 })
