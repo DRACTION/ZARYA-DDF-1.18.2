@@ -564,6 +564,9 @@
     Имя файла: MouseTweaks-forge-mc1.18-2.21.jar
     MD5: 3C10DFF8A4D7C157184F2224DB8639A2
 ---
+    Имя файла: MultiMine-1.18.7.jar
+    MD5: D3E4A6D0E1AECCC732DA1BE29B1E87EF
+---
     Имя файла: musictriggers-1.18.2-6.3.1.jar
     MD5: 358BE1BAE86970335CE6826DE388A656
 ---
