@@ -138,9 +138,11 @@
 			subtitle: "Используй инструменты, а не голые руки!"
 			id: "03D54BC113BF4723"
 			tasks: [{
-				id: "07A775F615D86389"
-				type: "checkmark"
-				title: "Понятно?"
+				id: "788621036CA2B863"
+				type: "questsadditions:time"
+				title: "Подождать 10 секунд"
+				disable_toast: true
+				elapsedTime: 10L
 			}]
 		}
 		{
