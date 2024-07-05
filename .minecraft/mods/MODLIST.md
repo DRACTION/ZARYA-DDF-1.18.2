@@ -594,6 +594,9 @@
     Имя файла: NethersDelight-1.18.2-2.2.0.jar
     MD5: 6925F391FD09103BD1FF8EC302D71421
 ---
+    Имя файла: nocube's_villagers_sell_animals_1.2.1_forge_1.18.2.jar
+    MD5: AFAC5D34342C67EA8A38EA80B9234A94
+---
     Имя файла: nohostilesaroundcampfire-1.18.2-5.7.jar
     MD5: 519822646D931DBB1A25CC74324F86B8
 ---
