@@ -543,6 +543,9 @@
     Имя файла: MaxHealthFix-Forge-1.18.2-5.0.5.jar
     MD5: 67FEF6603324B2A18FD4FA33AE376575
 ---
+    Имя файла: mcw-bridges-3.0.1-mc1.18.2forge.jar
+    MD5: 5B219F4D22EC80AD23CF0658F2797637
+---
     Имя файла: mcwifipnp-1.6.8-1.18.2-forge.jar
     MD5: 9497DFB10CF306AF551EA7DFD0C74C0C
 ---
