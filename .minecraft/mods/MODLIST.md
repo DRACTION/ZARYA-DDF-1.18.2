@@ -42,6 +42,9 @@
     Имя файла: armorcurve-3.0.jar
     MD5: BDD68838289D786347454CDE8BE47362
 ---
+    Имя файла: astikorcarts-1.18.2_mc-pig_crashfix-1.1.8-ZaryaEdition.jar
+    MD5: 4DC237276568E59FCC3AD550F8C1E71D
+---
     Имя файла: awesomedungeonnether-forge-1.18.2-3.1.1.jar
     MD5: 80F14462232902D7AD98DBAFFEBBCACB
 ---

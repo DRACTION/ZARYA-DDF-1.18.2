@@ -206,6 +206,7 @@ key_Toggle perspective:key.keyboard.unknown
 key_Free look:key.keyboard.x
 key_key.open_muffler_gui:key.keyboard.unknown
 key_placebo.toggleTrails:key.keyboard.unknown
+key_key.astikorcarts.desc:key.keyboard.caps.lock
 key_key.boththrow.desc:key.mouse.right
 key_key.leftthrow.desc:key.keyboard.unknown
 key_key.rightthrow.desc:key.keyboard.unknown
