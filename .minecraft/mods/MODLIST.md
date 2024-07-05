@@ -690,6 +690,9 @@
     Имя файла: questsadditions-1.18.2-1.4.2.jar
     MD5: 396E3CBBB6FB5665CE5ED09FA590835A
 ---
+    Имя файла: realmrpg_fallen_adventurers_1.0.3_forge_1.18.2.jar
+    MD5: 1744D84A66F4BE292E91279DF80FA54E
+---
     Имя файла: relics-1.18.2-0.6.2.4-ZaryaEdition.jar
     MD5: FBE82B3739DC27674E384043FAEEE201
 ---
