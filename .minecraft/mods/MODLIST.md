@@ -414,6 +414,9 @@
     Имя файла: horsestonks-forge-1.17+-1.0.1.jar
     MD5: 3704CDBB2E54675074FCA3C41FA361AC
 ---
+    Имя файла: humancompanions-1.18.2-1.7.4-ZaryaEdition.jar
+    MD5: 167509C571FE96FC3E4F0D3C8A963E03
+---
     Имя файла: Iceberg-1.18.2-forge-1.0.49.jar
     MD5: 34CF6CACF18F8E7EEFE759042EDFC42E
 ---
