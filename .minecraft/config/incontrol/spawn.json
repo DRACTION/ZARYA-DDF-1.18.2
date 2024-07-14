@@ -2,14 +2,6 @@
   /////// Days for CHILL ////////
   {
     "dimension": "minecraft:overworld",
-    "hostile": true,
-    "maxdaycount": 2,
-    "spawner": false,
-
-    "result": "deny"
-  },
-  {
-    "dimension": "minecraft:overworld",
     "gamestage": "nerf_enemies",
     "hostile": true,
     "maxdaycount": 11,
