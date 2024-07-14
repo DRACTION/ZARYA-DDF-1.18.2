@@ -1,6 +1,9 @@
 onEvent('recipes', e => {
   e.recipes.create.milling('minecraft:blaze_powder', 'projectvibrantjourneys:cindercane')
   e.recipes.create.milling('minecraft:green_dye', 'projectvibrantjourneys:small_cactus')
+
+	e.remove({ id:'projectvibrantjourneys:glowcap_to_shroomlight' })
+	e.recipes.createCompacting('minecraft:shroomlight', ['8x projectvibrantjourneys:glowcap']).lowheated()
 })
 
 onEvent("lootjs", (event) => {
