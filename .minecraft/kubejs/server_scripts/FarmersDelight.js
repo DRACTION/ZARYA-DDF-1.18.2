@@ -74,14 +74,23 @@ onEvent('item.tags', e => {
 })
 
 onEvent("lootjs", (event) => {
+	/////////// Должна выпадать солома ///////////
 	event
 		.addBlockLootModifier([ // перечень блоков, из которых выпадает солома
 			"minecraft:grass",
 			"minecraft:tall_grass",
 			'minecraft:large_fern',
-			"#forge:grass",
 			'projectvibrantjourneys:short_grass'
 		])
 		.randomChance(0.1)
+		.addLoot('farmersdelight:straw')
+	/////////// Должно выпадать больше соломы при использовании ножа ///////////
+	event
+		.addBlockLootModifier([
+			'minecraft:large_fern',
+			'projectvibrantjourneys:short_grass'
+		])
+		.matchMainHand('#farmersdelight:straw_harvesters')
+		.randomChance(0.2)
 		.addLoot('farmersdelight:straw')
 })
