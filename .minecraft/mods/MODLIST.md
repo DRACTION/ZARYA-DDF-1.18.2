@@ -1,10 +1,10 @@
 ﻿## Список модов и ХЭШ-суммы
 
-    Имя файла: adaptive_performance_tweaks_core_1.18.2-11.0.0.jar
-    MD5: 77680D34595708F5E2FD7F8134E535CC
+    Имя файла: adaptive_performance_tweaks_core_1.18.2-11.1.0.jar
+    MD5: BE43DA52851B8932BA548387E29A643E
 ---
-    Имя файла: adaptive_performance_tweaks_items_1.18.2-11.0.0.jar
-    MD5: BA9FA7F44D8B26FA427E630B2565AB2C
+    Имя файла: adaptive_performance_tweaks_items_1.18.2-11.1.0.jar
+    MD5: C13E0E9DACD07A33EFE5C963BD0E9C59
 ---
     Имя файла: AdFinders-1.18.2-7.0.5.0-build.1586.jar
     MD5: FAB4BAC7DFE09589199F0263972A104D
@@ -468,8 +468,8 @@
     Имя файла: jeed-1.18.2-1.11.jar
     MD5: 4DEFA1F44186E80277F19047C64FFD89
 ---
-    Имя файла: jei-1.18.2-forge-10.2.1.1006.jar
-    MD5: 350E65354FC38F87D1A0E5996B5CF337
+    Имя файла: jei-1.18.2-forge-10.2.1.1008.jar
+    MD5: 6961092146687C0215DF79F7A0B8D604
 ---
     Имя файла: JEIEnchantmentInfo-1.17.1-2.0.0.jar
     MD5: 8CC31AD78C598D22DF44B7C046A5D799
