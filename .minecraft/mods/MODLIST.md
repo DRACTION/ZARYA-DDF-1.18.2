@@ -504,6 +504,9 @@
     Имя файла: kubejs-forge-1802.5.5-build.569.jar
     MD5: A0E2686D7CA57EA9B0A6577048E6B448
 ---
+    Имя файла: kubejsadditions-2.2.4.jar
+    MD5: 056D6A2959D0CA846D43396C50631663
+---
     Имя файла: lazydfu-1.0-1.18+.jar
     MD5: F90813B92C422C9F159C5E7D89167233
 ---
