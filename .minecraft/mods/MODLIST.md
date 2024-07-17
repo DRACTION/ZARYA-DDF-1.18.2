@@ -423,6 +423,9 @@
     Имя файла: iChunUtil-1.18.2-Forge-1.0.0.jar
     MD5: B715C8D511E90B3BA39FC2B5C1AC3059
 ---
+    Имя файла: immersive_melodies-0.1.2+1.18.2-forge.jar
+    MD5: 3A6E91EDB17D97E410BC0D62A6788408
+---
     Имя файла: immersive_paintings-0.6.7+1.18.2-forge.jar
     MD5: 75EF65410FEC4D8E0F1C5A4C07F57594
 ---
@@ -872,9 +875,6 @@
 ---
     Имя файла: workers-1.18.2-1.7.8.jar
     MD5: 7787011125DAF71F987B2137165B4F39
----
-    Имя файла: xercamusic-1.18.2-1.1.0.jar
-    MD5: 63F5343FC9B42234076700A2C67A0926
 ---
     Имя файла: xercapaint-1.18.2-1.0.2.jar
     MD5: 4B7026254F01567F6DD60D23590BA877
