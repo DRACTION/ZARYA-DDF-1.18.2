@@ -3,6 +3,6 @@
 	#Whether these limitations will be imposed to players
 	limitation_imposed = true
 
-	[Limitations."Action Permissions"]
+	[Limitations.Action_Permissions]
 		permit_Dodge = false
 
