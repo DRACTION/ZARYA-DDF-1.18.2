@@ -195,7 +195,7 @@
 	#Range: 5 ~ 60000
 	duration_voodoo_poppet_effects = 60
 	#Tamable creatures that can't captured by Familiar Receptacle
-	unhandled_tamable_entities = []
+	unhandled_tamable_entities = ["doggytalents:dog"]
 
 #Options related to the command recovery and auto-save of players
 [recovery]

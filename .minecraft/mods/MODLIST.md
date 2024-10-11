@@ -1,10 +1,10 @@
 ﻿## Список модов и ХЭШ-суммы
 
-    Имя файла: adaptive_performance_tweaks_core_1.18.2-11.1.0.jar
-    MD5: BE43DA52851B8932BA548387E29A643E
+    Имя файла: adaptive_performance_tweaks_core_1.18.2-11.3.0.jar
+    MD5: B6D8C207C10C189543C86C176A2BE47E
 ---
-    Имя файла: adaptive_performance_tweaks_items_1.18.2-11.1.0.jar
-    MD5: C13E0E9DACD07A33EFE5C963BD0E9C59
+    Имя файла: adaptive_performance_tweaks_items_1.18.2-11.3.0.jar
+    MD5: 16ACDD6DE1AAD3CA80562A39FAD0C5A0
 ---
     Имя файла: AdFinders-1.18.2-7.0.5.0-build.1586.jar
     MD5: FAB4BAC7DFE09589199F0263972A104D
@@ -168,8 +168,8 @@
     Имя файла: craftingtweaks-forge-1.18.2-14.0.9.jar
     MD5: 9A291CFBA95258EA0F2BD61C450FA168
 ---
-    Имя файла: create-1.18.2-0.5.1.h.jar
-    MD5: 5D8D88341D5FB7B4C6692DA9E13A5B16
+    Имя файла: create-1.18.2-0.5.1.i.jar
+    MD5: D78D681D19B2AF49CE13EF9ABC99FF8F
 ---
     Имя файла: createaddition-1.18.2-1.0.0.jar
     MD5: A350F0F8C5CECA51A7555A2A7CB09333
@@ -226,10 +226,10 @@
     MD5: 2E43C4484A5B296AD8615160490C96A1
 ---
     Имя файла: DoggyTalentsNext-1.18.2-1.18.32-ZaryaEdition.jar
-    MD5: 11448D5B5DEA8D6E1082FE8BD3100DDD
+    MD5: 872B12A364615130E53F09BEC473EBA8
 ---
-    Имя файла: drippyloadingscreen_forge_3.0.1_MC_1.18.2.jar
-    MD5: 0719D7CD0F996FC56026564BFDFD6E25
+    Имя файла: drippyloadingscreen_forge_3.0.9_MC_1.18.2.jar
+    MD5: E6D75C31BAEF67C08229F4C172CFAF3E
 ---
     Имя файла: DungeonCrawl-1.18.2-2.3.14.jar
     MD5: 2BD7A9F50C99A156D4BA84B1D581D55F
@@ -438,8 +438,8 @@
     Имя файла: InsaneLib-1.5.3-mc1.18.2.jar
     MD5: 99E2A21EC2D5FB5C89063498381083BE
 ---
-    Имя файла: InventoryProfilesNext-forge-1.18.2-1.10.10.jar
-    MD5: 679702776CEFF12F3FABE785E261360B
+    Имя файла: InventoryProfilesNext-forge-1.18.2-1.10.11.jar
+    MD5: 14A5E449556C4AC862C90A96AB8AAC47
 ---
     Имя файла: InventorySpam-1.18-1.5.0.jar
     MD5: 5C3CE9502CD68638C6E5D1956193F952
@@ -612,8 +612,8 @@
     Имя файла: nohostilesaroundcampfire-1.18.2-5.7.jar
     MD5: 519822646D931DBB1A25CC74324F86B8
 ---
-    Имя файла: noisium-forgified-0.1.0+mc1.18.2.jar
-    MD5: 6610D3592942766AFC28255C078E406D
+    Имя файла: noisium_legacy-forge-2.3.0+mc1.18.x.jar
+    MD5: EBAB38E74ABCB1183F1C04DD970448AE
 ---
     Имя файла: nomowanderer-1.18.2_1.1.6.jar
     MD5: 480D15A8B767340BF3F28EFD0612ED06
