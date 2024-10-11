@@ -14,5 +14,7 @@ onEvent('item.tooltip', e => {
   ], Text.of('Используется на ранних этапах игры').darkGray())
 
   e.add(['kubejs:firestarter'], Text.of('Используется для розжига').darkGray())
+
+  e.add(['pettracker:tracker'], Text.of('ПКМ на мобе, чтобы добавить в книгу').darkGray())
   
 })

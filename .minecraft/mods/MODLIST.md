@@ -666,6 +666,9 @@
     Имя файла: Patchouli-1.18.2-71.1.jar
     MD5: C16562C0C0095BC538C682517EDC8B9C
 ---
+    Имя файла: pettracker-1.18.2-1.0.3-ZaryaEdition.jar
+    MD5: 7606CBFC674AF084794051E7CF735EDB
+---
     Имя файла: physics-mod-2.12.5-mc-1.18.2-forge.jar
     MD5: 5F77DE729DAF8F85D1CB2BBC1A869603
 ---

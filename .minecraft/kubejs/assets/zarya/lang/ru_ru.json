@@ -636,6 +636,27 @@
     "block.chipped.birch_leaves_11": "Берёзовые листья (11)",
     "block.chipped.birch_leaves_12": "Берёзовые листья (12)",
 
+  // Pettracker
+
+    "screen.pettracker.tracker": "Кто и где?",
+    "screen.pettracker.distance": "Расстояние: %d блоков",
+    "screen.pettracker.location": "Координаты: %d, %d, %d",
+    "chat.pettracker.teleport_only_creative": "Телепорт доступен только в Креативе, извините...",
+    "chat.pettracker.mob_not_exist": "Моба не существует",
+    "chat.pettracker.cannot_teleport": "Невозможно телепортировать в текущее местоположение.",
+    "chat.pettracker.no_mobs": "Мобы не добавлены",
+    "chat.pettracker.not_tameable": "Этот моб не приручается",
+    "chat.pettracker.not_tamed": "Этот моб не приручен",
+    "chat.pettracker.not_owned": "Вы не являетесь хозяином этого моба",
+    "chat.pettracker.mob_added": "Моб добавлен",
+    "chat.pettracker.mob_already_added": "Моб уже добавлен",
+    "screen.pettracker.remove.tooltip": "Удаляет моба из списка.",
+    "screen.pettracker.teleport.tooltip.inactive": "Моб либо мертв, либо находится в незагруженном чанке.\nПоказано последнее известное положение.",
+    "screen.pettracker.teleport.tooltip.active": "Телепортирует моба к вам",
+    "screen.pettracker.teleport": "Телепорт",
+    "screen.pettracker.remove": "Удалить",
+    "item.pettracker.tracker": "Следящая книга",
+
   // AggroFix
 
     "enchantment.aggrofix.aggronizing": "Агрессор",

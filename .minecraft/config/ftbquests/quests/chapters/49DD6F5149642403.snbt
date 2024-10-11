@@ -1791,6 +1791,17 @@
 				item: "createlowheated:basic_burner"
 			}]
 		}
+		{
+			x: 0.0d
+			y: -6.5d
+			subtitle: "Поможет найти прирученных мобов"
+			id: "2EC6A21EFA2A20A8"
+			tasks: [{
+				id: "02167AAF3FBD0A79"
+				type: "item"
+				item: "pettracker:tracker"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
