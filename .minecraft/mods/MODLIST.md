@@ -426,6 +426,9 @@
     Имя файла: iChunUtil-1.18.2-Forge-1.0.0.jar
     MD5: B715C8D511E90B3BA39FC2B5C1AC3059
 ---
+    Имя файла: ImmediatelyFastReforged-1.18.2-1.1.10.jar
+    MD5: 74D7E715DA39F8DCD4F3477F17DA0058
+---
     Имя файла: immersive_melodies-0.1.2+1.18.2-forge.jar
     MD5: 3A6E91EDB17D97E410BC0D62A6788408
 ---
