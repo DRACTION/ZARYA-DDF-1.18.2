@@ -1,7 +1,7 @@
 {
-	"disabled": false,
 	"model": "epicfight:entity/zombie_villager",
-	"renderer": "minecraft:zombie",
+    "armature": "epicfight:entity/biped",
+	"renderer": "minecraft:zombie_villager",
 	"isHumanoid": true,
 	"faction": "villager",
 	"attributes": {
@@ -14,24 +14,89 @@
 	"default_livingmotions": {
 		"idle": "epicfight:biped/living/idle",
 		"walk": "epicfight:biped/living/walk",
-		"chase": "epicfight:biped/living/walk",
+		"chase": "epicfight:biped/living/run",
+		"mount": "epicfight:biped/living/mount",
+		"fall": "epicfight:biped/living/fall",
 		"death": "epicfight:biped/living/death"
 	},
 	"humanoid_weapon_motions": [
 		{
-			"weapon_categories": ["spear"],
-			"style":"two_hand",
+			"weapon_categories": ["greatsword"],
+			"style": "two_hand",
 			"livingmotions": {
-				"walk": "epicfight:biped/living/hold_greatsword",
-				"chase": "epicfight:biped/living/hold_greatsword"
+				"idle": "epicfight:biped/living/hold_greatsword",
+				"walk": "epicfight:biped/living/walk_greatsword",
+				"chase": "epicfight:biped/living/run_greatsword"
 			}
 		},
 		{
-			"weapon_categories": ["greatsword"],
-			"style":"two_hand",
+			"weapon_categories": ["uchigatana"],
+			"style": "two_hand",
 			"livingmotions": {
-				"walk": "epicfight:biped/living/hold_spear",
-				"chase": "epicfight:biped/living/hold_spear"
+				"idle": "epicfight:biped/living/hold_uchigatana",
+				"walk": "epicfight:biped/living/walk_uchigatana",
+				"chase": "epicfight:biped/living/run_uchigatana"
+			}
+		},
+		{
+			"weapon_categories": ["tachi"],
+			"style": "two_hand",
+			"livingmotions": {
+				"idle": "epicfight:biped/living/hold_tachi"
+			}
+		},
+		{
+			"weapon_categories": ["longsword"],
+			"style": "two_hand",
+			"livingmotions": {
+				"idle": "epicfight:biped/living/hold_longsword",
+				"walk": "epicfight:biped/living/walk_longsword",
+				"chase": "epicfight:biped/living/run_longsword"
+			}
+		},
+		{
+			"weapon_categories": ["spear", "antitheus"],
+			"style": "two_hand",
+			"livingmotions": {
+				"idle": "epicfight:biped/living/hold_spear",
+				"walk": "epicfight:biped/living/walk_spear",
+				"chase": "epicfight:biped/living/run_spear"
+			}
+		},
+		{
+			"weapon_categories": ["spear"],
+			"style": "one_hand",
+			"livingmotions": {
+				"idle": "epicfight:biped/living/hold_spear",
+				"walk": "epicfight:biped/living/walk_spear",
+				"chase": "epicfight:biped/living/run_spear"
+			}
+		},
+		{
+			"weapon_categories": ["longsword"],
+			"style": "two_hand",
+			"livingmotions": {
+				"idle": "epicfight:biped/living/hold_longsword",
+				"walk": "epicfight:biped/living/walk_longsword",
+				"chase": "epicfight:biped/living/run_longsword"
+			}
+		},
+		{
+			"weapon_categories": ["torment"],
+			"style": "two_hand",
+			"livingmotions": {
+				"idle": "wom:biped/living/torment_idle",
+				"walk": "wom:biped/living/torment_walk",
+				"chase": "wom:biped/living/torment_run"
+			}
+		},
+		{
+			"weapon_categories": ["enderblaster"],
+			"style": "one_hand",
+			"livingmotions": {
+				"idle": "wom:biped/living/enderblaster_onehand_idle",
+				"walk": "wom:biped/living/enderblaster_onehand_walk",
+				"chase": "wom:biped/living/enderblaster_onehand_run"
 			}
 		}
 	],

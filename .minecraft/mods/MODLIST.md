@@ -402,6 +402,9 @@
     Имя файла: grappling_hook_mod-1.18.2-v13.jar
     MD5: 3D5CDA33133A6269B0D3C085535FB9DC
 ---
+    Имя файла: guardvillagers-1.18.2.1.4.4.jar
+    MD5: 3E3602CA03501D98EF901CE5008749F2
+---
     Имя файла: HarderSpawners-1.18.2-40.2.22.1-ZaryaEdition.jar
     MD5: 5028E910C4B05AAAA51F7410070C803D
 ---
