@@ -288,6 +288,9 @@
     Имя файла: EpicfightPirates-18.1.6.jar
     MD5: 74751324694D12229C6415D70723A47E
 ---
+    Имя файла: EquipmentCompare-1.18.2-forge-1.3.3.jar
+    MD5: 15AFAFEAD80B15D888BF9CBAF10EA571
+---
     Имя файла: EverlastingSkins-1.18.2-1.0.jar
     MD5: 74615E47F2933901F07012A9F58AA89A
 ---

@@ -162,6 +162,11 @@
     "structure.warden_and_sculk.ancient_city": "Древний город",
     "structure.witherstormmod.storm_spawn_platform": "Платформа призыва Визер-Шторма",
 
+  // Equipment Compare
+
+    "equipmentcompare.general.badgeText": "Надето",
+    "equipmentcompare.key.showTooltips": "Показать подсказку сравнения",
+
   // Human Companions
 
     "entity.humancompanions.knight": "Рыцарь",
