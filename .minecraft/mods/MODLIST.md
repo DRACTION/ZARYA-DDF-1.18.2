@@ -177,6 +177,9 @@
     Имя файла: createdeco-1.3.3-1.18.2.jar
     MD5: 2E2116EFBE27EA49D4780E2674F58B04
 ---
+    Имя файла: createenchantablemachinery-1.18.2-1.8.4.jar
+    MD5: A89078CE97672C68CB62ED97E34CCE2E
+---
     Имя файла: createendertransmission-2.0.7-1.18.2.jar
     MD5: C76E63D46FB7E38842C66E2ADD3646EC
 ---
