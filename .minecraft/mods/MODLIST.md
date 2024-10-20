@@ -105,6 +105,9 @@
     Имя файла: brutalbosses-1.18.2-5.8-ZaryaEdition.jar
     MD5: 96599D8C6C70BB1D3889DA95D6C5B6DF
 ---
+    Имя файла: bucketlib-1.18.2-0.5.5.0.jar
+    MD5: 506E77B65AB0C3C4C0C3F3310229096E
+---
     Имя файла: caelus-forge-1.18.1-3.0.0.2.jar
     MD5: 56E03137FF67264EBDAB9F40CC191E41
 ---
@@ -116,6 +119,9 @@
 ---
     Имя файла: catalogue-1.6.2-1.18.2.jar
     MD5: 72583082FD6488DB636EFBB1AEC21A4E
+---
+    Имя файла: ceramicbucket-1.18.2-3.0.5.0.jar
+    MD5: 89957D6EA5C242339977FE5E50CF7156
 ---
     Имя файла: chat_heads-0.6.1-forge-1.18.2.jar
     MD5: F32370349E4569493B9FF13043B39C0D
@@ -899,6 +905,9 @@
 ---
     Имя файла: wits-1.1.0-ZaryaEdition+1.18.2-forge.jar
     MD5: F90C2F71DB7A3F76DBE0F60D00C2D32B
+---
+    Имя файла: woodenbucket-1.18.2-1.0.2.1.jar
+    MD5: 3DBCA39AAB8A284C7991E95056AB7FC6
 ---
     Имя файла: workers-1.18.2-1.7.8.jar
     MD5: 7787011125DAF71F987B2137165B4F39

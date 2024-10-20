@@ -162,6 +162,12 @@
     "structure.warden_and_sculk.ancient_city": "Древний город",
     "structure.witherstormmod.storm_spawn_platform": "Платформа призыва Визер-Шторма",
 
+  // Wooden Bucket
+
+    "item.woodenbucket.wooden_bucket": "Деревянное ведро",
+    "item.woodenbucket.wooden_bucket.entity": "Деревянное ведро %s",
+    "item.woodenbucket.wooden_bucket.filled": "Деревянное ведро %s",
+
   // Packing Tape
 
     "item.packingtape.tape":"Упаковочная лента",

@@ -339,6 +339,49 @@
 				}
 			}]
 		}
+		{
+			x: -2.5d
+			y: -2.0d
+			subtitle: "Ведра бывают разные"
+			description: [
+				"- Деревянное ведро имеет малую прочность, и не может без вреда переносить горячие жидкости"
+				""
+				"- Керамическое ведро более прочное по сравннеию с деревянным, и позволяет один раз перенести горячие жидкости, после чего ломается"
+				""
+				"- Железное ведро всему голова!"
+			]
+			min_required_tasks: 1
+			id: "1CDDEB69B3E92C0D"
+			tasks: [
+				{
+					id: "4F04564AEE48FC79"
+					type: "item"
+					item: "minecraft:bucket"
+				}
+				{
+					id: "1A79A76AB9B4D9CF"
+					type: "item"
+					item: {
+						id: "ceramicbucket:ceramic_bucket"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5C6878D43F597CC7"
+					type: "item"
+					item: {
+						id: "woodenbucket:wooden_bucket"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

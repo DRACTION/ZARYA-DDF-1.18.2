@@ -1,6 +1,5 @@
 onEvent('recipes', e => {
 	
-	e.replaceInput({id: 'minecraft:bucket'}, 'minecraft:iron_ingot', '#zarya:copper_iron')
 	e.replaceInput({id: 'minecraft:blast_furnace'}, 'minecraft:iron_ingot', '#zarya:copper_iron')
 	e.replaceInput({id: 'minecraft:piston'}, 'minecraft:iron_ingot', '#zarya:copper_iron')
 	e.replaceInput({id: 'minecraft:compass'}, 'minecraft:iron_ingot', '#zarya:copper_iron')
