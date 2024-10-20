@@ -162,6 +162,20 @@
     "structure.warden_and_sculk.ancient_city": "Древний город",
     "structure.witherstormmod.storm_spawn_platform": "Платформа призыва Визер-Шторма",
 
+  // Packing Tape
+
+    "item.packingtape.tape":"Упаковочная лента",
+    "block.packingtape.packaged_block":"Упакованный блок",
+    "text.packingtape.tape.requires_paper":"Для работы нужна бумага!",
+    "text.packingtape.packaged.cant_place":"Невозможно распаковать содержимое здесь!",
+    "text.packingtape.packaged.contains": "Содержит: %s",
+    "text.packingtape.packaged.missing_data": "Недостающие данные: %s",
+    "text.packingtape.packaged.no_nbt": "Нет NBT!",
+    "text.packingtape.packaged.no_tag": "Нет тега!",
+    "text.packingtape.packaged.no_block": "Нет информации о блоке!",
+    "text.packingtape.packaged.unknown_block": "Неизвестный блок:",
+    "text.packingtape.packaged.no_item": "Не могу найти предмет для:",
+
   // Equipment Compare
 
     "equipmentcompare.general.badgeText": "Надето",

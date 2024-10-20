@@ -663,6 +663,9 @@
     Имя файла: packetfixer-forge-1.4.3-1.18-to-1.18.2.jar
     MD5: 9D7DC15C4A5CDABD1926AECDCF170491
 ---
+    Имя файла: PackingTape-1.18.2-0.12.7.jar
+    MD5: B2B6D631A5DDB4ED1282AAAB057DBB1F
+---
     Имя файла: Paraglider-1.18.2-1.6.0.6.jar
     MD5: 81952A79862688D8C278C7338748FF1D
 ---
