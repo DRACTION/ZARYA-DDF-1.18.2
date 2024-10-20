@@ -183,6 +183,9 @@
     Имя файла: createlowheated-forge-1.18.2-0.5.1.f-h.jar
     MD5: 896AF5129218BDEE4D3B95108337FEB6
 ---
+    Имя файла: createpickywheels-forge-1.18.2-0.5.1.f-c.jar
+    MD5: 4BCCB8FB8C3CC43BFB0BC3192B447247
+---
     Имя файла: create_enchantment_industry-1.18.2-for-create-0.5.1.f-1.2.8.jar
     MD5: 3C95418856B575D248BF3C634F20D02E
 ---
