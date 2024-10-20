@@ -230,7 +230,7 @@ onEvent("lootjs", (event) => {
 		.not((n) => {
 			n.anyStructure(villageStructures, false)
 		})
-		.randomChance(0.04)
+		.randomChance(0.03)
 		.addWeightedLoot([
 			Item.of('kubejs:chainmail_material_upgrade').withChance(5),
 			Item.of('kubejs:copper_material_upgrade').withChance(5),
