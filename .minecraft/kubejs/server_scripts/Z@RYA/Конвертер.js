@@ -102,6 +102,7 @@ onEvent('recipes', e => {
 	e.smithing(`minecraft:chainmail_boots`, `#forge:boots`, `kubejs:chainmail_material_upgrade`)
 	e.smithing(`farmersdelight:flint_knife`, `#zarya:knives`, `kubejs:flint_material_upgrade`)
 	e.smithing(`epicfight:stone_spear`, `#zarya:spears`, `kubejs:flint_material_upgrade`)
+	e.smithing(`wom:stone_staff`, `#zarya:spears`, `kubejs:copper_material_upgrade`)
 
 	e.smithing('minecraft:leather_horse_armor', '#zarya:horse_armors', 'kubejs:leather_material_upgrade')
 	e.smithing('minecraft:iron_horse_armor', '#zarya:horse_armors', 'kubejs:iron_material_upgrade')
@@ -167,6 +168,7 @@ onEvent('item.tags', e => {
 	e.add('zarya:knives', 'farmersdelight:flint_knife')
 	e.add('zarya:spears', 'epicfight:stone_spear')
 	e.add('zarya:staffs', 'wom:wooden_staff')
+	e.add('zarya:staffs', 'wom:stone_staff')
 
 	e.add('zarya:horse_armors', [
 		'minecraft:leather_horse_armor',

@@ -9,7 +9,7 @@ onEvent('recipes', e => {
 		],
 		{
 			X: '#forge:plates/iron',
-			R: 'supplementaries:rope'
+			R: '#forge:rods/iron'
 		}
 	)
 
