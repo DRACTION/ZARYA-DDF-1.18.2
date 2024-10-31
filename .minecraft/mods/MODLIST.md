@@ -66,8 +66,8 @@
     Имя файла: betterbiomeblend-1.18.2-1.3.5-forge.jar
     MD5: 14F035B431177099B44CC41E890EEC36
 ---
-    Имя файла: betterdays-1.18.2-3.1.0.5-FORGE.jar
-    MD5: FE4862C7BA4AF7E187D0035975807882
+    Имя файла: betterdays-1.18.2-3.1.1.1-FORGE.jar
+    MD5: 18F1517CE37DA6B9A2D9CB1CE155EAAC
 ---
     Имя файла: betterfpsdist-1.18.2-1.5.jar
     MD5: 51FE964B666B0AB14C40C4F79D029B2B
@@ -492,8 +492,8 @@
     Имя файла: jeed-1.18.2-1.11.jar
     MD5: 4DEFA1F44186E80277F19047C64FFD89
 ---
-    Имя файла: jei-1.18.2-forge-10.2.1.1008.jar
-    MD5: 6961092146687C0215DF79F7A0B8D604
+    Имя файла: jei-1.18.2-forge-10.2.1.1009.jar
+    MD5: BB38AA18A745C9131E653FB2D47E68DE
 ---
     Имя файла: JEIEnchantmentInfo-1.17.1-2.0.0.jar
     MD5: 8CC31AD78C598D22DF44B7C046A5D799
@@ -645,8 +645,8 @@
     Имя файла: norecipeadvancements-1.18.2-2.0.1.jar
     MD5: 57EEA7EE8788995D393BC214E932946C
 ---
-    Имя файла: notenoughanimations-forge-1.7.6-mc1.18.2.jar
-    MD5: 064B0E653A8426D025736C03FC6182AB
+    Имя файла: notenoughanimations-forge-1.8.1-mc1.18.2.jar
+    MD5: B7B47B844DF82C7EEA49EF78A8BF2768
 ---
     Имя файла: novillagerdm-1.18.1-3.0.0.jar
     MD5: E52D7F5724031B201148CE394787113E
@@ -681,8 +681,8 @@
     Имя файла: paraglidersstaminacompats-0.6.5-all.jar
     MD5: 01B805BF0627189F3F595485984125B0
 ---
-    Имя файла: ParCool-1.18.2-3.3.0.1-R.jar
-    MD5: 472CB0AB862D654C9A115A596C4560AE
+    Имя файла: ParCool-1.18.2-3.3.0.4.jar
+    MD5: AA70C8CAAA14AF6E06A7435317793B73
 ---
     Имя файла: parry-2.3.1.jar
     MD5: DD92F34790DCF7D465C37E59C236A606
@@ -771,8 +771,8 @@
     Имя файла: ShinyHorses-1.18-1.1.jar
     MD5: 376F72C4BF4AA19090310422C2E9888F
 ---
-    Имя файла: ShoulderSurfing-Forge-1.18.2-4.4.1.jar
-    MD5: D2657EE331C3041E443AEEF1D98F307F
+    Имя файла: ShoulderSurfing-Forge-1.18.2-4.6.2.jar
+    MD5: FE093D3B99ABFE65529FB325672081DF
 ---
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
@@ -858,8 +858,8 @@
     Имя файла: ToastControl-1.18.2-6.0.3.jar
     MD5: 07A6DD58793EDEFE2B9591AD120748A3
 ---
-    Имя файла: tombstone-1.18.2-7.7.1.jar
-    MD5: 0CF67ED74BEC55849C54D8334442B221
+    Имя файла: tombstone-1.18.2-7.7.5.jar
+    MD5: FD6D260AE5A38CB63EB39968A76C8C69
 ---
     Имя файла: toms_storage-1.18.2-1.4.5.jar
     MD5: C88C162138505029565D2F6C269C749A
