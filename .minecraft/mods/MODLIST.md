@@ -807,9 +807,6 @@
     Имя файла: spark-1.10.38-forge.jar
     MD5: ACBAB5DF7C342ABD4DF6357349F70664
 ---
-    Имя файла: sparsestructuresreforged-1.18.2-1.0.0.jar
-    MD5: D75E9DE6327E918178CDCD08F679F908
----
     Имя файла: spidersproducewebs-1.18.2-3.2.jar
     MD5: 182E268D2953A74D6B1BE0BE916C859B
 ---
