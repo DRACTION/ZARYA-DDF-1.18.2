@@ -882,6 +882,9 @@
     Имя файла: Villager Comfort-1.18.2-1.0.1.jar
     MD5: 712903839128BCED651555200E8E1DB5
 ---
+    Имя файла: villagernames-1.18.2-7.0.jar
+    MD5: 92F31F94E6B85819C11B507C5DBF389F
+---
     Имя файла: VillagersRespawn-1.18.1-1.39.0.5.jar
     MD5: AF1DC1F762CE3790BBFE32DED3CE0228
 ---
