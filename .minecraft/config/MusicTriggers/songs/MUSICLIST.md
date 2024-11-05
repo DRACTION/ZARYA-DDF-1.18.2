@@ -144,6 +144,9 @@
     Имя файла: infraction_chimera.ogg
     MD5: 7FB03D787838D2DED318DB85381F4093
 ---
+    Имя файла: initial_d_gas_gas_gas.mp3
+    MD5: 59C4325E98265BC0F9AAC0BC093BCD05
+---
     Имя файла: irish_rovers_drunken_sailer.ogg
     MD5: D5BA0D0878BDEFF526E99447E19AC3A1
 ---
