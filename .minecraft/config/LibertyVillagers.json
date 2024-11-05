@@ -16,7 +16,7 @@
   },
   "villagerPathfindingConfig": {
     "findPOIRange": 128,
-    "pathfindingMaxRange": 84,
+    "pathfindingMaxRange": 256,
     "minimumPOISearchDistance": 3,
     "villagersAvoidCactus": true,
     "villagersAvoidWater": true,
