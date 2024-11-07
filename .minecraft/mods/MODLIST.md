@@ -357,6 +357,9 @@
     Имя файла: findme-3.0.6-forge.jar
     MD5: 5CD56CA068ECF3BB014B03B4F9BA168B
 ---
+    Имя файла: fixguard-1.18.2-1.0.0-fix.jar
+    MD5: 7C417E291493CFFE21F512F84321BF53
+---
     Имя файла: flickerfix-2.0.0.jar
     MD5: E55681EDA76E14E79BAA94DFC6474FE9
 ---
