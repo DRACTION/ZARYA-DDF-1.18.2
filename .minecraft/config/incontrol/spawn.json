@@ -1,13 +1,28 @@
 [
-  /////// Days for CHILL ////////
+  //////// Nerf Spider speed ////////
   {
-    "dimension": "minecraft:overworld",
+    "difficulty": "hard",
     "gamestage": "nerf_enemies",
-    "hostile": true,
-    "maxdaycount": 11,
+    "mob": ["minecraft:spider", "minecraft:cave_spider"],
     "spawner": false,
+    "incontrol": false,
 
-    "result": "deny"
+    "speedmultiply": 0.7,
+
+    "continue": true
+  },
+  //////// Buff Enemies ////////
+  {
+    "difficulty": "hard",
+    "dimension": "minecraft:overworld",
+    "gamestage": "enter_the_end",
+    "hostile": true,
+
+    "healthmultiply": 1.3,
+    "damagemultiply": 1.4,
+    "speedmultiply": 1.1,
+
+    "continue": true
   },
   //////// Harder spawner ////////
   {
@@ -16,6 +31,61 @@
     "spawner": true,
 
     "result": "allow"
+  },
+  //////// Nerf Enemies and CHILL Exclusion ////////
+  {
+    "difficulty": "hard",
+    "dimension": "minecraft:overworld",
+    "gamestage": "nerf_enemies",
+    "mod": ["irons_spellbooks", "witherstormmod", "bosses_of_mass_destruction"],
+    "hostile": true,
+    "spawner": false,
+    "incontrol": false,
+
+    "result": "default"
+  },
+  {
+    "difficulty": "hard",
+    "dimension": "minecraft:overworld",
+    "gamestage": "nerf_enemies",
+    "mob": ["minecraft:wither"],
+    "hostile": true,
+    "spawner": false,
+    "incontrol": false,
+
+    "result": "default"
+  },
+  //////// Nerf Enemies ////////
+  {
+    "difficulty": "hard",
+    "dimension": "minecraft:overworld",
+    "gamestage": "nerf_enemies",
+    "hostile": true,
+    "spawner": false,
+    "incontrol": false,
+
+    "healthmultiply": 0.7,
+
+    "continue": true
+  },
+  /////// Days for CHILL ////////
+  {
+    "dimension": "minecraft:overworld",
+    "gamestage": "nerf_enemies",
+    "mob": ["minecraft:guardian", "minecraft:elder_guardian", "warden_and_sculk:warden"],
+    "maxdaycount": 11,
+    "spawner": false,
+
+    "result": "default"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "gamestage": "nerf_enemies",
+    "hostile": true,
+    "maxdaycount": 11,
+    "spawner": false,
+
+    "result": "deny"
   },
   //////// Only Night Spawn ////////
   {
@@ -126,27 +196,9 @@
     "mob": "minecraft:enderman",
     "random": 0.1,
 
-    "helditem": "minecraft:end_stone"
-  },
-  //////// Nerf Enemies ////////
-  {
-    "difficulty": "hard",
-    "dimension": "minecraft:overworld",
-    "gamestage": "nerf_enemies",
-    "hostile": true,
-    "spawner": false,
-    "incontrol": false,
+    "helditem": "minecraft:end_stone",
 
-    "healthmultiply": 0.7
-  },
-  {
-    "difficulty": "hard",
-    "gamestage": "nerf_enemies",
-    "mob": ["minecraft:spider", "minecraft:cave_spider"],
-    "spawner": false,
-    "incontrol": false,
-
-    "speedmultiply": 0.7
+    "continue": true
   },
   //////// Nether Visited ////////
   {
@@ -237,16 +289,6 @@
     "potion": "minecraft:invisibility,9999,1"
   },
   //////// End Visited ////////
-  {
-    "difficulty": "hard",
-    "dimension": "minecraft:overworld",
-    "gamestage": "enter_the_end",
-    "hostile": true,
-
-    "healthmultiply": 1.3,
-    "damagemultiply": 1.4,
-    "speedmultiply": 1.1
-  },
   {
     "gamestage": "enter_the_end",
     "difficulty": "hard",
