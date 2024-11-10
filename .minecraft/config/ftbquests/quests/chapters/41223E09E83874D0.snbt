@@ -1,9 +1,9 @@
 {
 	id: "41223E09E83874D0"
-	group: ""
-	order_index: 4
+	group: "305971A8199B4C78"
+	order_index: 2
 	filename: "41223E09E83874D0"
-	title: "Смерть = Начало?"
+	title: "Corail Tombstone"
 	icon: {
 		id: "tombstone:decorative_grave_cross"
 		Count: 1b
@@ -11,6 +11,11 @@
 			model_texture: 1
 		}
 	}
+	subtitle: [
+		"Смерть = Начало?"
+		""
+		"@tombstone"
+	]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
