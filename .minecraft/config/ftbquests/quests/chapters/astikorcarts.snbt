@@ -1,0 +1,58 @@
+{
+	id: "111F6EA8DD394CB4"
+	group: "305971A8199B4C78"
+	order_index: 0
+	filename: "astikorcarts"
+	title: "AstikorCarts"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 1.0d
+		height: 1.0d
+		rotation: 0.0d
+		image: "ftbquests:textures/gui/info.png"
+		hover: [
+			"Поиск в JEI: @astikorcarts"
+			""
+			"Мод позволяет использовать коня в качестве тягловой силы"
+		]
+		click: "a"
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -1.0d
+			y: 0.0d
+			id: "07877E253F345D60"
+			tasks: [{
+				id: "6BBE2613F916F1AA"
+				type: "item"
+				item: "astikorcarts:supply_cart"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			id: "6E138F5B25446C78"
+			tasks: [{
+				id: "20F4474D1C059A0B"
+				type: "item"
+				item: "astikorcarts:plow"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "71A8920E6263E4CA"
+			tasks: [{
+				id: "0631C94A188B94B0"
+				type: "item"
+				item: "astikorcarts:animal_cart"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
