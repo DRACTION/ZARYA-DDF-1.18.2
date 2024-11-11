@@ -3,7 +3,7 @@ onEvent('recipes', e => {
 	e.replaceInput({id: 'minecraft:iron_helmet'}, 'minecraft:iron_ingot', '#forge:plates/iron')
 	e.replaceInput({id: 'minecraft:iron_chestplate'}, 'minecraft:iron_ingot', '#forge:plates/iron')
 	e.replaceInput({id: 'minecraft:iron_leggings'}, 'minecraft:iron_ingot', '#forge:plates/iron')
-	e.replaceInput({id: 'minecraft:iron_boots'}, 'minecraft:iron_ingot', '#forge:plates/gold')
+	e.replaceInput({id: 'minecraft:iron_boots'}, 'minecraft:iron_ingot', '#forge:plates/iron')
 	e.replaceInput({id: 'minecraft:golden_helmet'}, 'minecraft:gold_ingot', '#forge:plates/gold')
 	e.replaceInput({id: 'minecraft:golden_chestplate'}, 'minecraft:gold_ingot', '#forge:plates/gold')
 	e.replaceInput({id: 'minecraft:golden_leggings'}, 'minecraft:gold_ingot', '#forge:plates/gold')
