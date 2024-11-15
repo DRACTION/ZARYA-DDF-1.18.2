@@ -906,6 +906,9 @@
     Имя файла: WeaponsOfMiracles-18.1.7.38-ZaryaEdition.jar
     MD5: A2FA886C9072AC9BF21579D911FD89E3
 ---
+    Имя файла: Wesley's Roguelike Dungeons 1.18.2-2.3.2.jar
+    MD5: B2626DC8F69E1464E111D24D669E17B3
+---
     Имя файла: witherstormmod-1.18.2-2.2.1.jar
     MD5: 5C3158AE600FB037FBC0BD5C251C9CA9
 ---

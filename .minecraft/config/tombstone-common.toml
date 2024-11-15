@@ -95,7 +95,7 @@
 	#Range: 0 ~ 100
 	percent_loss_on_death = 0
 	#Graveless Dimensions
-	no_grave_dimension = []
+	no_grave_dimension = ["wrd:wesleys_infinite_dungeons", "minecraft:the_end"]
 
 #Options related to player's alignment
 [alignment]

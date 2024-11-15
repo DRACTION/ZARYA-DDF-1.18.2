@@ -137,6 +137,10 @@
     "witherstormmod:bowels",
     0.0,
     -9.81,
+    0.0,
+    "wrd:wesleys_infinite_dungeons",
+    0.0,
+    -9.81,
     0.0
   ],
   "customizedBuoyancies": [
@@ -153,6 +157,10 @@
     2.0,
     0.0,
     "witherstormmod:bowels",
+    0.0,
+    2.0,
+    0.0,
+    "wrd:wesleys_infinite_dungeons",
     0.0,
     2.0,
     0.0

@@ -346,6 +346,23 @@
 
     "speedmultiply": 1.5
   },
+  {
+    "difficulty": "hard",
+    "dimension": "minecraft:the_end",
+    "mob": "wrd:ender_miner",
+
+    "speedmultiply": 0.75,
+
+    "continue": true
+  },
+  {
+    "difficulty": "hard",
+    "dimension": "minecraft:the_end",
+    "mob": "wrd:ender_miner",
+    "mincount": 15,
+
+    "result": "deny"
+  },
   //////// HELL /////////
   {
     "difficulty": "hard",
