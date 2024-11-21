@@ -34,14 +34,14 @@
 	#This makes guards form a phalanx
 	"Have guards form a phalanx?" = true
 	#This will make guards attempt to avoid friendly fire.
-	"Have guards attempt to avoid firing into other friendlies? (Experimental)" = false
+	"Have guards attempt to avoid firing into other friendlies? (Experimental)" = true
 	#This is the range in which the guards will be aggroed to mobs that are attacking villagers. Higher values are more resource intensive, and setting this to zero will disable the goal.
 	#Range: -500.0 ~ 500.0
 	Range = 50.0
 	#How much health a guard regenerates.
 	#Range: -500.0 ~ 500.0
 	"Guard health regeneration amount" = 3.0
-	"Allow guard arrows to damage villagers, iron golems, or other guards? The i-frames will still be shown for them but they won't lose any health if this is set to false" = true
+	"Allow guard arrows to damage villagers, iron golems, or other guards? The i-frames will still be shown for them but they won't lose any health if this is set to false" = false
 	"Allow players to give guards stuff only if they have the hero of the village effect?" = true
 	"Allow players to set guard patrol points only if they have hero of the village" = true
 	#Range: > -2147483648
