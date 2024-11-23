@@ -168,6 +168,31 @@
     "structure.warden_and_sculk.ancient_city": "Древний город",
     "structure.witherstormmod.storm_spawn_platform": "Платформа призыва Визер-Шторма",
 
+  // Bamboo everything
+
+    "block.bambooeverything.bamboo_ladder": "Бамбуковая лестница",
+    "block.bambooeverything.bamboo_fence": "Бамбуковый забор",
+    "block.bambooeverything.bamboo_fence_gate": "Бамбуковые ворота",
+    "block.bambooeverything.bamboo_door": "Бамбуковая дверь",
+    "block.bambooeverything.bamboo_trapdoor": "Бамбуковый люк",
+    "block.bambooeverything.bamboo_bundle": "Бамбуковая связка",
+    "block.bambooeverything.bamboo_stairs": "Бамбуковые ступеньки",
+    "block.bambooeverything.bamboo_slab": "Бамбуковая плита",
+    "block.bambooeverything.bamboo_torch": "Бамбуковый факел",
+    "item.bambooeverything.bamboo_raft": "Бамбуковый плот",
+
+    "item.bambooeverything.dry_bamboo": "Сухой бамбук",
+    "block.bambooeverything.dry_bamboo_ladder": "Сухая бамбуковая лестница",
+    "block.bambooeverything.dry_bamboo_fence": "Сухой бамбуковый забор",
+    "block.bambooeverything.dry_bamboo_fence_gate": "Сухие бамбуковые ворота",
+    "block.bambooeverything.dry_bamboo_door": "Сухая бамбуковая дверь",
+    "block.bambooeverything.dry_bamboo_trapdoor": "Люк из сухого бамбука",
+    "block.bambooeverything.dry_bamboo_bundle": "Связка сухого бамбука",
+    "block.bambooeverything.dry_bamboo_stairs": "Сухие бамбуковые ступеньки",
+    "block.bambooeverything.dry_bamboo_slab": "Сухая бамбуковая плита",
+    "block.bambooeverything.dry_bamboo_torch": "Сухой бамбуковый факел",
+    "item.bambooeverything.dry_bamboo_raft": "Сухой бамбуковый плот",
+
   // Wooden Bucket
 
     "item.woodenbucket.wooden_bucket": "Деревянное ведро",
