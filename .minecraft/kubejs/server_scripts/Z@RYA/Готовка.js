@@ -115,6 +115,12 @@ onEvent('recipes', e => {
 		'minecraft:stick',
 		'minecraft:ice',
 		'minecraft:melon_slice'])
+	////////////// Арбузный сок //////////////
+	e.remove({ output: "farmersdelight:melon_juice" })
+	e.recipes.createMixing('farmersdelight:melon_juice', [
+		'4x minecraft:melon_slice',
+		'minecraft:sugar',
+		'minecraft:glass_bottle'])
 	////////////// Фруктовый салат //////////////
 	modifyShapelessID(e, 'farmersdelight:fruit_salad', 'farmersdelight:fruit_salad', 1,
 		['minecraft:apple', 'minecraft:melon_slice', '#forge:berries', 'minecraft:bowl'])
