@@ -8,7 +8,7 @@
 !.minecraft/config/adfinders/Targets/create.cfg
 !.minecraft/config/adfinders/Targets/minecraft.cfg
 .minecraft/config/AdvancedCompass/waypoints
-.minecraft/config/AdvancedCompass/mobs
+.minecraft/config/AdvancedCompass/mobs/**/*.png
 .minecraft/config/chunky.json
 .minecraft/config/spark/activity.json
 .minecraft/config/forgeendertech/cached.dat
