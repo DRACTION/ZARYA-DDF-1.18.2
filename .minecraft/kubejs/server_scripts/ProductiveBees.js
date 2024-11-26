@@ -22,7 +22,7 @@ onEvent('recipes', e => {
 		],
 		{
 			X: 'minecraft:glowstone',
-			F: 'tombstone:familiar_stone',
+			F: 'tombstone:gemstone_of_familiar',
 			I: 'productivebees:incubator'
 		}
 	)
@@ -34,7 +34,7 @@ onEvent('recipes', e => {
 		],
 		{
 			X: 'minecraft:soul_sand',
-			F: 'tombstone:familiar_stone',
+			F: 'tombstone:gemstone_of_familiar',
 			I: 'productivebees:incubator'
 		}
 	)
@@ -46,7 +46,7 @@ onEvent('recipes', e => {
 		],
 		{
 			X: 'minecraft:nether_gold_ore',
-			F: 'tombstone:familiar_stone',
+			F: 'tombstone:gemstone_of_familiar',
 			I: 'productivebees:incubator'
 		}
 	)
@@ -58,7 +58,7 @@ onEvent('recipes', e => {
 		],
 		{
 			X: 'minecraft:crying_obsidian',
-			F: 'tombstone:familiar_stone',
+			F: 'tombstone:gemstone_of_familiar',
 			E: 'minecraft:dragon_egg'
 		}
 	).keepIngredient('minecraft:dragon_egg')

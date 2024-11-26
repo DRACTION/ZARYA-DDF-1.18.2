@@ -6,7 +6,7 @@
 	decay_time = -1
 	#Experience lost on death [0..100|default:95]
 	#Range: 0 ~ 100
-	xp_loss_on_death = 95
+	xp_loss_on_death = 50
 	#The duration of the Ghostly Shape effect in seconds [0..MAX|default:120]
 	#Range: > 0
 	ghostly_shape_duration = 120
@@ -45,6 +45,10 @@
 	enable_enchantment_spectral_bite = true
 	#Allows Spectral Bite at enchanting table [false/true|default:false]
 	spectral_bite_enchanting_table = false
+	#Enables the enchantment Spectral Conjurer [false/true|default:true]
+	enable_enchantment_spectral_conjurer = true
+	#Allows Spectral Conjurer at enchanting table [false/true|default:false]
+	spectral_conjurer_enchanting_table = true
 
 #For settings related to magic items
 [magic_item]
@@ -69,14 +73,12 @@
 [decorative_grave]
 	#The cooldown in hours to pray with the Ankh [1..10|default:3]
 	#Range: 1 ~ 10
-	cooldown_to_pray = 3
+	cooldown_to_pray = 1
 
 #Allows to disable some magic items
 [allowedMagicItems]
 	#Voodoo Poppet [false/true|default:true]
 	allow_voodoo_poppet = true
-	#Familiar Receptacle [false/true|default:true]
-	allow_familiar_receptacle = true
 	#Book of Disenchantment [false/true|default:true]
 	allow_book_of_disenchantment = true
 	#Scroll of Preservation [false/true|default:true]
@@ -135,12 +137,18 @@
 	allow_bag_of_seeds = true
 	#Magic Scroll [false/true|default:true]
 	allow_magic_scroll = true
-	#Familiar Stone [false/true|default:true]
-	allow_familiar_stone = true
-	#Merchant Stone [false/true|default:true]
-	allow_merchant_stone = true
-	#Prayer Stone [false/true|default:true]
-	allow_prayer_stone = true
+	#Receptacle of Familiar [false/true|default:true]
+	allow_receptacle_of_familiar = true
+	#Tablet of Guard [false/true|default:true]
+	allow_tablet_of_guard = true
+	#Gemstone of Familiar [false/true|default:true]
+	allow_gemstone_of_familiar = true
+	#Gemstone of Merchant [false/true|default:true]
+	allow_gemstone_of_merchant = true
+	#Gemstone of Prayer [false/true|default:true]
+	allow_gemstone_of_prayer = true
+	#Gemstone of Guardian [false/true|default:true]
+	allow_gemstone_of_guardian = true
 
 #Allows to enable some features related to others mods
 [compatibility]
@@ -215,4 +223,6 @@
 	allow_frostbite = true
 	#Allows Discretion [false/true|default:true]
 	allow_discretion = true
+	#Allows Restoration [false/true|default:true]
+	allow_restoration = true
 

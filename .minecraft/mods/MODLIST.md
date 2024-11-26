@@ -684,8 +684,8 @@
     Имя файла: paraglidersstaminacompats-0.6.5-all.jar
     MD5: 01B805BF0627189F3F595485984125B0
 ---
-    Имя файла: ParCool-1.18.2-3.3.0.4.jar
-    MD5: AA70C8CAAA14AF6E06A7435317793B73
+    Имя файла: ParCool-1.18.2-3.3.0.5.jar
+    MD5: 6F14DF7F7129E13B7697F0F81B343B48
 ---
     Имя файла: parry-2.3.1.jar
     MD5: DD92F34790DCF7D465C37E59C236A606
@@ -858,8 +858,8 @@
     Имя файла: ToastControl-1.18.2-6.0.3.jar
     MD5: 07A6DD58793EDEFE2B9591AD120748A3
 ---
-    Имя файла: tombstone-1.18.2-7.7.5.jar
-    MD5: FD6D260AE5A38CB63EB39968A76C8C69
+    Имя файла: tombstone-1.18.2-7.7.6.jar
+    MD5: 9E23DCB609E717FFAC2EC82F6C34B0E3
 ---
     Имя файла: toms_storage-1.18.2-1.4.5.jar
     MD5: C88C162138505029565D2F6C269C749A
