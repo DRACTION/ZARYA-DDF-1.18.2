@@ -891,9 +891,6 @@
     Имя файла: VillagersRespawn-1.18.1-1.39.0.5.jar
     MD5: AF1DC1F762CE3790BBFE32DED3CE0228
 ---
-    Имя файла: villagespawnpoint-1.18.2-4.1.jar
-    MD5: A5F12C1BE5D4F82858F399C33C45FA23
----
     Имя файла: VisualWorkbench-v3.3.0-1.18.2-Forge.jar
     MD5: 4D286924AE52D838D3EB1020C8026274
 ---
