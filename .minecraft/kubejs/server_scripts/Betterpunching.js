@@ -10,6 +10,8 @@ onEvent('block.tags', e => {
 		'create:clipboard',
 		'#chipped:lantern',
 		'#chipped:special_lantern',
+		'#chipped:soul_lantern',
+		'#chipped:special_soul_lantern',
 		'doggytalents:dog_bed',
 		'minecraft:redstone_lamp',
 		'#minecraft:banners'
