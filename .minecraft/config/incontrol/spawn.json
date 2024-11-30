@@ -1,4 +1,14 @@
 [
+  //////// Reduce Herobrine Spawn ////////
+  {
+    "mod": "true_herobrine",
+    "mincount": {
+      "amount": 1,
+      "mod": "true_herobrine"
+    },
+
+    "result": "deny"
+  },
   //////// Nerf Spider speed ////////
   {
     "difficulty": "hard",
