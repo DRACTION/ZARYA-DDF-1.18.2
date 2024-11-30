@@ -15,6 +15,7 @@ onEvent('recipes', e => {
 onEvent("lootjs", (event) => {
 	event
 		.addLootTypeModifier(LootType.CHEST)
+		.anyStructure(villageStructures, false)
 		.randomChance(0.01)
 		.addLoot('pettracker:tracker')
 })
