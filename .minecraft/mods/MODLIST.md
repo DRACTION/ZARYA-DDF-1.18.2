@@ -540,9 +540,6 @@
     Имя файла: LegendaryTooltips-1.18.2-1.3.1.jar
     MD5: 1D3792E66FEF301CA7465E83BDBC5D10
 ---
-    Имя файла: libertyvillagers-2.0.0+forge+1.18.2.jar
-    MD5: 0E4E8D3845BF24FF7C9A2948D7D24FB1
----
     Имя файла: libIPN-forge-1.18.2-4.0.2.jar
     MD5: C4147A93E6A955977363F67F51FA12B3
 ---
