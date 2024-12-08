@@ -11,6 +11,18 @@
 	]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 1.0d
+		height: 1.0d
+		rotation: 0.0d
+		image: "ftbquests:textures/gui/info.png"
+		hover: ["Чтобы оседлать себя или коня, нажмите CapsLock"]
+		click: "a"
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			x: -1.0d
