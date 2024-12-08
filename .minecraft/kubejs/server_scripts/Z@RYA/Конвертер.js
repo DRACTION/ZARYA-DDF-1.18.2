@@ -246,7 +246,7 @@ onEvent("lootjs", (event) => {
 	event
 		.addLootTypeModifier(LootType.CHEST)
 		.anyStructure(villageStructures, false)
-		.randomChance(0.005)
+		.randomChance(0.002)
 		.addWeightedLoot([
 			'kubejs:empty_material_upgrade'
 		]);
