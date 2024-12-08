@@ -1,5 +1,8 @@
 {
   "fluid.minecraft.milk": "Молоко",
+  "entity.minecraft.wither_skeleton": "Йорик",
+  "item.minecraft.wither_skeleton_spawn_egg": "Яйцо призыва визер-скелета (Йорик)",
+  "block.minecraft.wither_skeleton_skull": "Череп Йорика",
   "item.minecraft.wooden_sword": "Кремниевый меч",
   "item.minecraft.wooden_shovel": "Кремниевая лопата",
   "item.minecraft.wooden_pickaxe": "Кремниевая кирка",
