@@ -6,4 +6,10 @@ onEvent('jei.information', event => {
 		'\n',
 		'Нажатие ПКМ в воздухе откроет интерфейс отслеживания.'
 	])
+	event.add('nethersdelight:hoglin_hide', [
+		'Выпадает из хоглина, если убить его ножом или кинжалом.'
+	])
+	event.add('irons_spellbooks:frozen_bone', [
+		'Выпадает из зимогоров.'
+	])
 })

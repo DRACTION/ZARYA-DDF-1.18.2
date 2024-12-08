@@ -474,8 +474,8 @@
     Имя файла: invocore-1.18.2-2.1.0.jar
     MD5: C0426E41EFB4064A3FA4594E9AA5A469
 ---
-    Имя файла: irons_spellbooks-1.18.2-1.1.4.5.jar
-    MD5: A71DB021A5DB6F9CAC65C024683A0FB2
+    Имя файла: irons_spellbooks-1.18.2-1.1.4.5-ZaryaEdition.jar
+    MD5: 367880F1FAD57EC9DF80C92BC79555DC
 ---
     Имя файла: item-filters-forge-1802.2.8-build.50.jar
     MD5: 456D7675FE074402C67BE5AC0212B1B6
