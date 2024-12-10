@@ -72,6 +72,7 @@ natives/
 
 .minecraft/global_packs/required_data/*.zip
 .minecraft/resourcepacks/*.zip
+.minecraft/resourcepacks/**/*.psd
 
 .minecraft/WailaErrorOutput.txt
 .minecraft/knownkeys.txt
