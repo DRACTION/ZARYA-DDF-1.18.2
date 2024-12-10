@@ -237,8 +237,8 @@
     Имя файла: do-a-barrel-roll-2.5.3+1.18.2-forge.jar
     MD5: 2E43C4484A5B296AD8615160490C96A1
 ---
-    Имя файла: DoggyTalentsNext-1.18.2-1.18.32-ZaryaEdition.jar
-    MD5: 05E1619F0891DA184FF7F038BEC04C70
+    Имя файла: DoggyTalentsNext-1.18.2-1.18.38-ZaryaEdition.jar
+    MD5: 167BF95918A2316CE65B1F6D49E163F3
 ---
     Имя файла: drippyloadingscreen_forge_3.0.9_MC_1.18.2.jar
     MD5: E6D75C31BAEF67C08229F4C172CFAF3E
@@ -570,8 +570,8 @@
     Имя файла: lootjs-forge-1.18.2-2.7.7-ZaryaEdition.jar
     MD5: 1689173D9A0BF3FF3754167C0989F229
 ---
-    Имя файла: lootr-forge-1.18.2-0.3.29.72.jar
-    MD5: 8CA715D848190A9F17BC7F79C59A67B2
+    Имя файла: lootr-forge-1.18.2-0.3.30.73.jar
+    MD5: AB1DE450118BAC5A207C3223B6F9DA28
 ---
     Имя файла: MaxHealthFix-Forge-1.18.2-5.0.5.jar
     MD5: 67FEF6603324B2A18FD4FA33AE376575
@@ -645,8 +645,8 @@
     Имя файла: norecipeadvancements-1.18.2-2.0.1.jar
     MD5: 57EEA7EE8788995D393BC214E932946C
 ---
-    Имя файла: notenoughanimations-forge-1.8.1-mc1.18.2.jar
-    MD5: B7B47B844DF82C7EEA49EF78A8BF2768
+    Имя файла: notenoughanimations-forge-1.8.2-mc1.18.2.jar
+    MD5: B6A5AD8CC79ECCEDEC1999AE0F72AF22
 ---
     Имя файла: novillagerdm-1.18.1-3.0.0.jar
     MD5: E52D7F5724031B201148CE394787113E
@@ -750,8 +750,8 @@
     Имя файла: revamped_phantoms-forge-0.2.3.jar
     MD5: 2349DD028D092FB7F084918F9F6F626E
 ---
-    Имя файла: revive-me-1.18.2-2.5.1.jar
-    MD5: C974303C52DBBFCBDF1153A7180BDF9A
+    Имя файла: revive-me-1.18.2-2.6.11.jar
+    MD5: E29A6D130C053CE5372134DB88D932ED
 ---
     Имя файла: rhino-forge-1802.2.1-build.255.jar
     MD5: F020741D167E536995E829392AE1FBEE
