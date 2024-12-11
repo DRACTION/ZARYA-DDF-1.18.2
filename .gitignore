@@ -43,6 +43,7 @@
 .minecraft/modernfix/structureCachev1/
 .minecraft/music_sheets/
 .minecraft/mods/*.jar
+.minecraft/mods/*.jar.disabled
 .minecraft/patchouli_books/
 
 .minecraft/plugins/
@@ -73,6 +74,7 @@ natives/
 .minecraft/global_packs/required_data/*.zip
 .minecraft/resourcepacks/*.zip
 .minecraft/resourcepacks/**/*.psd
+.minecraft/merged_backup*.zip
 
 .minecraft/WailaErrorOutput.txt
 .minecraft/knownkeys.txt
