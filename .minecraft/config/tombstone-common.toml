@@ -149,7 +149,7 @@
 	#Range: -1 ~ 1440
 	cooldown_teleport_bind = -1
 	#Beneficial effects that can't used by certain features such as ankh of prayer, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
-	unhandled_beneficial_effects = ["astralsorcery:potiontimefreeze"]
+	unhandled_beneficial_effects = ["astralsorcery:potiontimefreeze", "irons_spellbooks:polar_bear", "irons_spellbooks:raise_dead_timer", "irons_spellbooks:summon_horse_timer", "irons_spellbooks:vex_timer", "irons_spellbooks:ascension", "doggytalents:natto_bite", "epicfight:instability", "parcool:inexhaustible", "minecraft:invisibility"]
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
 	unhandled_harmful_effects = ["minecraft:nausea"]
 	#Rarity for Easter Eggs to spawn during Easter [1000..100000|default:5000]
