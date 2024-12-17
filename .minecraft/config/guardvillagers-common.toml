@@ -5,7 +5,7 @@
 	#Witches Attack Villagers?
 	"Witches attack villagers?" = true
 	#This will make Illusioners get involved in raids
-	"Have Illusioners in raids?" = false
+	"Have Illusioners in raids?" = true
 	#This makes Illagers run from polar bears, as anyone with common sense would.
 	"Have Illagers have some common sense?" = true
 
@@ -34,7 +34,7 @@
 	#This makes guards form a phalanx
 	"Have guards form a phalanx?" = true
 	#This will make guards attempt to avoid friendly fire.
-	"Have guards attempt to avoid firing into other friendlies? (Experimental)" = true
+	"Have guards attempt to avoid firing into other friendlies? (Experimental)" = false
 	#This is the range in which the guards will be aggroed to mobs that are attacking villagers. Higher values are more resource intensive, and setting this to zero will disable the goal.
 	#Range: -500.0 ~ 500.0
 	Range = 50.0
