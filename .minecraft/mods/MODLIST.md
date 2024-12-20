@@ -471,8 +471,8 @@
     Имя файла: inventorytotem-1.18.2-3.1.jar
     MD5: 4CBC2C8B88A7CECDC7BFAC0C9F5EC2F1
 ---
-    Имя файла: invocore-1.18.2-2.1.0.jar
-    MD5: C0426E41EFB4064A3FA4594E9AA5A469
+    Имя файла: invocore-1.18.2-2.2.0.jar
+    MD5: AF2992FFCB82D190A93AFE6AD0025BD7
 ---
     Имя файла: irons_spellbooks-1.18.2-1.1.4.5-ZaryaEdition.jar
     MD5: 367880F1FAD57EC9DF80C92BC79555DC
@@ -645,8 +645,8 @@
     Имя файла: norecipeadvancements-1.18.2-2.0.1.jar
     MD5: 57EEA7EE8788995D393BC214E932946C
 ---
-    Имя файла: notenoughanimations-forge-1.8.2-mc1.18.2.jar
-    MD5: B6A5AD8CC79ECCEDEC1999AE0F72AF22
+    Имя файла: notenoughanimations-forge-1.9.0-mc1.18.2.jar
+    MD5: 6CF4AE2C944C4DE9B85F3B60B3840E45
 ---
     Имя файла: novillagerdm-1.18.1-3.0.0.jar
     MD5: E52D7F5724031B201148CE394787113E
@@ -681,8 +681,8 @@
     Имя файла: paraglidersstaminacompats-0.6.5-all.jar
     MD5: 01B805BF0627189F3F595485984125B0
 ---
-    Имя файла: ParCool-1.18.2-3.3.0.5.jar
-    MD5: 6F14DF7F7129E13B7697F0F81B343B48
+    Имя файла: ParCool-1.18.2-3.3.1.0.jar
+    MD5: F842BCDE2BDC3F7BA2EF2DCC3F4E1E00
 ---
     Имя файла: parry-2.3.1.jar
     MD5: DD92F34790DCF7D465C37E59C236A606
@@ -750,8 +750,8 @@
     Имя файла: revamped_phantoms-forge-0.2.3.jar
     MD5: 2349DD028D092FB7F084918F9F6F626E
 ---
-    Имя файла: revive-me-1.18.2-2.6.11.jar
-    MD5: E29A6D130C053CE5372134DB88D932ED
+    Имя файла: revive-me-1.18.2-2.7.0.jar
+    MD5: 971FD515535FBB528945851B8B9BB88C
 ---
     Имя файла: rhino-forge-1802.2.1-build.255.jar
     MD5: F020741D167E536995E829392AE1FBEE
@@ -765,14 +765,14 @@
     Имя файла: secondchanceforge-1.18.2-1.5.0.jar
     MD5: 906CA4843003AEECBD01220BCAD93B8F
 ---
-    Имя файла: selene-1.18.2-1.17.16.jar
-    MD5: 783D76147CCA7952F2888B9A7BFDECD2
+    Имя файла: selene-1.18.2-1.17.17.jar
+    MD5: 16CBA51A1497FD1E7B85A303DF384715
 ---
     Имя файла: ShinyHorses-1.18-1.1.jar
     MD5: 376F72C4BF4AA19090310422C2E9888F
 ---
-    Имя файла: ShoulderSurfing-Forge-1.18.2-4.6.2.jar
-    MD5: FE093D3B99ABFE65529FB325672081DF
+    Имя файла: ShoulderSurfing-Forge-1.18.2-4.7.0.jar
+    MD5: CB6C00149F38903DC47D436F1A6FE60C
 ---
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
@@ -834,8 +834,8 @@
     Имя файла: structureessentials-1.18.2-3.0.jar
     MD5: 1F8AE3C6B920292043B28E90F6608E9E
 ---
-    Имя файла: supermartijn642corelib-1.1.17-forge-mc1.18.jar
-    MD5: DBD8B91C46522432154CB6C5950544BC
+    Имя файла: supermartijn642corelib-1.1.18-forge-mc1.18.jar
+    MD5: DACF9B3B5C04A0AB24422B2104D85351
 ---
     Имя файла: supplementaries-1.18.2-1.5.18.jar
     MD5: 374FF11DC914E4CA9B514B75F18B3BC1
@@ -900,8 +900,8 @@
     Имя файла: WeaponsOfMiracles-18.1.7.38-ZaryaEdition.jar
     MD5: A2FA886C9072AC9BF21579D911FD89E3
 ---
-    Имя файла: Wesley's Roguelike Dungeons 1.18.2-2.3.2.jar
-    MD5: B2626DC8F69E1464E111D24D669E17B3
+    Имя файла: Wesley's Roguelike Dungeons 1.18.2-2.3.4.jar
+    MD5: BE69AFC623BC69C36B64EFE930C6A7FB
 ---
     Имя файла: witherstormmod-1.18.2-2.2.1.jar
     MD5: 5C3158AE600FB037FBC0BD5C251C9CA9
