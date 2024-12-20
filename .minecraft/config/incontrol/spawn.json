@@ -177,21 +177,6 @@
     "spawner": false,
     "incontrol": false,
     "mincount": {
-      "amount": 50,
-      "hostile": true,
-      "perplayer": true
-    },
-
-    "result": "deny"
-  },
-  {
-    "difficulty": "hard",
-    "dimension": "minecraft:overworld",
-    "gamestage": "nerf_enemies",
-    "hostile": true,
-    "spawner": false,
-    "incontrol": false,
-    "mincount": {
       "amount": 2,
       "hostile": true,
       "perchunk": true
