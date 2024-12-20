@@ -59,9 +59,9 @@
 		}
 		{
 			icon: "sophisticatedbackpacks:stack_upgrade_tier_1"
-			x: 3.0d
+			x: 4.5d
 			y: 0.0d
-			dependencies: ["30C1833F44ECA98F"]
+			dependencies: ["0341BDB6F4EDB2EF"]
 			min_required_tasks: 1
 			id: "07E576C2D5164A9D"
 			tasks: [
@@ -96,7 +96,7 @@
 		}
 		{
 			icon: "sophisticatedbackpacks:stack_upgrade_tier_2"
-			x: 4.5d
+			x: 6.0d
 			y: 0.0d
 			dependencies: ["07E576C2D5164A9D"]
 			min_required_tasks: 1
@@ -126,7 +126,7 @@
 		}
 		{
 			icon: "sophisticatedbackpacks:stack_upgrade_tier_3"
-			x: 6.0d
+			x: 7.5d
 			y: 0.0d
 			dependencies: ["51E6B58D2D1EB20A"]
 			min_required_tasks: 1
@@ -148,7 +148,7 @@
 			]
 		}
 		{
-			x: 7.5d
+			x: 9.0d
 			y: 0.0d
 			dependencies: ["01581F50C3850BA1"]
 			id: "71CC6C66CA0DA4D8"
@@ -261,8 +261,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 1.5d
+			x: 3.0d
+			y: 1.0d
 			dependencies: ["30C1833F44ECA98F"]
 			id: "3E41C7A6BEBD4546"
 			tasks: [{
@@ -274,7 +274,7 @@
 		{
 			icon: "sophisticatedbackpacks:smelting_upgrade"
 			x: 4.5d
-			y: 3.5d
+			y: 3.0d
 			dependencies: ["30C1833F44ECA98F"]
 			min_required_tasks: 1
 			id: "5EDB8264347E0D5A"
@@ -297,10 +297,9 @@
 		{
 			icon: "sophisticatedbackpacks:smoking_upgrade"
 			disable_toast: true
-			x: 3.5d
-			y: 9.5d
+			x: 4.5d
+			y: 4.0d
 			dependencies: ["30C1833F44ECA98F"]
-			secret: true
 			min_required_tasks: 1
 			id: "3B1D84263C0457D1"
 			tasks: [
@@ -453,7 +452,7 @@
 		}
 		{
 			x: 4.5d
-			y: 2.5d
+			y: 1.0d
 			dependencies: ["30C1833F44ECA98F"]
 			id: "428B89DBFF4F48BA"
 			tasks: [{
@@ -639,7 +638,7 @@
 		}
 		{
 			x: 6.0d
-			y: 3.5d
+			y: 3.0d
 			dependencies: ["5EDB8264347E0D5A"]
 			id: "6F7C7C50244A1AEE"
 			tasks: [{
@@ -651,7 +650,7 @@
 		{
 			icon: "sophisticatedbackpacks:blasting_upgrade"
 			x: 4.5d
-			y: 4.5d
+			y: 5.0d
 			dependencies: ["30C1833F44ECA98F"]
 			min_required_tasks: 1
 			id: "4020A73DE3E1D011"
@@ -673,7 +672,7 @@
 		}
 		{
 			x: 6.0d
-			y: 4.5d
+			y: 5.0d
 			dependencies: ["4020A73DE3E1D011"]
 			id: "5477A85C8942AFD4"
 			tasks: [{
@@ -684,10 +683,9 @@
 		}
 		{
 			disable_toast: true
-			x: 5.0d
-			y: 9.5d
+			x: 6.0d
+			y: 4.0d
 			dependencies: ["3B1D84263C0457D1"]
-			secret: true
 			id: "47F179E78CFE6E63"
 			tasks: [{
 				id: "3A51C5228EDF2C49"
@@ -826,6 +824,62 @@
 				id: "5AE4BF25AAC93097"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_void_upgrade"
+			}]
+		}
+		{
+			icon: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["30C1833F44ECA98F"]
+			min_required_tasks: 1
+			id: "0341BDB6F4EDB2EF"
+			tasks: [
+				{
+					id: "337B50DBA60E5076"
+					type: "item"
+					disable_toast: true
+					item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				}
+				{
+					id: "46FD47FE98BF5CD2"
+					type: "item"
+					disable_toast: true
+					secret: true
+					item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				}
+				{
+					id: "49BEC44A4B06A608"
+					type: "item"
+					disable_toast: true
+					secret: true
+					item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				}
+				{
+					id: "192940A4EB2DD2D6"
+					type: "item"
+					disable_toast: true
+					secret: true
+					item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				}
+				{
+					id: "1CAE8AEBC53CC504"
+					type: "item"
+					disable_toast: true
+					secret: true
+					item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			subtitle: "Вечная наковальня, всегда с собой"
+			dependencies: ["30C1833F44ECA98F"]
+			id: "61106969154E7415"
+			tasks: [{
+				id: "715184F1F4B267CE"
+				type: "item"
+				item: "sophisticatedbackpacks:anvil_upgrade"
 			}]
 		}
 	]
