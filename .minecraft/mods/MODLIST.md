@@ -381,8 +381,8 @@
     Имя файла: ftb-library-forge-1802.3.11-build.177.jar
     MD5: 36056368C47099E5278F1D9A3A9521B1
 ---
-    Имя файла: ftb-quests-forge-1802.3.15-build.298.jar
-    MD5: 4BD8DF2305E994EBC2FBEACA669979E2
+    Имя файла: ftb-quests-forge-1802.3.16-build.479.jar
+    MD5: F5BE09F942568E88E56A1B7888889B3A
 ---
     Имя файла: ftb-teams-forge-1802.2.11-build.107.jar
     MD5: 76D9F557CA35DC53A665213E49318D1B
@@ -393,8 +393,8 @@
     Имя файла: fullstackwatchdog-1.0.1+1.19.2-forge.jar
     MD5: 9C117CA1DF5923FD20941D6C1E4301A6
 ---
-    Имя файла: fusion-1.1.1-forge-mc1.18.jar
-    MD5: 17C328D5493C3D39CFAEDE60FC2496AC
+    Имя файла: fusion-1.2.4-forge-mc1.18.jar
+    MD5: 2738ABF419CA865AC5DAC987EEC3809F
 ---
     Имя файла: GameStages-Forge-1.18.2-8.1.3.jar
     MD5: 67AAF7D0E98BCEB72701885792F6F859
@@ -462,8 +462,8 @@
     Имя файла: InsaneLib-1.5.3-mc1.18.2.jar
     MD5: 99E2A21EC2D5FB5C89063498381083BE
 ---
-    Имя файла: InventoryProfilesNext-forge-1.18.2-1.10.11.jar
-    MD5: 14A5E449556C4AC862C90A96AB8AAC47
+    Имя файла: InventoryProfilesNext-forge-1.18.2-1.10.14.jar
+    MD5: 5DDF9EB3090981BF62B9378F5FC88D29
 ---
     Имя файла: InventorySpam-1.18-1.5.0.jar
     MD5: 5C3CE9502CD68638C6E5D1956193F952
@@ -621,8 +621,8 @@
     Имя файла: NaturesCompass-1.18.2-1.9.7-forge.jar
     MD5: DE767A701827DC2DB20CA71CA5872049
 ---
-    Имя файла: NekosEnchantedBooks-1.18.2-1.8.0.jar
-    MD5: EBCD780D9014FEFD7A2CBBEB6ECFDB58
+    Имя файла: NekosEnchantedBooks-1.18-2.0.3.jar
+    MD5: 88468D1432BFBA54C26D67452225D091
 ---
     Имя файла: netherportalfix-forge-1.18.2-9.0.1.jar
     MD5: 960D89446FCCE5DBF4482535DE0F29BA
@@ -645,8 +645,8 @@
     Имя файла: norecipeadvancements-1.18.2-2.0.1.jar
     MD5: 57EEA7EE8788995D393BC214E932946C
 ---
-    Имя файла: notenoughanimations-forge-1.9.0-mc1.18.2.jar
-    MD5: 6CF4AE2C944C4DE9B85F3B60B3840E45
+    Имя файла: notenoughanimations-forge-1.9.2-mc1.18.2.jar
+    MD5: FA0C1BC359BE2E2A91FB3951CC9D4F27
 ---
     Имя файла: novillagerdm-1.18.1-3.0.0.jar
     MD5: E52D7F5724031B201148CE394787113E
@@ -666,8 +666,8 @@
     Имя файла: OnlyLooking-1.18.2-1.4.0.jar
     MD5: 0C1F8FC21A9EB5C19111B994AD25C183
 ---
-    Имя файла: packetfixer-forge-1.4.3-1.18-to-1.18.2.jar
-    MD5: 9D7DC15C4A5CDABD1926AECDCF170491
+    Имя файла: packetfixer-forge-2.0.0-1.18-to-1.18.2.jar
+    MD5: F63A18DA90E354362F6F518B107291B6
 ---
     Имя файла: PackingTape-1.18.2-0.12.7.jar
     MD5: B2B6D631A5DDB4ED1282AAAB057DBB1F
@@ -681,8 +681,8 @@
     Имя файла: paraglidersstaminacompats-0.6.5-all.jar
     MD5: 01B805BF0627189F3F595485984125B0
 ---
-    Имя файла: ParCool-1.18.2-3.3.1.0.jar
-    MD5: F842BCDE2BDC3F7BA2EF2DCC3F4E1E00
+    Имя файла: ParCool-1.18.2-3.3.1.1.jar
+    MD5: FE701EED5DBF81856EF692D9BF98363B
 ---
     Имя файла: parry-2.3.1.jar
     MD5: DD92F34790DCF7D465C37E59C236A606
@@ -750,8 +750,8 @@
     Имя файла: revamped_phantoms-forge-0.2.3.jar
     MD5: 2349DD028D092FB7F084918F9F6F626E
 ---
-    Имя файла: revive-me-1.18.2-2.7.0.jar
-    MD5: 971FD515535FBB528945851B8B9BB88C
+    Имя файла: revive-me-1.18.2-2.7.1.jar
+    MD5: 0769AE1E8DEC82B243454FECAC6479AB
 ---
     Имя файла: rhino-forge-1802.2.1-build.255.jar
     MD5: F020741D167E536995E829392AE1FBEE
@@ -771,8 +771,8 @@
     Имя файла: ShinyHorses-1.18-1.1.jar
     MD5: 376F72C4BF4AA19090310422C2E9888F
 ---
-    Имя файла: ShoulderSurfing-Forge-1.18.2-4.7.0.jar
-    MD5: CB6C00149F38903DC47D436F1A6FE60C
+    Имя файла: ShoulderSurfing-Forge-1.18.2-4.9.0.jar
+    MD5: 3CA8F6049E862FEC3AD123EC5F304437
 ---
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
@@ -900,8 +900,8 @@
     Имя файла: WeaponsOfMiracles-18.1.7.38-ZaryaEdition.jar
     MD5: A2FA886C9072AC9BF21579D911FD89E3
 ---
-    Имя файла: Wesley's Roguelike Dungeons 1.18.2-2.3.4.jar
-    MD5: BE69AFC623BC69C36B64EFE930C6A7FB
+    Имя файла: Wesley's Roguelike Dungeons 1.18.2-2.3.6.jar
+    MD5: C36B632A9A58BD9E2AAC0EFA9FC844CD
 ---
     Имя файла: witherstormmod-1.18.2-2.2.1.jar
     MD5: 5C3158AE600FB037FBC0BD5C251C9CA9

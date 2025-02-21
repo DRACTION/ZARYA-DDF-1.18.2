@@ -281,6 +281,7 @@ key_key.parcool.QuickTurn:key.keyboard.unknown
 key_key.parcool.Flipping:key.keyboard.unknown
 key_key.parcool.HangDown:key.mouse.right
 key_create.keyinfo.ponder:key.keyboard.w
+key_key.reviveme.callForHelpKey:key.keyboard.r
 key_key.advancedcompass.openconfig:key.keyboard.unknown
 key_key.advancedcompass.newwaypoint:key.keyboard.unknown
 key_key.advancedcompass.openwaypointlist:key.keyboard.unknown
