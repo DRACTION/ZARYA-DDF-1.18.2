@@ -25,4 +25,6 @@
 	disableHorseDrops = true
 	#If you need a 3x3x3 space to call your horse
 	checkForSpace = true
+	#Z@RYA = Позволяет принудительно отключить весь дроп с лошади (помогает избежать дюпа)
+	za_disableAllHorseDrops = true
 
