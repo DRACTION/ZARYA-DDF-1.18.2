@@ -1,5 +1,7 @@
 
 onEvent('recipes', e => {
+  //////////// Планшет ////////////
+  e.shaped('create:clipboard', ['X','Y'], {X:'create:andesite_alloy', Y:'minecraft:writable_book'})
   //////////// Железные прутья ////////////
   modifyShapedID(e, 'minecraft:iron_bars', 'minecraft:iron_bars', 8, [
     'XXX',
