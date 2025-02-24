@@ -222,11 +222,11 @@ key_key.climbdown.desc:key.keyboard.unknown
 key_key.enderlaunch.desc:key.mouse.left
 key_key.rocket.desc:key.mouse.left
 key_key.slide.desc:key.keyboard.left.shift
+key_key.doggytalents.whistle.1:key.keyboard.1:SHIFT
+key_key.doggytalents.whistle.2:key.keyboard.2:SHIFT
+key_key.doggytalents.whistle.3:key.keyboard.3:SHIFT
+key_key.doggytalents.whistle.4:key.keyboard.4:SHIFT
 key_key.wrd.rswitch_color:key.keyboard.r
-key_key.whistle.1:key.keyboard.1:SHIFT
-key_key.whistle.2:key.keyboard.2:SHIFT
-key_key.whistle.3:key.keyboard.3:SHIFT
-key_key.whistle.4:key.keyboard.4:SHIFT
 key_key.jetpack.toggle_active.description:key.keyboard.g
 key_key.jetpack.toggle_hover.description:key.keyboard.h
 key_placebo.toggleWings:key.keyboard.unknown

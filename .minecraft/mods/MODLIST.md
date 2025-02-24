@@ -750,8 +750,8 @@
     Имя файла: revamped_phantoms-forge-0.2.3.jar
     MD5: 2349DD028D092FB7F084918F9F6F626E
 ---
-    Имя файла: revive-me-1.18.2-2.7.1.jar
-    MD5: 0769AE1E8DEC82B243454FECAC6479AB
+    Имя файла: revive-me-1.18.2-2.7.4.jar
+    MD5: AAC1A007B5E777C1864A9906CE16180F
 ---
     Имя файла: rhino-forge-1802.2.1-build.255.jar
     MD5: F020741D167E536995E829392AE1FBEE
@@ -771,8 +771,8 @@
     Имя файла: ShinyHorses-1.18-1.1.jar
     MD5: 376F72C4BF4AA19090310422C2E9888F
 ---
-    Имя файла: ShoulderSurfing-Forge-1.18.2-4.9.0.jar
-    MD5: 3CA8F6049E862FEC3AD123EC5F304437
+    Имя файла: ShoulderSurfing-Forge-1.18.2-4.10.1.jar
+    MD5: 05B1E6322BC0AE6C76BD52493C791F21
 ---
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
