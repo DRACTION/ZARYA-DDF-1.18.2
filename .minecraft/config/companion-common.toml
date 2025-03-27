@@ -23,7 +23,7 @@
 	#Range: > -2147483648
 	portalMaxTeleportedPets = -1
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	petWontChangeDimensionUnlessOwnerIsNearbyRadius = 3.0
+	petWontChangeDimensionUnlessOwnerIsNearbyRadius = 10.0
 	petForceTeleportingIfFollowFailed = true
 
 [injuredStatus]
