@@ -24,7 +24,7 @@
   //////// Buff Enemies ////////
   {
     "difficulty": "hard",
-    "dimension": "minecraft:overworld",
+    "dimension": ["minecraft:overworld", "minecraft:the_nether"],
     "gamestage": "enter_the_end",
     "hostile": true,
 
@@ -328,7 +328,7 @@
     "difficulty": "hard",
     "dimension": "minecraft:the_end",
     "mob": "minecraft:enderman",
-    "random": 0.1,
+    "random": 0.3,
 
     "angry": true,
     "healthmultiply": 0.75,
@@ -339,7 +339,7 @@
     "dimension": "minecraft:the_end",
     "mob": "minecraft:ender_dragon",
 
-    "speedmultiply": 1.5
+    "speedmultiply": 2.0
   },
   {
     "difficulty": "hard",
