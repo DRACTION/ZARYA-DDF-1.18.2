@@ -22,7 +22,7 @@
 		#Range: > 16
 		"Spawn Radius Player Check" = 128
 		#If false and there's more than 1 player around the Wither, difficulty will be the average of all the players' difficulty instead of summing them.
-		"Sum Spawned Wither Difficulty" = false
+		"Sum Spawned Wither Difficulty" = true
 		#Percentage bonus difficulty added to the Wither when more than one player is present. Each player past the first one will add this percentage to the difficulty.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Difficulty per Player" = 0.25
@@ -60,7 +60,7 @@
 	[Wither.Health]
 		#Increase Wither's Health by this value at max difficulty (scales accordingly at lower difficulties)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Health Bonus per Difficulty" = 720.0
+		"Health Bonus per Difficulty" = 1000.0
 		#Maximum bonus regeneration per second given by "Bonus Regeneration".
 		#Set to 0 to disable bonus health regeneration. This doesn't affect the natural regeneration of the Wither (1 Health per Second).
 		#Note that this bonus health regen is disabled when Wither's health is between 49% and 50% to prevent making it impossible to approach when reaches half health.
@@ -217,16 +217,16 @@
 	#How difficulty is handled for the Dragon.
 	[Dragon."Difficulty Settings"]
 		#If false and there's more than 1 player around the Dragon, difficulty will be the average of all the players' difficulty instead of summing them.
-		"Sum Killed Dragons Difficulty" = false
+		"Sum Killed Dragons Difficulty" = true
 		#Percentage bonus difficulty added to the Dragon when more than one player is present. Each player past the first one will add this percentage to the difficulty.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Difficulty per Player" = 0.25
+		"Bonus Difficulty per Player" = 0.5
 		#The Maximum difficulty (times killed) reachable by Ender Dragon. By default is set to 24 because it's the last spawning end gate.
 		#Range: > 1
 		"Max Difficulty" = 8
 		#How much difficulty will players start with when joining a world? Note that this will apply when the player joins the world if the current player difficulty is below this value.
 		#Range: > 0
-		"Starting Difficulty" = 0
+		"Starting Difficulty" = 1
 		#Set to false to disable the first Dragon killed message.
 		"Show First Killed Dragon Message" = true
 
@@ -234,16 +234,16 @@
 	[Dragon.Health]
 		#Ender Dragon health will be increased by this value at max difficulty (scaling accordingly at lower difficulties)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Health Bonus at Max Difficulty" = 200.0
+		"Health Bonus at Max Difficulty" = 10000.0
 		#How much health will the Ender Dragon regen at max difficulty (scaling accordingly at lower difficulties). This doesn't affect the health regen given by crystals.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Regeneration" = 1.0
+		"Bonus Regeneration" = 5.0
 		#Maximum bonus regeneration per second given by "Bonus Regeneration". Set to 0 to disable bonus health regeneration. Can be lower than "Bonus Regeneration". This doesn't affect the health regen given by crystals.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Maximum Bonus Regeneration" = 1.0
+		"Maximum Bonus Regeneration" = 5.0
 		#How much health (when missing 100% health) will the Ender Dragon regen at max difficulty each second whenever she's attached to a Crystal. So if she's missing 30% health, this will be 30% effective. This is added to the normal Crystal regen.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Crystal Regeneration" = 0.0
+		"Bonus Crystal Regeneration" = 50.0
 		#Bonus regeneration (also crystal bonus regeneration) will be multiplied by this ratio when the Dragon has been hit in the last 'Bonus Regeneration When Hit Duration' ticks.
 		#Range: 0.0 ~ 2.0
 		"Bonus Regeneration Ratio When Hit" = 0.4
@@ -410,7 +410,7 @@
 	["Elder Guardian".Attack]
 		#Percentage Bonus damage per defeated Elder Guardian.
 		#Range: 0.0 ~ 128.0
-		"Bonus Damage per Elder Guardian Defeated" = 0.0
+		"Bonus Damage per Elder Guardian Defeated" = 0.3
 		#How many ticks faster will Elder Guardian attack (multiplied by defeated Elder Guardians). Vanilla Attack Duration is 60 ticks (3 secs)
 		#Range: 0 ~ 60
 		"Attack Duration Reduction per Elder Guardian Defeated" = 25
