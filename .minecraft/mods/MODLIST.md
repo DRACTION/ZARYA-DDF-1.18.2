@@ -87,8 +87,8 @@
     Имя файла: betterpunching-1.18.2-1.2.0-ZaryaEdition.jar
     MD5: 04D9EEC9679954BC27CF608EF2093CAD
 ---
-    Имя файла: bettervillage-forge-1.18.2-3.2.0.jar
-    MD5: CD47B412DC87151B2B41F3E85AA1B436
+    Имя файла: bettervillage-forge-1.18.2-3.3.0.jar
+    MD5: 027645FC0364D92751E010F0971DA6C1
 ---
     Имя файла: BOMD-Forge-1.18.2-1.0.6.jar
     MD5: 04AF287A92E1134D3FF50DA31EE7E352
@@ -393,8 +393,8 @@
     Имя файла: fullstackwatchdog-1.0.1+1.19.2-forge.jar
     MD5: 9C117CA1DF5923FD20941D6C1E4301A6
 ---
-    Имя файла: fusion-1.2.4-forge-mc1.18.jar
-    MD5: 2738ABF419CA865AC5DAC987EEC3809F
+    Имя файла: fusion-1.2.5-forge-mc1.18.jar
+    MD5: 6E1DBF2A2F8EB058175534E86A25B486
 ---
     Имя файла: GameStages-Forge-1.18.2-8.1.3.jar
     MD5: 67AAF7D0E98BCEB72701885792F6F859
@@ -771,8 +771,8 @@
     Имя файла: ShinyHorses-1.18-1.1.jar
     MD5: 376F72C4BF4AA19090310422C2E9888F
 ---
-    Имя файла: ShoulderSurfing-Forge-1.18.2-4.10.1.jar
-    MD5: 05B1E6322BC0AE6C76BD52493C791F21
+    Имя файла: ShoulderSurfing-Forge-1.18.2-4.10.2.jar
+    MD5: F1E6542F762AF1EA769C8E9BCDDBC18D
 ---
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
