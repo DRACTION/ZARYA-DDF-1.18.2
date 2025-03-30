@@ -8169,7 +8169,7 @@
     "block.enchantinginfuser.advanced_enchanting_infuser": "Улучшенный нагнетатель чар",
     "block.enchantinginfuser.description.choose": "Позволяет выбирать чары.",
     "block.enchantinginfuser.description.chooseAndModify": "Позволяет выбирать чары, а также изменять и удалять существующие.",
-    "block.enchantinginfuser.description.repair": "Также может чинитьь предметы за уровни.",
+    "block.enchantinginfuser.description.repair": "Также может чинить предметы за уровни.",
     "gui.enchantinginfuser.tooltip.enchanting_power": "%s / %s сила зачарования",
     "gui.enchantinginfuser.tooltip.enchanting_power.hint": "Расположите книжные полки квадратом вокруг нагнетателя до двух слоёв. И не забудьте заполнить углы!",
     "gui.enchantinginfuser.tooltip.durability": "Прочность: %s",
