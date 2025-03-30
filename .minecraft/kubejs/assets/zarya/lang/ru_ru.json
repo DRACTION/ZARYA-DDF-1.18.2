@@ -168,6 +168,14 @@
     "structure.warden_and_sculk.ancient_city": "Древний город",
     "structure.witherstormmod.storm_spawn_platform": "Платформа призыва Визер-Шторма",
 
+  // Create: Steam 'n Rails
+
+    "item.railways.remote_lens": "Линзы дистанционного управления",
+    "railways.remote_lens.tool.bound_usage": "Используйте, чтобы смотреть от лица связанного помощника!",
+    "railways.remote_lens.tool.not_bound": "Не связан, используйте на помощнике, носящем инженерные очки, чтобы связать.",
+    "railways.remote_lens.set": "Помощник привязан к линзам дистанционного управления",
+    "railways.remote_lens.clear": "Очищена связь линз дистанционного управления.",
+
   // Bamboo everything
 
     "block.bambooeverything.bamboo_ladder": "Бамбуковая лестница",

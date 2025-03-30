@@ -20,5 +20,8 @@ onEvent('item.tooltip', e => {
   e.add(['waystones:return_scroll'], Text.of('Телепортирует к ближайшему обелиску').green())
   e.add(['waystones:bound_scroll'], Text.of('Телепортирует к ранее привязанному обелиску (ПКМ по обелиску)').green())
   e.add(['waystones:warp_scroll'], Text.of('Телепортирует к любому обелиску на выбор').green())
+
+  e.add(['railways:remote_lens'], Text.of('Позволяет управлять помощником дистанционно').green())
+  e.add(['railways:conductor_whistle'], Text.of('Даёт команду помощнику в поезде приехать на указанные пути').green())
   
 })
