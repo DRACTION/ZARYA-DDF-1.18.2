@@ -1,5 +1,14 @@
 
 onEvent('recipes', e => {
+  //////////// Дробильное колесо (альтернатива) ////////////
+  e.shaped('create:crushing_wheel', [
+    'BAB',
+    'AMA',
+    'BAB'], {
+    B:'create:brass_ingot',
+    A:'create:andesite_alloy_block',
+    M:'create:millstone'
+  })
   //////////// Планшет ////////////
   e.shaped('create:clipboard', ['X','Y'], {X:'create:andesite_alloy', Y:'minecraft:writable_book'})
   //////////// Железные прутья ////////////
@@ -82,12 +91,14 @@ onEvent('recipes', e => {
   e.recipes.createCompacting('minecraft:gold_ingot', ['#forge:raw_materials/gold']).lowheated()
   e.recipes.createCompacting('minecraft:gold_ingot', ['create:crushed_raw_gold']).lowheated()
   ///////////////// Слитки металла в блоки /////////////////
+  e.remove({id: 'create:crafting/materials/andesite_alloy_block'})
   e.remove({id: 'create:crafting/materials/zinc_block_from_compacting'})
   e.remove({id: 'create:crafting/materials/brass_block_from_compacting'})
   e.remove({id: 'minecraft:iron_block'})
   e.remove({id: 'minecraft:copper_block'})
   e.remove({id: 'minecraft:gold_block'})
   e.remove({id: 'minecraft:netherite_block'})
+  e.recipes.createCompacting('create:andesite_alloy_block', ['9x create:andesite_alloy']).lowheated()
   e.recipes.createCompacting('create:zinc_block', ['9x #forge:ingots/zinc']).lowheated()
   e.recipes.createCompacting('minecraft:copper_block', ['9x #forge:ingots/copper']).lowheated()
   e.recipes.createCompacting('minecraft:iron_block', ['9x #forge:ingots/iron']).heated()
@@ -108,6 +119,7 @@ onEvent('recipes', e => {
   e.recipes.createCompacting('minecraft:gold_block', ['9x #forge:raw_materials/gold']).lowheated()
   e.recipes.createCompacting('minecraft:gold_block', ['9x create:crushed_raw_gold']).lowheated()
   ///////////////// Блоки металла в слитки /////////////////
+  e.remove({id: 'create:crafting/materials/andesite_alloy_from_block'})
   e.remove({id: 'create:crafting/materials/zinc_ingot_from_decompacting'})
   e.remove({id: 'create:crafting/materials/brass_ingot_from_decompacting'})
   e.remove({id: 'minecraft:copper_ingot_from_waxed_copper_block'})
@@ -115,6 +127,7 @@ onEvent('recipes', e => {
   e.remove({id: 'minecraft:iron_ingot_from_iron_block'})
   e.remove({id: 'minecraft:gold_ingot_from_gold_block'})
   e.remove({id: 'minecraft:netherite_ingot_from_netherite_block'})
+  e.recipes.createMixing('9x create:andesite_alloy', ['#forge:storage_blocks/andesite_alloy']).lowheated()
   e.recipes.createMixing('9x create:zinc_ingot', ['#forge:storage_blocks/zinc']).lowheated()
   e.recipes.createMixing('9x create:zinc_ingot', ['#forge:storage_blocks/raw_zinc']).lowheated()
   e.recipes.createMixing('9x minecraft:copper_ingot', ['#forge:storage_blocks/copper']).lowheated()
