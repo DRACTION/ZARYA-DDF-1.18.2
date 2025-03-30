@@ -645,8 +645,8 @@
     Имя файла: norecipeadvancements-1.18.2-2.0.1.jar
     MD5: 57EEA7EE8788995D393BC214E932946C
 ---
-    Имя файла: notenoughanimations-forge-1.9.2-mc1.18.2.jar
-    MD5: FA0C1BC359BE2E2A91FB3951CC9D4F27
+    Имя файла: notenoughanimations-forge-1.9.3-mc1.18.2.jar
+    MD5: 407D6D520FAB687BB7C9D753DF7717C1
 ---
     Имя файла: novillagerdm-1.18.1-3.0.0.jar
     MD5: E52D7F5724031B201148CE394787113E
@@ -750,8 +750,8 @@
     Имя файла: revamped_phantoms-forge-0.2.3.jar
     MD5: 2349DD028D092FB7F084918F9F6F626E
 ---
-    Имя файла: revive-me-1.18.2-2.7.4.jar
-    MD5: AAC1A007B5E777C1864A9906CE16180F
+    Имя файла: revive-me-1.18.2-2.8.1.jar
+    MD5: 7A844F023EBB7DC9C9772C676D823E0B
 ---
     Имя файла: rhino-forge-1802.2.1-build.255.jar
     MD5: F020741D167E536995E829392AE1FBEE

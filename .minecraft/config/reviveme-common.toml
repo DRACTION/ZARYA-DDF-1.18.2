@@ -58,6 +58,8 @@
 		#How long the Help call effects will last in SECONDS
 		#Range: 0.0 ~ 1.7976931348623157E308
 		Revive_Help_Duration = 8.0
+		#Give back all of the potion effects the player had before entering the fallen state
+		Revert_Effects_On_Revive = true
 
 ["Revive Settings"]
 
