@@ -750,8 +750,8 @@
     Имя файла: revamped_phantoms-forge-0.2.3.jar
     MD5: 2349DD028D092FB7F084918F9F6F626E
 ---
-    Имя файла: revive-me-1.18.2-2.8.1.jar
-    MD5: 7A844F023EBB7DC9C9772C676D823E0B
+    Имя файла: revive-me-1.18.2-2.8.1-ZaryaEdition.jar
+    MD5: 8B5A6FBA011B15506819FB3FF1E69067
 ---
     Имя файла: rhino-forge-1802.2.1-build.255.jar
     MD5: F020741D167E536995E829392AE1FBEE

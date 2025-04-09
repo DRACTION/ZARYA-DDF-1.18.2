@@ -73,6 +73,8 @@
 		#How many seconds of invulnerability you have on revive
 		#Range: 0.0 ~ 3.4028234663852886E38
 		Revive_Invuln_Time = 5.0
+		#Z@RYA = Не отменять событие смерти, если в инвентаре есть Тотем Бессмертия
+		Za_Inventory_Totem = true
 
 	["Revive Settings"."Reviver Settings"]
 		#How long to revive someone
