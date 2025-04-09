@@ -45,3 +45,25 @@ onEvent('recipes', e => {
 		} //Ingredients
 	)
 })
+
+onEvent("lootjs", (event) => {
+	event
+		.addLootTypeModifier(LootType.CHEST)
+		.randomChance(0.02)
+		.addLoot('waystones:return_scroll')
+		.randomChance(0.5)
+		.addLoot('waystones:return_scroll')
+		.randomChance(0.5)
+		.addLoot('waystones:return_scroll')
+	event
+		.addLootTypeModifier(LootType.CHEST)
+		.not((n) => {
+			n.anyStructure(villageStructures, false)
+		})
+		.randomChance(0.005)
+		.addWeightedLoot([
+			Item.of('waystones:bound_scroll').withChance(20),
+			Item.of('waystones:warp_scroll').withChance(10),
+			Item.of('waystones:warp_stone').withChance(1)
+		])
+})
