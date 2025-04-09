@@ -115,7 +115,7 @@ key_physicsmod.keybinding.guiphysics:key.keyboard.f6
 key_physicsmod.keybinding.physicsmenu:key.keyboard.f7
 key_physicsmod.keybinding.togglephysics:key.keyboard.unknown
 key_physicsmod.keybinding.debug:key.keyboard.unknown
-key_key.findme.search:key.keyboard.y
+key_key.findme.search:key.keyboard.backslash
 key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.journeymap.zoom_in:key.keyboard.unknown
 key_key.journeymap.zoom_out:key.keyboard.unknown
