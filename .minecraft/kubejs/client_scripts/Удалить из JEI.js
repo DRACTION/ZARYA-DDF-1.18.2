@@ -12,6 +12,11 @@ let za_removedItems = [
 	'createdeco:zinc_sheet',
 	// Create Additions
 	/createaddition:electrum*/,
+	// Epic Fight
+	'epicfight:stone_greatsword',
+	'epicfight:stray_hat',
+	'epicfight:stray_robe',
+	'epicfight:stray_pants',
 	// Fantasy Furniture
 	'fantasyfurniture:dunmer/oven',
 	// Chipped
@@ -47,8 +52,6 @@ let za_removedItems = [
 	'littlelogistics:automatic_switch_rail',
 	'littlelogistics:automatic_tee_junction_rail',
 	'littlelogistics:car_dock_rail',
-	// Epic Fight
-	'epicfight:stone_greatsword',
 	// Tom's Simple Storage Mod
 	'toms_storage:ts.inventory_cable',
 	'toms_storage:ts.crafting_terminal',
