@@ -156,8 +156,8 @@
     Имя файла: configured-2.0.1-1.18.2.jar
     MD5: 48F1FFF6652867BF66CC08FE5BE42AE5
 ---
-    Имя файла: connectedglass-1.1.12-forge-mc1.18.jar
-    MD5: 08B8FD1EC67F1B592362AE5611D82D9B
+    Имя файла: connectedglass-1.1.13-forge-mc1.18.jar
+    MD5: 2BDCC7BEDDA10872C18527CF01EB923E
 ---
     Имя файла: Controlling-forge-1.18.2-9.0+23.jar
     MD5: BE8BAE23287AFCCA33FCFB24AFCA025B
@@ -393,8 +393,8 @@
     Имя файла: fullstackwatchdog-1.0.1+1.19.2-forge.jar
     MD5: 9C117CA1DF5923FD20941D6C1E4301A6
 ---
-    Имя файла: fusion-1.2.5-forge-mc1.18.jar
-    MD5: 6E1DBF2A2F8EB058175534E86A25B486
+    Имя файла: fusion-1.2.6-forge-mc1.18.jar
+    MD5: 1F63B96DAE5176FE1F40D1B88F7B7F02
 ---
     Имя файла: GameStages-Forge-1.18.2-8.1.3.jar
     MD5: 67AAF7D0E98BCEB72701885792F6F859
@@ -771,8 +771,8 @@
     Имя файла: ShinyHorses-1.18-1.1.jar
     MD5: 376F72C4BF4AA19090310422C2E9888F
 ---
-    Имя файла: ShoulderSurfing-Forge-1.18.2-4.10.2.jar
-    MD5: F1E6542F762AF1EA769C8E9BCDDBC18D
+    Имя файла: ShoulderSurfing-Forge-1.18.2-4.10.5.jar
+    MD5: 405FD0D6E084B587D6D7BC591031F8BE
 ---
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
