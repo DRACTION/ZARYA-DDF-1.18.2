@@ -18,4 +18,7 @@
     Имя файла: [1.4] Enhanced Boss Bars.zip
     MD5: 53016C7825C58FCE407112762C9AD7AE
 ---
+    Имя файла: Божественный Тотем.zip
+    MD5: AAB85E8C7099A9D2CA57A929D8699BF7
+---
 
