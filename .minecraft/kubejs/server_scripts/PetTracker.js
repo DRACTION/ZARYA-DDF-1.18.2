@@ -16,6 +16,6 @@ onEvent("lootjs", (event) => {
 	event
 		.addLootTypeModifier(LootType.CHEST)
 		.anyStructure(villageStructures, false)
-		.randomChance(0.01)
+		.randomChance(0.007)
 		.addLoot('pettracker:tracker')
 })
