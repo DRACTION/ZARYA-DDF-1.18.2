@@ -237,8 +237,8 @@
     Имя файла: do-a-barrel-roll-2.5.3+1.18.2-forge.jar
     MD5: 2E43C4484A5B296AD8615160490C96A1
 ---
-    Имя файла: DoggyTalentsNext-1.18.2-1.18.38-ZaryaEdition.jar
-    MD5: 167BF95918A2316CE65B1F6D49E163F3
+    Имя файла: DoggyTalentsNext-1.18.2-1.18.46-ZaryaEdition.jar
+    MD5: 520A89C69650A33A59182C71D22AD653
 ---
     Имя файла: drippyloadingscreen_forge_3.0.9_MC_1.18.2.jar
     MD5: E6D75C31BAEF67C08229F4C172CFAF3E
