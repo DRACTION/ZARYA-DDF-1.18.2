@@ -5,3 +5,13 @@
 	#The total amount of stacks a vault can hold per block in size.
 	#Range: > 1
 	vaultCapacity = 50
+
+#.
+#Parameters and abilities of Create's kinetic mechanisms
+[kinetics]
+	#.
+	#Moving Contraptions
+	[kinetics.contraptions]
+		#.
+		#Whether minecart contraptions can be picked up in survival mode.
+		survivalContraptionPickup = false
