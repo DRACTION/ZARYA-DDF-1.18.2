@@ -12,6 +12,8 @@ let za_removedItems = [
 	'createdeco:zinc_sheet',
 	// Create Additions
 	/createaddition:electrum*/,
+	// End Remastered
+	'endrem:undead_soul',
 	// Epic Fight
 	'epicfight:stone_greatsword',
 	'epicfight:stray_hat',

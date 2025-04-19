@@ -11,4 +11,6 @@ onEvent('jei.add.items', event => {
 	event.add('chipped:mason_table')
 	event.add('chipped:alchemy_bench')
 	event.add('chipped:mechanist_workbench')
+
+	event.add('endrem:cryptic_eye')
 })

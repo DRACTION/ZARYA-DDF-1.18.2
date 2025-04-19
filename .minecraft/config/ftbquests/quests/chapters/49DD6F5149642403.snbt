@@ -23,7 +23,7 @@
 			rotation: 0.0d
 			image: "zarya:textures/no_tree_punch.png"
 			hover: [ ]
-			click: ""
+			click: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 			dev: false
 			corner: false
 		}
@@ -695,7 +695,7 @@
 				""
 				"Изначально шансы успешно починить предмет около 60%, но чем больше вы будете пробовать чинить предметы, тем больше будет расти навык починки."
 				""
-				"Своё мастерство можно посмотреть с помощью команды /za_grindstone.  Будет выведен текущий шанс успеха/неуспеха, а также сколько и каких действий осталось сделать до полного освоения."
+				"Своё мастерство можно посмотреть с помощью команды /za_repair.  Будет выведен текущий шанс успеха/неуспеха, а также сколько и каких действий осталось сделать до полного освоения."
 			]
 			min_required_tasks: 1
 			id: "2C93AA3E8E75BCBD"
@@ -1606,8 +1606,9 @@
 		{
 			title: "Открыт портал в неизведанное"
 			icon: "minecraft:end_crystal"
-			x: -7.5d
+			x: -9.5d
 			y: 0.0d
+			shape: "octagon"
 			subtitle: "Стоило ли открывать портал?"
 			description: [
 				"- Здоровье врагов +30%"
@@ -1616,7 +1617,27 @@
 				"- Появление контуженного эндермена. Он агресивен сразу."
 				"- Скелет-вышибала теперь в обычном мире"
 			]
-			dependencies: ["0ED8AE5AE105308C"]
+			min_required_dependencies: 13
+			dependencies: [
+				"0ED8AE5AE105308C"
+				"17A708581A1E43B6"
+				"4659F2F7AB885DE0"
+				"12538E716C711D7A"
+				"2539A19191141108"
+				"28441BA04ED882EB"
+				"7094212F462EB0A5"
+				"0BAAFB6A053E2FAF"
+				"1D67D47916585F86"
+				"5FB1CFA0E3537968"
+				"1A8064580DD8F9A1"
+				"5DE976DFA484DD45"
+				"61C96EF095E62769"
+				"31EDA87A6B48CDA0"
+				"18D676BCD9A034F5"
+				"36DB7DF10185AD86"
+				"08B9969F51BD55CC"
+			]
+			size: 2.0d
 			id: "0CB422C2B586F5E5"
 			tasks: [{
 				id: "7D7A0DF721DFBAB1"
@@ -1646,7 +1667,7 @@
 		}
 		{
 			x: -5.5d
-			y: 2.0d
+			y: 3.5d
 			subtitle: "Путешествие по воздуху"
 			description: [
 				"Руля не будет, лететь по наитию"
@@ -1662,7 +1683,7 @@
 		}
 		{
 			x: -6.0d
-			y: 3.0d
+			y: 4.5d
 			subtitle: "Позволяет понять направление ветра"
 			description: [
 				"На разной высоте с разное время суток навправление ветра меняется"
@@ -1680,7 +1701,7 @@
 		{
 			title: "Вверх и вниз"
 			x: -5.0d
-			y: 3.0d
+			y: 4.5d
 			subtitle: "Как поднять и опустить?"
 			description: [
 				"Если вешать на воздушный шар песок, то шар становится тяжелее и опускается вниз"
@@ -1772,7 +1793,7 @@
 		{
 			x: -5.0d
 			y: 7.0d
-			subtitle: "Вот где всё варится/плавится"
+			subtitle: "Вот где всё варится, да плавится"
 			id: "3CC50B83141628D9"
 			tasks: [{
 				id: "483B67ED3DD55625"
@@ -1800,6 +1821,336 @@
 				id: "02167AAF3FBD0A79"
 				type: "item"
 				item: "pettracker:tracker"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -3.5d
+			subtitle: "Одно из 16..."
+			description: ["Позволяет найти и активировать портал в Энд. Для открытия портала достаточно собрать 12 разных..."]
+			invisible: true
+			id: "18D676BCD9A034F5"
+			tasks: [{
+				id: "66184ACAFAE9A2DA"
+				type: "item"
+				item: {
+					id: "endrem:black_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: -3.5d
+			subtitle: "Одно из 16..."
+			description: ["Позволяет найти и активировать портал в Энд. Для открытия портала достаточно собрать 12 разных..."]
+			invisible: true
+			id: "4659F2F7AB885DE0"
+			tasks: [{
+				id: "27C401005325EFA9"
+				type: "item"
+				item: {
+					id: "endrem:cold_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: -3.0d
+			subtitle: "Одно из 16..."
+			description: ["Позволяет найти и активировать портал в Энд. Для открытия портала достаточно собрать 12 разных..."]
+			invisible: true
+			id: "5FB1CFA0E3537968"
+			tasks: [{
+				id: "4B320D0C1AC9B8D5"
+				type: "item"
+				item: {
+					id: "endrem:corrupted_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: -2.5d
+			subtitle: "Одно из 16..."
+			description: ["Позволяет найти и активировать портал в Энд. Для открытия портала достаточно собрать 12 разных..."]
+			invisible: true
+			id: "1A8064580DD8F9A1"
+			tasks: [{
+				id: "1E932DB5B22A6EA5"
+				type: "item"
+				item: {
+					id: "endrem:lost_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -13.0d
+			y: -1.5d
+			subtitle: "Одно из 16..."
+			description: ["Позволяет найти и активировать портал в Энд. Для открытия портала достаточно собрать 12 разных..."]
+			invisible: true
+			id: "2539A19191141108"
+			tasks: [{
+				id: "635013435A23EC1C"
+				type: "item"
+				item: {
+					id: "endrem:nether_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -13.0d
+			y: 1.5d
+			subtitle: "Одно из 16..."
+			description: ["Позволяет найти и активировать портал в Энд. Для открытия портала достаточно собрать 12 разных..."]
+			invisible: true
+			id: "31EDA87A6B48CDA0"
+			tasks: [{
+				id: "61D746C1249E02ED"
+				type: "item"
+				item: {
+					id: "endrem:old_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: 2.5d
+			subtitle: "Одно из 16..."
+			description: ["Позволяет найти и активировать портал в Энд. Для открытия портала достаточно собрать 12 разных..."]
+			invisible: true
+			id: "61C96EF095E62769"
+			tasks: [{
+				id: "0C56E764CC2EC413"
+				type: "item"
+				item: {
+					id: "endrem:rogue_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -13.0d
+			y: -0.5d
+			subtitle: "Одно из 16..."
+			description: ["Позволяет найти и активировать портал в Энд. Для открытия портала достаточно собрать 12 разных..."]
+			invisible: true
+			id: "5DE976DFA484DD45"
+			tasks: [{
+				id: "227E5CFEB7CFB239"
+				type: "item"
+				item: {
+					id: "endrem:cursed_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: -3.0d
+			subtitle: "Одно из 16..."
+			description: ["Позволяет найти и активировать портал в Энд. Для открытия портала достаточно собрать 12 разных..."]
+			invisible: true
+			id: "17A708581A1E43B6"
+			tasks: [{
+				id: "3D9111EFAD80F526"
+				type: "item"
+				item: {
+					id: "endrem:evil_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.0d
+			subtitle: "Одно из 16..."
+			description: ["Позволяет найти и активировать портал в Энд. Для открытия портала достаточно собрать 12 разных..."]
+			invisible: true
+			id: "1D67D47916585F86"
+			tasks: [{
+				id: "361C34D6713D6313"
+				type: "item"
+				item: {
+					id: "endrem:guardian_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: -3.5d
+			subtitle: "Одно из 16..."
+			description: ["Позволяет найти и активировать портал в Энд. Для открытия портала достаточно собрать 12 разных..."]
+			invisible: true
+			id: "12538E716C711D7A"
+			tasks: [{
+				id: "3A29804762B201ED"
+				type: "item"
+				item: {
+					id: "endrem:magical_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 3.5d
+			subtitle: "Одно из 16..."
+			description: ["Позволяет найти и активировать портал в Энд. Для открытия портала достаточно собрать 12 разных..."]
+			invisible: true
+			id: "7094212F462EB0A5"
+			tasks: [{
+				id: "39251557241E279A"
+				type: "item"
+				item: {
+					id: "endrem:wither_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 3.5d
+			subtitle: "Одно из 16..."
+			description: [
+				"Позволяет найти и активировать портал в Энд. Для открытия портала достаточно собрать 12 разных..."
+				""
+				"Это Око можно скрафтить."
+			]
+			invisible: true
+			id: "28441BA04ED882EB"
+			tasks: [{
+				id: "0DAA3A7633E7E817"
+				type: "item"
+				item: {
+					id: "endrem:witch_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 3.5d
+			subtitle: "Одно из 16..."
+			description: [
+				"Позволяет найти и активировать портал в Энд. Для открытия портала достаточно собрать 12 разных..."
+				""
+				"Это Око можно скрафтить."
+			]
+			invisible: true
+			id: "0BAAFB6A053E2FAF"
+			tasks: [{
+				id: "7763387A7369D47C"
+				type: "item"
+				item: {
+					id: "endrem:undead_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 3.0d
+			subtitle: "Одно из 16..."
+			description: ["Позволяет найти и активировать портал в Энд. Для открытия портала достаточно собрать 12 разных..."]
+			invisible: true
+			id: "36DB7DF10185AD86"
+			tasks: [{
+				id: "02CFF192CA33D04B"
+				type: "item"
+				item: {
+					id: "endrem:exotic_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			subtitle: "Оно сопротивляется..."
+			description: [
+				"Теперь Око Эндера нельзя использовать для поиска портала в Энд."
+				""
+				"Око Эндера нельзя вставить в рамку портала в Энд."
+				""
+				"Вам нужно что-то другое..."
+			]
+			id: "6522EC73E3DEB403"
+			tasks: [{
+				id: "49F196219AA53305"
+				type: "item"
+				item: "minecraft:ender_eye"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 0.5d
+			subtitle: "Одно из 16..."
+			description: ["Позволяет найти и активировать портал в Энд. Для открытия портала достаточно собрать 12 разных..."]
+			invisible: true
+			id: "08B9969F51BD55CC"
+			tasks: [{
+				id: "541755FE7EA458BF"
+				type: "item"
+				item: {
+					id: "endrem:cryptic_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]

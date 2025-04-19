@@ -273,6 +273,9 @@
     Имя файла: EnchantingInfuser-v3.3.3-1.18.2-Forge.jar
     MD5: 87505C9B2E8D6A53E7CF2FB605C8BDF9
 ---
+    Имя файла: endrem_forge-5.2.0-R-1.18.2.jar
+    MD5: F9C68719BCF8B8FAFA6E78CFFE16A909
+---
     Имя файла: EnhancedAI-1.6.11-ZaryaEdition-mc1.18.2.jar
     MD5: D0E6E1845BD9B83003839392B1903DBC
 ---
