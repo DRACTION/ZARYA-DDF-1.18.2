@@ -36,7 +36,7 @@ ao:2
 prioritizeChunkUpdates:1
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","file/EclecticTrove-noconfig-1.18-1.2.0.zip","file/EFMxIrons_Spells_v1.2.zip","file/Excalibur_V1.18.1.zip","file/Excalibur_Mod_Support_V1.18.1.1.zip","file/Excalibur_ZaryaEdition","file/Excalibur_NoLeaves_ZaryaEdition","file/[1.4] Enhanced Boss Bars.zip","file/Skyrim Soundpack v5.8b.zip","builtin/mod_support/ctm","file/Божественный Тотем.zip"]
+resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","file/EclecticTrove-noconfig-1.18-1.2.0.zip","file/EFMxIrons_Spells_v1.2.zip","file/Excalibur_V1.18.1.zip","file/Excalibur_Mod_Support_V1.18.1.1.zip","file/Excalibur_ZaryaEdition","file/Excalibur_NoLeaves_ZaryaEdition","file/[1.4] Enhanced Boss Bars.zip","file/Skyrim Soundpack v5.8b.zip","builtin/mod_support/ctm","file/Божественный Тотем.zip","file/Create Immersive Aircrafts Resource Pack 1.18.2 - 2.0.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:ru_ru
@@ -266,6 +266,16 @@ key_key.epicfight.mover_skill:key.keyboard.space
 key_key.epicfight.skill_gui:key.keyboard.z
 key_key.epicfight.lock_on:key.keyboard.unknown
 key_key.epicfight.config:key.keyboard.unknown
+key_key.immersive_aircraft.multi_control_left:key.keyboard.a
+key_key.immersive_aircraft.multi_control_right:key.keyboard.d
+key_key.immersive_aircraft.multi_control_forward:key.keyboard.w
+key_key.immersive_aircraft.multi_control_backward:key.keyboard.s
+key_key.immersive_aircraft.multi_control_up:key.keyboard.space
+key_key.immersive_aircraft.multi_control_down:key.keyboard.left.shift
+key_key.immersive_aircraft.multi_control_pull:key.keyboard.s
+key_key.immersive_aircraft.multi_control_push:key.keyboard.w
+key_key.immersive_aircraft.multi_dismount:key.keyboard.tab
+key_key.immersive_aircraft.multi_boost:key.keyboard.c
 key_key.parcool.Enable:key.keyboard.p:CONTROL
 key_key.parcool.Crawl:key.keyboard.c
 key_key.parcool.ClingToCliff:key.mouse.right

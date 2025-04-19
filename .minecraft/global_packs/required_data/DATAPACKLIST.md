@@ -1,5 +1,8 @@
 ﻿## Список датапаков и ХЭШ-суммы
 
+    Имя файла: Create Immersive Aircrafts Datapack 1.18.2 - 1.2.zip
+    MD5: B0F2C6533F22728E672C677165F22F52
+---
     Имя файла: ctov-farmers-delight-compat-pack-1-0-0.zip
     MD5: 379AC094CC17E51DBE86B36130F50A5E
 ---

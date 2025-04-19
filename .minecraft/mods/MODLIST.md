@@ -450,6 +450,9 @@
     Имя файла: ImmediatelyFastReforged-1.18.2-1.1.10.jar
     MD5: 74D7E715DA39F8DCD4F3477F17DA0058
 ---
+    Имя файла: immersive_aircraft-0.5.2+1.18.2-forge.jar
+    MD5: E05C88CE7F44393842FCC1CF7E700F55
+---
     Имя файла: immersive_melodies-0.1.2+1.18.2-forge.jar
     MD5: 3A6E91EDB17D97E410BC0D62A6788408
 ---
