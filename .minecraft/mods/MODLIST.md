@@ -396,8 +396,8 @@
     Имя файла: fullstackwatchdog-1.0.1+1.19.2-forge.jar
     MD5: 9C117CA1DF5923FD20941D6C1E4301A6
 ---
-    Имя файла: fusion-1.2.6-forge-mc1.18.jar
-    MD5: 1F63B96DAE5176FE1F40D1B88F7B7F02
+    Имя файла: fusion-1.2.7-forge-mc1.18.jar
+    MD5: B0FE3C192686CEFD34DE8CBCE8DA0B3A
 ---
     Имя файла: GameStages-Forge-1.18.2-8.1.3.jar
     MD5: 67AAF7D0E98BCEB72701885792F6F859
