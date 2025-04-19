@@ -109,7 +109,7 @@ onEvent('item.tags', e => {
 onEvent("lootjs", (event) => {
 
   event
-    .addLootTypeModifier(LootType.ENTITY)
+    .addLootTypeModifier([LootType.ENTITY, LootType.UNKNOWN])
     .removeLoot(Item.of('epicfight:stone_greatsword').ignoreNBT())
     .removeLoot(Item.of('epicfight:stray_hat').ignoreNBT())
     .removeLoot(Item.of('epicfight:stray_robe').ignoreNBT())
