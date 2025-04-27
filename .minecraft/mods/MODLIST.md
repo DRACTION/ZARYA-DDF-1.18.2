@@ -645,9 +645,6 @@
     Имя файла: noisium_legacy-forge-2.3.0+mc1.18.x.jar
     MD5: EBAB38E74ABCB1183F1C04DD970448AE
 ---
-    Имя файла: nomowanderer-1.18.2_1.1.6.jar
-    MD5: 480D15A8B767340BF3F28EFD0612ED06
----
     Имя файла: norecipeadvancements-1.18.2-2.0.1.jar
     MD5: 57EEA7EE8788995D393BC214E932946C
 ---
