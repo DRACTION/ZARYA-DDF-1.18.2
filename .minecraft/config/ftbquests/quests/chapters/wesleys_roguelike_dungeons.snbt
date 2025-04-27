@@ -1,0 +1,86 @@
+{
+	id: "6D680329B041BA70"
+	group: "305971A8199B4C78"
+	order_index: 4
+	filename: "wesleys_roguelike_dungeons"
+	title: "Wesley's Roguelike Dungeons"
+	icon: "wrd:golden_skull"
+	subtitle: ["@wrd"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -2.0d
+		width: 1.0d
+		height: 1.0d
+		rotation: 0.0d
+		image: "ftbquests:textures/gui/info.png"
+		hover: ["Страница мода \"Wesley's Roguelike Dungeons\""]
+		click: "https://www.curseforge.com/minecraft/mc-mods/wrd"
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: -1.0d
+			subtitle: "Создаёт где-то в мире большой данж"
+			description: [
+				"1) ПКМ чтобы создать данж"
+				""
+				"2) Ещё раз ПКМ, чтобы проверить что данж создался"
+			]
+			min_required_tasks: 1
+			id: "0765281597FDFDFE"
+			tasks: [
+				{
+					id: "5D84AC5C9E523E8B"
+					type: "item"
+					item: {
+						id: "wrd:magic_cauldron"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "15CF25179908824D"
+					type: "item"
+					item: "wrd:magic_cauldron_desert"
+				}
+				{
+					id: "3DAA48C143BDB450"
+					type: "item"
+					item: "wrd:magic_cauldron_ice"
+				}
+				{
+					id: "05A39227AE5774C3"
+					type: "item"
+					item: "wrd:magic_cauldron_jungle"
+				}
+				{
+					id: "751B57222B6A8AC2"
+					type: "item"
+					item: "wrd:magic_cauldron_nether"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			subtitle: "Телепортирует к данжу"
+			description: [
+				"1) ПКМ чтобы разместить проводник"
+				""
+				"2) Затем возьмите активированный сосуд видения и нажмите им ПКМ по проводнику"
+			]
+			dependencies: ["0765281597FDFDFE"]
+			id: "3ED23D6F4E427A93"
+			tasks: [{
+				id: "319BA43CA59A1AA8"
+				type: "item"
+				item: "wrd:dungeon_locator_item"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
