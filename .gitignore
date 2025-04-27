@@ -45,6 +45,8 @@
 .minecraft/mods/*.jar
 .minecraft/mods/*.jar.disabled
 .minecraft/patchouli_books/
+.minecraft/servers.dat
+.minecraft/servers.dat_old
 
 .minecraft/plugins/
 .minecraft/config/fancymenu/extensions/fmvideo/locals/en_us.local
