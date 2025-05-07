@@ -282,10 +282,12 @@ key_key.parcool.ClingToCliff:key.mouse.right
 key_key.parcool.Breakfall:key.keyboard.tab
 key_key.parcool.FastRun:key.keyboard.left.control
 key_key.parcool.Dodge:key.keyboard.tab
+key_key.parcool.RideZipline:key.mouse.right
 key_key.parcool.WallSlide:key.mouse.right
 key_key.parcool.WallJump:key.keyboard.space
 key_key.parcool.Vault:key.mouse.right
 key_key.parcool.HorizontalWallRun:key.keyboard.tab
+key_key.parcool.HideInBlock:key.keyboard.c
 key_key.parcool.openSetting:key.keyboard.p:ALT
 key_key.parcool.QuickTurn:key.keyboard.unknown
 key_key.parcool.Flipping:key.keyboard.unknown

@@ -48,6 +48,8 @@
 		enable_WallSlideAnimator = true
 		enable_ChargeJumpAnimator = true
 		enable_JumpChargingAnimator = false
+		enable_HideInBlockAnimator = true
+		enable_RideZiplineAnimator = true
 
 [Control]
 	#Control of Fast Run
@@ -67,11 +69,9 @@
 	enable_vault_in_air = true
 	#Enable getting off steps while doing dodge
 	can_get_off_steps_while_dodge = false
-	#Enable backward Wall-Jump when facing to wall
-	enable_wall_jump_backward = false
 	#Enable Roll when creative mode (experimental)
 	enable_roll_creative = false
-	#Make Vault Need Vault Key Pressed
+	#Make Vault need Vault Key Pressed
 	vault_needs_key_pressed = false
 	#enable players to do actions needing Fast-Running by sprint
 	substitute_sprint = false
@@ -92,6 +92,14 @@
 	wall-jump_control = "PressKey"
 	#Enable cooldown of wall jump
 	enable_wall_jump_cooldown = true
+	#Control of Cling To Cliff
+	#Allowed Values: PressKey, Toggle
+	cling-to-cliff_control = "PressKey"
+	#Make HideInBlock need player sneaking
+	hideinblock_needs_sneaking = true
+	#acceptable walll angle of wall jump : `0` means you exactly opposite to wall, `180` allow you to wall jump for all angle
+	#Range: 0 ~ 180
+	acceptable_angle_wall_jump = 110
 
 [Modifier]
 	#How long you can do Horizontal Wall Run
@@ -113,8 +121,12 @@
 [Stamina]
 	#Allowed Values: Default, Hunger, Feathers
 	used_stamina = "Default"
+	#Infinite Stamina (this needs a permission from server, even if it is on single player's game. normally permitted)
+	#Please check 'parcool-server.toml' in 'serverconfig' directory
+	infinite_stamina = true
+	#Infinite Stamina while player is creative mode
+	infinite_stamina_if_creative_mode = true
 
-	#Caution : Max stamina and stamina recovery config is removed because they became attributes.
 	[Stamina.Consumption]
 		#Range: 0 ~ 10000
 		stamina_consumption_of_BreakfallReady = 0
@@ -162,13 +174,12 @@
 		stamina_consumption_of_WallJump = 120
 		#Range: 0 ~ 10000
 		stamina_consumption_of_WallSlide = 8
-		#Infinite Stamina (this needs a permission from server, even if it is on single player's game. normally permitted)
-		#Please check 'parcool-server.toml' in 'serverconfig' directory
-		infinite_stamina = true
-		#Infinite Stamina while player is cretive mode
-		infinite_stamina_if_creative_mode = true
 		#Range: 0 ~ 10000
 		stamina_consumption_of_ChargeJump = 100
+		#Range: 0 ~ 10000
+		stamina_consumption_of_HideInBlock = 0
+		#Range: 0 ~ 10000
+		stamina_consumption_of_RideZipline = 2
 
 ["Possibility_of_Actions(Some_do_not_have_to_work)"]
 	can_BreakfallReady = true
@@ -195,6 +206,8 @@
 	can_VerticalWallRun = true
 	can_WallJump = true
 	can_WallSlide = true
+	can_HideInBlock = true
+	can_RideZipline = true
 
 [Stamina_HUD_Configuration]
 	#Allowed Values: Normal, Light, Hide
@@ -218,6 +231,8 @@
 	#vertical offset of light HUD
 	#Range: -100 ~ 100
 	offset_v_light_hud = 0
+	#Stamina HUD shows action charge rate, cool time or etc
+	show_action_status_bar = true
 
 [Other_Configuration]
 	#Vault Animation(Dynamic is to select animation dynamically)
@@ -236,4 +251,8 @@
 	enable_particles = true
 	#Enable particles triggered by just-time breakfall
 	enable_particles_jt_breakfall = true
+	#Enable block like rendering of zipline
+	enable_3d_render_zipline = true
+	#Notify if auto resynchronization of Limitation is executed
+	notify_limitation_auto_resync = true
 

@@ -684,8 +684,8 @@
     Имя файла: paraglidersstaminacompats-0.6.5-all.jar
     MD5: 01B805BF0627189F3F595485984125B0
 ---
-    Имя файла: ParCool-1.18.2-3.3.1.1.jar
-    MD5: FE701EED5DBF81856EF692D9BF98363B
+    Имя файла: ParCool-1.18.2-3.4.0.1.jar
+    MD5: 142AE390AE222DBFF0420213B8855966
 ---
     Имя файла: parry-2.3.1.jar
     MD5: DD92F34790DCF7D465C37E59C236A606
@@ -774,8 +774,8 @@
     Имя файла: ShinyHorses-1.18-1.1.jar
     MD5: 376F72C4BF4AA19090310422C2E9888F
 ---
-    Имя файла: ShoulderSurfing-Forge-1.18.2-4.10.5.jar
-    MD5: 405FD0D6E084B587D6D7BC591031F8BE
+    Имя файла: ShoulderSurfing-Forge-1.18.2-4.11.1.jar
+    MD5: 6E2A55B398C06F5F6DC84D7F91344441
 ---
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
