@@ -12,5 +12,5 @@
 	#Range: 0.0 ~ 2.0
 	hunger_modifier = 0.6
 	#Z@RYA = ID предмета, которым можно воскресить собаку (ПКМ на её кровати)
-	za_revive_item = "minecraft:totem_of_undying"
+	za_revive_item = "kubejs:trained_doggy_revive_stone"
 

@@ -15,6 +15,9 @@ onEvent('item.tooltip', e => {
 
   e.add(['kubejs:firestarter'], Text.of('Используется для розжига').darkGray())
 
+  e.add(['kubejs:trained_doggy_revive_stone'], Text.of('Воскрешает тренированную собаку').darkGray())
+  e.add(['kubejs:trained_doggy_revive_stone'], Text.of('ПКМ на собачьей лежанке').darkAqua().italic())
+
   e.add(['pettracker:tracker'], Text.of('ПКМ на мобе, чтобы добавить в книгу').darkGray())
 
   e.add(['waystones:return_scroll'], Text.of('Телепортирует к ближайшему обелиску').green())
