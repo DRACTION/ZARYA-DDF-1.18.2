@@ -1,5 +1,39 @@
 onEvent('recipes', e => {
-
+	///////////// Вода /////////////
+	let waterIngredients = [
+		['minecraft:water_bucket', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')],
+		Ingredient.customNBT(Item.of('ceramicbucket:ceramic_bucket').ignoreNBT(), nbt => { return nbt.Fluid?.FluidName == 'minecraft:water' }),
+		Ingredient.customNBT(Item.of('woodenbucket:wooden_bucket').ignoreNBT(), nbt => { return nbt.Fluid?.FluidName == 'minecraft:water' })
+	]
+	///////////// Молоко /////////////
+	let milkIngredients = [
+		'#forge:milk',
+		Ingredient.customNBT(Item.of('ceramicbucket:ceramic_bucket').ignoreNBT(), nbt => { return nbt.Fluid?.FluidName == 'minecraft:milk' }),
+		Ingredient.customNBT(Item.of('woodenbucket:wooden_bucket').ignoreNBT(), nbt => { return nbt.Fluid?.FluidName == 'minecraft:milk' })
+	]
+	///////////// Ведро мёда /////////////
+	let honeyBucketIngredients = [
+		'#forge:buckets/honey',
+		Ingredient.customNBT(Item.of('ceramicbucket:ceramic_bucket').ignoreNBT(), nbt => { return (nbt.Fluid?.FluidName == 'create:honey' || nbt.Fluid?.FluidName == 'productivebees:honey') && nbt.Fluid?.Amount >= 1000 }),
+		Ingredient.customNBT(Item.of('woodenbucket:wooden_bucket').ignoreNBT(), nbt => { return (nbt.Fluid?.FluidName == 'create:honey' || nbt.Fluid?.FluidName == 'productivebees:honey') && nbt.Fluid?.Amount >= 1000 })
+	]
+	e.replaceOutput({}, 'productivebees:honey_bucket', 'create:honey_bucket')
+	e.replaceInput({}, 'productivebees:honey_bucket', 'create:honey_bucket')
+	e.remove({ id: "productivebees:honey_bucket_from_block" })
+	///////////// Бутылочка молока /////////////
+	e.shapeless('4x farmersdelight:milk_bottle', [
+		Ingredient.customNBT(Item.of('ceramicbucket:ceramic_bucket').ignoreNBT(), nbt => { return nbt.Fluid?.FluidName == 'minecraft:milk' }),
+		'4x minecraft:glass_bottle'])
+	e.shapeless('4x farmersdelight:milk_bottle', [
+		Ingredient.customNBT(Item.of('woodenbucket:wooden_bucket').ignoreNBT(), nbt => { return nbt.Fluid?.FluidName == 'minecraft:milk' }),
+		'4x minecraft:glass_bottle'])
+	/////////// Бутылочка мёда ///////////
+	e.remove({ id: 'minecraft:honey_bottle' })
+	e.remove({ id: 'productivebees:honey_bucket_to_honey_bottles' })
+	honeyBucketIngredients.forEach( honey => {
+		e.shapeless('4x minecraft:honey_bottle', [honey, '4x minecraft:glass_bottle'])
+	})
+	/////////// Блок мёда ///////////
 	/////// Тесто Create заменяем на пшеничное farmersdelight
 	e.replaceOutput({}, 'create:dough', 'farmersdelight:wheat_dough')
 	e.replaceInput({}, 'create:dough', 'farmersdelight:wheat_dough')
@@ -121,6 +155,13 @@ onEvent('recipes', e => {
 		'4x minecraft:melon_slice',
 		'minecraft:sugar',
 		'minecraft:glass_bottle'])
+	////////////// Крем из светящихся ягод //////////////
+	e.remove({ id: "farmersdelight:cooking/glow_berry_custard" })
+	milkIngredients.forEach( milk => {
+		farmersdelight.cooking(e, 'farmersdelight:glow_berry_custard',
+			['minecraft:glow_berries', milk, '#forge:eggs', 'minecraft:sugar'],
+			'minecraft:glass_bottle')
+	})
 	////////////// Фруктовый салат //////////////
 	modifyShapelessID(e, 'farmersdelight:fruit_salad', 'farmersdelight:fruit_salad', 1,
 		['minecraft:apple', 'minecraft:melon_slice', '#forge:berries', 'minecraft:bowl'])
@@ -182,10 +223,12 @@ onEvent('recipes', e => {
 		'farmersdelight:cabbage_leaf',
 		'farmersdelight:bacon',
 		Fluid.of('minecraft:milk', 250)]).lowheated()
-	farmersdelight.cooking(e, 'farmersdelight:pumpkin_soup',
-		['farmersdelight:pumpkin_slice', 'farmersdelight:pumpkin_slice', 'farmersdelight:cabbage_leaf',
-		'farmersdelight:bacon', '#forge:milk'],
-		'minecraft:bowl')
+	milkIngredients.forEach( milk => {
+		farmersdelight.cooking(e, 'farmersdelight:pumpkin_soup',
+			['farmersdelight:pumpkin_slice', 'farmersdelight:pumpkin_slice', 'farmersdelight:cabbage_leaf',
+			'farmersdelight:bacon', milk],
+			'minecraft:bowl')
+	})
 	////////////// Запечённая тушеная треска //////////////
 	e.replaceInput({ output: "farmersdelight:baked_cod_stew" }, '#forge:raw_fishes/cod', 'farmersdelight:cod_slice')
 	e.replaceInput({ output: "farmersdelight:baked_cod_stew" }, 'minecraft:egg', '#forge:eggs')
@@ -242,14 +285,36 @@ onEvent('recipes', e => {
 	////////////// Попкорн (кокпорн) //////////////
 	e.recipes.createMixing('corn_delight:popcorn', ['corn_delight:corn_seeds']).lowheated()
 	////////////// Кукуруруза со сливками //////////////
+	e.remove({ output: "corn_delight:creamed_corn" })
+	milkIngredients.forEach( milk => {
+		farmersdelight.cooking(e, 'corn_delight:creamed_corn',
+			['corn_delight:corn_seeds', 'corn_delight:corn_seeds', milk],
+			'minecraft:bowl', 0.35)
+	})
 	e.recipes.createMixing('corn_delight:creamed_corn',
 		['2x corn_delight:corn_seeds', 'minecraft:bowl', Fluid.of('minecraft:milk', 250)]).lowheated()
+	////////////// Кукурузное тесто //////////////
+	e.remove({ id: "corn_delight:cornbread_batter" })
+	milkIngredients.forEach( milk => {
+		e.shapeless('3x corn_delight:cornbread_batter', ['2x corn_delight:corn', milk, '#forge:eggs'])
+	})
 	////////////// Кукурузный суп //////////////
-	e.replaceInput({ id: "corn_delight:cooking/corn_soup" }, 'minecraft:beef', '#farmersdelight:cabbage_roll_ingredients')
+	e.remove({ output: "corn_delight:corn_soup" })
+	milkIngredients.forEach( milk => {
+		farmersdelight.cooking(e, 'corn_delight:corn_soup',
+			['corn_delight:corn', 'farmersdelight:cabbage_leaf', '#farmersdelight:cabbage_roll_ingredients', milk],
+			'minecraft:bowl', 0.35)
+	})
 	e.recipes.createMixing('corn_delight:corn_soup',
 		['corn_delight:corn', 'farmersdelight:cabbage_leaf', '#farmersdelight:cabbage_roll_ingredients',
 		'minecraft:bowl', Fluid.of('minecraft:milk', 250)]).lowheated()
 	////////////// Напиток из кукурузы со сливками //////////////
+	e.remove({ output: "corn_delight:creamy_corn_drink" })
+	milkIngredients.forEach( milk => {
+		farmersdelight.cooking(e, 'corn_delight:creamy_corn_drink',
+			['corn_delight:corn', milk, 'minecraft:sugar'],
+			'minecraft:glass_bottle', 0.35)
+	})
 	e.recipes.createMixing('corn_delight:creamy_corn_drink',
 		['corn_delight:corn', 'minecraft:glass_bottle', 'minecraft:sugar', Fluid.of('minecraft:milk', 250)]).lowheated()
 	////////////// Суп из кукурузного хлеба //////////////
@@ -287,12 +352,23 @@ onEvent('recipes', e => {
 				'minecraft:glass_bottle',
 				`${inArr[0]}:${inArr[1]}`,
 				Fluid.of('create:honey', 250)]).lowheated()
+			honeyBucketIngredients.forEach( honey => {
+				farmersdelight.brewing(e, `farmersrespite:strong_${inArr[1]}`,
+					[`${inArr[0]}:${inArr[1]}`, honey],
+					'minecraft:glass_bottle')
+			})
 		}
 		if (inArr[4]) {
 			e.recipes.createMixing(`farmersrespite:long_${inArr[1]}`, [
 				'minecraft:glass_bottle',
 				`${inArr[0]}:${inArr[1]}`,
 				Fluid.of('minecraft:milk', 250)]).lowheated()
+			e.remove({ id: `farmersrespite:brewing/long_${inArr[1]}` })
+			milkIngredients.forEach( milk => {
+				farmersdelight.brewing(e, `farmersrespite:long_${inArr[1]}`,
+					[`${inArr[0]}:${inArr[1]}`, milk],
+					'minecraft:glass_bottle')
+			})
 		}
 	})
 	////////////// Печенье с зеленым чаем //////////////
@@ -378,6 +454,14 @@ onEvent('recipes', e => {
 				['createaddition:cake_base_baked', 'farmersrespite:coffee_beans'])
 	]).transitionalItem('createaddition:cake_base_baked').loops(1)
 	////////////// Начос //////////////
+	e.remove({ output: "corn_delight:nachos_block" })
+	milkIngredients.forEach( milk => {
+		farmersdelight.cooking(e, 'corn_delight:nachos_block' ,[
+			'corn_delight:tortilla_chip', 'corn_delight:tortilla_chip', 'farmersdelight:tomato_sauce',
+			['#forge:cooked_beef', '#forge:cooked_mutton', '#forge:cooked_chicken', '#forge:cooked_pork'],
+			milk],
+			'minecraft:bowl', 0.35, 10)
+	})
 	e.recipes.createMixing('corn_delight:nachos_block', [
 		'2x corn_delight:tortilla_chip', 'farmersdelight:tomato_sauce',
 		['#forge:cooked_beef', '#forge:cooked_mutton', '#forge:cooked_chicken', '#forge:cooked_pork'],
@@ -421,10 +505,10 @@ onEvent('recipes', e => {
 		'#forge:eggs']).lowheated()
 	////////////// Пшеничное тесто //////////////
 	e.remove({ output: "farmersdelight:wheat_dough" })
-	e.shapeless('farmersdelight:wheat_dough', ['2x create:wheat_flour',
-		['minecraft:water_bucket', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')]])
-		.replaceIngredient('minecraft:water_bucuket', 'minecraft:bucket')
-		.replaceIngredient(Item.of('minecraft:potion', '{Potion:"minecraft:water"}'), 'minecraft:glass_bottle')
+	waterIngredients.forEach( water => {
+		e.shapeless('farmersdelight:wheat_dough', ['2x create:wheat_flour', water])
+			.replaceIngredient(Item.of('minecraft:potion', '{Potion:"minecraft:water"}'), 'minecraft:glass_bottle')
+	})
 	e.recipes.createMixing('farmersdelight:wheat_dough', [
 		Fluid.of('minecraft:water', 250),
 		'2x create:wheat_flour'])
@@ -437,9 +521,9 @@ onEvent('recipes', e => {
 		'create:campfire_cooking/bread'])
 	////////////// Заготовка для пирога //////////////
 	e.remove({ output: "farmersdelight:pie_crust" })
-	e.shapeless('farmersdelight:pie_crust', ['#forge:dough', '#forge:milk'])
-		.replaceIngredient('minecraft:milk_bucket', 'minecraft:bucket')
-		.replaceIngredient(['farmersdelight:milk_bottle', ''], 'minecraft:glass_bottle')
+	milkIngredients.forEach( milk => {
+		e.shapeless('farmersdelight:pie_crust', ['#forge:dough', milk])
+	})
 	e.recipes.createMixing('farmersdelight:pie_crust', [
 		Fluid.of('minecraft:milk', 250),
 		'#forge:dough'])

@@ -1,4 +1,8 @@
 onEvent('recipes', e => {
+	///////////// Блок мёда /////////////
+	e.remove({ id: "productivebees:honey_bucket_to_honey_block" })
+	e.remove({ id: "minecraft:honey_block" })
+	/////////////////////////////
 	e.remove({
 		mod: 'productivebees',
 		input: Item.of('minecraft:iron_sword').ignoreNBT(),
@@ -86,6 +90,18 @@ onEvent('recipes', e => {
 
 	e.remove({ output: 'productivebees:bottler'})
 
+	///////////// Мёд /////////////
+	e.forEachRecipe({type: "productivebees:centrifuge"}, recipe => {
+		recipe.json.get('outputs').forEach( output => {
+			if (output.get("fluid") != null
+				&& output.get('fluid').get('fluid') == "\"productivebees:honey\"") {
+				output.get('fluid').add('fluid', "create:honey");
+			}
+		})
+	})
+	///////////// Сломанный рецепт "productivebees:rotten" /////////////
+	// Item.of('productivebees:configurable_honeycomb', '{EntityTag:{type:"productivebees:rotten"}}')
+	e.remove({ id:"productivebees:create/mixing/honeycomb_rotten" })
 	//////////// Пчелиные соты ////////////
 	e.remove({ id:"productivebees:create/mixing/honeycomb" })
 	e.recipes.createMixing([
@@ -357,4 +373,8 @@ onEvent('recipes', e => {
 		'productivebees:wax',
 		Fluid.of('create:honey', 50)
 	], 'productivebees:honeycomb_powdery').lowheated()
+})
+
+onEvent('item.tags', e => {
+	e.remove('forge:buckets/honey', 'productivebees:honey_bucket')
 })

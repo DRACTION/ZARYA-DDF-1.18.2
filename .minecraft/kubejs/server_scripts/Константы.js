@@ -141,6 +141,17 @@ let farmersdelight = {
       experience: (exp === undefined) ? 1.0 : exp,
       cookingtime: (time === undefined) ? 200 : time*20
     })
+  },
+  brewing: (e, result, ingredients, container, exp, time, needwater) => {
+    return e.custom({
+      type: "farmersrespite:brewing",
+      ingredients: tagOrItemForJson(ingredients),
+      container: tagOrItemForJson((container === undefined) ? 'minecraft:air' : container),
+      result: tagOrItemForJson(result),
+      experience: (exp === undefined) ? 0.35 : exp,
+      brewingtime: (time === undefined) ? 2400 : time*20,
+      needwater: (needwater === undefined) ? false : needwater
+    })
   }
 }
 let chipped = (e, type, tags) => {
