@@ -7,6 +7,8 @@
   // KubeJS
 
     "item.kubejs.flint_saw": "Кремниевая пила",
+    "item.kubejs.copper_saw": "Медная пила",
+    "item.kubejs.iron_saw": "Железная пила",
     "item.kubejs.firestarter": "Примитивное огниво",
 
     "block.kubejs.sugar_cane_block": "Связка сахарного тростника",

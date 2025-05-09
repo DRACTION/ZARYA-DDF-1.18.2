@@ -8,6 +8,30 @@ onEvent('recipes', event => {
 	//////////////// Кремниевая пила ////////////////
 	event.shapeless('kubejs:flint_saw', ['2x minecraft:flint'])
 		.id('kubejs:shapeless/kubejs/flint_saw')
+	//////////////// Медная пила ////////////////
+	event.shaped('kubejs:copper_saw', [
+		' YX',
+		'RX ',
+		'SS '],
+		{
+			X: '#forge:plates/copper',
+			Y: '#forge:rods/copper',
+			R: 'supplementaries:rope',
+			S: '#forge:rods/wooden'
+		}
+	).id('kubejs:shaped/kubejs/copper_saw')
+	//////////////// Железная пила ////////////////
+	event.shaped('kubejs:iron_saw', [
+		' YX',
+		'RX ',
+		'SS '],
+		{
+			X: '#forge:plates/iron',
+			Y: '#forge:rods/iron',
+			R: 'supplementaries:rope',
+			S: '#forge:rods/wooden'
+		}
+	).id('kubejs:shaped/kubejs/iron_saw')
 
 	// Cut wood with handsaw
 		woods.forEach(name => {
@@ -16,8 +40,8 @@ onEvent('recipes', event => {
 				`minecraft:${name}_planks`, //result
 				`minecraft:${name}_planks`, //ID
 				2, //count
-				[Item.of('kubejs:flint_saw').ignoreNBT(), `#minecraft:${name}_logs`]// ingredients
-			).damageIngredient('kubejs:flint_saw')
+				[Ingredient.of('#zarya:saws'), `#minecraft:${name}_logs`]// ingredients
+			).damageIngredient('#zarya:saws')
 
 			event.remove({ id: `projectvibrantjourneys:${name}_planks`, type: 'minecraft:crafting_shapeless' })
 		})
@@ -28,18 +52,18 @@ onEvent('recipes', event => {
 				`minecraft:${name}_planks`, //result
 				`minecraft:${name}_planks`, //ID
 				2, //count
-				[Item.of('kubejs:flint_saw').ignoreNBT(), `#${name}_stems`]// ingredients
-			).damageIngredient('kubejs:flint_saw')
+				[Ingredient.of('#zarya:saws'), `#${name}_stems`]// ingredients
+			).damageIngredient('#zarya:saws')
 		})
 
 		event.remove({ id: 'minecraft:stick', type: 'minecraft:crafting_shaped' })
-		event.shapeless('2x minecraft:stick', [Item.of('kubejs:flint_saw').ignoreNBT(),'#minecraft:planks'])
+		event.shapeless('2x minecraft:stick', [Ingredient.of('#zarya:saws'), '#minecraft:planks'])
 			.id(`zarya:shapeless/minecraft/stick`)
-			.damageIngredient('kubejs:flint_saw')
+			.damageIngredient('#zarya:saws')
 
-		event.shapeless('2x minecraft:stick', ['#zarya:hollow_logs', Item.of('kubejs:flint_saw').ignoreNBT()])
+		event.shapeless('2x minecraft:stick', ['#zarya:hollow_logs', Ingredient.of('#zarya:saws')])
 			.id('zarya:hollow_log_2_sticks')
-			.damageIngredient('kubejs:flint_saw')
+			.damageIngredient('#zarya:saws')
 
 	// Blanks, Heads and Tools
 		let materialNames = [
@@ -63,7 +87,7 @@ onEvent('recipes', event => {
 					`kubejs:${material.curr}_${sootv.tool}_head`,
 					sootv.template,
 					{B: `kubejs:${material.curr}_tool_blank`, X: `minecraft:${material.curr}`}
-				).id(`kubejs:shapeless/kubejs/${material.curr}_${sootv.tool}_head`)
+				).id(`kubejs:shaped/kubejs/${material.curr}_${sootv.tool}_head`)
 
 				event.shaped(
 					`minecraft:${material.old}_${sootv.tool}`,
@@ -74,12 +98,19 @@ onEvent('recipes', event => {
 						R: 'supplementaries:rope'
 						// R: 'minecraft:string'
 					}
-				).id(`kubejs:shapeless/minecraft/${material.curr}_${sootv.tool}`)
+				).id(`kubejs:shaped/minecraft/${material.curr}_${sootv.tool}`)
 			})
 		})
 })
 
 onEvent('item.tags', e => {
+
+	e.add('zarya:saws', [
+		'kubejs:copper_saw',
+		'kubejs:iron_saw',
+		'kubejs:flint_saw'
+	])
+
 	e.add('valhelsia_structures:axe_crafting_blacklisted', 'kubejs:flint_saw')
 	
 	woods.forEach(name =>{

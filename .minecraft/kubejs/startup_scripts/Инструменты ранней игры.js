@@ -27,7 +27,7 @@ onEvent('item.registry', event => {
 			}
 			return itemstack
 		})
-	//////////////// Пила ////////////////
+	//////////////// Кремниевая пила ////////////////
 	event
 		.create('flint_saw', 'axe')
 		.tier('wood')
@@ -38,6 +38,30 @@ onEvent('item.registry', event => {
 			tier.attackDamageBonus = 0.0
 			tier.level = 0.1
 			tier.repairIngredient = 'minecraft:flint'
+		})
+	//////////////// Медная пила ////////////////
+	event
+		.create('copper_saw', 'axe')
+		.tier('stone')
+		.attackDamageBaseline(1.0)
+		.unstackable()
+		.texture('zarya:item/copper_saw')
+		.modifyTier(tier => {
+			tier.attackDamageBonus = 0.0
+			tier.level = 0.1
+			tier.repairIngredient = '#forge:plates/copper'
+		})
+	//////////////// Железная пила ////////////////
+	event
+		.create('iron_saw', 'axe')
+		.tier('iron')
+		.attackDamageBaseline(1.0)
+		.unstackable()
+		.texture('zarya:item/iron_saw')
+		.modifyTier(tier => {
+			tier.attackDamageBonus = 0.0
+			tier.level = 0.1
+			tier.repairIngredient = '#forge:plates/iron'
 		})
 	//////////////// Кремниевые запчасти ////////////////
 	event
