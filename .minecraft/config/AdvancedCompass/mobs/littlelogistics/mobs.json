@@ -1,1 +1,1 @@
-{"seater_barge":{"width":20,"height":14,"show":true},"barge":{"width":20,"height":16,"show":true},"tug":{"width":16,"height":18,"show":true}}
+{"seater_barge":{"width":20,"height":14,"show":false},"barge":{"width":20,"height":16,"show":false},"tug":{"width":16,"height":18,"show":false}}
