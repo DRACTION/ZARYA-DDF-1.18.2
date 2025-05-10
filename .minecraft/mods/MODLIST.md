@@ -444,8 +444,8 @@
     Имя файла: Iceberg-1.18.2-forge-1.0.49.jar
     MD5: 34CF6CACF18F8E7EEFE759042EDFC42E
 ---
-    Имя файла: iChunUtil-1.18.2-Forge-1.0.0.jar
-    MD5: B715C8D511E90B3BA39FC2B5C1AC3059
+    Имя файла: iChunUtil-1.18.2-Forge-1.0.1.jar
+    MD5: C9733DA9C93DBB9D541CA664C067399E
 ---
     Имя файла: ImmediatelyFastReforged-1.18.2-1.1.10.jar
     MD5: 74D7E715DA39F8DCD4F3477F17DA0058
