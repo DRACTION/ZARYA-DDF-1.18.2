@@ -6,9 +6,11 @@ onEvent('recipes', e => {
     let newNbt = oldWeapon.getNbt();
     newNbt.Damage = 0;
     // Удаляем лишние зачарования
-    for (let i = newNbt.Enchantments.size()-1; i >=0; i--) {
-      if (newNbt.Enchantments.get(i).get("id") == "farmersdelight:backstabbing") {
-        newNbt.Enchantments.remove(i);
+    if (newNbt.Enchantments != undefined) {
+      for (let i = newNbt.Enchantments.size()-1; i >=0; i--) {
+        if (newNbt.Enchantments.get(i).get("id") == "farmersdelight:backstabbing") {
+          newNbt.Enchantments.remove(i);
+        }
       }
     }
     return result.withNBT(newNbt)
