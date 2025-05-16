@@ -582,8 +582,8 @@
     Имя файла: MaxHealthFix-Forge-1.18.2-5.0.5.jar
     MD5: 67FEF6603324B2A18FD4FA33AE376575
 ---
-    Имя файла: mcw-bridges-3.0.1-mc1.18.2forge.jar
-    MD5: 5B219F4D22EC80AD23CF0658F2797637
+    Имя файла: mcw-bridges-3.1.0-mc1.18.2forge.jar
+    MD5: 1A93B62D5CBB228D4FB873B072B039F5
 ---
     Имя файла: mcwifipnp-1.7.3-1.18.2-forge.jar
     MD5: 80DA68215C15BBD33E8305EA6AB91E3A
@@ -684,8 +684,8 @@
     Имя файла: paraglidersstaminacompats-0.6.5-all.jar
     MD5: 01B805BF0627189F3F595485984125B0
 ---
-    Имя файла: ParCool-1.18.2-3.4.0.1.jar
-    MD5: 142AE390AE222DBFF0420213B8855966
+    Имя файла: ParCool-1.18.2-3.4.0.4.jar
+    MD5: 22BAF16A5A902DC1C9EC433B9411FA33
 ---
     Имя файла: parry-2.3.1.jar
     MD5: DD92F34790DCF7D465C37E59C236A606
@@ -780,8 +780,8 @@
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
 ---
-    Имя файла: SimpleBackups-1.18.2-1.1.14.jar
-    MD5: D3F144C303D42825EC71B09144C7E096
+    Имя файла: SimpleBackups-1.18.2-1.1.15.jar
+    MD5: D85650CAAE706747E6E857AB0A571F77
 ---
     Имя файла: sliceanddice-forge-1.4.0.jar
     MD5: 4E72A41507214D2BB524DA735B6325B0
