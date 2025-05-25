@@ -14,8 +14,8 @@
     "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
         "buttonHints": {
             "SETTINGS": {
-                "horizontalOffset": 30,
-                "top": -20
+                "horizontalOffset": 10,
+                "top": -25
             }
         }
     },
@@ -169,5 +169,180 @@
                 "top": -25
             }
         }
+    },
+    "xyz.apex.forge.fantasyfurniture.client.screen.OvenMenuScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "top": -15
+            },
+            "SORT": {
+                "top": -15
+            },
+            "SORT_COLUMNS": {
+                "top": -15
+            },
+            "SORT_ROWS": {
+                "top": -15
+            },
+            "SETTINGS": {
+                "horizontalOffset": 10,
+                "top": -25
+            }
+        }
+    },
+    "xyz.apex.forge.fantasyfurniture.common.menu.OvenMenu": {
+        "playerSideOnly": true
+    },
+    "xyz.apex.forge.fantasyfurniture.client.screen.CookieJarMenuScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 112,
+                "top": 14
+            },
+            "SORT": {
+                "horizontalOffset": 4,
+                "top": 20
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 16,
+                "top": 32
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 28,
+                "top": 44
+            },
+            "SETTINGS": {
+                "horizontalOffset": 10,
+                "top": -25
+            }
+        }
+    },
+    "xyz.apex.forge.fantasyfurniture.client.screen.SmallInventoryMenuScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 129,
+                "top": 16
+            },
+            "SORT": {
+                "horizontalOffset": -13,
+                "top": 20
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -1,
+                "top": 32
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 11,
+                "top": 44
+            },
+            "SETTINGS": {
+                "horizontalOffset": 10,
+                "top": -25
+            }
+        }
+    },
+    "xyz.apex.forge.fantasyfurniture.client.screen.MediumInventoryMenuScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 14,
+                "top": 66
+            },
+            "SORT": {
+                "horizontalOffset": -50
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -38,
+                "top": 12
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -26,
+                "top": 24
+            },
+            "SETTINGS": {
+                "horizontalOffset": 10,
+                "top": -25
+            }
+        }
+    },
+    "xyz.apex.forge.fantasyfurniture.client.screen.LargeInventoryMenuScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 14,
+                "top": 122
+            },
+            "SORT": {
+                "horizontalOffset": -50
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -38,
+                "top": 12
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -26,
+                "top": 24
+            },
+            "SETTINGS": {
+                "horizontalOffset": 10,
+                "top": -25
+            }
+        }
+    },
+    "xyz.apex.forge.fantasyfurniture.client.screen.BookshelfMenuScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 15,
+                "top": 122
+            },
+            "SORT": {
+                "horizontalOffset": -50
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -38,
+                "top": 12
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -26,
+                "top": 24
+            },
+            "SETTINGS": {
+                "horizontalOffset": 10,
+                "top": -25
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.HopperScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "bottom": -2
+            },
+            "SORT": {
+                "bottom": -2
+            },
+            "SORT_COLUMNS": {
+                "bottom": -2
+            },
+            "SORT_ROWS": {
+                "bottom": -2
+            },
+            "SETTINGS": {
+                "horizontalOffset": 10,
+                "top": -25
+            }
+        }
+    },
+    "com.farmersrespite.client.gui.KettleScreen": {
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 10,
+                "top": -25
+            },
+            "CONTINUOUS_CRAFTING": {
+                "horizontalOffset": 42,
+                "bottom": 30
+            }
+        }
+    },
+    "com.farmersrespite.common.block.entity.container.KettleContainer": {
+        "playerSideOnly": true
     }
 }
