@@ -87,8 +87,8 @@
     Имя файла: betterpunching-1.18.2-1.2.0-ZaryaEdition.jar
     MD5: 04D9EEC9679954BC27CF608EF2093CAD
 ---
-    Имя файла: bettervillage-forge-1.18.2-3.3.0.jar
-    MD5: 027645FC0364D92751E010F0971DA6C1
+    Имя файла: bettervillage-forge-1.18.2-3.3.1.jar
+    MD5: 1356418D64688B94B037E0618E559C0D
 ---
     Имя файла: BOMD-Forge-1.18.2-1.0.6.jar
     MD5: 04AF287A92E1134D3FF50DA31EE7E352
@@ -684,8 +684,8 @@
     Имя файла: paraglidersstaminacompats-0.6.5-all.jar
     MD5: 01B805BF0627189F3F595485984125B0
 ---
-    Имя файла: ParCool-1.18.2-3.4.0.4.jar
-    MD5: 22BAF16A5A902DC1C9EC433B9411FA33
+    Имя файла: ParCool-1.18.2-3.4.0.5.jar
+    MD5: 938653F35988E064980D3AFA24081867
 ---
     Имя файла: parry-2.3.1.jar
     MD5: DD92F34790DCF7D465C37E59C236A606
@@ -774,8 +774,8 @@
     Имя файла: ShinyHorses-1.18-1.1.jar
     MD5: 376F72C4BF4AA19090310422C2E9888F
 ---
-    Имя файла: ShoulderSurfing-Forge-1.18.2-4.11.1.jar
-    MD5: 6E2A55B398C06F5F6DC84D7F91344441
+    Имя файла: ShoulderSurfing-Forge-1.18.2-4.12.0.jar
+    MD5: 75FC15ACD813D0CE40C9B82F8DBEB08E
 ---
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
