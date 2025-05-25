@@ -114,7 +114,7 @@
 
 		#Entities that shouldn't be affected by this feature
 		[Animal."Animal Attacking"."Entity Blacklist"]
-			Blacklist = ["minecraft:pig", "minecraft:llama", "minecraft:trader_llama", "minecraft:bee", "minecraft:wolf", "minecraft:bear", "minecraft:panda", "minecraft:axolotl"]
+			Blacklist = ["irons_spellbooks:spectral_steed", "minecraft:pig", "minecraft:llama", "minecraft:trader_llama", "minecraft:bee", "minecraft:wolf", "minecraft:bear", "minecraft:panda", "minecraft:axolotl"]
 			#If true the list will be treated as a whitelist instead of blacklist
 			"List as Whitelist" = false
 
