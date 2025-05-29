@@ -19,3 +19,9 @@
 		#Maximum number of backpacks in player's inventory that will not cause slowness
 		#Range: 1 ~ 27
 		maxNumberOfBackpacks = 3
+
+	#Tank Upgrade Settings
+	[server.tankUpgrade]
+		#How much FE can be transfered in / out per operation. This is a base transfer rate and same as max capacity gets multiplied by number of rows in storage and stack multiplier.
+		#Range: 1 ~ 1000
+		maxInputOutput = 200

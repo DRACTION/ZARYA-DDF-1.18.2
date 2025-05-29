@@ -1,5 +1,8 @@
 ﻿## Список ресурспаков и ХЭШ-суммы
 
+    Имя файла: Create Computers 1.2.zip
+    MD5: C57FA7FFA01EF100D837B260C5D81875
+---
     Имя файла: Create Immersive Aircrafts Resource Pack 1.18.2 - 2.0.zip
     MD5: 1DFDF973B54DCA13290E1AC8983BEA2B
 ---

@@ -120,6 +120,9 @@
     Имя файла: catalogue-1.6.2-1.18.2.jar
     MD5: 72583082FD6488DB636EFBB1AEC21A4E
 ---
+    Имя файла: cc-tweaked-1.18.2-1.101.3-ZaryaEdition.jar
+    MD5: 299EE9E2B8EDEE8718D726F8A1728CA2
+---
     Имя файла: ceramicbucket-1.18.2-3.0.5.0.jar
     MD5: 89957D6EA5C242339977FE5E50CF7156
 ---
@@ -524,6 +527,9 @@
 ---
     Имя файла: Kiwi-1.18.2-forge-6.1.4.jar
     MD5: 194BBC8CBBD2D0517B3A4A85A92E7675
+---
+    Имя файла: kjscc-1.0.1-forge.jar
+    MD5: 603AE150CDCFED534A791B33771EE94D
 ---
     Имя файла: konkrete_forge_1.8.0_MC_1.18-1.18.2.jar
     MD5: 3A333A9B570F11009E913B7297148CD5
