@@ -12,6 +12,9 @@
     Имя файла: AdvancedCompas-forge-1.18.2-1.2.11.jar
     MD5: 3E2C647AADB3AADC7C48C08E88BA1E4A
 ---
+    Имя файла: AdvancedPeripherals-1.18.2-0.7.31r-ZaryaEdition.jar
+    MD5: AE969E6C063EBC21870C0BC17414F344
+---
     Имя файла: AdvancementPlaques-1.18.2-1.4.5.1.jar
     MD5: BC7FC787E79C7C718B89FCD806C0D55F
 ---
