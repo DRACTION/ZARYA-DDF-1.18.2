@@ -759,6 +759,9 @@
     Имя файла: repurposed_structures_forge-5.1.15+1.18.2.jar
     MD5: 18B6124AA7626E79719921D1DE681B39
 ---
+    Имя файла: restrictedportals-1.18.2-1.2.0-ZaryaEdition.jar
+    MD5: 770C7CAB3C3886F1F55FDD41E3BBF99C
+---
     Имя файла: revamped_phantoms-forge-0.2.3.jar
     MD5: 2349DD028D092FB7F084918F9F6F626E
 ---
