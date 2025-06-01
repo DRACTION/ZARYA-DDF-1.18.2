@@ -11,7 +11,7 @@ onEvent('item.food_eaten', e => {
 		e.server.tell(`${e.player.toString()} cловил Смерть Пионерки!!!`);
 		e.getEntity().setOnFire(3);
 
-		e.server.runCommandSilent(`effect give @p minecraft:nausea 720 9`);
+		e.server.runCommandSilent(`effect give @p minecraft:nausea 720`);
 
 		if (!e.player.potionEffects.isActive('minecraft:resistance')) {
 			e.server.runCommandSilent(`effect give @p minecraft:resistance ${Math.floor(randomLength*7+1)*60}`);
