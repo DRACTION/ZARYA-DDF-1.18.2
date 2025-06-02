@@ -1,5 +1,7 @@
 
 onEvent('recipes', e => {
+  //////////// Инженерные очки ////////////
+  e.replaceInput({ id: "create:crafting/kinetics/goggles" }, '#forge:glass', 'connectedglass:clear_glass_pane')
   //////////// Дробильное колесо (альтернатива) ////////////
   e.shaped('create:crushing_wheel', [
     'BAB',

@@ -1,7 +1,94 @@
 onEvent('recipes', event => {
+	////////////// Дискета //////////////
+	[
+		['1', 'minecraft:black_dye', '1118481'],
+		['2', 'minecraft:red_dye', '13388876'],
+		['3', 'minecraft:green_dye', '5744206'],
+		['4', 'minecraft:brown_dye', '8349260'],
+		['5', 'minecraft:blue_dye', '3368652'],
+		['6', 'minecraft:purple_dye', '11691749'],
+		['7', 'minecraft:cyan_dye', '5020082'],
+		['8', 'minecraft:light_gray_dye', '10066329'],
+		['9', 'minecraft:gray_dye', '5000268'],
+		['10', 'minecraft:pink_dye', '15905484'],
+		['11', 'minecraft:lime_dye', '8375321'],
+		['12', 'minecraft:yellow_dye', '14605932'],
+		['13', 'minecraft:light_blue_dye', '10072818'],
+		['14', 'minecraft:magenta_dye', '15040472'],
+		['15', 'minecraft:orange_dye', '15905331'],
+		['16', 'minecraft:white_dye', '15790320']
+	].forEach(parameters => {
+		event.remove({ id:`computercraft:disk_${parameters[0]}` })
+		event.custom({
+			"type": "computercraft:impostor_shapeless",
+			"ingredients": [
+				{"item": "create:polished_rose_quartz"},
+				{"item": "minecraft:paper"},
+				{"item": parameters[1]}
+			],
+			"result": {"item": "computercraft:disk", "nbt": `{Color:${parameters[2]}}`}
+		}).id(`zarya:impostor_shapeless/disk_${parameters[0]}`)
+	})
+	////////////// Беспроводной модем //////////////
+	event.remove({ id:"computercraft:wireless_modem_normal" })
+	event.shapeless('computercraft:wireless_modem_normal', [
+		'create:redstone_link',
+		'computercraft:wired_modem'
+	])
+	////////////// Эндер модем //////////////
+	event.remove({ id:"computercraft:wireless_modem_advanced" })
+	event.shapeless('computercraft:wireless_modem_advanced', [
+		'computercraft:wireless_modem_normal',
+		'minecraft:ender_eye',
+		'warden_and_sculk:echo_shard'
+	])
+	////////////// Сетевой кабель //////////////
+	event.remove({ id:"computercraft:cable" })
+	event.shapeless('4x computercraft:cable', ['#forge:dusts/redstone', 'minecraft:dried_kelp'])
+	////////////// Проводной модем (full) //////////////
+	event.remove({ id:"computercraft:wired_modem_full_from" })
+	event.shaped('computercraft:wired_modem_full', [
+		'R',
+		'A'
+	], {
+		R: '#forge:dusts/redstone',
+		A: 'create:andesite_casing'
+	})
+	event.shapeless('computercraft:wired_modem_full', ['computercraft:wired_modem'])
+	////////////// Проводной модем //////////////
+	event.remove({ id:"computercraft:wired_modem_full_to" })
+	event.remove({ id:"computercraft:wired_modem" })
+	event.recipes.createPressing('computercraft:wired_modem', 'computercraft:wired_modem_full')
 	////////////// Дисковод //////////////
+	event.remove({ id:"computercraft:disk_drive" })
+	event.shaped('computercraft:disk_drive', [
+		'I',
+		'L',
+		'A'
+	], {
+		I: '#forge:plates/iron',
+		L: 'minecraft:lectern',
+		A: 'create:andesite_casing'
+	})
 	////////////// Монитор //////////////
+	event.remove({ id:"computercraft:monitor_normal" })
+	event.shaped('computercraft:monitor_normal', [
+		' I ',
+		'IDG',
+		' I '
+	], {
+		I: '#forge:plates/iron',
+		D: 'create:display_board',
+		G: 'connectedglass:clear_glass_pane'
+	})
 	////////////// Продвинутый монитор //////////////
+	event.remove({ id:"computercraft:monitor_advanced" })
+	event.shaped('computercraft:monitor_advanced', [
+		'MA'
+	], {
+		M: 'computercraft:monitor_normal',
+		A: '#forge:gems/amethyst'
+	})
 	////////////// Колонка //////////////
 	event.remove({ id:"computercraft:speaker" })
 	event.shaped('computercraft:speaker', [
@@ -11,7 +98,7 @@ onEvent('recipes', event => {
 		N: 'minecraft:note_block',
 		A: 'create:andesite_casing'
 	})
-	////////////// Колонка //////////////
+	////////////// Принтер //////////////
 	event.remove({ id:"computercraft:printer" })
 	event.shaped('computercraft:printer', [
 		'I',
