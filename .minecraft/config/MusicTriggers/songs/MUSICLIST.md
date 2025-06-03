@@ -330,6 +330,9 @@
     Имя файла: skyrim_the_streets_of_whiterun.ogg
     MD5: 2513205368FFD2F1D615BFE1C383FE6C
 ---
+    Имя файла: slowme_empty.mp3
+    MD5: 17F2E1D461989FFE6C35185969D920B6
+---
     Имя файла: spirits_of_our_dreams_shimmer_of_nightflies.ogg
     MD5: 8090DEB152A2D37F2E4A18C054CF2A62
 ---

@@ -160,6 +160,8 @@
 		triggers = [ "biome-sands" ]
 	[songs.jojo_torture_dance]
 		triggers = [ "biome-sands" ]
+	[songs.slowme_empty]
+		triggers = [ "time-nighttime" "dimension-overworld_ambient" ]
 	[songs.toby_fox_undertale]
 		triggers = [ "time-nighttime" "dimension-overworld_ambient" ]
 	[songs.samuel_kim_edgerunners_i_really_want_to_stay_at_your_house]
