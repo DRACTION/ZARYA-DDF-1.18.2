@@ -21,10 +21,10 @@
     Имя файла: Skyrim Soundpack v5.8b.zip
     MD5: 2ED14E4156AE614A4DD4071AE12D97BC
 ---
+    Имя файла: Totem.zip
+    MD5: AAB85E8C7099A9D2CA57A929D8699BF7
+---
     Имя файла: [1.4] Enhanced Boss Bars.zip
     MD5: 53016C7825C58FCE407112762C9AD7AE
----
-    Имя файла: Божественный Тотем.zip
-    MD5: AAB85E8C7099A9D2CA57A929D8699BF7
 ---
 
