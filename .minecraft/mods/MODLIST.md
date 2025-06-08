@@ -792,8 +792,8 @@
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
 ---
-    Имя файла: SimpleBackups-1.18.2-1.1.15.jar
-    MD5: D85650CAAE706747E6E857AB0A571F77
+    Имя файла: SimpleBackups-1.18.2-1.1.16.jar
+    MD5: 76EEC4ED3340F458F1F1D4B405964650
 ---
     Имя файла: sliceanddice-forge-1.4.0.jar
     MD5: 4E72A41507214D2BB524DA735B6325B0
