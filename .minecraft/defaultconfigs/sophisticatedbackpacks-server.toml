@@ -25,3 +25,6 @@
 		#How much FE can be transfered in / out per operation. This is a base transfer rate and same as max capacity gets multiplied by number of rows in storage and stack multiplier.
 		#Range: 1 ~ 1000
 		maxInputOutput = 200
+		#Energy in FE the battery upgrade will have per row of storage slots
+		#Range: 500 ~ 50000
+		energyPerSlotRow = 20000
