@@ -3,8 +3,15 @@ onEvent('entity.hurt', e => {
     if (e.entity == null || e.source.getActual() == null) return
     if (e.source.getActual().isPlayer() && e.entity.isPlayer()) return
 
-    let targetHasOwner   = e.entity.fullNBT.contains('Owner') || e.entity.fullNBT.contains('OwnerUUID') || e.entity.fullNBT.contains('Summoner')
-    let attackerHasOwner = e.source.getActual().fullNBT.contains('Owner') || e.source.getActual().fullNBT.contains('OwnerUUID') || e.source.getActual().fullNBT.contains('Summoner')
+    let targetHasOwner   = e.entity.getType() == 'tombstone:spectral_wolf'
+                        || e.entity.fullNBT.contains('Owner')
+                        || e.entity.fullNBT.contains('OwnerUUID')
+                        || e.entity.fullNBT.contains('Summoner')
+
+    let attackerHasOwner = e.source.getActual().getType() == 'tombstone:spectral_wolf'
+                        || e.source.getActual().fullNBT.contains('Owner')
+                        || e.source.getActual().fullNBT.contains('OwnerUUID')
+                        || e.source.getActual().fullNBT.contains('Summoner')
 
     // e.server.tell(`e.entity.fullNBT.contains('Owner') = ${e.entity.fullNBT.contains('Owner')}`)
     // e.server.tell(`e.source.getActual().isPlayer() = ${e.source.getActual().isPlayer()}`)
