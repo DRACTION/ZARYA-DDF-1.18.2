@@ -111,7 +111,7 @@ onEvent('item.tags', e => {
 		'kubejs:flint_saw'
 	])
 
-	e.add('valhelsia_structures:axe_crafting_blacklisted', 'kubejs:flint_saw')
+	e.add('valhelsia_structures:axe_crafting_blacklisted', '#zarya:saws')
 	
 	woods.forEach(name =>{
 		e.removeAllTagsFrom(`projectvibrantjourneys:${name}_hollow_log`)
