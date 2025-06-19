@@ -6,7 +6,6 @@ onEvent('server.load', event => {
 	event.server.runCommandSilent('gamerule companion:alwaysTeleportHorses false')
 	event.server.runCommandSilent('gamerule disableElytraMovementCheck true')
 	event.server.runCommandSilent('gamerule petFriendlyFire false')
-	event.server.runCommandSilent('gamerule strongerMobsDropEmeralds true')
 	event.server.runCommandSilent('gamerule strongerMobsMoreEXP true')
 
 	event.server.runCommandSilent('difficulty hard')
