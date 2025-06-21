@@ -1,5 +1,10 @@
 
 onEvent('recipes', e => {
+  //////////// Незеритовый лом ////////////
+  e.remove({ output: 'minecraft:netherite_scrap', type: 'minecraft:smelting' })
+  e.remove({ output: 'minecraft:netherite_scrap', type: 'minecraft:blasting' })
+  e.recipes.createMixing('minecraft:netherite_scrap', 'minecraft:ancient_debris').heated()
+  e.recipes.createMixing('minecraft:netherite_scrap', 'betterleveling:raw_debris').heated()
   //////////// Инженерные очки ////////////
   e.replaceInput({ id: "create:crafting/kinetics/goggles" }, '#forge:glass', 'connectedglass:clear_glass_pane')
   //////////// Дробильное колесо (альтернатива) ////////////
