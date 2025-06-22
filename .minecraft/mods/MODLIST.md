@@ -693,8 +693,8 @@
     Имя файла: paraglidersstaminacompats-0.6.5-all.jar
     MD5: 01B805BF0627189F3F595485984125B0
 ---
-    Имя файла: ParCool-1.18.2-3.4.0.5-ZaryaEdition.jar
-    MD5: BB837290B7A4402C392D5B448B9B17A4
+    Имя файла: ParCool-1.18.2-3.4.0.7-ZaryaEdition.jar
+    MD5: FE22C7D2085EB83FAA663D2B0FF45033
 ---
     Имя файла: parry-2.3.1.jar
     MD5: DD92F34790DCF7D465C37E59C236A606
@@ -786,14 +786,14 @@
     Имя файла: ShinyHorses-1.18-1.1.jar
     MD5: 376F72C4BF4AA19090310422C2E9888F
 ---
-    Имя файла: ShoulderSurfing-Forge-1.18.2-4.12.0.jar
-    MD5: 75FC15ACD813D0CE40C9B82F8DBEB08E
+    Имя файла: ShoulderSurfing-Forge-1.18.2-4.13.1.jar
+    MD5: 6D0041A9B9ECAAE525651730618F479D
 ---
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
 ---
-    Имя файла: SimpleBackups-1.18.2-1.1.16.jar
-    MD5: 76EEC4ED3340F458F1F1D4B405964650
+    Имя файла: SimpleBackups-1.18.2-1.1.17.jar
+    MD5: 4A627AA5A84AE7AF20807103741AB51D
 ---
     Имя файла: sliceanddice-forge-1.4.0.jar
     MD5: 4E72A41507214D2BB524DA735B6325B0
@@ -870,8 +870,8 @@
     Имя файла: ToastControl-1.18.2-6.0.3.jar
     MD5: 07A6DD58793EDEFE2B9591AD120748A3
 ---
-    Имя файла: tombstone-1.18.2-7.7.6.jar
-    MD5: 9E23DCB609E717FFAC2EC82F6C34B0E3
+    Имя файла: tombstone-1.18.2-7.7.7.jar
+    MD5: B90270383CA45AED973C25AC5F641615
 ---
     Имя файла: toms_storage-1.18.2-1.4.5.jar
     MD5: C88C162138505029565D2F6C269C749A
