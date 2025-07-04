@@ -888,6 +888,9 @@
     Имя файла: TrueHerobrine_1.1+1.18.2.jar
     MD5: 2CDD229E58D6E1697320E425FD638CCF
 ---
+    Имя файла: turtlechargingstation-1.0.0-1.18.2.jar
+    MD5: 2ADDF93794AA49F7AB3DB79522E11948
+---
     Имя файла: valhelsia_core-1.18.2-0.3.1.jar
     MD5: DD94C1D5C9932C41EDB2BE6982265DE5
 ---

@@ -172,6 +172,11 @@
     "structure.warden_and_sculk.ancient_city": "Древний город",
     "structure.witherstormmod.storm_spawn_platform": "Платформа призыва Визер-Шторма",
 
+  // Turtle Charging Station
+
+    "itemGroup.turtle_charging_station_creative_tab": "Зарядная станция для черепашек",
+    "block.turtlechargingstation.turtle_charging_station": "Зарядная станция для черепашек",
+
   // Create: Steam 'n Rails
 
     "item.railways.remote_lens": "Линзы дистанционного управления",
