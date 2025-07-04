@@ -100,7 +100,7 @@ onEvent('recipes', e => {
 	////////////// Томатный соус //////////////
 	e.remove({id:'farmersdelight:integration/create/mixing/tomato_sauce_from_mixing'})
 	////////////// Лист капусты //////////////
-	e.remove({id:'farmersdelight:integration/create/mixing/cabage_slice_from_mixing'})
+	e.remove({id:'farmersdelight:integration/create/mixing/cabbage_slice_from_mixing'})
 	////////////// Торт //////////////
 	e.remove({ output: "minecraft:cake" })
 	e.recipes.create.sequenced_assembly('minecraft:cake',
