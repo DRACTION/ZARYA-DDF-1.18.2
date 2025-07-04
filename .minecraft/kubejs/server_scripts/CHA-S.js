@@ -1,5 +1,5 @@
 onEvent('recipes', event => {
-	
+	/////////// Седло ///////////
 	event.shaped('minecraft:saddle',
 		[
 			"XXX",
@@ -8,8 +8,8 @@ onEvent('recipes', event => {
 		],
 		{
 			X: 'minecraft:leather',
-			I: '#forge:ingots/iron',
-			O: 'minecraft:string'
+			I: 'minecraft:tripwire_hook',
+			O: '#forge:rope'
 		}
 	)
 	event.shaped('minecraft:iron_horse_armor',
