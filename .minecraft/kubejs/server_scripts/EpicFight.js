@@ -144,10 +144,32 @@ onEvent('item.tags', e => {
 
 })
 
+onEvent('entity.drops', e => {
+  let blacklist = [
+    'epicfight:stone_greatsword',
+    'epicfight:stray_hat',
+    'epicfight:stray_robe',
+    'epicfight:stray_pants'
+  ]
+  // e.server.tell('==entity.drops==')
+  e.getDrops().forEach( itemEntity => {
+    // e.server.tell(itemEntity.getItem().getId())
+    if(blacklist.includes(itemEntity.getItem().getId())) {
+      itemEntity.setItem('minecraft:air')
+    }
+  })
+  // e.server.tell('============')
+})
+
 onEvent("lootjs", (event) => {
 
   event
-    .addLootTypeModifier([LootType.ENTITY, LootType.UNKNOWN])
+    .addLootTypeModifier([LootType.UNKNOWN,
+      LootType.BLOCK,
+      LootType.ENTITY,
+      LootType.CHEST,
+      LootType.FISHING,
+      LootType.GIFT])
     .removeLoot(Item.of('epicfight:stone_greatsword').ignoreNBT())
     .removeLoot(Item.of('epicfight:stray_hat').ignoreNBT())
     .removeLoot(Item.of('epicfight:stray_robe').ignoreNBT())
