@@ -36,6 +36,9 @@
 	#hostileSpawnerResistDaylightDuration: give undead fire resistance (true) 
 	#Range: 0 ~ 9999
 	hostileSpawnerResistDaylightDuration = 120
+	#Z@RYA: Отключает поиск и удаление источников света.
+	#Код поиска источников света и удаления очень неоптимизированный.
+	za_DontRemoveLight = true
 
 ["No Break Mobs Values 6464"]
 	#Trail Block String 6464
