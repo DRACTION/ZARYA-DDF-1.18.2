@@ -4,6 +4,8 @@ onEvent('recipes', e => {
 
 	e.remove({ id:'projectvibrantjourneys:glowcap_to_shroomlight' })
 	e.recipes.createCompacting('minecraft:shroomlight', ['8x projectvibrantjourneys:glowcap']).lowheated()
+	//////////////// Ветки ////////////////
+	e.shapeless('projectvibrantjourneys:twigs', ['minecraft:stick', '#minecraft:leaves'])
 })
 
 onEvent("lootjs", (event) => {
