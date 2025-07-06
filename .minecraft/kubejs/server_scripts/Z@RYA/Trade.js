@@ -11,6 +11,13 @@ onEvent("morejs.wanderer.trades", (event) => {
 	// event.removeModdedTrades(1)
 	// event.removeModdedTrades(2)
 
+	// Удаляем лёгкую покупку черепов
+	event.removeTrades({
+		firstItem: 'minecraft:emerald',
+		secondItem: '',
+		outputItem: 'minecraft:wither_skeleton_skull'
+	})
+
 	// Торговец приобретает товар (как в 1.20.2 после ребаланса)
 	event.addTrade(1, Item.of('minecraft:potion', '{Potion:"minecraft:water"}'), '1x minecraft:emerald').maxUses(1)
 	event.addTrade(1, 'minecraft:water_bucket', '2x minecraft:emerald').maxUses(1)
@@ -33,5 +40,13 @@ onEvent("morejs.wanderer.trades", (event) => {
 
 	event.addTrade(2, '64x minecraft:emerald', 'minecraft:totem_of_undying').maxUses(1)
 	event.addTrade(2, '32x minecraft:emerald', 'minecraft:wither_skeleton_skull').maxUses(3)
+
+	///////// Обшивка для периферийного устройства /////////
+	event.removeTrades({
+		firstItem: 'minecraft:emerald',
+		secondItem: '',
+		outputItem: 'advancedperipherals:peripheral_casing'
+	})
+	event.addTrade(1, '25x minecraft:emerald', 'advancedperipherals:peripheral_casing').maxUses(2)
 
 });
