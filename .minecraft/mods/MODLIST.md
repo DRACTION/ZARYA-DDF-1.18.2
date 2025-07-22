@@ -465,8 +465,8 @@
     Имя файла: immersive_paintings-0.6.7+1.18.2-forge.jar
     MD5: 75EF65410FEC4D8E0F1C5A4C07F57594
 ---
-    Имя файла: incontrol-1.18-6.1.14.jar
-    MD5: 4CF7D1BD946C705C845A9EFC55DEB28D
+    Имя файла: incontrol-1.18-6.1.14-ZaryaEdition.jar
+    MD5: F4F2BE55E34A816E41BFB1AFCCFA37A4
 ---
     Имя файла: InfernalGainer-18.1.9.jar
     MD5: 02C83096AD15846B5CE0199EC177ACDB
