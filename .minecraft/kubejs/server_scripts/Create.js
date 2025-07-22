@@ -1,5 +1,12 @@
 
 onEvent('recipes', e => {
+  //////////// Медный водолазный шлем ////////////
+  e.replaceInput({id: 'create:crafting/appliances/copper_diving_helmet'}, 'minecraft:copper_ingot', '#forge:plates/copper')
+  e.replaceInput({id: 'create:crafting/appliances/copper_diving_helmet'}, '#forge:glass', 'connectedglass:clear_glass')
+  //////////// Медные водолазные ботинки ////////////
+  e.replaceInput({id: 'create:crafting/appliances/copper_diving_boots'}, 'minecraft:copper_ingot', '#forge:plates/copper')
+  //////////// Вагонеточный сцепщик ////////////
+  e.replaceInput({id: 'create:crafting/curiosities/minecart_coupling'}, 'create:iron_sheet', '#forge:rods/iron')
   //////////// Незеритовый лом ////////////
   e.remove({ output: 'minecraft:netherite_scrap', type: 'minecraft:smelting' })
   e.remove({ output: 'minecraft:netherite_scrap', type: 'minecraft:blasting' })
@@ -354,6 +361,10 @@ onEvent('item.tags', e => {
 })
 
 onEvent('block.tags', e => {
+  ////////// Можно подобрать Гаечным ключом ///////////
+  e.add('create:wrench_pickup', [
+    'littlelogistics:rapid_hopper',
+    'create:schematic_table'])
   ////////// Золотые блоки можно ломать любой киркой ///////////
   e.remove('minecraft:needs_iron_tool', [
     'minecraft:gold_ore',
