@@ -1,4 +1,6 @@
 onEvent('recipes', e => {
+	////////////// Холст //////////////
+	e.shapeless('2x farmersdelight:canvas', ['2x supplementaries:flax'])
 
 	let knives = [ // [результат, материал_навершие]
 		['farmersdelight:flint_knife',		'minecraft:flint'],
