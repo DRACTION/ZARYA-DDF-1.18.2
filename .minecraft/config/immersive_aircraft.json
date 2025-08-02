@@ -9,7 +9,7 @@
   "windRainWeather": 3.0,
   "windThunderWeather": 3.0,
   "collisionDamage": true,
-  "onlyPlayerCanDestroyAircraft": true,
+  "onlyPlayerCanDestroyAircraft": false,
   "burnFuelInCreative": false,
   "acceptVanillaFuel": true,
   "useCustomKeybindSystem": true,
