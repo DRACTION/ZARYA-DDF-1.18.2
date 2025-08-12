@@ -77,6 +77,7 @@
     "structure.bosses_of_mass_destruction.lich_tower": "Башня Лича",
     "structure.bosses_of_mass_destruction.void_blossom": "Цветение Пустоты",
     "structure.ctov.small.village_plains": "Маленькая деревня на поляне",
+    "structure.ctov.small.village_taiga": "Маленькая деревня в тайге",
     "structure.ctov.small.village_desert": "Маленькая деревня в пустыне",
     "structure.ctov.small.village_jungle": "Маленькая деревня в джунглях",
     "structure.ctov.large.village_plains": "Большая деревня на равнине",
@@ -116,6 +117,8 @@
     "structure.humancompanions.acacia_house": "Акациевый дом наёмника",
     "structure.humancompanions.birch_house": "Берёзовый дом наёмника",
     "structure.humancompanions.darkoak_house": "Тёмно-дубовый дом наёмника",
+    "structure.minecraft.bastion_remnant": "Остатки бастиона",
+    "structure.mvs.abandonedlibrary": "Заброшенная библиотека",
     "structure.mvs.azeleahouse": "Дом Азалии",
     "structure.mvs.calcitehouse": "Кальцитовый дом",
     "structure.mvs.barn": "Амбар",
@@ -154,6 +157,7 @@
     "structure.structory.boat": "Маленькая лодка",
     "structure.structory.firetower": "Пожарная вышка",
     "structure.structory.ruin_grassy": "Замшелые руины",
+    "structure.structory.outcast_villager_grassy": "Деревенский отшельник",
     "structure.valhelsia_structures.big_tree": "Крупное дубовое дерево",
     "structure.valhelsia_structures.castle": "Замок",
     "structure.valhelsia_structures.spawner_dungeon": "Забытое подземелье",
@@ -170,7 +174,6 @@
     "structure.repurposed_structures.ruins_land_hot": "Руины вызженных земель",
     "structure.repurposed_structures.ruins_land_cold": "Руины мёрзлых земель",
     "structure.repurposed_structures.outpost_taiga": "Таёжный аванпост бандитов",
-    "structure.structury.outcast_villager_grassy": "Спуск в шахту",
     "structure.warden_and_sculk.ancient_city": "Древний город",
     "structure.witherstormmod.storm_spawn_platform": "Платформа призыва Визер-Шторма",
 
@@ -4196,6 +4199,7 @@
     "tombstone.item.gemstone_of_familiar": "Камень фамильяра",
     "tombstone.item.gemstone_of_familiar.desc": "Эти редкие волшебные камни позволяют вернуть к жизни вашего последнего умершего фамильяра",
     "tombstone.item.gemstone_of_familiar.use": "Удерживайте правую кнопку мыши, чтобы оживить фамильяра",
+    "enchantment.tombstone.plague_bringer.desc": "шанс применить негативные эффекты (или получить, если у вас не отрицательное мировоззрение)",
 
   // brutalbosses
 
