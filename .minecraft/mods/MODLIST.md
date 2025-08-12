@@ -1,10 +1,10 @@
 ﻿## Список модов и ХЭШ-суммы
 
-    Имя файла: adaptive_performance_tweaks_core_1.18.2-11.3.0.jar
-    MD5: B6D8C207C10C189543C86C176A2BE47E
+    Имя файла: adaptive_performance_tweaks_core_1.18.2-11.5.0.jar
+    MD5: 28AEA039152EAE2A1B2D57D2C7372926
 ---
-    Имя файла: adaptive_performance_tweaks_items_1.18.2-11.3.0.jar
-    MD5: 16ACDD6DE1AAD3CA80562A39FAD0C5A0
+    Имя файла: adaptive_performance_tweaks_items_1.18.2-11.5.0.jar
+    MD5: CAF7E6A39847D37D4181A7C53403BBE3
 ---
     Имя файла: AdFinders-1.18.2-7.0.5.0-build.1586.jar
     MD5: FAB4BAC7DFE09589199F0263972A104D
@@ -402,8 +402,8 @@
     Имя файла: fullstackwatchdog-1.0.1+1.19.2-forge.jar
     MD5: 9C117CA1DF5923FD20941D6C1E4301A6
 ---
-    Имя файла: fusion-1.2.9-forge-mc1.18.jar
-    MD5: F87142DD9546B1D5186FD78737C37B58
+    Имя файла: fusion-1.2.11a-forge-mc1.18.jar
+    MD5: 7EE7DBFCB50DFF452AB4F5A2F5FE1955
 ---
     Имя файла: GameStages-Forge-1.18.2-8.1.3.jar
     MD5: 67AAF7D0E98BCEB72701885792F6F859
@@ -474,8 +474,8 @@
     Имя файла: InsaneLib-1.5.3-mc1.18.2.jar
     MD5: 99E2A21EC2D5FB5C89063498381083BE
 ---
-    Имя файла: InventoryProfilesNext-forge-1.18.2-1.10.14.jar
-    MD5: 5DDF9EB3090981BF62B9378F5FC88D29
+    Имя файла: InventoryProfilesNext-forge-1.18.2-1.10.19.jar
+    MD5: 6C7BAFDAEF7081798A0C30B86D85CA50
 ---
     Имя файла: InventorySpam-1.18-1.5.0.jar
     MD5: 5C3CE9502CD68638C6E5D1956193F952
@@ -657,8 +657,8 @@
     Имя файла: norecipeadvancements-1.18.2-2.0.1.jar
     MD5: 57EEA7EE8788995D393BC214E932946C
 ---
-    Имя файла: notenoughanimations-forge-1.9.3-mc1.18.2.jar
-    MD5: 407D6D520FAB687BB7C9D753DF7717C1
+    Имя файла: notenoughanimations-forge-1.10.3.1-mc1.18.2.jar
+    MD5: 0900922B406A59BAFD63BE9ABF84A0F6
 ---
     Имя файла: novillagerdm-1.18.1-3.0.0.jar
     MD5: E52D7F5724031B201148CE394787113E
@@ -678,8 +678,8 @@
     Имя файла: OnlyLooking-1.18.2-1.4.0.jar
     MD5: 0C1F8FC21A9EB5C19111B994AD25C183
 ---
-    Имя файла: packetfixer-3.1.4-1.18-1.20.4-merged.jar
-    MD5: 667FC2A50867E1BF3DBC2B6E17FF2271
+    Имя файла: packetfixer-3.3.0-1.18-1.20.4-merged.jar
+    MD5: 75045A749FDE88DC20972E34BB815F29
 ---
     Имя файла: PackingTape-1.18.2-0.12.7.jar
     MD5: B2B6D631A5DDB4ED1282AAAB057DBB1F
@@ -693,8 +693,8 @@
     Имя файла: paraglidersstaminacompats-0.6.5-all.jar
     MD5: 01B805BF0627189F3F595485984125B0
 ---
-    Имя файла: ParCool-1.18.2-3.4.1.0-ZaryaEdition.jar
-    MD5: 56744CAEFEE54CD9D6FA73BF6EAD1398
+    Имя файла: ParCool-1.18.2-3.4.1.2-ZaryaEdition.jar
+    MD5: 1ABA09DD4550EB5ED4EF5B00A90EFB91
 ---
     Имя файла: parry-2.3.1.jar
     MD5: DD92F34790DCF7D465C37E59C236A606
@@ -765,8 +765,8 @@
     Имя файла: revamped_phantoms-forge-0.2.3.jar
     MD5: 2349DD028D092FB7F084918F9F6F626E
 ---
-    Имя файла: revive-me-1.18.2-2.10.6.jar
-    MD5: 8EDA504F3025316E2557EBE7C383383D
+    Имя файла: reviveme-1.18.2-2.10.7.jar
+    MD5: 0AFAEAAA8087762BDB37F6129D5C5722
 ---
     Имя файла: rhino-forge-1802.2.1-build.255.jar
     MD5: F020741D167E536995E829392AE1FBEE
@@ -786,8 +786,8 @@
     Имя файла: ShinyHorses-1.18-1.1.jar
     MD5: 376F72C4BF4AA19090310422C2E9888F
 ---
-    Имя файла: ShoulderSurfing-Forge-1.18.2-4.14.1.jar
-    MD5: 403066C87081FF558E6CF4A0F8627CF3
+    Имя файла: ShoulderSurfing-Forge-1.18.2-4.14.3.jar
+    MD5: EB4EF4BAD578C8065D2FC29ACB74B6AD
 ---
     Имя файла: shutupexperimentalsettings-1.0.5.jar
     MD5: A682B7A2B00A0A31466E9B97CF73947E
