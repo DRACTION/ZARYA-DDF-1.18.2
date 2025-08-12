@@ -6,6 +6,7 @@
 .minecraft/config/cristellib/
 .minecraft/config/adfinders/Targets/
 !.minecraft/config/adfinders/Targets/create.cfg
+!.minecraft/config/adfinders/Targets/irons_spellbooks.cfg
 !.minecraft/config/adfinders/Targets/minecraft.cfg
 .minecraft/config/AdvancedCompass/waypoints
 .minecraft/config/AdvancedCompass/mobs/**/*.png
