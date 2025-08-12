@@ -4,6 +4,14 @@ let colors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pin
 let woods = ['oak', 'birch', 'spruce', 'jungle', 'acacia', 'dark_oak']
 let endWoodNames = ['crimson', 'warped']
 let allWoods = ['oak', 'birch', 'spruce', 'jungle', 'acacia', 'dark_oak', 'crimson', 'warped']
+let passengers = [
+  'minecraft:horse',
+  'minecraft:mule',
+  'minecraft:donkey',
+  'minecraft:parrot',
+  'minecraft:wolf',
+  'doggytalents:dog'
+]
 let villageStructures = [
   "minecraft:village_desert",
   "minecraft:village_plains",
@@ -56,35 +64,7 @@ let villageStructures = [
   "ctov:small/village_snowy",
   "ctov:small/village_taiga"
 ]
-// let vanillaMetals = ['iron', 'gold']
-// let atoMetals = ['aluminum', 'osmium', 'platinum', 'zinc', 'uranium', 'tin', 'lead', 'silver', 'nickel', 'zinc', 'copper']
-// let atmMetals = ['allthemodium', 'vibranium', 'unobtainium']
-// let immersiveMetals = ['aluminum', 'lead', 'nickel', 'silver', 'uranium', 'copper']
-// let immersiveAlloys = ['steel', 'electrum', 'constantan']
-// let mekanismMetals = ['osmium', 'lead', 'tin', 'uranium', 'copper']
-// let mekanismAlloys = ['steel', 'refined_obsidian', 'refined_glowstone', 'bronze']
-// let thermalMetals = ['copper', 'tin', 'lead', 'silver', 'nickel']
-// let thermalAlloys = ['bronze', 'electrum', 'invar', 'constantan', 'signalum', 'enderium', 'lumium']
 
-// let draconicFusion = (e, output, craftingTier, energy, middleItem, ingredientList) => {
-//   //crafting tier: 1.draconium, 2.wyvern, 3.draconic, 4.chaotic
-//   let tiers = ['WYVERN', 'DRACONIC', 'CHAOTIC']
-//   e.custom({
-//     type: 'draconicevolution:fusion_crafting',
-//     result: { item: output },
-//     catalyst: { item: middleItem },
-//     total_energy: energy,
-//     tier: (craftingTier > 4 && craftingTier <= 1) ? 'DRACONIUM' : tiers[craftingTier - 2],
-//     ingredients: ingredientList.map(item => (item.charAt(0) === '#') ? { tag: item.substring(1) } : { item: item })
-//   }).id(`kubejs:fusion_crafting/${output.replace(':', '/')}`)
-// }
-// let energize = (e, ingredient, result, power, count) => {
-//   e.recipes.powah.energizing({
-//     ingredients: ingredient.map(i => Ingredient.of(i).toJson()),
-//     energy: power,
-//     result: Item.of(result, count ? count : 1).toResultJson()
-//   }).id(`kubejs:energizing/${result.replace(':', '/')}`)
-// }
 let modifyShaped = (e, result, count, pattern, ingredients) => {
   e.remove({ output: result, type: 'minecraft:crafting_shaped' })
   e.shaped(Item.of(result, count), pattern, ingredients).id(`kubejs:shaped/${result.replace(':', '/')}`)
@@ -111,16 +91,6 @@ let removeRecipeByOutput = (e, recipes) => {
     }
   })
 }
-// let woodcutting = (e, entries) => {
-//   entries.forEach(([input, output, count]) => {
-//     e.custom({
-//       type: "corail_woodcutter:woodcutting",
-//       ingredient: { item: input },
-//       result: output,
-//       count: count
-//     }).id(`kubejs:woodcutting/${output.replace(':', '/')}`)
-//   })
-// }
 let modifyShapedID = (e, result, ID, count, pattern, ingredients) => {
   e.remove({ id: ID, type: 'minecraft:crafting_shaped' })
   return e.shaped(Item.of(result, count), pattern, ingredients).id(`kubejs:shaped/${result.replace(':', '/')}`)
@@ -159,6 +129,20 @@ let chipped = (e, type, tags) => {
     type: `chipped:${type}`,
     tags: (Array.isArray(tags)) ? tags : [tags]
   })
+}
+let ownerIsPlayer = (e, entity) => {
+  let bool = false;
+  [
+    'Owner',
+    'OwnerUUID',
+    'Summoner'
+  ].forEach(UUID => {
+    if (entity.fullNBT.contains(UUID) && e.getLevel().minecraftLevel.getPlayerByUUID(entity.fullNBT.getUUID(UUID)) != null) {
+      bool = true;
+      return;
+    }
+  });
+  return bool;
 }
 
 

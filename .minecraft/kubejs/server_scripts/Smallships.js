@@ -66,12 +66,7 @@ onEvent("item.entity_interact", event => {
 		}
 	}
 
-	if ((targetId == 'minecraft:horse'
-		|| targetId == 'minecraft:mule'
-		|| targetId == 'minecraft:donkey'
-		|| targetId == 'minecraft:parrot'
-		|| targetId == 'minecraft:wolf'
-		|| targetId == 'doggytalents:dog')
+	if (passengers.includes(targetId)
 		&& event.getPlayer().getRidingEntity() != null
 		&& event.getPlayer().getRidingEntity().getType().split(':')[0] == 'smallships') {
 

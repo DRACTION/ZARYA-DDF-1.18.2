@@ -11,14 +11,10 @@ onEvent('entity.hurt', e => {
     //e.server.tell(`Utils.server.playerList.getPlayer(e.entity.fullNBT.getUUID('Summoner')) = ${Utils.server.playerList.getPlayer(e.entity.fullNBT.getUUID('Summoner'))}`)
 
     let targetHasOwner   = e.entity.getType() == 'tombstone:spectral_wolf'
-                        || (e.entity.fullNBT.contains('Owner')     && e.getLevel().minecraftLevel.getPlayerByUUID(e.entity.fullNBT.getUUID('Owner')) != null)
-                        || (e.entity.fullNBT.contains('OwnerUUID') && e.getLevel().minecraftLevel.getPlayerByUUID(e.entity.fullNBT.getUUID('OwnerUUID')) != null)
-                        || (e.entity.fullNBT.contains('Summoner')  && e.getLevel().minecraftLevel.getPlayerByUUID(e.entity.fullNBT.getUUID('Summoner')) != null)
+                        || ownerIsPlayer(e, e.entity)
 
     let attackerHasOwner = e.source.getActual().getType() == 'tombstone:spectral_wolf'
-                        || (e.source.getActual().fullNBT.contains('Owner')     && e.getLevel().minecraftLevel.getPlayerByUUID(e.source.getActual().fullNBT.getUUID('Owner')) != null)
-                        || (e.source.getActual().fullNBT.contains('OwnerUUID') && e.getLevel().minecraftLevel.getPlayerByUUID(e.source.getActual().fullNBT.getUUID('OwnerUUID')) != null)
-                        || (e.source.getActual().fullNBT.contains('Summoner')  && e.getLevel().minecraftLevel.getPlayerByUUID(e.source.getActual().fullNBT.getUUID('Summoner')) != null)
+                        || ownerIsPlayer(e, e.source.getActual())
 
     // e.source.getActual().fullNBT.contains('Summoner') && Utils.server.playerList.getPlayer(e.entity.fullNBT.Summoner)
 
