@@ -1,4 +1,6 @@
 onEvent('recipes', event => {
+	//////////////////// Драгоценная пыль ////////////////////
+	event.recipes.createCrushing('2x apotheosis:gem_dust', Item.of('apotheosis:gem').ignoreNBT())
 	//////////////////// Апгрейд материалов ////////////////////
 	let mat = [
 		"XXX",
