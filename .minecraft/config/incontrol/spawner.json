@@ -7,14 +7,14 @@
     "attempts": 10,
     "amount": {
       "minimum": 4,
-      "maximum": 8
+      "maximum": 10
     },
 
     "conditions": {
       "dimension": "minecraft:the_nether",
       "mindist": 20,
       "maxdist": 50,
-      "maxthis": 30
+      "maxthis": 35
     }
   }
 ]
