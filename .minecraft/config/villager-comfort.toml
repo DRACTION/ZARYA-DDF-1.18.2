@@ -13,13 +13,13 @@
 
 ["Bedroom comfort values"]
 	#How much empty space (in blocks) should the average bedroom have
-	averageBedroomSize = 9
+	averageBedroomSize = 36
 	#Amount of empty blocks above which the extra space doesn't add comfort to the bedroom
 	maxBedroomSize = 48
 	#Maximum variation in comfort if the bedroom is smaller than average
 	minBedroomSizeComfort = -12
 	#Maximum variation in comfort if the bedroom is bigger than average
-	maxBedroomSizeComfort = 12
+	maxBedroomSizeComfort = 0
 	#Number of beds in the same room above which comfort starts changing
 	bedsThreshold = 2
 	#Variation in comfort relative to each extra bed in a bedroom
@@ -35,13 +35,13 @@
 
 ["Workplace comfort values"]
 	#How much empty space (in blocks) should the average workplace have
-	averageWorkplaceSize = 9
+	averageWorkplaceSize = 36
 	#Amount of empty blocks above which the extra space doesn't add comfort to the workplace
 	maxWorkplaceSize = 48
 	#Maximum variation in comfort if the workplace is smaller than average
 	minWorkplaceSizeComfort = -25
 	#Maximum variation in comfort if the workplace is bigger than average
-	maxWorkplaceSizeComfort = 25
+	maxWorkplaceSizeComfort = 0
 	#Number of workstations in the same room above which a variation in comfort will occur
 	workstationsThreshold = 3
 	#Variation in comfort relative to each extra workstation in the room
@@ -59,7 +59,7 @@
 	#The distance (in blocks) between a villager's bed and their workplace above which no comfort variation will occur
 	maxBedWorkplaceDistance = 24
 	#The variation in comfort for each block above average between a villager's bed and their workplace
-	comfortPerMoreBedWorkplaceDistance = 1
+	comfortPerMoreBedWorkplaceDistance = 0
 	#The variation in comfort for each block below average between a villager's bed and their workplace
 	comfortPerLessBedWorkplaceDistance = -1
 	#Average minutes a villager spends outside
@@ -69,7 +69,9 @@
 	#Comfort variation for each day a villager spends without getting scared by a zombie
 	comfortPerDayWithoutZombie = 5
 	#Number of days after which a villager's comfort won't vary while not getting scared by zombies
-	maxDaysWithoutZombie = 7
+	maxDaysWithoutZombie = 0
 	#Comfort variation for each day a villager spends without sleeping
 	comfortPerDayWithoutSleep = -5
+	#Z@RYA = Сколько дней должно пройти после встречи с зомби, чтобы житель успокоился (не отнимался комфорт). После этого количества дней идёт отсчет для maxDaysWithoutZombie.
+	minDaysWithoutZombie = 7
 

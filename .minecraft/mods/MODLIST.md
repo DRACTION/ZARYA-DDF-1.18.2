@@ -897,8 +897,8 @@
     Имя файла: valhelsia_structures-1.18.2-0.1.1-ZaryaEdition.jar
     MD5: 4C09A756CDF5FF6FE28296C3C00F2AA8
 ---
-    Имя файла: Villager Comfort-1.18.2-1.0.1.jar
-    MD5: 712903839128BCED651555200E8E1DB5
+    Имя файла: Villager Comfort-1.0.0-ZaryaEdition.jar
+    MD5: B24B068F4CFCC808CDB2E3EEE4055B17
 ---
     Имя файла: villagernames-1.18.2-7.0.jar
     MD5: 92F31F94E6B85819C11B507C5DBF389F
