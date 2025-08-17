@@ -14,8 +14,10 @@ onEvent('recipes', event => {
 	event.remove({ id:"advancedperipherals:environment_detector" })
 	event.shaped('advancedperipherals:environment_detector', [
 		'C',
-		'X'
+		'X',
+		'A'
 	], {
+		A: 'createaddition:modular_accumulator',
 		C: 'naturescompass:naturescompass',
 		X: 'advancedperipherals:peripheral_casing'
 	})
@@ -85,10 +87,12 @@ onEvent('recipes', event => {
 	////////////// Гео-сканер //////////////
 	event.remove({ id:"advancedperipherals:geo_scanner" })
 	event.recipes.create.mechanical_crafting('advancedperipherals:geo_scanner', [
+		' A ',
 		' O ',
 		'IXG',
 		' M '
 	], {
+		A: 'createaddition:modular_accumulator',
 		O: 'create:content_observer',
 		G: 'adfinders:gem_finder',
 		I: 'adfinders:mineral_finder',
@@ -135,7 +139,7 @@ onEvent('recipes', event => {
 	[
 		event.recipes.createDeploying(trans, [trans, 'kubejs:sturdy_diamond_sheet']),
 		event.recipes.createDeploying(trans, [trans, 'tombstone:essence_of_undeath']),
-		event.recipes.createFilling(trans, [trans, Fluid.of('create_enchantment_industry:hyper_experience', 10)]),
+		event.recipes.createFilling(trans, [trans, Fluid.of('create_enchantment_industry:hyper_experience', 60)]),
 		event.recipes.createDeploying(trans, [trans, 'apotheosis:vial_of_expulsion']),
 		event.recipes.createDeploying(trans, [trans, 'create:mechanical_arm']),
 		event.recipes.createPressing(trans, trans)

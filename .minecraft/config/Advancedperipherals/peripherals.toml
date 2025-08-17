@@ -88,14 +88,14 @@
 
 	[Peripherals.Powered_Peripherals]
 		#Enable RF storage for peripherals, that could use it
-		enablePoweredPeripherals = false
+		enablePoweredPeripherals = true
 		#Defines max energy storage in any powered peripheral
 		#Range: > 1000000
-		poweredPeripheralMaxEnergyStored = 100000000
+		poweredPeripheralMaxEnergyStored = 1024000
 
 	[Peripherals.Pocket_Peripherals]
 		#If true, pockets will have infinite fuel
-		disablePocketFuelConsumption = true
+		disablePocketFuelConsumption = false
 
 	[Peripherals.Operations]
 		#Range: > 1000
