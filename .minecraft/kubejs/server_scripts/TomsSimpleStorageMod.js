@@ -47,13 +47,13 @@ onEvent('recipes', event => {
     }
   )
   removeRecipeByID(event, ['toms_storage:storage_terminal'])
-  event.recipes.create.mechanical_crafting('3x toms_storage:ts.storage_terminal',
+  event.recipes.create.mechanical_crafting('2x toms_storage:ts.storage_terminal',
     [
-      'AAAAA',
+      ' AAA ',
       'ADIDA',
       'AONOA',
       'ADLDA',
-      'AAAAA'
+      ' AAA '
     ],
     {
       A: 'create:andesite_casing',
