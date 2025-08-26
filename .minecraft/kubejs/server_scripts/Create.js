@@ -1,5 +1,36 @@
 
 onEvent('recipes', e => {
+  //////////// Чаросъёмник ////////////
+  e.remove({ id: 'create_enchantment_industry:crafting/disenchanter' })
+  e.shaped('create_enchantment_industry:disenchanter', [
+    'AAA',
+    'ADA',
+    'AAA'
+  ], {
+    A: 'irons_spellbooks:arcane_essence',
+    D: 'create:item_drain'
+  })
+  //////////// Биомасса ////////////
+  e.remove({ id: 'createaddition:mixing/biomass_from_sticks' })
+  e.recipes.createMixing('createaddition:biomass', ['8x minecraft:stick', Fluid.of('createaddition:seed_oil', 1000)])
+  e.remove({ id: 'createaddition:mixing/biomass_from_flowers' })
+  e.recipes.createMixing('createaddition:biomass', ['2x #minecraft:flowers', Fluid.of('createaddition:seed_oil', 1000)])
+  e.remove({ id: 'createaddition:mixing/biomass_from_crops' })
+  e.recipes.createMixing('createaddition:biomass', ['2x #forge:crops', Fluid.of('createaddition:seed_oil', 1000)])
+  e.remove({ id: 'createaddition:mixing/biomass_from_plant_foods' })
+  e.recipes.createMixing('createaddition:biomass', ['2x #createaddition:plant_foods', Fluid.of('createaddition:seed_oil', 1000)])
+  e.remove({ id: 'createaddition:mixing/biomass_from_plants' })
+  e.recipes.createMixing('createaddition:biomass', ['3x #createaddition:plants', Fluid.of('createaddition:seed_oil', 1000)])
+  e.remove({ id: 'createaddition:mixing/biomass_from_saplings' })
+  e.recipes.createMixing('createaddition:biomass', ['3x #minecraft:saplings', Fluid.of('createaddition:seed_oil', 1000)])
+  e.remove({ id: 'createaddition:mixing/biomass_from_honeycomb' })
+  e.recipes.createMixing('createaddition:biomass', ['#forge:honeycombs', Fluid.of('createaddition:seed_oil', 1000)])
+  e.remove({ id: 'createaddition:mixing/biomass_from_leaves' })
+  e.recipes.createMixing('createaddition:biomass', ['3x #minecraft:leaves', Fluid.of('createaddition:seed_oil', 1000)])
+  e.recipes.createMixing('createaddition:biomass', ['2x minecraft:rotten_flesh', Fluid.of('createaddition:seed_oil', 1000)])
+  //////////// Растительное масло из семян ////////////
+  e.remove({ id: 'createaddition:compacting/seed_oil' })
+  e.recipes.createCompacting(Fluid.of('createaddition:seed_oil', 20), '#forge:seeds')
   //////////// Медный водолазный шлем ////////////
   e.replaceInput({id: 'create:crafting/appliances/copper_diving_helmet'}, 'minecraft:copper_ingot', '#forge:plates/copper')
   e.replaceInput({id: 'create:crafting/appliances/copper_diving_helmet'}, '#forge:glass', 'connectedglass:clear_glass')
