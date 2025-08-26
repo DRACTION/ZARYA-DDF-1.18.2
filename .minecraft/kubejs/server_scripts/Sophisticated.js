@@ -1,4 +1,13 @@
 onEvent('recipes', e => {
+	/////////////// Улучшение "Бак" ///////////////
+	e.remove({ output:'sophisticatedbackpacks:tank_upgrade' })
+	e.shaped('sophisticatedbackpacks:tank_upgrade', [
+		'TTT',
+		'TXT',
+		'TTT'], {
+		T: 'create:fluid_tank',
+		X: 'sophisticatedbackpacks:upgrade_base'
+	})
 	/////////////// Улучшение "Аккумулятор" ///////////////
 	e.remove({ output:'sophisticatedbackpacks:battery_upgrade' })
 	e.shaped('sophisticatedbackpacks:battery_upgrade', [
