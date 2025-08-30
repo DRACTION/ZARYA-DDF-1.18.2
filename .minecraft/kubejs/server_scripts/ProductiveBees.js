@@ -1,3 +1,16 @@
+onEvent('entity.death', event => {
+	// event.server.tell(event.getLevel().getDimension())
+	// event.server.tell(event.getLevel().getDimension() == 'minecraft:the_end')
+	// event.server.tell(event.getEntity().getType())
+	// event.server.tell(event.getEntity().getType() == 'minecraft:ender_dragon')
+	if (event.getEntity().getType() == 'minecraft:ender_dragon'
+		&& event.getLevel().getDimension() == 'minecraft:the_end') {
+		// event.server.tell('Яйцо заспавнилось')
+		event.getLevel().getBlock(0, 78, 0).set('minecraft:bedrock')
+		event.getLevel().getBlock(0, 79, 0).set('productivebees:inactive_dragon_egg')
+	}
+})
+
 onEvent('recipes', e => {
 	///////////// Блок мёда /////////////
 	e.remove({ id: "productivebees:honey_bucket_to_honey_block" })
