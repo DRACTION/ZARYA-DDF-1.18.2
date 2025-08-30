@@ -49,6 +49,65 @@ onEvent('recipes', e => {
 			e.recipes.createFilling(trans, [trans, Fluid.of('create_enchantment_industry:hyper_experience', 125)])
 		]).transitionalItem(trans).loops(2)
 	})
+	///////////// Обычные чернила /////////////
+	let trans = 'minecraft:glass_bottle'
+	e.recipes.create.sequenced_assembly('irons_spellbooks:common_ink',
+		trans,
+	[
+		e.recipes.createDeploying(trans, [trans, 'minecraft:feather']),
+		e.recipes.createDeploying(trans, [trans, 'irons_spellbooks:arcane_essence']),
+		e.recipes.createDeploying(trans, [trans, 'irons_spellbooks:arcane_essence']),
+		e.recipes.createDeploying(trans, [trans, 'irons_spellbooks:arcane_essence']),
+		e.recipes.createFilling(trans, [trans, Fluid.of('create_enchantment_industry:ink', 250)])
+	]).transitionalItem(trans).loops(1)
+	///////////// Необычные чернила /////////////
+	trans = 'irons_spellbooks:common_ink'
+	e.recipes.create.sequenced_assembly('irons_spellbooks:uncommon_ink',
+		trans,
+	[
+		e.recipes.createDeploying(trans, [trans, 'apotheosis:gem_dust']),
+		e.recipes.createDeploying(trans, [trans, 'minecraft:glow_ink_sac']),
+		e.recipes.createDeploying(trans, [trans, 'irons_spellbooks:arcane_essence']),
+		e.recipes.createDeploying(trans, [trans, 'minecraft:glow_ink_sac']),
+		e.recipes.createDeploying(trans, [trans, 'irons_spellbooks:arcane_essence']),
+		e.recipes.createFilling(trans, [trans, Fluid.of('create_enchantment_industry:experience', 250)])
+	]).transitionalItem(trans).loops(1)
+	///////////// Редкие чернила /////////////
+	trans = 'irons_spellbooks:uncommon_ink'
+	e.recipes.create.sequenced_assembly('irons_spellbooks:rare_ink',
+		trans,
+	[
+		e.recipes.createDeploying(trans, [trans, 'warden_and_sculk:echo_shard']),
+		e.recipes.createDeploying(trans, [trans, 'minecraft:glowstone_dust']),
+		e.recipes.createDeploying(trans, [trans, 'apotheosis:rare_material']),
+		e.recipes.createDeploying(trans, [trans, 'apotheosis:gem_dust']),
+		e.recipes.createDeploying(trans, [trans, 'apotheosis:lucky_foot']),
+		e.recipes.createFilling(trans, [trans, Fluid.of('create_enchantment_industry:experience', 250)])
+	]).transitionalItem(trans).loops(2)
+	///////////// Эпичные чернила /////////////
+	trans = 'irons_spellbooks:rare_ink'
+	e.recipes.create.sequenced_assembly('irons_spellbooks:epic_ink',
+		trans,
+	[
+		e.recipes.createDeploying(trans, [trans, 'apotheosis:epic_material']),
+		e.recipes.createDeploying(trans, [trans, 'apotheosis:vial_of_expulsion']),
+		e.recipes.createDeploying(trans, [trans, 'nethersdelight:propelpearl']),
+		e.recipes.createDeploying(trans, [trans, 'apotheosis:epic_material']),
+		e.recipes.createDeploying(trans, [trans, 'irons_spellbooks:hogskin']),
+		e.recipes.createFilling(trans, [trans, Fluid.of('create_enchantment_industry:hyper_experience', 50)])
+	]).transitionalItem(trans).loops(2)
+	///////////// Легендарные чернила /////////////
+	trans = 'irons_spellbooks:epic_ink'
+	e.recipes.create.sequenced_assembly('irons_spellbooks:legendary_ink',
+		trans,
+	[
+		e.recipes.createDeploying(trans, [trans, '#zarya:only_finding_eyes']),
+		e.recipes.createDeploying(trans, [trans, 'irons_spellbooks:dragonskin']),
+		e.recipes.createDeploying(trans, [trans, 'irons_spellbooks:fire_upgrade_orb']),
+		e.recipes.createDeploying(trans, [trans, 'irons_spellbooks:lightning_upgrade_orb']),
+		e.recipes.createDeploying(trans, [trans, 'irons_spellbooks:cooldown_upgrade_orb']),
+		e.recipes.createFilling(trans, [trans, Fluid.of('create_enchantment_industry:hyper_experience', 125)])
+	]).transitionalItem(trans).loops(2)
 	///////////// Волшебный лом /////////////
 	e.remove({id:'irons_spellbooks:arcane_salvage'})
 	e.recipes.createCompacting('irons_spellbooks:arcane_salvage', 'irons_spellbooks:arcane_debris').superheated()
