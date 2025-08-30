@@ -7,8 +7,8 @@ onEvent('recipes', e => {
 		[
 			e.recipes.createDeploying(trans, [trans, 'minecraft:ender_pearl']),
 			e.recipes.createDeploying(trans, [trans, 'apotheosis:uncommon_material']),
-			e.recipes.createDeploying(trans, [trans, 'tombstone:scroll_of_knowledge']),
-			e.recipes.createFilling(trans, [trans, Fluid.of('create_enchantment_industry:experience', 9)])
+			e.recipes.createDeploying(trans, [trans, 'irons_spellbooks:uncommon_ink']),
+			e.recipes.createFilling(trans, [trans, Fluid.of('create_enchantment_industry:experience', 50)])
 		]).transitionalItem(trans).loops(1)
 })
 
@@ -16,6 +16,6 @@ onEvent("lootjs", (event) => {
 	event
 		.addLootTypeModifier(LootType.CHEST)
 		.anyStructure(villageStructures, false)
-		.randomChance(0.007)
+		.randomChance(0.005)
 		.addLoot('pettracker:tracker')
 })
