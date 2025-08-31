@@ -1,0 +1,252 @@
+{
+	id: "402E12F29A8ED860"
+	group: "305971A8199B4C78"
+	order_index: 5
+	filename: "create"
+	title: "Create"
+	icon: "create:wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Рудный цинк"
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "Начало начал"
+			size: 2.0d
+			min_required_tasks: 1
+			id: "26392A6DE8489D3A"
+			tasks: [
+				{
+					id: "491A2039AEBA230A"
+					type: "item"
+					item: "create:zinc_ore"
+				}
+				{
+					id: "1F661A1A9C1B5A54"
+					type: "item"
+					item: "create:raw_zinc"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Основа основ"
+			id: "434BC624F48B5B03"
+			tasks: [{
+				id: "08D752FCE1E73CA1"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			subtitle: "Младший брат горелки всполоха"
+			description: [
+				"Базовая горелка обеспечивает слабый нагрев."
+				""
+				"Если раздуть базовую горелку, то она начнёт потреблять много топлива и выдавать обычный нагрев."
+			]
+			id: "0D9CAD4C51DDAA89"
+			tasks: [{
+				id: "0D1BAF1B9BD3D209"
+				type: "item"
+				item: "createlowheated:basic_burner"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			subtitle: "Вот где всё варится, да плавится"
+			id: "3CC50B83141628D9"
+			tasks: [{
+				id: "483B67ED3DD55625"
+				type: "item"
+				item: "create:basin"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			subtitle: "Блоки в слитки и т.д."
+			id: "231328F42C497E5B"
+			tasks: [{
+				id: "7AA7DF37E2C3FA6D"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			subtitle: "Слитки в блоки и т.д."
+			id: "7F0E358CF1D07F9F"
+			tasks: [{
+				id: "1234F3EFA74A9AC9"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			subtitle: "База баз"
+			description: ["Почти всех блочные штуковины состоят из корпуса"]
+			id: "7909816E681434E5"
+			tasks: [{
+				id: "7C2DECF294F20C7D"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			subtitle: "Для штуковин, работающих с жидкостью"
+			id: "3CB0F778457334E9"
+			tasks: [{
+				id: "27635C6ADCC8AC90"
+				type: "item"
+				item: "create:copper_casing"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			subtitle: "Ручной труд"
+			description: ["Осторожно, после смены на заводе хочется кушать."]
+			id: "5BF95F9EB242A8D4"
+			tasks: [{
+				id: "2F7C9DC0917132BA"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			subtitle: "Если рядом есть река"
+			min_required_tasks: 1
+			id: "78FCD35B5E4913EA"
+			tasks: [
+				{
+					id: "476D1F3ADE9C1C39"
+					type: "item"
+					item: "create:water_wheel"
+				}
+				{
+					id: "2B33A900F154B023"
+					type: "item"
+					item: "create:large_water_wheel"
+				}
+			]
+		}
+		{
+			title: "Ветряная мельница"
+			x: -1.5d
+			y: 5.5d
+			subtitle: "Если нет реки, но есть много свежего воздуха"
+			id: "7ED0D383A3B0A59B"
+			tasks: [
+				{
+					id: "4B4CD9A6075B63B9"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "339A5B9AEA3CD8A6"
+					type: "item"
+					item: "create:white_sail"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 6.5d
+			subtitle: "Если нет ничего, кроме топлива"
+			description: [
+				"4 бака + 1 помпа для закачки воды + 1 паровой двигатель + 1 базовая горелка = 2048 мощщщи при 16 оборотах"
+				""
+				"В полную силу разогреть может только горелка всполоха или раздутая базовая горелка"
+			]
+			id: "60710BE2D6967E26"
+			tasks: [
+				{
+					id: "7742D73DF88261D4"
+					type: "item"
+					item: "create:steam_engine"
+				}
+				{
+					id: "48B1764DB717C8D3"
+					type: "item"
+					item: "create:fluid_tank"
+				}
+				{
+					id: "47775B3A7AD49649"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			subtitle: "Позволяет раздуть горелку"
+			description: ["Но чтобы раздуть, потребуется разогнать вентилятор на максимальные обороты - 256"]
+			id: "71FEB136350A2DA8"
+			tasks: [{
+				id: "6C7F0FA76EC5E31E"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			subtitle: "Демон огня греет ваше сердечко"
+			description: [
+				"За скормленное топливо обеспечивает нормальный нагрев."
+				""
+				"Если скормить торт всполоха, то начнёт выдавать Супернагрев."
+			]
+			dependencies: ["0C238B3CDAD3AD99"]
+			id: "39A5B0454B0BEF45"
+			tasks: [{
+				id: "6EAB4642BD2F43BF"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.5d
+			subtitle: "Не забудь сделать перед походом в ад"
+			description: [
+				"I have a Пустая горелка."
+				"I have an Всполох."
+				"Ahhhh...."
+			]
+			id: "0C238B3CDAD3AD99"
+			tasks: [{
+				id: "7BA47AD3B68BE186"
+				type: "item"
+				item: "create:empty_blaze_burner"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Для продвинутых штук"
+			id: "50273BA3C8FB0559"
+			tasks: [{
+				id: "0D6B11A46667641A"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
