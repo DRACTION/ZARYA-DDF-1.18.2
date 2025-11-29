@@ -67,11 +67,11 @@
 	#Comfort variation for each day a villager spends without spending their average time outside
 	comfortPerDayWithoutOutside = -5
 	#Comfort variation for each day a villager spends without getting scared by a zombie
-	comfortPerDayWithoutZombie = 5
+	comfortPerDayWithoutZombie = 10
 	#Number of days after which a villager's comfort won't vary while not getting scared by zombies
 	maxDaysWithoutZombie = 0
 	#Comfort variation for each day a villager spends without sleeping
 	comfortPerDayWithoutSleep = -5
 	#Z@RYA = Сколько дней должно пройти после встречи с зомби, чтобы житель успокоился (не отнимался комфорт). После этого количества дней идёт отсчет для maxDaysWithoutZombie.
-	minDaysWithoutZombie = 7
+	minDaysWithoutZombie = 3
 
