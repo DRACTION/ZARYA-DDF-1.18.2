@@ -1,0 +1,261 @@
+{
+	id: "03633F1F24DC5D98"
+	group: "305971A8199B4C78"
+	order_index: 6
+	filename: "plushies"
+	title: "Plushies"
+	subtitle: [
+		"Плюшевые игрушки для декорации"
+		""
+		"@plushies"
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -2.0d
+			shape: "rsquare"
+			size: 2.0d
+			id: "2BE03681DE11AA2E"
+			tasks: [{
+				id: "6261D24EC6442C3F"
+				type: "item"
+				item: "plushies:panda"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "pentagon"
+			size: 2.0d
+			id: "1EB0E1F5F03D3055"
+			tasks: [{
+				id: "75BCEB04BBD9DFB4"
+				type: "item"
+				item: "plushies:axolotl"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "heart"
+			size: 2.5d
+			id: "4BA531A9A53F97F4"
+			tasks: [{
+				id: "6B4BD1212E41F85E"
+				type: "item"
+				item: "plushies:bee"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			shape: "rsquare"
+			size: 2.0d
+			id: "7CE35B48D97F93AD"
+			tasks: [{
+				id: "316C47A060134FFA"
+				type: "item"
+				item: "plushies:cat"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			size: 2.0d
+			id: "68CDFF60F7C7F37B"
+			tasks: [{
+				id: "49E17567A0BD5A22"
+				type: "item"
+				item: "plushies:cow"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			shape: "rsquare"
+			size: 2.0d
+			id: "31112B3746609EB6"
+			tasks: [{
+				id: "4671B0F12767240A"
+				type: "item"
+				item: "plushies:dolphin"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			shape: "octagon"
+			size: 2.0d
+			id: "5CF4DE4532E08FC3"
+			tasks: [{
+				id: "4D4AEDE3C7B6A8F3"
+				type: "item"
+				item: "plushies:dragon"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			size: 2.0d
+			id: "1D839D39954D6E33"
+			tasks: [{
+				id: "2AC211CAF4C69DF1"
+				type: "item"
+				item: "plushies:enderman"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			shape: "pentagon"
+			size: 2.0d
+			id: "628FB1E52330E825"
+			tasks: [{
+				id: "5CD44D306EA10320"
+				type: "item"
+				item: "plushies:frog"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			shape: "octagon"
+			size: 2.0d
+			id: "6CFEA19FC026C122"
+			tasks: [{
+				id: "4CFA229AD9D759BF"
+				type: "item"
+				item: "plushies:goat"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			shape: "octagon"
+			size: 2.0d
+			id: "162C4854C84326CD"
+			tasks: [{
+				id: "22834121ABA720B2"
+				type: "item"
+				item: "plushies:llama"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			size: 2.0d
+			id: "0F46C693D924BB37"
+			tasks: [{
+				id: "266FF14A9DB1A79C"
+				type: "item"
+				item: "plushies:slime"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			size: 2.0d
+			id: "7D59B9272547320B"
+			tasks: [{
+				id: "1EBE83A1C0D119BD"
+				type: "item"
+				item: "plushies:magma_cube"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			size: 2.0d
+			id: "4C13CFECC010409C"
+			tasks: [{
+				id: "7DCA50160C401145"
+				type: "item"
+				item: "plushies:mooshroom"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			size: 2.0d
+			id: "7A472A3372C7D421"
+			tasks: [{
+				id: "59CC8F018C20EE37"
+				type: "item"
+				item: "plushies:parrot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			shape: "pentagon"
+			size: 2.0d
+			id: "24798CB41F948456"
+			tasks: [{
+				id: "7BCAD74A3037CFBE"
+				type: "item"
+				item: "plushies:red_fox"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			shape: "pentagon"
+			size: 2.0d
+			id: "069DDB7510111875"
+			tasks: [{
+				id: "22AD9A2A11A4F63F"
+				type: "item"
+				item: "plushies:white_fox"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			size: 2.0d
+			id: "082EC45016A6B174"
+			tasks: [{
+				id: "620CBB83F3F45F40"
+				type: "item"
+				item: "plushies:warden"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			shape: "rsquare"
+			size: 2.0d
+			id: "36BAD124BFC89F5A"
+			tasks: [{
+				id: "4923F36B77EE7CDB"
+				type: "item"
+				item: "plushies:sheep"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			shape: "octagon"
+			size: 2.0d
+			id: "178D3D6606AA56D9"
+			tasks: [{
+				id: "5AF53070D26D304B"
+				type: "item"
+				item: "plushies:turtle"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			size: 2.0d
+			id: "57E6BBDFB54F2D21"
+			tasks: [{
+				id: "138F47A77010712E"
+				type: "item"
+				item: "plushies:snow_golem"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

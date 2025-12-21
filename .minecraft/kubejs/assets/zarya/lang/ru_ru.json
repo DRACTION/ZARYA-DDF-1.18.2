@@ -177,6 +177,30 @@
     "structure.warden_and_sculk.ancient_city": "Древний город",
     "structure.witherstormmod.storm_spawn_platform": "Платформа призыва Визер-Шторма",
 
+  // Plushies
+
+    "block.plushies.panda": "Плюшевая пандочка",
+    "block.plushies.slime": "Плюшевый слизень",
+    "block.plushies.red_fox": "Плюшевая лисица",
+    "block.plushies.white_fox": "Плюшевая белая лиса",
+    "block.plushies.dragon": "Плюшевый дракоша",
+    "block.plushies.cow": "Плюшевая коровка",
+    "block.plushies.mooshroom": "Плюшевый муухомор",
+    "block.plushies.bee": "Плюшевая пчелка",
+    "block.plushies.llama": "Плюшевая лама",
+    "block.plushies.magma_cube": "Плюшевый магмовый куб",
+    "block.plushies.axolotl": "Плюшевый аксолотль",
+    "block.plushies.turtle": "Плюшевая черепашка",
+    "block.plushies.snow_golem": "Плюшевый снежный голем",
+    "block.plushies.dolphin": "Плюшевый дельфинчик",
+    "block.plushies.parrot": "Плюшевый попуг",
+    "block.plushies.warden": "Плюшевая голодная бабка",
+    "block.plushies.frog": "Плюшевая лягушка",
+    "block.plushies.goat": "Плюшевый козел",
+    "block.plushies.cat": "Плюшевый котик",
+    "block.plushies.enderman": "Плюшевый эндермен",
+    "block.plushies.sheep": "Плюшевая овечка",
+
   // Iron’s Spells ‘n Spellbooks
 
     "item.irons_spellbooks.concentration_amulet": "Амулет Концентрации",
