@@ -5,7 +5,11 @@
 	filename: "45B449F661299361"
 	title: "Sophisticated Backpacks"
 	icon: "sophisticatedbackpacks:backpack"
-	subtitle: ["@sophisticatedbackpacks"]
+	subtitle: [
+		"Я всегда с собой беру"
+		""
+		"@sophisticatedbackpacks"
+	]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{

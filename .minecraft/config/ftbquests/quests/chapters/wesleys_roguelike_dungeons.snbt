@@ -5,7 +5,11 @@
 	filename: "wesleys_roguelike_dungeons"
 	title: "Wesley's Roguelike Dungeons"
 	icon: "wrd:golden_skull"
-	subtitle: ["@wrd"]
+	subtitle: [
+		"Особенные данжи"
+		""
+		"@wrd"
+	]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
