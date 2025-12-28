@@ -43,7 +43,7 @@
 	#Maximum variation in comfort if the workplace is bigger than average
 	maxWorkplaceSizeComfort = 0
 	#Number of workstations in the same room above which a variation in comfort will occur
-	workstationsThreshold = 3
+	workstationsThreshold = 2
 	#Variation in comfort relative to each extra workstation in the room
 	comfortPerWorkstation = -5
 	#Max light level (even on a single block) the average workplace should have
@@ -71,7 +71,7 @@
 	#Number of days after which a villager's comfort won't vary while not getting scared by zombies
 	maxDaysWithoutZombie = 0
 	#Comfort variation for each day a villager spends without sleeping
-	comfortPerDayWithoutSleep = -5
+	comfortPerDayWithoutSleep = -20
 	#Z@RYA = Сколько дней должно пройти после встречи с зомби, чтобы житель успокоился (не отнимался комфорт). После этого количества дней идёт отсчет для maxDaysWithoutZombie.
 	minDaysWithoutZombie = 3
 
