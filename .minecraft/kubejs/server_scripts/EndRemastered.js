@@ -20,12 +20,12 @@ onEvent('item.tags', e => {
 })
 
 onEvent('lootjs', event => {
-  event
-    .addLootTypeModifier([LootType.UNKNOWN,
-		LootType.BLOCK,
-		LootType.ENTITY,
-		LootType.CHEST,
-		LootType.FISHING,
-		LootType.GIFT])
-    .removeLoot('endrem:undead_soul')
+	event
+		.addLootTypeModifier([LootType.UNKNOWN,
+			LootType.BLOCK,
+			LootType.ENTITY,
+			LootType.CHEST,
+			LootType.FISHING,
+			LootType.GIFT])
+		.removeLoot('endrem:undead_soul')
 })

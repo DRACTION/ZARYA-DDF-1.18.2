@@ -6,6 +6,8 @@ let za_removedItems = [
 	'betterpunching:flint_spade',
 	'betterpunching:flint_pick',
 	'betterpunching:flint_hatchet',
+	// Bosses of mass destruction
+	'bosses_of_mass_destruction:blazing_eye',
 	// Create
 	'create:dough',
 	// Create Deco
