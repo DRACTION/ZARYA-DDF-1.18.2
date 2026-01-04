@@ -2,32 +2,30 @@
 // Реализация мода Storage Bookshelves в виде скрипта. //
 // https://modrinth.com/mod/storage-bookshelves        //
 /////////////////////////////////////////////////////////
+const BlockHitResult = java("net.minecraft.world.phys.BlockHitResult");
+
 onEvent('block.right_click', e => {
 
 	if (e.player.isFake() || e.player.minecraftEntity.shiftKeyDown
 		|| e.hand != MAIN_HAND || !e.block.hasTag('chipped:bookshelf')) {return}
 
-	let blockPos = e.getBlock().getPos()
-	let posiblePositions = [
+	let getCustomName = (blockEntity) => {
+		return (blockEntity.getCustomName() == null) ? "" : blockEntity.getCustomName().getString()
+	}
+	// console.log(e.block.getItem().getName().getString())
+
+	let blockPos = e.getBlock().getPos();
+	[
 		blockPos.offset( 1, 0, 0),
 		blockPos.offset(-1, 0, 0),
 		blockPos.offset( 0, 1, 0),
 		blockPos.offset( 0,-1, 0),
 		blockPos.offset( 0, 0, 1),
 		blockPos.offset( 0, 0,-1)
-	];
-	// console.log(e.block.getItem().getName().getString())
-
-	let getCustomName = (blockEntity) => {
-		return (blockEntity.getCustomName() == null) ? "" : blockEntity.getCustomName().getString()
-	}
-
-	posiblePositions.forEach(pos => {
+	].some(pos => {
 		let nearbyBlock = e.getLevel().getBlock(pos)
 		if ((nearbyBlock.hasTag('chipped:barrel') || nearbyBlock.id == 'framedblocks:framed_secret_storage')
 			&& getCustomName(nearbyBlock.getEntity()) == e.block.getItem().getName().getString()) { // "Книжная полка"
-
-			let BlockHitResult = java("net.minecraft.world.phys.BlockHitResult");
 
 			///////// Если вдруг нужно будет использовать предмет на блоке /////////
 			// const UseOnContext = java("net.minecraft.world.item.context.UseOnContext");
@@ -49,7 +47,7 @@ onEvent('block.right_click', e => {
 
 			e.player.swingArm(e.hand);
 			e.cancel();
-			return
+			return true;
 		}
 	})
 
