@@ -31,3 +31,9 @@ onEvent('entity.hurt', e => {
 		e.cancel()
 	}
 })
+
+onEvent('block.tags', e => {
+	e.removeAll('witherstormmod:wither_storm_summon_base_blocks')
+	///////////// Драконья книжная полка Эндера /////////////
+	e.add('witherstormmod:wither_storm_summon_base_blocks', 'apotheosis:draconic_endshelf')
+})
