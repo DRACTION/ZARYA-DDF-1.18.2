@@ -3,8 +3,11 @@ onEvent('player.logged_in', e => {
         e.player.stages.add('nerf_enemies')
         e.getServer().runCommandSilent(`heal ${e.getPlayer().toString()}`)
     }
-    if (!e.getLevel().getGameRules().getBoolean('disablePortal') && !e.player.stages.has('unlock_portal')) {
-        e.player.stages.add('unlock_portal')
+    if (!e.getLevel().getGameRules().getBoolean('disablePortalNether') && !e.player.stages.has('unlock_portal_nether')) {
+        e.player.stages.add('unlock_portal_nether')
+    }
+    if (!e.getLevel().getGameRules().getBoolean('disablePortalEnd') && !e.player.stages.has('unlock_portal_end')) {
+        e.player.stages.add('unlock_portal_end')
     }
 })
 
