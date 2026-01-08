@@ -6,6 +6,9 @@
     Имя файла: Create Immersive Aircrafts Resource Pack 1.18.2 - 2.0.zip
     MD5: 1DFDF973B54DCA13290E1AC8983BEA2B
 ---
+    Имя файла: Create+Simple+Storage+2.1.zip
+    MD5: 99C91274184BF47A691C8FAA02102D56
+---
     Имя файла: EclecticTrove-noconfig-1.18-1.2.0.zip
     MD5: 5198CC4B8213258BE69E8DCCBDE24D79
 ---
