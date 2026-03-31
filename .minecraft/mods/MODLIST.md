@@ -627,6 +627,9 @@
     Имя файла: musictriggers-1.18.2-6.3.1.jar
     MD5: 358BE1BAE86970335CE6826DE388A656
 ---
+    Имя файла: MutantMonsters-v3.0.1-1.18.2-Forge.jar
+    MD5: A87E0BBCAEC195B3CE6E74F4B75687D2
+---
     Имя файла: mvs-3.0.8-1.18.2.jar
     MD5: C47EDA8E5F03E67AF90E3E6A4F550EB2
 ---

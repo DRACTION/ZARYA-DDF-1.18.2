@@ -56,6 +56,21 @@ let za_removedItems = [
 	'littlelogistics:automatic_switch_rail',
 	'littlelogistics:automatic_tee_junction_rail',
 	'littlelogistics:car_dock_rail',
+	// Mutant monsters
+	'mutantmonsters:mutant_skeleton_skull',
+	'mutantmonsters:hulk_hammer',
+	'mutantmonsters:endersoul_hand',
+	'mutantmonsters:mutant_skeleton_boots',
+	'mutantmonsters:mutant_skeleton_leggings',
+	'mutantmonsters:mutant_skeleton_chestplate',
+	'mutantmonsters:mutant_skeleton_shoulder_pad',
+	'mutantmonsters:mutant_skeleton_rib_cage',
+	'mutantmonsters:mutant_skeleton_rib',
+	'mutantmonsters:mutant_skeleton_limb',
+	'mutantmonsters:mutant_skeleton_pelvis',
+	'mutantmonsters:mutant_skeleton_arms',
+	'mutantmonsters:creeper_shard',
+	'mutantmonsters:creeper_minion_tracker',
 	// Tom's Simple Storage Mod
 	'toms_storage:ts.inventory_cable',
 	'toms_storage:ts.crafting_terminal',
@@ -127,4 +142,9 @@ onEvent('jei.hide.items', event => {
 	event.hide(Item.of('minecraft:enchanted_book').enchant('grapplemod:wallrunenchantment', 1))
 	event.hide(Item.of('minecraft:enchanted_book').enchant('grapplemod:slidingenchantment', 1))
 	event.hide(Item.of('minecraft:enchanted_book').enchant('aggrofix:aggrobaiting', 1))
+	// Mutant monsters
+	event.hide(Item.of('minecraft:potion', '{Potion:"mutantmonsters:chemical_x"}'))
+	event.hide(Item.of('minecraft:splash_potion', '{Potion:"mutantmonsters:chemical_x"}'))
+	event.hide(Item.of('minecraft:lingering_potion', '{Potion:"mutantmonsters:chemical_x"}'))
+	event.hide(Item.of('minecraft:tipped_arrow', '{Potion:"mutantmonsters:chemical_x"}'))
 })
