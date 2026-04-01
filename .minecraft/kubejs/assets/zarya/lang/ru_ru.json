@@ -11,6 +11,16 @@
     "item.kubejs.iron_saw": "Железная пила",
     "item.kubejs.firestarter": "Примитивное огниво",
 
+    "block.kubejs.dante_stage_1": "Первый круг Ада - Лимб",
+    "block.kubejs.dante_stage_2": "Второй круг Ада - Похоть",
+    "block.kubejs.dante_stage_3": "Третий круг Ада - Чревоугодие",
+    "block.kubejs.dante_stage_4": "Четвертый круг Ада - Жадность",
+    "block.kubejs.dante_stage_5": "Пятый круг Ада - Гнев",
+    "block.kubejs.dante_stage_6": "Шестой круг Ада - Ересь",
+    "block.kubejs.dante_stage_7": "Седьмой круг Ада - Насилие",
+    "block.kubejs.dante_stage_8": "Восьмой круг Ада - Обман",
+    "block.kubejs.dante_stage_9": "Девятый круг Ада - Предательство",
+
     "block.kubejs.sugar_cane_block": "Связка сахарного тростника",
 
     "item.kubejs.trained_doggy_revive_stone": "Камень фамильяра (для тренированной собаки)",

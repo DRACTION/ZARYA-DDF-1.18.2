@@ -55,10 +55,9 @@
 .minecraft/libvlc.dll
 .minecraft/libvlccore.dll
 
-.minecraft/quests_structures/
 .minecraft/saves/
 .minecraft/simplebackups/
-.minecraft/schematics/
+.minecraft/schematics/uploaded/
 .minecraft/screenshots/
 .minecraft/server-resource-packs/
 .minecraft/shaderpacks/
