@@ -29,6 +29,7 @@
    - в общем next => I accept => next => next => next => Install => Finish
 
 ### 2. Установка [UltimMC](https://github.com/UltimMC/Launcher?tab=readme-ov-file#downloading)
+> Дисклеймер: Если вы шарите немножко за лаунчеры и ставили себе ранее модпаки, то рекомендую скачивать [ElyPrismLauncher](https://github.com/ElyPrismLauncher/Launcher/releases/download/10.0.5/ElyPrismLauncher-Windows-MSVC-Setup-10.0.5.exe) вместо UltimMC. Позднее я перепишу инструкцию специально для ElyPrismLauncher.
 1. Скачали [архив](https://nightly.link/UltimMC/Launcher/workflows/main/develop/mmc-cracked-win32.zip)
 2. Распаковали в любое удобное место
 3. Заходим в папку `UltimMC` и запускаем `UltimMC.exe`
