@@ -1,7 +1,7 @@
-// todo = звуки, при спавне стражей удалять пользовательские блоки на арене.
+// todo = особенности у монстров
 
 let za_ArenaDante = {
-	dimension: 'minecraft:the_nether',
+	dimension: 'minecraft:overworld', //todo 'minecraft:the_nether'
 	wrongDimensionMsg: '§7Ритуал можно начать только в §6Аду...',
 	prefix: '§4§l[Круги Ада]§r',
 	layers: [
@@ -212,7 +212,7 @@ let za_ArenaDante = {
 	},
 	guardianEntitys: { //todo = особенности каждого стража
 		1: {
-			wakeupMsg: 'Страж Харон пробудился...',
+			wakeupMsg: '§2Страж §9Харон §2пробудился...',
 			arr: [
 				{
 					name: 'Харон',
@@ -222,17 +222,8 @@ let za_ArenaDante = {
 						nbt.HandItems[0] = Item.of('epicfight:netherite_tachi');
 						// console.log(nbt.Health)
 						nbt.Health = nbt.Health * 10;
-						let maxHealth = {
-							Base: nbt.Health,
-							Name: 'generic.max_health'
-						};
-						if (nbt.contains('Attributes')) {
-							nbt.Attributes.add(nbt.Attributes.size(), maxHealth);
-						} else {
-							nbt.Attributes = [maxHealth]
-						}
+						za_ArenaDante.func_setMobAttribute(nbt, 'generic.max_health', nbt.Health)
 						// console.log(nbt.Health)
-						entity.setFullNBT(nbt);
 					})
 				}
 			]
@@ -427,12 +418,14 @@ let za_ArenaDante = {
 		if (stageNumber == 8) {
 			za_ArenaDante.func_removeArena(event, true);
 			event.server.persistentData.za_DanteArena.firstSpawnersPos.forEach(firstSpawnerPos => {
-				//////////////////// ВЗРЫВЫ!!! ////////////////////
+				//////////////////// !!!ВЗРЫВЫ!!! ////////////////////
 				stageLevel.createExplosion(firstSpawnerPos.x, firstSpawnerPos.y, firstSpawnerPos.z)
 					.strength(5)
 					.damagesTerrain(false)
 					.explode();
 			})
+		} else if (stageNumber == 9) {
+			// Ничего
 		} else {
 			event.server.persistentData.za_DanteArena.firstSpawnersPos.forEach(firstSpawnerPos => {
 				let spawnerContainer = stageLevel.getBlock(
@@ -601,6 +594,24 @@ let za_ArenaDante = {
 		if (Math.round(Math.random()) == 1) {[rX, rZ] = [rZ, rX]};
 		// console.log(`X = ${rX} Z = ${rZ}`)
 		return {x: rX, z: rZ}
+	}),
+
+	func_spawnParticles: ((event, particle, pos) => {
+		event.server.runCommandSilent(`particle ${particle} ${pos.getX()  }.0 ${pos.getY()+1}.0 ${pos.getZ()  }.0`)
+		event.server.runCommandSilent(`particle ${particle} ${pos.getX()+1}.0 ${pos.getY()+1}.0 ${pos.getZ()  }.0`)
+		event.server.runCommandSilent(`particle ${particle} ${pos.getX()  }.0 ${pos.getY()  }.0 ${pos.getZ()  }.0`)
+		event.server.runCommandSilent(`particle ${particle} ${pos.getX()+1}.0 ${pos.getY()  }.0 ${pos.getZ()  }.0`)
+		event.server.runCommandSilent(`particle ${particle} ${pos.getX()  }.0 ${pos.getY()+1}.0 ${pos.getZ()+1}.0`)
+		event.server.runCommandSilent(`particle ${particle} ${pos.getX()+1}.0 ${pos.getY()+1}.0 ${pos.getZ()+1}.0`)
+		event.server.runCommandSilent(`particle ${particle} ${pos.getX()  }.0 ${pos.getY()  }.0 ${pos.getZ()+1}.0`)
+		event.server.runCommandSilent(`particle ${particle} ${pos.getX()+1}.0 ${pos.getY()  }.0 ${pos.getZ()+1}.0`)
+
+		event.server.runCommandSilent(`particle ${particle} ${pos.getX()+1}.5 ${pos.getY()+1}.0 ${pos.getZ()  }.5 0.22 0 0.22 0.003 30`)
+		event.server.runCommandSilent(`particle ${particle} ${pos.getX()+1}.5 ${pos.getY()  }.0 ${pos.getZ()  }.5 0.22 0 0.22 0.003 30`)
+		event.server.runCommandSilent(`particle ${particle} ${pos.getX()+1}.0 ${pos.getY()+1}.5 ${pos.getZ()  }.5 0 0.22 0.22 0.003 30`)
+		event.server.runCommandSilent(`particle ${particle} ${pos.getX()  }.0 ${pos.getY()+1}.5 ${pos.getZ()  }.5 0 0.22 0.22 0.003 30`)
+		event.server.runCommandSilent(`particle ${particle} ${pos.getX()+1}.5 ${pos.getY()+1}.5 ${pos.getZ()  }.0 0.22 0.22 0 0.003 30`)
+		event.server.runCommandSilent(`particle ${particle} ${pos.getX()+1}.5 ${pos.getY()+1}.5 ${pos.getZ()+1}.0 0.22 0.22 0 0.003 30`)
 	})
 };
 
@@ -780,22 +791,7 @@ onEvent('block.right_click', event => {
 	lastChecked.msg.forEach(msg => {
 		event.getEntity().tell(Text.of([`${za_ArenaDante.prefix} `, msg]))
 	})
-	let particle = 'wrd:algae_particle';
-	event.server.runCommandSilent(`particle ${particle} ${lastChecked.pos.getX()  }.0 ${lastChecked.pos.getY()+1}.0 ${lastChecked.pos.getZ()  }.0`)
-	event.server.runCommandSilent(`particle ${particle} ${lastChecked.pos.getX()+1}.0 ${lastChecked.pos.getY()+1}.0 ${lastChecked.pos.getZ()  }.0`)
-	event.server.runCommandSilent(`particle ${particle} ${lastChecked.pos.getX()  }.0 ${lastChecked.pos.getY()  }.0 ${lastChecked.pos.getZ()  }.0`)
-	event.server.runCommandSilent(`particle ${particle} ${lastChecked.pos.getX()+1}.0 ${lastChecked.pos.getY()  }.0 ${lastChecked.pos.getZ()  }.0`)
-	event.server.runCommandSilent(`particle ${particle} ${lastChecked.pos.getX()  }.0 ${lastChecked.pos.getY()+1}.0 ${lastChecked.pos.getZ()+1}.0`)
-	event.server.runCommandSilent(`particle ${particle} ${lastChecked.pos.getX()+1}.0 ${lastChecked.pos.getY()+1}.0 ${lastChecked.pos.getZ()+1}.0`)
-	event.server.runCommandSilent(`particle ${particle} ${lastChecked.pos.getX()  }.0 ${lastChecked.pos.getY()  }.0 ${lastChecked.pos.getZ()+1}.0`)
-	event.server.runCommandSilent(`particle ${particle} ${lastChecked.pos.getX()+1}.0 ${lastChecked.pos.getY()  }.0 ${lastChecked.pos.getZ()+1}.0`)
-
-	event.server.runCommandSilent(`particle ${particle} ${lastChecked.pos.getX()+1}.5 ${lastChecked.pos.getY()+1}.0 ${lastChecked.pos.getZ()  }.5 0.22 0 0.22 0.003 30`)
-	event.server.runCommandSilent(`particle ${particle} ${lastChecked.pos.getX()+1}.5 ${lastChecked.pos.getY()  }.0 ${lastChecked.pos.getZ()  }.5 0.22 0 0.22 0.003 30`)
-	event.server.runCommandSilent(`particle ${particle} ${lastChecked.pos.getX()+1}.0 ${lastChecked.pos.getY()+1}.5 ${lastChecked.pos.getZ()  }.5 0 0.22 0.22 0.003 30`)
-	event.server.runCommandSilent(`particle ${particle} ${lastChecked.pos.getX()  }.0 ${lastChecked.pos.getY()+1}.5 ${lastChecked.pos.getZ()  }.5 0 0.22 0.22 0.003 30`)
-	event.server.runCommandSilent(`particle ${particle} ${lastChecked.pos.getX()+1}.5 ${lastChecked.pos.getY()+1}.5 ${lastChecked.pos.getZ()  }.0 0.22 0.22 0 0.003 30`)
-	event.server.runCommandSilent(`particle ${particle} ${lastChecked.pos.getX()+1}.5 ${lastChecked.pos.getY()+1}.5 ${lastChecked.pos.getZ()+1}.0 0.22 0.22 0 0.003 30`)
+	za_ArenaDante.func_spawnParticles(event, 'wrd:algae_particle', lastChecked.pos);
 })
 
 onEvent('block.right_click', event => {
@@ -812,7 +808,9 @@ onEvent('block.right_click', event => {
 	//////////////// Подсветить стражей ////////////////
 	if (event.getBlock().getId().contains("kubejs:dante_stage_")
 		&& event.getItem().getId() != 'minecraft:totem_of_undying') {
-		//todo = добавить эффектики
+		
+		za_ArenaDante.func_spawnParticles(event, 'wrd:pink_magic_particle', event.getBlock().getPos());
+		event.server.runCommandSilent(`playsound warden_and_sculk:sonic_boom player @a ${event.getBlock().getX()} ${event.getBlock().getY()} ${event.getBlock().getZ()}`)
 
 		// Мобы могут быть в выгруженных чанках
 		event.server.persistentData.za_DanteArena.guardians.forEach( guardian => {
@@ -906,20 +904,33 @@ onEvent('entity.hurt', event => {
 
 		event.getEntity().remove();
 		return;
-	}
+	};
+
+	////////// Монстр не должен агрится на монстров //////////
+	if (event.getEntity() != null
+		&& (event.getEntity().getPersistentData().contains('za_DanteSpawnerPos')
+			|| event.getEntity().getPersistentData().contains('za_DanteGuardian'))
+		&& event.getSource().getActual() != null
+		&& (event.getSource().getActual().getPersistentData().contains('za_DanteSpawnerPos')
+			|| event.getSource().getActual().getPersistentData().contains('za_DanteGuardian'))) {
+
+		event.cancel();
+		event.getSource().getActual().setRevengeTarget(null);
+		return;
+	};
 
 	////////// Только проклятый может бить монстров //////////
 	if (event.getEntity() != null
 		&& (event.getEntity().getPersistentData().contains('za_DanteSpawnerPos')
 			|| event.getEntity().getPersistentData().contains('za_DanteGuardian'))
 		&& (event.getSource().getActual() == null
-			|| (event.getSource().getActual().getPersistentData().za_DantesCurse != true
+			|| (!event.getSource().getActual().getPersistentData().getBoolean('za_DantesCurse')
 			&& event.getSource().getActual().getType() != 'irons_spellbooks:citadel_keeper')
 			&& !event.getSource().getActual().getPersistentData().contains('za_DanteSpawnerPos'))) {
 
 		event.cancel()
 
-	}
+	};
 	////////// Уменьшать боссбар при получении урона стражем //////////
 	if (!event.isCancelled()
 		&& event.getEntity() != null
@@ -937,9 +948,9 @@ onEvent('entity.hurt', event => {
 
 onEvent('player.logged_in', event => {
 	////////// Снять проклятье, если разблокирован Край //////////
-	if (event.player.getPersistentData().za_DantesCurse == true
+	if (event.getPlayer().getPersistentData().getBoolean('za_DantesCurse')
 		&& !event.getLevel().getGameRules().getBoolean('disablePortalEnd')) {
-		event.player.getPersistentData().putBoolean('za_DantesCurse', true);
+		event.player.getPersistentData().putBoolean('za_DantesCurse', false);
 	}
 })
 
@@ -950,23 +961,24 @@ onEvent('player.tick', event => {
 	////////// Проклятым нельзя ломать и ставить блоки вблизи арены //////////
 	if (event.getPlayer().getTicksExisted() % 40 == 0 // раз в 2 секунды
 		&& event.server.persistentData.contains('za_DanteArena')
-		&& event.getPlayer().getPersistentData().za_DantesCurse == true) {
+		&& event.getPlayer().getPersistentData().getBoolean('za_DantesCurse')) {
 
 		if (!event.getPlayer().isCreativeMode()
 			&& !event.getPlayer().isSpectator()) {
 
 			let firstStagePos = event.server.persistentData.za_DanteArena.firstStagePos;
-			if (event.getPlayer().getLevel() == event.server.getLevel(event.server.persistentData.za_DanteArena.dimension)
+			let stageLevel = event.server.getLevel(event.server.persistentData.za_DanteArena.dimension);
+			if (event.getPlayer().getLevel() == stageLevel
 				&& event.getPlayer().getDistance(firstStagePos.x, firstStagePos.y, firstStagePos.z) <= arenaDistance) {
 
 				if (event.getPlayer().minecraftPlayer.mayBuild()) {
 					event.getPlayer().setGameMode('adventure');
 				}
 
-				if (!event.getPlayer().getPersistentData().getBoolean('za_WasInDanteArena')) {
-					event.getPlayer().getPersistentData().putBoolean('za_WasInDanteArena', true)
+				if (!event.getPlayer().getPersistentData().getBoolean('za_ParticipantDanteArena')) {
+					event.getPlayer().getPersistentData().putBoolean('za_ParticipantDanteArena', true)
 				}
-				event.getPlayer().getPersistentData().putInt('za_outTimeDanteArena', 0)
+				event.getPlayer().getPersistentData().putInt('za_TimeOutDanteArena', 0)
 
 			} else {
 
@@ -974,43 +986,73 @@ onEvent('player.tick', event => {
 					event.getPlayer().setGameMode('survival');
 				};
 
-				if (event.getPlayer().getPersistentData().getBoolean('za_WasInDanteArena')
+				if (event.getPlayer().getPersistentData().getBoolean('za_ParticipantDanteArena')
 					&& event.getPlayer().isAlive()) {
 					
 					let maxTime = 10;
-					let za_outTimeDanteArena = event.getPlayer().getPersistentData().getInt('za_outTimeDanteArena');
-					za_outTimeDanteArena++;
-					event.getPlayer().getPersistentData().putInt('za_outTimeDanteArena', za_outTimeDanteArena);
-					if (za_outTimeDanteArena <= 4) {
+					let za_TimeOutDanteArena = event.getPlayer().getPersistentData().getInt('za_TimeOutDanteArena');
+					za_TimeOutDanteArena++;
+					event.getPlayer().getPersistentData().putInt('za_TimeOutDanteArena', za_TimeOutDanteArena);
+					if (za_TimeOutDanteArena <= 4) {
 						let playerName = event.getPlayer().toString();
 						let subtitle = '{"text":"Вернись...","color":"red"}';
 						let title = '{"text":""}';
 						event.server.runCommandSilent(`title "${playerName}" times 5 20 15`);
 						event.server.runCommandSilent(`title "${playerName}" subtitle ${subtitle}`);
 						event.server.runCommandSilent(`title "${playerName}" title ${title}`);
-					} else if (za_outTimeDanteArena <= maxTime) {
+					} else if (za_TimeOutDanteArena <= maxTime) {
 						let playerName = event.getPlayer().toString();
-						let subtitle = `{"text":"Станет плохо через ${maxTime - za_outTimeDanteArena}","color":"blue"}`;
+						let subtitle = `{"text":"Станет плохо через ${maxTime - za_TimeOutDanteArena}","color":"blue"}`;
 						let title = '{"text":"Вернись...","color":"red"}';
 						event.server.runCommandSilent(`title "${playerName}" times 5 35 5`);
 						event.server.runCommandSilent(`title "${playerName}" subtitle ${subtitle}`);
 						event.server.runCommandSilent(`title "${playerName}" title ${title}`);
 					} else {
-						//todo = если игрок убежал далеко от ритуала, то предупреждать, а потом прерывать ритуал.
+
+						let playerName = event.getPlayer().toString();
+						let subtitle = `{"text":"Арена выкачивает твою жизнь!!!","color":"red"}`;
+						let title = '{"text":""}';
+						event.server.runCommandSilent(`title "${playerName}" times 5 35 5`);
+						event.server.runCommandSilent(`title "${playerName}" subtitle ${subtitle}`);
+						event.server.runCommandSilent(`title "${playerName}" title ${title}`);
+
+						let currentEffect = event.getPlayer().getPotionEffects().getActive('minecraft:wither');
+						if (currentEffect == null
+							|| currentEffect.getAmplifier() < 2
+							|| (currentEffect.getAmplifier() == 2 && currentEffect.getDuration() < 40)) {
+							event.getPlayer().getPotionEffects().add('minecraft:wither', 50, 2) // 2,5 секунды 3 уровня
+						};
+
+						stageLevel.getEntities().filter(entity => {
+							return (entity.getPersistentData().contains('za_DanteSpawnerPos')
+								|| entity.getPersistentData().contains('za_DanteGuardian'))
+						}).forEach(entity => {
+							entity.heal(4);
+							// Нельзя делать entity.setFullNBT если установлены PersistentData, т.к. слетят все PersistentData
+						})
 					}
 				}
 			}
 
 		} else {
-			event.getPlayer().getPersistentData().putInt('za_outTimeDanteArena', 0)
+			event.getPlayer().getPersistentData().putInt('za_TimeOutDanteArena', 0)
 		}
 
+	}
+
+	////////// Нет арены, можно строить //////////
+	if (event.getPlayer().getTicksExisted() % 40 == 0 // раз в 2 секунды
+		&& !event.server.persistentData.contains('za_DanteArena')
+		&& !event.getPlayer().isCreativeMode()
+		&& !event.getPlayer().isSpectator()
+		&& !event.getPlayer().minecraftPlayer.mayBuild()) {
+		event.getPlayer().setGameMode('survival');
 	}
 
 	////////// Эффекты от проклятия //////////
 	if (event.getPlayer().getTicksExisted() % 1200 == 0 // раз в 60 секунд
 		&& event.getPlayer().isAlive()
-		&& event.getPlayer().getPersistentData().za_DantesCurse == true
+		&& event.getPlayer().getPersistentData().getBoolean('za_DantesCurse')
 		&& !event.getPlayer().isCreativeMode()
 		&& !event.getPlayer().isSpectator()) {
 
@@ -1019,6 +1061,7 @@ onEvent('player.tick', event => {
 			event.getPlayer().getPotionEffects().add('minecraft:nausea', 200)
 		}
 		event.getPlayer().tell("§4§lПроклятье...")
+		event.server.runCommandSilent(`playsound warden_and_sculk:sculk_shrieker_phase_1 player @a ${event.getPlayer().getX()} ${event.getPlayer().getY()} ${event.getPlayer().getZ()}`)
 
 		let randomNumber = Math.floor(Math.random() * 10) + 1 // между 1 и 10
 		
@@ -1089,10 +1132,19 @@ onEvent('player.tick', event => {
 	}
 })
 
+onEvent('player.respawn', event => {
+	if(event.getPlayer().getPersistentData().getBoolean('za_ParticipantDanteArena')) {
+		event.getPlayer().getPersistentData().putBoolean('za_ParticipantDanteArena', false)
+		event.getPlayer().getPersistentData().putInt('za_TimeOutDanteArena', 0)
+	}
+})
+
 onEvent('player.inventory.changed', event => {
 	////////// Получение проклятья Данте //////////
-	if (event.getPlayer().getPersistentData().za_DantesCurse != true
+	if (!event.getPlayer().getPersistentData().getBoolean('za_DantesCurse')
 		&& event.getLevel().getGameRules().getBoolean('disablePortalEnd')
+		&& !event.getPlayer().isCreativeMode()
+		&& !event.getPlayer().isSpectator()
 		&& event.getPlayer().getInventory().find('endrem:cursed_eye') >= 0) {
 
 		event.getPlayer().getPersistentData().putBoolean('za_DantesCurse', true);
@@ -1100,8 +1152,16 @@ onEvent('player.inventory.changed', event => {
 		if (event.getPlayer().getPotionEffects().getDuration('minecraft:blindness') < 200) {
 			event.getPlayer().getPotionEffects().add('minecraft:blindness', 200) // 10 сек
 		}
-		event.getEntity().tell(`§lУ тебя странное чувство... Похоже... §4§lТы проклят...`);
+		let msg = '§lУ тебя странное чувство... Похоже... §4§lТы проклят...';
+		event.getEntity().tell(msg);
+
+		let playerName = event.getPlayer().toString();
+		event.server.runCommandSilent(`title "${playerName}" times 10 120 10`);
+		event.server.runCommandSilent(`title "${playerName}" subtitle "${msg}"`);
+		event.server.runCommandSilent(`title "${playerName}" title {"text":""}`);
 		// console.log(event.getPlayer().getPersistentData())
+
+		event.server.runCommandSilent(`playsound wrd:boss_final_die_1 player @a ${event.getPlayer().getX()} ${event.getPlayer().getY()} ${event.getPlayer().getZ()}`)
 
 	}
 })
@@ -1190,6 +1250,7 @@ onEvent('entity.death', event => {
 				}
 			);
 			event.server.persistentData.za_DanteArena.guardians[index].putUUID("uuid", guardian.getId());
+			event.server.runCommandSilent(`playsound bosses_of_mass_destruction:comet_shoot hostile @a ${guardian.getX()} ${guardian.getY()} ${guardian.getZ()}`)
 			// console.log(event.server.persistentData.za_DanteArena.guardians[index])
 		})
 		// console.log(event.server.persistentData.za_DanteArena.guardians.length)
@@ -1198,6 +1259,7 @@ onEvent('entity.death', event => {
 
 	if (event.getEntity().getPersistentData().za_DanteGuardian == true) {
 		event.server.runCommandSilent(`bossbar remove ${event.getEntity().getPersistentData().za_DanteBossBar}`);
+		event.server.runCommandSilent(`playsound wrd:yeti_death hostile @a ${event.getEntity().getX()} ${event.getEntity().getY()} ${event.getEntity().getZ()}`)
 
 		// console.log(event.server.persistentData.za_DanteArena.guardians);
 		// console.log(event.server.persistentData.za_DanteArena.guardians.length);
@@ -1225,7 +1287,8 @@ onEvent('entity.death', event => {
 
 					event.getLevel().getGameRules().set('disablePortalEnd', false)
 					event.getLevel().getPlayers().forEach( player => {
-						if (player.getPersistentData().za_DantesCurse == true) {
+						if (player.getPersistentData().getBoolean('za_DantesCurse')) {
+							event.server.runCommandSilent(`playsound wrd:boss_death player @a ${player.getX()} ${player.getY()} ${player.getZ()}`)
 							player.tell('Ты чувствуешь облегчение... Проклятье спало...');
 							player.getPersistentData().putBoolean('za_DantesCurse', false)
 						}
@@ -1273,12 +1336,27 @@ onEvent('entity.death', event => {
 onEvent('entity.enter_chunk', event => {
 	// console.log('entity.enter_chunk')
 	if (event.getPrevX() == event.getChunkX() && event.getPrevZ() == event.getChunkZ()) {return};
+	////////// Телепортировать мобов обратно на арену, если они изменили измерение //////////
+	if (event.getEntity().getPersistentData().contains('za_DanteGuardian')
+		|| event.getEntity().getPersistentData().contains('za_DanteSpawnerPos')) {
+
+		let stageLevel = event.server.getLevel(event.server.persistentData.za_DanteArena.dimension);
+		if (event.getEntity().getLevel() != stageLevel) {
+			// console.log('event.getEntity().getLevel() != stageLevel')
+			let firstStagePos = event.server.persistentData.za_DanteArena.firstStagePos;
+			let stageBlock = stageLevel.getBlock(firstStagePos.x, firstStagePos.y, firstStagePos.z);
+			let offset = za_ArenaDante.func_getRandOffsetXZ(2, 6);
+			event.getEntity().setPosition(stageBlock.offset(offset.x, 0, offset.z));
+			return;
+		};
+	};
 
 	if (event.getEntity().getPersistentData().contains('za_DanteGuardian')) {
 		// console.log('entity.enter_chunk')
 		// console.log(event.getPrevX())
 		// console.log(event.getPrevZ())
-		let canUnloadOldChunk = true;
+		///////////// RIP /////////////
+		// let canUnloadOldChunk = true;
 		event.server.persistentData.za_DanteArena.guardians.forEach( guardian => {
 			// console.log(guardian)
 			if (guardian.getUUID('uuid').equals(event.getEntity().getId())) {

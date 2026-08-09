@@ -39,8 +39,8 @@
     Имя файла: appleskin-forge-mc1.18.2-2.5.1.jar
     MD5: AB3E3AE18DAE2302FA4573CDCEBD2CF4
 ---
-    Имя файла: architectury-4.12.94-forge.jar
-    MD5: 2B4CE34FF2C095C723B8521AC7ECFD3E
+    Имя файла: architectury-4.12.9999-ZaryaEdition-forge.jar
+    MD5: 86134F87978B9D5DB2EAB6F41FB82A94
 ---
     Имя файла: armorcurve-3.0.jar
     MD5: BDD68838289D786347454CDE8BE47362

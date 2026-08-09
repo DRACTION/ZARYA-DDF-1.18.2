@@ -3,6 +3,13 @@ onEvent('recipes', e => {
 	
 })
 
+onEvent('entity.spawned', event => {
+	////////// Отключить спавн яйца //////////
+	if (event.getEntity().getType() == 'mutantmonsters:creeper_minion_egg') {
+		event.cancel()
+	}
+})
+
 onEvent('lootjs', event => {
 	event
 		.addLootTypeModifier([LootType.UNKNOWN,
