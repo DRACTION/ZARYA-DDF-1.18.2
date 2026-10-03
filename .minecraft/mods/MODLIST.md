@@ -141,8 +141,8 @@
     Имя файла: Chunky-1.2.164.jar
     MD5: 7B1700ED274546FC7E78FFC9464872D9
 ---
-    Имя файла: clickadv-1.18.2-2.5.jar
-    MD5: C0230F36C45103DB56B9EDCF7D76E82A
+    Имя файла: clickadv-1.18.2-2.5-ZaryaEdition.jar
+    MD5: C4C1FF42E9BC280368FECB03A8A67FCF
 ---
     Имя файла: clienttweaks-forge-1.18.1-7.1.0.jar
     MD5: D1F53D5840F2820E47C416B60E9B5D2E
