@@ -810,8 +810,8 @@
     Имя файла: SoL-Carrot-1.18.1-1.12.0.jar
     MD5: E701E8F88A93F78FF524B484D0624FB1
 ---
-    Имя файла: solapplepie-1.18.2-1.0.4.jar
-    MD5: 6E4B27A1B1DC608FE92F935618D91F69
+    Имя файла: solapplepie-1.18.2-1.0.4-ZaryaEdition.jar
+    MD5: F36BA04B853559AEF5CFB6CAB28FCBB3
 ---
     Имя файла: sophisticatedbackpacks-1.18.2-3.20.3.1063.jar
     MD5: F6F0E9D521533732CE1B6B757A1C9F38
