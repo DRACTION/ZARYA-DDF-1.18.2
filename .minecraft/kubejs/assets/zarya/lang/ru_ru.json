@@ -43,6 +43,9 @@
     "item.kubejs.flint_pickaxe_head": "Кремниевое навершие кирки",
     "item.kubejs.flint_shovel_head": "Кремниевое навершие лопаты",
 
+    "item.kubejs.obsidian_flake": "Обсидиановый отщеп",
+    "item.kubejs.obsidian_arrowhead": "Обсидиановый наконечник",
+
     "item.minecraft.potion.effect.death_pioneer": "Смерть Пионерки",
     "item.minecraft.splash_potion.effect.death_pioneer": "Взрывная Смерть Пионерки",
     "item.minecraft.lingering_potion.effect.death_pioneer": "Туманная Смерть Пионерки",
