@@ -23,7 +23,7 @@ onEvent('recipes', e => {
 		['kubejs:leather_material_upgrade', '#forge:leather', 10, 5],
 		['kubejs:flint_material_upgrade', 'minecraft:flint', 10, 5],
 		['kubejs:copper_material_upgrade', '#forge:ingots/copper', 50, 5],
-		['kubejs:chainmail_material_upgrade', '#supplementaries:chains', 50, 5],
+		['kubejs:chainmail_material_upgrade', 'kubejs:chainmail_fabric', 50, 5],
 		['kubejs:iron_material_upgrade', '#forge:ingots/iron', 100, 5],
 		['kubejs:golden_material_upgrade', '#forge:ingots/gold', 100, 5],
 		['kubejs:diamond_material_upgrade', '#forge:gems/diamond', 150, 5],

@@ -375,6 +375,12 @@ onEvent('item.tags', e => {
     }
   })
   e.add(`zarya:blasting_to_iron_ingot`, `ef_weapon_extended:iron_knuckles`)
+  //////////// Кольчуга в слиток (ботинки дешевле слитка, плавятся в кусочки в Z@RYA/Iron Rings.js) ////////////
+  e.add(`zarya:blasting_to_iron_ingot`, [
+    `minecraft:chainmail_helmet`,
+    `minecraft:chainmail_chestplate`,
+    `minecraft:chainmail_leggings`
+  ])
   e.add(`zarya:blasting_to_golden_ingot`, [
     `wom:golden_monocle`,
     `wom:golden_kit`,

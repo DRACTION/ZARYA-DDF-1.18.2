@@ -8,7 +8,7 @@ onEvent('recipes', event => {
 		],
 		{
 			X: 'minecraft:leather',
-			I: 'minecraft:tripwire_hook',
+			I: 'kubejs:iron_ring',
 			O: '#forge:rope'
 		}
 	)

@@ -13,9 +13,10 @@ onEvent('recipes', e => {
 	e.replaceInput({id: 'minecraft:diamond_leggings'}, 'minecraft:diamond', 'kubejs:sturdy_diamond_sheet')
 	e.replaceInput({id: 'minecraft:diamond_boots'}, 'minecraft:diamond', 'kubejs:sturdy_diamond_sheet')
 
+	//////////////// Кольчужная броня из кольчужного полотна и кожи ////////////////
 	let materials = {
 		L: '#forge:leather',
-		C: '#supplementaries:chains'
+		C: 'kubejs:chainmail_fabric'
 	}
 	e.shaped('minecraft:chainmail_helmet',
 		[
