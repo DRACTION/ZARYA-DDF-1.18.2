@@ -46,6 +46,12 @@
     "item.kubejs.obsidian_flake": "Обсидиановый отщеп",
     "item.kubejs.obsidian_arrowhead": "Обсидиановый наконечник",
 
+    "effect.kubejs.untiring": "Неутомимость",
+    "item.kubejs.untiring_root": "Корень неутомимости",
+    "item.kubejs.untiring_brew": "Настой неутомимости",
+    "item.kubejs.strong_untiring_brew": "Крепкий настой неутомимости",
+    "item.kubejs.long_untiring_brew": "Длительный настой неутомимости",
+
     "item.minecraft.potion.effect.death_pioneer": "Смерть Пионерки",
     "item.minecraft.splash_potion.effect.death_pioneer": "Взрывная Смерть Пионерки",
     "item.minecraft.lingering_potion.effect.death_pioneer": "Туманная Смерть Пионерки",

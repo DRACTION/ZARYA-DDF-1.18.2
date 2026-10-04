@@ -1,4 +1,10 @@
 {
+  "effect.kubejs.untiring": "Untiring",
+  "item.kubejs.untiring_root": "Untiring Root",
+  "item.kubejs.untiring_brew": "Untiring Brew",
+  "item.kubejs.strong_untiring_brew": "Strong Untiring Brew",
+  "item.kubejs.long_untiring_brew": "Long Untiring Brew",
+
   "item.minecraft.potion.effect.death_pioneer": "Death of a Pioneer",
   "item.minecraft.splash_potion.effect.death_pioneer": "Splash Death of a Pioneer",
   "item.minecraft.lingering_potion.effect.death_pioneer": "Lingering Death of a Pioneer",
