@@ -1,4 +1,4 @@
-// todo = особенности у монстров
+// Особенности спавнерных мобов кругов 1-7 — в spawnerEntity (атрибуты + ActiveEffects).
 
 let za_ArenaDante = {
 	dimension: 'minecraft:the_nether',
@@ -180,7 +180,8 @@ let za_ArenaDante = {
 		'bosses_of_mass_destruction:ancient_anima', // Древняя душа
 		'bosses_of_mass_destruction:void_thorn'     // Пустотный шип
 	],
-	spawnerEntity: { //todo особенности у монстров
+	spawnerEntity: {
+		// 1 Лимб — танк: много хп, слабый удар, медленный; Resistance + Absorption
 		1: {
 			ArmorItems: [
 				Item.of('minecraft:netherite_boots'),
@@ -188,26 +189,193 @@ let za_ArenaDante = {
 				Item.of('minecraft:netherite_chestplate'),
 				Item.of('minecraft:netherite_helmet')
 			],
-			id:'minecraft:zombie'
+			id: 'minecraft:zombie',
+			Health: 40.0,
+			Attributes: [
+				{Base: 40.0, Name: 'generic.max_health'},
+				{Base: 2.0, Name: 'generic.attack_damage'},
+				{Base: 0.17, Name: 'generic.movement_speed'}
+			],
+			ActiveEffects: [
+				{
+				Amplifier: 0,
+				Duration: 19999980,
+				Id: 11,
+				ShowParticles: false
+			}, // Resistance I
+				{
+				Amplifier: 1,
+				Duration: 19999980,
+				Id: 22,
+				ShowParticles: false
+			}  // Absorption II
+			]
 		},
+		// 2 Похоть — стекло: мало хп, быстрая, прыгает; Speed + Strength + Jump
 		2: {
-			id:'minecraft:witch'
+			id: 'minecraft:witch',
+			Health: 14.0,
+			Attributes: [
+				{Base: 14.0, Name: 'generic.max_health'},
+				{Base: 0.34, Name: 'generic.movement_speed'}
+			],
+			ActiveEffects: [
+				{
+				Amplifier: 1,
+				Duration: 19999980,
+				Id: 1,
+				ShowParticles: false
+			}, // Speed II
+				{
+				Amplifier: 0,
+				Duration: 19999980,
+				Id: 5,
+				ShowParticles: false
+			}, // Strength I
+				{
+				Amplifier: 1,
+				Duration: 19999980,
+				Id: 8,
+				ShowParticles: false
+			}  // Jump Boost II
+			]
 		},
+		// 3 Чревоугодие — жирный + реген; Regen + Resistance + Saturation
 		3: {
-			id:'minecraft:husk'
+			id: 'minecraft:husk',
+			Health: 48.0,
+			Attributes: [
+				{Base: 48.0, Name: 'generic.max_health'},
+				{Base: 2.0, Name: 'generic.attack_damage'}
+			],
+			ActiveEffects: [
+				{
+				Amplifier: 1,
+				Duration: 19999980,
+				Id: 10,
+				ShowParticles: false
+			}, // Regeneration II
+				{
+				Amplifier: 0,
+				Duration: 19999980,
+				Id: 11,
+				ShowParticles: false
+			}, // Resistance I
+				{
+				Amplifier: 0,
+				Duration: 19999980,
+				Id: 23,
+				ShowParticles: false
+			}  // Saturation
+			]
 		},
+		// 4 Алчность — стеклянная пушка; Strength + Speed + Glowing
 		4: {
-			id:'minecraft:vindicator'
+			id: 'minecraft:vindicator',
+			Health: 12.0,
+			Attributes: [
+				{Base: 12.0, Name: 'generic.max_health'},
+				{Base: 13.0, Name: 'generic.attack_damage'},
+				{Base: 0.38, Name: 'generic.movement_speed'}
+			],
+			ActiveEffects: [
+				{
+				Amplifier: 1,
+				Duration: 19999980,
+				Id: 5,
+				ShowParticles: false
+			}, // Strength II
+				{
+				Amplifier: 0,
+				Duration: 19999980,
+				Id: 1,
+				ShowParticles: false
+			}, // Speed I
+				{
+				Amplifier: 0,
+				Duration: 19999980,
+				Id: 24,
+				ShowParticles: true
+			}  // Glowing
+			]
 		},
+		// 5 Гнев — берсерк: мало брони, сильный удар; Strength + Speed
 		5: {
-			id:'minecraft:piglin_brute',
-			IsImmuneToZombification: true
+			id: 'minecraft:piglin_brute',
+			IsImmuneToZombification: true,
+			Health: 36.0,
+			Attributes: [
+				{Base: 36.0, Name: 'generic.max_health'},
+				{Base: 14.0, Name: 'generic.attack_damage'},
+				{Base: 0.0, Name: 'generic.armor'}
+			],
+			ActiveEffects: [
+				{
+				Amplifier: 1,
+				Duration: 19999980,
+				Id: 5,
+				ShowParticles: false
+			}, // Strength II
+				{
+				Amplifier: 0,
+				Duration: 19999980,
+				Id: 1,
+				ShowParticles: false
+			}  // Speed I
+			]
 		},
+		// 6 Ересь — невидимый; Invisibility + Speed + Resistance, урон ниже
 		6: {
-			id:'irons_spellbooks:necromancer'
+			id: 'irons_spellbooks:necromancer',
+			Health: 28.0,
+			Attributes: [
+				{Base: 28.0, Name: 'generic.max_health'},
+				{Base: 3.0, Name: 'generic.attack_damage'}
+			],
+			ActiveEffects: [
+				{
+				Amplifier: 0,
+				Duration: 19999980,
+				Id: 14,
+				ShowParticles: false
+			}, // Invisibility
+				{
+				Amplifier: 0,
+				Duration: 19999980,
+				Id: 1,
+				ShowParticles: false
+			},  // Speed I
+				{
+				Amplifier: 0,
+				Duration: 19999980,
+				Id: 11,
+				ShowParticles: false
+			}  // Resistance I
+			]
 		},
+		// 7 Насилие — charged creeper; powered + Speed II + Resistance
 		7: {
-			id:'minecraft:creeper'
+			id: 'minecraft:creeper',
+			powered: 1,
+			Health: 28.0,
+			Attributes: [
+				{Base: 28.0, Name: 'generic.max_health'},
+				{Base: 0.3, Name: 'generic.movement_speed'}
+			],
+			ActiveEffects: [
+				{
+				Amplifier: 1,
+				Duration: 19999980,
+				Id: 1,
+				ShowParticles: false
+			}, // Speed II
+				{
+				Amplifier: 0,
+				Duration: 19999980,
+				Id: 11,
+				ShowParticles: false
+			} // Resistance I
+			]
 		}
 	},
 	guardianEntitys: { //todo = особенности каждого стража
@@ -396,10 +564,20 @@ let za_ArenaDante = {
 
 	fireProofEffect: (() => {
 		return {
-			Amplifier: 0,
+				Amplifier: 0,
+				Duration: 19999980,
+				Id: 12,
+				ShowParticles: false
+			};
+	}),
+
+	// id: 1 Speed, 5 Strength, 8 Jump, 10 Regen, 11 Resistance, 14 Invis, 22 Absorption, 23 Saturation, 24 Glowing
+	potionEffect: ((id, amplifier, showParticles) => {
+		return {
+			Amplifier: amplifier,
 			Duration: 19999980,
-			Id: 12,
-			ShowParticles: false
+			Id: id,
+			ShowParticles: showParticles === true
 		};
 	}),
 
@@ -491,7 +669,6 @@ let za_ArenaDante = {
 						za_DanteRemainingKills: 15,
 						CanPickUpLoot: false,
 						PersistenceRequired: true,
-						ActiveEffects: [za_ArenaDante.fireProofEffect()],
 						KubeJSPersistentData: {
 							za_DanteSpawnerPos: {x: 0, y: 0, z: 0}
 						}
@@ -499,6 +676,10 @@ let za_ArenaDante = {
 				}
 			};
 			Object.assign(spawnerNBT.SpawnData.entity, za_ArenaDante.spawnerEntity[stageNumber]);
+			// fireproof after assign so circle ActiveEffects do not wipe it
+			let ent = spawnerNBT.SpawnData.entity;
+			let extraEffects = ent.ActiveEffects || [];
+			ent.ActiveEffects = [za_ArenaDante.fireProofEffect()].concat(extraEffects);
 
 			arena.firstSpawnersPos.forEach(firstSpawnerPos => {
 				let spawnerContainer = stageLevel.getBlock(
