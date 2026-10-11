@@ -978,6 +978,9 @@
     Имя файла: YungsExtras-1.18.2-Forge-2.1.0.jar
     MD5: 7BAC8E9E67F725C867DCCA5AA487AFB2
 ---
+    Имя файла: ZaryaPatches-1.18.2-1.0.1.jar
+    MD5: D428553FD8D2482859B74B6D25F917FA
+---
     Имя файла: zombieawareness-1.18.1-1.12.3.jar
     MD5: BE74F7D2FEEAB85CFDCE33EFB455A480
 ---
