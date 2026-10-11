@@ -32,6 +32,28 @@ onEvent('recipes', e => {
 		R: 'kubejs:iron_ring'
 	}).id('zarya:shaped/chain')
 
+	//////////////// Декоративная цепь ////////////////
+	//6 колец = 2 декоративные цепи (по 3 кольца, как у обычной цепи; было 2 слитка и 4 кусочка за 4 цепи)
+	e.remove({ id: 'decorative_blocks:chain' })
+	e.shaped('2x decorative_blocks:chain', [
+		'RR',
+		'RR',
+		'RR'
+	], {
+		R: 'kubejs:iron_ring'
+	}).id('zarya:shaped/decorative_chain')
+
+	//////////////// Цепь для транспорта ////////////////
+	//3 нитки + 3 кольца = 6 цепей для транспорта (кольца вместо кусочков, количество как в оригинале)
+	e.remove({ id: 'littlelogistics:spring' })
+	e.shaped('6x littlelogistics:spring', [
+		'SRS',
+		'RSR'
+	], {
+		S: '#forge:string',
+		R: 'kubejs:iron_ring'
+	}).id('zarya:shaped/spring')
+
 	//////////////// Переплавка в кусочки ////////////////
 	//1 кольцо = 1 железный кусочек
 	e.blasting('minecraft:iron_nugget', 'kubejs:iron_ring').xp(0.1)
@@ -44,6 +66,12 @@ onEvent('recipes', e => {
 		.id('zarya:blasting/chain')
 	e.recipes.createMixing('3x minecraft:iron_nugget', 'minecraft:chain').heated()
 		.id('zarya:mixing/chain')
+
+	//1 декоративная цепь = 3 железных кусочка (по числу колец)
+	e.blasting('3x minecraft:iron_nugget', 'decorative_blocks:chain').xp(0.1)
+		.id('zarya:blasting/decorative_chain')
+	e.recipes.createMixing('3x minecraft:iron_nugget', 'decorative_blocks:chain').heated()
+		.id('zarya:mixing/decorative_chain')
 
 	//1 кольчужное полотно = 4 железных кусочка (по числу колец)
 	e.blasting('4x minecraft:iron_nugget', 'kubejs:chainmail_fabric').xp(0.1)
