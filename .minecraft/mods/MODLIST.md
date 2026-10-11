@@ -780,8 +780,8 @@
     Имя файла: saturn-mc1.18.2-0.1.5.jar
     MD5: 10BB37FB7FAA9EACE95DC460BC0FC32B
 ---
-    Имя файла: secondchanceforge-1.18.2-1.5.0.jar
-    MD5: 906CA4843003AEECBD01220BCAD93B8F
+    Имя файла: secondchanceforge-1.18.2-1.5.0-ZaryaEdition.jar
+    MD5: C8A74D0AC5F5BD26A83773FC80422D3A
 ---
     Имя файла: selene-1.18.2-1.17.17.jar
     MD5: 16CBA51A1497FD1E7B85A303DF384715
