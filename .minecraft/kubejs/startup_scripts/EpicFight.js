@@ -7,7 +7,6 @@ onEvent('postinit', () => {
 	global.zaryaBackstabbingOnDaggers = true
 
 	let EnchantmentCategory = java('net.minecraft.world.item.enchantment.EnchantmentCategory')
-	let Predicate = java('java.util.function.Predicate')
 	let ItemStack = java('net.minecraft.world.item.ItemStack')
 	let ForgeRegistries = java('net.minecraftforge.registries.ForgeRegistries')
 
@@ -37,12 +36,12 @@ onEvent('postinit', () => {
 		let catFields = catClass.getDeclaredFields()
 		for (let i = 0; i < catFields.length; i++) {
 			let f = catFields[i]
-			if ((f.getModifiers() & 8) != 0) {
+			if ((f.getModifiers() & 8) != 0 || String(f.getType().getName()) != 'java.util.function.Predicate') {
 				continue
 			}
 			f.setAccessible(true)
 			let val = f.get(knifeCat)
-			if (val != null && Predicate.isInstance(val)) {
+			if (val != null) {
 				f.set(knifeCat, val.or(item => isEpicFightDagger(item)))
 				applied = true
 				break
@@ -60,8 +59,11 @@ onEvent('postinit', () => {
 			let eFields = eClass.getDeclaredFields()
 			for (let i = 0; i < eFields.length; i++) {
 				let f = eFields[i]
+				if ((f.getModifiers() & 8) != 0) {
+					continue
+				}
 				f.setAccessible(true)
-				if (f.get(ench) === knifeCat) {
+				if (knifeCat.equals(f.get(ench))) {
 					f.set(ench, newCat)
 					applied = true
 					break
