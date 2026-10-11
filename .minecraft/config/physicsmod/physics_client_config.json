@@ -1,5 +1,5 @@
 {
-  "maxPhysicsObjects": 292,
+  "maxPhysicsObjects": 150,
   "particleLifetimeVines": 4.0,
   "particleLifetimeItems": 3.0,
   "particleLifetimeParticles": 0.1,
@@ -13,7 +13,7 @@
   "particleLifetimeVarianceSmoke": 15.0,
   "particleDespawnTimeVarianceSmoke": 12.0,
   "cpuThreads": 4,
-  "itemPhysics": true,
+  "itemPhysics": false,
   "minecraftBlockBreakParticles": false,
   "vinePhysics": true,
   "capePhysics": true,
