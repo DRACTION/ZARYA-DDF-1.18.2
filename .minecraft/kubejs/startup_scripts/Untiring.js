@@ -1,18 +1,38 @@
+let untiringMovementOf = null
+
 global.zaryaRefillUntiringStamina = (entity) => {
 	if (!entity || !entity.isPlayer()) {
 		return
 	}
-	let PlayerMovement = java('tictim.paraglider.capabilities.PlayerMovement')
-	let m = PlayerMovement.of(entity.minecraftEntity)
-	if (m == null) {
-		return
-	}
-	m.setDepleted(false)
-	m.setStamina(m.getDoubleMaxStamina())
-	m.setRecoveryDelay(0)
 	try {
-		m.movementNeedsSync = true
-	} catch (ignored) { }
+		let player = entity.minecraftEntity
+		if (untiringMovementOf == null) {
+			// Класс-фильтр KubeJS запрещает java('tictim.paraglider...'), поэтому класс берётся через загрузчик классов игры
+			let methods = player.getClass().getClassLoader()
+				.loadClass('tictim.paraglider.capabilities.PlayerMovement').getMethods()
+			for (let i = 0; i < methods.length; i++) {
+				if (methods[i].getName() == 'of') {
+					untiringMovementOf = methods[i]
+					break
+				}
+			}
+		}
+		let m = untiringMovementOf.invoke(null, [player])
+		if (m == null) {
+			return
+		}
+		m.setDepleted(false)
+		m.setStamina(m.getDoubleMaxStamina())
+		m.setRecoveryDelay(0)
+		if (!player.level.isClientSide) {
+			m.movementNeedsSync = true
+		}
+	} catch (err) {
+		if (!global.zaryaUntiringErrorLogged) {
+			global.zaryaUntiringErrorLogged = true
+			console.error(`[Z@RYA] Неутомимость: не удалось заполнить выносливость Paraglider: ${err}`)
+		}
+	}
 }
 
 onEvent('mob_effect.registry', event => {
@@ -39,17 +59,13 @@ let registerUntiringDrink = (event, id, duration) => {
 			food.effect('kubejs:untiring', duration, 0, 1.0)
 		})
 		.finishUsing((itemstack, level, entity) => {
-			if (!entity.minecraftEntity.level.isClientSide) {
-				entity.potionEffects.add('kubejs:untiring', duration, 0, false, true)
-			}
-			if (entity.isPlayer() && entity.isCreativeMode()) {
-				return itemstack
-			}
-			itemstack.count = itemstack.count - 1
-			if (itemstack.count <= 0) {
+			// finishUsing заменяет обычное поедание целиком, поэтому eat() нужен для эффекта из food.effect и траты предмета
+			let stack = itemstack.getItemStack()
+			entity.minecraftLivingEntity.eat(level.minecraftLevel, stack)
+			if (stack.isEmpty()) {
 				return Item.of('minecraft:glass_bottle')
 			}
-			if (entity.isPlayer()) {
+			if (entity.isPlayer() && !entity.isCreativeMode()) {
 				entity.give('minecraft:glass_bottle')
 			}
 			return itemstack
@@ -71,5 +87,5 @@ onEvent('item.registry', event => {
 
 	registerUntiringDrink(event, 'untiring_brew', 160)
 	registerUntiringDrink(event, 'strong_untiring_brew', 400)
-	registerUntiringDrink(event, 'long_untiring_brew', 800)
+	registerUntiringDrink(event, 'long_untiring_brew', 2400)
 })

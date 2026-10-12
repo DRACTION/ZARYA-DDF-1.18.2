@@ -1,5 +1,6 @@
 {
   "effect.kubejs.untiring": "Untiring",
+  "effect.kubejs.untiring.description": "Stamina is not consumed.",
   "item.kubejs.untiring_root": "Untiring Root",
   "item.kubejs.untiring_brew": "Untiring Brew",
   "item.kubejs.strong_untiring_brew": "Strong Untiring Brew",

@@ -50,6 +50,7 @@
     "item.kubejs.chainmail_fabric": "Кольчужное полотно",
 
     "effect.kubejs.untiring": "Неутомимость",
+    "effect.kubejs.untiring.description": "Выносливость не тратится.",
     "item.kubejs.untiring_root": "Корень неутомимости",
     "item.kubejs.untiring_brew": "Настой неутомимости",
     "item.kubejs.strong_untiring_brew": "Крепкий настой неутомимости",
