@@ -26,5 +26,11 @@ onEvent('item.tooltip', e => {
 
   e.add(['railways:remote_lens'], Text.of('Позволяет управлять помощником дистанционно').green())
   e.add(['railways:conductor_whistle'], Text.of('Даёт команду помощнику в поезде приехать на указанные пути').green())
-  
+
+  e.addAdvanced('create:clipboard', (item, advanced, text) => {
+    if (item.nbt && item.nbt.zarya_petition) {
+      text.add(1, Text.of('ПКМ по жителю — записать комфорт').darkGray())
+      text.add(2, Text.of('ПКМ — открыть опрос').darkGray())
+    }
+  })
 })
